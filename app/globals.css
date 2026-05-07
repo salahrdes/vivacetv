@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* ─── ClarioTV Design Tokens ────────────────────────────────────────────── */
+@theme {
+  /* Surfaces */
+  --color-surface:      #F5F5F1;
+  --color-surface-alt:  #FBFBF7;
+  --color-card:         #F8F8F4;
+
+  /* Borders & neutrals */
+  --color-border:       #E2E2DA;
+  --color-gray-200:     #D9D9D3;
+  --color-gray-400:     #A9A9A1;
+  --color-gray-600:     #5E5E53;
+
+  /* Text */
+  --color-ink:          #1E160F;
+  --color-ink-light:    #3D382F;
+
+  /* Dark sections */
+  --color-dark:         #1C1A17;
+
+  /* Lime accent */
+  --color-lime:         #C7E36B;
+  --color-lime-hover:   #B8D85C;
+  --color-lime-soft:    #DCE7B7;
+
+  /* Typography */
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Radius */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-full: 9999px;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+/* ─── Focus ──────────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-lime);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection {
+  background: var(--color-lime);
+  color: var(--color-dark);
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface-alt); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-gray-400); }
+
+/* ─── Utility helpers ────────────────────────────────────────────────────── */
+.font-display { font-family: var(--font-display); }
+.font-body    { font-family: var(--font-body); }
+
+/* Pricing strikethrough */
+.price-original {
+  text-decoration: line-through;
+  text-decoration-color: var(--color-gray-400);
+}
+
+/* Smooth accordion animation */
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
