@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Clock } from 'lucide-react';
 import { blogPreviews } from '@/config/blog-preview';
 import SectionHeader from '@/components/ui/SectionHeader';
@@ -22,11 +23,11 @@ export default function BlogPreviewSection() {
             className="flex-1"
           />
           <Link
-            href="/guide-iptv"
+            href="/blog"
             className="shrink-0 flex items-center gap-2 text-sm font-semibold transition-colors duration-150 hover:opacity-70"
             style={{ color: 'var(--color-ink)' }}
           >
-            Voir le guide IPTV
+            Voir tous les guides
             <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
@@ -41,17 +42,23 @@ export default function BlogPreviewSection() {
                 border: '1px solid var(--color-border)',
               }}
             >
-              {/* Placeholder image area */}
-              <div
-                className="h-36 flex items-center justify-center"
-                style={{ backgroundColor: 'var(--color-lime-soft)' }}
-                aria-hidden="true"
-              >
-                <div
-                  className="w-12 h-12 rounded-xl"
-                  style={{ backgroundColor: 'var(--color-lime)', opacity: 0.7 }}
-                />
-              </div>
+              {/* Cover image */}
+              <Link href={`/blog/${post.slug}`} className="block h-40 relative overflow-hidden" tabIndex={-1} aria-hidden="true">
+                {post.image ? (
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                ) : (
+                  <div
+                    className="w-full h-full"
+                    style={{ background: post.coverGradient }}
+                  />
+                )}
+              </Link>
 
               {/* Content */}
               <div className="flex flex-col gap-3 p-5 flex-1">
