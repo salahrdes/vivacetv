@@ -42,6 +42,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/icon.svg',
+  },
 };
 
 /** Build a Google Fonts CSS2 URL for up to 2 font families, deduped. */
