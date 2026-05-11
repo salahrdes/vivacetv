@@ -9,7 +9,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: "Installation IPTV : Guide Complet Étape par Étape 2025 | ClarioTV",
+  title: "Installation IPTV : Guide Complet Étape par Étape 2026 | ClarioTV",
   description:
     "Comment installer l'IPTV sur Android TV, Firestick, Smart TV Samsung & LG, PC et Mac. Guide d'installation IPTV complet avec TiviMate et IPTV Smarters Pro.",
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/guide-iptv/installation-iptv` },
   openGraph: {
-    title: "Installation IPTV : Guide Complet Étape par Étape 2025 | ClarioTV",
+    title: "Installation IPTV : Guide Complet Étape par Étape 2026 | ClarioTV",
     description:
       "Guide d'installation IPTV complet pour tous les appareils : Android TV, Firestick, Smart TV, PC et Mac. Configuration en moins de 5 minutes.",
     url: `${siteConfig.url}/guide-iptv/installation-iptv`,

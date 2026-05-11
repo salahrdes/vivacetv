@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Avis ClarioTV 2025 — Témoignages Clients & Notes Vérifiées | IPTV France',
+  title: 'Avis ClarioTV 2026 — Témoignages Clients & Notes Vérifiées | IPTV France',
   description:
     "Lisez les vrais avis ClarioTV de nos clients satisfaits. Notes vérifiées, témoignages WhatsApp, retours d'expérience sur la qualité IPTV France. 4,8/5 en moyenne.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/avis-iptv` },
   openGraph: {
-    title: 'Avis ClarioTV 2025 — Témoignages Clients & Notes Vérifiées | IPTV France',
+    title: 'Avis ClarioTV 2026 — Témoignages Clients & Notes Vérifiées | IPTV France',
     description:
       'Avis clients vérifiés ClarioTV : 4,8/5 sur plus de 500 avis. Témoignages réels sur la qualité IPTV France, stabilité, support et rapport qualité/prix.',
     url: `${siteConfig.url}/avis-iptv`,

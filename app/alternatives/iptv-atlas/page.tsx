@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV Atlas Avis 2025 — Meilleure Alternative en France | ClarioTV',
+  title: 'IPTV Atlas Avis 2026 — Meilleure Alternative en France | ClarioTV',
   description:
     'IPTV Atlas avis 2025 : comparatif complet avec ClarioTV. Prix, chaînes, stabilité, support — qui offre le meilleur abonnement IPTV France ? Notre verdict.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/iptv-atlas` },
   openGraph: {
-    title: 'IPTV Atlas Avis 2025 — Meilleure Alternative en France | ClarioTV',
+    title: 'IPTV Atlas Avis 2026 — Meilleure Alternative en France | ClarioTV',
     description:
       'Comparatif IPTV Atlas vs ClarioTV : prix, chaînes, qualité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
     url: `${siteConfig.url}/alternatives/iptv-atlas`,

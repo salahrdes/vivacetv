@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'King IPTV Avis 2025 — Meilleure Alternative en France | ClarioTV',
+  title: 'King IPTV Avis 2026 — Meilleure Alternative en France | ClarioTV',
   description:
     'King IPTV avis 2025 : est-il le meilleur choix IPTV France ? Comparatif King IPTV vs ClarioTV : prix, qualité, support. Trouvez la meilleure offre.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/king-iptv` },
   openGraph: {
-    title: 'King IPTV Avis 2025 — Meilleure Alternative en France | ClarioTV',
+    title: 'King IPTV Avis 2026 — Meilleure Alternative en France | ClarioTV',
     description:
       'Comparatif King IPTV vs ClarioTV : stabilité, prix, qualité, support. Découvrez pourquoi ClarioTV est la meilleure alternative à King IPTV en France.',
     url: `${siteConfig.url}/alternatives/king-iptv`,

@@ -37,6 +37,13 @@ export async function generateMetadata({
       type: 'article',
       publishedTime: post.publishedAt,
       ...(post.updatedAt ? { modifiedTime: post.updatedAt } : {}),
+      ...(post.image ? { images: [{ url: `${siteConfig.url}${post.image}`, width: 1376, height: 768, alt: post.coverAlt }] } : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      ...(post.image ? { images: [`${siteConfig.url}${post.image}`] } : {}),
     },
   };
 }
@@ -265,6 +272,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
         publishedAt={post.publishedAt}
         updatedAt={post.updatedAt}
         slug={post.slug}
+        image={post.image}
       />
       <BreadcrumbSchema
         items={[

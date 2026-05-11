@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2025 | ClarioTV",
+  title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2026 | ClarioTV",
   description:
     "Guide complet sur l'IPTV en France : comment ça marche, installation étape par étape, chaînes disponibles, meilleures applications et légalité. Tout ce qu'il faut savoir avant de s'abonner.",
   keywords: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/guide-iptv` },
   openGraph: {
-    title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2025 | ClarioTV",
+    title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2026 | ClarioTV",
     description:
       "Guide complet sur l'IPTV : fonctionnement, installation, applications, chaînes et légalité en France.",
     url: `${siteConfig.url}/guide-iptv`,

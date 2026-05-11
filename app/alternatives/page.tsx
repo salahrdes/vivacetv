@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Alternatives IPTV France 2025 — Comparatif des Meilleurs Services | ClarioTV',
+  title: 'Alternatives IPTV France 2026 — Comparatif des Meilleurs Services | ClarioTV',
   description:
     'Comparez ClarioTV aux principales alternatives IPTV : Xenon, King, Atlas, Smarter One, IPTV AZ, AtlasPro, IPTV Hottest, Televizo. Trouvez le meilleur service.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives` },
   openGraph: {
-    title: 'Alternatives IPTV France 2025 — Comparatif des Meilleurs Services | ClarioTV',
+    title: 'Alternatives IPTV France 2026 — Comparatif des Meilleurs Services | ClarioTV',
     description:
       'Comparez ClarioTV aux principales alternatives IPTV disponibles en France. Trouvez le service le mieux adapté à vos besoins.',
     url: `${siteConfig.url}/alternatives`,

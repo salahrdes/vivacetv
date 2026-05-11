@@ -52,12 +52,13 @@ type ArticleSchemaProps = {
   publishedAt: string;
   updatedAt?: string;
   slug: string;
+  image?: string;
 };
 
-export function ArticleSchema({ title, excerpt, publishedAt, updatedAt, slug }: ArticleSchemaProps) {
+export function ArticleSchema({ title, excerpt, publishedAt, updatedAt, slug, image }: ArticleSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: title,
     description: excerpt,
     author: { '@type': 'Organization', name: siteConfig.name },
@@ -66,6 +67,7 @@ export function ArticleSchema({ title, excerpt, publishedAt, updatedAt, slug }: 
     ...(updatedAt ? { dateModified: updatedAt } : {}),
     url: `${siteConfig.url}/blog/${slug}`,
     inLanguage: 'fr-FR',
+    ...(image ? { image: { '@type': 'ImageObject', url: `${siteConfig.url}${image}`, width: 1376, height: 768 } } : {}),
   };
   return (
     <script

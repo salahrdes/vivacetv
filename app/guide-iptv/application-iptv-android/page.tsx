@@ -9,7 +9,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Application IPTV Android : Les 5 Meilleures Apps en 2025 | ClarioTV',
+  title: 'Application IPTV Android : Les 5 Meilleures Apps en 2026 | ClarioTV',
   description:
     "Quelle est la meilleure application IPTV Android en 2025 ? Comparatif complet : TiviMate, IPTV Smarters Pro, Perfect Player, GSE Smart IPTV, Kodi. Guide et installation.",
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/guide-iptv/application-iptv-android` },
   openGraph: {
-    title: 'Application IPTV Android : Les 5 Meilleures Apps en 2025 | ClarioTV',
+    title: 'Application IPTV Android : Les 5 Meilleures Apps en 2026 | ClarioTV',
     description:
       "Comparatif complet des meilleures applications IPTV pour Android et Firestick en 2025 : TiviMate, IPTV Smarters, Perfect Player, GSE Smart IPTV et Kodi.",
     url: `${siteConfig.url}/guide-iptv/application-iptv-android`,

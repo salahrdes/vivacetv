@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV 4K France 2025 — Chaînes Ultra HD Sans Coupure | ClarioTV',
+  title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | ClarioTV',
   description:
     'Regardez la TV en 4K avec ClarioTV IPTV : +22 000 chaînes en HD, 4K et 8K, technologie anti-freeze, compatible Smart TV, Firestick, Android. Dès 22,99€.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/iptv-4k` },
   openGraph: {
-    title: 'IPTV 4K France 2025 — Chaînes Ultra HD Sans Coupure | ClarioTV',
+    title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | ClarioTV',
     description:
       'IPTV 4K et 8K avec ClarioTV : +22 000 chaînes Ultra HD, anti-freeze, compatible Smart TV 4K, Fire Stick 4K, Android TV. Dès 22,99€.',
     url: `${siteConfig.url}/iptv-4k`,

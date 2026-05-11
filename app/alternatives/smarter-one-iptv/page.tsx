@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Smarter One IPTV Avis 2025 — Meilleure Alternative | ClarioTV',
+  title: 'Smarter One IPTV Avis 2026 — Meilleure Alternative | ClarioTV',
   description:
     'Smarter One IPTV avis 2025 : comparatif avec ClarioTV. Prix, catalogue, stabilité, support — faites le bon choix pour votre abonnement IPTV France.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/smarter-one-iptv` },
   openGraph: {
-    title: 'Smarter One IPTV Avis 2025 — Meilleure Alternative | ClarioTV',
+    title: 'Smarter One IPTV Avis 2026 — Meilleure Alternative | ClarioTV',
     description:
       'Comparatif Smarter One IPTV vs ClarioTV : catalogue, prix, contenu français, support. Trouvez le meilleur abonnement IPTV France en 2025.',
     url: `${siteConfig.url}/alternatives/smarter-one-iptv`,

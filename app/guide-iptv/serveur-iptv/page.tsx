@@ -9,7 +9,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2025 | ClarioTV',
+  title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2026 | ClarioTV',
   description:
     "Qu'est-ce qu'un serveur IPTV ? Comment évaluer la qualité d'un serveur IPTV : uptime, anti-freeze, CDN, temps de réponse. Guide complet pour choisir le meilleur fournisseur.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/guide-iptv/serveur-iptv` },
   openGraph: {
-    title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2025 | ClarioTV',
+    title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2026 | ClarioTV',
     description:
       "Guide complet sur les serveurs IPTV : fonctionnement, indicateurs de qualité, signaux d'alarme et infrastructure ClarioTV.",
     url: `${siteConfig.url}/guide-iptv/serveur-iptv`,

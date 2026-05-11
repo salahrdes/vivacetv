@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV AZ Avis 2025 — Meilleure Alternative IPTV France | ClarioTV',
+  title: 'IPTV AZ Avis 2026 — Meilleure Alternative IPTV France | ClarioTV',
   description:
     'IPTV AZ avis 2025 : notre comparatif complet avec ClarioTV. Stabilité, prix, catalogue, support — qui choisir pour votre abonnement IPTV France ?',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/iptv-az` },
   openGraph: {
-    title: 'IPTV AZ Avis 2025 — Meilleure Alternative IPTV France | ClarioTV',
+    title: 'IPTV AZ Avis 2026 — Meilleure Alternative IPTV France | ClarioTV',
     description:
       'Comparatif IPTV AZ vs ClarioTV : stabilité, prix, catalogue, support. Trouvez le meilleur abonnement IPTV France en 2025.',
     url: `${siteConfig.url}/alternatives/iptv-az`,

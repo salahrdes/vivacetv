@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Televizo IPTV Avis 2025 — App ou Abonnement ? | ClarioTV',
+  title: 'Televizo IPTV Avis 2026 — App ou Abonnement ? | ClarioTV',
   description:
     "Televizo est une application IPTV, pas un fournisseur d'abonnement. Découvrez comment l'utiliser avec ClarioTV pour la meilleure expérience IPTV France.",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/televizo` },
   openGraph: {
-    title: 'Televizo IPTV Avis 2025 — App ou Abonnement ? | ClarioTV',
+    title: 'Televizo IPTV Avis 2026 — App ou Abonnement ? | ClarioTV',
     description:
       "Televizo est un lecteur IPTV Android gratuit. Découvrez comment le configurer avec ClarioTV pour une expérience IPTV France optimale.",
     url: `${siteConfig.url}/alternatives/televizo`,

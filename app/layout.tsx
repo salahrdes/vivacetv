@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
-    template: '%s | ClarioTV',
+    template: '%s',
   },
   description: siteConfig.description,
   keywords: [

@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Meilleur Abonnement IPTV France 2025 — Comparatif & Avis | ClarioTV',
+  title: 'Meilleur Abonnement IPTV France 2026 — Comparatif & Avis | ClarioTV',
   description:
     'Quel est le meilleur abonnement IPTV en France en 2025 ? Comparatif complet : ClarioTV, Xenon IPTV, King IPTV, Atlas IPTV. Avis, prix, qualité. Notre verdict.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/meilleur-iptv` },
   openGraph: {
-    title: 'Meilleur Abonnement IPTV France 2025 — Comparatif & Avis | ClarioTV',
+    title: 'Meilleur Abonnement IPTV France 2026 — Comparatif & Avis | ClarioTV',
     description:
       'Comparatif complet des meilleurs abonnements IPTV en France 2025. ClarioTV, Xenon, King, Atlas — notre classement objectif.',
     url: `${siteConfig.url}/meilleur-iptv`,

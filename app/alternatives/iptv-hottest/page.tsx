@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV Hottest Avis 2025 — Meilleure Alternative France | ClarioTV',
+  title: 'IPTV Hottest Avis 2026 — Meilleure Alternative France | ClarioTV',
   description:
     'IPTV Hottest avis 2025 : comparatif avec ClarioTV pour votre abonnement IPTV France. Qualité, prix, stabilité — notre analyse complète.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/iptv-hottest` },
   openGraph: {
-    title: 'IPTV Hottest Avis 2025 — Meilleure Alternative France | ClarioTV',
+    title: 'IPTV Hottest Avis 2026 — Meilleure Alternative France | ClarioTV',
     description:
       'Comparatif IPTV Hottest vs ClarioTV : qualité, prix, stabilité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
     url: `${siteConfig.url}/alternatives/iptv-hottest`,

@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Xenon IPTV Avis 2025 — Meilleure Alternative en France | ClarioTV',
+  title: 'Xenon IPTV Avis 2026 — Meilleure Alternative en France | ClarioTV',
   description:
     'Xenon IPTV avis 2025 : est-ce le bon choix pour votre IPTV France ? Comparatif Xenon vs ClarioTV : prix, qualité, stabilité, support. Notre verdict.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/xenon-iptv` },
   openGraph: {
-    title: 'Xenon IPTV Avis 2025 — Meilleure Alternative en France | ClarioTV',
+    title: 'Xenon IPTV Avis 2026 — Meilleure Alternative en France | ClarioTV',
     description:
       'Comparatif Xenon IPTV vs ClarioTV : prix, qualité, stabilité, support. Découvrez pourquoi ClarioTV est la meilleure alternative à Xenon IPTV en France.',
     url: `${siteConfig.url}/alternatives/xenon-iptv`,

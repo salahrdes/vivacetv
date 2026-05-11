@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'AtlasPro IPTV Avis 2025 — Meilleure Alternative | ClarioTV',
+  title: 'AtlasPro IPTV Avis 2026 — Meilleure Alternative | ClarioTV',
   description:
     'AtlasPro IPTV avis 2025 : est-ce le bon fournisseur IPTV France ? Comparatif AtlasPro vs ClarioTV — prix, chaînes, qualité et support.',
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/alternatives/atlaspro-iptv` },
   openGraph: {
-    title: 'AtlasPro IPTV Avis 2025 — Meilleure Alternative | ClarioTV',
+    title: 'AtlasPro IPTV Avis 2026 — Meilleure Alternative | ClarioTV',
     description:
       'Comparatif AtlasPro IPTV vs ClarioTV : prix, chaînes, qualité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
     url: `${siteConfig.url}/alternatives/atlaspro-iptv`,
