@@ -1121,6 +1121,823 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  /* ── POST 9 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'installer-iptv-firestick-guide-complet',
+    title: 'Installer IPTV sur Firestick en 5 minutes — guide complet 2026',
+    excerpt:
+      'Configurez votre abonnement IPTV sur Amazon Fire TV Stick étape par étape : téléchargement de l\'application, connexion Xtream Codes, optimisation de l\'image.',
+    category: 'Installation',
+    coverGradient: gradients['Installation'],
+    coverAlt: 'Guide installation IPTV sur Amazon Firestick Fire TV',
+    readTime: '6 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Le Amazon Fire TV Stick est l'un des appareils les plus utilisés pour regarder l'IPTV en France. Compact, abordable et puissant, il transforme n'importe quelle télévision en Smart TV en quelques secondes. Dans ce guide complet, nous vous expliquons comment installer IPTV sur Firestick étape par étape, de A à Z, en moins de 5 minutes.",
+      },
+      { type: 'h2', text: 'Matériel nécessaire avant de commencer' },
+      {
+        type: 'checklist',
+        items: [
+          'Un Amazon Fire TV Stick (Lite, 4K, 4K Max ou Fire TV Cube)',
+          'Une connexion Wi-Fi ou un câble Ethernet (avec adaptateur Ethernet Firestick)',
+          'Vos identifiants ClarioTV reçus par WhatsApp (URL serveur, identifiant, mot de passe)',
+          'Un compte Amazon pour accéder à l\'App Store (gratuit)',
+        ],
+      },
+      {
+        type: 'info',
+        text: "💡 Conseil : Le Fire TV Stick 4K Max est recommandé pour la lecture IPTV en 4K grâce à son processeur plus puissant et sa compatibilité Wi-Fi 6. Mais le modèle Lite suffit largement pour le HD et Full HD.",
+      },
+      { type: 'h2', text: 'Étape 1 — Autoriser les applications tierces sur Firestick' },
+      {
+        type: 'p',
+        text: "Par défaut, le Firestick n'autorise que les applications du Amazon App Store. La première étape consiste à activer les sources inconnues pour pouvoir installer des applications IPTV tierces comme IPTV Smarters Pro.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Sur l\'écran d\'accueil du Firestick, allez dans Paramètres (icône engrenage en haut à droite)',
+          'Sélectionnez Mon Fire TV (ou Options de l\'appareil sur certains modèles)',
+          'Cliquez sur Options pour les développeurs',
+          'Activez Applications issues de sources inconnues en le passant sur ON',
+          'Confirmez en cliquant sur Activer dans la fenêtre d\'avertissement',
+        ],
+      },
+      { type: 'h2', text: 'Étape 2 — Installer Downloader (téléchargeur APK)' },
+      {
+        type: 'p',
+        text: "Downloader est une application gratuite disponible sur le Amazon App Store qui permet de télécharger et installer des fichiers APK directement sur votre Firestick. C'est l'outil indispensable pour installer IPTV Smarters Pro.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Depuis l\'écran d\'accueil, allez dans la barre de recherche (icône loupe)',
+          'Tapez « Downloader » et sélectionnez l\'application dans les résultats',
+          'Cliquez sur Télécharger puis Ouvrir une fois l\'installation terminée',
+          'Acceptez les permissions demandées par l\'application',
+        ],
+      },
+      { type: 'h2', text: 'Étape 3 — Télécharger et installer IPTV Smarters Pro' },
+      {
+        type: 'p',
+        text: "IPTV Smarters Pro est l'application IPTV recommandée pour Firestick. Elle est gratuite, compatible Xtream Codes et M3U, et fonctionne parfaitement avec ClarioTV. Vous pouvez aussi utiliser TiviMate si vous préférez une interface EPG plus avancée.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Ouvrez Downloader sur votre Firestick',
+          'Dans le champ URL, entrez : https://apk.smarters.co et appuyez sur Go',
+          'Attendez le téléchargement (quelques secondes selon votre connexion)',
+          'Cliquez sur Installer quand la fenêtre d\'installation apparaît',
+          'Une fois installé, cliquez sur Ouvrir pour lancer IPTV Smarters Pro',
+        ],
+      },
+      {
+        type: 'info',
+        text: "Alternative : TiviMate est également disponible via le Amazon App Store directement. Recherchez « TiviMate » dans la barre de recherche de votre Firestick et installez-le sans passer par Downloader.",
+      },
+      { type: 'h2', text: 'Étape 4 — Configurer ClarioTV dans IPTV Smarters Pro' },
+      {
+        type: 'p',
+        text: "Une fois IPTV Smarters Pro ouvert sur votre Firestick, la configuration de ClarioTV prend moins de 2 minutes. Ayez vos identifiants à portée (reçus par WhatsApp après votre commande).",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Sur l\'écran d\'accueil de Smarters Pro, cliquez sur Ajouter un utilisateur',
+          'Sélectionnez Connexion via Xtream Codes API',
+          'Remplissez les champs : Nom (ex. ClarioTV), URL du serveur, Identifiant, Mot de passe',
+          'Cliquez sur Ajouter un utilisateur pour valider',
+          'Smarters Pro charge les chaînes, la VOD et le guide EPG automatiquement (30 secondes environ)',
+        ],
+      },
+      {
+        type: 'quote',
+        text: "Installation en 4 minutes chrono depuis le déballage du Firestick. Le guide étape par étape de ClarioTV est parfait, même sans être technique.",
+        author: 'Sophie M. — Cliente ClarioTV Silver 6 mois',
+      },
+      { type: 'h2', text: 'Étape 5 — Optimiser la qualité d\'image sur Firestick' },
+      {
+        type: 'p',
+        text: "Pour profiter de l'image en 4K sur votre Firestick 4K, configurez la résolution d'affichage dans les paramètres de l'appareil.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Paramètres → Écran et sons → Résolution d\'affichage → sélectionnez 4K Ultra HD à 60 Hz',
+          'Activez HDR si votre télévision est compatible',
+          'Dans Smarters Pro, sélectionnez le lecteur ExoPlayer pour la meilleure stabilité',
+          'Connectez le Firestick en Ethernet via l\'adaptateur pour éliminer les coupures Wi-Fi',
+        ],
+      },
+      {
+        type: 'cta',
+        heading: 'Prêt à regarder l\'IPTV sur votre Firestick ?',
+        body: 'Commandez votre abonnement ClarioTV et recevez vos identifiants en quelques minutes via WhatsApp.',
+        href: '/abonnements',
+        label: 'Voir les abonnements ClarioTV',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'Quelle application IPTV utiliser sur Firestick ?',
+            a: 'IPTV Smarters Pro et TiviMate sont les deux meilleures applications IPTV pour Firestick. TiviMate offre un guide EPG plus élaboré, tandis que Smarters Pro est plus simple à configurer pour les débutants. Les deux sont compatibles avec ClarioTV.',
+          },
+          {
+            q: 'Peut-on installer IPTV sur Firestick sans Downloader ?',
+            a: 'Oui, TiviMate est directement disponible sur le Amazon App Store sans passer par Downloader. Pour IPTV Smarters Pro, Downloader facilite l\'installation de l\'APK mais n\'est pas obligatoire si vous passez par le Amazon App Store US.',
+          },
+          {
+            q: 'Le Firestick Lite supporte-t-il la 4K ?',
+            a: 'Non, le Fire TV Stick Lite est limité au Full HD (1080p). Pour la 4K, vous avez besoin du Fire TV Stick 4K, du 4K Max ou du Fire TV Cube.',
+          },
+          {
+            q: 'Comment améliorer la stabilité de l\'IPTV sur Firestick ?',
+            a: 'Utilisez un adaptateur Ethernet Firestick (câble plutôt que Wi-Fi), sélectionnez le lecteur ExoPlayer dans Smarters Pro, et optez pour un fournisseur IPTV avec technologie anti-coupure comme ClarioTV.',
+          },
+          {
+            q: 'Mon Firestick est trop lent pour l\'IPTV, que faire ?',
+            a: 'Libérez la mémoire en fermant les autres applications ouvertes. Allez dans Paramètres → Applications → Gérer les applications installées et désinstallez les applications inutilisées. Si le problème persiste, envisagez de passer au Fire TV Stick 4K Max qui est nettement plus puissant.',
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── POST 10 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'meilleur-abonnement-iptv-france-2026',
+    title: 'Meilleur abonnement IPTV France 2026 : comparatif complet',
+    excerpt:
+      'Comparatif des meilleurs abonnements IPTV France en 2026 : critères de sélection, qualité d\'image, stabilité, prix et notre recommandation finale.',
+    category: 'Abonnement',
+    coverGradient: gradients['Abonnement'],
+    coverAlt: 'Comparatif meilleurs abonnements IPTV France 2026',
+    readTime: '9 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "En 2026, le marché de l'IPTV en France explose. Des dizaines de fournisseurs proposent des abonnements à des prix très variables, avec des qualités de service tout aussi différentes. Comment identifier le meilleur abonnement IPTV France parmi toutes ces offres ? Ce comparatif vous donne les critères objectifs pour choisir, et notre recommandation basée sur des tests réels.",
+      },
+      { type: 'h2', text: 'Les 5 critères pour choisir le meilleur IPTV France' },
+      {
+        type: 'p',
+        text: "Avant de comparer les prix, identifiez les critères qui comptent vraiment pour une utilisation quotidienne. Un abonnement IPTV pas cher mais instable vous coûtera plus en temps perdu qu'un forfait premium.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'La stabilité du serveur : absence de coupures, buffering minimal — le critère n°1',
+          'La qualité d\'image : HD, 4K et 8K disponibles selon votre télévision',
+          'Le nombre de chaînes françaises et internationales incluses',
+          'La compatibilité multi-appareils : Smart TV, Firestick, iPhone, Android, PC',
+          'La qualité du support : disponibilité 24h/24, réactivité, aide à l\'installation',
+        ],
+      },
+      { type: 'h2', text: 'Stabilité du serveur : le critère le plus sous-estimé' },
+      {
+        type: 'p',
+        text: "La plupart des utilisateurs se concentrent sur le prix. C'est une erreur. Un fournisseur IPTV avec des serveurs surchargés rendra votre expérience frustrante — surtout pendant les matchs en direct ou les films en soirée, précisément quand vous voulez regarder la télévision.",
+      },
+      {
+        type: 'info',
+        text: "Comment tester la stabilité ? Regardez les avis clients pendant des événements à forte audience (Champions League, finales de Roland-Garros, soirées du Nouvel An). Un fournisseur qui coupe pendant ces moments n'est pas fiable. ClarioTV utilise la technologie AntiFreeze 10.0 pour maintenir la continuité du flux en toutes circonstances.",
+      },
+      { type: 'h2', text: 'Qualité d\'image : HD, 4K et 8K en France' },
+      {
+        type: 'p',
+        text: "En 2026, un bon abonnement IPTV France doit proposer la 4K sur les chaînes qui la supportent (TF1 4K, certains packages sportifs, films en 4K HDR). La 8K reste anecdotique sur le contenu disponible mais certains fournisseurs comme ClarioTV l'intègrent déjà pour les early adopters.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          'HD 720p/1080p : disponible chez tous les fournisseurs sérieux',
+          '4K Ultra HD : disponible chez les fournisseurs premium — exige 25 Mbps minimum',
+          '8K : disponible chez les fournisseurs les plus avancés — exige 50 Mbps minimum',
+          'HDR (High Dynamic Range) : couleurs et contraste améliorés sur téléviseurs compatibles',
+          'Dolby Audio : son surround disponible sur les meilleures offres',
+        ],
+      },
+      { type: 'h2', text: 'Chaînes françaises incluses : ce qu\'il faut vérifier' },
+      {
+        type: 'p',
+        text: "Le critère chaînes est souvent survalorisé dans les publicités (« Plus de 20 000 chaînes ! »). Ce qui compte vraiment, c'est la disponibilité des chaînes que vous regardez réellement : TF1, France 2, France 3, M6, Canal+, beIN Sports, RMC Sport, Arte, TMC, et les chaînes en VOD/replay.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Chaînes gratuites françaises (TNT) : TF1, France 2, 3, 4, 5, M6, Arte, C8, CNews, BFM...',
+          'Chaînes payantes : Canal+, beIN Sports 1-3, RMC Sport 1-4, Eurosport',
+          'Chaînes internationales : RAI, Al Jazeera, Sky UK, ARD, Rai 1-3...',
+          'VOD et replay : films et séries disponibles à la demande',
+          'Chaînes sportives premium : matchs en direct de Ligue 1, Champions League, NBA...',
+        ],
+      },
+      { type: 'h2', text: 'Compatibilité appareils : une priorité en 2026' },
+      {
+        type: 'p',
+        text: "Un foyer français type en 2026 possède en moyenne 3 à 4 écrans. Le meilleur abonnement IPTV France est celui qui fonctionne sur tous vos appareils sans configuration complexe. Vérifiez la compatibilité avant de commander.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          'Smart TV Samsung, LG, Philips, Sony — via IPTV Smarters Pro ou Tizen App',
+          'Amazon Fire TV Stick (Lite, 4K, 4K Max) — via Smarters Pro ou TiviMate',
+          'Android TV et Android Box — via Smarters Pro, TiviMate ou Perfect Player',
+          'iPhone et iPad — via GSE Smart IPTV ou IPTV Smarters Pro iOS',
+          'PC Windows et Mac — via IPTV Smarters Pro PC ou VLC Media Player',
+          'Apple TV — via GSE Smart IPTV ou Infuse',
+          'Roku — via lecteur web intégré',
+        ],
+      },
+      { type: 'h2', text: 'Comparatif prix des abonnements IPTV France 2026' },
+      {
+        type: 'p',
+        text: "Les prix des abonnements IPTV en France varient de 5 € à 20 €/mois selon la durée et la qualité. Voici les fourchettes observées sur le marché en 2026 :",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Abonnement 1 mois : entre 8 € et 20 €/mois — à éviter sauf pour tester',
+          'Abonnement 3 mois : entre 5 € et 10 €/mois — bon pour les utilisateurs occasionnels',
+          'Abonnement 6 mois : entre 4 € et 7 €/mois — bon compromis',
+          'Abonnement 12 mois : entre 3 € et 5 €/mois — le meilleur rapport qualité/prix',
+          'Abonnement 24 mois : entre 2 € et 4 €/mois — engagement maximum, prix optimal',
+        ],
+      },
+      {
+        type: 'info',
+        text: "Attention aux prix trop bas (moins de 2 €/mois) : ils cachent souvent des serveurs de mauvaise qualité, un support inexistant et des coupures fréquentes. Un IPTV stable et légal coûte entre 3 € et 5 €/mois sur 12 mois.",
+      },
+      { type: 'h2', text: 'Notre recommandation : ClarioTV' },
+      {
+        type: 'p',
+        text: "Après avoir testé de nombreux fournisseurs, ClarioTV se distingue par sa technologie AntiFreeze 10.0 qui garantit un flux sans coupure même en période de forte audience, sa qualité d'image jusqu'en 8K, et son support WhatsApp disponible 24h/24. L'activation est immédiate après commande, la configuration est guidée étape par étape.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Forfait Bronze 3 mois : 22,99 € (7,66 €/mois) — idéal pour débuter',
+          'Forfait Silver 6 mois : 34,99 € (5,83 €/mois) — bon compromis',
+          'Forfait Gold 12 mois : 44,99 € (3,75 €/mois) — le plus populaire ✓',
+          'Forfait Diamond 24 mois : 74,99 € (3,12 €/mois) — engagement maximum',
+        ],
+      },
+      {
+        type: 'quote',
+        text: "J'ai essayé 3 fournisseurs IPTV différents avant ClarioTV. C'est le seul qui n'a pas coupé pendant la finale de la Champions League. Je ne change plus.",
+        author: 'Karim B. — Client ClarioTV Gold 12 mois',
+      },
+      {
+        type: 'cta',
+        heading: 'Tester ClarioTV gratuitement pendant 24h',
+        body: 'Validez la qualité et la compatibilité sur tous vos appareils avant de choisir votre forfait.',
+        href: '/test-gratuit',
+        label: 'Demander un test gratuit',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'Quel est le meilleur abonnement IPTV France en 2026 ?',
+            a: 'ClarioTV est notre recommandation grâce à sa technologie AntiFreeze 10.0, sa qualité 4K/8K et son support WhatsApp 24h/24. Le forfait Gold 12 mois à 44,99 € offre le meilleur rapport qualité/prix à 3,75 €/mois.',
+          },
+          {
+            q: 'L\'IPTV est-il légal en France ?',
+            a: 'L\'utilisation d\'un service IPTV légal et autorisé est tout à fait légale en France. ClarioTV est un service IPTV légal proposant des contenus autorisés dans le respect de la réglementation.',
+          },
+          {
+            q: 'Combien coûte un bon abonnement IPTV en France ?',
+            a: 'Un abonnement IPTV de qualité coûte entre 3 € et 5 €/mois sur 12 mois. Les offres à moins de 2 €/mois sont généralement associées à des serveurs instables et un support inexistant.',
+          },
+          {
+            q: 'Peut-on essayer un abonnement IPTV avant de payer ?',
+            a: 'Oui, ClarioTV propose un test gratuit de 24 heures sur tous les appareils compatibles, sans carte bancaire ni engagement. Un moyen simple de valider la qualité avant de s\'abonner.',
+          },
+          {
+            q: 'Quelle connexion Internet faut-il pour l\'IPTV en France ?',
+            a: 'Pour regarder en HD : 10 Mbps minimum. Pour la 4K : 25 Mbps. Pour la 8K ou le multi-écrans : 50 Mbps. La plupart des connexions fibre françaises sont largement suffisantes.',
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── POST 11 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'iptv-vs-netflix-pourquoi-choisir-iptv',
+    title: 'IPTV vs Netflix : pourquoi de plus en plus de Français choisissent l\'IPTV',
+    excerpt:
+      'Comparaison complète entre l\'IPTV et Netflix en 2026 : prix, chaînes en direct, contenu, compatibilité. Lequel choisir pour votre usage ?',
+    category: 'Guide',
+    coverGradient: gradients['Guide'],
+    coverAlt: 'Comparaison IPTV vs Netflix France 2026',
+    readTime: '7 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Netflix, Disney+, Amazon Prime Video... les plateformes de streaming par abonnement dominent la conversation. Pourtant, de plus en plus de Français se tournent vers l'IPTV comme alternative ou complément. Quelles sont les différences réelles entre l'IPTV et Netflix ? Dans quels cas l'IPTV est-il le meilleur choix ? Ce comparatif complet vous aide à décider.",
+      },
+      { type: 'h2', text: 'IPTV vs Netflix : la différence fondamentale' },
+      {
+        type: 'p',
+        text: "Netflix est une plateforme de SVoD (Subscription Video on Demand) : vous accédez à un catalogue fermé de films et séries, produits ou acquis par Netflix. L'IPTV (Internet Protocol Television) est un système de diffusion de chaînes de télévision et de contenus via Internet — avec chaînes en direct, replay et VOD. Ce sont deux produits fondamentalement différents qui répondent à des besoins différents.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          'Netflix : catalogue fermé de films/séries — pas de chaînes en direct',
+          'IPTV : chaînes en direct (TNT, sport, news) + VOD + replay',
+          'Netflix : contenu produit ou licencié par Netflix — qualité maîtrisée',
+          'IPTV : contenu de tous les diffuseurs en temps réel (comme une box opérateur)',
+          'Netflix : interface propre, applications soignées sur tous les appareils',
+          'IPTV : interface dépend de l\'application choisie (Smarters Pro, TiviMate...)',
+        ],
+      },
+      { type: 'h2', text: 'Comparaison des prix en 2026' },
+      {
+        type: 'p',
+        text: "Le prix est souvent le premier argument en faveur de l'IPTV. Voici la comparaison réelle entre Netflix et ClarioTV :",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Netflix Standard avec pub : 5,99 €/mois — contenu limité, publicités',
+          'Netflix Standard : 13,49 €/mois — Full HD, 2 écrans simultanés',
+          'Netflix Premium : 19,99 €/mois — 4K HDR, 4 écrans simultanés',
+          'ClarioTV Gold 12 mois : 3,75 €/mois — 4K/8K, chaînes en direct + VOD illimitée',
+        ],
+      },
+      {
+        type: 'info',
+        text: "💰 Rapport prix/contenu : pour 3,75 €/mois avec ClarioTV, vous obtenez les chaînes en direct (TF1, M6, Canal+, beIN Sports...) + des milliers de films et séries en VOD + les replay. Netflix à 13,49 €/mois ne propose que son catalogue fermé, sans aucune chaîne live.",
+      },
+      { type: 'h2', text: 'Contenu : IPTV et Netflix ne se font pas concurrence' },
+      {
+        type: 'p',
+        text: "La bonne nouvelle : IPTV et Netflix ne sont pas vraiment concurrents — ils sont complémentaires. L'IPTV couvre les chaînes en direct et le sport en live. Netflix excelle dans les séries originales (Stranger Things, La Casa de Papel, Emily in Paris). Beaucoup de foyers français utilisent les deux.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'IPTV seul → idéal si vous regardez principalement la TNT, le sport en direct et les infos',
+          'Netflix seul → idéal si vous regardez principalement des séries et films en catalogue',
+          'IPTV + Netflix → couverture totale pour tous les usages — souvent moins cher qu\'une box opérateur',
+        ],
+      },
+      { type: 'h2', text: 'Sport en direct : l\'avantage décisif de l\'IPTV' },
+      {
+        type: 'p',
+        text: "C'est sur le sport que l'IPTV prend son avantage le plus net sur Netflix. Netflix ne diffuse aucun match en direct de Ligue 1, Champions League, Roland-Garros, Tour de France ou Jeux Olympiques. L'IPTV inclut beIN Sports, RMC Sport, Canal+ Sport et Eurosport en temps réel.",
+      },
+      {
+        type: 'quote',
+        text: "J'avais Netflix depuis 4 ans. J'ai ajouté ClarioTV pour avoir beIN Sports et RMC Sport en plus. Le tout me revient moins cher que la box de mon opérateur.",
+        author: 'Thomas R. — Client ClarioTV Silver 6 mois',
+      },
+      { type: 'h2', text: 'Compatibilité appareils : avantage Netflix' },
+      {
+        type: 'p',
+        text: "Sur ce point, Netflix a l'avantage : l'application Netflix est disponible nativement sur presque tous les appareils sans configuration. L'IPTV nécessite d'installer une application spécifique (Smarters Pro, TiviMate...) et de configurer votre accès avec vos identifiants. C'est simple, mais c'est une étape supplémentaire.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Netflix : application native préinstallée sur Samsung TV, LG, Firestick, PlayStation, Xbox',
+          'IPTV : installation d\'une application IPTV + configuration (2 à 5 minutes)',
+          'Netflix : mises à jour automatiques, interface toujours identique',
+          'IPTV : interface dépend de l\'application — IPTV Smarters Pro est la plus simple',
+        ],
+      },
+      { type: 'h2', text: 'Qualité d\'image : match nul en 4K' },
+      {
+        type: 'p',
+        text: "Netflix propose la 4K HDR sur son abonnement Premium. ClarioTV propose également la 4K et la 8K sur les chaînes qui le supportent. Dans les deux cas, vous avez besoin d'une télévision 4K et d'une connexion d'au moins 25 Mbps. La qualité d'image est comparable sur les contenus 4K.",
+      },
+      { type: 'h2', text: 'Conclusion : IPTV ou Netflix ?' },
+      {
+        type: 'p',
+        text: "Si vous regardez principalement des séries et films originaux : Netflix reste difficile à battre sur ce segment. Si vous regardez la télévision en direct, le sport ou les infos, l'IPTV est clairement supérieur à Netflix. Pour un usage complet, la combinaison IPTV (3,75 €/mois) + Netflix Standard (13,49 €/mois) = 17,24 €/mois reste souvent moins chère qu'une box opérateur avec TV (20 à 45 €/mois).",
+      },
+      {
+        type: 'cta',
+        heading: 'Testez l\'IPTV gratuitement avant de décider',
+        body: 'ClarioTV offre un test gratuit de 24 heures sans engagement. Comparez par vous-même.',
+        href: '/test-gratuit',
+        label: 'Demander un test gratuit 24h',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'L\'IPTV est-il mieux que Netflix ?',
+            a: 'L\'IPTV et Netflix répondent à des besoins différents. L\'IPTV est supérieur pour les chaînes en direct, le sport en live et les infos. Netflix excelle sur les séries et films originaux. Les deux sont complémentaires.',
+          },
+          {
+            q: 'Peut-on regarder des séries Netflix avec un abonnement IPTV ?',
+            a: 'Non. L\'IPTV donne accès aux chaînes de télévision et à une bibliothèque VOD, mais pas au catalogue exclusif de Netflix. Pour les séries Netflix originales, vous avez besoin d\'un abonnement Netflix séparé.',
+          },
+          {
+            q: 'L\'IPTV est-il moins cher que Netflix ?',
+            a: 'Oui. ClarioTV coûte 3,75 €/mois sur le forfait Gold 12 mois, contre 13,49 €/mois pour Netflix Standard. Mais l\'IPTV et Netflix ne proposent pas le même contenu — la comparaison directe est limitée.',
+          },
+          {
+            q: 'Peut-on avoir Netflix et l\'IPTV en même temps ?',
+            a: 'Oui, et beaucoup de foyers français le font. ClarioTV (3,75 €/mois) + Netflix Standard (13,49 €/mois) = 17,24 €/mois pour une couverture totale : chaînes en direct + sport + séries originales.',
+          },
+          {
+            q: 'L\'IPTV fonctionne-t-il sur un téléviseur avec Netflix préinstallé ?',
+            a: 'Oui. Vous pouvez installer une application IPTV (IPTV Smarters Pro, TiviMate) à côté de Netflix sur votre Smart TV, Firestick ou Android TV. Les deux applications coexistent sans problème.',
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 12 ── installer-iptv-smart-tv-samsung-lg ─────────────────────── */
+  {
+    slug: 'installer-iptv-smart-tv-samsung-lg',
+    title: 'Installer IPTV sur Smart TV Samsung et LG — guide 2026',
+    excerpt:
+      'Comment configurer votre abonnement IPTV directement sur votre Smart TV Samsung (Tizen) ou LG (webOS) sans box supplémentaire. Guide étape par étape.',
+    category: 'Installation',
+    coverGradient: gradients['Installation'],
+    coverAlt: 'Installer IPTV sur Smart TV Samsung LG 2026',
+    readTime: '5 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Votre Smart TV Samsung ou LG est compatible IPTV — pas besoin de Firestick ni de box Android supplémentaire. En quelques minutes, vous pouvez regarder plus de 20 000 chaînes en direct directement depuis votre téléviseur. Voici comment faire.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          'Smart TV Samsung (Tizen OS, modèles 2016 et plus récents)',
+          'Smart TV LG (webOS 3.0 et plus récents)',
+          'Connexion Internet : 10 Mb/s minimum pour le HD, 25 Mb/s pour le 4K',
+          'Un abonnement IPTV actif (URL M3U ou portail Xtream Codes)',
+        ],
+      },
+      { type: 'h2', text: 'IPTV sur Samsung Smart TV (Tizen)' },
+      {
+        type: 'p',
+        text: "Samsung utilise le système Tizen, qui n'accepte pas les APK Android. L'application recommandée est Smart IPTV (SIPTV), disponible directement depuis le Samsung App Store.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Ouvrez le Samsung App Store depuis votre téléviseur',
+          'Recherchez « Smart IPTV » et installez l\'application',
+          'Lancez Smart IPTV — notez l\'adresse MAC affichée à l\'écran',
+          'Depuis votre ordinateur, rendez-vous sur siptv.eu et entrez votre adresse MAC',
+          'Collez votre URL M3U ClarioTV et cliquez sur « Send »',
+          'Revenez sur la TV et redémarrez l\'application — vos chaînes sont chargées',
+        ],
+      },
+      {
+        type: 'info',
+        text: 'Smart IPTV propose 7 jours d\'essai gratuit. Après la période d\'essai, une licence unique de 5,49 € est requise pour continuer à utiliser l\'app sur ce téléviseur.',
+      },
+      { type: 'h2', text: 'IPTV sur LG Smart TV (webOS)' },
+      {
+        type: 'p',
+        text: "LG webOS dispose du LG Content Store, qui propose l'application SS IPTV — gratuite et très complète. C'est l'option la plus simple pour les TV LG.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Depuis l\'écran d\'accueil LG, ouvrez le LG Content Store',
+          'Recherchez « SS IPTV » et installez l\'application',
+          'Lancez SS IPTV et allez dans les paramètres (icône engrenage)',
+          'Sélectionnez « Playlist » → « M3U/Xtream » et entrez votre URL ClarioTV',
+          'Validez et patientez le chargement des chaînes (30 à 60 secondes)',
+          'Naviguez dans les catégories : Chaînes françaises, Sport, Cinéma…',
+        ],
+      },
+      { type: 'h2', text: 'Alternative : IPTV Smarters Pro sur Android TV intégré' },
+      {
+        type: 'p',
+        text: "Certains TV Samsung et LG récents embarquent Android TV en plus de leur OS natif, ou vous utilisez une Android TV Box connectée à votre écran. Dans ce cas, IPTV Smarters Pro est disponible sur le Google Play Store et s'installe comme n'importe quelle app.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Ouvrez le Google Play Store sur votre Android TV',
+          'Recherchez « IPTV Smarters Pro » et installez',
+          'Ajoutez votre compte via Xtream Codes ou URL M3U',
+          'Profitez de l\'interface la plus complète : EPG, rattrapage, VOD',
+        ],
+      },
+      { type: 'h2', text: 'Résolution des problèmes courants' },
+      {
+        type: 'ul',
+        items: [
+          'Image qui freeze : vérifiez votre débit Internet (test sur fast.com), passez en WiFi 5 GHz ou câble Ethernet',
+          'Chaînes qui ne chargent pas : vérifiez que votre URL M3U est correctement copiée (sans espace en début/fin)',
+          'App non trouvée dans le store : mettez à jour le firmware de votre TV puis réessayez',
+          'Trop de buffering en 4K : passez votre abonnement Internet à 50 Mb/s minimum ou réduisez la qualité en HD',
+        ],
+      },
+      {
+        type: 'quote',
+        text: "Avec un abonnement ClarioTV et 5 minutes de configuration, votre Smart TV devient une plateforme multimédia complète — sans abonnement câble ni satellite.",
+        author: 'ClarioTV',
+      },
+      {
+        type: 'cta',
+        heading: 'Prêt à regarder l\'IPTV sur votre Smart TV ?',
+        body: 'Obtenez votre lien M3U ClarioTV instantanément via WhatsApp. Activation en moins de 5 minutes.',
+        href: '/commander',
+        label: 'Voir les abonnements',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'IPTV fonctionne-t-il sur tous les modèles Samsung ?',
+            a: 'L\'application Smart IPTV fonctionne sur les Samsung Tizen OS depuis 2016. Pour les modèles antérieurs, utilisez une clé Firestick ou une box Android TV connectée à la TV.',
+          },
+          {
+            q: 'Faut-il payer une application pour Samsung ?',
+            a: 'Smart IPTV offre 7 jours gratuits, puis une licence unique de 5,49 €. Pour LG, SS IPTV est 100 % gratuite.',
+          },
+          {
+            q: 'Mon abonnement ClarioTV fonctionne-t-il sur plusieurs TV ?',
+            a: 'Oui, selon le forfait choisi. Les abonnements ClarioTV Gold et Platinum permettent 2 connexions simultanées — idéal pour le salon et la chambre.',
+          },
+          {
+            q: 'L\'IPTV consomme combien de données ?',
+            a: 'Environ 2 à 3 Go/heure en HD, 7 à 10 Go/heure en 4K. Pour un usage quotidien d\'une heure en HD, prévoyez environ 60 à 90 Go/mois.',
+          },
+          {
+            q: 'Peut-on utiliser l\'IPTV sans connexion WiFi ?',
+            a: 'L\'IPTV nécessite impérativement une connexion Internet. La connexion filaire (câble Ethernet) est recommandée pour la meilleure stabilité en 4K.',
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 13 ── abonnement-iptv-pas-cher-qualite ────────────────────────── */
+  {
+    slug: 'abonnement-iptv-pas-cher-qualite',
+    title: 'Abonnement IPTV pas cher : comment trouver la qualité au meilleur prix',
+    excerpt:
+      'Guide complet pour choisir un abonnement IPTV pas cher sans sacrifier la qualité. Critères à vérifier, pièges à éviter et la meilleure offre du marché français.',
+    category: 'Abonnement',
+    coverGradient: gradients['Abonnement'],
+    coverAlt: 'Abonnement IPTV pas cher qualité France 2026',
+    readTime: '7 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Le marché de l'IPTV regorge d'offres à moins de 5 €/mois. Mais « pas cher » ne signifie pas forcément « bon marché » — certains fournisseurs bradent leurs prix au détriment de la qualité. Voici comment identifier une bonne offre et éviter les escroqueries.",
+      },
+      { type: 'h2', text: 'Pourquoi les prix IPTV varient autant ?' },
+      {
+        type: 'p',
+        text: "Le coût d'un abonnement IPTV dépend principalement de l'infrastructure serveur (nombre de serveurs, bande passante), du catalogue de chaînes et du niveau de support client. Un fournisseur avec des serveurs sous-dimensionnés peut afficher un tarif très bas tout en offrant une expérience catastrophique.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Infrastructure : serveurs dédiés vs serveurs mutualisés bas de gamme',
+          'Catalogue : 5 000 chaînes bien maintenues vs 30 000 chaînes dont 80 % ne fonctionnent pas',
+          'Support : assistance 24/7 vs aucun support (fournisseur fantôme)',
+          'Durée : les forfaits longue durée (12 mois) sont toujours moins chers par mois',
+        ],
+      },
+      { type: 'h2', text: 'Les 5 pièges à éviter avec les offres IPTV très bon marché' },
+      {
+        type: 'ol',
+        items: [
+          'Aucune période d\'essai proposée — impossible de tester avant d\'acheter',
+          'Paiement uniquement en crypto ou virement (aucun recours possible)',
+          'Aucun moyen de contact (pas d\'email, pas de WhatsApp, pas de chat)',
+          'Serveurs surchargés aux heures de pointe (20h–22h, matchs importants)',
+          'Chaînes coupées sans prévenir et sans remboursement',
+        ],
+      },
+      {
+        type: 'info',
+        text: 'Un bon fournisseur IPTV propose toujours un test de 24 à 48 heures avant achat, accepte les paiements sécurisés (CB, PayPal) et dispose d\'un support joignable rapidement.',
+      },
+      { type: 'h2', text: 'Quel prix est raisonnable pour un abonnement IPTV de qualité ?' },
+      {
+        type: 'ol',
+        items: [
+          '1 mois : entre 8 € et 15 € — idéal pour tester un nouveau fournisseur',
+          '3 mois : entre 15 € et 30 € — bon compromis pour confirmer la qualité',
+          '6 mois : entre 25 € et 45 € — rapport qualité/prix intéressant',
+          '12 mois : entre 35 € et 70 € — le meilleur tarif mensuel (3 à 6 €/mois)',
+        ],
+      },
+      {
+        type: 'p',
+        text: "Méfiez-vous des offres à 1 €/mois ou 10 €/an — elles sont presque toujours des arnaques. Un fournisseur sérieux ne peut pas maintenir une infrastructure de qualité à ce prix.",
+      },
+      { type: 'h2', text: 'Les critères d\'un bon abonnement IPTV pas cher' },
+      {
+        type: 'checklist',
+        items: [
+          'Uptime serveur garanti supérieur à 99 % (vérifiable via les avis)',
+          'Chaînes françaises principales en HD ou 4K : TF1, M6, France 2, Canal+',
+          'EPG (guide des programmes) fonctionnel et à jour',
+          'Compatibilité multi-appareils : Smart TV, Firestick, iPhone, Android',
+          'Support client réactif en français (moins de 1 heure de réponse)',
+          'Période d\'essai gratuite ou remboursement possible',
+        ],
+      },
+      { type: 'h2', text: 'ClarioTV : la meilleure offre qualité/prix du marché français' },
+      {
+        type: 'p',
+        text: "ClarioTV propose des abonnements IPTV France à partir de 3,75 €/mois (forfait 12 mois), avec plus de 20 000 chaînes en HD/4K, un support WhatsApp 24/7 et une activation en moins de 5 minutes.",
+      },
+      {
+        type: 'ul',
+        items: [
+          'Starter 1 mois — 9,99 € : parfait pour tester ClarioTV sans engagement',
+          'Confort 3 mois — 19,99 € : idéal pour confirmer la qualité sur la durée',
+          'Gold 6 mois — 29,99 € : le choix le plus populaire',
+          'Platinum 12 mois — 44,99 € (3,75 €/mois) : le meilleur rapport qualité/prix',
+        ],
+      },
+      {
+        type: 'quote',
+        text: "À 3,75 €/mois, ClarioTV est moins cher qu'un café tout en offrant plus de 20 000 chaînes en HD et 4K. C'est l'abonnement IPTV pas cher dont vous avez besoin.",
+        author: 'ClarioTV',
+      },
+      {
+        type: 'cta',
+        heading: 'Testez ClarioTV à partir de 9,99 €',
+        body: 'Activation immédiate via WhatsApp. Compatible Smart TV, Firestick, iPhone, Android, PC et plus.',
+        href: '/commander',
+        label: 'Choisir mon forfait',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'Quel est le moins cher des abonnements IPTV fiables ?',
+            a: 'ClarioTV Platinum à 44,99 €/an (3,75 €/mois) est l\'un des abonnements IPTV les moins chers du marché français avec un niveau de qualité et de support sérieux.',
+          },
+          {
+            q: 'Peut-on avoir un IPTV gratuit ?',
+            a: 'Des listes M3U gratuites existent mais elles sont instables, souvent hors ligne et sans support. Pour une expérience fiable, un abonnement payant dès 9,99 €/mois est indispensable.',
+          },
+          {
+            q: 'Un abonnement 1 mois vaut-il le coup ?',
+            a: 'Oui, pour tester un fournisseur. Après confirmation de la qualité, le passage à 12 mois divise le prix mensuel par 2,5.',
+          },
+          {
+            q: 'Les abonnements IPTV très bon marché sont-ils fiables ?',
+            a: 'Les offres à moins de 2 €/mois sont presque toutes à éviter — serveurs instables, chaînes coupées, aucun support. La fiabilité a un coût minimum.',
+          },
+          {
+            q: 'Comment éviter de se faire arnaquer avec un abonnement IPTV ?',
+            a: 'Vérifiez que le fournisseur a un contact réel (email ou WhatsApp), propose une période d\'essai, accepte les paiements sécurisés et a des avis vérifiables. ClarioTV coche toutes ces cases.',
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 14 ── installer-iptv-iphone-ipad-ios ──────────────────────────── */
+  {
+    slug: 'installer-iptv-iphone-ipad-ios',
+    title: 'Installer IPTV sur iPhone et iPad (iOS) — guide complet 2026',
+    excerpt:
+      'Comment regarder l\'IPTV sur iPhone ou iPad en 2026 : meilleures applications iOS, configuration pas à pas et conseils pour une qualité optimale.',
+    category: 'Application',
+    coverGradient: gradients['Application'],
+    coverAlt: 'IPTV iPhone iPad iOS application 2026',
+    readTime: '5 min',
+    publishedAt: '2026-05-11',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Regarder l'IPTV sur iPhone ou iPad est plus simple qu'on ne le pense. Apple a assoupli ses règles pour les applications de streaming, et plusieurs apps IPTV de qualité sont désormais disponibles sur l'App Store. Voici les meilleures options et comment les configurer avec votre abonnement ClarioTV.",
+      },
+      {
+        type: 'info',
+        text: 'Contrairement à Android, iOS n\'accepte pas les APK. Toutes les applications IPTV pour iPhone et iPad doivent être téléchargées depuis l\'App Store officiel.',
+      },
+      { type: 'h2', text: 'Les meilleures applications IPTV pour iPhone et iPad' },
+      {
+        type: 'ol',
+        items: [
+          'IPTV Smarters Pro (App Store, 5,99 €) — la référence, interface intuitive, EPG, VOD, multi-profils',
+          'GSE Smart IPTV (App Store, gratuit/Pro) — flexible, supporte M3U et Xtream Codes',
+          'Flex IPTV (App Store, 4,99 €) — interface soignée, support AirPlay pour afficher sur Apple TV',
+          'OTT Navigator (App Store, gratuit) — rapide à configurer, bon pour les débutants',
+        ],
+      },
+      { type: 'h2', text: 'Configuration avec IPTV Smarters Pro (iOS)' },
+      {
+        type: 'p',
+        text: "IPTV Smarters Pro est l'application la plus complète pour iOS. Voici comment la configurer avec votre abonnement ClarioTV en moins de 5 minutes.",
+      },
+      {
+        type: 'ol',
+        items: [
+          'Téléchargez IPTV Smarters Pro depuis l\'App Store (5,99 €, achat unique)',
+          'Ouvrez l\'app et touchez « Ajouter un utilisateur »',
+          'Sélectionnez « Connexion via URL M3U » ou « Connexion via Xtream Codes »',
+          'Entrez vos identifiants ClarioTV reçus par WhatsApp après votre commande',
+          'Touchez « Charger la liste » — vos chaînes apparaissent en 30 secondes',
+          'Naviguez : Chaînes en direct → France → retrouvez TF1, M6, France 2, Canal+…',
+        ],
+      },
+      { type: 'h2', text: 'Configuration avec GSE Smart IPTV (iOS — option gratuite)' },
+      {
+        type: 'ol',
+        items: [
+          'Téléchargez GSE Smart IPTV depuis l\'App Store (version gratuite disponible)',
+          'Ouvrez l\'app → touchez le menu hamburger en haut à gauche',
+          'Sélectionnez « Remote Playlists » → « + » → « M3U URL »',
+          'Collez votre URL M3U ClarioTV et validez',
+          'Attendez le chargement — les chaînes s\'organisent automatiquement par catégorie',
+        ],
+      },
+      { type: 'h2', text: 'Regarder l\'IPTV sur TV via AirPlay depuis iPhone' },
+      {
+        type: 'p',
+        text: "Si vous avez une Apple TV ou une Smart TV compatible AirPlay 2, vous pouvez diffuser l'IPTV de votre iPhone directement sur votre grand écran sans configuration supplémentaire.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          'iPhone et Apple TV / Smart TV sur le même réseau WiFi',
+          'Lancez votre chaîne dans Flex IPTV ou IPTV Smarters Pro',
+          'Touchez l\'icône AirPlay dans le lecteur vidéo',
+          'Sélectionnez votre Apple TV ou votre TV compatible',
+          'La chaîne s\'affiche instantanément sur le grand écran',
+        ],
+      },
+      { type: 'h2', text: 'Conseils pour une lecture fluide sur iPhone' },
+      {
+        type: 'ul',
+        items: [
+          'Utilisez le WiFi plutôt que la 4G/5G pour éviter les coupures et économiser vos données mobiles',
+          'En déplacement avec la 5G, passez la qualité en HD plutôt qu\'en 4K',
+          'Activez le « Mode faible consommation » iOS si vous regardez sur batterie',
+          'Pour les chaînes sportives en direct, préférez une connexion WiFi stable (moins de 20 ms de latence)',
+          'Si l\'image freeze, fermez et relancez le flux depuis l\'app — cela recache le buffer',
+        ],
+      },
+      {
+        type: 'quote',
+        text: "Avec IPTV Smarters Pro et un abonnement ClarioTV, votre iPhone devient une télévision de poche avec 20 000 chaînes partout en France et à l'étranger.",
+        author: 'ClarioTV',
+      },
+      {
+        type: 'cta',
+        heading: 'Regardez l\'IPTV sur votre iPhone dès aujourd\'hui',
+        body: 'Commandez votre abonnement ClarioTV et recevez vos identifiants par WhatsApp en moins de 5 minutes.',
+        href: '/commander',
+        label: 'Commander maintenant',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: 'L\'IPTV est-il disponible sur l\'App Store ?',
+            a: 'Oui. IPTV Smarters Pro, GSE Smart IPTV et Flex IPTV sont disponibles directement sur l\'App Store. Aucun jailbreak n\'est nécessaire.',
+          },
+          {
+            q: 'Quelle est la meilleure app IPTV gratuite pour iPhone ?',
+            a: 'GSE Smart IPTV propose une version gratuite fonctionnelle. Pour une expérience complète avec EPG et VOD, IPTV Smarters Pro (5,99 €) est l\'option la plus recommandée.',
+          },
+          {
+            q: 'Peut-on regarder l\'IPTV en 4K sur iPhone ?',
+            a: 'Oui, si votre abonnement IPTV inclut des chaînes 4K et que votre connexion dépasse 25 Mb/s. Les iPhone 12 Pro et plus récents ont des écrans adaptés à la haute résolution.',
+          },
+          {
+            q: 'L\'IPTV fonctionne-t-il sur iPad ?',
+            a: 'Oui, toutes les apps IPTV iOS sont compatibles iPad. L\'écran plus grand de l\'iPad offre une expérience de visionnage encore meilleure, surtout pour les matchs sportifs.',
+          },
+          {
+            q: 'Mon abonnement ClarioTV peut-il être utilisé sur iPhone et Smart TV en même temps ?',
+            a: 'Oui. Les forfaits Gold et Platinum ClarioTV permettent 2 connexions simultanées — vous pouvez regarder sur votre iPhone pendant qu\'un autre appareil utilise le même abonnement.',
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 /** Convenience: lookup by slug */
