@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Découvrez les critères essentiels pour choisir un abonnement IPTV France adapté à vos appareils, à votre connexion Internet et à vos habitudes de visionnage.',
     category: 'Abonnement',
-    image: '/blog/guide-iptv-france.jpg',
+    image: '/blog/covers/comment-choisir-meilleur-abonnement-iptv-france.jpg',
     coverGradient: gradients['Abonnement'],
     coverAlt: 'Guide pour choisir un abonnement IPTV France',
     readTime: '8 min',
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Découvrez les étapes essentielles pour configurer votre abonnement IPTV sur une Smart TV Samsung ou LG compatible.',
     category: 'Installation',
-    image: '/blog/iptv-smart-tv.jpg',
+    image: '/blog/covers/installer-iptv-smart-tv-guide-simple.jpg',
     coverGradient: gradients['Installation'],
     coverAlt: 'Installation IPTV sur Smart TV Samsung et LG',
     readTime: '4 min',
@@ -358,7 +358,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Suivez un guide simple pour utiliser ClarioTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
     category: 'Guide',
-    image: '/blog/iptv-android-tv.jpg',
+    image: '/blog/covers/configurer-iptv-android-tv.jpg',
     coverGradient: gradients['Guide'],
     coverAlt: 'Configuration IPTV sur Android TV',
     readTime: '5 min',
@@ -487,7 +487,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comprenez comment regarder vos contenus avec une application IPTV compatible iOS sur votre iPhone ou iPad.',
     category: 'Guide',
-    image: '/blog/iptv-iphone.jpg',
+    image: '/blog/covers/iptv-iphone-ipad-ce-quil-faut-savoir.jpg',
     coverGradient: gradients['Guide'],
     coverAlt: 'IPTV sur iPhone et iPad iOS',
     readTime: '4 min',
@@ -591,7 +591,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Quelques conseils pour améliorer la stabilité, réduire le buffering et optimiser la qualité de votre streaming IPTV.',
     category: 'Dépannage',
-    image: '/blog/iptv-sans-coupure.jpg',
+    image: '/blog/covers/resoudre-coupures-iptv-conseils-pratiques.jpg',
     coverGradient: gradients['Dépannage'],
     coverAlt: 'Résoudre les coupures IPTV et le buffering',
     readTime: '6 min',
@@ -713,7 +713,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comparatif des meilleures applications IPTV : IPTV Smarters Pro, TiviMate, GSE Smart IPTV et alternatives selon votre appareil.',
     category: 'Application',
-    image: '/blog/applications-iptv.jpg',
+    image: '/blog/covers/quelle-application-iptv-utiliser.jpg',
     coverGradient: gradients['Application'],
     coverAlt: 'Comparatif applications IPTV Smarters TiviMate',
     readTime: '5 min',
@@ -816,7 +816,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Installez et configurez IPTV Smarters Pro sur votre appareil en moins de 5 minutes avec ce guide détaillé.',
     category: 'Installation',
-    image: '/blog/iptv-smarters-pro.jpg',
+    image: '/blog/covers/iptv-smarters-pro-guide-installation.jpg',
     coverGradient: gradients['Installation'],
     coverAlt: 'Guide installation IPTV Smarters Pro',
     readTime: '5 min',
@@ -1128,6 +1128,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Configurez votre abonnement IPTV sur Amazon Fire TV Stick étape par étape : téléchargement de l\'application, connexion Xtream Codes, optimisation de l\'image.',
     category: 'Installation',
+    image: '/blog/covers/installer-iptv-firestick-guide-complet.jpg',
     coverGradient: gradients['Installation'],
     coverAlt: 'Guide installation IPTV sur Amazon Firestick Fire TV',
     readTime: '6 min',
