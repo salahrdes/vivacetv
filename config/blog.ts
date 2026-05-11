@@ -1000,7 +1000,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Pourquoi choisir un forfait IPTV 12 mois ? Économies, stabilité, accès 4K/8K et rapport qualité/prix expliqués.',
     category: 'Abonnement',
-    image: '/blog/abonnement-iptv-12-mois.jpg',
+    image: '/blog/covers/abonnement-iptv-12-mois-avantages-conseils.jpg',
     coverGradient: gradients['Abonnement'],
     coverAlt: 'Avantages abonnement IPTV 12 mois France',
     readTime: '4 min',
@@ -1277,6 +1277,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comparatif des meilleurs abonnements IPTV France en 2026 : critères de sélection, qualité d\'image, stabilité, prix et notre recommandation finale.',
     category: 'Abonnement',
+    image: '/blog/covers/meilleur-abonnement-iptv-france-2026.jpg',
     coverGradient: gradients['Abonnement'],
     coverAlt: 'Comparatif meilleurs abonnements IPTV France 2026',
     readTime: '9 min',
@@ -1438,6 +1439,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comparaison complète entre l\'IPTV et Netflix en 2026 : prix, chaînes en direct, contenu, compatibilité. Lequel choisir pour votre usage ?',
     category: 'Guide',
+    image: '/blog/covers/iptv-vs-netflix-pourquoi-choisir-iptv.jpg',
     coverGradient: gradients['Guide'],
     coverAlt: 'Comparaison IPTV vs Netflix France 2026',
     readTime: '7 min',
@@ -1571,6 +1573,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comment configurer votre abonnement IPTV directement sur votre Smart TV Samsung (Tizen) ou LG (webOS) sans box supplémentaire. Guide étape par étape.',
     category: 'Installation',
+    image: '/blog/covers/installer-iptv-smart-tv-samsung-lg.jpg',
     coverGradient: gradients['Installation'],
     coverAlt: 'Installer IPTV sur Smart TV Samsung LG 2026',
     readTime: '5 min',
@@ -1697,6 +1700,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Guide complet pour choisir un abonnement IPTV pas cher sans sacrifier la qualité. Critères à vérifier, pièges à éviter et la meilleure offre du marché français.',
     category: 'Abonnement',
+    image: '/blog/covers/abonnement-iptv-pas-cher-qualite.jpg',
     coverGradient: gradients['Abonnement'],
     coverAlt: 'Abonnement IPTV pas cher qualité France 2026',
     readTime: '7 min',
@@ -1823,6 +1827,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Comment regarder l\'IPTV sur iPhone ou iPad en 2026 : meilleures applications iOS, configuration pas à pas et conseils pour une qualité optimale.',
     category: 'Application',
+    image: '/blog/covers/installer-iptv-iphone-ipad-ios.jpg',
     coverGradient: gradients['Application'],
     coverAlt: 'IPTV iPhone iPad iOS application 2026',
     readTime: '5 min',
