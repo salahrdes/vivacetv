@@ -1658,7 +1658,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prêt à regarder l\'IPTV sur votre Smart TV ?',
         body: 'Obtenez votre lien M3U ClarioTV instantanément via WhatsApp. Activation en moins de 5 minutes.',
-        href: '/commander',
+        href: '/abonnements',
         label: 'Voir les abonnements',
       },
       {
@@ -1784,7 +1784,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Testez ClarioTV à partir de 9,99 €',
         body: 'Activation immédiate via WhatsApp. Compatible Smart TV, Firestick, iPhone, Android, PC et plus.',
-        href: '/commander',
+        href: '/abonnements',
         label: 'Choisir mon forfait',
       },
       {
@@ -1908,7 +1908,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Regardez l\'IPTV sur votre iPhone dès aujourd\'hui',
         body: 'Commandez votre abonnement ClarioTV et recevez vos identifiants par WhatsApp en moins de 5 minutes.',
-        href: '/commander',
+        href: '/abonnements',
         label: 'Commander maintenant',
       },
       {
