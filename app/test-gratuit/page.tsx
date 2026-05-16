@@ -28,23 +28,23 @@ const benefits = [
   },
   {
     icon: <MessageCircle size={22} aria-hidden="true" />,
-    title: 'Assistance à l\'installation',
-    desc: 'Notre équipe vous guide en temps réel via WhatsApp pour l\'installation.',
+    title: "Assistance à l'installation",
+    desc: "Notre équipe vous guide en temps réel via WhatsApp pour l'installation.",
   },
   {
     icon: <Zap size={22} aria-hidden="true" />,
     title: 'Expérience HD/4K',
-    desc: 'Profitez d\'un aperçu de la qualité selon votre appareil et votre connexion.',
+    desc: "Profitez d'un aperçu de la qualité selon votre appareil et votre connexion.",
   },
   {
     icon: <UserX size={22} aria-hidden="true" />,
     title: 'Aucun compte client',
-    desc: 'Pas d\'inscription, pas de mot de passe. Juste un accès de test 24h.',
+    desc: "Pas d'inscription, pas de mot de passe. Juste un accès de test 24h.",
   },
   {
     icon: <Shield size={22} aria-hidden="true" />,
     title: 'Sans engagement',
-    desc: 'Le test expire automatiquement. Aucun paiement, aucun renouvellement automatique.',
+    desc: "Le test expire automatiquement. Aucun paiement, aucun renouvellement automatique.",
   },
   {
     icon: <MessageCircle size={22} aria-hidden="true" />,
@@ -54,16 +54,16 @@ const benefits = [
 ];
 
 const steps = [
-  { n: 1, title: 'Remplissez le formulaire', desc: 'Indiquez votre nom, votre numéro WhatsApp et le type d\'appareil.' },
+  { n: 1, title: 'Remplissez le formulaire', desc: "Indiquez votre nom, votre numéro WhatsApp et le type d'appareil." },
   { n: 2, title: 'Indiquez votre appareil', desc: 'Smart TV, Firestick, Android, iPhone, PC — nous adaptons la configuration.' },
-  { n: 3, title: 'Recevez les instructions', desc: 'Notre équipe vous envoie vos accès et un guide d\'installation via WhatsApp.' },
+  { n: 3, title: 'Recevez les instructions', desc: "Notre équipe vous envoie vos accès et un guide d'installation via WhatsApp." },
   { n: 4, title: 'Testez pendant 24h', desc: 'Profitez librement du service. Choisissez ensuite le forfait qui vous convient.' },
 ];
 
 const testFaq = [
   {
     q: 'Le test gratuit est-il vraiment sans engagement ?',
-    a: 'Oui, totalement. L\'accès test expire après 24 heures sans aucun frais ni renouvellement automatique.',
+    a: "Oui, totalement. L'accès test expire après 24 heures sans aucun frais ni renouvellement automatique.",
   },
   {
     q: 'Dois-je créer un compte pour le test ?',
@@ -75,14 +75,14 @@ const testFaq = [
   },
   {
     q: 'Comment vais-je recevoir les informations de connexion ?',
-    a: 'Notre équipe vous envoie l\'URL du serveur, votre nom d\'utilisateur et votre mot de passe directement sur WhatsApp.',
+    a: "Notre équipe vous envoie l'URL du serveur, votre nom d'utilisateur et votre mot de passe directement sur WhatsApp.",
   },
   {
     q: 'Combien de temps dure le test ?',
-    a: '24 heures à partir de l\'activation. Suffisant pour vérifier la qualité, la stabilité et la compatibilité.',
+    a: "24 heures à partir de l'activation. Suffisant pour vérifier la qualité, la stabilité et la compatibilité.",
   },
   {
-    q: 'Puis-je obtenir de l\'aide pour l\'installation pendant le test ?',
+    q: "Puis-je obtenir de l'aide pour l'installation pendant le test ?",
     a: 'Oui, notre support est disponible pendant toute la durée du test via WhatsApp pour vous guider.',
   },
 ];
@@ -139,7 +139,7 @@ export default function TestGratuitPage() {
                 className="font-display font-extrabold text-3xl sm:text-4xl leading-tight"
                 style={{ color: 'var(--color-ink)' }}
               >
-                Pourquoi tester avant de s'abonner ?
+                Pourquoi tester avant de s&apos;abonner ?
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -204,6 +204,7 @@ export default function TestGratuitPage() {
 
         {/* ── Form ────────────────────────────────────────────────────────── */}
         <section
+          id="test-form"
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
           aria-labelledby="form-heading"
@@ -263,6 +264,34 @@ export default function TestGratuitPage() {
                   </div>
                 </details>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Pourquoi tester ClarioTV ─────────────────────────────────── */}
+        <section
+          className="py-16 lg:py-24"
+          style={{ backgroundColor: 'var(--color-surface-alt)' }}
+          aria-labelledby="pourquoi-tester-heading"
+        >
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              id="pourquoi-tester-heading"
+              className="font-display font-extrabold text-2xl sm:text-3xl mb-6 leading-tight"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Pourquoi tester ClarioTV gratuitement ?
+            </h2>
+            <div className="flex flex-col gap-5 text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
+              <p>
+                Avant de souscrire un abonnement IPTV, il est essentiel de s&apos;assurer que le service fonctionne parfaitement sur votre appareil et avec votre connexion internet. ClarioTV propose un accès test gratuit de 24 heures pour vous permettre de tout vérifier sans prendre le moindre risque financier.
+              </p>
+              <p>
+                Durant ces 24 heures, vous accédez aux mêmes chaînes et fonctionnalités que les abonnés payants : chaînes françaises, internationales, sportives en HD et 4K, ainsi que le replay sur les chaînes disponibles. C&apos;est l&apos;occasion idéale de tester la stabilité du signal, la fluidité des flux et la qualité d&apos;image sur votre téléviseur, votre smartphone ou votre PC.
+              </p>
+              <p>
+                Notre équipe de support est disponible pendant toute la durée du test via WhatsApp pour vous aider à configurer votre application IPTV et répondre à vos questions. Si vous rencontrez le moindre problème technique, nous intervenons en temps réel pour vous accompagner jusqu&apos;à ce que tout fonctionne correctement.
+              </p>
             </div>
           </div>
         </section>
