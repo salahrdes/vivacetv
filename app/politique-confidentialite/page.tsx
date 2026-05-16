@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Politique de confidentialité | ClarioTV',
   description: 'Politique de confidentialité de ClarioTV — collecte, utilisation et protection de vos données personnelles.',
   alternates: { canonical: `${siteConfig.url}/politique-confidentialite` },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function PolitiqueConfidentialitePage() {

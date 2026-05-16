@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'DMCA | ClarioTV',
   description: 'Procédure de signalement DMCA pour ClarioTV — signalement de contenu, informations requises et traitement des demandes.',
   alternates: { canonical: `${siteConfig.url}/dmca` },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function DmcaPage() {

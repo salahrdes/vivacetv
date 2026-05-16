@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Politique de remboursement | ClarioTV',
   description: 'Politique de remboursement de ClarioTV — conditions, délais et procédure pour les demandes de remboursement.',
   alternates: { canonical: `${siteConfig.url}/politique-remboursement` },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function PolitiqueRemboursementPage() {

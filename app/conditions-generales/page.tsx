@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Conditions générales d'utilisation | ClarioTV",
   description: "Consultez les conditions générales d'utilisation du service IPTV ClarioTV.",
   alternates: { canonical: `${siteConfig.url}/conditions-generales` },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function ConditionsGeneralesPage() {

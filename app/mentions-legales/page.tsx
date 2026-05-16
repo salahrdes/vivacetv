@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Mentions légales | ClarioTV',
   description: 'Mentions légales du site ClarioTV — éditeur, hébergement, propriété intellectuelle et données personnelles.',
   alternates: { canonical: `${siteConfig.url}/mentions-legales` },
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function MentionsLegalesPage() {
