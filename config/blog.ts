@@ -1944,6 +1944,797 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+
+  /* ── Post 15 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'iptv-legal-illegal-france-loi',
+    title: 'IPTV légal ou illégal en France ? Ce que dit la loi en 2026',
+    excerpt:
+      "Tout savoir sur la légalité de l'IPTV en France : ce qui est autorisé, ce qui est interdit, les risques réels et comment identifier un service conforme à la loi.",
+    category: 'Guide',
+    image: '/blog/covers/iptv-legal-illegal-france-loi.jpg',
+    coverGradient: gradients['Guide'],
+    coverAlt: "IPTV légal ou illégal en France — balance de la justice et écran TV",
+    readTime: '6 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "La question de la légalité de l'IPTV revient constamment chez les nouveaux utilisateurs. Est-ce légal de regarder des chaînes via IPTV en France ? La réponse dépend d'un seul critère : la source. Un abonnement IPTV obtenu auprès d'un prestataire disposant des droits de diffusion est parfaitement légal. En revanche, les services dits \"pirates\" — ceux qui redistribuent des flux sans autorisation — sont illicites et exposent leurs abonnés à des risques réels.",
+      },
+      { type: 'h2', text: "Qu'est-ce que l'IPTV au sens légal ?" },
+      {
+        type: 'p',
+        text: "L'IPTV (Internet Protocol Television) désigne la diffusion de contenu télévisuel via une connexion Internet, au lieu du câble ou du satellite traditionnel. La technologie elle-même est parfaitement neutre et légale — c'est le contenu diffusé et les droits attachés qui déterminent la légalité du service. En d'autres termes, regarder la TNT ou les chaînes de votre opérateur via Internet est légal. Accéder à Canal+ ou beIN Sports sans avoir souscrit d'abonnement chez eux ne l'est pas.",
+      },
+      { type: 'h2', text: "La distinction légal / illégal en France" },
+      {
+        type: 'p',
+        text: "En France, la loi du 30 septembre 1986 relative à la liberté de communication et le Code de la propriété intellectuelle encadrent strictement la diffusion de contenus audiovisuels. Pour qu'un service IPTV soit légal, il doit :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Avoir acquis les droits de diffusion des chaînes et contenus proposés",
+          "Respecter les conditions territoriales de diffusion (géorestrictions légitimes)",
+          "Reverser des redevances aux producteurs, ayants droit et diffuseurs",
+          "Afficher des mentions légales complètes et une politique de remboursement",
+        ],
+      },
+      {
+        type: 'info',
+        text: "💡 Règle simple : si le prix semble trop beau pour être vrai — 2 € par mois pour 10 000 chaînes dont Canal+, beIN Sports et toutes les chaînes premium — c'est presque certainement un service illicite. Un service légal supporte des coûts de droits qui se reflètent nécessairement dans le tarif.",
+      },
+      { type: 'h2', text: "Quels risques pour l'abonné à un service IPTV illégal ?" },
+      {
+        type: 'p',
+        text: "L'ARCOM (Autorité de Régulation de la Communication Audiovisuelle et Numérique, anciennement Hadopi) et les tribunaux français ont fortement intensifié leur lutte contre le piratage IPTV depuis 2022. Les risques pour les abonnés à des services illicites sont concrets :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Coupure brutale du service sans préavis ni remboursement (les services pirates disparaissent du jour au lendemain)",
+          "Risques de sécurité : les applications IPTV pirates peuvent contenir des malwares ou logiciels espions",
+          "Poursuites civiles potentielles des ayants droit en cas de signalement",
+          "Pour les revendeurs : amendes pouvant atteindre 300 000 € et 3 ans d'emprisonnement",
+        ],
+      },
+      { type: 'h2', text: "Comment reconnaître un service IPTV légal ?" },
+      {
+        type: 'p',
+        text: "Plusieurs signaux permettent d'identifier un service IPTV fiable et opérant dans la légalité :",
+      },
+      {
+        type: 'checklist',
+        items: [
+          "Site web professionnel avec mentions légales complètes et adresse identifiable",
+          "Conditions générales de vente claires avec politique de remboursement",
+          "Tarif cohérent avec le marché (pas de prix dérisoires du type 1 €/mois)",
+          "Service client joignable et réactif (téléphone, WhatsApp ou chat)",
+          "Paiement sécurisé via des moyens reconnus (carte bancaire, PayPal, virement)",
+          "Pas de promesses de contenu premium illimité à prix cassé",
+        ],
+      },
+      { type: 'h2', text: "L'IPTV gratuit est-il légal ?" },
+      {
+        type: 'p',
+        text: "Certains services IPTV gratuits sont légaux : les chaînes gratuites françaises (TF1, France 2, M6, Arte, etc.) accessibles via les applications officielles des chaînes ou des agrégateurs légaux comme Molotov TV (version gratuite), France.tv ou les applications des opérateurs (Orange TV, SFR TV, Bouygues TV). En revanche, tout service qui offre gratuitement des chaînes payantes — Canal+, beIN Sports, RMC Sport, etc. — est nécessairement illicite.",
+      },
+      { type: 'h2', text: "Quel est le statut de ClarioTV ?" },
+      {
+        type: 'p',
+        text: "ClarioTV est un service IPTV transparent, disposant de mentions légales complètes, d'une politique de remboursement claire et d'un service client disponible 24h/24 via WhatsApp. Nos tarifs reflètent le coût réel d'un service de qualité. Contrairement aux services pirates, nous n'offrons pas de promesses impossibles à prix dérisoire.",
+      },
+      {
+        type: 'cta',
+        heading: 'Testez ClarioTV sans engagement',
+        body: 'Accédez à un test gratuit 24h pour vérifier la qualité et la compatibilité sur vos appareils — aucune carte bancaire requise.',
+        href: '/test-gratuit',
+        label: 'Demander un test gratuit',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "L'IPTV est-il légal en France en 2026 ?",
+            a: "Oui, l'IPTV est légal en France dès lors que le service a obtenu les droits de diffusion des contenus proposés. La technologie IPTV elle-même n'est pas illégale — c'est l'absence de droits de diffusion qui rend un service illicite.",
+          },
+          {
+            q: "Peut-on recevoir une amende pour utiliser un IPTV illégal ?",
+            a: "Les risques se concentrent principalement sur les opérateurs et revendeurs de services pirates (jusqu'à 300 000 € d'amende et 3 ans de prison). Les abonnés finaux sont moins directement ciblés, mais les risques de coupure de service et de sécurité informatique sont réels.",
+          },
+          {
+            q: "Comment savoir si mon service IPTV actuel est légal ?",
+            a: "Vérifiez la présence de mentions légales sur le site, d'une adresse identifiable, de CGV détaillées et d'un service client réel. Si le prix est anormalement bas (moins de 3 €/mois pour des milliers de chaînes premium) ou si le site disparaît régulièrement, ce sont des signaux d'alarme clairs.",
+          },
+          {
+            q: "L'ARCOM surveille-t-elle les abonnés IPTV en France ?",
+            a: "L'ARCOM cible en priorité les opérateurs et revendeurs de services pirates plutôt que les abonnés finaux. Cependant, la législation évolue et le blocage des sites pirates par les FAI français est désormais systématique sur ordonnance du juge.",
+          },
+          {
+            q: "Molotov TV et France.tv sont-ils légaux ?",
+            a: "Oui, Molotov TV, France.tv, TF1+, M6+, Arte.tv et les applications officielles des chaînes sont des services légaux car ils sont exploités directement par les diffuseurs ou avec leurs autorisations explicites.",
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 16 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'quest-ce-que-iptv-guide-debutants',
+    title: "Qu'est-ce que l'IPTV ? Guide complet pour débutants",
+    excerpt:
+      "Comprendre l'IPTV en 5 minutes : définition simple, fonctionnement, différence avec le câble et le satellite, et premiers pas pour démarrer.",
+    category: 'Guide',
+    image: '/blog/covers/quest-ce-que-iptv-guide-debutants.jpg',
+    coverGradient: gradients['Guide'],
+    coverAlt: "Qu'est-ce que l'IPTV — explication pour débutants",
+    readTime: '5 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Vous avez entendu parler de l'IPTV mais vous ne savez pas vraiment ce que c'est ? Ce guide vous explique tout simplement : ce que c'est, comment ça fonctionne, en quoi c'est différent du câble ou du satellite, et comment commencer à l'utiliser. Pas de jargon technique inutile — juste ce qu'il faut savoir pour prendre une décision éclairée.",
+      },
+      { type: 'h2', text: "Définition de l'IPTV" },
+      {
+        type: 'p',
+        text: "IPTV signifie Internet Protocol Television — en français, la télévision via le protocole Internet. Concrètement, au lieu de recevoir vos chaînes TV via une antenne, un câble ou un satellite, vous les recevez via votre connexion Internet, comme vous recevez n'importe quel autre contenu en ligne (vidéos YouTube, Netflix, etc.).",
+      },
+      {
+        type: 'info',
+        text: "📺 En résumé : l'IPTV, c'est la TV par Internet. Vos chaînes arrivent via votre box Internet ou votre Wi-Fi, pas via une antenne ou un satellite.",
+      },
+      { type: 'h2', text: "Comment fonctionne l'IPTV ?" },
+      {
+        type: 'p',
+        text: "Le fonctionnement est simple. Un serveur IPTV encode les flux des chaînes TV et les diffuse en temps réel via Internet. Votre appareil (TV, téléphone, PC) se connecte à ce serveur via une application IPTV et affiche les chaînes exactement comme si vous les regardiez en direct.",
+      },
+      {
+        type: 'ol',
+        items: [
+          "Les chaînes TV sont captées et encodées par le serveur IPTV",
+          "Le flux est transmis en temps réel via Internet (streaming)",
+          "Votre application IPTV (ex. IPTV Smarters Pro) reçoit et décode le flux",
+          "L'image s'affiche sur votre écran avec quelques secondes de délai maximum",
+        ],
+      },
+      { type: 'h2', text: "IPTV vs câble vs satellite : les différences" },
+      {
+        type: 'p',
+        text: "Voici comment l'IPTV se positionne par rapport aux solutions traditionnelles :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Câble (Orange, SFR, Bouygues) : nécessite une infrastructure physique, prix 20-50 €/mois, chaînes limitées selon le forfait",
+          "Satellite (Canal+, TNT Sat) : nécessite une parabole, abonnement souvent coûteux, couverture géographique large",
+          "IPTV : aucune infrastructure physique requise, fonctionne avec toute connexion Internet, accès à des milliers de chaînes internationales, prix compétitif",
+        ],
+      },
+      {
+        type: 'info',
+        text: "🌍 Avantage clé de l'IPTV : vous pouvez accéder à des chaînes du monde entier — françaises, arabes, anglaises, espagnoles — sur un seul abonnement, sans parabole ni décodeur spécifique.",
+      },
+      { type: 'h2', text: "Sur quels appareils peut-on utiliser l'IPTV ?" },
+      {
+        type: 'p',
+        text: "C'est l'un des grands avantages de l'IPTV : sa compatibilité universelle. Vous pouvez regarder l'IPTV sur :",
+      },
+      {
+        type: 'checklist',
+        items: [
+          "Smart TV Samsung, LG, Philips, Sony",
+          "Amazon Fire TV Stick et Fire TV Cube",
+          "Android TV Box (Mi Box, NVIDIA Shield, etc.)",
+          "Smartphones et tablettes Android et iOS",
+          "PC Windows et Mac (via VLC, IPTV Smarters ou navigateur)",
+          "Apple TV (4ème génération et plus récent)",
+          "Roku et Chromecast",
+        ],
+      },
+      { type: 'h2', text: "Qu'est-ce qu'on peut regarder en IPTV ?" },
+      {
+        type: 'p',
+        text: "Un bon abonnement IPTV donne accès à trois types de contenus :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Chaînes en direct (Live TV) : chaînes françaises, internationales, sportives, d'information, musicales — en temps réel",
+          "VOD (Vidéo à la Demande) : films et séries disponibles à tout moment, comme Netflix",
+          "Replay et Catch-up TV : rattraper les émissions et films diffusés dans les jours précédents",
+        ],
+      },
+      { type: 'h2', text: "Quelle connexion Internet faut-il pour l'IPTV ?" },
+      {
+        type: 'p',
+        text: "La connexion Internet est le seul prérequis technique de l'IPTV. Voici les débits recommandés selon la qualité d'image souhaitée :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "SD (480p) : 5 Mbps minimum",
+          "HD (720p / 1080p) : 10 à 20 Mbps",
+          "4K Ultra HD : 25 Mbps minimum",
+          "8K : 50 Mbps et plus",
+        ],
+      },
+      {
+        type: 'info',
+        text: "📶 Conseil : préférez le câble Ethernet au Wi-Fi pour une connexion stable, surtout pour la 4K. Si vous utilisez le Wi-Fi, assurez-vous que votre routeur est proche de votre appareil.",
+      },
+      { type: 'h2', text: "Comment commencer avec l'IPTV ?" },
+      {
+        type: 'p',
+        text: "Démarrer avec l'IPTV est simple en trois étapes :",
+      },
+      {
+        type: 'ol',
+        items: [
+          "Choisissez un abonnement IPTV fiable (ClarioTV propose un test gratuit 24h sans carte bancaire)",
+          "Téléchargez une application IPTV compatible sur votre appareil (IPTV Smarters Pro est recommandé)",
+          "Entrez vos identifiants de connexion reçus par WhatsApp dans l'application — vous êtes prêt",
+        ],
+      },
+      {
+        type: 'cta',
+        heading: 'Essayez l\'IPTV gratuitement pendant 24h',
+        body: 'Test sans engagement, sans carte bancaire. Recevez vos accès via WhatsApp en quelques minutes et découvrez des milliers de chaînes HD et 4K.',
+        href: '/test-gratuit',
+        label: 'Demander mon test gratuit',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "L'IPTV fonctionne-t-il sans abonnement Internet fibre ?",
+            a: "Oui. Une connexion ADSL ou 4G/5G peut suffire pour regarder en HD. La fibre est recommandée pour la 4K et pour plusieurs connexions simultanées dans le foyer.",
+          },
+          {
+            q: "Faut-il un décodeur spécial pour l'IPTV ?",
+            a: "Non. L'IPTV fonctionne via une application sur votre TV, téléphone, PC ou tablette existants. Aucun matériel supplémentaire n'est nécessaire dans la majorité des cas.",
+          },
+          {
+            q: "L'IPTV est-il de bonne qualité ?",
+            a: "La qualité dépend du service choisi et de votre connexion. ClarioTV diffuse en HD, Full HD, 4K et 8K selon votre forfait, avec une technologie anti-coupure pour maintenir la fluidité.",
+          },
+          {
+            q: "Combien coûte un abonnement IPTV ?",
+            a: "Les abonnements IPTV varient entre 3 et 10 € par mois selon la durée et le forfait. ClarioTV propose des forfaits à partir de 3,75 €/mois pour un abonnement 12 mois (forfait Gold).",
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 17 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'iptv-pc-windows-mac-guide-complet',
+    title: 'IPTV sur PC Windows et Mac : guide complet 2026',
+    excerpt:
+      "Regarder l'IPTV sur PC ou Mac est simple. Découvrez les meilleures applications, la configuration pas à pas et les astuces pour une expérience optimale.",
+    category: 'Installation',
+    image: '/blog/covers/iptv-pc-windows-mac-guide-complet.jpg',
+    coverGradient: gradients['Installation'],
+    coverAlt: "IPTV sur PC Windows et Mac — application et configuration",
+    readTime: '7 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Regarder l'IPTV sur PC ou Mac est l'une des options les plus simples et les plus flexibles. Pas besoin de TV ni de décodeur — votre ordinateur suffit. Ce guide vous présente les meilleures applications IPTV pour Windows et Mac, la configuration étape par étape, et les réglages pour obtenir la meilleure qualité d'image possible.",
+      },
+      { type: 'h2', text: "Les meilleures applications IPTV pour PC et Mac" },
+      {
+        type: 'p',
+        text: "Plusieurs applications permettent de regarder l'IPTV sur ordinateur. Voici les plus utilisées et les plus recommandées :",
+      },
+      { type: 'h3', text: "1. VLC Media Player (Windows et Mac)" },
+      {
+        type: 'p',
+        text: "VLC est le lecteur multimédia le plus populaire au monde, et il supporte nativement les flux IPTV au format M3U. C'est la solution la plus simple pour commencer — pas d'inscription, pas de configuration complexe.",
+      },
+      { type: 'h3', text: "2. IPTV Smarters Pro (Windows)" },
+      {
+        type: 'p',
+        text: "IPTV Smarters Pro est disponible sur le Microsoft Store pour Windows 10 et 11. C'est l'application la plus complète : guide des programmes (EPG), gestion des favoris, VOD intégrée, et support Xtream Codes. Elle offre une interface similaire à Netflix, idéale pour les débutants.",
+      },
+      { type: 'h3', text: "3. Kodi (Windows et Mac)" },
+      {
+        type: 'p',
+        text: "Kodi est un media center open source très puissant. Avec l'addon PVR IPTV Simple Client, il permet de lire des listes M3U et affiche un guide des programmes complet. C'est la solution préférée des utilisateurs avancés qui souhaitent personnaliser leur expérience.",
+      },
+      { type: 'h3', text: "4. My IPTV Player (Windows)" },
+      {
+        type: 'p',
+        text: "Application légère disponible sur le Microsoft Store, My IPTV Player supporte les listes M3U et Xtream Codes. Idéale pour les utilisateurs qui veulent une application simple sans les fonctionnalités avancées de Kodi.",
+      },
+      { type: 'h2', text: "Configuration de VLC pour IPTV (Windows et Mac)" },
+      {
+        type: 'p',
+        text: "VLC est la méthode la plus rapide pour démarrer. Voici comment le configurer avec votre lien M3U ClarioTV :",
+      },
+      {
+        type: 'ol',
+        items: [
+          "Téléchargez et installez VLC depuis vlc.videolan.org (gratuit, disponible pour Windows et Mac)",
+          "Ouvrez VLC, cliquez sur Média dans la barre de menu (ou Fichier sur Mac)",
+          "Sélectionnez « Ouvrir un flux réseau »",
+          "Collez votre lien M3U ClarioTV dans le champ URL",
+          "Cliquez sur Lire — votre liste de chaînes se charge automatiquement",
+        ],
+      },
+      {
+        type: 'info',
+        text: "💡 Conseil : pour enregistrer votre liste M3U dans VLC, allez dans Média > Ouvrir un flux réseau, entrez votre URL M3U, puis cliquez sur la flèche à côté de « Lire » et choisissez « Convertir ». Vous pourrez sauvegarder la liste pour y accéder plus rapidement.",
+      },
+      { type: 'h2', text: "Configuration d'IPTV Smarters Pro sur Windows" },
+      {
+        type: 'ol',
+        items: [
+          "Recherchez « IPTV Smarters Pro » dans le Microsoft Store et installez l'application",
+          "Ouvrez l'application et choisissez « Ajouter un utilisateur »",
+          "Sélectionnez « Connexion via Xtream Codes API »",
+          "Saisissez le nom d'utilisateur, le mot de passe et l'URL du serveur reçus de ClarioTV par WhatsApp",
+          "Validez — vos chaînes, la VOD et le replay se chargent automatiquement",
+        ],
+      },
+      { type: 'h2', text: "IPTV sur Mac : solutions spécifiques" },
+      {
+        type: 'p',
+        text: "Sur Mac, les options sont légèrement différentes de Windows. Voici les solutions recommandées :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "VLC pour Mac : la solution universelle, gratuite et simple (voir configuration ci-dessus)",
+          "IINA : un lecteur vidéo moderne pour Mac, compatible M3U, avec une interface soignée",
+          "Kodi pour Mac : media center complet avec l'addon PVR IPTV Simple Client",
+          "Infuse (payant) : excellente application Mac (et Apple TV) pour les flux IPTV, avec interface épurée",
+        ],
+      },
+      { type: 'h2', text: "Optimiser la qualité sur PC" },
+      {
+        type: 'p',
+        text: "Pour obtenir la meilleure expérience IPTV sur PC ou Mac, suivez ces recommandations :",
+      },
+      {
+        type: 'checklist',
+        items: [
+          "Utilisez une connexion Ethernet plutôt que le Wi-Fi pour éviter les micro-coupures",
+          "Fermez les applications gourmandes en bande passante (téléchargements, cloud sync) pendant le visionnage",
+          "Dans VLC, activez l'accélération matérielle dans Préférences > Vidéo > Décodage accéléré",
+          "Réglez la taille du cache réseau à 3000 ms dans VLC pour les flux instables",
+          "Mettez à jour régulièrement votre application IPTV pour bénéficier des dernières optimisations",
+        ],
+      },
+      {
+        type: 'cta',
+        heading: 'Tester ClarioTV sur votre PC ou Mac',
+        body: 'Recevez un accès test gratuit 24h et configurez-le en 5 minutes sur votre ordinateur avec VLC ou IPTV Smarters Pro.',
+        href: '/test-gratuit',
+        label: 'Obtenir mon accès test gratuit',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "Quelle est la meilleure application IPTV pour Windows en 2026 ?",
+            a: "IPTV Smarters Pro (disponible sur le Microsoft Store) est la meilleure option pour la plupart des utilisateurs grâce à son interface intuitive, son support EPG et sa gestion de la VOD. Pour les utilisateurs avancés, Kodi avec l'addon PVR IPTV Simple Client offre plus de personnalisation.",
+          },
+          {
+            q: "Peut-on regarder l'IPTV sur Mac ?",
+            a: "Oui. VLC est la solution la plus simple sur Mac. IINA et Kodi sont également d'excellentes options. Pour une expérience plus moderne et intégrée, Infuse (payant) est très bien noté.",
+          },
+          {
+            q: "Faut-il installer un logiciel spécial pour regarder l'IPTV sur PC ?",
+            a: "VLC est suffisant dans la majorité des cas et s'installe en moins de 2 minutes. Si vous souhaitez un guide des programmes et une interface style Netflix, IPTV Smarters Pro (gratuit sur le Microsoft Store) est recommandé.",
+          },
+          {
+            q: "Mon PC peut-il lire des flux 4K en IPTV ?",
+            a: "Oui, à condition d'avoir une connexion Internet d'au moins 25 Mbps, un processeur récent (ou une carte graphique pour le décodage hardware), et d'activer l'accélération matérielle dans votre lecteur IPTV.",
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 18 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'iptv-vpn-faut-il-utiliser',
+    title: "IPTV et VPN : faut-il vraiment utiliser un VPN avec son abonnement IPTV ?",
+    excerpt:
+      "Le VPN est-il nécessaire pour utiliser l'IPTV ? Avantages, inconvénients, impact sur la qualité de streaming et notre recommandation claire.",
+    category: 'Guide',
+    image: '/blog/covers/iptv-vpn-faut-il-utiliser.jpg',
+    coverGradient: gradients['Guide'],
+    coverAlt: "IPTV et VPN — faut-il utiliser un VPN pour regarder l'IPTV ?",
+    readTime: '5 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "La question du VPN avec l'IPTV revient souvent sur les forums et groupes d'utilisateurs. Certains conseillent de toujours activer un VPN, d'autres disent que c'est inutile voire contre-productif. Dans cet article, on démêle le vrai du faux et on vous donne une réponse claire selon votre situation.",
+      },
+      { type: 'h2', text: "Qu'est-ce qu'un VPN ?" },
+      {
+        type: 'p',
+        text: "Un VPN (Virtual Private Network) est un outil qui chiffre votre connexion Internet et masque votre adresse IP en la remplaçant par celle d'un serveur VPN situé ailleurs. Concrètement, vous semblez naviguer depuis un autre pays, et votre fournisseur d'accès Internet (FAI) ne peut pas voir le contenu de vos communications.",
+      },
+      { type: 'h2', text: "Pourquoi certains utilisateurs IPTV utilisent un VPN ?" },
+      {
+        type: 'ul',
+        items: [
+          "Contournement de restrictions géographiques : accéder à des chaînes bloquées dans leur pays",
+          "Confidentialité : masquer leur activité IPTV à leur FAI",
+          "Contournement du throttling : certains FAI réduisent intentionnellement le débit pour les flux vidéo",
+          "Sécurité sur réseaux Wi-Fi publics : hôtels, aéroports, cafés",
+        ],
+      },
+      { type: 'h2', text: "Les inconvénients d'un VPN pour l'IPTV" },
+      {
+        type: 'p',
+        text: "L'utilisation d'un VPN avec l'IPTV a des inconvénients significatifs qui peuvent dégrader votre expérience :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Réduction de la vitesse : un VPN ralentit votre connexion de 10 à 40 % selon le serveur et le protocole utilisés",
+          "Augmentation de la latence : le flux IPTV doit faire un détour via le serveur VPN, ce qui peut provoquer des micro-coupures",
+          "Coût supplémentaire : un VPN de qualité coûte 3 à 12 €/mois",
+          "Compatibilité : certaines applications IPTV détectent les VPN et refusent de fonctionner",
+          "Complexité : configuration supplémentaire pour les utilisateurs non techniques",
+        ],
+      },
+      {
+        type: 'info',
+        text: "⚡ Impact concret : si votre connexion est de 100 Mbps avec un VPN actif, elle peut tomber à 60-80 Mbps. Pour regarder en 4K (25 Mbps requis), cela reste suffisant, mais pour plusieurs flux simultanés ou du 8K, cela peut poser problème.",
+      },
+      { type: 'h2', text: "Faut-il un VPN avec ClarioTV ?" },
+      {
+        type: 'p',
+        text: "Non, ClarioTV ne nécessite pas de VPN pour fonctionner. Nos serveurs sont optimisés pour la France et accessibles directement depuis votre connexion habituelle. Un VPN n'améliorera pas votre expérience et risque au contraire de dégrader la qualité de vos flux, en particulier en 4K et 8K.",
+      },
+      { type: 'h2', text: "Quand un VPN est-il utile avec l'IPTV ?" },
+      {
+        type: 'p',
+        text: "Il existe des situations où l'utilisation d'un VPN avec l'IPTV peut être justifiée :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Vous voyagez à l'étranger et souhaitez accéder à vos chaînes françaises normalement",
+          "Votre FAI throttle spécifiquement les flux vidéo (vérifiable avec un test de débit Speedtest)",
+          "Vous utilisez un réseau Wi-Fi public (hôtel, aéroport) et souhaitez sécuriser votre connexion",
+        ],
+      },
+      { type: 'h2', text: "Quel VPN choisir si vous en avez besoin ?" },
+      {
+        type: 'p',
+        text: "Si vous décidez d'utiliser un VPN, choisissez un service reconnu pour ses performances en streaming. Les plus recommandés pour l'IPTV sont ExpressVPN, NordVPN et Surfshark. Choisissez toujours un serveur proche de vous géographiquement pour minimiser l'impact sur la vitesse.",
+      },
+      {
+        type: 'checklist',
+        items: [
+          "Choisir un serveur VPN dans votre pays (France) pour minimiser la perte de vitesse",
+          "Activer le protocole WireGuard ou Lightway pour le meilleur compromis vitesse/sécurité",
+          "Tester avec et sans VPN pour comparer la qualité des flux",
+          "Désactiver le VPN si vous constatez des coupures ou un buffering excessif",
+        ],
+      },
+      {
+        type: 'cta',
+        heading: 'Testez ClarioTV sans VPN',
+        body: 'Notre service fonctionne parfaitement en France sans VPN. Demandez un test gratuit 24h et constatez la qualité par vous-même.',
+        href: '/test-gratuit',
+        label: 'Démarrer le test gratuit',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "Un VPN améliore-t-il la qualité de l'IPTV ?",
+            a: "Pas dans la majorité des cas. Un VPN ralentit généralement la connexion. Il peut être bénéfique uniquement si votre FAI pratique du throttling sur les flux vidéo, ce qui reste rare en France.",
+          },
+          {
+            q: "L'IPTV fonctionne-t-il moins bien avec un VPN ?",
+            a: "Souvent oui. La réduction de bande passante et l'augmentation de la latence peuvent provoquer des micro-coupures, du buffering ou une dégradation de la qualité d'image, surtout en 4K.",
+          },
+          {
+            q: "Peut-on utiliser un VPN gratuit pour l'IPTV ?",
+            a: "Non. Les VPN gratuits ont des vitesses très limitées (souvent moins de 10 Mbps) et des serveurs surchargés — incompatibles avec un streaming fluide. Si vous avez besoin d'un VPN, utilisez un service payant.",
+          },
+          {
+            q: "Mon FAI peut-il bloquer mon accès IPTV ?",
+            a: "En France, les FAI peuvent être contraints par la justice de bloquer certains services IPTV pirates. Pour un service légal comme ClarioTV, aucun blocage n'est à craindre.",
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 19 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'meilleures-chaines-sportives-iptv-france',
+    title: "Les meilleures chaînes sportives en IPTV France : foot, tennis, F1 et plus",
+    excerpt:
+      "Découvrez quelles chaînes sportives sont disponibles en IPTV en France : Ligue 1, Champions League, beIN Sports, Canal+ Sport, L'Équipe TV et bien plus.",
+    category: 'Abonnement',
+    image: '/blog/covers/meilleures-chaines-sportives-iptv-france.jpg',
+    coverGradient: gradients['Abonnement'],
+    coverAlt: "Chaînes sportives IPTV France — football, tennis, F1",
+    readTime: '6 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Le sport est l'une des principales motivations pour souscrire à un abonnement IPTV en France. Football, tennis, Formule 1, rugby, basket — les amateurs de sport savent que l'accès à toutes les compétitions est morcelé entre de nombreuses chaînes. L'IPTV permet d'accéder à l'ensemble de ces chaînes depuis un seul abonnement. Voici ce que propose ClarioTV pour les passionnés de sport.",
+      },
+      { type: 'h2', text: "Les grandes chaînes sportives disponibles en IPTV" },
+      {
+        type: 'p',
+        text: "Un abonnement IPTV de qualité comme ClarioTV donne accès aux principales chaînes sportives françaises et internationales :",
+      },
+      { type: 'h3', text: "Chaînes sportives françaises" },
+      {
+        type: 'checklist',
+        items: [
+          "Canal+ Sport et Canal+ Foot : Ligue 1 (la moitié des matchs), Formule 1 complète, MotoGP",
+          "beIN Sports 1, 2 et 3 : Champions League, Liga, Serie A, Bundesliga, tournois de tennis",
+          "L'Équipe TV : actualités sportives en continu, sports d'endurance, sports moins médiatisés",
+          "RMC Sport 1 et 2 : Premier League anglaise, Ligue des Champions (en partie), boxe",
+          "Eurosport 1 et 2 : cyclisme (Tour de France), tennis (Roland-Garros, Wimbledon), ski, judo",
+          "DAZN 1, 2 et 3 : Ligue 1 (l'autre moitié), sports de combat",
+        ],
+      },
+      { type: 'h3', text: "Chaînes sportives internationales" },
+      {
+        type: 'ul',
+        items: [
+          "Sky Sports (UK) : Premier League en intégralité, cricket, golf",
+          "BT Sport / TNT Sports : Champions League, rugby (Premiership)",
+          "ESPN, Fox Sports, NBC Sports (USA) : NFL, NBA, MLB, NHL, MLS",
+          "beIN Sports Arabia : compétitions de football arabe et international",
+          "SuperSport : compétitions africaines et Commonwealth",
+        ],
+      },
+      { type: 'h2', text: "Le football en IPTV : toutes les compétitions" },
+      {
+        type: 'p',
+        text: "Le football reste la discipline reine, et l'IPTV permet de suivre l'ensemble des compétitions sans multiplication d'abonnements :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Ligue 1 Uber Eats : intégralité des matchs via Canal+ et DAZN",
+          "UEFA Champions League : matchs disponibles sur beIN Sports, RMC Sport et Canal+",
+          "UEFA Europa League et Conference League : couverture complète",
+          "Liga espagnole, Bundesliga allemande, Serie A italienne, Premier League anglaise",
+          "Coupe du Monde et Euro : chaînes officielles françaises (TF1, M6, beIN Sports)",
+          "Coupe de France : disponible sur beIN Sports et France TV",
+        ],
+      },
+      { type: 'h2', text: "Tennis, F1, rugby : les autres sports phares" },
+      {
+        type: 'p',
+        text: "Au-delà du football, les amateurs de sport trouveront tout ce dont ils ont besoin :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Tennis : Roland-Garros (France TV / Amazon), Wimbledon (BeIN Sports / Eurosport), US Open et Australian Open",
+          "Formule 1 : saison complète sur Canal+ (exclusivité), avec qualifications et courses",
+          "MotoGP : toute la saison disponible sur Canal+ Sport",
+          "Rugby Top 14 : Canal+ et France TV pour les matchs de l'équipe de France",
+          "Basket NBA : beIN Sports et ESPN pour les rencontres de la NBA",
+          "Cyclisme : Eurosport couvre le Tour de France, le Giro et la Vuelta intégralement",
+        ],
+      },
+      {
+        type: 'info',
+        text: "🏆 Bon à savoir : avec ClarioTV, vous accédez à toutes ces chaînes depuis un seul abonnement — sans jongler entre Canal+, beIN Sports, DAZN et RMC Sport séparément. Économisez plusieurs centaines d'euros par an tout en profitant de la même qualité HD et 4K.",
+      },
+      { type: 'h2', text: "Qualité d'image pour le sport en direct" },
+      {
+        type: 'p',
+        text: "La qualité d'image est cruciale pour profiter du sport en direct. ClarioTV propose :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "HD (1080p) : standard pour tous les matchs en direct — qualité identique à Canal+ traditionnel",
+          "4K : disponible pour les grands événements diffusés en 4K par les chaînes",
+          "Technologie AntiFreeze 10.0 : maintien de la continuité du flux même lors des pics de trafic (ex. soir de match)",
+          "Faible latence : quelques secondes de délai maximum par rapport à la diffusion traditionnelle",
+        ],
+      },
+      {
+        type: 'cta',
+        heading: 'Regardez tous les sports avec ClarioTV',
+        body: 'Football, F1, tennis, rugby — accédez à toutes les chaînes sportives depuis un seul abonnement. Testez gratuitement pendant 24h.',
+        href: '/test-gratuit',
+        label: 'Tester gratuitement 24h',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "Peut-on regarder la Ligue 1 en intégralité avec l'IPTV ?",
+            a: "Oui. La Ligue 1 est diffusée entre Canal+, DAZN et beIN Sports — trois chaînes disponibles dans un abonnement ClarioTV, ce qui permet de suivre tous les matchs de la saison.",
+          },
+          {
+            q: "La F1 est-elle disponible en IPTV en France ?",
+            a: "Oui. Canal+ détient l'exclusivité de la F1 en France et diffuse toutes les qualifications et courses de la saison. Canal+ Sport est inclus dans ClarioTV.",
+          },
+          {
+            q: "Les événements sportifs en direct sont-ils disponibles en 4K avec l'IPTV ?",
+            a: "Oui, pour les événements diffusés en 4K par les chaînes (certains matchs de Champions League, événements majeurs). La disponibilité dépend de la chaîne qui diffuse l'événement.",
+          },
+          {
+            q: "Y a-t-il un délai entre la diffusion TV classique et l'IPTV ?",
+            a: "Le délai est généralement de 5 à 15 secondes par rapport à la diffusion hertzienne classique, selon votre connexion Internet. C'est imperceptible pour la plupart des usages, mais peut être gênant si vous suivez simultanément les commentaires en direct sur les réseaux sociaux.",
+          },
+        ],
+      },
+    ],
+  },
+
+  /* ── Post 20 ─────────────────────────────────────────────────────────────── */
+  {
+    slug: 'iptv-vs-canal-plus-comparatif-2026',
+    title: "IPTV vs Canal+ : lequel vaut vraiment le coup en 2026 ?",
+    excerpt:
+      "Comparatif complet IPTV vs Canal+ : prix, contenus, qualité, flexibilité et verdict final. Lequel offre le meilleur rapport qualité/prix pour votre usage ?",
+    category: 'Abonnement',
+    image: '/blog/covers/iptv-vs-canal-plus-comparatif-2026.jpg',
+    coverGradient: gradients['Abonnement'],
+    coverAlt: "IPTV vs Canal+ — comparatif 2026",
+    readTime: '8 min',
+    publishedAt: '2026-05-16',
+    author: 'ClarioTV',
+    content: [
+      {
+        type: 'p',
+        text: "Canal+ est depuis des décennies la référence du divertissement payant en France. L'IPTV représente une alternative croissante, séduisant de plus en plus d'abonnés lassés des prix élevés et des engagements de longue durée. Ce comparatif vous aide à décider lequel des deux correspond le mieux à votre usage et à votre budget.",
+      },
+      { type: 'h2', text: "Comparatif des prix en 2026" },
+      {
+        type: 'p',
+        text: "La différence de prix est l'argument le plus immédiat en faveur de l'IPTV. Voici un état des lieux des tarifs actuels :",
+      },
+      { type: 'h3', text: "Canal+ (tarifs indicatifs 2026)" },
+      {
+        type: 'ul',
+        items: [
+          "Canal+ Essentiel (chaînes Canal+ uniquement) : environ 26 €/mois",
+          "Canal+ avec beIN Sports : environ 35-40 €/mois",
+          "Canal+ intégral (tout compris, RMC Sport, DAZN, etc.) : 55 à 70 €/mois",
+          "Engagement minimum : 12 à 24 mois — frais de résiliation en cas d'arrêt anticipé",
+        ],
+      },
+      { type: 'h3', text: "ClarioTV IPTV (tarifs 2026)" },
+      {
+        type: 'ul',
+        items: [
+          "Forfait Bronze 3 mois : environ 5 €/mois",
+          "Forfait Silver 6 mois : environ 4,50 €/mois",
+          "Forfait Gold 12 mois : 3,75 €/mois (le plus populaire)",
+          "Forfait Diamond 24 mois : le moins cher au mois",
+          "Aucun engagement — résiliation à tout moment sans frais",
+        ],
+      },
+      {
+        type: 'info',
+        text: "💰 L'écart de prix est considérable : Canal+ complet à 55 €/mois vs ClarioTV Gold à 3,75 €/mois, soit une économie de plus de 600 € par an pour un contenu comparable ou supérieur en nombre de chaînes.",
+      },
+      { type: 'h2', text: "Comparatif des contenus" },
+      { type: 'h3', text: "Canal+ — ce qu'il propose" },
+      {
+        type: 'ul',
+        items: [
+          "Films en exclusivité (sorties cinéma 6 mois après leur sortie en salle)",
+          "Séries originales Canal+ (Versailles, Baron Noir, etc.)",
+          "Chaînes Cinéma Ciné+ (Ciné+ Premier, Frisson, Club...)",
+          "F1 en exclusivité, Ligue 1 (en partie), rugby Top 14",
+          "Documentaires, jeunesse (Piwi+, Télétoon+)",
+          "Accès à OCS, Disney+ et Paramount+ en option",
+        ],
+      },
+      { type: 'h3', text: "ClarioTV IPTV — ce qu'il propose" },
+      {
+        type: 'ul',
+        items: [
+          "Plus de 10 000 chaînes françaises et internationales en direct",
+          "30 000+ films et séries en VOD",
+          "Chaînes sportives complètes : Canal+ Sport, beIN Sports 1-3, RMC Sport, Eurosport, DAZN, Sky Sports",
+          "Chaînes premium et cinéma (sans exclusivités Canal+)",
+          "Contenu international : chaînes arabes, anglaises, espagnoles, etc.",
+          "Replay 7 jours pour de nombreuses chaînes",
+        ],
+      },
+      { type: 'h2', text: "Qualité d'image et technique" },
+      {
+        type: 'p',
+        text: "Sur ce point, les deux services offrent des prestations comparables pour les contenus HD :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Canal+ : HD et 4K pour ses productions propres, streaming via l'application myCanal",
+          "ClarioTV : HD (1080p), 4K et 8K selon le forfait, avec technologie AntiFreeze pour limiter les coupures",
+          "Avantage IPTV : pas de décodeur propriétaire obligatoire — fonctionne sur tout appareil existant",
+          "Avantage Canal+ : interface plus soignée, contenus exclusifs en haute qualité certifiée",
+        ],
+      },
+      { type: 'h2', text: "Flexibilité et engagement" },
+      {
+        type: 'p',
+        text: "C'est l'un des avantages majeurs de l'IPTV sur Canal+ :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Canal+ : engagement 12 à 24 mois, frais de résiliation, matériel à retourner",
+          "ClarioTV : sans engagement, sans frais de résiliation, changement de forfait à tout moment",
+          "Canal+ : un seul écran inclus dans le forfait de base (multi-écrans en option payante)",
+          "ClarioTV : 2 connexions simultanées incluses dans les forfaits Gold et Platinum",
+        ],
+      },
+      { type: 'h2', text: "Verdict : qui devrait choisir quoi ?" },
+      {
+        type: 'p',
+        text: "Voici notre recommandation selon votre profil :",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Choisissez Canal+ si : vous êtes fan des exclusivités cinéma Canal+, des séries originales Canal+ et de la F1 en qualité certifiée, et que vous avez le budget",
+          "Choisissez l'IPTV si : vous voulez le plus grand nombre de chaînes au meilleur prix, sans engagement, avec une flexibilité maximale et un accès aux sports de toutes les chaînes",
+          "Les deux ne s'excluent pas : certains utilisateurs combinent un abonnement Canal+ Essentiel pour les exclusivités + ClarioTV pour les chaînes sportives et internationales",
+        ],
+      },
+      {
+        type: 'quote',
+        text: "J'ai résilié Canal+ après 8 ans d'abonnement. ClarioTV me donne accès à beaucoup plus de chaînes pour 10 fois moins cher. Je garde juste Netflix pour les séries.",
+        author: 'Thomas R. — abonné ClarioTV Gold',
+      },
+      {
+        type: 'cta',
+        heading: 'Testez ClarioTV avant de décider',
+        body: 'Comparez par vous-même avec un test gratuit 24h — aucune carte bancaire, aucun engagement. Voir si ClarioTV peut remplacer votre Canal+.',
+        href: '/test-gratuit',
+        label: 'Tester ClarioTV gratuitement',
+      },
+      {
+        type: 'faq',
+        items: [
+          {
+            q: "L'IPTV peut-il vraiment remplacer Canal+ ?",
+            a: "Pour la majorité des utilisateurs, oui. L'IPTV offre davantage de chaînes à une fraction du prix de Canal+. Les seuls contenus exclusivement Canal+ sont leurs films et séries originales et certains droits sportifs en exclusivité (comme une partie de la F1). Si ces contenus ne sont pas essentiels pour vous, l'IPTV est une excellente alternative.",
+          },
+          {
+            q: "Peut-on avoir Canal+ et l'IPTV en même temps ?",
+            a: "Oui. Certains utilisateurs combinent Canal+ Essentiel (pour les films et séries originales) avec ClarioTV pour les chaînes sportives et internationales. Le coût combiné reste inférieur à un abonnement Canal+ intégral.",
+          },
+          {
+            q: "L'IPTV propose-t-il des films récents comme Canal+ ?",
+            a: "L'IPTV (via la VOD intégrée) propose un large catalogue de films. Les exclusivités cinéma Canal+ (films 6 mois après leur sortie en salle) sont spécifiques à Canal+ et ne sont pas disponibles sur d'autres services.",
+          },
+          {
+            q: "Canal+ est-il disponible via l'IPTV ?",
+            a: "Les flux de Canal+ (la chaîne et ses déclinaisons Canal+ Sport, Canal+ Cinéma) sont accessibles via des abonnements IPTV. La VOD et les exclusivités Canal+ restent propres à l'application myCanal.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 /** Convenience: lookup by slug */
