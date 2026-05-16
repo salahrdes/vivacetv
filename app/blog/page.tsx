@@ -50,6 +50,48 @@ export default async function BlogPage({
           subtitle="Retrouvez nos conseils pour choisir votre abonnement IPTV France, installer vos applications et améliorer votre expérience sur tous vos appareils."
         />
 
+        {/* Blog intro section */}
+        <section
+          className="py-12 lg:py-16"
+          style={{ backgroundColor: 'var(--color-surface-alt)' }}
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              className="font-display font-bold text-2xl lg:text-3xl mb-4"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Blog IPTV France — Guides, Conseils et Actualités
+            </h2>
+            <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
+              Bienvenue sur le blog ClarioTV, votre source d&apos;information sur l&apos;IPTV en France.
+              Retrouvez ici nos guides d&apos;installation, nos comparatifs d&apos;applications IPTV, nos
+              conseils pour optimiser votre expérience de streaming et toutes les actualités du monde
+              de la télévision connectée.
+            </p>
+            <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
+              Que vous soyez débutant ou utilisateur confirmé, nos articles vous aideront à tirer le
+              meilleur parti de votre abonnement IPTV. De l&apos;installation sur Smart TV à la
+              configuration sur Android, iOS, PC ou Firestick, nos tutoriels pas à pas vous
+              accompagnent à chaque étape.
+            </p>
+            <h3
+              className="font-display font-semibold text-xl mb-3"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Nos catégories
+            </h3>
+            <ul
+              className="list-disc pl-6 flex flex-col gap-2 text-base"
+              style={{ color: 'var(--color-ink-light)' }}
+            >
+              <li><strong>Guides d&apos;installation</strong> : Comment installer IPTV sur votre appareil préféré</li>
+              <li><strong>Comparatifs</strong> : Les meilleures applications IPTV du marché</li>
+              <li><strong>Conseils</strong> : Résoudre les problèmes courants (coupures, buffering)</li>
+              <li><strong>Actualités</strong> : Les dernières tendances IPTV en France</li>
+            </ul>
+          </div>
+        </section>
+
         <div
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
