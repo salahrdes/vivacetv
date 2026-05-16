@@ -56,7 +56,7 @@ const guides = [
     slug: 'installation-iptv',
     icon: <Download size={22} aria-hidden="true" />,
     label: 'Installation',
-    title: 'Guide d\'installation IPTV',
+    title: "Guide d'installation IPTV",
     description:
       'Installation pas à pas sur Android TV, Firestick, Smart TV Samsung/LG, PC et iPhone.',
     readTime: '7 min',
@@ -65,9 +65,9 @@ const guides = [
     slug: 'iptv-sur-pc',
     icon: <Monitor size={22} aria-hidden="true" />,
     label: 'PC & Mac',
-    title: 'IPTV sur PC : toutes les méthodes',
+    title: "IPTV sur PC : toutes les méthodes",
     description:
-      'VLC, IPTV Smarters Web, Kodi — les meilleures façons de regarder l\'IPTV sur ordinateur.',
+      "VLC, IPTV Smarters Web, Kodi — les meilleures façons de regarder l'IPTV sur ordinateur.",
     readTime: '5 min',
   },
   {
@@ -92,18 +92,18 @@ const guides = [
     slug: 'serveur-iptv',
     icon: <Layers size={22} aria-hidden="true" />,
     label: 'Infrastructure',
-    title: 'Qu\'est-ce qu\'un serveur IPTV ?',
+    title: "Qu'est-ce qu'un serveur IPTV ?",
     description:
-      'Comment choisir un bon serveur IPTV : uptime, anti-freeze, CDN et indicateurs de qualité.',
+      "Comment choisir un bon serveur IPTV : uptime, anti-freeze, CDN et indicateurs de qualité.",
     readTime: '5 min',
   },
   {
     slug: 'iptv-amende',
     icon: <Shield size={22} aria-hidden="true" />,
     label: 'Légalité',
-    title: 'IPTV illégal en France : risques et amendes',
+    title: "IPTV illégal en France : risques et amendes",
     description:
-      'Ce que dit la loi française sur l\'IPTV, les risques pour les utilisateurs et comment rester dans la légalité.',
+      "Ce que dit la loi française sur l'IPTV, les risques pour les utilisateurs et comment rester dans la légalité.",
     readTime: '6 min',
   },
 ];
@@ -126,6 +126,31 @@ export default function GuideIptvPage() {
           titleHighlight="l'IPTV en France"
           subtitle="Guides pratiques, conseils d'installation et réponses à toutes vos questions sur l'IPTV — rédigés par des experts pour vous aider à démarrer en toute confiance."
         />
+
+        {/* ── Intro IPTV ──────────────────────────────────────────────── */}
+        <section
+          className="py-12 lg:py-16"
+          style={{ backgroundColor: 'var(--color-surface)' }}
+          aria-labelledby="intro-iptv-heading"
+        >
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              id="intro-iptv-heading"
+              className="font-display font-bold text-2xl lg:text-3xl mb-5"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Qu&apos;est-ce que l&apos;IPTV ?
+            </h2>
+            <div className="flex flex-col gap-4 text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
+              <p>
+                L&apos;IPTV (Internet Protocol Television) est une technologie qui permet de regarder des chaînes de télévision en direct, des films et des séries via votre connexion internet, sans antenne ni satellite. Contrairement à la télévision classique, l&apos;IPTV diffuse les flux vidéo en temps réel grâce à des protocoles internet, ce qui offre une qualité d&apos;image supérieure et une flexibilité totale sur vos appareils : Smart TV, smartphone, tablette, PC, Fire TV Stick ou box Android.
+              </p>
+              <p>
+                Nos guides ci-dessous couvrent tous les aspects de l&apos;IPTV en France : du fonctionnement technique aux meilleures applications, en passant par l&apos;installation étape par étape et les questions de légalité. Que vous découvriez l&apos;IPTV pour la première fois ou que vous souhaitiez optimiser votre configuration, vous trouverez ici toutes les réponses nécessaires pour profiter d&apos;une expérience télévisuelle moderne et sans contrainte.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Article grid */}
         <section
