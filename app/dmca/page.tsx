@@ -18,6 +18,12 @@ export default function DmcaPage() {
       updatedAt="1er avril 2026"
       sections={[
         {
+          heading: 'Respect des droits d\'auteur',
+          paragraphs: [
+            "ClarioTV respecte les droits de propriété intellectuelle et s'engage à traiter avec sérieux toute notification de violation du droit d'auteur soumise conformément au Digital Millennium Copyright Act (DMCA). Si vous êtes titulaire d'un droit d'auteur et estimez que des contenus accessibles via notre service portent atteinte à vos droits, veuillez nous contacter via la procédure décrite ci-dessous.",
+          ],
+        },
+        {
           heading: 'Signalement de contenu',
           paragraphs: [
             "Si vous êtes titulaire d'un droit d'auteur ou son représentant autorisé et pensez qu'un contenu accessible via notre service porte atteinte à vos droits, vous pouvez nous soumettre une demande de retrait conformément au DMCA.",
