@@ -64,10 +64,69 @@ export default function ContactPage() {
           subtitle="Une question avant de commander ? Besoin d'aide pour choisir votre forfait IPTV ou configurer votre appareil ? Notre équipe vous accompagne rapidement."
         />
 
+        {/* Intro SEO section */}
+        <section
+          className="py-12 lg:py-16"
+          style={{ backgroundColor: 'var(--color-surface-alt)' }}
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              className="font-display font-bold text-2xl lg:text-3xl mb-4"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Contactez l&apos;équipe ClarioTV
+            </h2>
+            <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
+              Vous avez une question sur votre abonnement IPTV, besoin d&apos;aide pour l&apos;installation
+              ou souhaitez en savoir plus sur nos offres ? Notre équipe de support est disponible
+              7 jours sur 7 pour vous accompagner.
+            </p>
+            <h3
+              className="font-display font-semibold text-xl mb-3"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Notre engagement
+            </h3>
+            <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
+              Chez ClarioTV, la satisfaction de nos abonnés est notre priorité absolue. Nous nous
+              engageons à répondre à toutes vos demandes dans un délai maximum de 24 heures.
+              Que ce soit pour une question technique, une demande de remboursement ou des
+              informations sur nos abonnements IPTV premium, nous sommes là pour vous aider.
+            </p>
+            <h3
+              className="font-display font-semibold text-xl mb-3"
+              style={{ color: 'var(--color-ink)' }}
+            >
+              Comment nous contacter
+            </h3>
+            <ul
+              className="list-disc pl-6 flex flex-col gap-2 text-base mb-4"
+              style={{ color: 'var(--color-ink-light)' }}
+            >
+              <li>
+                <strong>Support technique</strong> : Pour tout problème de connexion,
+                configuration ou compatibilité avec votre appareil.
+              </li>
+              <li>
+                <strong>Questions commerciales</strong> : Pour en savoir plus sur nos formules
+                d&apos;abonnement IPTV et nos tarifs.
+              </li>
+              <li>
+                <strong>Remboursements</strong> : Conformément à notre politique de remboursement
+                sous 7 jours.
+              </li>
+            </ul>
+            <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
+              Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les meilleurs
+              délais. Nous traitons chaque demande avec soin et confidentialité.
+            </p>
+          </div>
+        </section>
+
         <div className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            {/* ── Two-column layout ──────────────────────────────────────── */}
+            {/* Two-column layout */}
             <div className="grid lg:grid-cols-[1fr_380px] gap-12 items-start">
 
               {/* Form */}
@@ -143,7 +202,7 @@ export default function ContactPage() {
                     className="font-display font-bold text-base"
                     style={{ color: 'var(--color-surface)' }}
                   >
-                    Besoin d'une réponse rapide ?
+                    Besoin d&apos;une réponse rapide ?
                   </p>
                   <p className="text-sm" style={{ color: 'var(--color-gray-400)' }}>
                     Contactez-nous directement sur WhatsApp pour obtenir une assistance plus rapide.
