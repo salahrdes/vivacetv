@@ -18,6 +18,12 @@ export default function PolitiqueRemboursementPage() {
       updatedAt="1er avril 2026"
       sections={[
         {
+          heading: 'Notre engagement',
+          paragraphs: [
+            "ClarioTV met tout en œuvre pour garantir la satisfaction de ses clients. Avant tout achat, nous proposons un test gratuit de 24 heures afin de s'assurer de la compatibilité du service avec votre appareil et votre connexion. Si malgré nos efforts de support vous n'êtes pas satisfait dans les conditions décrites ci-dessous, nous examinons chaque demande de remboursement avec attention et sérieux.",
+          ],
+        },
+        {
           heading: 'Présentation',
           paragraphs: [
             "ClarioTV s'engage à fournir un service de qualité. Si vous rencontrez un problème que notre équipe ne parvient pas à résoudre, nous examinons les demandes de remboursement au cas par cas.",
