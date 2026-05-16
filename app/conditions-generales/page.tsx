@@ -18,6 +18,12 @@ export default function ConditionsGeneralesPage() {
       updatedAt="1er avril 2026"
       sections={[
         {
+          heading: 'Présentation',
+          paragraphs: [
+            "Les présentes Conditions Générales d'Utilisation (CGU) définissent les règles d'accès et d'utilisation du service IPTV ClarioTV. En souscrivant un abonnement ou en utilisant l'accès test gratuit, l'utilisateur reconnaît avoir pris connaissance de ces conditions et les accepte sans réserve. ClarioTV se réserve le droit de les modifier à tout moment ; les nouvelles conditions prennent effet à leur date de publication.",
+          ],
+        },
+        {
           heading: 'Objet',
           paragraphs: [
             "Les présentes Conditions Générales d'Utilisation (CGU) ont pour objet de définir les modalités et conditions dans lesquelles ClarioTV fournit ses services de streaming IPTV ainsi que les droits et obligations des parties.",
