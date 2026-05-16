@@ -18,6 +18,12 @@ export default function MentionsLegalesPage() {
       updatedAt="1er avril 2026"
       sections={[
         {
+          heading: 'À propos de ce document',
+          paragraphs: [
+            'Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l\'Économie Numérique (LCEN), les présentes mentions légales précisent l\'identité de l\'éditeur du site clariotv.com, les conditions d\'hébergement, ainsi que les droits et obligations des utilisateurs. Elles constituent un engagement de transparence vis-à-vis de nos utilisateurs et des autorités compétentes.',
+          ],
+        },
+        {
           heading: 'Éditeur du site',
           paragraphs: [
             'Le présent site est édité par ClarioTV, prestataire de services de streaming numérique opérant dans le cadre de la législation européenne applicable.',
