@@ -18,6 +18,12 @@ export default function PolitiqueConfidentialitePage() {
       updatedAt="1er avril 2026"
       sections={[
         {
+          heading: 'Engagement de confidentialité',
+          paragraphs: [
+            "La protection de vos données personnelles est une priorité pour ClarioTV. Nous collectons uniquement les informations strictement nécessaires à la fourniture de notre service IPTV, et nous ne les partageons jamais à des fins commerciales. La présente politique explique quelles données nous traitons, dans quel but, et comment vous pouvez exercer vos droits conformément au Règlement Général sur la Protection des Données (RGPD).",
+          ],
+        },
+        {
           heading: 'Données collectées',
           paragraphs: [
             "ClarioTV collecte uniquement les données strictement nécessaires à la fourniture de son service. Ces données peuvent inclure : nom ou prénom, adresse email, numéro de téléphone WhatsApp, type d'appareil utilisé.",
