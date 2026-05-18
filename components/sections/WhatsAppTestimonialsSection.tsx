@@ -150,7 +150,7 @@ export default function WhatsAppTestimonialsSection() {
           {/* Quote */}
           <p
             className="text-base text-center max-w-sm leading-relaxed italic"
-            style={{ color: 'var(--color-gray-400)' }}
+            style={{ color: 'rgba(255,255,255,0.65)' }}
             aria-live="polite"
           >
             {slides[current].quote}
@@ -166,13 +166,23 @@ export default function WhatsAppTestimonialsSection() {
                 aria-selected={i === current}
                 aria-label={`Témoignage ${i + 1}`}
                 onClick={() => setCurrent(i)}
-                className="rounded-full transition-all duration-200"
+                className="flex items-center justify-center"
                 style={{
-                  width: i === current ? '24px' : '8px',
-                  height: '8px',
-                  backgroundColor: i === current ? 'var(--color-lime)' : 'rgba(255,255,255,0.2)',
+                  minWidth: '24px',
+                  minHeight: '24px',
+                  background: 'none',
+                  padding: '8px 4px',
                 }}
-              />
+              >
+                <span
+                  className="rounded-full transition-all duration-200 block"
+                  style={{
+                    width: i === current ? '24px' : '8px',
+                    height: '8px',
+                    backgroundColor: i === current ? 'var(--color-lime)' : 'rgba(255,255,255,0.2)',
+                  }}
+                />
+              </button>
             ))}
           </div>
 
