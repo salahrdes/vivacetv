@@ -117,7 +117,7 @@ export default function UrgencySection() {
               <span className="text-sm font-semibold" style={{ color: 'var(--color-ink-light)' }}>
                 {label}
               </span>
-              <span className="text-xs" style={{ color: 'var(--color-gray-400)' }}>
+              <span className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
                 {sub}
               </span>
             </div>

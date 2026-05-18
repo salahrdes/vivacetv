@@ -110,7 +110,7 @@ export default function PricingSection() {
                     <div className="text-center">
                       <div
                         className="text-sm mb-0.5 price-original"
-                        style={{ color: 'var(--color-gray-400)' }}
+                        style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
                       >
                         {formatPrice(plan.priceOriginal)} €
                       </div>
@@ -204,7 +204,7 @@ export default function PricingSection() {
           ))}
         </div>
 
-        <p className="mt-6 text-center text-xs" style={{ color: 'var(--color-gray-400)' }}>
+        <p className="mt-6 text-center text-xs" style={{ color: 'var(--color-gray-600)' }}>
           Les performances peuvent varier selon votre connexion Internet, votre appareil et l'application utilisée.
         </p>
       </div>

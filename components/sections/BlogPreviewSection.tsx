@@ -66,7 +66,7 @@ export default function BlogPreviewSection() {
                   <Badge variant="lime-soft" className="text-xs">{post.category}</Badge>
                   <span
                     className="flex items-center gap-1 text-xs"
-                    style={{ color: 'var(--color-gray-400)' }}
+                    style={{ color: 'var(--color-gray-600)' }}
                   >
                     <Clock size={11} aria-hidden="true" />
                     {post.readTime}
