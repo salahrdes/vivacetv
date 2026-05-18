@@ -10,7 +10,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import BlogCard from '@/components/ui/BlogCard';
 import ShareButtons from '@/components/sections/ShareButtons';
-import { ArticleSchema, BreadcrumbSchema } from '@/components/seo/JsonLd';
+import { ArticleSchema, BreadcrumbSchema, BlogPostFAQSchema } from '@/components/seo/JsonLd';
 
 /* ─── Static params ─────────────────────────────────────────────────────── */
 export async function generateStaticParams() {
@@ -247,6 +247,40 @@ function RenderBlock({ block }: { block: ContentBlock }) {
   }
 }
 
+/* ─── Read-also box (internal linking) ───────────────────────────────────── */
+function ReadAlso({ posts }: { posts: { slug: string; title: string }[] }) {
+  if (!posts.length) return null;
+  return (
+    <div
+      className="my-6 p-4 rounded-2xl"
+      style={{
+        backgroundColor: 'var(--color-surface-alt)',
+        border: '1px solid var(--color-border)',
+      }}
+    >
+      <p
+        className="text-xs font-semibold uppercase tracking-wider mb-3"
+        style={{ color: 'var(--color-gray-600)' }}
+      >
+        À lire aussi
+      </p>
+      <ul className="flex flex-col gap-1.5">
+        {posts.map((p) => (
+          <li key={p.slug}>
+            <Link
+              href={`/blog/${p.slug}`}
+              className="text-sm font-medium hover:underline"
+              style={{ color: 'var(--color-lime)' }}
+            >
+              → {p.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 /* ─── Formatted date ─────────────────────────────────────────────────────── */
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString('fr-FR', {
@@ -264,8 +298,14 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
 
   const similar = getSimilarPosts(post.slug, 3);
 
+  // Extract FAQ items for schema
+  const faqBlocks = post.content
+    ?.filter((b): b is Extract<typeof b, { type: 'faq' }> => b.type === 'faq')
+    .flatMap((b) => b.items) ?? [];
+
   return (
     <>
+      <BlogPostFAQSchema items={faqBlocks} />
       <ArticleSchema
         title={post.title}
         excerpt={post.excerpt}
@@ -379,9 +419,13 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
 
             {post.content ? (
               <article>
-                {post.content.map((block, i) => (
-                  <RenderBlock key={i} block={block} />
-                ))}
+                {post.content.map((block, i) => {
+                  const rendered = <RenderBlock key={i} block={block} />;
+                  if (i === 3 && similar.length > 0) {
+                    return [rendered, <ReadAlso key="read-also" posts={similar.slice(0, 2)} />];
+                  }
+                  return rendered;
+                })}
               </article>
             ) : (
               /* Placeholder for posts without full content yet */

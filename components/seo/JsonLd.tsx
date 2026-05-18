@@ -120,6 +120,26 @@ export function FAQPageSchema({ categories }: { categories: FaqCategory[] }) {
   );
 }
 
+/* ─── Blog post FAQ schema ────────────────────────────────────────────────── */
+export function BlogPostFAQSchema({ items }: { items: { q: string; a: string }[] }) {
+  if (!items.length) return null;
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function WebSiteSchema() {
   const schema = {
     '@context': 'https://schema.org',
