@@ -43,10 +43,7 @@ export const metadata: Metadata = {
     canonical: siteConfig.url,
   },
   icons: {
-    icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    shortcut: '/icon.svg',
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
   },
 };
 
@@ -63,7 +60,7 @@ function buildFontsUrl(displayFont: string, bodyFont: string): string | null {
   }
 
   if (!parts.length) return null;
-  return `https://fonts.googleapis.com/css2?${parts.join('&')}&display=swap`;
+  return `https://fonts.googleapis.com/css2?${parts.join('&')}&display=optional`;
 }
 
 export default async function RootLayout({
