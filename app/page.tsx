@@ -19,9 +19,9 @@ import FAQSection from '@/components/sections/FAQSection';
 import FinalCTA from '@/components/sections/FinalCTA';
 
 export const metadata: Metadata = {
-  title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
+  title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
   description:
-    'Découvrez ClarioTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV. Activation rapide, qualité HD/4K et support 24/7.',
+    'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV. Activation rapide, qualité HD/4K et support 24/7.',
   keywords: [
     'IPTV France',
     'abonnement IPTV France',
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: siteConfig.url },
   openGraph: {
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
+    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
     description:
-      'Découvrez ClarioTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
+      'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
     url: siteConfig.url,
     type: 'website',
   },

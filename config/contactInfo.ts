@@ -34,7 +34,7 @@ export const contactCards: ContactCard[] = [
   {
     icon: 'email',
     title: 'Email',
-    value: 'support@clariotv.com',
+    value: 'support@vivacetv.com',
     note: 'Réponse sous 24 heures',
   },
   {

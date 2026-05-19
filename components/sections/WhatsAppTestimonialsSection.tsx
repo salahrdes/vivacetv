@@ -67,7 +67,7 @@ export default function WhatsAppTestimonialsSection() {
         <SectionHeader
           label="Avis réels WhatsApp"
           title="Ce que nos clients disent après l'activation"
-          description="Des retours authentiques de clients en France — directement depuis leur messagerie WhatsApp, après avoir activé leur abonnement ClarioTV."
+          description="Des retours authentiques de clients en France — directement depuis leur messagerie WhatsApp, après avoir activé leur abonnement VivaceTV."
           dark
           className="mb-14"
         />

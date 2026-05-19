@@ -89,7 +89,7 @@ const sampleArticleContent: ContentBlock[] = [
   },
   {
     type: 'p',
-    text: "ClarioTV est compatible avec l'ensemble de ces appareils via des applications dédiées. L'application IPTV Smarters Pro est recommandée pour la plupart des plateformes — elle est gratuite et disponible sur tous les stores.",
+    text: "VivaceTV est compatible avec l'ensemble de ces appareils via des applications dédiées. L'application IPTV Smarters Pro est recommandée pour la plupart des plateformes — elle est gratuite et disponible sur tous les stores.",
   },
   { type: 'h2', text: 'Comparer la qualité HD, Full HD et 4K' },
   {
@@ -113,7 +113,7 @@ const sampleArticleContent: ContentBlock[] = [
   {
     type: 'quote',
     text: "Très satisfait de la qualité 4K. La première fois que je tombe sur un service aussi propre, vraiment rien à dire.",
-    author: 'Client ClarioTV — abonnement Gold 12 mois',
+    author: 'Client VivaceTV — abonnement Gold 12 mois',
   },
   { type: 'h2', text: 'Évaluer la stabilité et l\'assistance' },
   {
@@ -131,11 +131,11 @@ const sampleArticleContent: ContentBlock[] = [
   },
   {
     type: 'p',
-    text: "ClarioTV propose une technologie AntiFreeze 10.0 qui maintient la continuité du flux même lors des pics de trafic. Notre support humain est disponible via WhatsApp à toute heure pour vous accompagner.",
+    text: "VivaceTV propose une technologie AntiFreeze 10.0 qui maintient la continuité du flux même lors des pics de trafic. Notre support humain est disponible via WhatsApp à toute heure pour vous accompagner.",
   },
   {
     type: 'cta',
-    heading: 'Tester ClarioTV sans engagement',
+    heading: 'Tester VivaceTV sans engagement',
     body: 'Vérifiez la qualité et la compatibilité sur votre appareil avant de choisir votre forfait.',
     href: '/test-gratuit',
     label: 'Demander un test gratuit 24h',
@@ -161,7 +161,7 @@ const sampleArticleContent: ContentBlock[] = [
   { type: 'h2', text: 'Tester avant de s\'engager' },
   {
     type: 'p',
-    text: "Un test gratuit est la meilleure façon de valider la compatibilité de votre appareil et la qualité du service avant tout paiement. ClarioTV propose un test gratuit de 24 heures accessible sur tous les appareils compatibles.",
+    text: "Un test gratuit est la meilleure façon de valider la compatibilité de votre appareil et la qualité du service avant tout paiement. VivaceTV propose un test gratuit de 24 heures accessible sur tous les appareils compatibles.",
   },
   { type: 'h3', text: 'Comment se déroule le test gratuit ?' },
   {
@@ -194,7 +194,7 @@ const sampleArticleContent: ContentBlock[] = [
   { type: 'h2', text: 'Conclusion' },
   {
     type: 'p',
-    text: "Choisir le meilleur abonnement IPTV France repose sur quelques critères simples : la compatibilité avec vos appareils, la qualité d'image souhaitée, la stabilité du service et la réactivité du support. Profitez du test gratuit ClarioTV pour valider tous ces points avant de vous engager.",
+    text: "Choisir le meilleur abonnement IPTV France repose sur quelques critères simples : la compatibilité avec vos appareils, la qualité d'image souhaitée, la stabilité du service et la réactivité du support. Profitez du test gratuit VivaceTV pour valider tous ces points avant de vous engager.",
   },
   {
     type: 'p',
@@ -215,7 +215,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Guide pour choisir un abonnement IPTV France',
     readTime: '8 min',
     publishedAt: '2026-04-01',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: sampleArticleContent,
   },
   {
@@ -229,7 +229,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Installation IPTV sur Smart TV Samsung et LG',
     readTime: '4 min',
     publishedAt: '2026-04-05',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -240,7 +240,7 @@ export const blogPosts: BlogPost[] = [
         type: 'checklist',
         items: [
           "Une connexion Internet haut débit (minimum 25 Mbps pour la 4K)",
-          "Un abonnement IPTV actif (ex. ClarioTV Gold) avec vos identifiants Xtream ou votre lien M3U",
+          "Un abonnement IPTV actif (ex. VivaceTV Gold) avec vos identifiants Xtream ou votre lien M3U",
           "Une Smart TV connectée au réseau (Wi-Fi ou câble Ethernet)",
           "L'application IPTV compatible avec votre modèle de TV",
         ],
@@ -264,13 +264,13 @@ export const blogPosts: BlogPost[] = [
           "Ouvrez l'application depuis votre menu principal",
         ],
       },
-      { type: 'h3', text: "Saisir les identifiants ClarioTV" },
+      { type: 'h3', text: "Saisir les identifiants VivaceTV" },
       {
         type: 'ol',
         items: [
           "Dans IPTV Smarters Pro, choisissez \"Connexion avec Xtream Codes API\"",
           "Saisissez le nom d'utilisateur et le mot de passe reçus par WhatsApp",
-          "Entrez l'URL du serveur fournie par ClarioTV",
+          "Entrez l'URL du serveur fournie par VivaceTV",
           "Appuyez sur Connexion — vos chaînes se chargent automatiquement",
         ],
       },
@@ -285,7 +285,7 @@ export const blogPosts: BlogPost[] = [
           "Ouvrez le LG Content Store depuis l'écran d'accueil",
           "Recherchez \"SmartIPTV\" ou \"SS IPTV\"",
           "Installez l'application et ouvrez-la",
-          "Entrez votre URL M3U ClarioTV dans les paramètres de la liste de chaînes",
+          "Entrez votre URL M3U VivaceTV dans les paramètres de la liste de chaînes",
           "Validez et profitez de votre IPTV en Smart TV LG",
         ],
       },
@@ -299,14 +299,14 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Ouvrez le Google Play Store sur votre TV",
           "Recherchez et installez \"IPTV Smarters Pro\"",
-          "Configurez avec vos identifiants Xtream Codes ClarioTV",
+          "Configurez avec vos identifiants Xtream Codes VivaceTV",
           "Pour les modèles sans Play Store : utilisez un downloader APK pour installer l'application manuellement",
         ],
       },
       { type: 'h2', text: "Configurer le guide des programmes (EPG)" },
       {
         type: 'p',
-        text: "L'EPG (Electronic Programme Guide) affiche les programmes TV en temps réel, comme un guide TV classique. ClarioTV fournit automatiquement l'EPG dans vos identifiants — vous n'avez rien de spécial à configurer dans IPTV Smarters Pro, il se charge automatiquement.",
+        text: "L'EPG (Electronic Programme Guide) affiche les programmes TV en temps réel, comme un guide TV classique. VivaceTV fournit automatiquement l'EPG dans vos identifiants — vous n'avez rien de spécial à configurer dans IPTV Smarters Pro, il se charge automatiquement.",
       },
       { type: 'h2', text: "Problèmes courants et solutions" },
       {
@@ -321,9 +321,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'cta',
         heading: "Obtenir votre abonnement IPTV Smart TV",
-        body: "Choisissez votre forfait ClarioTV et recevez vos identifiants en quelques minutes pour profiter de l'IPTV sur votre Smart TV.",
+        body: "Choisissez votre forfait VivaceTV et recevez vos identifiants en quelques minutes pour profiter de l'IPTV sur votre Smart TV.",
         href: '/abonnements',
-        label: 'Voir les abonnements ClarioTV',
+        label: 'Voir les abonnements VivaceTV',
       },
       {
         type: 'faq',
@@ -334,7 +334,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Faut-il un abonnement IPTV séparé de l'application ?",
-            a: "Oui. L'application IPTV Smarters Pro est gratuite à télécharger, mais elle a besoin d'un abonnement IPTV actif (comme ClarioTV) pour accéder aux chaînes.",
+            a: "Oui. L'application IPTV Smarters Pro est gratuite à télécharger, mais elle a besoin d'un abonnement IPTV actif (comme VivaceTV) pour accéder aux chaînes.",
           },
           {
             q: "L'application IPTV Smarters Pro est-elle disponible sur Samsung ?",
@@ -346,7 +346,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Comment recevoir mes identifiants après la commande ?",
-            a: "Vos identifiants ClarioTV (URL serveur, nom d'utilisateur, mot de passe) vous sont envoyés directement sur WhatsApp dans les minutes suivant votre commande.",
+            a: "Vos identifiants VivaceTV (URL serveur, nom d'utilisateur, mot de passe) vous sont envoyés directement sur WhatsApp dans les minutes suivant votre commande.",
           },
         ],
       },
@@ -356,18 +356,18 @@ export const blogPosts: BlogPost[] = [
     slug: 'configurer-iptv-android-tv',
     title: 'Configurer IPTV sur Android TV',
     excerpt:
-      'Suivez un guide simple pour utiliser ClarioTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
+      'Suivez un guide simple pour utiliser VivaceTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
     category: 'Guide',
     image: '/blog/covers/configurer-iptv-android-tv.jpg',
     coverGradient: gradients['Guide'],
     coverAlt: 'Configuration IPTV sur Android TV',
     readTime: '5 min',
     publishedAt: '2026-04-08',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
-        text: "Android TV est la plateforme idéale pour profiter de l'IPTV. Flexible, ouverte et compatible avec les meilleures applications IPTV Android, elle offre une expérience complète que ce soit sur une télévision Android TV native ou via une Android Box. Ce guide vous explique comment configurer IPTV Smarters Pro Android et démarrer avec ClarioTV en quelques minutes.",
+        text: "Android TV est la plateforme idéale pour profiter de l'IPTV. Flexible, ouverte et compatible avec les meilleures applications IPTV Android, elle offre une expérience complète que ce soit sur une télévision Android TV native ou via une Android Box. Ce guide vous explique comment configurer IPTV Smarters Pro Android et démarrer avec VivaceTV en quelques minutes.",
       },
       { type: 'h2', text: "Pourquoi Android TV est la meilleure plateforme IPTV" },
       {
@@ -398,7 +398,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "Installation de IPTV Smarters Pro sur Android TV" },
       {
         type: 'p',
-        text: "IPTV Smarters Pro Android est l'application recommandée par ClarioTV pour sa simplicité de configuration et sa stabilité. Voici comment l'installer selon votre appareil.",
+        text: "IPTV Smarters Pro Android est l'application recommandée par VivaceTV pour sa simplicité de configuration et sa stabilité. Voici comment l'installer selon votre appareil.",
       },
       { type: 'h3', text: "Via Google Play Store (Android TV natif)" },
       {
@@ -420,13 +420,13 @@ export const blogPosts: BlogPost[] = [
           "Téléchargez et installez l'APK, puis ouvrez l'application",
         ],
       },
-      { type: 'h2', text: "Configurer ClarioTV dans IPTV Smarters Pro" },
+      { type: 'h2', text: "Configurer VivaceTV dans IPTV Smarters Pro" },
       {
         type: 'ol',
         items: [
           "Ouvrez IPTV Smarters Pro et choisissez \"Ajouter un compte\"",
           "Sélectionnez \"Connexion avec Xtream Codes API\"",
-          "Renseignez le nom du profil (ex. ClarioTV), l'URL du serveur, le nom d'utilisateur et le mot de passe reçus par WhatsApp",
+          "Renseignez le nom du profil (ex. VivaceTV), l'URL du serveur, le nom d'utilisateur et le mot de passe reçus par WhatsApp",
           "Appuyez sur Connexion — la liste des chaînes et l'EPG se chargent automatiquement",
           "Naviguez entre Chaînes Live, Films et Séries depuis le menu principal",
         ],
@@ -441,7 +441,7 @@ export const blogPosts: BlogPost[] = [
         type: 'ul',
         items: [
           "Application absente du Play Store : changez la région du compte Google en États-Unis ou installez via APK",
-          "Chaînes qui ne chargent pas : vérifiez l'URL du serveur et que votre abonnement ClarioTV est actif",
+          "Chaînes qui ne chargent pas : vérifiez l'URL du serveur et que votre abonnement VivaceTV est actif",
           "Buffering sur 4K : passez en câble Ethernet et réduisez la qualité à 1080p dans les paramètres de lecture",
           "Application qui plante au démarrage : effacez les données de l'application dans Paramètres > Applications",
           "EPG vide : patientez quelques minutes après la connexion, l'EPG se synchronise automatiquement",
@@ -449,10 +449,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'cta',
-        heading: "Démarrer avec ClarioTV sur Android TV",
+        heading: "Démarrer avec VivaceTV sur Android TV",
         body: "Profitez de plus de 10 000 chaînes et 40 000 contenus VOD sur votre Android TV avec la technologie AntiFreeze 10.0.",
         href: '/abonnements',
-        label: 'Choisir mon abonnement ClarioTV',
+        label: 'Choisir mon abonnement VivaceTV',
       },
       {
         type: 'faq',
@@ -474,7 +474,7 @@ export const blogPosts: BlogPost[] = [
             a: "Une Android Box offre généralement plus de flexibilité et de puissance. Elle peut être mise à jour ou remplacée sans changer de téléviseur. Cependant, une Smart TV Android TV native fonctionne parfaitement pour l'IPTV dans la plupart des cas.",
           },
           {
-            q: "Comment recevoir mes identifiants ClarioTV ?",
+            q: "Comment recevoir mes identifiants VivaceTV ?",
             a: "Vos identifiants (URL serveur, identifiant, mot de passe) sont envoyés par WhatsApp au +447476614523 dans les minutes suivant votre commande, 24h/24.",
           },
         ],
@@ -492,7 +492,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'IPTV sur iPhone et iPad iOS',
     readTime: '4 min',
     publishedAt: '2026-04-10',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -501,7 +501,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "L'IPTV est-il disponible sur iPhone ?" },
       {
         type: 'p',
-        text: "Oui, l'IPTV fonctionne sur iPhone et iPad via des applications dédiées disponibles sur l'App Store. Apple autorise les lecteurs IPTV compatibles M3U et Xtream Codes, à condition qu'ils ne proposent pas eux-mêmes de contenu illicite. Avec un abonnement ClarioTV, vous accédez à vos chaînes depuis n'importe quelle application IPTV iPhone compatible.",
+        text: "Oui, l'IPTV fonctionne sur iPhone et iPad via des applications dédiées disponibles sur l'App Store. Apple autorise les lecteurs IPTV compatibles M3U et Xtream Codes, à condition qu'ils ne proposent pas eux-mêmes de contenu illicite. Avec un abonnement VivaceTV, vous accédez à vos chaînes depuis n'importe quelle application IPTV iPhone compatible.",
       },
       {
         type: 'info',
@@ -511,7 +511,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: "IPTV Smarters Pro (iOS)" },
       {
         type: 'p',
-        text: "IPTV Smarters Pro est disponible sur l'App Store iOS. C'est l'application recommandée par ClarioTV pour sa compatibilité avec les identifiants Xtream Codes et sa simplicité de configuration. Elle supporte les chaînes live, la VOD et les séries.",
+        text: "IPTV Smarters Pro est disponible sur l'App Store iOS. C'est l'application recommandée par VivaceTV pour sa compatibilité avec les identifiants Xtream Codes et sa simplicité de configuration. Elle supporte les chaînes live, la VOD et les séries.",
       },
       { type: 'h3', text: "GSE Smart IPTV" },
       {
@@ -521,7 +521,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h3', text: "Xtream IPTV Player" },
       {
         type: 'p',
-        text: "Xtream IPTV Player est une application légère et rapide, idéale pour les utilisateurs souhaitant une interface minimaliste. Elle se connecte directement avec les identifiants Xtream Codes de ClarioTV.",
+        text: "Xtream IPTV Player est une application légère et rapide, idéale pour les utilisateurs souhaitant une interface minimaliste. Elle se connecte directement avec les identifiants Xtream Codes de VivaceTV.",
       },
       { type: 'h2', text: "Installation pas à pas sur iPhone" },
       {
@@ -531,7 +531,7 @@ export const blogPosts: BlogPost[] = [
           "Téléchargez et installez l'application gratuitement",
           "Ouvrez l'application et choisissez \"Ajouter un compte\"",
           "Sélectionnez \"Connexion avec Xtream Codes API\"",
-          "Saisissez l'URL du serveur, votre identifiant et mot de passe ClarioTV reçus par WhatsApp",
+          "Saisissez l'URL du serveur, votre identifiant et mot de passe VivaceTV reçus par WhatsApp",
           "Vos chaînes, films et séries apparaissent automatiquement",
         ],
       },
@@ -545,7 +545,7 @@ export const blogPosts: BlogPost[] = [
         type: 'ul',
         items: [
           "L'application n'est pas disponible dans mon pays : changez la région de votre identifiant Apple Store temporairement vers les États-Unis",
-          "Les chaînes ne se chargent pas : vérifiez vos identifiants ClarioTV et votre connexion Internet",
+          "Les chaînes ne se chargent pas : vérifiez vos identifiants VivaceTV et votre connexion Internet",
           "Buffering ou coupures : connectez-vous en Wi-Fi 5 GHz ou réduisez la qualité de lecture",
           "L'application se ferme seule : effacez le cache dans Réglages > IPTV Smarters Pro > Vider le cache",
           "EPG non disponible : patientez quelques minutes après la connexion pour la synchronisation",
@@ -567,7 +567,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Peut-on utiliser IPTV Smarters Pro sur iPhone ?",
-            a: "Oui, IPTV Smarters Pro iOS est disponible sur l'App Store. C'est l'application recommandée pour configurer votre abonnement ClarioTV sur iPhone.",
+            a: "Oui, IPTV Smarters Pro iOS est disponible sur l'App Store. C'est l'application recommandée pour configurer votre abonnement VivaceTV sur iPhone.",
           },
           {
             q: "Y a-t-il une application IPTV gratuite pour iPhone ?",
@@ -578,7 +578,7 @@ export const blogPosts: BlogPost[] = [
             a: "Parfaitement. L'iPad est même idéal pour l'IPTV grâce à son grand écran. Les applications IPTV iPhone fonctionnent également sur iPad en version optimisée.",
           },
           {
-            q: "Comment recevoir mes identifiants ClarioTV sur iPhone ?",
+            q: "Comment recevoir mes identifiants VivaceTV sur iPhone ?",
             a: "Vos identifiants vous sont envoyés par WhatsApp (+447476614523) dans les minutes suivant votre commande. Vous pouvez les saisir directement dans votre application IPTV iPhone.",
           },
         ],
@@ -596,7 +596,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Résoudre les coupures IPTV et le buffering',
     readTime: '6 min',
     publishedAt: '2026-04-12',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -663,29 +663,29 @@ export const blogPosts: BlogPost[] = [
         type: 'p',
         text: "Si votre connexion est bonne et que les coupures persistent, le problème vient du fournisseur IPTV. Un serveur surchargé, sous-dimensionné ou sans technologie anti-coupure provoque des interruptions fréquentes, surtout lors des événements sportifs en direct.",
       },
-      { type: 'h2', text: "La technologie AntiFreeze 10.0 de ClarioTV" },
+      { type: 'h2', text: "La technologie AntiFreeze 10.0 de VivaceTV" },
       {
         type: 'p',
-        text: "ClarioTV utilise la technologie AntiFreeze 10.0 pour garantir un IPTV stable sans coupure même lors des pics d'audience (matchs de foot, événements en direct). Cette technologie adapte automatiquement le débit du flux en temps réel et bascule sur des serveurs de secours en cas de surcharge. Le résultat : un problème de coupure IPTV résolu à la source, sans intervention de votre part.",
+        text: "VivaceTV utilise la technologie AntiFreeze 10.0 pour garantir un IPTV stable sans coupure même lors des pics d'audience (matchs de foot, événements en direct). Cette technologie adapte automatiquement le débit du flux en temps réel et bascule sur des serveurs de secours en cas de surcharge. Le résultat : un problème de coupure IPTV résolu à la source, sans intervention de votre part.",
       },
       {
         type: 'quote',
-        text: "Depuis que je suis passé chez ClarioTV, plus aucune coupure pendant les matchs. Le Champions League en 4K sans une seule interruption — c'est exactement ce que je cherchais.",
-        author: 'Marc D. — Client ClarioTV Diamond 24 mois',
+        text: "Depuis que je suis passé chez VivaceTV, plus aucune coupure pendant les matchs. Le Champions League en 4K sans une seule interruption — c'est exactement ce que je cherchais.",
+        author: 'Marc D. — Client VivaceTV Diamond 24 mois',
       },
       {
         type: 'cta',
-        heading: "Profitez d'un IPTV sans coupure avec ClarioTV",
+        heading: "Profitez d'un IPTV sans coupure avec VivaceTV",
         body: "La technologie AntiFreeze 10.0 garantit une stabilité maximale. Testez gratuitement pendant 24 heures sans engagement.",
         href: '/abonnements',
-        label: 'Voir les abonnements ClarioTV',
+        label: 'Voir les abonnements VivaceTV',
       },
       {
         type: 'faq',
         items: [
           {
             q: "Pourquoi mon IPTV coupe-t-il uniquement pendant les matchs ?",
-            a: "Les pics d'audience lors des événements sportifs surchargent les serveurs des fournisseurs IPTV de moindre qualité. ClarioTV utilise la technologie AntiFreeze 10.0 pour basculer automatiquement sur des serveurs de secours dans ces situations.",
+            a: "Les pics d'audience lors des événements sportifs surchargent les serveurs des fournisseurs IPTV de moindre qualité. VivaceTV utilise la technologie AntiFreeze 10.0 pour basculer automatiquement sur des serveurs de secours dans ces situations.",
           },
           {
             q: "Comment savoir si mon problème vient de ma connexion ou du serveur ?",
@@ -697,11 +697,11 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Existe-t-il un abonnement IPTV sans coupure ?",
-            a: "ClarioTV propose un IPTV stable sans coupure grâce à sa technologie AntiFreeze 10.0 et son infrastructure de serveurs redondants en France et en Europe.",
+            a: "VivaceTV propose un IPTV stable sans coupure grâce à sa technologie AntiFreeze 10.0 et son infrastructure de serveurs redondants en France et en Europe.",
           },
           {
             q: "Que faire si les coupures persistent malgré tous les réglages ?",
-            a: "Contactez le support ClarioTV via WhatsApp au +447476614523. Notre équipe disponible 24h/24 diagnostique votre configuration et propose une solution personnalisée.",
+            a: "Contactez le support VivaceTV via WhatsApp au +447476614523. Notre équipe disponible 24h/24 diagnostique votre configuration et propose une solution personnalisée.",
           },
         ],
       },
@@ -718,7 +718,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Comparatif applications IPTV Smarters TiviMate',
     readTime: '5 min',
     publishedAt: '2026-04-15',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -739,7 +739,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "IPTV Smarters Pro — le choix universel" },
       {
         type: 'p',
-        text: "IPTV Smarters Pro est l'application IPTV Android la plus populaire en 2025. Gratuite, compatible avec tous les fournisseurs Xtream Codes et M3U, elle fonctionne sur Android, Android TV, iOS et même PC. C'est le choix recommandé par ClarioTV pour sa simplicité et sa stabilité. L'application supporte la VOD, les séries et les chaînes live avec un guide EPG intégré.",
+        text: "IPTV Smarters Pro est l'application IPTV Android la plus populaire en 2025. Gratuite, compatible avec tous les fournisseurs Xtream Codes et M3U, elle fonctionne sur Android, Android TV, iOS et même PC. C'est le choix recommandé par VivaceTV pour sa simplicité et sa stabilité. L'application supporte la VOD, les séries et les chaînes live avec un guide EPG intégré.",
       },
       { type: 'h2', text: "TiviMate — la référence sur Firestick et Android TV" },
       {
@@ -765,7 +765,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'checklist',
         items: [
-          "IPTV Smarters Pro : Android, iOS, PC — Xtream + M3U — EPG — Gratuit — Recommandé ClarioTV",
+          "IPTV Smarters Pro : Android, iOS, PC — Xtream + M3U — EPG — Gratuit — Recommandé VivaceTV",
           "TiviMate : Android TV, Firestick — Xtream + M3U — EPG avancé — Premium 5€/an — Meilleur Android TV",
           "GSE Smart IPTV : Android, iOS, Apple TV — M3U + Xtream — EPG — Gratuit/Premium — Multiplateforme",
           "Perfect Player : Android — M3U — EPG — Totalement gratuit — Interface décodeur",
@@ -778,17 +778,17 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'cta',
-        heading: "Configurez votre application avec ClarioTV",
+        heading: "Configurez votre application avec VivaceTV",
         body: "Nos identifiants Xtream Codes sont compatibles avec toutes les applications listées. Choisissez votre forfait et démarrez en 5 minutes.",
         href: '/abonnements',
-        label: 'Voir les abonnements ClarioTV',
+        label: 'Voir les abonnements VivaceTV',
       },
       {
         type: 'faq',
         items: [
           {
             q: "Quelle est la meilleure application IPTV Android gratuite ?",
-            a: "IPTV Smarters Pro est la meilleure application IPTV Android gratuite en 2025. Elle est complète, compatible Xtream Codes et M3U, et fonctionne avec tous les abonnements IPTV dont ClarioTV.",
+            a: "IPTV Smarters Pro est la meilleure application IPTV Android gratuite en 2025. Elle est complète, compatible Xtream Codes et M3U, et fonctionne avec tous les abonnements IPTV dont VivaceTV.",
           },
           {
             q: "TiviMate est-il gratuit ?",
@@ -799,11 +799,11 @@ export const blogPosts: BlogPost[] = [
             a: "Oui, IPTV Smarters Pro iOS est disponible sur l'App Store. Contrairement à TiviMate, il est compatible iOS ce qui en fait le choix idéal si vous utilisez un iPhone ou un iPad.",
           },
           {
-            q: "Peut-on utiliser plusieurs applications avec le même abonnement ClarioTV ?",
-            a: "Oui. Vos identifiants ClarioTV fonctionnent avec toutes les applications compatibles Xtream Codes (Smarters Pro, TiviMate, GSE...). Le nombre d'appareils simultanés dépend de votre forfait.",
+            q: "Peut-on utiliser plusieurs applications avec le même abonnement VivaceTV ?",
+            a: "Oui. Vos identifiants VivaceTV fonctionnent avec toutes les applications compatibles Xtream Codes (Smarters Pro, TiviMate, GSE...). Le nombre d'appareils simultanés dépend de votre forfait.",
           },
           {
-            q: "Comment configurer une application IPTV avec ClarioTV ?",
+            q: "Comment configurer une application IPTV avec VivaceTV ?",
             a: "Choisissez \"Connexion via Xtream Codes API\" dans votre application, puis saisissez l'URL du serveur, l'identifiant et le mot de passe reçus par WhatsApp après votre commande.",
           },
         ],
@@ -821,11 +821,11 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Guide installation IPTV Smarters Pro',
     readTime: '5 min',
     publishedAt: '2026-04-18',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
-        text: "IPTV Smarters Pro est l'application IPTV la plus utilisée au monde en 2025. Compatible Android, iOS, Windows PC et Smart TV Samsung, elle se configure en moins de 5 minutes avec n'importe quel abonnement IPTV Xtream Codes ou M3U. Ce guide complet vous explique comment télécharger IPTV Smarters Pro sur toutes les plateformes et configurer votre accès ClarioTV étape par étape.",
+        text: "IPTV Smarters Pro est l'application IPTV la plus utilisée au monde en 2025. Compatible Android, iOS, Windows PC et Smart TV Samsung, elle se configure en moins de 5 minutes avec n'importe quel abonnement IPTV Xtream Codes ou M3U. Ce guide complet vous explique comment télécharger IPTV Smarters Pro sur toutes les plateformes et configurer votre accès VivaceTV étape par étape.",
       },
       { type: 'h2', text: "Qu'est-ce qu'IPTV Smarters Pro ?" },
       {
@@ -834,7 +834,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'info',
-        text: "IPTV Smarters Pro est entièrement gratuit à télécharger sur toutes les plateformes. C'est votre abonnement ClarioTV qui fournit le contenu (chaînes, films, séries). L'application est juste le lecteur.",
+        text: "IPTV Smarters Pro est entièrement gratuit à télécharger sur toutes les plateformes. C'est votre abonnement VivaceTV qui fournit le contenu (chaînes, films, séries). L'application est juste le lecteur.",
       },
       { type: 'h2', text: "Télécharger IPTV Smarters Pro — toutes les plateformes" },
       { type: 'h3', text: "IPTV Smarters Pro APK Android / Android TV" },
@@ -862,7 +862,7 @@ export const blogPosts: BlogPost[] = [
           "Ouvrez le Microsoft Store sur votre PC Windows 10 ou 11",
           "Recherchez \"IPTV Smarters Pro\" et installez l'application gratuite",
           "Alternativement, téléchargez la version bureau depuis le site officiel smarters.co",
-          "Ouvrez l'application et procédez à la configuration avec vos identifiants ClarioTV",
+          "Ouvrez l'application et procédez à la configuration avec vos identifiants VivaceTV",
         ],
       },
       { type: 'h3', text: "IPTV Smarters Pro sur iPhone / iPad (iOS)" },
@@ -876,7 +876,7 @@ export const blogPosts: BlogPost[] = [
           "Ouvrez l'App Store sur votre iPhone ou iPad",
           "Recherchez \"IPTV Smarters Pro\" et installez l'application",
           "Si l'application n'apparaît pas dans votre région, changez temporairement votre région App Store vers les États-Unis",
-          "Ouvrez l'application et configurez votre compte ClarioTV",
+          "Ouvrez l'application et configurez votre compte VivaceTV",
         ],
       },
       { type: 'h3', text: "IPTV Smarters Pro sur Samsung Smart TV" },
@@ -890,13 +890,13 @@ export const blogPosts: BlogPost[] = [
           "Depuis l'écran d'accueil de votre Samsung TV, ouvrez le Samsung Apps Store",
           "Recherchez \"IPTV Smarters Pro\" et installez l'application",
           "Si votre Store est configuré en France et que l'app est absente, changez la région du compte Samsung vers les États-Unis",
-          "Ouvrez l'application et configurez votre abonnement ClarioTV",
+          "Ouvrez l'application et configurez votre abonnement VivaceTV",
         ],
       },
-      { type: 'h2', text: "Configurer IPTV Smarters Pro avec ClarioTV" },
+      { type: 'h2', text: "Configurer IPTV Smarters Pro avec VivaceTV" },
       {
         type: 'p',
-        text: "Une fois l'application installée, la configuration de ClarioTV dans IPTV Smarters Pro prend moins de 2 minutes. Deux méthodes sont disponibles selon les informations que vous avez reçues.",
+        text: "Une fois l'application installée, la configuration de VivaceTV dans IPTV Smarters Pro prend moins de 2 minutes. Deux méthodes sont disponibles selon les informations que vous avez reçues.",
       },
       { type: 'h3', text: "Méthode 1 — Xtream Codes API (recommandée)" },
       {
@@ -904,8 +904,8 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Ouvrez IPTV Smarters Pro et appuyez sur \"Ajouter un utilisateur\"",
           "Choisissez \"Connexion avec Xtream Codes API\"",
-          "Renseignez le nom du profil (ex. ClarioTV)",
-          "Saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe fournis par ClarioTV via WhatsApp",
+          "Renseignez le nom du profil (ex. VivaceTV)",
+          "Saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe fournis par VivaceTV via WhatsApp",
           "Appuyez sur Connexion — vos chaînes live, films et séries se chargent automatiquement",
           "L'EPG (guide des programmes) se synchronise dans les minutes suivantes",
         ],
@@ -914,7 +914,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'ol',
         items: [
-          "Copiez le lien M3U fourni par ClarioTV",
+          "Copiez le lien M3U fourni par VivaceTV",
           "Dans IPTV Smarters Pro, choisissez \"Connexion avec URL M3U\"",
           "Collez votre URL M3U dans le champ correspondant",
           "Ajoutez éventuellement l'URL de l'EPG dans le champ guide des programmes",
@@ -938,7 +938,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'ul',
         items: [
-          "Vérifiez que votre abonnement ClarioTV est toujours actif (la date d'expiration vous est communiquée par WhatsApp)",
+          "Vérifiez que votre abonnement VivaceTV est toujours actif (la date d'expiration vous est communiquée par WhatsApp)",
           "Contrôlez que l'URL du serveur est correcte — copiez-la depuis le message WhatsApp sans espace",
           "Effacez les données de l'application dans Paramètres > Applications > IPTV Smarters Pro > Vider les données",
           "Désinstallez et réinstallez l'application pour repartir d'une configuration propre",
@@ -952,31 +952,31 @@ export const blogPosts: BlogPost[] = [
           "Changez de lecteur vidéo dans les paramètres (essayez VLC si ExoPlayer pose problème)",
           "Réduisez la qualité de lecture de 4K à 1080p dans les paramètres de la chaîne",
           "Vérifiez votre débit sur speedtest.net — il doit être supérieur à 25 Mbps pour la 4K",
-          "Contactez le support ClarioTV via WhatsApp si les coupures persistent — nous vérifions le serveur",
+          "Contactez le support VivaceTV via WhatsApp si les coupures persistent — nous vérifions le serveur",
         ],
       },
       {
         type: 'quote',
-        text: "J'ai suivi le guide d'installation en 5 minutes top chrono. L'image est en 4K parfaite, sans une seule coupure depuis 3 mois. Je recommande ClarioTV à tous mes amis.",
-        author: 'Thomas R. — Client ClarioTV Gold 12 mois',
+        text: "J'ai suivi le guide d'installation en 5 minutes top chrono. L'image est en 4K parfaite, sans une seule coupure depuis 3 mois. Je recommande VivaceTV à tous mes amis.",
+        author: 'Thomas R. — Client VivaceTV Gold 12 mois',
       },
       {
         type: 'cta',
-        heading: "Obtenez vos identifiants IPTV Smarters Pro ClarioTV",
-        body: "Commandez votre abonnement ClarioTV et recevez vos identifiants Xtream Codes par WhatsApp en quelques minutes pour configurer IPTV Smarters Pro immédiatement.",
+        heading: "Obtenez vos identifiants IPTV Smarters Pro VivaceTV",
+        body: "Commandez votre abonnement VivaceTV et recevez vos identifiants Xtream Codes par WhatsApp en quelques minutes pour configurer IPTV Smarters Pro immédiatement.",
         href: '/abonnements',
-        label: 'Choisir mon abonnement ClarioTV',
+        label: 'Choisir mon abonnement VivaceTV',
       },
       {
         type: 'faq',
         items: [
           {
             q: "IPTV Smarters Pro est-il gratuit ?",
-            a: "Oui, IPTV Smarters Pro est entièrement gratuit à télécharger sur Android, iOS, Windows et Samsung Smart TV. Vous avez uniquement besoin d'un abonnement IPTV (comme ClarioTV) pour accéder au contenu.",
+            a: "Oui, IPTV Smarters Pro est entièrement gratuit à télécharger sur Android, iOS, Windows et Samsung Smart TV. Vous avez uniquement besoin d'un abonnement IPTV (comme VivaceTV) pour accéder au contenu.",
           },
           {
             q: "Comment configurer IPTV Smarters Pro avec mon abonnement ?",
-            a: "Ouvrez l'application, choisissez \"Connexion avec Xtream Codes API\", puis saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe fournis par ClarioTV via WhatsApp après votre commande.",
+            a: "Ouvrez l'application, choisissez \"Connexion avec Xtream Codes API\", puis saisissez l'URL du serveur, le nom d'utilisateur et le mot de passe fournis par VivaceTV via WhatsApp après votre commande.",
           },
           {
             q: "IPTV Smarters Pro est-il disponible sur Samsung Smart TV ?",
@@ -1005,7 +1005,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Avantages abonnement IPTV 12 mois France',
     readTime: '4 min',
     publishedAt: '2026-04-20',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1014,7 +1014,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "Pourquoi l'abonnement IPTV 12 mois est le plus populaire" },
       {
         type: 'p',
-        text: "Plus de 60 % des clients ClarioTV choisissent le forfait Gold 12 mois. Ce n'est pas un hasard : c'est le point d'équilibre parfait entre engagement et économies. Contrairement au forfait 3 mois (Bronze), le 12 mois donne accès à toutes les fonctionnalités premium dès la première connexion, sans compromis sur la qualité.",
+        text: "Plus de 60 % des clients VivaceTV choisissent le forfait Gold 12 mois. Ce n'est pas un hasard : c'est le point d'équilibre parfait entre engagement et économies. Contrairement au forfait 3 mois (Bronze), le 12 mois donne accès à toutes les fonctionnalités premium dès la première connexion, sans compromis sur la qualité.",
       },
       {
         type: 'ul',
@@ -1029,7 +1029,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "Calcul des économies : 12 mois vs 3 mois vs 6 mois" },
       {
         type: 'p',
-        text: "Voici la comparaison concrète entre les forfaits ClarioTV pour une utilisation sur 12 mois :",
+        text: "Voici la comparaison concrète entre les forfaits VivaceTV pour une utilisation sur 12 mois :",
       },
       {
         type: 'ol',
@@ -1041,7 +1041,7 @@ export const blogPosts: BlogPost[] = [
           "Forfait Diamond (24 mois à 74,99 €) : 3,12 €/mois — idéal pour un engagement long terme",
         ],
       },
-      { type: 'h2', text: "Ce qui est inclus dans un abonnement 12 mois ClarioTV Gold" },
+      { type: 'h2', text: "Ce qui est inclus dans un abonnement 12 mois VivaceTV Gold" },
       {
         type: 'checklist',
         items: [
@@ -1058,17 +1058,17 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "IPTV 12 mois sur Smart TV — compatibilité totale" },
       {
         type: 'p',
-        text: "L'abonnement IPTV 12 mois Smart TV ClarioTV fonctionne sur tous les téléviseurs connectés du marché. Que vous ayez une Samsung (Tizen), une LG (webOS) ou une Android TV (Sony, Philips, TCL), vos identifiants Gold s'utilisent immédiatement avec IPTV Smarters Pro ou SmartIPTV. Un seul abonnement, tous vos écrans.",
+        text: "L'abonnement IPTV 12 mois Smart TV VivaceTV fonctionne sur tous les téléviseurs connectés du marché. Que vous ayez une Samsung (Tizen), une LG (webOS) ou une Android TV (Sony, Philips, TCL), vos identifiants Gold s'utilisent immédiatement avec IPTV Smarters Pro ou SmartIPTV. Un seul abonnement, tous vos écrans.",
       },
       {
         type: 'info',
-        text: "Conseil : testez toujours le service avant de vous engager sur 12 mois. ClarioTV propose un test gratuit 24 heures sur tous les appareils — aucune carte bancaire requise. Demandez votre test par WhatsApp.",
+        text: "Conseil : testez toujours le service avant de vous engager sur 12 mois. VivaceTV propose un test gratuit 24 heures sur tous les appareils — aucune carte bancaire requise. Demandez votre test par WhatsApp.",
       },
       { type: 'h2', text: "Comment commander votre abonnement IPTV 12 mois" },
       {
         type: 'ol',
         items: [
-          "Rendez-vous sur la page abonnements de clariotv.fr",
+          "Rendez-vous sur la page abonnements de vivacetv.fr",
           "Sélectionnez le forfait Gold 12 mois à 44,99 €",
           "Choisissez votre mode de paiement sécurisé",
           "Recevez vos identifiants Xtream Codes par WhatsApp dans les minutes suivant votre commande",
@@ -1090,7 +1090,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'cta',
         heading: "Commandez votre abonnement IPTV 12 mois Gold",
-        body: "Le forfait Gold ClarioTV à 44,99 € inclut 12 mois d'accès complet, la 4K/8K, et le support WhatsApp 24h/24. Soit moins de 3,75 €/mois.",
+        body: "Le forfait Gold VivaceTV à 44,99 € inclut 12 mois d'accès complet, la 4K/8K, et le support WhatsApp 24h/24. Soit moins de 3,75 €/mois.",
         href: '/commander/gold',
         label: 'Commander le forfait Gold 12 mois',
       },
@@ -1099,11 +1099,11 @@ export const blogPosts: BlogPost[] = [
         items: [
           {
             q: "Un abonnement IPTV 12 mois est-il renouvelé automatiquement ?",
-            a: "Non, chez ClarioTV les abonnements ne se renouvellent pas automatiquement. Vous recevez une notification par WhatsApp avant l'expiration pour renouveler si vous le souhaitez.",
+            a: "Non, chez VivaceTV les abonnements ne se renouvellent pas automatiquement. Vous recevez une notification par WhatsApp avant l'expiration pour renouveler si vous le souhaitez.",
           },
           {
             q: "Peut-on utiliser l'abonnement 12 mois sur plusieurs appareils ?",
-            a: "Oui, votre forfait ClarioTV Gold vous permet d'utiliser votre abonnement sur les appareils indiqués dans votre forfait. Vous pouvez configurer l'abonnement sur votre Smart TV, votre smartphone et votre tablette.",
+            a: "Oui, votre forfait VivaceTV Gold vous permet d'utiliser votre abonnement sur les appareils indiqués dans votre forfait. Vous pouvez configurer l'abonnement sur votre Smart TV, votre smartphone et votre tablette.",
           },
           {
             q: "L'abonnement IPTV 12 mois pas cher inclut-il la 4K ?",
@@ -1133,7 +1133,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Guide installation IPTV sur Amazon Firestick Fire TV',
     readTime: '6 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1145,7 +1145,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           'Un Amazon Fire TV Stick (Lite, 4K, 4K Max ou Fire TV Cube)',
           'Une connexion Wi-Fi ou un câble Ethernet (avec adaptateur Ethernet Firestick)',
-          'Vos identifiants ClarioTV reçus par WhatsApp (URL serveur, identifiant, mot de passe)',
+          'Vos identifiants VivaceTV reçus par WhatsApp (URL serveur, identifiant, mot de passe)',
           'Un compte Amazon pour accéder à l\'App Store (gratuit)',
         ],
       },
@@ -1185,7 +1185,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Étape 3 — Télécharger et installer IPTV Smarters Pro' },
       {
         type: 'p',
-        text: "IPTV Smarters Pro est l'application IPTV recommandée pour Firestick. Elle est gratuite, compatible Xtream Codes et M3U, et fonctionne parfaitement avec ClarioTV. Vous pouvez aussi utiliser TiviMate si vous préférez une interface EPG plus avancée.",
+        text: "IPTV Smarters Pro est l'application IPTV recommandée pour Firestick. Elle est gratuite, compatible Xtream Codes et M3U, et fonctionne parfaitement avec VivaceTV. Vous pouvez aussi utiliser TiviMate si vous préférez une interface EPG plus avancée.",
       },
       {
         type: 'ol',
@@ -1201,25 +1201,25 @@ export const blogPosts: BlogPost[] = [
         type: 'info',
         text: "Alternative : TiviMate est également disponible via le Amazon App Store directement. Recherchez « TiviMate » dans la barre de recherche de votre Firestick et installez-le sans passer par Downloader.",
       },
-      { type: 'h2', text: 'Étape 4 — Configurer ClarioTV dans IPTV Smarters Pro' },
+      { type: 'h2', text: 'Étape 4 — Configurer VivaceTV dans IPTV Smarters Pro' },
       {
         type: 'p',
-        text: "Une fois IPTV Smarters Pro ouvert sur votre Firestick, la configuration de ClarioTV prend moins de 2 minutes. Ayez vos identifiants à portée (reçus par WhatsApp après votre commande).",
+        text: "Une fois IPTV Smarters Pro ouvert sur votre Firestick, la configuration de VivaceTV prend moins de 2 minutes. Ayez vos identifiants à portée (reçus par WhatsApp après votre commande).",
       },
       {
         type: 'ol',
         items: [
           'Sur l\'écran d\'accueil de Smarters Pro, cliquez sur Ajouter un utilisateur',
           'Sélectionnez Connexion via Xtream Codes API',
-          'Remplissez les champs : Nom (ex. ClarioTV), URL du serveur, Identifiant, Mot de passe',
+          'Remplissez les champs : Nom (ex. VivaceTV), URL du serveur, Identifiant, Mot de passe',
           'Cliquez sur Ajouter un utilisateur pour valider',
           'Smarters Pro charge les chaînes, la VOD et le guide EPG automatiquement (30 secondes environ)',
         ],
       },
       {
         type: 'quote',
-        text: "Installation en 4 minutes chrono depuis le déballage du Firestick. Le guide étape par étape de ClarioTV est parfait, même sans être technique.",
-        author: 'Sophie M. — Cliente ClarioTV Silver 6 mois',
+        text: "Installation en 4 minutes chrono depuis le déballage du Firestick. Le guide étape par étape de VivaceTV est parfait, même sans être technique.",
+        author: 'Sophie M. — Cliente VivaceTV Silver 6 mois',
       },
       { type: 'h2', text: 'Étape 5 — Optimiser la qualité d\'image sur Firestick' },
       {
@@ -1238,16 +1238,16 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'cta',
         heading: 'Prêt à regarder l\'IPTV sur votre Firestick ?',
-        body: 'Commandez votre abonnement ClarioTV et recevez vos identifiants en quelques minutes via WhatsApp.',
+        body: 'Commandez votre abonnement VivaceTV et recevez vos identifiants en quelques minutes via WhatsApp.',
         href: '/abonnements',
-        label: 'Voir les abonnements ClarioTV',
+        label: 'Voir les abonnements VivaceTV',
       },
       {
         type: 'faq',
         items: [
           {
             q: 'Quelle application IPTV utiliser sur Firestick ?',
-            a: 'IPTV Smarters Pro et TiviMate sont les deux meilleures applications IPTV pour Firestick. TiviMate offre un guide EPG plus élaboré, tandis que Smarters Pro est plus simple à configurer pour les débutants. Les deux sont compatibles avec ClarioTV.',
+            a: 'IPTV Smarters Pro et TiviMate sont les deux meilleures applications IPTV pour Firestick. TiviMate offre un guide EPG plus élaboré, tandis que Smarters Pro est plus simple à configurer pour les débutants. Les deux sont compatibles avec VivaceTV.',
           },
           {
             q: 'Peut-on installer IPTV sur Firestick sans Downloader ?',
@@ -1259,7 +1259,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: 'Comment améliorer la stabilité de l\'IPTV sur Firestick ?',
-            a: 'Utilisez un adaptateur Ethernet Firestick (câble plutôt que Wi-Fi), sélectionnez le lecteur ExoPlayer dans Smarters Pro, et optez pour un fournisseur IPTV avec technologie anti-coupure comme ClarioTV.',
+            a: 'Utilisez un adaptateur Ethernet Firestick (câble plutôt que Wi-Fi), sélectionnez le lecteur ExoPlayer dans Smarters Pro, et optez pour un fournisseur IPTV avec technologie anti-coupure comme VivaceTV.',
           },
           {
             q: 'Mon Firestick est trop lent pour l\'IPTV, que faire ?',
@@ -1282,7 +1282,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Comparatif meilleurs abonnements IPTV France 2026',
     readTime: '9 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1310,12 +1310,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'info',
-        text: "Comment tester la stabilité ? Regardez les avis clients pendant des événements à forte audience (Champions League, finales de Roland-Garros, soirées du Nouvel An). Un fournisseur qui coupe pendant ces moments n'est pas fiable. ClarioTV utilise la technologie AntiFreeze 10.0 pour maintenir la continuité du flux en toutes circonstances.",
+        text: "Comment tester la stabilité ? Regardez les avis clients pendant des événements à forte audience (Champions League, finales de Roland-Garros, soirées du Nouvel An). Un fournisseur qui coupe pendant ces moments n'est pas fiable. VivaceTV utilise la technologie AntiFreeze 10.0 pour maintenir la continuité du flux en toutes circonstances.",
       },
       { type: 'h2', text: 'Qualité d\'image : HD, 4K et 8K en France' },
       {
         type: 'p',
-        text: "En 2026, un bon abonnement IPTV France doit proposer la 4K sur les chaînes qui la supportent (TF1 4K, certains packages sportifs, films en 4K HDR). La 8K reste anecdotique sur le contenu disponible mais certains fournisseurs comme ClarioTV l'intègrent déjà pour les early adopters.",
+        text: "En 2026, un bon abonnement IPTV France doit proposer la 4K sur les chaînes qui la supportent (TF1 4K, certains packages sportifs, films en 4K HDR). La 8K reste anecdotique sur le contenu disponible mais certains fournisseurs comme VivaceTV l'intègrent déjà pour les early adopters.",
       },
       {
         type: 'checklist',
@@ -1378,10 +1378,10 @@ export const blogPosts: BlogPost[] = [
         type: 'info',
         text: "Attention aux prix trop bas (moins de 2 €/mois) : ils cachent souvent des serveurs de mauvaise qualité, un support inexistant et des coupures fréquentes. Un IPTV stable et légal coûte entre 3 € et 5 €/mois sur 12 mois.",
       },
-      { type: 'h2', text: 'Notre recommandation : ClarioTV' },
+      { type: 'h2', text: 'Notre recommandation : VivaceTV' },
       {
         type: 'p',
-        text: "Après avoir testé de nombreux fournisseurs, ClarioTV se distingue par sa technologie AntiFreeze 10.0 qui garantit un flux sans coupure même en période de forte audience, sa qualité d'image jusqu'en 8K, et son support WhatsApp disponible 24h/24. L'activation est immédiate après commande, la configuration est guidée étape par étape.",
+        text: "Après avoir testé de nombreux fournisseurs, VivaceTV se distingue par sa technologie AntiFreeze 10.0 qui garantit un flux sans coupure même en période de forte audience, sa qualité d'image jusqu'en 8K, et son support WhatsApp disponible 24h/24. L'activation est immédiate après commande, la configuration est guidée étape par étape.",
       },
       {
         type: 'ul',
@@ -1394,12 +1394,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'quote',
-        text: "J'ai essayé 3 fournisseurs IPTV différents avant ClarioTV. C'est le seul qui n'a pas coupé pendant la finale de la Champions League. Je ne change plus.",
-        author: 'Karim B. — Client ClarioTV Gold 12 mois',
+        text: "J'ai essayé 3 fournisseurs IPTV différents avant VivaceTV. C'est le seul qui n'a pas coupé pendant la finale de la Champions League. Je ne change plus.",
+        author: 'Karim B. — Client VivaceTV Gold 12 mois',
       },
       {
         type: 'cta',
-        heading: 'Tester ClarioTV gratuitement pendant 24h',
+        heading: 'Tester VivaceTV gratuitement pendant 24h',
         body: 'Validez la qualité et la compatibilité sur tous vos appareils avant de choisir votre forfait.',
         href: '/test-gratuit',
         label: 'Demander un test gratuit',
@@ -1409,11 +1409,11 @@ export const blogPosts: BlogPost[] = [
         items: [
           {
             q: 'Quel est le meilleur abonnement IPTV France en 2026 ?',
-            a: 'ClarioTV est notre recommandation grâce à sa technologie AntiFreeze 10.0, sa qualité 4K/8K et son support WhatsApp 24h/24. Le forfait Gold 12 mois à 44,99 € offre le meilleur rapport qualité/prix à 3,75 €/mois.',
+            a: 'VivaceTV est notre recommandation grâce à sa technologie AntiFreeze 10.0, sa qualité 4K/8K et son support WhatsApp 24h/24. Le forfait Gold 12 mois à 44,99 € offre le meilleur rapport qualité/prix à 3,75 €/mois.',
           },
           {
             q: 'L\'IPTV est-il légal en France ?',
-            a: 'L\'utilisation d\'un service IPTV légal et autorisé est tout à fait légale en France. ClarioTV est un service IPTV légal proposant des contenus autorisés dans le respect de la réglementation.',
+            a: 'L\'utilisation d\'un service IPTV légal et autorisé est tout à fait légale en France. VivaceTV est un service IPTV légal proposant des contenus autorisés dans le respect de la réglementation.',
           },
           {
             q: 'Combien coûte un bon abonnement IPTV en France ?',
@@ -1421,7 +1421,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: 'Peut-on essayer un abonnement IPTV avant de payer ?',
-            a: 'Oui, ClarioTV propose un test gratuit de 24 heures sur tous les appareils compatibles, sans carte bancaire ni engagement. Un moyen simple de valider la qualité avant de s\'abonner.',
+            a: 'Oui, VivaceTV propose un test gratuit de 24 heures sur tous les appareils compatibles, sans carte bancaire ni engagement. Un moyen simple de valider la qualité avant de s\'abonner.',
           },
           {
             q: 'Quelle connexion Internet faut-il pour l\'IPTV en France ?',
@@ -1444,7 +1444,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Comparaison IPTV vs Netflix France 2026',
     readTime: '7 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1469,7 +1469,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Comparaison des prix en 2026' },
       {
         type: 'p',
-        text: "Le prix est souvent le premier argument en faveur de l'IPTV. Voici la comparaison réelle entre Netflix et ClarioTV :",
+        text: "Le prix est souvent le premier argument en faveur de l'IPTV. Voici la comparaison réelle entre Netflix et VivaceTV :",
       },
       {
         type: 'ol',
@@ -1477,12 +1477,12 @@ export const blogPosts: BlogPost[] = [
           'Netflix Standard avec pub : 5,99 €/mois — contenu limité, publicités',
           'Netflix Standard : 13,49 €/mois — Full HD, 2 écrans simultanés',
           'Netflix Premium : 19,99 €/mois — 4K HDR, 4 écrans simultanés',
-          'ClarioTV Gold 12 mois : 3,75 €/mois — 4K/8K, chaînes en direct + VOD illimitée',
+          'VivaceTV Gold 12 mois : 3,75 €/mois — 4K/8K, chaînes en direct + VOD illimitée',
         ],
       },
       {
         type: 'info',
-        text: "💰 Rapport prix/contenu : pour 3,75 €/mois avec ClarioTV, vous obtenez les chaînes en direct (TF1, M6, Canal+, beIN Sports...) + des milliers de films et séries en VOD + les replay. Netflix à 13,49 €/mois ne propose que son catalogue fermé, sans aucune chaîne live.",
+        text: "💰 Rapport prix/contenu : pour 3,75 €/mois avec VivaceTV, vous obtenez les chaînes en direct (TF1, M6, Canal+, beIN Sports...) + des milliers de films et séries en VOD + les replay. Netflix à 13,49 €/mois ne propose que son catalogue fermé, sans aucune chaîne live.",
       },
       { type: 'h2', text: 'Contenu : IPTV et Netflix ne se font pas concurrence' },
       {
@@ -1504,8 +1504,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'quote',
-        text: "J'avais Netflix depuis 4 ans. J'ai ajouté ClarioTV pour avoir beIN Sports et RMC Sport en plus. Le tout me revient moins cher que la box de mon opérateur.",
-        author: 'Thomas R. — Client ClarioTV Silver 6 mois',
+        text: "J'avais Netflix depuis 4 ans. J'ai ajouté VivaceTV pour avoir beIN Sports et RMC Sport en plus. Le tout me revient moins cher que la box de mon opérateur.",
+        author: 'Thomas R. — Client VivaceTV Silver 6 mois',
       },
       { type: 'h2', text: 'Compatibilité appareils : avantage Netflix' },
       {
@@ -1524,7 +1524,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Qualité d\'image : match nul en 4K' },
       {
         type: 'p',
-        text: "Netflix propose la 4K HDR sur son abonnement Premium. ClarioTV propose également la 4K et la 8K sur les chaînes qui le supportent. Dans les deux cas, vous avez besoin d'une télévision 4K et d'une connexion d'au moins 25 Mbps. La qualité d'image est comparable sur les contenus 4K.",
+        text: "Netflix propose la 4K HDR sur son abonnement Premium. VivaceTV propose également la 4K et la 8K sur les chaînes qui le supportent. Dans les deux cas, vous avez besoin d'une télévision 4K et d'une connexion d'au moins 25 Mbps. La qualité d'image est comparable sur les contenus 4K.",
       },
       { type: 'h2', text: 'Conclusion : IPTV ou Netflix ?' },
       {
@@ -1534,7 +1534,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'cta',
         heading: 'Testez l\'IPTV gratuitement avant de décider',
-        body: 'ClarioTV offre un test gratuit de 24 heures sans engagement. Comparez par vous-même.',
+        body: 'VivaceTV offre un test gratuit de 24 heures sans engagement. Comparez par vous-même.',
         href: '/test-gratuit',
         label: 'Demander un test gratuit 24h',
       },
@@ -1551,11 +1551,11 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: 'L\'IPTV est-il moins cher que Netflix ?',
-            a: 'Oui. ClarioTV coûte 3,75 €/mois sur le forfait Gold 12 mois, contre 13,49 €/mois pour Netflix Standard. Mais l\'IPTV et Netflix ne proposent pas le même contenu — la comparaison directe est limitée.',
+            a: 'Oui. VivaceTV coûte 3,75 €/mois sur le forfait Gold 12 mois, contre 13,49 €/mois pour Netflix Standard. Mais l\'IPTV et Netflix ne proposent pas le même contenu — la comparaison directe est limitée.',
           },
           {
             q: 'Peut-on avoir Netflix et l\'IPTV en même temps ?',
-            a: 'Oui, et beaucoup de foyers français le font. ClarioTV (3,75 €/mois) + Netflix Standard (13,49 €/mois) = 17,24 €/mois pour une couverture totale : chaînes en direct + sport + séries originales.',
+            a: 'Oui, et beaucoup de foyers français le font. VivaceTV (3,75 €/mois) + Netflix Standard (13,49 €/mois) = 17,24 €/mois pour une couverture totale : chaînes en direct + sport + séries originales.',
           },
           {
             q: 'L\'IPTV fonctionne-t-il sur un téléviseur avec Netflix préinstallé ?',
@@ -1578,7 +1578,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Installer IPTV sur Smart TV Samsung LG 2026',
     readTime: '5 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1605,7 +1605,7 @@ export const blogPosts: BlogPost[] = [
           'Recherchez « Smart IPTV » et installez l\'application',
           'Lancez Smart IPTV — notez l\'adresse MAC affichée à l\'écran',
           'Depuis votre ordinateur, rendez-vous sur siptv.eu et entrez votre adresse MAC',
-          'Collez votre URL M3U ClarioTV et cliquez sur « Send »',
+          'Collez votre URL M3U VivaceTV et cliquez sur « Send »',
           'Revenez sur la TV et redémarrez l\'application — vos chaînes sont chargées',
         ],
       },
@@ -1624,7 +1624,7 @@ export const blogPosts: BlogPost[] = [
           'Depuis l\'écran d\'accueil LG, ouvrez le LG Content Store',
           'Recherchez « SS IPTV » et installez l\'application',
           'Lancez SS IPTV et allez dans les paramètres (icône engrenage)',
-          'Sélectionnez « Playlist » → « M3U/Xtream » et entrez votre URL ClarioTV',
+          'Sélectionnez « Playlist » → « M3U/Xtream » et entrez votre URL VivaceTV',
           'Validez et patientez le chargement des chaînes (30 à 60 secondes)',
           'Naviguez dans les catégories : Chaînes françaises, Sport, Cinéma…',
         ],
@@ -1655,13 +1655,13 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'quote',
-        text: "Avec un abonnement ClarioTV et 5 minutes de configuration, votre Smart TV devient une plateforme multimédia complète — sans abonnement câble ni satellite.",
-        author: 'ClarioTV',
+        text: "Avec un abonnement VivaceTV et 5 minutes de configuration, votre Smart TV devient une plateforme multimédia complète — sans abonnement câble ni satellite.",
+        author: 'VivaceTV',
       },
       {
         type: 'cta',
         heading: 'Prêt à regarder l\'IPTV sur votre Smart TV ?',
-        body: 'Obtenez votre lien M3U ClarioTV instantanément via WhatsApp. Activation en moins de 5 minutes.',
+        body: 'Obtenez votre lien M3U VivaceTV instantanément via WhatsApp. Activation en moins de 5 minutes.',
         href: '/abonnements',
         label: 'Voir les abonnements',
       },
@@ -1677,8 +1677,8 @@ export const blogPosts: BlogPost[] = [
             a: 'Smart IPTV offre 7 jours gratuits, puis une licence unique de 5,49 €. Pour LG, SS IPTV est 100 % gratuite.',
           },
           {
-            q: 'Mon abonnement ClarioTV fonctionne-t-il sur plusieurs TV ?',
-            a: 'Oui, selon le forfait choisi. Les abonnements ClarioTV Gold et Platinum permettent 2 connexions simultanées — idéal pour le salon et la chambre.',
+            q: 'Mon abonnement VivaceTV fonctionne-t-il sur plusieurs TV ?',
+            a: 'Oui, selon le forfait choisi. Les abonnements VivaceTV Gold et Platinum permettent 2 connexions simultanées — idéal pour le salon et la chambre.',
           },
           {
             q: 'L\'IPTV consomme combien de données ?',
@@ -1705,7 +1705,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'Abonnement IPTV pas cher qualité France 2026',
     readTime: '7 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -1766,15 +1766,15 @@ export const blogPosts: BlogPost[] = [
           'Période d\'essai gratuite ou remboursement possible',
         ],
       },
-      { type: 'h2', text: 'ClarioTV : la meilleure offre qualité/prix du marché français' },
+      { type: 'h2', text: 'VivaceTV : la meilleure offre qualité/prix du marché français' },
       {
         type: 'p',
-        text: "ClarioTV propose des abonnements IPTV France à partir de 3,75 €/mois (forfait 12 mois), avec plus de 20 000 chaînes en HD/4K, un support WhatsApp 24/7 et une activation en moins de 5 minutes.",
+        text: "VivaceTV propose des abonnements IPTV France à partir de 3,75 €/mois (forfait 12 mois), avec plus de 20 000 chaînes en HD/4K, un support WhatsApp 24/7 et une activation en moins de 5 minutes.",
       },
       {
         type: 'ul',
         items: [
-          'Starter 1 mois — 9,99 € : parfait pour tester ClarioTV sans engagement',
+          'Starter 1 mois — 9,99 € : parfait pour tester VivaceTV sans engagement',
           'Confort 3 mois — 19,99 € : idéal pour confirmer la qualité sur la durée',
           'Gold 6 mois — 29,99 € : le choix le plus populaire',
           'Platinum 12 mois — 44,99 € (3,75 €/mois) : le meilleur rapport qualité/prix',
@@ -1782,12 +1782,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'quote',
-        text: "À 3,75 €/mois, ClarioTV est moins cher qu'un café tout en offrant plus de 20 000 chaînes en HD et 4K. C'est l'abonnement IPTV pas cher dont vous avez besoin.",
-        author: 'ClarioTV',
+        text: "À 3,75 €/mois, VivaceTV est moins cher qu'un café tout en offrant plus de 20 000 chaînes en HD et 4K. C'est l'abonnement IPTV pas cher dont vous avez besoin.",
+        author: 'VivaceTV',
       },
       {
         type: 'cta',
-        heading: 'Testez ClarioTV à partir de 9,99 €',
+        heading: 'Testez VivaceTV à partir de 9,99 €',
         body: 'Activation immédiate via WhatsApp. Compatible Smart TV, Firestick, iPhone, Android, PC et plus.',
         href: '/abonnements',
         label: 'Choisir mon forfait',
@@ -1797,7 +1797,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           {
             q: 'Quel est le moins cher des abonnements IPTV fiables ?',
-            a: 'ClarioTV Platinum à 44,99 €/an (3,75 €/mois) est l\'un des abonnements IPTV les moins chers du marché français avec un niveau de qualité et de support sérieux.',
+            a: 'VivaceTV Platinum à 44,99 €/an (3,75 €/mois) est l\'un des abonnements IPTV les moins chers du marché français avec un niveau de qualité et de support sérieux.',
           },
           {
             q: 'Peut-on avoir un IPTV gratuit ?',
@@ -1813,7 +1813,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: 'Comment éviter de se faire arnaquer avec un abonnement IPTV ?',
-            a: 'Vérifiez que le fournisseur a un contact réel (email ou WhatsApp), propose une période d\'essai, accepte les paiements sécurisés et a des avis vérifiables. ClarioTV coche toutes ces cases.',
+            a: 'Vérifiez que le fournisseur a un contact réel (email ou WhatsApp), propose une période d\'essai, accepte les paiements sécurisés et a des avis vérifiables. VivaceTV coche toutes ces cases.',
           },
         ],
       },
@@ -1832,11 +1832,11 @@ export const blogPosts: BlogPost[] = [
     coverAlt: 'IPTV iPhone iPad iOS application 2026',
     readTime: '5 min',
     publishedAt: '2026-05-11',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
-        text: "Regarder l'IPTV sur iPhone ou iPad est plus simple qu'on ne le pense. Apple a assoupli ses règles pour les applications de streaming, et plusieurs apps IPTV de qualité sont désormais disponibles sur l'App Store. Voici les meilleures options et comment les configurer avec votre abonnement ClarioTV.",
+        text: "Regarder l'IPTV sur iPhone ou iPad est plus simple qu'on ne le pense. Apple a assoupli ses règles pour les applications de streaming, et plusieurs apps IPTV de qualité sont désormais disponibles sur l'App Store. Voici les meilleures options et comment les configurer avec votre abonnement VivaceTV.",
       },
       {
         type: 'info',
@@ -1855,7 +1855,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: 'Configuration avec IPTV Smarters Pro (iOS)' },
       {
         type: 'p',
-        text: "IPTV Smarters Pro est l'application la plus complète pour iOS. Voici comment la configurer avec votre abonnement ClarioTV en moins de 5 minutes.",
+        text: "IPTV Smarters Pro est l'application la plus complète pour iOS. Voici comment la configurer avec votre abonnement VivaceTV en moins de 5 minutes.",
       },
       {
         type: 'ol',
@@ -1863,7 +1863,7 @@ export const blogPosts: BlogPost[] = [
           'Téléchargez IPTV Smarters Pro depuis l\'App Store (5,99 €, achat unique)',
           'Ouvrez l\'app et touchez « Ajouter un utilisateur »',
           'Sélectionnez « Connexion via URL M3U » ou « Connexion via Xtream Codes »',
-          'Entrez vos identifiants ClarioTV reçus par WhatsApp après votre commande',
+          'Entrez vos identifiants VivaceTV reçus par WhatsApp après votre commande',
           'Touchez « Charger la liste » — vos chaînes apparaissent en 30 secondes',
           'Naviguez : Chaînes en direct → France → retrouvez TF1, M6, France 2, Canal+…',
         ],
@@ -1875,7 +1875,7 @@ export const blogPosts: BlogPost[] = [
           'Téléchargez GSE Smart IPTV depuis l\'App Store (version gratuite disponible)',
           'Ouvrez l\'app → touchez le menu hamburger en haut à gauche',
           'Sélectionnez « Remote Playlists » → « + » → « M3U URL »',
-          'Collez votre URL M3U ClarioTV et validez',
+          'Collez votre URL M3U VivaceTV et validez',
           'Attendez le chargement — les chaînes s\'organisent automatiquement par catégorie',
         ],
       },
@@ -1907,13 +1907,13 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'quote',
-        text: "Avec IPTV Smarters Pro et un abonnement ClarioTV, votre iPhone devient une télévision de poche avec 20 000 chaînes partout en France et à l'étranger.",
-        author: 'ClarioTV',
+        text: "Avec IPTV Smarters Pro et un abonnement VivaceTV, votre iPhone devient une télévision de poche avec 20 000 chaînes partout en France et à l'étranger.",
+        author: 'VivaceTV',
       },
       {
         type: 'cta',
         heading: 'Regardez l\'IPTV sur votre iPhone dès aujourd\'hui',
-        body: 'Commandez votre abonnement ClarioTV et recevez vos identifiants par WhatsApp en moins de 5 minutes.',
+        body: 'Commandez votre abonnement VivaceTV et recevez vos identifiants par WhatsApp en moins de 5 minutes.',
         href: '/abonnements',
         label: 'Commander maintenant',
       },
@@ -1937,8 +1937,8 @@ export const blogPosts: BlogPost[] = [
             a: 'Oui, toutes les apps IPTV iOS sont compatibles iPad. L\'écran plus grand de l\'iPad offre une expérience de visionnage encore meilleure, surtout pour les matchs sportifs.',
           },
           {
-            q: 'Mon abonnement ClarioTV peut-il être utilisé sur iPhone et Smart TV en même temps ?',
-            a: 'Oui. Les forfaits Gold et Platinum ClarioTV permettent 2 connexions simultanées — vous pouvez regarder sur votre iPhone pendant qu\'un autre appareil utilise le même abonnement.',
+            q: 'Mon abonnement VivaceTV peut-il être utilisé sur iPhone et Smart TV en même temps ?',
+            a: 'Oui. Les forfaits Gold et Platinum VivaceTV permettent 2 connexions simultanées — vous pouvez regarder sur votre iPhone pendant qu\'un autre appareil utilise le même abonnement.',
           },
         ],
       },
@@ -1957,7 +1957,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "IPTV légal ou illégal en France — balance de la justice et écran TV",
     readTime: '6 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -2021,14 +2021,14 @@ export const blogPosts: BlogPost[] = [
         type: 'p',
         text: "Certains services IPTV gratuits sont légaux : les chaînes gratuites françaises (TF1, France 2, M6, Arte, etc.) accessibles via les applications officielles des chaînes ou des agrégateurs légaux comme Molotov TV (version gratuite), France.tv ou les applications des opérateurs (Orange TV, SFR TV, Bouygues TV). En revanche, tout service qui offre gratuitement des chaînes payantes — Canal+, beIN Sports, RMC Sport, etc. — est nécessairement illicite.",
       },
-      { type: 'h2', text: "Quel est le statut de ClarioTV ?" },
+      { type: 'h2', text: "Quel est le statut de VivaceTV ?" },
       {
         type: 'p',
-        text: "ClarioTV est un service IPTV transparent, disposant de mentions légales complètes, d'une politique de remboursement claire et d'un service client disponible 24h/24 via WhatsApp. Nos tarifs reflètent le coût réel d'un service de qualité. Contrairement aux services pirates, nous n'offrons pas de promesses impossibles à prix dérisoire.",
+        text: "VivaceTV est un service IPTV transparent, disposant de mentions légales complètes, d'une politique de remboursement claire et d'un service client disponible 24h/24 via WhatsApp. Nos tarifs reflètent le coût réel d'un service de qualité. Contrairement aux services pirates, nous n'offrons pas de promesses impossibles à prix dérisoire.",
       },
       {
         type: 'cta',
-        heading: 'Testez ClarioTV sans engagement',
+        heading: 'Testez VivaceTV sans engagement',
         body: 'Accédez à un test gratuit 24h pour vérifier la qualité et la compatibilité sur vos appareils — aucune carte bancaire requise.',
         href: '/test-gratuit',
         label: 'Demander un test gratuit',
@@ -2073,7 +2073,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "Qu'est-ce que l'IPTV — explication pour débutants",
     readTime: '5 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -2175,7 +2175,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'ol',
         items: [
-          "Choisissez un abonnement IPTV fiable (ClarioTV propose un test gratuit 24h sans carte bancaire)",
+          "Choisissez un abonnement IPTV fiable (VivaceTV propose un test gratuit 24h sans carte bancaire)",
           "Téléchargez une application IPTV compatible sur votre appareil (IPTV Smarters Pro est recommandé)",
           "Entrez vos identifiants de connexion reçus par WhatsApp dans l'application — vous êtes prêt",
         ],
@@ -2200,11 +2200,11 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "L'IPTV est-il de bonne qualité ?",
-            a: "La qualité dépend du service choisi et de votre connexion. ClarioTV diffuse en HD, Full HD, 4K et 8K selon votre forfait, avec une technologie anti-coupure pour maintenir la fluidité.",
+            a: "La qualité dépend du service choisi et de votre connexion. VivaceTV diffuse en HD, Full HD, 4K et 8K selon votre forfait, avec une technologie anti-coupure pour maintenir la fluidité.",
           },
           {
             q: "Combien coûte un abonnement IPTV ?",
-            a: "Les abonnements IPTV varient entre 3 et 10 € par mois selon la durée et le forfait. ClarioTV propose des forfaits à partir de 3,75 €/mois pour un abonnement 12 mois (forfait Gold).",
+            a: "Les abonnements IPTV varient entre 3 et 10 € par mois selon la durée et le forfait. VivaceTV propose des forfaits à partir de 3,75 €/mois pour un abonnement 12 mois (forfait Gold).",
           },
         ],
       },
@@ -2223,7 +2223,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "IPTV sur PC Windows et Mac — application et configuration",
     readTime: '7 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -2257,7 +2257,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'h2', text: "Configuration de VLC pour IPTV (Windows et Mac)" },
       {
         type: 'p',
-        text: "VLC est la méthode la plus rapide pour démarrer. Voici comment le configurer avec votre lien M3U ClarioTV :",
+        text: "VLC est la méthode la plus rapide pour démarrer. Voici comment le configurer avec votre lien M3U VivaceTV :",
       },
       {
         type: 'ol',
@@ -2265,7 +2265,7 @@ export const blogPosts: BlogPost[] = [
           "Téléchargez et installez VLC depuis vlc.videolan.org (gratuit, disponible pour Windows et Mac)",
           "Ouvrez VLC, cliquez sur Média dans la barre de menu (ou Fichier sur Mac)",
           "Sélectionnez « Ouvrir un flux réseau »",
-          "Collez votre lien M3U ClarioTV dans le champ URL",
+          "Collez votre lien M3U VivaceTV dans le champ URL",
           "Cliquez sur Lire — votre liste de chaînes se charge automatiquement",
         ],
       },
@@ -2280,7 +2280,7 @@ export const blogPosts: BlogPost[] = [
           "Recherchez « IPTV Smarters Pro » dans le Microsoft Store et installez l'application",
           "Ouvrez l'application et choisissez « Ajouter un utilisateur »",
           "Sélectionnez « Connexion via Xtream Codes API »",
-          "Saisissez le nom d'utilisateur, le mot de passe et l'URL du serveur reçus de ClarioTV par WhatsApp",
+          "Saisissez le nom d'utilisateur, le mot de passe et l'URL du serveur reçus de VivaceTV par WhatsApp",
           "Validez — vos chaînes, la VOD et le replay se chargent automatiquement",
         ],
       },
@@ -2315,7 +2315,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'cta',
-        heading: 'Tester ClarioTV sur votre PC ou Mac',
+        heading: 'Tester VivaceTV sur votre PC ou Mac',
         body: 'Recevez un accès test gratuit 24h et configurez-le en 5 minutes sur votre ordinateur avec VLC ou IPTV Smarters Pro.',
         href: '/test-gratuit',
         label: 'Obtenir mon accès test gratuit',
@@ -2356,7 +2356,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "IPTV et VPN — faut-il utiliser un VPN pour regarder l'IPTV ?",
     readTime: '5 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -2396,10 +2396,10 @@ export const blogPosts: BlogPost[] = [
         type: 'info',
         text: "⚡ Impact concret : si votre connexion est de 100 Mbps avec un VPN actif, elle peut tomber à 60-80 Mbps. Pour regarder en 4K (25 Mbps requis), cela reste suffisant, mais pour plusieurs flux simultanés ou du 8K, cela peut poser problème.",
       },
-      { type: 'h2', text: "Faut-il un VPN avec ClarioTV ?" },
+      { type: 'h2', text: "Faut-il un VPN avec VivaceTV ?" },
       {
         type: 'p',
-        text: "Non, ClarioTV ne nécessite pas de VPN pour fonctionner. Nos serveurs sont optimisés pour la France et accessibles directement depuis votre connexion habituelle. Un VPN n'améliorera pas votre expérience et risque au contraire de dégrader la qualité de vos flux, en particulier en 4K et 8K.",
+        text: "Non, VivaceTV ne nécessite pas de VPN pour fonctionner. Nos serveurs sont optimisés pour la France et accessibles directement depuis votre connexion habituelle. Un VPN n'améliorera pas votre expérience et risque au contraire de dégrader la qualité de vos flux, en particulier en 4K et 8K.",
       },
       { type: 'h2', text: "Quand un VPN est-il utile avec l'IPTV ?" },
       {
@@ -2430,7 +2430,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'cta',
-        heading: 'Testez ClarioTV sans VPN',
+        heading: 'Testez VivaceTV sans VPN',
         body: 'Notre service fonctionne parfaitement en France sans VPN. Demandez un test gratuit 24h et constatez la qualité par vous-même.',
         href: '/test-gratuit',
         label: 'Démarrer le test gratuit',
@@ -2452,7 +2452,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Mon FAI peut-il bloquer mon accès IPTV ?",
-            a: "En France, les FAI peuvent être contraints par la justice de bloquer certains services IPTV pirates. Pour un service légal comme ClarioTV, aucun blocage n'est à craindre.",
+            a: "En France, les FAI peuvent être contraints par la justice de bloquer certains services IPTV pirates. Pour un service légal comme VivaceTV, aucun blocage n'est à craindre.",
           },
         ],
       },
@@ -2471,16 +2471,16 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "Chaînes sportives IPTV France — football, tennis, F1",
     readTime: '6 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
-        text: "Le sport est l'une des principales motivations pour souscrire à un abonnement IPTV en France. Football, tennis, Formule 1, rugby, basket — les amateurs de sport savent que l'accès à toutes les compétitions est morcelé entre de nombreuses chaînes. L'IPTV permet d'accéder à l'ensemble de ces chaînes depuis un seul abonnement. Voici ce que propose ClarioTV pour les passionnés de sport.",
+        text: "Le sport est l'une des principales motivations pour souscrire à un abonnement IPTV en France. Football, tennis, Formule 1, rugby, basket — les amateurs de sport savent que l'accès à toutes les compétitions est morcelé entre de nombreuses chaînes. L'IPTV permet d'accéder à l'ensemble de ces chaînes depuis un seul abonnement. Voici ce que propose VivaceTV pour les passionnés de sport.",
       },
       { type: 'h2', text: "Les grandes chaînes sportives disponibles en IPTV" },
       {
         type: 'p',
-        text: "Un abonnement IPTV de qualité comme ClarioTV donne accès aux principales chaînes sportives françaises et internationales :",
+        text: "Un abonnement IPTV de qualité comme VivaceTV donne accès aux principales chaînes sportives françaises et internationales :",
       },
       { type: 'h3', text: "Chaînes sportives françaises" },
       {
@@ -2539,12 +2539,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'info',
-        text: "🏆 Bon à savoir : avec ClarioTV, vous accédez à toutes ces chaînes depuis un seul abonnement — sans jongler entre Canal+, beIN Sports, DAZN et RMC Sport séparément. Économisez plusieurs centaines d'euros par an tout en profitant de la même qualité HD et 4K.",
+        text: "🏆 Bon à savoir : avec VivaceTV, vous accédez à toutes ces chaînes depuis un seul abonnement — sans jongler entre Canal+, beIN Sports, DAZN et RMC Sport séparément. Économisez plusieurs centaines d'euros par an tout en profitant de la même qualité HD et 4K.",
       },
       { type: 'h2', text: "Qualité d'image pour le sport en direct" },
       {
         type: 'p',
-        text: "La qualité d'image est cruciale pour profiter du sport en direct. ClarioTV propose :",
+        text: "La qualité d'image est cruciale pour profiter du sport en direct. VivaceTV propose :",
       },
       {
         type: 'ul',
@@ -2557,7 +2557,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'cta',
-        heading: 'Regardez tous les sports avec ClarioTV',
+        heading: 'Regardez tous les sports avec VivaceTV',
         body: 'Football, F1, tennis, rugby — accédez à toutes les chaînes sportives depuis un seul abonnement. Testez gratuitement pendant 24h.',
         href: '/test-gratuit',
         label: 'Tester gratuitement 24h',
@@ -2567,11 +2567,11 @@ export const blogPosts: BlogPost[] = [
         items: [
           {
             q: "Peut-on regarder la Ligue 1 en intégralité avec l'IPTV ?",
-            a: "Oui. La Ligue 1 est diffusée entre Canal+, DAZN et beIN Sports — trois chaînes disponibles dans un abonnement ClarioTV, ce qui permet de suivre tous les matchs de la saison.",
+            a: "Oui. La Ligue 1 est diffusée entre Canal+, DAZN et beIN Sports — trois chaînes disponibles dans un abonnement VivaceTV, ce qui permet de suivre tous les matchs de la saison.",
           },
           {
             q: "La F1 est-elle disponible en IPTV en France ?",
-            a: "Oui. Canal+ détient l'exclusivité de la F1 en France et diffuse toutes les qualifications et courses de la saison. Canal+ Sport est inclus dans ClarioTV.",
+            a: "Oui. Canal+ détient l'exclusivité de la F1 en France et diffuse toutes les qualifications et courses de la saison. Canal+ Sport est inclus dans VivaceTV.",
           },
           {
             q: "Les événements sportifs en direct sont-ils disponibles en 4K avec l'IPTV ?",
@@ -2598,7 +2598,7 @@ export const blogPosts: BlogPost[] = [
     coverAlt: "IPTV vs Canal+ — comparatif 2026",
     readTime: '8 min',
     publishedAt: '2026-05-16',
-    author: 'ClarioTV',
+    author: 'VivaceTV',
     content: [
       {
         type: 'p',
@@ -2619,7 +2619,7 @@ export const blogPosts: BlogPost[] = [
           "Engagement minimum : 12 à 24 mois — frais de résiliation en cas d'arrêt anticipé",
         ],
       },
-      { type: 'h3', text: "ClarioTV IPTV (tarifs 2026)" },
+      { type: 'h3', text: "VivaceTV IPTV (tarifs 2026)" },
       {
         type: 'ul',
         items: [
@@ -2632,7 +2632,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'info',
-        text: "💰 L'écart de prix est considérable : Canal+ complet à 55 €/mois vs ClarioTV Gold à 3,75 €/mois, soit une économie de plus de 600 € par an pour un contenu comparable ou supérieur en nombre de chaînes.",
+        text: "💰 L'écart de prix est considérable : Canal+ complet à 55 €/mois vs VivaceTV Gold à 3,75 €/mois, soit une économie de plus de 600 € par an pour un contenu comparable ou supérieur en nombre de chaînes.",
       },
       { type: 'h2', text: "Comparatif des contenus" },
       { type: 'h3', text: "Canal+ — ce qu'il propose" },
@@ -2647,7 +2647,7 @@ export const blogPosts: BlogPost[] = [
           "Accès à OCS, Disney+ et Paramount+ en option",
         ],
       },
-      { type: 'h3', text: "ClarioTV IPTV — ce qu'il propose" },
+      { type: 'h3', text: "VivaceTV IPTV — ce qu'il propose" },
       {
         type: 'ul',
         items: [
@@ -2668,7 +2668,7 @@ export const blogPosts: BlogPost[] = [
         type: 'ul',
         items: [
           "Canal+ : HD et 4K pour ses productions propres, streaming via l'application myCanal",
-          "ClarioTV : HD (1080p), 4K et 8K selon le forfait, avec technologie AntiFreeze pour limiter les coupures",
+          "VivaceTV : HD (1080p), 4K et 8K selon le forfait, avec technologie AntiFreeze pour limiter les coupures",
           "Avantage IPTV : pas de décodeur propriétaire obligatoire — fonctionne sur tout appareil existant",
           "Avantage Canal+ : interface plus soignée, contenus exclusifs en haute qualité certifiée",
         ],
@@ -2682,9 +2682,9 @@ export const blogPosts: BlogPost[] = [
         type: 'ul',
         items: [
           "Canal+ : engagement 12 à 24 mois, frais de résiliation, matériel à retourner",
-          "ClarioTV : sans engagement, sans frais de résiliation, changement de forfait à tout moment",
+          "VivaceTV : sans engagement, sans frais de résiliation, changement de forfait à tout moment",
           "Canal+ : un seul écran inclus dans le forfait de base (multi-écrans en option payante)",
-          "ClarioTV : 2 connexions simultanées incluses dans les forfaits Gold et Platinum",
+          "VivaceTV : 2 connexions simultanées incluses dans les forfaits Gold et Platinum",
         ],
       },
       { type: 'h2', text: "Verdict : qui devrait choisir quoi ?" },
@@ -2697,20 +2697,20 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Choisissez Canal+ si : vous êtes fan des exclusivités cinéma Canal+, des séries originales Canal+ et de la F1 en qualité certifiée, et que vous avez le budget",
           "Choisissez l'IPTV si : vous voulez le plus grand nombre de chaînes au meilleur prix, sans engagement, avec une flexibilité maximale et un accès aux sports de toutes les chaînes",
-          "Les deux ne s'excluent pas : certains utilisateurs combinent un abonnement Canal+ Essentiel pour les exclusivités + ClarioTV pour les chaînes sportives et internationales",
+          "Les deux ne s'excluent pas : certains utilisateurs combinent un abonnement Canal+ Essentiel pour les exclusivités + VivaceTV pour les chaînes sportives et internationales",
         ],
       },
       {
         type: 'quote',
-        text: "J'ai résilié Canal+ après 8 ans d'abonnement. ClarioTV me donne accès à beaucoup plus de chaînes pour 10 fois moins cher. Je garde juste Netflix pour les séries.",
-        author: 'Thomas R. — abonné ClarioTV Gold',
+        text: "J'ai résilié Canal+ après 8 ans d'abonnement. VivaceTV me donne accès à beaucoup plus de chaînes pour 10 fois moins cher. Je garde juste Netflix pour les séries.",
+        author: 'Thomas R. — abonné VivaceTV Gold',
       },
       {
         type: 'cta',
-        heading: 'Testez ClarioTV avant de décider',
-        body: 'Comparez par vous-même avec un test gratuit 24h — aucune carte bancaire, aucun engagement. Voir si ClarioTV peut remplacer votre Canal+.',
+        heading: 'Testez VivaceTV avant de décider',
+        body: 'Comparez par vous-même avec un test gratuit 24h — aucune carte bancaire, aucun engagement. Voir si VivaceTV peut remplacer votre Canal+.',
         href: '/test-gratuit',
-        label: 'Tester ClarioTV gratuitement',
+        label: 'Tester VivaceTV gratuitement',
       },
       {
         type: 'faq',
@@ -2721,7 +2721,7 @@ export const blogPosts: BlogPost[] = [
           },
           {
             q: "Peut-on avoir Canal+ et l'IPTV en même temps ?",
-            a: "Oui. Certains utilisateurs combinent Canal+ Essentiel (pour les films et séries originales) avec ClarioTV pour les chaînes sportives et internationales. Le coût combiné reste inférieur à un abonnement Canal+ intégral.",
+            a: "Oui. Certains utilisateurs combinent Canal+ Essentiel (pour les films et séries originales) avec VivaceTV pour les chaînes sportives et internationales. Le coût combiné reste inférieur à un abonnement Canal+ intégral.",
           },
           {
             q: "L'IPTV propose-t-il des films récents comme Canal+ ?",

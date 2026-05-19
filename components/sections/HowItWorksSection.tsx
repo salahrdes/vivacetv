@@ -32,7 +32,7 @@ export default function HowItWorksSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           label="Comment ça marche"
-          title="Comment démarrer avec ClarioTV ?"
+          title="Comment démarrer avec VivaceTV ?"
           description="En quelques étapes simples, vous pouvez choisir votre forfait, recevoir vos accès et commencer à regarder sur votre appareil préféré."
           className="mb-16"
         />

@@ -5,7 +5,7 @@ import { Clock, Flame } from 'lucide-react';
 
 // ── Per-plan urgency config ───────────────────────────────────────────────────
 const SCARCITY: Record<string, { urgency: string; spots?: number }> = {
-  bronze:  { urgency: 'Idéal pour découvrir ClarioTV sans engagement long' },
+  bronze:  { urgency: 'Idéal pour découvrir VivaceTV sans engagement long' },
   silver:  { urgency: 'Meilleur rapport qualité/prix — 6 mois offerts' },
   gold:    { urgency: '⭐ Le plus commandé ce mois — quantités limitées', spots: 5 },
   diamond: { urgency: '💎 Accès VIP prioritaire — places très limitées',  spots: 2 },

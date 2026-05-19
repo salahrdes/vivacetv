@@ -1,6 +1,6 @@
 # Design Spec: Font Management + Checkout Scarcity
 **Date:** 2026-05-02  
-**Project:** ClarioTV  
+**Project:** VivaceTV  
 **Status:** Approved
 
 ---
@@ -102,7 +102,7 @@ A lime-accent banner rendered above the checkout form containing:
 - Display: `"🔥 X personnes regardent cette offre en ce moment"`
 
 **Per-plan urgency copy** (prop-driven, defined in component):
-- Bronze: `"Idéal pour découvrir ClarioTV sans engagement long"`
+- Bronze: `"Idéal pour découvrir VivaceTV sans engagement long"`
 - Silver: `"6 mois d'accès — le meilleur rapport qualité/prix"`
 - Gold: `"⭐ Le plus commandé ce mois — stock limité"`
 - Diamond: `"💎 Offre VIP — 2 accès prioritaires restants"`
@@ -133,7 +133,7 @@ Defined inline in `ScarcityStrip.tsx` as a record keyed by plan slug — no DB, 
 
 ```ts
 const SCARCITY: Record<string, { urgency: string; spotsLeft?: number }> = {
-  bronze:  { urgency: 'Idéal pour découvrir ClarioTV' },
+  bronze:  { urgency: 'Idéal pour découvrir VivaceTV' },
   silver:  { urgency: 'Meilleur rapport qualité/prix' },
   gold:    { urgency: '⭐ Le plus commandé ce mois', spotsLeft: 5 },
   diamond: { urgency: '💎 Offre VIP — places limitées', spotsLeft: 2 },

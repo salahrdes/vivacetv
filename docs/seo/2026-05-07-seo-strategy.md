@@ -1,6 +1,6 @@
-# ClarioTV — SEO Strategy & Architecture Plan
+# VivaceTV — SEO Strategy & Architecture Plan
 **Date:** 2026-05-07  
-**Domain:** clariotv.fr  
+**Domain:** vivacetv.fr  
 **Primary Target:** `iptv abonnement` — 14,800 vol/mo, KD 27  
 **Status:** Plan — Awaiting Execution Approval
 
@@ -70,7 +70,7 @@
 ## 3. Silo Architecture
 
 ```
-clariotv.fr/
+vivacetv.fr/
 │
 ├── / (Homepage)                          ← PRIMARY: "iptv abonnement", "iptv france", "france iptv"
 │
@@ -129,14 +129,14 @@ clariotv.fr/
 **Keywords:** `iptv abonnement` (14,800), `iptv france` (9,900), `france iptv` (4,400), `iptv abonnements` (480), `offres iptv` (390)
 
 **SEO Title:**  
-`Abonnement IPTV France 2025 — HD & 4K | ClarioTV`
+`Abonnement IPTV France 2025 — HD & 4K | VivaceTV`
 
 **H1:**  
 `Le Meilleur Abonnement IPTV France — HD, 4K et 8K`
 
 **H2 / H3 Structure:**
 ```
-H2: Pourquoi choisir ClarioTV pour votre abonnement IPTV ?
+H2: Pourquoi choisir VivaceTV pour votre abonnement IPTV ?
   H3: Compatible Smart TV, Android, iOS, PC, Fire TV, Apple TV
   H3: +10 000 chaînes françaises et internationales
   H3: Qualité HD, 4K et 8K sans coupure
@@ -146,7 +146,7 @@ H2: Nos offres abonnement IPTV France
   H3: Abonnement 12 mois — Gold (le plus populaire)
   H3: Abonnement 24 mois — Diamond
 H2: Comment fonctionne un abonnement IPTV ?
-H2: ClarioTV est-il le meilleur fournisseur IPTV en France ?
+H2: VivaceTV est-il le meilleur fournisseur IPTV en France ?
 H2: Questions fréquentes sur l'abonnement IPTV
 ```
 
@@ -154,19 +154,19 @@ H2: Questions fréquentes sur l'abonnement IPTV
 abonnement iptv france, iptv streaming france, chaînes iptv, abonnement tv en ligne, smart iptv, liste iptv, iptv légal, serveur iptv stable, iptv android tv, abonnement tv
 
 **Recommended meta description:**  
-`Découvrez ClarioTV, le meilleur abonnement IPTV France. +10 000 chaînes HD/4K, compatible tous appareils. Activation rapide via WhatsApp. À partir de X€.`
+`Découvrez VivaceTV, le meilleur abonnement IPTV France. +10 000 chaînes HD/4K, compatible tous appareils. Activation rapide via WhatsApp. À partir de X€.`
 
 **Internal links FROM this page:**
 - → `/abonnements` (anchor: "voir toutes nos offres IPTV")
 - → `/meilleur-iptv` (anchor: "comparatif des meilleurs IPTV")
 - → `/guide-iptv/comment-fonctionne-iptv` (anchor: "comment fonctionne un abonnement IPTV")
-- → `/avis-iptv` (anchor: "avis clients ClarioTV")
+- → `/avis-iptv` (anchor: "avis clients VivaceTV")
 - → `/fournisseur-iptv` (anchor: "fournisseur IPTV fiable en France")
 
 **FAQ section (schema markup):**
 - Qu'est-ce qu'un abonnement IPTV ?
 - L'IPTV est-il légal en France ?
-- Quels appareils sont compatibles avec ClarioTV ?
+- Quels appareils sont compatibles avec VivaceTV ?
 - Comment activer mon abonnement IPTV ?
 - Quelle connexion internet faut-il pour l'IPTV ?
 
@@ -180,7 +180,7 @@ abonnement iptv france, iptv streaming france, chaînes iptv, abonnement tv en l
 **Keywords:** `meilleurs abonnements iptv` (1,000), `offres iptv` (390), `acheter iptv` (480), `iptv abonnements` (480)
 
 **SEO Title:**  
-`Nos Abonnements IPTV France — Toutes les Offres | ClarioTV`
+`Nos Abonnements IPTV France — Toutes les Offres | VivaceTV`
 
 **H1:**  
 `Comparez Nos Abonnements IPTV France — 4 Offres Sans Engagement`
@@ -200,7 +200,7 @@ H2: Foire aux questions sur nos offres IPTV
 **Semantic keywords:** tarif iptv, prix abonnement iptv, offre iptv mensuelle, iptv sans engagement, abonnement tv en ligne france
 
 **Internal links FROM this page:**
-- → `/` (anchor: "retour à l'accueil ClarioTV")
+- → `/` (anchor: "retour à l'accueil VivaceTV")
 - → `/abonnements/premium` (anchor: "abonnement IPTV premium")
 - → `/abonnements/pas-cher` (anchor: "abonnement IPTV pas cher")
 - → `/abonnements/12-mois` (anchor: "abonnement IPTV 12 mois")
@@ -216,14 +216,14 @@ H2: Foire aux questions sur nos offres IPTV
 **Keywords:** `premium iptv` (1,900), `abonnement iptv premium` (880)
 
 **SEO Title:**  
-`Abonnement IPTV Premium France — HD, 4K & 8K Ultra | ClarioTV`
+`Abonnement IPTV Premium France — HD, 4K & 8K Ultra | VivaceTV`
 
 **H1:**  
 `Abonnement IPTV Premium — Qualité HD, 4K et 8K Sans Interruption`
 
 **H2 / H3 Structure:**
 ```
-H2: Que comprend l'abonnement IPTV Premium ClarioTV ?
+H2: Que comprend l'abonnement IPTV Premium VivaceTV ?
   H3: +10 000 chaînes en qualité HD/4K/8K
   H3: Compatibilité universelle
   H3: Stabilité serveur 99,9% uptime
@@ -246,7 +246,7 @@ H2: Commander l'abonnement premium
 **Keywords:** `iptv pas cher` (1,300), `abonnement iptv pas cher` (590)
 
 **SEO Title:**  
-`Abonnement IPTV Pas Cher en France — Offres à Petit Prix | ClarioTV`
+`Abonnement IPTV Pas Cher en France — Offres à Petit Prix | VivaceTV`
 
 **H1:**  
 `Abonnement IPTV Pas Cher — Accès Complet Dès X€/Mois`
@@ -274,7 +274,7 @@ H2: Commander votre abonnement IPTV pas cher
 **Keywords:** `iptv abonnement 12 mois` (390)
 
 **SEO Title:**  
-`Abonnement IPTV 12 Mois — Meilleur Prix de l'Année | ClarioTV`
+`Abonnement IPTV 12 Mois — Meilleur Prix de l'Année | VivaceTV`
 
 **H1:**  
 `Abonnement IPTV 12 Mois — Le Plus Grand Choix au Meilleur Prix`
@@ -308,7 +308,7 @@ H2: Commander votre abonnement IPTV Gold (12 mois)
 ```
 H2: Notre méthode de comparaison
 H2: Top 5 des meilleurs abonnements IPTV France 2025
-  H3: #1 ClarioTV — Le meilleur rapport qualité/prix
+  H3: #1 VivaceTV — Le meilleur rapport qualité/prix
   H3: #2 Xenon IPTV — Analyse et limites
   H3: #3 King IPTV — Pour qui ?
   H3: #4 IPTV Atlas — Forces et faiblesses
@@ -326,12 +326,12 @@ H2: FAQ — Meilleur IPTV
 **Semantic keywords:** comparatif iptv, meilleur service iptv, classement iptv france, top iptv 2025, quel iptv choisir, iptv recommandé
 
 **Internal links FROM this page:**
-- → `/` (anchor: "abonnement IPTV ClarioTV")
+- → `/` (anchor: "abonnement IPTV VivaceTV")
 - → `/abonnements` (anchor: "nos offres d'abonnement")
 - → `/alternatives/xenon-iptv` (anchor: "alternative à Xenon IPTV")
 - → `/alternatives/king-iptv` (anchor: "alternative à King IPTV")
 - → `/alternatives/iptv-atlas` (anchor: "alternative à IPTV Atlas")
-- → `/avis-iptv` (anchor: "avis vérifiés ClarioTV")
+- → `/avis-iptv` (anchor: "avis vérifiés VivaceTV")
 
 ---
 
@@ -343,7 +343,7 @@ H2: FAQ — Meilleur IPTV
 **Keywords:** `meilleur application iptv` (1,300), `meilleur appli iptv` (1,000), `meilleurs applications iptv` (1,000), `meilleure application iptv` (880)
 
 **SEO Title:**  
-`Meilleure Application IPTV 2025 — Top 10 des Apps Testées | ClarioTV`
+`Meilleure Application IPTV 2025 — Top 10 des Apps Testées | VivaceTV`
 
 **H1:**  
 `Quelle est la Meilleure Application IPTV en 2025 ? (Top 10 Testées)`
@@ -360,7 +360,7 @@ H2: Notre classement des meilleures applications IPTV
   H3: Et 5 autres applications testées…
 H2: Application IPTV Android — laquelle choisir ?
 H2: Application IPTV iOS / Apple TV
-H2: Comment utiliser une application IPTV avec ClarioTV ?
+H2: Comment utiliser une application IPTV avec VivaceTV ?
 H2: FAQ — Applications IPTV
 ```
 
@@ -378,18 +378,18 @@ H2: FAQ — Applications IPTV
 **Keywords:** `iptv avis` (720), `avis iptv` (590)
 
 **SEO Title:**  
-`Avis ClarioTV — Témoignages Clients & Notes Vérifiées | IPTV France`
+`Avis VivaceTV — Témoignages Clients & Notes Vérifiées | IPTV France`
 
 **H1:**  
-`Avis sur ClarioTV — Ce Que Pensent Vraiment Nos Clients`
+`Avis sur VivaceTV — Ce Que Pensent Vraiment Nos Clients`
 
 **H2 / H3 Structure:**
 ```
-H2: Note globale ClarioTV
+H2: Note globale VivaceTV
 H2: Avis clients vérifiés
 H2: Ce que nos clients apprécient le plus
 H2: Points d'amélioration signalés
-H2: ClarioTV vs autres fournisseurs IPTV — Comparaison des avis
+H2: VivaceTV vs autres fournisseurs IPTV — Comparaison des avis
 H2: Notre engagement qualité
 ```
 
@@ -407,10 +407,10 @@ H2: Notre engagement qualité
 **Keywords:** `fournisseur iptv` (1,300), `agences iptv` (1,000)
 
 **SEO Title:**  
-`Fournisseur IPTV France Fiable — Qui est ClarioTV ? | IPTV France`
+`Fournisseur IPTV France Fiable — Qui est VivaceTV ? | IPTV France`
 
 **H1:**  
-`ClarioTV — Votre Fournisseur IPTV France de Confiance`
+`VivaceTV — Votre Fournisseur IPTV France de Confiance`
 
 **H2 / H3 Structure:**
 ```
@@ -420,7 +420,7 @@ H2: Comment choisir un fournisseur IPTV fiable en France ?
   H3: Support client réactif
   H3: Mise à jour régulière des chaînes
   H3: Politiques de remboursement
-H2: Pourquoi ClarioTV est un fournisseur IPTV de confiance
+H2: Pourquoi VivaceTV est un fournisseur IPTV de confiance
 H2: Les agences IPTV : qui vendre des abonnements en France ?
 H2: Questions sur notre service
 ```
@@ -437,7 +437,7 @@ H2: Questions sur notre service
 **Keywords:** `4k iptv` (720), `iptv with 4k` (1,300)
 
 **SEO Title:**  
-`IPTV 4K France — Chaînes Ultra HD Sans Coupure | ClarioTV`
+`IPTV 4K France — Chaînes Ultra HD Sans Coupure | VivaceTV`
 
 **H1:**  
 `IPTV 4K et Ultra HD — Regardez la TV en Qualité Cinéma`
@@ -447,7 +447,7 @@ H2: Questions sur notre service
 H2: Qu'est-ce que l'IPTV 4K ?
 H2: Quels appareils supportent l'IPTV 4K ?
 H2: Quelle connexion internet pour l'IPTV 4K ?
-H2: Chaînes 4K disponibles avec ClarioTV
+H2: Chaînes 4K disponibles avec VivaceTV
 H2: IPTV 4K vs IPTV HD — Quelle différence ?
 H2: Commander votre abonnement IPTV 4K
 ```
@@ -458,7 +458,7 @@ H2: Commander votre abonnement IPTV 4K
 
 ## 5. Competitor Comparison Pages — `/alternatives/`
 
-Each competitor page follows this template. These pages capture high-intent searches ("Xenon IPTV") from users already searching for alternatives. They rank ClarioTV as the clear winner.
+Each competitor page follows this template. These pages capture high-intent searches ("Xenon IPTV") from users already searching for alternatives. They rank VivaceTV as the clear winner.
 
 **Template structure for each:**
 
@@ -469,10 +469,10 @@ H2: Qu'est-ce que [Competitor] ?
 H2: Avis sur [Competitor] — Points forts et faiblesses
   H3: Ce qui fonctionne bien
   H3: Ce qui déçoit
-H2: Tarifs de [Competitor] vs ClarioTV
-H2: Pourquoi ClarioTV est une meilleure alternative à [Competitor]
-H2: Comment passer de [Competitor] à ClarioTV ?
-H2: FAQ — [Competitor] vs ClarioTV
+H2: Tarifs de [Competitor] vs VivaceTV
+H2: Pourquoi VivaceTV est une meilleure alternative à [Competitor]
+H2: Comment passer de [Competitor] à VivaceTV ?
+H2: FAQ — [Competitor] vs VivaceTV
 ```
 
 | Sub-page | Target keyword | Volume | KD |
@@ -488,8 +488,8 @@ H2: FAQ — [Competitor] vs ClarioTV
 
 **Internal links from each competitor page:**
 - → `/meilleur-iptv` (anchor: "comparatif complet IPTV 2025")
-- → `/abonnements` (anchor: "voir les offres ClarioTV")
-- → `/avis-iptv` (anchor: "avis clients ClarioTV")
+- → `/abonnements` (anchor: "voir les offres VivaceTV")
+- → `/avis-iptv` (anchor: "avis clients VivaceTV")
 - Horizontal links between competitor pages (e.g., Xenon → King → Atlas)
 
 ---
@@ -505,7 +505,7 @@ These articles build topical authority and funnel informational traffic toward c
 **Priority:** 🟠 HIGH  
 **Keywords:** `comment fonctionne iptv` (390)
 
-**SEO Title:** `Comment Fonctionne l'IPTV ? Explication Simple | ClarioTV`  
+**SEO Title:** `Comment Fonctionne l'IPTV ? Explication Simple | VivaceTV`  
 **H1:** `Comment Fonctionne l'IPTV ? Guide Complet pour Débutants`
 
 **H2s:**
@@ -514,7 +514,7 @@ These articles build topical authority and funnel informational traffic toward c
 - Comment le signal IPTV arrive sur votre écran
 - Quel matériel faut-il pour utiliser l'IPTV ?
 - IPTV est-il légal en France ?
-- Comment commencer avec ClarioTV ?
+- Comment commencer avec VivaceTV ?
 
 **CTA at end:** → `/abonnements` ("Découvrez nos abonnements IPTV")
 
@@ -553,10 +553,10 @@ These articles build topical authority and funnel informational traffic toward c
 - Quels types d'IPTV sont illégaux ?
 - Les amendes pour IPTV illégal en France
 - Comment reconnaître un fournisseur IPTV légal ?
-- ClarioTV : service légal et conforme
+- VivaceTV : service légal et conforme
 - FAQ légalité IPTV
 
-**Note:** This article is a **massive traffic magnet** for worried users. Use it to educate, build trust, and redirect to ClarioTV as the safe option.
+**Note:** This article is a **massive traffic magnet** for worried users. Use it to educate, build trust, and redirect to VivaceTV as the safe option.
 
 **CTA:** → `/fournisseur-iptv`, → `/abonnements`
 
@@ -576,7 +576,7 @@ These articles build topical authority and funnel informational traffic toward c
 - VLC Media Player avec IPTV
 - Kodi pour PC — Configuration
 - IPTV sur navigateur web
-- Configurer ClarioTV sur PC
+- Configurer VivaceTV sur PC
 
 **CTA:** → `/meilleure-application-iptv`, → `/abonnements`
 
@@ -595,7 +595,7 @@ These articles build topical authority and funnel informational traffic toward c
 - Comment mesurer la qualité d'un serveur IPTV
 - Serveur IPTV stable vs instable — la différence
 - Uptime, ping et bande passante — les critères techniques
-- ClarioTV : infrastructure serveur et fiabilité
+- VivaceTV : infrastructure serveur et fiabilité
 
 **CTA:** → `/fournisseur-iptv`, → `/abonnements/premium`
 
@@ -607,7 +607,7 @@ These articles build topical authority and funnel informational traffic toward c
 **Keywords:** `iptv chaine` (720)
 
 **SEO Title:** `Chaînes IPTV France 2025 — Liste Complète des Chaînes Disponibles`  
-**H1:** `Chaînes IPTV : Quelle Liste de Chaînes avec ClarioTV ?`
+**H1:** `Chaînes IPTV : Quelle Liste de Chaînes avec VivaceTV ?`
 
 **H2s:**
 - Chaînes françaises incluses (TF1, M6, Canal+…)
@@ -633,7 +633,7 @@ These articles build topical authority and funnel informational traffic toward c
 - IPTV Smarters Pro — Simple et efficace
 - Perfect Player — Interface EPG classique
 - GSE Smart IPTV — Multiplateforme
-- Configurer une app Android avec ClarioTV
+- Configurer une app Android avec VivaceTV
 
 **CTA:** → `/meilleure-application-iptv`, → `/abonnements`
 
@@ -657,15 +657,15 @@ Competitor pages ────────────┤──→ /meilleur-iptv
 **For Homepage `/` (primary target):**
 - "abonnement IPTV France" (exact — use sparingly)
 - "meilleur abonnement IPTV"
-- "ClarioTV abonnement IPTV"
+- "VivaceTV abonnement IPTV"
 - "notre service IPTV"
-- "accueil ClarioTV"
+- "accueil VivaceTV"
 - "l'IPTV en France"
 
 **For `/abonnements`:**
 - "nos offres IPTV"
 - "voir les abonnements"
-- "tarifs IPTV ClarioTV"
+- "tarifs IPTV VivaceTV"
 - "toutes nos formules"
 - "choisir un abonnement IPTV"
 
@@ -701,9 +701,9 @@ Add `FAQPage` JSON-LD schema to ALL pages. Target 4–6 questions per page.
 - Qu'est-ce qu'un abonnement IPTV ?
 - Est-ce que l'IPTV est légal en France ?
 - Quel est le meilleur fournisseur IPTV en France ?
-- Comment activer mon abonnement ClarioTV ?
-- Quels appareils sont compatibles avec ClarioTV ?
-- Puis-je regarder des chaînes 4K avec ClarioTV ?
+- Comment activer mon abonnement VivaceTV ?
+- Quels appareils sont compatibles avec VivaceTV ?
+- Puis-je regarder des chaînes 4K avec VivaceTV ?
 - Y a-t-il une période d'essai gratuite ?
 - Comment fonctionne le paiement et l'activation ?
 

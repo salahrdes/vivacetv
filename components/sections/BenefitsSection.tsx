@@ -21,9 +21,9 @@ export default function BenefitsSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          label="Pourquoi ClarioTV"
-          title="Pourquoi choisir ClarioTV pour votre IPTV en France ?"
-          description="Un abonnement IPTV France doit être simple, stable et compatible avec vos usages. ClarioTV réunit qualité d'image, activation rapide, assistance et expérience multi-appareils dans une interface claire et moderne."
+          label="Pourquoi VivaceTV"
+          title="Pourquoi choisir VivaceTV pour votre IPTV en France ?"
+          description="Un abonnement IPTV France doit être simple, stable et compatible avec vos usages. VivaceTV réunit qualité d'image, activation rapide, assistance et expérience multi-appareils dans une interface claire et moderne."
           className="mb-14"
           titleClassName="max-w-3xl mx-auto"
         />

@@ -1,29 +1,34 @@
 @import "tailwindcss";
 
-/* ─── ClarioTV Design Tokens ────────────────────────────────────────────── */
+/* ─── VivaceTV Design Tokens — Spanish Market ───────────────────────────── */
 @theme {
-  /* Surfaces */
-  --color-surface:      #F5F5F1;
-  --color-surface-alt:  #FBFBF7;
-  --color-card:         #F8F8F4;
+  /* Surfaces — warm dark premium */
+  --color-surface:      #0F0F13;
+  --color-surface-alt:  #161620;
+  --color-card:         #1A1A26;
 
   /* Borders & neutrals */
-  --color-border:       #E2E2DA;
-  --color-gray-200:     #D9D9D3;
-  --color-gray-400:     #A9A9A1;
-  --color-gray-600:     #5E5E53;
+  --color-border:       #2A2A3A;
+  --color-gray-200:     #3A3A4E;
+  --color-gray-400:     #6B6B85;
+  --color-gray-600:     #9B9BB5;
 
   /* Text */
-  --color-ink:          #1E160F;
-  --color-ink-light:    #3D382F;
+  --color-ink:          #F0EEF8;
+  --color-ink-light:    #B8B6CC;
 
   /* Dark sections */
-  --color-dark:         #1C1A17;
+  --color-dark:         #080810;
 
-  /* Lime accent */
-  --color-lime:         #C7E36B;
-  --color-lime-hover:   #B8D85C;
-  --color-lime-soft:    #DCE7B7;
+  /* Spanish Red accent — passion, energy */
+  --color-lime:         #E8402A;
+  --color-lime-hover:   #D43520;
+  --color-lime-soft:    #3D1A14;
+
+  /* Gold highlight — premium quality */
+  --color-gold:         #F5B942;
+  --color-gold-hover:   #E8AC35;
+  --color-gold-soft:    #3D2E0A;
 
   /* Typography */
   --font-display: 'Syne', system-ui, sans-serif;

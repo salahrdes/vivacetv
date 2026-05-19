@@ -5,10 +5,10 @@ import { buildWhatsAppUrl } from '@/lib/utils';
 export default function FloatingWhatsAppButton() {
   return (
     <a
-      href={buildWhatsAppUrl('Bonjour ClarioTV')}
+      href={buildWhatsAppUrl('Bonjour VivaceTV')}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Contacter ClarioTV via WhatsApp"
+      aria-label="Contacter VivaceTV via WhatsApp"
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg transition-transform duration-200 hover:scale-110 focus-visible:scale-110"
       style={{ backgroundColor: '#25D366' }}
     >

@@ -40,7 +40,7 @@ export default function GuideHeroSection() {
           className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight tracking-tight"
           style={{ color: 'var(--color-surface)' }}
         >
-          Installer ClarioTV{' '}
+          Installer VivaceTV{' '}
           <span style={{ color: 'var(--color-lime)' }}>en 5 minutes</span>
           <br />
           sur n'importe quel appareil
@@ -65,7 +65,7 @@ export default function GuideHeroSection() {
             Voir le guide
           </a>
           <a
-            href={buildWhatsAppUrl('Bonjour ClarioTV, j\'ai besoin d\'aide pour l\'installation')}
+            href={buildWhatsAppUrl('Bonjour VivaceTV, j\'ai besoin d\'aide pour l\'installation')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"

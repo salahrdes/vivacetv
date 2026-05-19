@@ -8,31 +8,33 @@ import { FONT_CONFIG } from '@/lib/settings-config';
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
-    template: '%s',
+    default: 'VivaceTV — Comprar IPTV Premium en España | Miles de Canales HD & 4K',
+    template: '%s | VivaceTV',
   },
-  description: siteConfig.description,
+  description: 'Compra tu suscripción IPTV premium en España. Miles de canales HD y 4K, fútbol en vivo, películas y series. Activación instantánea. Prueba gratis 24h.',
   keywords: [
-    'IPTV France',
-    'abonnement IPTV France',
-    'meilleur IPTV France',
-    'IPTV Smart TV',
-    'IPTV HD 4K',
+    'comprar iptv',
+    'iptv españa',
+    'iptv premium españa',
+    'suscripcion iptv españa',
+    'iptv smart tv españa',
+    'iptv 4k españa',
+    'prueba iptv gratis',
   ],
-  authors: [{ name: 'ClarioTV' }],
-  creator: 'ClarioTV',
+  authors: [{ name: 'VivaceTV' }],
+  creator: 'VivaceTV',
   openGraph: {
     type: 'website',
-    locale: 'fr_FR',
+    locale: 'es_ES',
     url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
-    description: siteConfig.description,
+    siteName: 'VivaceTV',
+    title: 'VivaceTV — Comprar IPTV Premium en España | Miles de Canales HD & 4K',
+    description: 'Compra tu suscripción IPTV premium en España. Miles de canales HD y 4K, fútbol en vivo, películas y series. Activación instantánea. Prueba gratis 24h.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
-    description: siteConfig.description,
+    title: 'VivaceTV — Comprar IPTV Premium en España | Miles de Canales HD & 4K',
+    description: 'Compra tu suscripción IPTV premium en España. Miles de canales HD y 4K, fútbol en vivo, películas y series. Activación instantánea. Prueba gratis 24h.',
   },
   robots: {
     index: true,
@@ -72,8 +74,12 @@ export default async function RootLayout({
   const fontsUrl    = buildFontsUrl(displayFont, bodyFont);
 
   return (
-    <html lang="fr">
+    <html lang="es">
       <head>
+        {/* Hreflang — tells Google this .com targets Spain */}
+        <link rel="alternate" hrefLang="es-es" href="https://www.vivacetv.com/" />
+        <link rel="alternate" hrefLang="es" href="https://www.vivacetv.com/" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.vivacetv.com/" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {fontsUrl && <link href={fontsUrl} rel="stylesheet" />}

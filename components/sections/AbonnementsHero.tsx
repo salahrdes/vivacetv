@@ -69,7 +69,7 @@ export default function AbonnementsHero() {
             Voir les forfaits
           </a>
           <a
-            href={buildWhatsAppUrl('Bonjour ClarioTV, je souhaite un test gratuit 24h')}
+            href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite un test gratuit 24h')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"

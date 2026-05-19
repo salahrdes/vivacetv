@@ -147,7 +147,7 @@ export default async function DashboardPage() {
             Tableau de bord
           </h1>
           <p className="text-sm mt-0.5" style={{ color: '#9B9B95' }}>
-            Bienvenue, {session?.user?.name} — voici l&apos;activité ClarioTV.
+            Bienvenue, {session?.user?.name} — voici l&apos;activité VivaceTV.
           </p>
         </div>
 

@@ -10,9 +10,9 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | ClarioTV',
+  title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | VivaceTV',
   description:
-    'Regardez la TV en 4K avec ClarioTV IPTV : +22 000 chaînes en HD, 4K et 8K, technologie anti-freeze, compatible Smart TV, Firestick, Android. Dès 22,99€.',
+    'Regardez la TV en 4K avec VivaceTV IPTV : +22 000 chaînes en HD, 4K et 8K, technologie anti-freeze, compatible Smart TV, Firestick, Android. Dès 22,99€.',
   keywords: [
     'IPTV 4K',
     '4K IPTV France',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteConfig.url}/iptv-4k` },
   openGraph: {
-    title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | ClarioTV',
+    title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | VivaceTV',
     description:
-      'IPTV 4K et 8K avec ClarioTV : +22 000 chaînes Ultra HD, anti-freeze, compatible Smart TV 4K, Fire Stick 4K, Android TV. Dès 22,99€.',
+      'IPTV 4K et 8K avec VivaceTV : +22 000 chaînes Ultra HD, anti-freeze, compatible Smart TV 4K, Fire Stick 4K, Android TV. Dès 22,99€.',
     url: `${siteConfig.url}/iptv-4k`,
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    question: 'Tous les abonnements ClarioTV incluent-ils la qualité 4K ?',
+    question: 'Tous les abonnements VivaceTV incluent-ils la qualité 4K ?',
     answer:
       "Oui. Tous nos abonnements (Bronze, Silver, Gold, Diamond) incluent les chaînes en qualité HD, 4K et 8K. La qualité affichée dépend également de votre connexion internet (25 Mbps minimum recommandés pour le 4K) et de la capacité 4K de votre écran.",
   },
@@ -44,17 +44,17 @@ const faqItems = [
   {
     question: "Mon IPTV 4K s'arrête souvent — comment résoudre ce problème ?",
     answer:
-      "Les coupures en IPTV 4K sont généralement dues à une connexion internet insuffisante ou instable. Vérifiez votre débit (test sur speedtest.net), rapprochez votre appareil du routeur ou utilisez un câble Ethernet. ClarioTV intègre la technologie AntiFreeze 10.0 qui réduit significativement les bufferings.",
+      "Les coupures en IPTV 4K sont généralement dues à une connexion internet insuffisante ou instable. Vérifiez votre débit (test sur speedtest.net), rapprochez votre appareil du routeur ou utilisez un câble Ethernet. VivaceTV intègre la technologie AntiFreeze 10.0 qui réduit significativement les bufferings.",
   },
   {
     question: "L'IPTV 4K est-il disponible sur iPhone et iPad ?",
     answer:
-      "Oui. Avec l'application GSE Smart IPTV ou IPTV Smarters Pro sur votre iPhone ou iPad compatible 4K, vous pouvez profiter des chaînes ClarioTV en 4K. L'Apple TV 4K est également une excellente option pour regarder l'IPTV en 4K sur votre téléviseur.",
+      "Oui. Avec l'application GSE Smart IPTV ou IPTV Smarters Pro sur votre iPhone ou iPad compatible 4K, vous pouvez profiter des chaînes VivaceTV en 4K. L'Apple TV 4K est également une excellente option pour regarder l'IPTV en 4K sur votre téléviseur.",
   },
   {
     question: "Ai-je besoin d'un équipement spécial pour l'IPTV 4K ?",
     answer:
-      "Non. Vous avez seulement besoin d'un écran 4K (TV, moniteur), d'une connexion internet de 25 Mbps minimum, et d'une application IPTV compatible 4K comme TiviMate ou GSE Smart IPTV. Un abonnement ClarioTV fait le reste.",
+      "Non. Vous avez seulement besoin d'un écran 4K (TV, moniteur), d'une connexion internet de 25 Mbps minimum, et d'une application IPTV compatible 4K comme TiviMate ou GSE Smart IPTV. Un abonnement VivaceTV fait le reste.",
   },
 ];
 
@@ -90,7 +90,7 @@ const speedRows = [
 
 const channels4K = [
   { cat: 'Sports', channels: ['beIN Sports 4K', 'Canal+ Sport 4K', 'RMC Sport 4K', 'Eurosport 4K'] },
-  { cat: 'Cinéma & Séries', channels: ['Canal+ Cinéma 4K', 'OCS 4K', 'Chaînes UHD Premium', 'VOD 4K ClarioTV'] },
+  { cat: 'Cinéma & Séries', channels: ['Canal+ Cinéma 4K', 'OCS 4K', 'Chaînes UHD Premium', 'VOD 4K VivaceTV'] },
   { cat: 'Généralistes & Internationales', channels: ['Chaînes françaises HD/4K', 'Chaînes européennes 4K', 'Chaînes arabes 4K', 'Chaînes américaines 4K'] },
 ];
 
@@ -140,7 +140,7 @@ export default function IPTV4KPage() {
           label="IPTV 4K & 8K"
           title="IPTV 4K en France —"
           titleHighlight="Qualité Cinéma sur Tous Vos Appareils"
-          subtitle="ClarioTV propose des chaînes en HD, 4K et 8K pour une expérience télévisuelle sans compromis. Compatible avec tous les appareils 4K du marché."
+          subtitle="VivaceTV propose des chaînes en HD, 4K et 8K pour une expérience télévisuelle sans compromis. Compatible avec tous les appareils 4K du marché."
         />
 
         {/* Section 1 — Qu'est-ce que l'IPTV 4K */}
@@ -167,7 +167,7 @@ export default function IPTV4KPage() {
               la différence est immédiatement perceptible.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              ClarioTV va encore plus loin en proposant des flux en{' '}
+              VivaceTV va encore plus loin en proposant des flux en{' '}
               <strong style={{ color: 'var(--color-ink)' }}>8K (7680×4320 pixels)</strong> — la
               résolution la plus haute disponible, idéale pour les écrans de 65 pouces et plus.
               Tous nos abonnements (Bronze, Silver, Gold, Diamond) incluent l&apos;accès aux
@@ -336,7 +336,7 @@ export default function IPTV4KPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Les Chaînes 4K Disponibles avec ClarioTV
+              Les Chaînes 4K Disponibles avec VivaceTV
             </h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {channels4K.map((cat) => (
@@ -401,7 +401,7 @@ export default function IPTV4KPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Critère', 'IPTV ClarioTV', 'Câble (Freebox/SFR)', 'Satellite (Canal+)'].map((h, i) => (
+                    {['Critère', 'IPTV VivaceTV', 'Câble (Freebox/SFR)', 'Satellite (Canal+)'].map((h, i) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
@@ -447,7 +447,7 @@ export default function IPTV4KPage() {
             <p className="mt-4 text-sm" style={{ color: 'var(--color-ink-light)' }}>
               L&apos;IPTV s&apos;impose comme la solution la plus flexible et la plus économique
               pour accéder au 4K. Sans installation technique, sans engagement et à un prix
-              bien inférieur aux offres câble et satellite, ClarioTV offre un catalogue 4K bien
+              bien inférieur aux offres câble et satellite, VivaceTV offre un catalogue 4K bien
               plus riche. Comparez nos offres avec le{' '}
               <Link
                 href="/meilleur-iptv"

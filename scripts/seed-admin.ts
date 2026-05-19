@@ -18,7 +18,7 @@ const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
 const db = new PrismaClient({ adapter });
 
 async function main() {
-  const email    = process.env.ADMIN_EMAIL    ?? 'admin@clariotv.fr';
+  const email    = process.env.ADMIN_EMAIL    ?? 'admin@vivacetv.fr';
   const password = process.env.ADMIN_PASSWORD ?? 'ChangeMe123!';
   const name     = process.env.ADMIN_NAME     ?? 'Super Admin';
 

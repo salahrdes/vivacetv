@@ -8,12 +8,12 @@ import BlogCard from '@/components/ui/BlogCard';
 import Pagination from '@/components/ui/Pagination';
 
 export const metadata: Metadata = {
-  title: 'Blog IPTV France : guides, conseils et installation | ClarioTV',
+  title: 'Blog IPTV France : guides, conseils et installation | VivaceTV',
   description:
-    'Retrouvez les guides ClarioTV pour choisir, installer et optimiser votre abonnement IPTV France sur Smart TV, Android, iOS, PC, Fire TV et autres appareils compatibles.',
+    'Retrouvez les guides VivaceTV pour choisir, installer et optimiser votre abonnement IPTV France sur Smart TV, Android, iOS, PC, Fire TV et autres appareils compatibles.',
   alternates: { canonical: `${siteConfig.url}/blog` },
   openGraph: {
-    title: 'Blog IPTV France : guides, conseils et installation | ClarioTV',
+    title: 'Blog IPTV France : guides, conseils et installation | VivaceTV',
     description:
       'Guides, tutoriels et conseils pour votre abonnement IPTV France.',
     url: `${siteConfig.url}/blog`,
@@ -63,7 +63,7 @@ export default async function BlogPage({
               Blog IPTV France — Guides, Conseils et Actualités
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Bienvenue sur le blog ClarioTV, votre source d&apos;information sur l&apos;IPTV en France.
+              Bienvenue sur le blog VivaceTV, votre source d&apos;information sur l&apos;IPTV en France.
               Retrouvez ici nos guides d&apos;installation, nos comparatifs d&apos;applications IPTV, nos
               conseils pour optimiser votre expérience de streaming et toutes les actualités du monde
               de la télévision connectée.

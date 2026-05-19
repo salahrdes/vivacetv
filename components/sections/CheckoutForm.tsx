@@ -57,7 +57,7 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
     }).catch(() => { /* silent — WhatsApp flow continues */ });
 
     const waText = [
-      `Bonjour ClarioTV, je souhaite commander l'abonnement ${planName} (${planDuration} — ${planPrice}€).`,
+      `Bonjour VivaceTV, je souhaite commander l'abonnement ${planName} (${planDuration} — ${planPrice}€).`,
       `Nom : ${form.name}`,
       `Appareil : ${form.device}`,
       form.message ? `Message : ${form.message}` : '',

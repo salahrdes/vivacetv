@@ -8,12 +8,12 @@ import PageHero from '@/components/ui/PageHero';
 import ContactForm from '@/components/sections/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact ClarioTV : assistance IPTV France | Support WhatsApp',
+  title: 'Contact VivaceTV : assistance IPTV France | Support WhatsApp',
   description:
-    "Contactez ClarioTV pour obtenir de l'aide avec votre abonnement IPTV France, votre installation ou le choix du forfait adapté à votre appareil.",
+    "Contactez VivaceTV pour obtenir de l'aide avec votre abonnement IPTV France, votre installation ou le choix du forfait adapté à votre appareil.",
   alternates: { canonical: `${siteConfig.url}/contact` },
   openGraph: {
-    title: 'Contact ClarioTV : assistance IPTV France',
+    title: 'Contact VivaceTV : assistance IPTV France',
     description: "Contactez notre support disponible 24h/24 via WhatsApp ou le formulaire.",
     url: `${siteConfig.url}/contact`,
     type: 'website',
@@ -26,15 +26,15 @@ const cards = [
     title: 'WhatsApp',
     value: '+44 747 661 4523',
     note: 'Réponse rapide sous 15 minutes',
-    href: buildWhatsAppUrl('Bonjour ClarioTV'),
+    href: buildWhatsAppUrl('Bonjour VivaceTV'),
     hrefLabel: 'Envoyer un message',
   },
   {
     icon: <Mail size={22} aria-hidden="true" />,
     title: 'Email',
-    value: 'support@clariotv.com',
+    value: 'support@vivacetv.com',
     note: 'Réponse sous 24 heures',
-    href: 'mailto:support@clariotv.com',
+    href: 'mailto:support@vivacetv.com',
     hrefLabel: 'Envoyer un email',
   },
   {
@@ -60,7 +60,7 @@ export default function ContactPage() {
         <PageHero
           label="Contact"
           title="Contactez"
-          titleHighlight="ClarioTV"
+          titleHighlight="VivaceTV"
           subtitle="Une question avant de commander ? Besoin d'aide pour choisir votre forfait IPTV ou configurer votre appareil ? Notre équipe vous accompagne rapidement."
         />
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-4"
               style={{ color: 'var(--color-ink)' }}
             >
-              Contactez l&apos;équipe ClarioTV
+              Contactez l&apos;équipe VivaceTV
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
               Vous avez une question sur votre abonnement IPTV, besoin d&apos;aide pour l&apos;installation
@@ -88,7 +88,7 @@ export default function ContactPage() {
               Notre engagement
             </h3>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Chez ClarioTV, la satisfaction de nos abonnés est notre priorité absolue. Nous nous
+              Chez VivaceTV, la satisfaction de nos abonnés est notre priorité absolue. Nous nous
               engageons à répondre à toutes vos demandes dans un délai maximum de 24 heures.
               Que ce soit pour une question technique, une demande de remboursement ou des
               informations sur nos abonnements IPTV premium, nous sommes là pour vous aider.
@@ -208,7 +208,7 @@ export default function ContactPage() {
                     Contactez-nous directement sur WhatsApp pour obtenir une assistance plus rapide.
                   </p>
                   <a
-                    href={buildWhatsAppUrl('Bonjour ClarioTV')}
+                    href={buildWhatsAppUrl('Bonjour VivaceTV')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 py-3 px-5 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90"

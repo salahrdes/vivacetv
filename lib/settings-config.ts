@@ -1,11 +1,11 @@
 /** Default values shown when a setting key has never been saved */
 export const SETTING_DEFAULTS: Record<string, string> = {
-  site_title:        'ClarioTV',
+  site_title:        'VivaceTV',
   site_tagline:      'Votre abonnement IPTV France en HD/4K',
-  site_description:  'Découvrez ClarioTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
+  site_description:  'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
   seo_keywords:      'iptv france, abonnement iptv, iptv smart tv, iptv android',
   seo_og_image:      '',
-  contact_email:     'contact@clariotv.fr',
+  contact_email:     'contact@vivacetv.fr',
   contact_whatsapp:  '447476614523',
   social_facebook:   '',
   social_instagram:  '',

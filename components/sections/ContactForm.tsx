@@ -71,7 +71,7 @@ export default function ContactForm() {
     }).catch(() => { /* silent */ });
 
     const waText = [
-      `Bonjour ClarioTV, je vous contacte depuis le formulaire du site.`,
+      `Bonjour VivaceTV, je vous contacte depuis le formulaire du site.`,
       form.subject ? `Sujet : ${form.subject}` : '',
       form.device ? `Appareil : ${form.device}` : '',
       form.message,
@@ -113,7 +113,7 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       noValidate
-      aria-label="Formulaire de contact ClarioTV"
+      aria-label="Formulaire de contact VivaceTV"
       className="flex flex-col gap-5 p-8 rounded-2xl"
       style={{
         backgroundColor: 'var(--color-card)',

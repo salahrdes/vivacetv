@@ -23,7 +23,7 @@ export default async function OrderDetailPage({
 
   const waNumber = order.customerWhatsapp.replace(/\D/g, '');
   const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(
-    `Bonjour ${order.customerName}, concernant votre commande ClarioTV ${order.plan} (${order.planDuration}).`
+    `Bonjour ${order.customerName}, concernant votre commande VivaceTV ${order.plan} (${order.planDuration}).`
   )}`;
 
   async function saveStatus(fd: FormData) {

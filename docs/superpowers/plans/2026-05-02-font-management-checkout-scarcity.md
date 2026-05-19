@@ -20,12 +20,12 @@
 ```ts
 /** Default values shown when a setting key has never been saved */
 export const SETTING_DEFAULTS: Record<string, string> = {
-  site_title:        'ClarioTV',
+  site_title:        'VivaceTV',
   site_tagline:      'Votre abonnement IPTV France en HD/4K',
-  site_description:  'Découvrez ClarioTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
+  site_description:  'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
   seo_keywords:      'iptv france, abonnement iptv, iptv smart tv, iptv android',
   seo_og_image:      '',
-  contact_email:     'contact@clariotv.fr',
+  contact_email:     'contact@vivacetv.fr',
   contact_whatsapp:  '447476614523',
   social_facebook:   '',
   social_instagram:  '',
@@ -73,7 +73,7 @@ export const FONT_CONFIG: Record<string, { slug: string; weights: string }> = {
 - [ ] **Step 2: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -191,7 +191,7 @@ function FontPreview({ fontKey, initial }: { fontKey: string; initial: string })
         border: '1px solid #E2E2DA',
       }}
     >
-      ClarioTV — Abonnement IPTV France HD/4K
+      VivaceTV — Abonnement IPTV France HD/4K
     </p>
   );
 }
@@ -202,7 +202,7 @@ Make sure `useState` and `useEffect` are imported (they should already be from e
 - [ ] **Step 6: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -226,8 +226,8 @@ import { FONT_CONFIG } from '@/lib/settings-config';
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
-    template: '%s | ClarioTV',
+    default: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
+    template: '%s | VivaceTV',
   },
   description: siteConfig.description,
   keywords: [
@@ -237,19 +237,19 @@ export const metadata: Metadata = {
     'IPTV Smart TV',
     'IPTV HD 4K',
   ],
-  authors: [{ name: 'ClarioTV' }],
-  creator: 'ClarioTV',
+  authors: [{ name: 'VivaceTV' }],
+  creator: 'VivaceTV',
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
+    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
     description: siteConfig.description,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | ClarioTV',
+    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
     description: siteConfig.description,
   },
   robots: {
@@ -307,7 +307,7 @@ export default async function RootLayout({
 - [ ] **Step 2: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -361,7 +361,7 @@ Replace with:
 - [ ] **Step 3: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -382,7 +382,7 @@ import { Clock, Flame } from 'lucide-react';
 
 // ── Per-plan urgency config ───────────────────────────────────────────────────
 const SCARCITY: Record<string, { urgency: string; spots?: number }> = {
-  bronze:  { urgency: 'Idéal pour découvrir ClarioTV sans engagement long' },
+  bronze:  { urgency: 'Idéal pour découvrir VivaceTV sans engagement long' },
   silver:  { urgency: 'Meilleur rapport qualité/prix — 6 mois offerts' },
   gold:    { urgency: '⭐ Le plus commandé ce mois — quantités limitées', spots: 5 },
   diamond: { urgency: '💎 Accès VIP prioritaire — places très limitées',  spots: 2 },
@@ -482,7 +482,7 @@ export default function ScarcityStrip({ planSlug }: Props) {
 - [ ] **Step 2: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -559,7 +559,7 @@ export default function SocialProofTicker() {
 - [ ] **Step 2: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -704,7 +704,7 @@ import SidebarCountdown from '@/components/sections/SidebarCountdown';
 - [ ] **Step 7: TypeScript check**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npx tsc --noEmit
+cd D:\claude\ProjectVivaceTV\vivacetv && npx tsc --noEmit
 ```
 Expected: no errors.
 
@@ -715,7 +715,7 @@ Expected: no errors.
 - [ ] **Step 1: Full production build**
 
 ```bash
-cd D:\claude\ProjectClarioTV\clariotv && npm run build
+cd D:\claude\ProjectVivaceTV\vivacetv && npm run build
 ```
 
 Expected output:

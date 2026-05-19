@@ -22,7 +22,7 @@ export const faqCategories: FaqCategory[] = [
       {
         question: "L'IPTV est-il légal en France ?",
         answer:
-          "L'IPTV en tant que technologie est parfaitement légale. Ce qui est illégal, c'est d'accéder à des contenus protégés par le droit d'auteur sans autorisation. ClarioTV est un service opéré de manière légitime, avec facturation officielle et accès aux contenus dans le respect du cadre légal applicable.",
+          "L'IPTV en tant que technologie est parfaitement légale. Ce qui est illégal, c'est d'accéder à des contenus protégés par le droit d'auteur sans autorisation. VivaceTV est un service opéré de manière légitime, avec facturation officielle et accès aux contenus dans le respect du cadre légal applicable.",
       },
       {
         question: "Quelle connexion Internet faut-il pour l'IPTV ?",
@@ -30,9 +30,9 @@ export const faqCategories: FaqCategory[] = [
           "Pour une expérience optimale : 10 Mbps minimum pour du HD, 25 Mbps recommandés pour du 4K. Une connexion fibre optique est idéale pour éviter tout buffering. La stabilité de la connexion est aussi importante que la vitesse brute.",
       },
       {
-        question: "Combien de chaînes sont disponibles avec ClarioTV ?",
+        question: "Combien de chaînes sont disponibles avec VivaceTV ?",
         answer:
-          "ClarioTV donne accès à plus de 20 000 chaînes : chaînes françaises (TF1, M6, France 2/3/4/5, Canal+, BFM TV…), chaînes internationales (arabes, anglaises, espagnoles, italiennes…), chaînes sportives (beIN Sports, Canal+ Sport, Eurosport…) et un catalogue VOD de films et séries.",
+          "VivaceTV donne accès à plus de 20 000 chaînes : chaînes françaises (TF1, M6, France 2/3/4/5, Canal+, BFM TV…), chaînes internationales (arabes, anglaises, espagnoles, italiennes…), chaînes sportives (beIN Sports, Canal+ Sport, Eurosport…) et un catalogue VOD de films et séries.",
       },
       {
         question: "Quelle est la différence entre l'IPTV et Netflix ?",
@@ -46,7 +46,7 @@ export const faqCategories: FaqCategory[] = [
     label: 'Abonnement IPTV',
     items: [
       {
-        question: 'Comment souscrire à un abonnement IPTV France avec ClarioTV ?',
+        question: 'Comment souscrire à un abonnement IPTV France avec VivaceTV ?',
         answer:
           'Choisissez le forfait qui vous convient sur la page Abonnements, envoyez votre demande, et notre équipe vous contacte via WhatsApp pour finaliser votre abonnement. Le processus prend moins de 5 minutes.',
       },
@@ -61,9 +61,9 @@ export const faqCategories: FaqCategory[] = [
           "Si vous découvrez le service, commencez par un test gratuit 24h ou le forfait Bronze 3 mois. Pour un usage régulier, le forfait Gold 12 mois offre le meilleur rapport qualité/prix à moins de 3,75 €/mois avec accès 4K et 8K.",
       },
       {
-        question: 'Puis-je utiliser ClarioTV sur plusieurs appareils en même temps ?',
+        question: 'Puis-je utiliser VivaceTV sur plusieurs appareils en même temps ?',
         answer:
-          "Chaque abonnement est prévu pour un flux simultané. Si vous souhaitez utiliser ClarioTV sur plusieurs appareils en même temps, contactez notre support pour une solution adaptée.",
+          "Chaque abonnement est prévu pour un flux simultané. Si vous souhaitez utiliser VivaceTV sur plusieurs appareils en même temps, contactez notre support pour une solution adaptée.",
       },
       {
         question: 'Puis-je renouveler mon abonnement à son expiration ?',
@@ -77,22 +77,22 @@ export const faqCategories: FaqCategory[] = [
     label: 'Appareils compatibles',
     items: [
       {
-        question: 'Quels appareils sont compatibles avec ClarioTV ?',
+        question: 'Quels appareils sont compatibles avec VivaceTV ?',
         answer:
-          "ClarioTV fonctionne sur Smart TV Samsung et LG, Amazon Fire TV Stick, Android (téléphone, tablette, TV Box), iPhone et iPad, PC Windows, Mac, Apple TV et Roku — via des applications compatibles comme IPTV Smarters Pro.",
+          "VivaceTV fonctionne sur Smart TV Samsung et LG, Amazon Fire TV Stick, Android (téléphone, tablette, TV Box), iPhone et iPad, PC Windows, Mac, Apple TV et Roku — via des applications compatibles comme IPTV Smarters Pro.",
       },
       {
-        question: 'Puis-je utiliser ClarioTV sur Smart TV ?',
+        question: 'Puis-je utiliser VivaceTV sur Smart TV ?',
         answer:
           "Oui. Pour les Smart TV Samsung et LG, téléchargez IPTV Smarters Pro depuis le store de votre TV. Notre support peut vous guider si votre modèle nécessite une configuration spécifique.",
       },
       {
-        question: 'ClarioTV fonctionne-t-il sur iPhone et iPad ?',
+        question: 'VivaceTV fonctionne-t-il sur iPhone et iPad ?',
         answer:
           "Oui, en téléchargeant IPTV Smarters Pro ou GSE Smart IPTV depuis l'App Store. Les deux applications sont compatibles iOS 14 et versions ultérieures.",
       },
       {
-        question: 'Puis-je utiliser ClarioTV sur PC ou Mac ?',
+        question: 'Puis-je utiliser VivaceTV sur PC ou Mac ?',
         answer:
           "Oui. Sur Windows, téléchargez IPTV Smarters Pro depuis le Microsoft Store. Sur Mac, utilisez IPTV Smarters Pro ou GSE Smart IPTV depuis l'App Store Mac. VLC Media Player est aussi une alternative gratuite avec un lien M3U.",
       },
@@ -108,7 +108,7 @@ export const faqCategories: FaqCategory[] = [
           "Après confirmation de votre demande via WhatsApp, notre équipe vous envoie vos identifiants (URL du serveur, nom d'utilisateur, mot de passe) en moins de 5 minutes. Vous les entrez dans l'application IPTV de votre choix.",
       },
       {
-        question: 'Quelle application utiliser pour regarder ClarioTV ?',
+        question: 'Quelle application utiliser pour regarder VivaceTV ?',
         answer:
           "IPTV Smarters Pro est l'application que nous recommandons — elle est gratuite, disponible sur toutes les plateformes et très stable. TiviMate est une excellente alternative sur Firestick et Android TV.",
       },
@@ -129,7 +129,7 @@ export const faqCategories: FaqCategory[] = [
     label: 'Support',
     items: [
       {
-        question: 'Comment contacter le support ClarioTV ?',
+        question: 'Comment contacter le support VivaceTV ?',
         answer:
           "Le support est disponible 24h/24 et 7j/7 via WhatsApp au +44 747 661 4523. Vous pouvez aussi envoyer un message depuis la page Contact du site. Réponse garantie sous 15 minutes.",
       },

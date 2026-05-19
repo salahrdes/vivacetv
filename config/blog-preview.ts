@@ -22,7 +22,7 @@ export const blogPreviews: BlogPreviewCard[] = [
   {
     title: 'Configurer IPTV sur Android TV',
     excerpt:
-      'Suivez un guide simple pour utiliser ClarioTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
+      'Suivez un guide simple pour utiliser VivaceTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
     slug: 'configurer-iptv-android-tv',
     category: 'Guide',
     readTime: '5 min',

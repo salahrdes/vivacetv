@@ -27,7 +27,7 @@ export async function generateMetadata({
   const post = getBlogPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} | ClarioTV`,
+    title: `${post.title} | VivaceTV`,
     description: post.excerpt,
     alternates: { canonical: `${siteConfig.url}/blog/${post.slug}` },
     openGraph: {
@@ -443,7 +443,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
                   {post.excerpt}
                 </p>
                 <a
-                  href={buildWhatsAppUrl(`Bonjour ClarioTV, j'ai une question sur : ${post.title}`)}
+                  href={buildWhatsAppUrl(`Bonjour VivaceTV, j'ai une question sur : ${post.title}`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm"

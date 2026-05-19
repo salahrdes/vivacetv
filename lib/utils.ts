@@ -8,7 +8,7 @@ export function cn(...classes: (string | undefined | null | false)[]): string {
  *
  * @param message  Human-readable message to pre-fill (spaces become +)
  */
-export function buildWhatsAppUrl(message = 'Bonjour ClarioTV'): string {
+export function buildWhatsAppUrl(message = 'Bonjour VivaceTV'): string {
   // WhatsApp API uses + for spaces (same format the user specified)
   const encoded = message.trim().replace(/ /g, '+');
   return `https://api.whatsapp.com/send/?phone=447476614523&text=${encoded}`;

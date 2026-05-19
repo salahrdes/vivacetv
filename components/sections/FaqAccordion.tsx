@@ -116,7 +116,7 @@ export default function FaqAccordion() {
           Notre équipe est disponible 24h/24 via WhatsApp pour répondre à toutes vos questions.
         </p>
         <a
-          href={buildWhatsAppUrl("Bonjour ClarioTV, j'ai une question")}
+          href={buildWhatsAppUrl("Bonjour VivaceTV, j'ai une question")}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90"

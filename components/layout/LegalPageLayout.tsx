@@ -87,11 +87,11 @@ export default function LegalPageLayout({
               <p className="text-sm" style={{ color: 'var(--color-ink-light)' }}>
                 Contactez-nous à{' '}
                 <a
-                  href="mailto:support@clariotv.com"
+                  href="mailto:support@vivacetv.com"
                   className="font-medium hover:underline"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  support@clariotv.com
+                  support@vivacetv.com
                 </a>
               </p>
             </div>

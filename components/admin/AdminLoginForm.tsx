@@ -68,7 +68,7 @@ export default function AdminLoginForm({ callbackUrl, error: initialError }: Pro
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="admin@clariotv.fr"
+          placeholder="admin@vivacetv.fr"
           className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all"
           style={{
             backgroundColor: 'rgba(255,255,255,0.05)',
@@ -113,7 +113,7 @@ export default function AdminLoginForm({ callbackUrl, error: initialError }: Pro
 
       {/* Hint */}
       <p className="text-xs" style={{ color: 'rgba(255,255,255,0.2)' }}>
-        Email par défaut : <span style={{ color: 'rgba(255,255,255,0.4)' }}>admin@clariotv.fr</span><br />
+        Email par défaut : <span style={{ color: 'rgba(255,255,255,0.4)' }}>admin@vivacetv.fr</span><br />
         Mot de passe par défaut : <span style={{ color: 'rgba(255,255,255,0.4)' }}>ChangeMe123!</span>
       </p>
 

@@ -131,7 +131,7 @@ export default function SeoFields({
         >
           <p className="text-xs font-semibold mb-1" style={{ color: '#C5C5C0' }}>Aperçu Google</p>
           <p className="text-sm font-medium" style={{ color: '#1a0dab' }}>{seoTitle || '(sans titre SEO)'}</p>
-          <p className="text-xs" style={{ color: '#006621' }}>clariotv.fr/{slug || '…'}</p>
+          <p className="text-xs" style={{ color: '#006621' }}>vivacetv.fr/{slug || '…'}</p>
           <p className="text-xs mt-0.5" style={{ color: '#545454' }}>{seoDescription || '(sans description)'}</p>
         </div>
       )}

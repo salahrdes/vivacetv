@@ -92,10 +92,10 @@ const tableRows: TableRow[] = [
 ];
 
 const plans = [
-  { key: 'bronze' as const, name: 'Bronze',  isFeatured: false, waText: 'Bonjour ClarioTV, je souhaite commander le forfait Bronze (3 mois - 22,99€)' },
-  { key: 'silver' as const, name: 'Silver',  isFeatured: false, waText: 'Bonjour ClarioTV, je souhaite commander le forfait Silver (6 mois - 34,99€)' },
-  { key: 'gold'   as const, name: 'Gold',    isFeatured: true,  waText: 'Bonjour ClarioTV, je souhaite commander le forfait Gold (12 mois - 44,99€)' },
-  { key: 'diamond'as const, name: 'Diamond', isFeatured: false, waText: 'Bonjour ClarioTV, je souhaite commander le forfait Diamond (24 mois - 74,99€)' },
+  { key: 'bronze' as const, name: 'Bronze',  isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Bronze (3 mois - 22,99€)' },
+  { key: 'silver' as const, name: 'Silver',  isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Silver (6 mois - 34,99€)' },
+  { key: 'gold'   as const, name: 'Gold',    isFeatured: true,  waText: 'Bonjour VivaceTV, je souhaite commander le forfait Gold (12 mois - 44,99€)' },
+  { key: 'diamond'as const, name: 'Diamond', isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Diamond (24 mois - 74,99€)' },
 ];
 
 function CellContent({ value, isFeatured }: { value: CellValue; isFeatured: boolean }) {
@@ -162,7 +162,7 @@ export default function PlanComparisonTable() {
 
         {/* Table wrapper — horizontal scroll on mobile */}
         <div className="overflow-x-auto rounded-2xl" style={{ border: '1px solid var(--color-border)' }}>
-          <table className="w-full min-w-[640px] border-collapse" aria-label="Comparatif des forfaits ClarioTV">
+          <table className="w-full min-w-[640px] border-collapse" aria-label="Comparatif des forfaits VivaceTV">
             <thead>
               <tr>
                 {/* Feature label column */}

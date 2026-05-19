@@ -90,7 +90,7 @@ export default function CompatibleAppsSection() {
         <SectionHeader
           label="Applications compatibles"
           title="Choisissez l'application adaptée à votre appareil"
-          description="ClarioTV fonctionne avec les lecteurs IPTV les plus populaires du marché. Voici les applications que nous recommandons selon votre appareil."
+          description="VivaceTV fonctionne avec les lecteurs IPTV les plus populaires du marché. Voici les applications que nous recommandons selon votre appareil."
           className="mb-14"
         />
 
@@ -178,7 +178,7 @@ export default function CompatibleAppsSection() {
           style={{ color: 'var(--color-gray-600)' }}
         >
           Vous ne savez pas quelle application choisir ? Notre équipe vous guide via WhatsApp selon
-          votre appareil et votre forfait — c'est inclus dans votre abonnement ClarioTV.
+          votre appareil et votre forfait — c'est inclus dans votre abonnement VivaceTV.
         </p>
       </div>
     </section>

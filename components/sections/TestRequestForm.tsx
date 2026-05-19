@@ -60,7 +60,7 @@ export default function TestRequestForm() {
     }).catch(() => { /* silent */ });
 
     const waText = [
-      `Bonjour ClarioTV, je souhaite un test gratuit 24h.`,
+      `Bonjour VivaceTV, je souhaite un test gratuit 24h.`,
       `Nom : ${form.name}`,
       `Appareil : ${form.device}`,
       form.app ? `Application souhaitée : ${form.app}` : '',

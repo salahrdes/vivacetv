@@ -49,7 +49,7 @@ function FontPreview({ value }: { value: string }) {
         border: '1px solid #E2E2DA',
       }}
     >
-      ClarioTV — Abonnement IPTV France HD/4K
+      VivaceTV — Abonnement IPTV France HD/4K
     </p>
   );
 }
@@ -86,7 +86,7 @@ export default function SettingsForm({ initial }: Props) {
       {/* Site identity */}
       <Section title="Identité du site">
         <Field label="Titre du site" id="site_title" hint="Affiché dans le navigateur et les résultats Google">
-          <input id="site_title" value={settings.site_title ?? ''} onChange={set('site_title')} style={inputStyle} placeholder="ClarioTV" />
+          <input id="site_title" value={settings.site_title ?? ''} onChange={set('site_title')} style={inputStyle} placeholder="VivaceTV" />
         </Field>
         <Field label="Slogan (tagline)" id="site_tagline">
           <input id="site_tagline" value={settings.site_tagline ?? ''} onChange={set('site_tagline')} style={inputStyle} placeholder="Votre IPTV France…" />
@@ -113,7 +113,7 @@ export default function SettingsForm({ initial }: Props) {
       {/* Contact */}
       <Section title="Contact &amp; WhatsApp">
         <Field label="Email de contact" id="contact_email">
-          <input id="contact_email" type="email" value={settings.contact_email ?? ''} onChange={set('contact_email')} style={inputStyle} placeholder="contact@clariotv.fr" />
+          <input id="contact_email" type="email" value={settings.contact_email ?? ''} onChange={set('contact_email')} style={inputStyle} placeholder="contact@vivacetv.fr" />
         </Field>
         <Field label="Numéro WhatsApp (sans +)" id="contact_whatsapp" hint="Ex : 447476614523">
           <input id="contact_whatsapp" value={settings.contact_whatsapp ?? ''} onChange={set('contact_whatsapp')} style={inputStyle} placeholder="447476614523" />
@@ -123,13 +123,13 @@ export default function SettingsForm({ initial }: Props) {
       {/* Social */}
       <Section title="Réseaux sociaux">
         <Field label="Facebook (URL)" id="social_facebook">
-          <input id="social_facebook" value={settings.social_facebook ?? ''} onChange={set('social_facebook')} style={inputStyle} placeholder="https://facebook.com/clariotv" />
+          <input id="social_facebook" value={settings.social_facebook ?? ''} onChange={set('social_facebook')} style={inputStyle} placeholder="https://facebook.com/vivacetv" />
         </Field>
         <Field label="Instagram (URL)" id="social_instagram">
-          <input id="social_instagram" value={settings.social_instagram ?? ''} onChange={set('social_instagram')} style={inputStyle} placeholder="https://instagram.com/clariotv" />
+          <input id="social_instagram" value={settings.social_instagram ?? ''} onChange={set('social_instagram')} style={inputStyle} placeholder="https://instagram.com/vivacetv" />
         </Field>
         <Field label="Twitter / X (URL)" id="social_twitter">
-          <input id="social_twitter" value={settings.social_twitter ?? ''} onChange={set('social_twitter')} style={inputStyle} placeholder="https://x.com/clariotv" />
+          <input id="social_twitter" value={settings.social_twitter ?? ''} onChange={set('social_twitter')} style={inputStyle} placeholder="https://x.com/vivacetv" />
         </Field>
       </Section>
 

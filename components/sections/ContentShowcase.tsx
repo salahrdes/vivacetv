@@ -60,7 +60,7 @@ export default function ContentShowcase() {
             <SectionHeader
               label="Nos contenus"
               title="Découvrez une expérience IPTV complète en France"
-              description="Avec ClarioTV, profitez d'un accès simple à une grande variété de contenus : chaînes TV, événements sportifs, films, séries, documentaires, programmes jeunesse et divertissement familial."
+              description="Avec VivaceTV, profitez d'un accès simple à une grande variété de contenus : chaînes TV, événements sportifs, films, séries, documentaires, programmes jeunesse et divertissement familial."
               align="left"
               dark
               className="mb-8"

@@ -5,14 +5,14 @@ export type FaqItem = {
 
 export const faqItems: FaqItem[] = [
   {
-    question: 'Comment souscrire à un abonnement IPTV France avec ClarioTV ?',
+    question: 'Comment souscrire à un abonnement IPTV France avec VivaceTV ?',
     answer:
       'Choisissez le forfait qui vous convient, passez votre demande depuis la page du forfait, puis notre équipe vous contacte via WhatsApp pour finaliser votre abonnement.',
   },
   {
-    question: 'Quels appareils sont compatibles avec ClarioTV ?',
+    question: 'Quels appareils sont compatibles avec VivaceTV ?',
     answer:
-      'ClarioTV est compatible avec Smart TV, Android, iOS, PC, Mac, Box TV, Roku, Fire TV et Apple TV selon l\'application utilisée.',
+      'VivaceTV est compatible avec Smart TV, Android, iOS, PC, Mac, Box TV, Roku, Fire TV et Apple TV selon l\'application utilisée.',
   },
   {
     question: 'Dois-je créer un compte pour commander ?',

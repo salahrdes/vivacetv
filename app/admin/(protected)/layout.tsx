@@ -5,7 +5,7 @@ import AdminSidebar from '@/components/admin/AdminSidebar';
 import AdminHeader from '@/components/admin/AdminHeader';
 
 export const metadata: Metadata = {
-  title: { default: 'Admin — ClarioTV', template: '%s | Admin ClarioTV' },
+  title: { default: 'Admin — VivaceTV', template: '%s | Admin VivaceTV' },
   robots: { index: false, follow: false },
 };
 

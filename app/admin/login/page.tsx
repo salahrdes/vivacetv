@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import AdminLoginForm from '@/components/admin/AdminLoginForm';
 
 export const metadata: Metadata = {
-  title: 'Connexion Admin — ClarioTV',
+  title: 'Connexion Admin — VivaceTV',
   robots: { index: false, follow: false },
 };
 
@@ -36,7 +36,7 @@ export default async function AdminLoginPage({
           >
             C
           </span>
-          <span className="font-display font-bold text-lg" style={{ color: '#F5F5F1' }}>ClarioTV</span>
+          <span className="font-display font-bold text-lg" style={{ color: '#F5F5F1' }}>VivaceTV</span>
         </div>
 
         {/* Stats teaser */}
@@ -55,7 +55,7 @@ export default async function AdminLoginPage({
 
         {/* Footer */}
         <p className="text-xs" style={{ color: 'rgba(255,255,255,0.2)' }}>
-          © 2026 ClarioTV. Administration sécurisée.
+          © 2026 VivaceTV. Administration sécurisée.
         </p>
       </div>
 
@@ -70,7 +70,7 @@ export default async function AdminLoginPage({
             >
               C
             </span>
-            <span className="font-display font-bold" style={{ color: '#F5F5F1' }}>ClarioTV</span>
+            <span className="font-display font-bold" style={{ color: '#F5F5F1' }}>VivaceTV</span>
           </div>
 
           <h1 className="font-display font-bold text-2xl mb-1" style={{ color: '#F5F5F1' }}>

@@ -3,8 +3,8 @@ import { siteConfig } from '@/config/site';
 import LegalPageLayout from '@/components/layout/LegalPageLayout';
 
 export const metadata: Metadata = {
-  title: 'DMCA | ClarioTV',
-  description: 'Procédure de signalement DMCA pour ClarioTV — signalement de contenu, informations requises et traitement des demandes.',
+  title: 'DMCA | VivaceTV',
+  description: 'Procédure de signalement DMCA pour VivaceTV — signalement de contenu, informations requises et traitement des demandes.',
   alternates: { canonical: `${siteConfig.url}/dmca` },
   robots: { index: true, follow: true },
 };
@@ -20,14 +20,14 @@ export default function DmcaPage() {
         {
           heading: 'Respect des droits d\'auteur',
           paragraphs: [
-            "ClarioTV respecte les droits de propriété intellectuelle et s'engage à traiter avec sérieux toute notification de violation du droit d'auteur soumise conformément au Digital Millennium Copyright Act (DMCA). Si vous êtes titulaire d'un droit d'auteur et estimez que des contenus accessibles via notre service portent atteinte à vos droits, veuillez nous contacter via la procédure décrite ci-dessous.",
+            "VivaceTV respecte les droits de propriété intellectuelle et s'engage à traiter avec sérieux toute notification de violation du droit d'auteur soumise conformément au Digital Millennium Copyright Act (DMCA). Si vous êtes titulaire d'un droit d'auteur et estimez que des contenus accessibles via notre service portent atteinte à vos droits, veuillez nous contacter via la procédure décrite ci-dessous.",
           ],
         },
         {
           heading: 'Signalement de contenu',
           paragraphs: [
             "Si vous êtes titulaire d'un droit d'auteur ou son représentant autorisé et pensez qu'un contenu accessible via notre service porte atteinte à vos droits, vous pouvez nous soumettre une demande de retrait conformément au DMCA.",
-            "ClarioTV prend au sérieux les questions de propriété intellectuelle et s'engage à traiter toute demande valide dans les meilleurs délais.",
+            "VivaceTV prend au sérieux les questions de propriété intellectuelle et s'engage à traiter toute demande valide dans les meilleurs délais.",
           ],
         },
         {
@@ -45,15 +45,15 @@ export default function DmcaPage() {
         {
           heading: 'Traitement des demandes',
           paragraphs: [
-            "ClarioTV s'engage à examiner toute demande DMCA dans un délai de 72 heures ouvrées suivant sa réception.",
+            "VivaceTV s'engage à examiner toute demande DMCA dans un délai de 72 heures ouvrées suivant sa réception.",
             "En cas de demande valide, le contenu signalé sera désactivé ou supprimé conformément aux procédures applicables.",
-            "ClarioTV se réserve le droit de rejeter toute demande incomplète, manifestement abusive ou formulée de mauvaise foi.",
+            "VivaceTV se réserve le droit de rejeter toute demande incomplète, manifestement abusive ou formulée de mauvaise foi.",
           ],
         },
         {
           heading: 'Contact',
           paragraphs: [
-            "Les demandes DMCA doivent être envoyées par email à : support@clariotv.com",
+            "Les demandes DMCA doivent être envoyées par email à : support@vivacetv.com",
             "Objet de l'email : [DMCA] Signalement de contenu",
           ],
         },

@@ -34,8 +34,8 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           label="Avis clients"
-          title="Ils font confiance à ClarioTV pour leur IPTV en France"
-          description="Des utilisateurs en France choisissent ClarioTV pour une expérience simple, rapide et compatible avec leurs appareils."
+          title="Ils font confiance à VivaceTV pour leur IPTV en France"
+          description="Des utilisateurs en France choisissent VivaceTV pour une expérience simple, rapide et compatible avec leurs appareils."
           className="mb-14"
         />
 

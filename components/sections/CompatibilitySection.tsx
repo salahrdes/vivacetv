@@ -25,7 +25,7 @@ export default function CompatibilitySection() {
         <SectionHeader
           label="Compatibilité"
           title="Compatible avec vos appareils préférés"
-          description="Votre abonnement IPTV ClarioTV fonctionne sur les appareils les plus utilisés en France. Notre équipe vous aide à choisir l'application la plus adaptée à votre écran."
+          description="Votre abonnement IPTV VivaceTV fonctionne sur les appareils les plus utilisés en France. Notre équipe vous aide à choisir l'application la plus adaptée à votre écran."
           className="mb-14"
         />
 

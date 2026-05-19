@@ -24,7 +24,7 @@ export default function HeroSection() {
     <section
       className="relative overflow-hidden"
       style={{ backgroundColor: 'var(--color-surface)' }}
-      aria-label="Présentation ClarioTV"
+      aria-label="Présentation VivaceTV"
     >
       {/* Subtle background grain pattern */}
       <div
@@ -62,7 +62,7 @@ export default function HeroSection() {
 
             {/* Description */}
             <p className="text-lg text-ink-light leading-relaxed max-w-xl">
-              ClarioTV vous propose une expérience IPTV fluide et moderne en France, avec une
+              VivaceTV vous propose une expérience IPTV fluide et moderne en France, avec une
               qualité HD/4K, une activation rapide, une assistance 24/7 et une compatibilité
               avec Smart TV, Android, iOS, PC, Box TV, Roku, Fire TV et Apple TV.
             </p>
@@ -126,7 +126,7 @@ export default function HeroSection() {
                     <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: '#28C840' }} />
                   </div>
                   <div className="flex-1 mx-4 h-4 rounded-md" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
-                  <span className="text-xs font-medium" style={{ color: 'var(--color-lime)', fontFamily: 'var(--font-display)' }}>ClarioTV</span>
+                  <span className="text-xs font-medium" style={{ color: 'var(--color-lime)', fontFamily: 'var(--font-display)' }}>VivaceTV</span>
                 </div>
 
                 {/* Content grid */}

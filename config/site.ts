@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: 'ClarioTV',
-  url: 'https://www.clariotv.com',
+  name: 'VivaceTV',
+  url: 'https://www.vivacetv.com',
   description:
-    'Découvrez ClarioTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV. Activation rapide, qualité HD/4K et support 24/7.',
+    'VivaceTV — Tu suscripción IPTV premium en España. Miles de canales HD y 4K, fútbol en vivo, La Liga, Champions League, películas y series. Activación instantánea. Prueba gratis 24h sin tarjeta.',
   /** Base WhatsApp link — do NOT use this directly; use buildWhatsAppUrl() from lib/utils */
   whatsappPhone: '447476614523',
-  email: 'contact@clariotv.com',
+  email: 'contacto@vivacetv.com',
   social: {
     facebook: '',
     instagram: '',
     twitter: '',
   },
   legal: {
-    company: 'ClarioTV',
+    company: 'VivaceTV',
     year: 2026,
   },
 } as const;

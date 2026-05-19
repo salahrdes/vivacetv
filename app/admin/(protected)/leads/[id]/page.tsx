@@ -27,7 +27,7 @@ export default async function LeadDetailPage({
 
   const waNumber = lead.whatsapp.replace(/\D/g, '');
   const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(
-    `Bonjour ${lead.name}, suite à votre demande sur ClarioTV.`
+    `Bonjour ${lead.name}, suite à votre demande sur VivaceTV.`
   )}`;
 
   async function saveStatus(fd: FormData) {

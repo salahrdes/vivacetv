@@ -38,7 +38,7 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-1 font-display font-extrabold text-xl text-ink shrink-0"
-              aria-label="ClarioTV — Accueil"
+              aria-label="VivaceTV — Accueil"
             >
               Clario
               <span

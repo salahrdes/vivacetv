@@ -27,7 +27,7 @@ const footerColumns = [
     links: [
       { label: 'Contact',            href: '/contact' },
       { label: 'FAQ',                href: '/faq' },
-      { label: 'Assistance WhatsApp', href: buildWhatsAppUrl('Bonjour ClarioTV, j\'ai besoin d\'assistance'), external: true },
+      { label: 'Assistance WhatsApp', href: buildWhatsAppUrl('Bonjour VivaceTV, j\'ai besoin d\'assistance'), external: true },
       { label: 'Support 24/7',       href: '/contact' },
     ],
   },
@@ -49,7 +49,7 @@ export default function Footer() {
               href="/"
               className="flex items-center gap-1 font-display font-extrabold text-xl"
               style={{ color: 'var(--color-surface)' }}
-              aria-label="ClarioTV"
+              aria-label="VivaceTV"
             >
               Clario
               <span

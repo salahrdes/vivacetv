@@ -34,7 +34,7 @@ export default function FinalCTA() {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Button
-            href={buildWhatsAppUrl('Bonjour ClarioTV, je souhaite commander maintenant')}
+            href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite commander maintenant')}
             size="lg"
             variant="primary"
             external
@@ -42,7 +42,7 @@ export default function FinalCTA() {
             Commander maintenant
           </Button>
           <Button
-            href={buildWhatsAppUrl('Bonjour ClarioTV, j\'ai une question')}
+            href={buildWhatsAppUrl('Bonjour VivaceTV, j\'ai une question')}
             size="lg"
             variant="ghost"
             external

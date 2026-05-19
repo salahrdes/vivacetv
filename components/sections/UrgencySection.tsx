@@ -13,7 +13,7 @@ const reasons = [
     icon: <Gift size={20} aria-hidden="true" />,
     title: 'Test gratuit 24h sans risque',
     description:
-      'Essayez ClarioTV avant de vous engager. Si la qualité ne vous convient pas, vous ne payez rien.',
+      'Essayez VivaceTV avant de vous engager. Si la qualité ne vous convient pas, vous ne payez rien.',
   },
   {
     icon: <Zap size={20} aria-hidden="true" />,
@@ -86,7 +86,7 @@ export default function UrgencySection() {
             style={{ color: 'var(--color-ink)' }}
           >
             Pourquoi commander{' '}
-            <span style={{ color: 'var(--color-lime)' }}>ClarioTV maintenant</span>{' '}
+            <span style={{ color: 'var(--color-lime)' }}>VivaceTV maintenant</span>{' '}
             plutôt que demain ?
           </h2>
 
@@ -100,7 +100,7 @@ export default function UrgencySection() {
         <div
           className="grid grid-cols-2 lg:grid-cols-4 gap-px mb-14 rounded-2xl overflow-hidden"
           style={{ backgroundColor: 'var(--color-border)' }}
-          aria-label="Chiffres ClarioTV"
+          aria-label="Chiffres VivaceTV"
         >
           {stats.map(({ value, label, sub }) => (
             <div
@@ -174,7 +174,7 @@ export default function UrgencySection() {
           </div>
 
           <a
-            href={buildWhatsAppUrl('Bonjour ClarioTV, je souhaite un test gratuit 24h')}
+            href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite un test gratuit 24h')}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"

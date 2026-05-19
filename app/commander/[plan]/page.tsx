@@ -26,12 +26,12 @@ export async function generateMetadata({
   const plan = plans.find((p) => p.slug === slug);
   if (!plan) return {};
   return {
-    title: `Commander l'abonnement ${plan.name} IPTV (${plan.duration}) | ClarioTV`,
-    description: `Commandez votre abonnement IPTV ClarioTV ${plan.name} — ${plan.duration} à ${plan.priceSale}€. Activation rapide via WhatsApp, support 24/7.`,
+    title: `Commander l'abonnement ${plan.name} IPTV (${plan.duration}) | VivaceTV`,
+    description: `Commandez votre abonnement IPTV VivaceTV ${plan.name} — ${plan.duration} à ${plan.priceSale}€. Activation rapide via WhatsApp, support 24/7.`,
     alternates: { canonical: `${siteConfig.url}/commander/${plan.slug}` },
     robots: { index: false }, // checkout pages should not be indexed
     openGraph: {
-      title: `Abonnement ${plan.name} — ${plan.duration} | ClarioTV`,
+      title: `Abonnement ${plan.name} — ${plan.duration} | VivaceTV`,
       description: `Commandez votre abonnement IPTV ${plan.name} à ${plan.priceSale}€ pour ${plan.duration}.`,
       url: `${siteConfig.url}/commander/${plan.slug}`,
       type: 'website',

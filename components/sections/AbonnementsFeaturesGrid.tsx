@@ -50,9 +50,9 @@ export default function AbonnementsFeaturesGrid() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <SectionHeader
-          label="Pourquoi ClarioTV ?"
+          label="Pourquoi VivaceTV ?"
           title="Tout ce qu'il vous faut dans un seul abonnement"
-          description="ClarioTV réunit la meilleure sélection de contenu, la plus haute qualité d'image et un support réactif — en un seul forfait IPTV France."
+          description="VivaceTV réunit la meilleure sélection de contenu, la plus haute qualité d'image et un support réactif — en un seul forfait IPTV France."
           className="mb-14"
         />
 

@@ -13,7 +13,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
 
   const pageUrl = typeof window !== 'undefined'
     ? `${window.location.origin}/blog/${slug}`
-    : `https://clariotv.fr/blog/${slug}`;
+    : `https://vivacetv.fr/blog/${slug}`;
 
   const encodedUrl = encodeURIComponent(pageUrl);
   const encodedTitle = encodeURIComponent(title);

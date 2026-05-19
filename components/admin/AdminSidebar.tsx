@@ -42,7 +42,7 @@ export default function AdminSidebar() {
             <span className="font-extrabold text-sm" style={{ color: '#111110' }}>C</span>
           </span>
           <span className="font-display font-bold text-base" style={{ color: '#F5F5F1' }}>
-            ClarioTV
+            VivaceTV
           </span>
         </div>
         <button
@@ -137,7 +137,7 @@ export default function AdminSidebar() {
             Super Admin
           </p>
           <p className="text-xs truncate" style={{ color: 'rgba(255,255,255,0.3)' }}>
-            admin@clariotv.fr
+            admin@vivacetv.fr
           </p>
         </div>
         <Link href="/admin/parametres" aria-label="Paramètres">

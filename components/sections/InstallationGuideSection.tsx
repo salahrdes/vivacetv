@@ -95,7 +95,7 @@ const devices: Device[] = [
       {
         title: 'Entrer vos identifiants',
         description:
-          'Choisissez "Connexion via Xtream Codes API". Saisissez l\'URL du serveur, votre nom d\'utilisateur et votre mot de passe fournis par ClarioTV.',
+          'Choisissez "Connexion via Xtream Codes API". Saisissez l\'URL du serveur, votre nom d\'utilisateur et votre mot de passe fournis par VivaceTV.',
       },
       {
         title: 'Regarder en direct',
@@ -178,7 +178,7 @@ const devices: Device[] = [
       {
         title: 'Ajouter votre abonnement',
         description:
-          'Choisissez "Xtream Codes API" comme méthode de connexion. Entrez l\'URL du serveur, le nom d\'utilisateur et le mot de passe fournis par ClarioTV.',
+          'Choisissez "Xtream Codes API" comme méthode de connexion. Entrez l\'URL du serveur, le nom d\'utilisateur et le mot de passe fournis par VivaceTV.',
       },
       {
         title: 'Regarder sur votre iPhone',
@@ -260,7 +260,7 @@ const devices: Device[] = [
       {
         title: 'Entrer vos identifiants',
         description:
-          'Choisissez "Xtream Codes API" et entrez l\'URL du serveur, votre nom d\'utilisateur et mot de passe fournis par ClarioTV.',
+          'Choisissez "Xtream Codes API" et entrez l\'URL du serveur, votre nom d\'utilisateur et mot de passe fournis par VivaceTV.',
       },
       {
         title: 'Démarrer le streaming',
@@ -488,14 +488,14 @@ export default function InstallationGuideSection() {
                     </span>
                   </div>
                   <p className="text-xs leading-relaxed" style={{ color: 'var(--color-gray-400)' }}>
-                    L'application la plus stable et complète pour profiter de votre abonnement IPTV ClarioTV sur {device.label}.
+                    L'application la plus stable et complète pour profiter de votre abonnement IPTV VivaceTV sur {device.label}.
                   </p>
                 </div>
 
                 {/* WhatsApp help CTA */}
                 <a
                   href={buildWhatsAppUrl(
-                    `Bonjour ClarioTV, j'ai besoin d'aide pour installer IPTV sur ${device.label}`
+                    `Bonjour VivaceTV, j'ai besoin d'aide pour installer IPTV sur ${device.label}`
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
