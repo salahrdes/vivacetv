@@ -5,6 +5,10 @@ import FloatingWhatsAppButton from '@/components/ui/FloatingWhatsAppButton';
 import { getSettings } from '@/lib/actions/settings';
 import { FONT_CONFIG } from '@/lib/settings-config';
 
+// Force dynamic rendering — root layout calls getSettings() which queries the DB.
+// Static pre-rendering would fail without a live database connection at build time.
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
