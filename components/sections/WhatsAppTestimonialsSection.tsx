@@ -131,7 +131,7 @@ export default function WhatsAppTestimonialsSection() {
               type="button"
               onClick={prev}
               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-14 flex items-center justify-center w-11 h-11 rounded-full transition-colors"
-              style={{ backgroundColor: 'rgba(255,255,255,0.08)', color: 'var(--color-surface)' }}
+              style={{ backgroundColor: 'rgba(255,255,255,0.08)', color: 'var(--color-ink)' }}
               aria-label="Testimonio anterior"
             >
               <ChevronLeft size={20} aria-hidden="true" />
@@ -140,7 +140,7 @@ export default function WhatsAppTestimonialsSection() {
               type="button"
               onClick={next}
               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-14 flex items-center justify-center w-11 h-11 rounded-full transition-colors"
-              style={{ backgroundColor: 'rgba(255,255,255,0.08)', color: 'var(--color-surface)' }}
+              style={{ backgroundColor: 'rgba(255,255,255,0.08)', color: 'var(--color-ink)' }}
               aria-label="Testimonio siguiente"
             >
               <ChevronRight size={20} aria-hidden="true" />

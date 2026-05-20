@@ -210,7 +210,7 @@ export default function IPTVAtlasPage() {
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
-                  <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
+                  <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-ink)' }}>
                     <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>IPTV Atlas</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
@@ -287,7 +287,7 @@ export default function IPTVAtlasPage() {
                   <span
                     style={{
                       backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
+                      color: '#FFFFFF',
                       borderRadius: 999,
                       width: 32,
                       height: 32,
@@ -309,7 +309,7 @@ export default function IPTVAtlasPage() {
               <Link
                 href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 Ver los planes de VivaceTV →
               </Link>

@@ -160,7 +160,7 @@ export default function ContactPage() {
                   >
                     <div
                       className="flex items-center justify-center w-11 h-11 rounded-xl shrink-0"
-                      style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
                     >
                       {card.icon}
                     </div>
@@ -200,7 +200,7 @@ export default function ContactPage() {
                 >
                   <p
                     className="font-display font-bold text-base"
-                    style={{ color: 'var(--color-surface)' }}
+                    style={{ color: 'var(--color-ink)' }}
                   >
                     ¿Necesitas una respuesta rápida?
                   </p>

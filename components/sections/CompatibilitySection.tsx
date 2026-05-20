@@ -46,7 +46,7 @@ export default function CompatibilitySection() {
             >
               <div
                 className="flex items-center justify-center w-12 h-12 rounded-xl transition-colors duration-200"
-                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
               >
                 {iconMap[device.icon]}
               </div>

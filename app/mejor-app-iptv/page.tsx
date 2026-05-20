@@ -294,7 +294,7 @@ export default function MeilleureApplicationIPTVPage() {
                         className="text-xs font-bold px-3 py-1 rounded-full"
                         style={{
                           backgroundColor: 'var(--color-lime)',
-                          color: 'var(--color-dark)',
+                          color: '#FFFFFF',
                         }}
                       >
                         {app.badge}
@@ -399,7 +399,7 @@ export default function MeilleureApplicationIPTVPage() {
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{
                 backgroundColor: 'var(--color-lime)',
-                color: 'var(--color-dark)',
+                color: '#FFFFFF',
               }}
             >
               Obtener mis credenciales VivaceTV →
@@ -431,7 +431,7 @@ export default function MeilleureApplicationIPTVPage() {
                     className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-3"
                     style={{
                       backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
+                      color: '#FFFFFF',
                     }}
                   >
                     {s.step}

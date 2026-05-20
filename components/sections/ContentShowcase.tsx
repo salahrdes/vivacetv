@@ -127,7 +127,7 @@ export default function ContentShowcase() {
             >
               <div className="grid grid-cols-2 gap-1">
                 {[...Array(4)].map((_, i) => (
-                  <div key={i} className="rounded h-6" style={{ backgroundColor: i % 2 === 0 ? 'rgba(199,227,107,0.15)' : 'rgba(255,255,255,0.06)' }} />
+                  <div key={i} className="rounded h-6" style={{ backgroundColor: i % 2 === 0 ? 'rgba(139,92,246,0.15)' : 'rgba(255,255,255,0.06)' }} />
                 ))}
               </div>
               <div className="font-display font-bold text-base mt-3" style={{ color: 'var(--color-ink-light)' }}>Series</div>

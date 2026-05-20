@@ -394,7 +394,7 @@ export default function ServeurIPTVPage() {
             <Link
               href="/comprar-iptv"
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-              style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+              style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
             >
               Probar VivaceTV →
             </Link>
@@ -457,7 +457,7 @@ export default function ServeurIPTVPage() {
                   <span
                     style={{
                       backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
+                      color: '#FFFFFF',
                       borderRadius: 999,
                       width: 32,
                       height: 32,

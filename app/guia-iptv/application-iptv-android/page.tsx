@@ -256,7 +256,7 @@ export default function ApplicationIPTVAndroidPage() {
                     className="text-xs font-bold px-3 py-1 rounded-full"
                     style={{
                       backgroundColor: app.rank === 1 ? 'var(--color-lime)' : 'var(--color-lime-soft)',
-                      color: 'var(--color-dark)',
+                      color: '#FFFFFF',
                     }}
                   >
                     {app.badge}
@@ -429,7 +429,7 @@ export default function ApplicationIPTVAndroidPage() {
               <Link
                 href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 Comprar una suscripción VivaceTV →
               </Link>

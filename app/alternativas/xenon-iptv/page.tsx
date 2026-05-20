@@ -156,7 +156,7 @@ export default function XenonIPTVPage() {
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
-                  <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
+                  <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-ink)' }}>
                     <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>Xenon IPTV</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
@@ -201,13 +201,13 @@ export default function XenonIPTVPage() {
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, flexShrink: 0 }}>{i + 1}</span>
+                  <span style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF', borderRadius: 999, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, flexShrink: 0 }}>{i + 1}</span>
                   <p className="text-base pt-1" style={{ color: 'var(--color-ink)' }}>{step}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}>
                 Ver los planes de VivaceTV →
               </Link>
             </div>

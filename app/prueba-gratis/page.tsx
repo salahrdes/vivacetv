@@ -115,7 +115,7 @@ export default function PruebaGratisPage() {
             <a
               href="#test-form"
               className="inline-flex items-center justify-center px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
-              style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+              style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
             >
               Solicitar mi prueba gratis
             </a>
@@ -124,7 +124,7 @@ export default function PruebaGratisPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"
-              style={{ color: 'var(--color-surface)', border: '1.5px solid rgba(255,255,255,0.15)' }}
+              style={{ color: 'var(--color-ink)', border: '1.5px solid rgba(255,255,255,0.15)' }}
             >
               Por WhatsApp directamente
             </a>
@@ -141,7 +141,7 @@ export default function PruebaGratisPage() {
             <div className="text-center mb-12 flex flex-col items-center gap-3">
               <span
                 className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
-                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
               >
                 Lo que obtienes
               </span>
@@ -162,7 +162,7 @@ export default function PruebaGratisPage() {
                 >
                   <div
                     className="flex items-center justify-center w-11 h-11 rounded-xl shrink-0"
-                    style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                    style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
                   >
                     {b.icon}
                   </div>
@@ -195,7 +195,7 @@ export default function PruebaGratisPage() {
                 <li key={step.n} className="flex gap-5 items-start">
                   <div
                     className="flex items-center justify-center w-10 h-10 rounded-full text-base font-bold shrink-0"
-                    style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                    style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                     aria-hidden="true"
                   >
                     {step.n}
@@ -316,7 +316,7 @@ export default function PruebaGratisPage() {
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6">
             <h2
               className="font-display font-extrabold text-3xl sm:text-4xl leading-tight"
-              style={{ color: 'var(--color-surface)' }}
+              style={{ color: 'var(--color-ink)' }}
             >
               ¿Listo para probar <span style={{ color: 'var(--color-lime)' }}>VivaceTV</span>?
             </h2>
@@ -326,7 +326,7 @@ export default function PruebaGratisPage() {
             <a
               href="#test-form"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
-              style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+              style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
             >
               Solicitar mi prueba gratis
             </a>

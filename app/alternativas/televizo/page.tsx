@@ -194,7 +194,7 @@ export default function TelevizoIPTVPage() {
               {configSteps.map((item) => (
                 <div key={item.step} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
                   <div className="flex items-start gap-4">
-                    <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 16, flexShrink: 0 }}>{item.step}</span>
+                    <span style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF', borderRadius: 999, width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 16, flexShrink: 0 }}>{item.step}</span>
                     <div>
                       <h3 className="font-display font-bold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.title}</h3>
                       <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.description}</p>
@@ -204,7 +204,7 @@ export default function TelevizoIPTVPage() {
               ))}
             </div>
             <div className="mt-8">
-              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}>
                 Obtener mi suscripción VivaceTV →
               </Link>
             </div>

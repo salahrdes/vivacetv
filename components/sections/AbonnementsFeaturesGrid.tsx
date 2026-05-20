@@ -69,7 +69,7 @@ export default function AbonnementsFeaturesGrid() {
               {/* Icon bubble */}
               <div
                 className="flex items-center justify-center w-12 h-12 rounded-2xl shrink-0"
-                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
               >
                 {feature.icon}
               </div>

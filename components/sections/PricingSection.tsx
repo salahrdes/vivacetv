@@ -52,7 +52,7 @@ export default function PricingSection() {
                   <div className="absolute top-0 inset-x-0 flex justify-center z-10">
                     <span
                       className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold shadow-md whitespace-nowrap"
-                      style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                     >
                       ✦ {plan.featuredLabel}
                     </span>
@@ -82,8 +82,8 @@ export default function PricingSection() {
                       <span
                         className="inline-block text-xs font-bold px-2.5 py-1 rounded-md"
                         style={{
-                          backgroundColor: plan.isFeatured ? 'rgba(199,227,107,0.15)' : 'var(--color-lime-soft)',
-                          color: plan.isFeatured ? 'var(--color-lime)' : 'var(--color-dark)',
+                          backgroundColor: plan.isFeatured ? 'rgba(139,92,246,0.15)' : 'var(--color-lime-soft)',
+                          color: 'var(--color-lime)',
                         }}
                       >
                         -{plan.discountPercent}%
@@ -94,13 +94,13 @@ export default function PricingSection() {
                     <div className="text-center pt-1">
                       <h3
                         className="font-display font-extrabold text-2xl mb-1"
-                        style={{ color: plan.isFeatured ? 'var(--color-surface)' : 'var(--color-ink)' }}
+                        style={{ color: 'var(--color-ink)' }}
                       >
                         {plan.name}
                       </h3>
                       <p
                         className="text-sm font-medium"
-                        style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
+                        style={{ color: 'var(--color-gray-600)' }}
                       >
                         {plan.duration}
                       </p>
@@ -110,27 +110,27 @@ export default function PricingSection() {
                     <div className="text-center">
                       <div
                         className="text-sm mb-0.5 price-original"
-                        style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
+                        style={{ color: 'var(--color-gray-600)' }}
                       >
                         {formatPrice(plan.priceOriginal)} €
                       </div>
                       <div className="flex items-baseline justify-center gap-1">
                         <span
                           className="font-display font-extrabold text-4xl"
-                          style={{ color: plan.isFeatured ? 'var(--color-surface)' : 'var(--color-ink)' }}
+                          style={{ color: 'var(--color-ink)' }}
                         >
                           {formatPrice(plan.priceSale)}
                         </span>
                         <span
                           className="text-lg font-semibold"
-                          style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
+                          style={{ color: 'var(--color-gray-600)' }}
                         >
                           €
                         </span>
                       </div>
                       <p
                         className="text-xs mt-1"
-                        style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
+                        style={{ color: 'var(--color-gray-600)' }}
                       >
                         Pago único
                       </p>
@@ -154,7 +154,7 @@ export default function PricingSection() {
                           />
                           <span
                             className="text-sm leading-snug"
-                            style={{ color: plan.isFeatured ? 'var(--color-gray-200)' : 'var(--color-ink-light)' }}
+                            style={{ color: 'var(--color-ink-light)' }}
                           >
                             {feature}
                           </span>
@@ -173,7 +173,7 @@ export default function PricingSection() {
                       )}
                       style={
                         plan.isFeatured
-                          ? { backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }
+                          ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
                           : {
                               backgroundColor: 'transparent',
                               color: 'var(--color-ink)',

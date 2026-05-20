@@ -100,7 +100,7 @@ export default async function CheckoutPage({
             <div className="flex flex-wrap items-center gap-3 mb-4">
               <span
                 className="text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 {plan.name}
               </span>
@@ -108,9 +108,9 @@ export default async function CheckoutPage({
                 <span
                   className="text-xs font-semibold px-3 py-1 rounded-full"
                   style={{
-                    backgroundColor: 'rgba(199,227,107,0.12)',
+                    backgroundColor: 'rgba(139,92,246,0.12)',
                     color: 'var(--color-lime)',
-                    border: '1px solid rgba(199,227,107,0.3)',
+                    border: '1px solid rgba(139,92,246,0.3)',
                   }}
                 >
                   {plan.featuredLabel}
@@ -120,7 +120,7 @@ export default async function CheckoutPage({
 
             <h1
               className="font-display font-extrabold text-3xl sm:text-4xl leading-tight mb-3"
-              style={{ color: 'var(--color-surface)' }}
+              style={{ color: 'var(--color-ink)' }}
             >
               Suscripción IPTV <span style={{ color: 'var(--color-lime)' }}>{plan.name}</span>
             </h1>
@@ -182,7 +182,7 @@ export default async function CheckoutPage({
                           className="inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-bold shrink-0 mt-0.5"
                           style={{
                             backgroundColor: 'var(--color-lime)',
-                            color: 'var(--color-dark)',
+                            color: '#FFFFFF',
                           }}
                           aria-hidden="true"
                         >
@@ -269,7 +269,7 @@ export default async function CheckoutPage({
                       <span
                         className="text-xs font-semibold px-2 py-0.5 rounded-full mb-1"
                         style={{
-                          backgroundColor: 'rgba(199,227,107,0.15)',
+                          backgroundColor: 'rgba(139,92,246,0.15)',
                           color: 'var(--color-lime)',
                         }}
                       >
@@ -298,7 +298,7 @@ export default async function CheckoutPage({
                             className="inline-flex items-center justify-center w-5 h-5 rounded-full shrink-0 mt-0.5"
                             style={{ backgroundColor: 'var(--color-lime-soft)' }}
                           >
-                            <Check size={11} style={{ color: 'var(--color-dark)' }} aria-hidden="true" />
+                            <Check size={11} style={{ color: '#FFFFFF' }} aria-hidden="true" />
                           </span>
                           <span className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
                             {feat}

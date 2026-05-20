@@ -120,7 +120,7 @@ export default function CompatibleAppsSection() {
                         style={
                           app.badgeColor === 'lime'
                             ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
-                            : { backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }
+                            : { backgroundColor: 'var(--color-dark)', color: 'var(--color-ink)' }
                         }
                       >
                         {app.badge}

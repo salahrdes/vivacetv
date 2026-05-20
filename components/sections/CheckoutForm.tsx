@@ -152,7 +152,7 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
       <button
         type="submit"
         className="inline-flex items-center justify-center gap-2 py-4 px-8 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
-        style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+        style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
       >
         <ShoppingCart size={18} aria-hidden="true" />
         Comprar suscripción {planName}

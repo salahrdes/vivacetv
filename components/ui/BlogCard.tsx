@@ -58,7 +58,7 @@ function CategoryBadge({ category }: { category: string }) {
   return (
     <span
       className="inline-flex text-xs font-semibold px-2.5 py-1 rounded-full"
-      style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+      style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
     >
       {category}
     </span>

@@ -318,7 +318,7 @@ export default function AbonnementPremiumPage() {
                       style={{
                         display: 'inline-block',
                         backgroundColor: 'var(--color-lime-soft)',
-                        color: 'var(--color-dark)',
+                        color: '#FFFFFF',
                         fontSize: 11,
                         fontWeight: 700,
                         padding: '2px 8px',
@@ -431,7 +431,7 @@ export default function AbonnementPremiumPage() {
                       </td>
                       <td
                         className="px-5 py-4 text-center font-semibold"
-                        style={{ color: 'var(--color-dark)', borderBottom: '1px solid var(--color-border)', backgroundColor: 'var(--color-lime-soft)' }}
+                        style={{ color: '#FFFFFF', borderBottom: '1px solid var(--color-border)', backgroundColor: 'var(--color-lime-soft)' }}
                       >
                         {row.premium}
                       </td>

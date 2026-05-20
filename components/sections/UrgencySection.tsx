@@ -59,7 +59,7 @@ export default function UrgencySection() {
       <div
         className="absolute -top-32 right-0 w-96 h-96 rounded-full pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, rgba(199,227,107,0.12) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(139,92,246,0.12) 0%, transparent 70%)',
         }}
         aria-hidden="true"
       />

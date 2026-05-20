@@ -413,7 +413,7 @@ export default function AvisIPTVPage() {
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{
                   backgroundColor: 'var(--color-lime)',
-                  color: 'var(--color-dark)',
+                  color: '#FFFFFF',
                 }}
               >
                 Ver nuestras suscripciones →

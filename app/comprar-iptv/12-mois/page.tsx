@@ -239,7 +239,7 @@ export default function Abonnement12MoisPage() {
                   <div className="flex items-baseline gap-3">
                     <span
                       className="font-display font-extrabold text-5xl"
-                      style={{ color: 'var(--color-surface)' }}
+                      style={{ color: 'var(--color-ink)' }}
                     >
                       44,99€
                     </span>
@@ -248,7 +248,7 @@ export default function Abonnement12MoisPage() {
                     </span>
                     <span
                       className="text-xs font-bold px-2 py-1 rounded-md"
-                      style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                     >
                       -31%
                     </span>
@@ -260,7 +260,7 @@ export default function Abonnement12MoisPage() {
                 <Link
                   href="/commander/gold"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
-                  style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                  style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 >
                   Comprar Gold
                 </Link>
@@ -310,11 +310,11 @@ export default function Abonnement12MoisPage() {
               <table className="w-full text-sm" style={{ borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Plan</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Duración</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Precio total</th>
+                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-ink)' }}>Plan</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>Duración</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>Precio total</th>
                     <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Por mes</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Ahorro vs Bronze</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>Ahorro vs Bronze</th>
                   </tr>
                 </thead>
                 <tbody>

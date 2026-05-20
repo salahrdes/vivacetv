@@ -368,7 +368,7 @@ export default function IPTVChainePage() {
               <Link
                 href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 Acceder al catálogo completo →
               </Link>

@@ -286,7 +286,7 @@ export default function MeilleurIPTVPage() {
                       className="inline-block text-xs font-bold px-3 py-1 rounded-full mb-3"
                       style={{
                         backgroundColor: 'var(--color-lime)',
-                        color: 'var(--color-dark)',
+                        color: '#FFFFFF',
                       }}
                     >
                       NUESTRA ELECCIÓN N°1
@@ -460,7 +460,7 @@ export default function MeilleurIPTVPage() {
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{
                 backgroundColor: 'var(--color-lime)',
-                color: 'var(--color-dark)',
+                color: '#FFFFFF',
               }}
             >
               Ver todas las suscripciones VivaceTV →

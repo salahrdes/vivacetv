@@ -1,36 +1,36 @@
 @import "tailwindcss";
 
-/* ─── VivaceTV Design Tokens — GXBank-inspired dark purple ──────────────── */
+/* ─── VivaceTV Design Tokens — Deep Space + Electric Violet ──────────────── */
 @theme {
-  /* Surfaces — deep purple-black */
-  --color-surface:      #08081A;
-  --color-surface-alt:  #0E0E28;
-  --color-card:         #131330;
+  /* Surfaces — deep space navy */
+  --color-surface:      #07071A;
+  --color-surface-alt:  #0C0C24;
+  --color-card:         #101032;
 
   /* Borders & neutrals */
-  --color-border:       #1E1E44;
-  --color-gray-200:     #2A2A58;
-  --color-gray-400:     #6464A0;
-  --color-gray-600:     #9696C8;
+  --color-border:       #1E1E4A;
+  --color-gray-200:     #38386A;
+  --color-gray-400:     #7070A8;
+  --color-gray-600:     #ABABCC;
 
   /* Text */
   --color-ink:          #FFFFFF;
-  --color-ink-light:    #B0AEDD;
+  --color-ink-light:    #C4C4E8;
 
   /* Dark sections */
-  --color-dark:         #040410;
+  --color-dark:         #040412;
 
-  /* Primary accent — vivid electric purple (GXBank style) */
-  --color-lime:         #7B2FBE;
-  --color-lime-hover:   #6922A8;
-  --color-lime-soft:    #1C0D42;
+  /* PRIMARY ACCENT — Electric Violet (bright, readable on dark) */
+  --color-lime:         #8B5CF6;
+  --color-lime-hover:   #7C3AED;
+  --color-lime-soft:    #1E1248;
 
   /* Secondary — lighter violet */
-  --color-gold:         #9747FF;
-  --color-gold-hover:   #8A3AEE;
-  --color-gold-soft:    #1A0F3A;
+  --color-gold:         #A78BFA;
+  --color-gold-hover:   #8B5CF6;
+  --color-gold-soft:    #180F42;
 
-  /* Typography — Inter only */
+  /* Typography — Inter */
   --font-display: 'Inter', system-ui, sans-serif;
   --font-body:    'Inter', system-ui, sans-serif;
 
@@ -68,7 +68,7 @@ body {
 /* ─── Selection ──────────────────────────────────────────────────────────── */
 ::selection {
   background: var(--color-lime);
-  color: var(--color-dark);
+  color: #FFFFFF;
 }
 
 /* ─── Scrollbar ──────────────────────────────────────────────────────────── */
@@ -84,7 +84,7 @@ body {
 /* Pricing strikethrough */
 .price-original {
   text-decoration: line-through;
-  text-decoration-color: var(--color-gray-600);
+  text-decoration-color: var(--color-gray-400);
 }
 
 /* Smooth accordion animation */

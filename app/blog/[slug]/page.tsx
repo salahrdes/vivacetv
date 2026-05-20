@@ -106,7 +106,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
             <li key={i} className="flex items-start gap-3">
               <span
                 className="inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-bold shrink-0 mt-0.5"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 aria-hidden="true"
               >
                 {i + 1}
@@ -124,8 +124,8 @@ function RenderBlock({ block }: { block: ContentBlock }) {
         <div
           className="flex gap-3 p-4 rounded-2xl my-6 text-sm leading-relaxed"
           style={{
-            backgroundColor: 'rgba(199,227,107,0.08)',
-            border: '1px solid rgba(199,227,107,0.25)',
+            backgroundColor: 'rgba(139,92,246,0.08)',
+            border: '1px solid rgba(139,92,246,0.25)',
             color: 'var(--color-ink-light)',
           }}
           role="note"
@@ -150,7 +150,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
                 className="inline-flex items-center justify-center w-5 h-5 rounded-full shrink-0 mt-0.5"
                 style={{ backgroundColor: 'var(--color-lime-soft)' }}
               >
-                <Check size={11} style={{ color: 'var(--color-dark)' }} aria-hidden="true" />
+                <Check size={11} style={{ color: '#FFFFFF' }} aria-hidden="true" />
               </span>
               <span className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
                 {item}
@@ -195,7 +195,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
           <div>
             <p
               className="font-display font-bold text-lg"
-              style={{ color: 'var(--color-surface)' }}
+              style={{ color: 'var(--color-ink)' }}
             >
               {block.heading}
             </p>
@@ -206,7 +206,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
           <Link
             href={block.href}
             className="shrink-0 inline-flex items-center justify-center px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90 whitespace-nowrap"
-            style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
           >
             {block.label}
           </Link>
@@ -348,7 +348,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
             <div className="flex flex-wrap items-center gap-3 mb-5">
               <span
                 className="text-xs font-semibold px-3 py-1 rounded-full"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 {post.category}
               </span>
@@ -368,7 +368,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
             {/* H1 */}
             <h1
               className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight mb-5"
-              style={{ color: 'var(--color-surface)' }}
+              style={{ color: 'var(--color-ink)' }}
             >
               {post.title}
             </h1>
@@ -447,7 +447,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm"
-                  style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                  style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 >
                   Hacer una pregunta por WhatsApp
                 </a>

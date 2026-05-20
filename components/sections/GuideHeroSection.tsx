@@ -18,7 +18,7 @@ export default function GuideHeroSection() {
       <div
         className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[420px] rounded-full pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse, rgba(199,227,107,0.09) 0%, transparent 70%)',
+          background: 'radial-gradient(ellipse, rgba(139,92,246,0.09) 0%, transparent 70%)',
         }}
         aria-hidden="true"
       />
@@ -28,7 +28,7 @@ export default function GuideHeroSection() {
         {/* Label */}
         <span
           className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
-          style={{ backgroundColor: 'rgba(199,227,107,0.12)', color: 'var(--color-lime)' }}
+          style={{ backgroundColor: 'rgba(139,92,246,0.12)', color: 'var(--color-lime)' }}
         >
           <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: 'var(--color-lime)' }} aria-hidden="true" />
           Guía de instalación IPTV
@@ -60,7 +60,7 @@ export default function GuideHeroSection() {
           <a
             href="#installation"
             className="inline-flex items-center justify-center px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
-            style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
           >
             Ver la guía
           </a>

@@ -215,7 +215,7 @@ export default function IPTV4KPage() {
                       className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
                       style={{
                         backgroundColor: 'var(--color-lime)',
-                        color: 'var(--color-dark)',
+                        color: '#FFFFFF',
                       }}
                     >
                       {idx + 1}
@@ -266,7 +266,7 @@ export default function IPTV4KPage() {
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
-                        style={{ color: 'var(--color-surface)' }}
+                        style={{ color: 'var(--color-ink)' }}
                       >
                         {h}
                       </th>
@@ -494,7 +494,7 @@ export default function IPTV4KPage() {
                       className="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap"
                       style={{
                         backgroundColor: 'var(--color-lime)',
-                        color: 'var(--color-dark)',
+                        color: '#FFFFFF',
                       }}
                     >
                       POPULAR

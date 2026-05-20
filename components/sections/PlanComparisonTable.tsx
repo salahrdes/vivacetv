@@ -103,12 +103,12 @@ function CellContent({ value, isFeatured }: { value: CellValue; isFeatured: bool
     return value ? (
       <span
         className="inline-flex items-center justify-center w-6 h-6 rounded-full"
-        style={{ backgroundColor: isFeatured ? 'rgba(199,227,107,0.18)' : 'var(--color-lime-soft)' }}
+        style={{ backgroundColor: isFeatured ? 'rgba(139,92,246,0.18)' : 'var(--color-lime-soft)' }}
       >
         <Check
           size={13}
           strokeWidth={3}
-          style={{ color: isFeatured ? 'var(--color-lime)' : 'var(--color-dark)' }}
+          style={{ color: 'var(--color-lime)' }}
           aria-hidden="true"
         />
       </span>
@@ -120,7 +120,7 @@ function CellContent({ value, isFeatured }: { value: CellValue; isFeatured: bool
   return (
     <span
       className="text-sm font-medium leading-snug"
-      style={{ color: isFeatured ? 'var(--color-surface)' : 'var(--color-ink)' }}
+      style={{ color: 'var(--color-ink)' }}
     >
       {value}
     </span>
@@ -140,7 +140,7 @@ export default function PlanComparisonTable() {
         <div className="text-center mb-14 flex flex-col items-center gap-4">
           <span
             className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
-            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-lime)' }}
           >
             Comparativa completa
           </span>
@@ -195,14 +195,14 @@ export default function PlanComparisonTable() {
                       {plan.isFeatured && (
                         <span
                           className="text-[10px] font-bold px-2 py-0.5 rounded-full mb-1"
-                          style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                          style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                         >
                           ✦ Recomendado
                         </span>
                       )}
                       <span
                         className="font-display font-extrabold text-lg"
-                        style={{ color: plan.isFeatured ? 'var(--color-surface)' : 'var(--color-ink)' }}
+                        style={{ color: 'var(--color-ink)' }}
                       >
                         {plan.name}
                       </span>
@@ -245,8 +245,8 @@ export default function PlanComparisonTable() {
                           borderBottom: plan.isFeatured
                             ? '1px solid rgba(255,255,255,0.06)'
                             : '1px solid var(--color-border)',
-                          borderLeft: plan.isFeatured ? '1px solid rgba(199,227,107,0.15)' : undefined,
-                          borderRight: plan.isFeatured ? '1px solid rgba(199,227,107,0.15)' : undefined,
+                          borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
+                          borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
                         }}
                       >
                         <CellContent value={row[plan.key]} isFeatured={plan.isFeatured} />
@@ -275,8 +275,8 @@ export default function PlanComparisonTable() {
                     style={{
                       backgroundColor: plan.isFeatured ? 'var(--color-dark)' : 'var(--color-card)',
                       borderTop: plan.isFeatured ? '2px solid var(--color-lime)' : '2px solid var(--color-border)',
-                      borderLeft: plan.isFeatured ? '1px solid rgba(199,227,107,0.15)' : undefined,
-                      borderRight: plan.isFeatured ? '1px solid rgba(199,227,107,0.15)' : undefined,
+                      borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
+                      borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
                     }}
                   >
                     <a
@@ -286,7 +286,7 @@ export default function PlanComparisonTable() {
                       className="inline-flex items-center justify-center w-full py-3 px-4 rounded-xl text-sm font-semibold transition-all duration-200 hover:opacity-90 active:scale-95"
                       style={
                         plan.isFeatured
-                          ? { backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }
+                          ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
                           : {
                               backgroundColor: 'transparent',
                               color: 'var(--color-ink)',

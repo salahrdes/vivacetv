@@ -267,7 +267,7 @@ export default function AbonnementPasCherPage() {
                     </span>
                     <span
                       className="text-xs font-bold px-2 py-1 rounded-md"
-                      style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
                     >
                       -43%
                     </span>
@@ -279,7 +279,7 @@ export default function AbonnementPasCherPage() {
                 <Link
                   href="/commander/bronze"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
-                  style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                  style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 >
                   Comprar Bronze
                 </Link>
@@ -303,7 +303,7 @@ export default function AbonnementPasCherPage() {
 
               <p
                 className="mt-6 text-sm p-4 rounded-xl"
-                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
               >
                 💡 Si queréis ahorrar aún más a largo plazo, la oferta Gold (12 meses) sale a solo
                 3,75€/mes — casi la mitad de precio que el Bronze al costo mensual.
@@ -340,11 +340,11 @@ export default function AbonnementPasCherPage() {
               <table className="w-full text-sm" style={{ borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Plan</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Duración</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Precio total</th>
+                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-ink)' }}>Plan</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>Duración</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>Precio total</th>
                     <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Por mes</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>VOD</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-ink)' }}>VOD</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -453,7 +453,7 @@ export default function AbonnementPasCherPage() {
                   {plan.featured && (
                     <span
                       className="text-xs font-bold px-2 py-1 rounded-md"
-                      style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                     >
                       Mejor relación calidad/precio
                     </span>

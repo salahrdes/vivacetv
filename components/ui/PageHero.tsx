@@ -26,7 +26,7 @@ export default function PageHero({
       {/* Subtle lime glow */}
       <div
         className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[360px] rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(ellipse, rgba(199,227,107,0.08) 0%, transparent 70%)' }}
+        style={{ background: 'radial-gradient(ellipse, rgba(139,92,246,0.08) 0%, transparent 70%)' }}
         aria-hidden="true"
       />
 
@@ -34,7 +34,7 @@ export default function PageHero({
         {label && (
           <span
             className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-widest uppercase"
-            style={{ backgroundColor: 'rgba(199,227,107,0.12)', color: 'var(--color-lime)' }}
+            style={{ backgroundColor: 'rgba(139,92,246,0.12)', color: 'var(--color-lime)' }}
           >
             <span
               className="w-1.5 h-1.5 rounded-full"

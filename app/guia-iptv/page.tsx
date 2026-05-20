@@ -189,7 +189,7 @@ export default function GuideIptvPage() {
                   <div className="flex items-center justify-between">
                     <div
                       className="inline-flex items-center justify-center w-10 h-10 rounded-xl"
-                      style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime-soft)', color: '#FFFFFF' }}
                     >
                       {guide.icon}
                     </div>
@@ -253,7 +253,7 @@ export default function GuideIptvPage() {
               <Link
                 href="/comprar-iptv"
                 className="inline-flex items-center justify-center py-3.5 px-8 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90 active:scale-95"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 Ver los planes
               </Link>

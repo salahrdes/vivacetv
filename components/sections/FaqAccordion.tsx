@@ -120,7 +120,7 @@ export default function FaqAccordion() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90"
-          style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+          style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
         >
           Poser ma question via WhatsApp
         </a>

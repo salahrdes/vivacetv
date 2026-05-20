@@ -188,7 +188,7 @@ export default function AlternativesPage() {
                     <span
                       className="text-xs px-2 py-0.5 rounded-full shrink-0"
                       style={{
-                        backgroundColor: 'rgba(199,227,107,0.12)',
+                        backgroundColor: 'rgba(139,92,246,0.12)',
                         color: 'var(--color-lime)',
                         fontSize: 11,
                       }}
@@ -241,7 +241,7 @@ export default function AlternativesPage() {
               <Link
                 href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
               >
                 Ver las suscripciones VivaceTV →
               </Link>
