@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
               <footer className="flex items-center gap-3 mt-auto pt-4" style={{ borderTop: '1px solid var(--color-border)' }}>
                 <div
                   className="flex items-center justify-center w-9 h-9 rounded-full font-display font-bold text-sm shrink-0"
-                  style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                  style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                   aria-hidden="true"
                 >
                   {t.initials}

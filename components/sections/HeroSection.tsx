@@ -203,7 +203,7 @@ export default function HeroSection() {
                 className="absolute -top-4 -right-2 rounded-full px-3 py-1.5 flex items-center gap-1.5 shadow-lg text-xs font-bold"
                 style={{
                   backgroundColor: 'var(--color-lime)',
-                  color: 'var(--color-dark)',
+                  color: '#FFFFFF',
                   fontFamily: 'var(--font-display)',
                 }}
                 aria-hidden="true"

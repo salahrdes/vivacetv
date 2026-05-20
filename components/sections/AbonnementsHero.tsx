@@ -42,7 +42,7 @@ export default function AbonnementsHero() {
         <h1
           id="abonnements-hero-heading"
           className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight tracking-tight"
-          style={{ color: 'var(--color-surface)' }}
+          style={{ color: 'var(--color-ink)' }}
         >
           La mejor suscripción{' '}
           <span style={{ color: 'var(--color-lime)' }}>IPTV España</span>
@@ -74,7 +74,7 @@ export default function AbonnementsHero() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"
             style={{
-              color: 'var(--color-surface)',
+              color: 'var(--color-ink)',
               border: '1.5px solid rgba(255,255,255,0.15)',
             }}
           >

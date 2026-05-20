@@ -109,7 +109,7 @@ export default function FaqAccordion() {
         className="mt-12 p-6 rounded-2xl text-center flex flex-col items-center gap-4"
         style={{ backgroundColor: 'var(--color-dark)' }}
       >
-        <p className="font-display font-bold text-lg" style={{ color: 'var(--color-surface)' }}>
+        <p className="font-display font-bold text-lg" style={{ color: 'var(--color-ink)' }}>
           Vous n'avez pas trouvé votre réponse ?
         </p>
         <p className="text-sm" style={{ color: 'var(--color-gray-400)' }}>

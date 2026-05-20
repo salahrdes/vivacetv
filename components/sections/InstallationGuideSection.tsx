@@ -289,7 +289,7 @@ export default function InstallationGuideSection() {
         <div className="text-center mb-14 flex flex-col items-center gap-4">
           <span
             className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
-            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-lime)' }}
           >
             Instalación paso a paso
           </span>
@@ -362,7 +362,7 @@ export default function InstallationGuideSection() {
                 <div className="flex items-center gap-3">
                   <div
                     className="flex items-center justify-center w-10 h-10 rounded-xl shrink-0"
-                    style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                    style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-lime)' }}
                   >
                     {device.icon}
                   </div>
@@ -389,7 +389,7 @@ export default function InstallationGuideSection() {
                       {/* Step number */}
                       <div
                         className="flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold shrink-0 mt-0.5"
-                        style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                        style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                         aria-hidden="true"
                       >
                         {idx + 1}
@@ -446,8 +446,8 @@ export default function InstallationGuideSection() {
                     className="flex gap-3 p-5 rounded-2xl text-sm leading-relaxed"
                     style={{
                       backgroundColor: 'var(--color-lime-soft)',
-                      border: '1px solid rgba(199,227,107,0.5)',
-                      color: 'var(--color-dark)',
+                      border: '1px solid rgba(123,47,190,0.4)',
+                      color: 'var(--color-lime)',
                     }}
                   >
                     <Check
@@ -476,13 +476,13 @@ export default function InstallationGuideSection() {
                   <div className="flex items-center justify-between">
                     <span
                       className="font-display font-bold text-lg"
-                      style={{ color: 'var(--color-surface)' }}
+                      style={{ color: 'var(--color-ink)' }}
                     >
                       {device.appName}
                     </span>
                     <span
                       className="text-xs font-bold px-2.5 py-1 rounded-full"
-                      style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+                      style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                     >
                       {device.appBadge}
                     </span>

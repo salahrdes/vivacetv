@@ -17,7 +17,7 @@ export default function FinalCTA() {
 
         <h2
           className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight"
-          style={{ color: 'var(--color-surface)' }}
+          style={{ color: 'var(--color-ink)' }}
         >
           ¿Listo para disfrutar de una experiencia{' '}
           <span style={{ color: 'var(--color-lime)' }}>IPTV sencilla</span>{' '}
@@ -26,7 +26,7 @@ export default function FinalCTA() {
 
         <p
           className="text-lg max-w-2xl leading-relaxed"
-          style={{ color: 'var(--color-gray-400)' }}
+          style={{ color: 'var(--color-ink-light)' }}
         >
           Elige tu suscripción IPTV España, comprueba la compatibilidad de tu dispositivo
           y recibe tus datos directamente por WhatsApp.
@@ -46,7 +46,7 @@ export default function FinalCTA() {
             size="lg"
             variant="ghost"
             external
-            className="text-surface border border-surface/20 hover:bg-surface/10 hover:text-surface"
+            className="text-ink border border-ink/20 hover:bg-ink/10 hover:text-ink"
           >
             Contactar con un asesor
           </Button>

@@ -38,7 +38,7 @@ export default function GuideHeroSection() {
         <h1
           id="guide-hero-heading"
           className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight tracking-tight"
-          style={{ color: 'var(--color-surface)' }}
+          style={{ color: 'var(--color-ink)' }}
         >
           Instala VivaceTV{' '}
           <span style={{ color: 'var(--color-lime)' }}>en 5 minutos</span>
@@ -69,7 +69,7 @@ export default function GuideHeroSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"
-            style={{ color: 'var(--color-surface)', border: '1.5px solid rgba(255,255,255,0.15)' }}
+            style={{ color: 'var(--color-ink)', border: '1.5px solid rgba(255,255,255,0.15)' }}
           >
             {/* WhatsApp icon */}
             <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">

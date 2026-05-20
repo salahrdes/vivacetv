@@ -35,7 +35,7 @@ export default function SectionHeader({
         className={cn(
           'font-display font-bold leading-tight tracking-tight',
           'text-3xl sm:text-4xl lg:text-5xl',
-          dark ? 'text-surface' : 'text-ink',
+          'text-ink',
           titleClassName,
         )}
       >
@@ -45,7 +45,7 @@ export default function SectionHeader({
         <p
           className={cn(
             'text-lg max-w-2xl leading-relaxed',
-            dark ? 'text-gray-400' : 'text-ink-light',
+            'text-ink-light',
           )}
         >
           {description}

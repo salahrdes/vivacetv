@@ -119,7 +119,7 @@ export default function CompatibleAppsSection() {
                         className="text-[10px] font-bold px-2 py-0.5 rounded-full"
                         style={
                           app.badgeColor === 'lime'
-                            ? { backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }
+                            ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
                             : { backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }
                         }
                       >
@@ -149,7 +149,7 @@ export default function CompatibleAppsSection() {
                     className="text-xs font-medium px-2.5 py-1 rounded-full"
                     style={{
                       backgroundColor: 'var(--color-lime-soft)',
-                      color: 'var(--color-dark)',
+                      color: 'var(--color-lime)',
                     }}
                   >
                     {platform}

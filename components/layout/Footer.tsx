@@ -48,7 +48,7 @@ export default function Footer() {
             <Link
               href="/"
               className="flex items-center gap-1 font-display font-extrabold text-xl"
-              style={{ color: 'var(--color-surface)' }}
+              style={{ color: 'var(--color-ink)' }}
               aria-label="VivaceTV"
             >
               Vivace

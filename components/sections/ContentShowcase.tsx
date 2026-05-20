@@ -75,7 +75,7 @@ export default function ContentShowcase() {
                   className="px-4 py-2 rounded-full text-sm font-medium"
                   style={
                     accent
-                      ? { backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }
+                      ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
                       : { backgroundColor: 'rgba(255,255,255,0.07)', color: 'var(--color-gray-400)', border: '1px solid rgba(255,255,255,0.1)' }
                   }
                 >
@@ -101,7 +101,7 @@ export default function ContentShowcase() {
               }} />
               <div className="relative">
                 <div className="text-xs font-semibold mb-1" style={{ color: 'rgba(28,26,23,0.7)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Disponible</div>
-                <div className="font-display font-extrabold text-xl" style={{ color: 'var(--color-dark)' }}>Deporte en directo</div>
+                <div className="font-display font-extrabold text-xl" style={{ color: '#FFFFFF' }}>Deporte en directo</div>
               </div>
               <div className="absolute top-4 right-4">
                 <span className="bg-dark text-lime text-xs font-bold px-2 py-1 rounded-full">LIVE</span>
@@ -117,7 +117,7 @@ export default function ContentShowcase() {
                 <div className="h-2 rounded-full w-16" style={{ backgroundColor: 'rgba(255,255,255,0.15)' }} />
                 <div className="h-2 rounded-full w-10" style={{ backgroundColor: 'rgba(255,255,255,0.08)' }} />
               </div>
-              <div className="font-display font-bold text-base" style={{ color: 'var(--color-lime-soft)' }}>Películas y VOD</div>
+              <div className="font-display font-bold text-base" style={{ color: 'var(--color-ink-light)' }}>Películas y VOD</div>
             </div>
 
             {/* Series tile */}
@@ -130,7 +130,7 @@ export default function ContentShowcase() {
                   <div key={i} className="rounded h-6" style={{ backgroundColor: i % 2 === 0 ? 'rgba(199,227,107,0.15)' : 'rgba(255,255,255,0.06)' }} />
                 ))}
               </div>
-              <div className="font-display font-bold text-base mt-3" style={{ color: 'var(--color-gray-200)' }}>Series</div>
+              <div className="font-display font-bold text-base mt-3" style={{ color: 'var(--color-ink-light)' }}>Series</div>
             </div>
           </div>
         </div>

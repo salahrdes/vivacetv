@@ -55,7 +55,7 @@ export default function HowItWorksSection() {
                 className="flex items-center justify-center w-20 h-20 rounded-full font-display font-extrabold text-2xl shrink-0 shadow-sm"
                 style={
                   index === 1
-                    ? { backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }
+                    ? { backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }
                     : { backgroundColor: 'var(--color-card)', color: 'var(--color-ink)', border: '2px solid var(--color-border)' }
                 }
               >

@@ -43,7 +43,7 @@ export default function BenefitsSection() {
                 className="flex items-center justify-center w-11 h-11 rounded-xl transition-colors duration-200 group-hover:scale-105"
                 style={{
                   backgroundColor: 'var(--color-lime-soft)',
-                  color: 'var(--color-dark)',
+                  color: 'var(--color-lime)',
                   transform: 'none',
                 }}
               >

@@ -47,7 +47,7 @@ export default function PageHero({
 
         <h1
           className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight"
-          style={{ color: 'var(--color-surface)' }}
+          style={{ color: 'var(--color-ink)' }}
         >
           {title}
           {titleHighlight && (

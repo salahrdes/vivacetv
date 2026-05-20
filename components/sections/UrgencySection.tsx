@@ -70,7 +70,7 @@ export default function UrgencySection() {
         <div className="text-center mb-14 flex flex-col items-center gap-4">
           <span
             className="inline-flex items-center gap-1.5 text-sm font-semibold px-3 py-1 rounded-full"
-            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-ink-light)' }}
           >
             <span
               className="w-1.5 h-1.5 rounded-full"
@@ -138,7 +138,7 @@ export default function UrgencySection() {
               {/* Icon */}
               <div
                 className="flex items-center justify-center w-10 h-10 rounded-xl shrink-0"
-                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
+                style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-lime)' }}
               >
                 {reason.icon}
               </div>
@@ -165,10 +165,10 @@ export default function UrgencySection() {
           style={{ backgroundColor: 'var(--color-dark)' }}
         >
           <div>
-            <p className="font-display font-extrabold text-xl sm:text-2xl" style={{ color: 'var(--color-surface)' }}>
+            <p className="font-display font-extrabold text-xl sm:text-2xl" style={{ color: 'var(--color-ink)' }}>
               Empieza con una prueba gratis de 24h
             </p>
-            <p className="text-sm mt-1" style={{ color: 'var(--color-gray-400)' }}>
+            <p className="text-sm mt-1" style={{ color: 'var(--color-ink-light)' }}>
               Comprueba la compatibilidad en tu dispositivo antes de comprometerte.
             </p>
           </div>
@@ -178,7 +178,7 @@ export default function UrgencySection() {
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
-            style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
+            style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
           >
             {/* WhatsApp icon inline */}
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
