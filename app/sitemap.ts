@@ -20,8 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // ── Core conversion pages ────────────────────────────────────────────────
     { url: `${base}/comprar-iptv`,                                   lastModified: now, changeFrequency: 'weekly',  priority: 0.95 },
     { url: `${base}/comprar-iptv/premium`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/comprar-iptv/pas-cher`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/comprar-iptv/12-mois`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/comprar-iptv/barato`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/comprar-iptv/12-meses`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/prueba-gratis`,                                  lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
     // ── SEO landing pages ────────────────────────────────────────────────────
@@ -54,13 +54,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // ── Guía IPTV hub + sub-guías ────────────────────────────────────────────
     { url: `${base}/guia-iptv`,                                      lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
-    { url: `${base}/guia-iptv/comment-fonctionne-iptv`,              lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guia-iptv/installation-iptv`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/como-funciona-iptv`,              lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/instalacion-iptv`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${base}/guia-iptv/application-iptv-android`,             lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guia-iptv/iptv-sur-pc`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guia-iptv/iptv-chaine`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/guia-iptv/serveur-iptv`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/guia-iptv/iptv-amende`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.65 },
+    { url: `${base}/guia-iptv/iptv-en-pc`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/canales-iptv`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/guia-iptv/servidor-iptv`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/guia-iptv/iptv-espana-legal`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.65 },
 
     // ── Blog ─────────────────────────────────────────────────────────────────
     { url: `${base}/blog`,                                           lastModified: now, changeFrequency: 'daily',   priority: 0.8 },
@@ -77,6 +77,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/politica-reembolso`,                             lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
     { url: `${base}/dmca`,                                           lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
 
-    // Checkout pages (/commander/*) excluded — noindex set in page metadata
+    // Checkout pages (/pedir/*) excluded — noindex set in page metadata
   ];
 }

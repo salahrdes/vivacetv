@@ -500,7 +500,7 @@ export default function MeilleurIPTVPage() {
                       <>
                         {' '}
                         <Link
-                          href="/guia-iptv/iptv-amende"
+                          href="/guia-iptv/iptv-espana-legal"
                           className="underline"
                           style={{ color: 'var(--color-lime)' }}
                         >
@@ -521,7 +521,7 @@ export default function MeilleurIPTVPage() {
                 { href: '/alternativas/xenon-iptv', label: 'Opinión Xenon IPTV' },
                 { href: '/alternativas/king-iptv', label: 'Opinión King IPTV' },
                 { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
-                { href: '/guia-iptv/iptv-amende', label: 'IPTV legal en España' },
+                { href: '/guia-iptv/iptv-espana-legal', label: 'IPTV legal en España' },
               ].map((l) => (
                 <Link
                   key={l.href}

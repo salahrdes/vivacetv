@@ -1,4 +1,4 @@
-/** Shared wrapper for all legal pages (/mentions-legales, /cgv, etc.) */
+/** Shared wrapper for all legal pages (/avisos-legales, /terminos-condiciones, etc.) */
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';

@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     'cnmc iptv',
     'riesgo iptv pirata',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-amende` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-espana-legal` },
   openGraph: {
     title: 'IPTV Ilegal en España : Multas, Riesgos y Cómo Mantenerse Legal | VivaceTV',
     description:
       "Todo lo que necesitáis saber sobre la legalidad del IPTV en España: multas posibles, papel de la CNMC, y cómo identificar un servicio IPTV legal.",
-    url: `${siteConfig.url}/guia-iptv/iptv-amende`,
+    url: `${siteConfig.url}/guia-iptv/iptv-espana-legal`,
     type: 'website',
   },
 };
@@ -110,7 +110,7 @@ export default function IPTVAmendePage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: 'IPTV Ilegal España', href: '/guia-iptv/iptv-amende' },
+          { name: 'IPTV Ilegal España', href: '/guia-iptv/iptv-espana-legal' },
         ]}
       />
       <script

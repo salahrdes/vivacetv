@@ -35,7 +35,7 @@ export const plans: Plan[] = [
     ],
     isFeatured: false,
     ctaText: 'Comprar ahora',
-    href: '/commander/bronze',
+    href: '/pedir/bronze',
   },
   {
     id: 'silver',
@@ -58,7 +58,7 @@ export const plans: Plan[] = [
     ],
     isFeatured: false,
     ctaText: 'Comprar ahora',
-    href: '/commander/silver',
+    href: '/pedir/silver',
   },
   {
     id: 'gold',
@@ -82,7 +82,7 @@ export const plans: Plan[] = [
     isFeatured: true,
     featuredLabel: 'El Más Popular',
     ctaText: 'Elegir el plan recomendado',
-    href: '/commander/gold',
+    href: '/pedir/gold',
   },
   {
     id: 'diamond',
@@ -105,6 +105,6 @@ export const plans: Plan[] = [
     ],
     isFeatured: false,
     ctaText: 'Comprar ahora',
-    href: '/commander/diamond',
+    href: '/pedir/diamond',
   },
 ];

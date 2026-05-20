@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     'suscripción iptv gold',
     'iptv un año',
   ],
-  alternates: { canonical: `${siteConfig.url}/comprar-iptv/12-mois` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv/12-meses` },
   openGraph: {
     title: 'IPTV 12 Meses — Mejor Precio Anual | VivaceTV Gold',
     description:
       'Suscripción IPTV 12 meses VivaceTV Gold a 44,99€. +22.000 canales HD/4K/8K, 3,75€/mes. Ahorra un 31%. Activación rápida.',
-    url: `${siteConfig.url}/comprar-iptv/12-mois`,
+    url: `${siteConfig.url}/comprar-iptv/12-meses`,
     type: 'website',
   },
 };
@@ -104,7 +104,7 @@ export default function Abonnement12MoisPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Comprar IPTV', href: '/comprar-iptv' },
-          { name: 'Suscripción 12 Meses', href: '/comprar-iptv/12-mois' },
+          { name: 'Suscripción 12 Meses', href: '/comprar-iptv/12-meses' },
         ]}
       />
       <Header />
@@ -174,7 +174,7 @@ export default function Abonnement12MoisPage() {
                   una sola vez y os olvidáis — vuestro servicio funciona durante 12 meses completos, sin interrupción,
                   sin renovación automática impuesta. Sin cargo sorpresa, sin notificación de vencimiento inoportuna.
                   Y si queréis renovar al final de vuestra suscripción,{' '}
-                  <Link href="/commander/gold" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                  <Link href="/pedir/gold" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
                     comprar la suscripción Gold
                   </Link>{' '}
                   se hace en pocos minutos por WhatsApp.
@@ -258,7 +258,7 @@ export default function Abonnement12MoisPage() {
                   </p>
                 </div>
                 <Link
-                  href="/commander/gold"
+                  href="/pedir/gold"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
                   style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 >

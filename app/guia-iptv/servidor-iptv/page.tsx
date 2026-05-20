@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     'anti freeze iptv',
     'calidad servidor iptv',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/serveur-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/servidor-iptv` },
   openGraph: {
     title: 'Servidor IPTV : Todo para Elegir el Mejor en 2026 | VivaceTV',
     description:
       "Guía completa sobre los servidores IPTV: funcionamiento, indicadores de calidad, señales de alarma e infraestructura VivaceTV.",
-    url: `${siteConfig.url}/guia-iptv/serveur-iptv`,
+    url: `${siteConfig.url}/guia-iptv/servidor-iptv`,
     type: 'website',
   },
 };
@@ -127,7 +127,7 @@ export default function ServeurIPTVPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: 'Servidor IPTV', href: '/guia-iptv/serveur-iptv' },
+          { name: 'Servidor IPTV', href: '/guia-iptv/servidor-iptv' },
         ]}
       />
       <script

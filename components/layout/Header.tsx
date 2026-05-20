@@ -64,7 +64,7 @@ export default function Header() {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
-              <Button href="/commander/gold" size="sm" variant="primary">
+              <Button href="/pedir/gold" size="sm" variant="primary">
                 Comprar
               </Button>
             </div>
@@ -144,7 +144,7 @@ export default function Header() {
             {/* Mobile CTA */}
             <div className="px-6 pb-8 pt-4 border-t border-border flex flex-col gap-3 shrink-0">
               <Button
-                href="/commander/gold"
+                href="/pedir/gold"
                 size="lg"
                 variant="primary"
                 className="w-full"

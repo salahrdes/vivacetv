@@ -23,12 +23,12 @@ export const metadata: Metadata = {
     'iptv windows',
     'iptv mac',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-sur-pc` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-en-pc` },
   openGraph: {
     title: "IPTV en PC : Los Mejores Métodos para Ver IPTV en Ordenador | VivaceTV",
     description:
       "Todo para ver IPTV en vuestro ordenador Windows o Mac: VLC, Kodi, IPTV Smarters Web. Métodos probados y configuración óptima.",
-    url: `${siteConfig.url}/guia-iptv/iptv-sur-pc`,
+    url: `${siteConfig.url}/guia-iptv/iptv-en-pc`,
     type: 'website',
   },
 };
@@ -135,7 +135,7 @@ export default function IPTVSurPCPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: 'IPTV en PC', href: '/guia-iptv/iptv-sur-pc' },
+          { name: 'IPTV en PC', href: '/guia-iptv/iptv-en-pc' },
         ]}
       />
       <script
@@ -366,9 +366,9 @@ export default function IPTVSurPCPage() {
             <div className="mt-10 flex flex-wrap gap-3">
               {[
                 { href: '/comprar-iptv', label: 'Ver los planes' },
-                { href: '/guia-iptv/installation-iptv', label: "Guía de instalación" },
+                { href: '/guia-iptv/instalacion-iptv', label: "Guía de instalación" },
                 { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
-                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
+                { href: '/guia-iptv/como-funciona-iptv', label: "Cómo funciona el IPTV" },
               ].map((l) => (
                 <Link
                   key={l.href}

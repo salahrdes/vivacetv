@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     'tivimate instalación',
     'iptv smarters instalación',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/installation-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/instalacion-iptv` },
   openGraph: {
     title: "Instalación IPTV : Guía Completa Paso a Paso 2026 | VivaceTV",
     description:
       "Guía completa de instalación IPTV para todos los dispositivos: Android TV, Firestick, Smart TV, PC y Mac. Configuración en menos de 5 minutos.",
-    url: `${siteConfig.url}/guia-iptv/installation-iptv`,
+    url: `${siteConfig.url}/guia-iptv/instalacion-iptv`,
     type: 'website',
   },
 };
@@ -97,7 +97,7 @@ export default function InstallationIPTVPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: 'Instalación IPTV', href: '/guia-iptv/installation-iptv' },
+          { name: 'Instalación IPTV', href: '/guia-iptv/instalacion-iptv' },
         ]}
       />
       <script
@@ -394,7 +394,7 @@ export default function InstallationIPTVPage() {
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
               Para una instalación detallada en PC y Mac, consultad nuestra{' '}
               <Link
-                href="/guia-iptv/iptv-sur-pc"
+                href="/guia-iptv/iptv-en-pc"
                 style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}
               >
                 guía completa IPTV en PC
@@ -485,8 +485,8 @@ export default function InstallationIPTVPage() {
               {[
                 { href: '/comprar-iptv', label: 'Ver los planes' },
                 { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
-                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
-                { href: '/guia-iptv/iptv-sur-pc', label: 'IPTV en PC' },
+                { href: '/guia-iptv/como-funciona-iptv', label: "Cómo funciona el IPTV" },
+                { href: '/guia-iptv/iptv-en-pc', label: 'IPTV en PC' },
               ].map((l) => (
                 <Link
                   key={l.href}

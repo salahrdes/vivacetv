@@ -137,7 +137,7 @@ const sampleArticleContent: ContentBlock[] = [
     type: 'cta',
     heading: 'Prueba VivaceTV sin compromiso',
     body: 'Comprueba la calidad y la compatibilidad en tu dispositivo antes de elegir tu plan.',
-    href: '/test-gratuit',
+    href: '/prueba-gratis',
     label: 'Solicitar prueba gratuita 24h',
   },
   { type: 'h2', text: 'Elegir la duración correcta del plan' },
@@ -555,7 +555,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: "Prueba el IPTV en tu iPhone o iPad",
         body: "Disfruta de una prueba gratuita de 24 horas para verificar la compatibilidad de tu dispositivo iOS antes de suscribirte.",
-        href: '/test-gratuit',
+        href: '/prueba-gratis',
         label: 'Solicitar una prueba gratuita',
       },
       {
@@ -1091,7 +1091,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: "Contrata tu suscripción IPTV 12 meses Gold",
         body: "El plan Gold VivaceTV a 44,99 € incluye 12 meses de acceso completo, 4K/8K y soporte WhatsApp 24h/24. Menos de 3,75 €/mes.",
-        href: '/commander/gold',
+        href: '/pedir/gold',
         label: 'Contratar el plan Gold 12 meses',
       },
       {
@@ -1401,7 +1401,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba VivaceTV gratis durante 24h',
         body: 'Valida la calidad y la compatibilidad en todos tus dispositivos antes de elegir tu plan.',
-        href: '/test-gratuit',
+        href: '/prueba-gratis',
         label: 'Solicitar una prueba gratuita',
       },
       {
@@ -1535,7 +1535,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba el IPTV gratis antes de decidir',
         body: 'VivaceTV ofrece una prueba gratuita de 24 horas sin compromiso. Compruébalo tú mismo.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Solicitar prueba gratuita 24h',
       },
       {
@@ -2030,7 +2030,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba VivaceTV sin compromiso',
         body: 'Accede a una prueba gratuita de 24h para verificar la calidad y la compatibilidad en tus dispositivos — sin tarjeta bancaria.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Solicitar una prueba gratuita',
       },
       {
@@ -2184,7 +2184,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba el IPTV gratis durante 24h',
         body: 'Prueba sin compromiso, sin tarjeta bancaria. Recibe tus accesos vía WhatsApp en pocos minutos y descubre miles de canales en HD y 4K.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Solicitar mi prueba gratuita',
       },
       {
@@ -2317,7 +2317,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba VivaceTV en tu PC o Mac',
         body: 'Recibe un acceso de prueba gratuito de 24h y configúralo en 5 minutos en tu ordenador con VLC o IPTV Smarters Pro.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Obtener mi acceso de prueba gratuito',
       },
       {
@@ -2432,7 +2432,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba VivaceTV sin VPN',
         body: 'Nuestro servicio funciona perfectamente en España sin VPN. Solicita una prueba gratuita de 24h y comprueba la calidad tú mismo.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Iniciar la prueba gratuita',
       },
       {
@@ -2559,7 +2559,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Mira todos los deportes con VivaceTV',
         body: 'Fútbol, F1, tenis, MotoGP — accede a todos los canales deportivos desde una sola suscripción. Pruébalo gratis durante 24h.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Probar gratis 24h',
       },
       {
@@ -2709,7 +2709,7 @@ export const blogPosts: BlogPost[] = [
         type: 'cta',
         heading: 'Prueba VivaceTV antes de decidir',
         body: 'Compara tú mismo con una prueba gratuita de 24h — sin tarjeta bancaria, sin compromiso. Descubre si VivaceTV puede reemplazar tu Canal+.',
-        href: '/test-gratuito',
+        href: '/prueba-gratis',
         label: 'Probar VivaceTV gratis',
       },
       {

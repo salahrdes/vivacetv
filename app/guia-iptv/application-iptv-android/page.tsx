@@ -434,7 +434,7 @@ export default function ApplicationIPTVAndroidPage() {
                 Comprar una suscripción VivaceTV →
               </Link>
               <Link
-                href="/guia-iptv/installation-iptv"
+                href="/guia-iptv/instalacion-iptv"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   border: '1px solid var(--color-border)',
@@ -485,8 +485,8 @@ export default function ApplicationIPTVAndroidPage() {
               {[
                 { href: '/comprar-iptv', label: 'Ver los planes' },
                 { href: '/mejor-app-iptv', label: 'Guía aplicaciones IPTV' },
-                { href: '/guia-iptv/installation-iptv', label: 'Guía de instalación' },
-                { href: '/guia-iptv/iptv-sur-pc', label: 'IPTV en PC' },
+                { href: '/guia-iptv/instalacion-iptv', label: 'Guía de instalación' },
+                { href: '/guia-iptv/iptv-en-pc', label: 'IPTV en PC' },
               ].map((l) => (
                 <Link
                   key={l.href}

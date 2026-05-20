@@ -28,12 +28,12 @@ export async function generateMetadata({
   return {
     title: `Comprar suscripción ${plan.name} IPTV (${plan.duration}) | VivaceTV`,
     description: `Compra tu suscripción IPTV VivaceTV ${plan.name} — ${plan.duration} a ${plan.priceSale}€. Activación rápida por WhatsApp, soporte 24/7.`,
-    alternates: { canonical: `${siteConfig.url}/commander/${plan.slug}` },
+    alternates: { canonical: `${siteConfig.url}/pedir/${plan.slug}` },
     robots: { index: false }, // checkout pages should not be indexed
     openGraph: {
       title: `Suscripción ${plan.name} — ${plan.duration} | VivaceTV`,
       description: `Compra tu suscripción IPTV ${plan.name} a ${plan.priceSale}€ para ${plan.duration}.`,
-      url: `${siteConfig.url}/commander/${plan.slug}`,
+      url: `${siteConfig.url}/pedir/${plan.slug}`,
       type: 'website',
     },
   };

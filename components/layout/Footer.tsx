@@ -6,20 +6,20 @@ const footerColumns = [
   {
     heading: 'Servicios',
     links: [
-      { label: 'Suscripciones IPTV', href: '/abonnements' },
-      { label: 'Prueba gratis 24h',  href: '/test-gratuit' },
-      { label: 'Guía de instalación', href: '/guide-iptv' },
-      { label: 'Aplicaciones compatibles', href: '/guide-iptv#applications' },
+      { label: 'Suscripciones IPTV',      href: '/comprar-iptv' },
+      { label: 'Prueba gratis 24h',        href: '/prueba-gratis' },
+      { label: 'Guía de instalación',      href: '/guia-iptv' },
+      { label: 'Aplicaciones compatibles', href: '/guia-iptv#aplicaciones' },
     ],
   },
   {
     heading: 'Información',
     links: [
-      { label: 'Aviso legal',                  href: '/mentions-legales' },
-      { label: 'Condiciones generales',         href: '/conditions-generales' },
-      { label: 'Política de privacidad',        href: '/politique-confidentialite' },
-      { label: 'Política de reembolso',         href: '/politique-remboursement' },
-      { label: 'DMCA',                          href: '/dmca' },
+      { label: 'Aviso legal',          href: '/avisos-legales' },
+      { label: 'Condiciones generales', href: '/terminos-condiciones' },
+      { label: 'Política de privacidad', href: '/politica-privacidad' },
+      { label: 'Política de reembolso',  href: '/politica-reembolso' },
+      { label: 'DMCA',                   href: '/dmca' },
     ],
   },
   {
@@ -112,11 +112,11 @@ export default function Footer() {
             © {siteConfig.legal.year} {siteConfig.legal.company}. Todos los derechos reservados.
           </p>
           <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
-            <Link href="/politique-confidentialite" className="hover:underline">
+            <Link href="/politica-privacidad" className="hover:underline">
               Privacidad
             </Link>
             {' · '}
-            <Link href="/mentions-legales" className="hover:underline">
+            <Link href="/avisos-legales" className="hover:underline">
               Aviso legal
             </Link>
           </p>

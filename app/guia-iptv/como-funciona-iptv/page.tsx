@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     'iptv vod',
     'iptv principiantes',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/comment-fonctionne-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/como-funciona-iptv` },
   openGraph: {
     title: '¿Cómo Funciona el IPTV? Explicación Simple y Completa | VivaceTV',
     description:
       'Todo sobre el funcionamiento del IPTV: tecnología, equipo, conexión y primeros pasos con VivaceTV.',
-    url: `${siteConfig.url}/guia-iptv/comment-fonctionne-iptv`,
+    url: `${siteConfig.url}/guia-iptv/como-funciona-iptv`,
     type: 'website',
   },
 };
@@ -103,7 +103,7 @@ export default function CommentFonctionneIPTVPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: '¿Cómo Funciona el IPTV?', href: '/guia-iptv/comment-fonctionne-iptv' },
+          { name: '¿Cómo Funciona el IPTV?', href: '/guia-iptv/como-funciona-iptv' },
         ]}
       />
       <script
@@ -417,7 +417,7 @@ export default function CommentFonctionneIPTVPage() {
                 Elegir mi suscripción →
               </Link>
               <Link
-                href="/guia-iptv/installation-iptv"
+                href="/guia-iptv/instalacion-iptv"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   border: '1px solid var(--color-border)',
@@ -467,8 +467,8 @@ export default function CommentFonctionneIPTVPage() {
             <div className="mt-10 flex flex-wrap gap-3">
               {[
                 { href: '/comprar-iptv', label: 'Ver los planes' },
-                { href: '/guia-iptv/installation-iptv', label: 'Guía de instalación' },
-                { href: '/guia-iptv/iptv-sur-pc', label: 'IPTV en PC' },
+                { href: '/guia-iptv/instalacion-iptv', label: 'Guía de instalación' },
+                { href: '/guia-iptv/iptv-en-pc', label: 'IPTV en PC' },
                 { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
               ].map((l) => (
                 <Link

@@ -66,7 +66,7 @@ const plans = [
     original: '39,99€',
     discount: '-43%',
     featured: false,
-    href: '/commander/bronze',
+    href: '/pedir/bronze',
   },
   {
     id: 'silver',
@@ -76,7 +76,7 @@ const plans = [
     original: '54,99€',
     discount: '-36%',
     featured: false,
-    href: '/commander/silver',
+    href: '/pedir/silver',
   },
   {
     id: 'gold',
@@ -87,7 +87,7 @@ const plans = [
     original: '64,99€',
     discount: '-31%',
     featured: true,
-    href: '/commander/gold',
+    href: '/pedir/gold',
   },
   {
     id: 'diamond',
@@ -97,7 +97,7 @@ const plans = [
     original: '89,99€',
     discount: '-17%',
     featured: false,
-    href: '/commander/diamond',
+    href: '/pedir/diamond',
   },
 ];
 

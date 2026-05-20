@@ -10,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/admin/',
           '/api/',
-          '/commander/', // checkout pages — not for indexing
+          '/pedir/', // checkout pages — not for indexing
         ],
       },
     ],

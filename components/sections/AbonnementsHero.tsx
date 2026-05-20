@@ -62,7 +62,7 @@ export default function AbonnementsHero() {
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-3 mt-2">
           <a
-            href="#abonnements"
+            href="#precios"
             className="inline-flex items-center justify-center px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
             style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
           >

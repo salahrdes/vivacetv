@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     'dazn iptv',
     'movistar plus iptv',
   ],
-  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-chaine` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/canales-iptv` },
   openGraph: {
     title: 'Canales IPTV : Todos los Canales Disponibles con VivaceTV | VivaceTV',
     description:
       "Descubrid los +22.000 canales disponibles con VivaceTV: españoles, deportivos, internacionales, árabes y mediateca VOD.",
-    url: `${siteConfig.url}/guia-iptv/iptv-chaine`,
+    url: `${siteConfig.url}/guia-iptv/canales-iptv`,
     type: 'website',
   },
 };
@@ -121,7 +121,7 @@ export default function IPTVChainePage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Guía IPTV', href: '/guia-iptv' },
-          { name: 'Canales IPTV', href: '/guia-iptv/iptv-chaine' },
+          { name: 'Canales IPTV', href: '/guia-iptv/canales-iptv' },
         ]}
       />
       <script
@@ -373,7 +373,7 @@ export default function IPTVChainePage() {
                 Acceder al catálogo completo →
               </Link>
               <Link
-                href="/commander/gold"
+                href="/pedir/gold"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   border: '1px solid var(--color-border)',
@@ -425,7 +425,7 @@ export default function IPTVChainePage() {
                 { href: '/comprar-iptv', label: 'Ver los planes' },
                 { href: '/iptv-4k', label: 'IPTV 4K' },
                 { href: '/mejor-iptv-espana', label: 'Comparativa IPTV' },
-                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
+                { href: '/guia-iptv/como-funciona-iptv', label: "Cómo funciona el IPTV" },
               ].map((l) => (
                 <Link
                   key={l.href}

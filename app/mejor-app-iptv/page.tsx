@@ -227,7 +227,7 @@ export default function MeilleureApplicationIPTVPage() {
               Nuestro equipo de soporte te guía en la configuración de tu aplicación por
               WhatsApp 24/7. Consulta nuestra{' '}
               <Link
-                href="/guia-iptv/installation-iptv"
+                href="/guia-iptv/instalacion-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
@@ -453,7 +453,7 @@ export default function MeilleureApplicationIPTVPage() {
               Player, OTT Navigator, Kodi, VLC y cualquier aplicación que soporte M3U o Xtream
               Codes. Consulta nuestra{' '}
               <Link
-                href="/guia-iptv/installation-iptv"
+                href="/guia-iptv/instalacion-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
@@ -509,7 +509,7 @@ export default function MeilleureApplicationIPTVPage() {
               {[
                 { href: '/comprar-iptv', label: 'Ver las suscripciones' },
                 { href: '/guia-iptv/application-iptv-android', label: 'Guía Android IPTV' },
-                { href: '/guia-iptv/installation-iptv', label: 'Guía instalación IPTV' },
+                { href: '/guia-iptv/instalacion-iptv', label: 'Guía instalación IPTV' },
                 { href: '/iptv-4k', label: 'IPTV 4K & 8K' },
               ].map((l) => (
                 <Link

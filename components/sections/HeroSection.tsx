@@ -11,12 +11,12 @@ const trustBadges = [
 ];
 
 const contentTiles = [
-  { label: 'Deporte',          color: '#C7E36B', textColor: '#1C1A17' },
-  { label: 'Películas',        color: '#2A2620', textColor: '#F5F5F1' },
-  { label: 'Series',           color: '#1E160F', textColor: '#DCE7B7' },
-  { label: 'Documentales',     color: '#3D382F', textColor: '#F5F5F1' },
-  { label: 'Infantil',         color: '#DCE7B7', textColor: '#1E160F' },
-  { label: 'Entretenimiento',  color: '#5E5E53', textColor: '#F5F5F1' },
+  { label: 'Deporte',          color: '#8B5CF6', textColor: '#FFFFFF' },
+  { label: 'Películas',        color: '#1E1248', textColor: '#C4C4E8' },
+  { label: 'Series',           color: '#101032', textColor: '#A78BFA' },
+  { label: 'Documentales',     color: '#180F42', textColor: '#C4C4E8' },
+  { label: 'Infantil',         color: '#7C3AED', textColor: '#FFFFFF' },
+  { label: 'Entretenimiento',  color: '#1E1E4A', textColor: '#C4C4E8' },
 ];
 
 export default function HeroSection() {
@@ -69,10 +69,10 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3">
-              <Button href="/test-gratuit" size="lg" variant="primary">
+              <Button href="/prueba-gratis" size="lg" variant="primary">
                 Iniciar prueba gratis 24h
               </Button>
-              <Button href="#abonnements" size="lg" variant="secondary">
+              <Button href="#precios" size="lg" variant="secondary">
                 Ver suscripciones
               </Button>
             </div>

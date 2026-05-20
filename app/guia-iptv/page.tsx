@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 
 const guides = [
   {
-    slug: 'comment-fonctionne-iptv',
+    slug: 'como-funciona-iptv',
     icon: <BookOpen size={22} aria-hidden="true" />,
     label: 'Las bases',
     title: '¿Cómo funciona el IPTV?',
@@ -53,7 +53,7 @@ const guides = [
     readTime: '5 min',
   },
   {
-    slug: 'installation-iptv',
+    slug: 'instalacion-iptv',
     icon: <Download size={22} aria-hidden="true" />,
     label: 'Instalación',
     title: 'Guía de instalación IPTV',
@@ -62,7 +62,7 @@ const guides = [
     readTime: '7 min',
   },
   {
-    slug: 'iptv-sur-pc',
+    slug: 'iptv-en-pc',
     icon: <Monitor size={22} aria-hidden="true" />,
     label: 'PC y Mac',
     title: 'IPTV en PC: todos los métodos',
@@ -80,7 +80,7 @@ const guides = [
     readTime: '6 min',
   },
   {
-    slug: 'iptv-chaine',
+    slug: 'canales-iptv',
     icon: <Tv2 size={22} aria-hidden="true" />,
     label: 'Canales',
     title: 'Canales IPTV disponibles',
@@ -89,7 +89,7 @@ const guides = [
     readTime: '4 min',
   },
   {
-    slug: 'serveur-iptv',
+    slug: 'servidor-iptv',
     icon: <Layers size={22} aria-hidden="true" />,
     label: 'Infraestructura',
     title: '¿Qué es un servidor IPTV?',
@@ -98,7 +98,7 @@ const guides = [
     readTime: '5 min',
   },
   {
-    slug: 'iptv-amende',
+    slug: 'iptv-espana-legal',
     icon: <Shield size={22} aria-hidden="true" />,
     label: 'Legalidad',
     title: 'IPTV ilegal en España: riesgos y sanciones',
@@ -258,7 +258,7 @@ export default function GuideIptvPage() {
                 Ver los planes
               </Link>
               <Link
-                href="/guia-iptv/comment-fonctionne-iptv"
+                href="/guia-iptv/como-funciona-iptv"
                 className="inline-flex items-center justify-center py-3.5 px-8 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-75"
                 style={{ color: 'var(--color-ink)', border: '1.5px solid var(--color-border)' }}
               >

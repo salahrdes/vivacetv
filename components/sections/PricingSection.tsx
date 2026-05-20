@@ -17,7 +17,7 @@ function formatPrice(price: number) {
 export default function PricingSection() {
   return (
     <section
-      id="abonnements"
+      id="precios"
       className="py-20 lg:py-28"
       style={{ backgroundColor: 'var(--color-surface)' }}
       aria-labelledby="pricing-heading"
@@ -164,7 +164,7 @@ export default function PricingSection() {
 
                     {/* CTA — links to checkout page */}
                     <Link
-                      href={`/commander/${plan.slug}`}
+                      href={`/pedir/${plan.slug}`}
                       className={cn(
                         'mt-2 w-full inline-flex items-center justify-center text-center py-3.5 px-5 rounded-xl font-semibold text-sm transition-all duration-200',
                         plan.isFeatured

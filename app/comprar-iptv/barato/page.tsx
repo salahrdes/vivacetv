@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     'iptv precio',
     'iptv oferta',
   ],
-  alternates: { canonical: `${siteConfig.url}/comprar-iptv/pas-cher` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv/barato` },
   openGraph: {
     title: 'IPTV Barato en España — Desde 22,99€ | VivaceTV',
     description:
       'IPTV barato desde 22,99€. +22.000 canales HD/4K, activación rápida, calidad garantizada. Prueba gratis 24h disponible.',
-    url: `${siteConfig.url}/comprar-iptv/pas-cher`,
+    url: `${siteConfig.url}/comprar-iptv/barato`,
     type: 'website',
   },
 };
@@ -66,7 +66,7 @@ const plans = [
     pricePerMonth: '7,66€/mes',
     original: '39,99€',
     discount: '-43%',
-    href: '/commander/bronze',
+    href: '/pedir/bronze',
     featured: false,
   },
   {
@@ -77,7 +77,7 @@ const plans = [
     pricePerMonth: '5,83€/mes',
     original: '54,99€',
     discount: '-36%',
-    href: '/commander/silver',
+    href: '/pedir/silver',
     featured: false,
   },
   {
@@ -88,7 +88,7 @@ const plans = [
     pricePerMonth: '3,75€/mes',
     original: '64,99€',
     discount: '-31%',
-    href: '/commander/gold',
+    href: '/pedir/gold',
     featured: true,
   },
   {
@@ -99,7 +99,7 @@ const plans = [
     pricePerMonth: '3,12€/mes',
     original: '89,99€',
     discount: '-17%',
-    href: '/commander/diamond',
+    href: '/pedir/diamond',
     featured: false,
   },
 ];
@@ -136,7 +136,7 @@ export default function AbonnementPasCherPage() {
         items={[
           { name: 'Inicio', href: '/' },
           { name: 'Comprar IPTV', href: '/comprar-iptv' },
-          { name: 'Barato', href: '/comprar-iptv/pas-cher' },
+          { name: 'Barato', href: '/comprar-iptv/barato' },
         ]}
       />
       <Header />
@@ -189,7 +189,7 @@ export default function AbonnementPasCherPage() {
                   casi siempre ilegales, inestables y sin ningún soporte. Los flujos provienen de servidores no
                   seguros que cortan sin avisar, especialmente durante los eventos de gran audiencia. La ausencia de
                   contrato significa que en caso de problema, no tenéis ningún recurso. Para saber más sobre lo que es{' '}
-                  <Link href="/guia-iptv/iptv-amende" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                  <Link href="/guia-iptv/iptv-espana-legal" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
                     IPTV legal en España
                   </Link>,{' '}
                   consultad nuestra guía.
@@ -277,7 +277,7 @@ export default function AbonnementPasCherPage() {
                   </p>
                 </div>
                 <Link
-                  href="/commander/bronze"
+                  href="/pedir/bronze"
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
                   style={{ backgroundColor: 'var(--color-lime)', color: '#FFFFFF' }}
                 >

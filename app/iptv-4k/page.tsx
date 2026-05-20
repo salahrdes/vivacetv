@@ -108,10 +108,10 @@ const comparisonRows = [
 ];
 
 const plans = [
-  { name: 'Bronze', duration: '3 meses', price: '22,99€', href: '/commander/bronze' },
-  { name: 'Silver', duration: '6 meses', price: '34,99€', href: '/commander/silver' },
-  { name: 'Gold', duration: '12 meses', price: '44,99€', href: '/commander/gold', popular: true },
-  { name: 'Diamond', duration: '24 meses', price: '74,99€', href: '/commander/diamond' },
+  { name: 'Bronze', duration: '3 meses', price: '22,99€', href: '/pedir/bronze' },
+  { name: 'Silver', duration: '6 meses', price: '34,99€', href: '/pedir/silver' },
+  { name: 'Gold', duration: '12 meses', price: '44,99€', href: '/pedir/gold', popular: true },
+  { name: 'Diamond', duration: '24 meses', price: '74,99€', href: '/pedir/diamond' },
 ];
 
 export default function IPTV4KPage() {
@@ -239,7 +239,7 @@ export default function IPTV4KPage() {
               </Link>{' '}
               y nuestra{' '}
               <Link
-                href="/guia-iptv/installation-iptv"
+                href="/guia-iptv/instalacion-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
@@ -572,7 +572,7 @@ export default function IPTV4KPage() {
               {[
                 { href: '/comprar-iptv/premium', label: 'Oferta Premium 4K/8K' },
                 { href: '/mejor-app-iptv', label: 'Mejores apps IPTV' },
-                { href: '/guia-iptv/installation-iptv', label: 'Guía instalación' },
+                { href: '/guia-iptv/instalacion-iptv', label: 'Guía instalación' },
                 { href: '/comprar-iptv', label: 'Todas las suscripciones' },
                 { href: '/mejor-iptv-espana', label: 'Comparativa IPTV España' },
               ].map((l) => (

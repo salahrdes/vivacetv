@@ -396,7 +396,7 @@ export default function FournisseurIPTVPage() {
                       <>
                         {' '}
                         <Link
-                          href="/guia-iptv/iptv-amende"
+                          href="/guia-iptv/iptv-espana-legal"
                           className="underline"
                           style={{ color: 'var(--color-lime)' }}
                         >
@@ -415,7 +415,7 @@ export default function FournisseurIPTVPage() {
                 { href: '/comprar-iptv', label: 'Ver las suscripciones' },
                 { href: '/opiniones-iptv', label: 'Opiniones clientes' },
                 { href: '/mejor-iptv-espana', label: 'Comparativa IPTV' },
-                { href: '/guia-iptv/iptv-amende', label: 'IPTV legal en España' },
+                { href: '/guia-iptv/iptv-espana-legal', label: 'IPTV legal en España' },
                 { href: '/faq', label: 'FAQ completa' },
               ].map((l) => (
                 <Link
