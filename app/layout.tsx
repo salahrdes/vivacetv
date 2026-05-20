@@ -73,7 +73,7 @@ export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   const settings = await getSettings();
-  const displayFont = settings.font_display || 'Mozilla Headline';
+  const displayFont = settings.font_display || 'Inter';
   const bodyFont    = settings.font_body    || 'Inter';
   const fontsUrl    = buildFontsUrl(displayFont, bodyFont);
 

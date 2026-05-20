@@ -1,37 +1,37 @@
 @import "tailwindcss";
 
-/* ─── VivaceTV Design Tokens — Spanish Market ───────────────────────────── */
+/* ─── VivaceTV Design Tokens — GXBank-inspired dark purple ──────────────── */
 @theme {
-  /* Surfaces — warm dark premium */
-  --color-surface:      #0F0F13;
-  --color-surface-alt:  #161620;
-  --color-card:         #1A1A26;
+  /* Surfaces — deep purple-black */
+  --color-surface:      #08081A;
+  --color-surface-alt:  #0E0E28;
+  --color-card:         #131330;
 
   /* Borders & neutrals */
-  --color-border:       #2A2A3A;
-  --color-gray-200:     #3A3A4E;
-  --color-gray-400:     #6B6B85;
-  --color-gray-600:     #9B9BB5;
+  --color-border:       #1E1E44;
+  --color-gray-200:     #2A2A58;
+  --color-gray-400:     #6464A0;
+  --color-gray-600:     #9696C8;
 
   /* Text */
-  --color-ink:          #F0EEF8;
-  --color-ink-light:    #B8B6CC;
+  --color-ink:          #FFFFFF;
+  --color-ink-light:    #B0AEDD;
 
   /* Dark sections */
-  --color-dark:         #080810;
+  --color-dark:         #040410;
 
-  /* Spanish Red accent — passion, energy */
-  --color-lime:         #E8402A;
-  --color-lime-hover:   #D43520;
-  --color-lime-soft:    #3D1A14;
+  /* Primary accent — vivid electric purple (GXBank style) */
+  --color-lime:         #7B2FBE;
+  --color-lime-hover:   #6922A8;
+  --color-lime-soft:    #1C0D42;
 
-  /* Gold highlight — premium quality */
-  --color-gold:         #F5B942;
-  --color-gold-hover:   #E8AC35;
-  --color-gold-soft:    #3D2E0A;
+  /* Secondary — lighter violet */
+  --color-gold:         #9747FF;
+  --color-gold-hover:   #8A3AEE;
+  --color-gold-soft:    #1A0F3A;
 
-  /* Typography */
-  --font-display: 'Syne', system-ui, sans-serif;
+  /* Typography — Inter only */
+  --font-display: 'Inter', system-ui, sans-serif;
   --font-body:    'Inter', system-ui, sans-serif;
 
   /* Radius */
