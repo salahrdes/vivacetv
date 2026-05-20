@@ -15,58 +15,68 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     // ── Home ────────────────────────────────────────────────────────────────
-    { url: base,                                              lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
+    { url: base,                                                     lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
 
     // ── Core conversion pages ────────────────────────────────────────────────
-    { url: `${base}/abonnements`,                             lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${base}/abonnements/12-mois`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/abonnements/premium`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/abonnements/pas-cher`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/test-gratuit`,                            lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/comprar-iptv`,                                   lastModified: now, changeFrequency: 'weekly',  priority: 0.95 },
+    { url: `${base}/comprar-iptv/premium`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/comprar-iptv/pas-cher`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/comprar-iptv/12-mois`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/prueba-gratis`,                                  lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
     // ── SEO landing pages ────────────────────────────────────────────────────
-    { url: `${base}/meilleur-iptv`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${base}/meilleure-application-iptv`,              lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/fournisseur-iptv`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/avis-iptv`,                               lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/iptv-4k`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/mejor-iptv-espana`,                              lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/mejor-app-iptv`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/proveedor-iptv`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/opiniones-iptv`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/iptv-4k`,                                        lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
-    // ── Alternatives ─────────────────────────────────────────────────────────
-    { url: `${base}/alternatives`,                            lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/alternatives/atlaspro-iptv`,              lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/iptv-atlas`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/iptv-az`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/iptv-hottest`,               lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/king-iptv`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/smarter-one-iptv`,           lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/televizo`,                   lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/alternatives/xenon-iptv`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    // ── Canales ──────────────────────────────────────────────────────────────
+    { url: `${base}/canales/deportes`,                               lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/canales/peliculas`,                              lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/canales/series`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
 
-    // ── Guide IPTV hub + sub-guides ──────────────────────────────────────────
-    { url: `${base}/guide-iptv`,                              lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
-    { url: `${base}/guide-iptv/comment-fonctionne-iptv`,      lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guide-iptv/installation-iptv`,            lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guide-iptv/application-iptv-android`,     lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guide-iptv/iptv-sur-pc`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/guide-iptv/iptv-chaine`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/guide-iptv/serveur-iptv`,                 lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/guide-iptv/iptv-amende`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.65 },
+    // ── Dispositivos ─────────────────────────────────────────────────────────
+    { url: `${base}/dispositivos/smart-tv`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/dispositivos/firestick`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/dispositivos/android-tv`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+
+    // ── Alternativas ─────────────────────────────────────────────────────────
+    { url: `${base}/alternativas`,                                   lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/alternativas/atlaspro-iptv`,                     lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/iptv-atlas`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/iptv-az`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/iptv-hottest`,                      lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/king-iptv`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/smarter-one-iptv`,                  lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/televizo`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/alternativas/xenon-iptv`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+
+    // ── Guía IPTV hub + sub-guías ────────────────────────────────────────────
+    { url: `${base}/guia-iptv`,                                      lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${base}/guia-iptv/comment-fonctionne-iptv`,              lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/installation-iptv`,                    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/application-iptv-android`,             lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/iptv-sur-pc`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/guia-iptv/iptv-chaine`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/guia-iptv/serveur-iptv`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/guia-iptv/iptv-amende`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.65 },
 
     // ── Blog ─────────────────────────────────────────────────────────────────
-    { url: `${base}/blog`,                                    lastModified: now, changeFrequency: 'daily',   priority: 0.8 },
+    { url: `${base}/blog`,                                           lastModified: now, changeFrequency: 'daily',   priority: 0.8 },
     ...blogArticles,
 
-    // ── Support / info ───────────────────────────────────────────────────────
-    { url: `${base}/faq`,                                     lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/contact`,                                 lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    // ── Soporte / info ───────────────────────────────────────────────────────
+    { url: `${base}/faq`,                                            lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/contact`,                                        lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
 
     // ── Legal ────────────────────────────────────────────────────────────────
-    { url: `${base}/mentions-legales`,                        lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
-    { url: `${base}/conditions-generales`,                    lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
-    { url: `${base}/politique-confidentialite`,               lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
-    { url: `${base}/politique-remboursement`,                 lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
-    { url: `${base}/dmca`,                                    lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
+    { url: `${base}/avisos-legales`,                                 lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
+    { url: `${base}/terminos-condiciones`,                           lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
+    { url: `${base}/politica-privacidad`,                            lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
+    { url: `${base}/politica-reembolso`,                             lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
+    { url: `${base}/dmca`,                                           lastModified: now, changeFrequency: 'yearly',  priority: 0.2 },
 
-    // Checkout pages (/commander/*) are excluded — noindex set in page metadata
+    // Checkout pages (/commander/*) excluded — noindex set in page metadata
   ];
 }

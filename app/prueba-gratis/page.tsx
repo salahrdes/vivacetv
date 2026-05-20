@@ -8,13 +8,24 @@ import PageHero from '@/components/ui/PageHero';
 import TestRequestForm from '@/components/sections/TestRequestForm';
 
 export const metadata: Metadata = {
-  title: 'Prueba IPTV Gratis 24h en España | VivaceTV',
+  title: 'Prueba IPTV Gratis 24h España — Sin Pago ni Tarjeta | VivaceTV',
   description:
-    'Solicita una prueba IPTV gratis 24h con VivaceTV para comprobar la compatibilidad de tu dispositivo y descubrir la experiencia antes de elegir tu suscripción.',
+    'Prueba IPTV gratis 24 horas en España. Sin pago, sin tarjeta, sin contrato. Comprueba la calidad HD/4K, LaLiga y +22.000 canales antes de comprar tu suscripción IPTV.',
+  keywords: [
+    'prueba iptv gratis',
+    'prueba iptv gratis 24h',
+    'test iptv gratis españa',
+    'iptv gratis españa',
+    'prueba gratuita iptv',
+    'trial iptv españa',
+    'probar iptv españa',
+    'iptv demo gratis',
+  ],
   alternates: { canonical: `${siteConfig.url}/prueba-gratis` },
   openGraph: {
-    title: 'Prueba IPTV Gratis 24h en España | VivaceTV',
-    description: 'Prueba VivaceTV gratis durante 24h. Sin pago, sin cuenta requerida.',
+    title: 'Prueba IPTV Gratis 24h España — Sin Pago ni Tarjeta | VivaceTV',
+    description:
+      'Prueba IPTV gratis 24h en España. Sin pago ni tarjeta. +22.000 canales HD/4K, LaLiga, Champions. Activa tu prueba por WhatsApp en minutos.',
     url: `${siteConfig.url}/prueba-gratis`,
     type: 'website',
   },

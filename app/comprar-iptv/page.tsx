@@ -11,22 +11,28 @@ import FAQSection from '@/components/sections/FAQSection';
 import FinalCTA from '@/components/sections/FinalCTA';
 
 export const metadata: Metadata = {
-  title: 'Comprar IPTV España 2026 — Compara Nuestros 4 Planes | VivaceTV',
+  title: 'Comprar IPTV España — Precios desde 22,99€ | VivaceTV',
   description:
-    'Compara nuestros planes IPTV España: Bronze (3 meses, 22,99€), Silver (6 meses, 34,99€), Gold (12 meses, 44,99€), Diamond (24 meses, 74,99€). +22.000 canales HD/4K/8K. Activación rápida.',
+    'Comprar IPTV en España nunca fue tan fácil. Planes desde 22,99€: +22.000 canales HD/4K, LaLiga, Champions, series y películas. Sin contrato. Activación por WhatsApp. Prueba gratis 24h.',
   keywords: [
-    'comprar IPTV España',
-    'mejores planes IPTV',
-    'ofertas IPTV',
-    'suscripción IPTV barata',
-    'suscripción IPTV premium',
-    'IPTV suscripción 12 meses',
+    'comprar iptv',
+    'comprar iptv españa',
+    'comprar iptv barato',
+    'comprar suscripcion iptv',
+    'iptv precio españa',
+    'iptv planes precios',
+    'suscripcion iptv barata',
+    'suscripcion iptv premium',
+    'oferta iptv españa',
+    'iptv 3 meses',
+    'iptv 12 meses',
+    'iptv sin permanencia',
   ],
   alternates: { canonical: `${siteConfig.url}/comprar-iptv` },
   openGraph: {
-    title: 'Comprar IPTV España 2026 — 4 Planes a Comparar | VivaceTV',
+    title: 'Comprar IPTV España — Planes desde 22,99€ | VivaceTV',
     description:
-      'Bronze desde 22,99€, Silver 34,99€, Gold 44,99€, Diamond 74,99€. +22.000 canales HD/4K/8K. IPTV España con activación rápida por WhatsApp.',
+      'Comprar IPTV en España: 4 planes sin contrato desde 22,99€. +22.000 canales HD/4K, LaLiga, Champions. Activación por WhatsApp en minutos.',
     url: `${siteConfig.url}/comprar-iptv`,
     type: 'website',
   },

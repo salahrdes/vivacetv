@@ -14,10 +14,14 @@ export const metadata: Metadata = {
   description:
     'Lee las opiniones reales de VivaceTV de nuestros clientes satisfechos. Notas verificadas, testimonios WhatsApp, experiencias sobre la calidad IPTV España. 4,8/5 de media.',
   keywords: [
-    'opiniones VivaceTV',
-    'opiniones IPTV España',
-    'testimonios IPTV',
-    'VivaceTV opiniones clientes',
+    'opiniones iptv españa',
+    'opiniones vivacetv',
+    'reviews iptv españa',
+    'valoraciones iptv',
+    'testimonios iptv españa',
+    'iptv españa fiable opiniones',
+    'vivacetv resenas',
+    'mejor iptv españa opiniones',
   ],
   alternates: { canonical: `${siteConfig.url}/opiniones-iptv` },
   openGraph: {

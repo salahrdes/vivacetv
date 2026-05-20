@@ -10,21 +10,24 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Mejor Suscripción IPTV España 2026 — Comparativa y Opiniones | VivaceTV',
+  title: 'Mejor IPTV España 2026 — Comparativa de Proveedores | VivaceTV',
   description:
-    '¿Cuál es la mejor suscripción IPTV en España en 2026? Comparativa completa: VivaceTV, Xenon IPTV, King IPTV, Atlas IPTV. Opiniones, precios, calidad. Nuestro veredicto.',
+    '¿Cuál es el mejor IPTV en España en 2026? Comparativa completa: VivaceTV, Xenon IPTV, King IPTV, Atlas IPTV. Precios, calidad, canales y soporte. Elige el mejor proveedor IPTV España.',
   keywords: [
-    'mejor suscripción IPTV',
-    'mejor IPTV 2026',
-    'comparativa IPTV España',
-    'mejores suscripciones IPTV',
-    'qué IPTV elegir España',
+    'mejor iptv españa',
+    'mejor iptv españa 2026',
+    'mejor proveedor iptv españa',
+    'comparativa iptv españa',
+    'que iptv comprar españa',
+    'mejores servicios iptv españa',
+    'iptv recomendado españa',
+    'top iptv españa',
   ],
   alternates: { canonical: `${siteConfig.url}/mejor-iptv-espana` },
   openGraph: {
-    title: 'Mejor Suscripción IPTV España 2026 — Comparativa y Opiniones | VivaceTV',
+    title: 'Mejor IPTV España 2026 — Comparativa de Proveedores | VivaceTV',
     description:
-      'Comparativa completa de las mejores suscripciones IPTV en España 2026. VivaceTV, Xenon, King, Atlas — nuestra clasificación objetiva.',
+      'Comparativa completa del mejor IPTV en España 2026. VivaceTV, Xenon, King, Atlas — precios, canales y calidad. Elige el mejor proveedor.',
     url: `${siteConfig.url}/mejor-iptv-espana`,
     type: 'website',
   },

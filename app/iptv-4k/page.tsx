@@ -14,11 +14,15 @@ export const metadata: Metadata = {
   description:
     'Ve la TV en 4K con VivaceTV IPTV: +22 000 canales en HD, 4K y 8K, tecnología anti-freeze, compatible Smart TV, Firestick, Android. Desde 22,99€.',
   keywords: [
-    'IPTV 4K',
-    '4K IPTV España',
-    'canales IPTV 4K',
-    'IPTV Ultra HD',
-    'IPTV 8K',
+    'iptv 4k españa',
+    'comprar iptv 4k',
+    'iptv ultra hd españa',
+    'canales 4k iptv',
+    'iptv sin cortes 4k',
+    'iptv 4k smart tv',
+    'iptv 4k firestick',
+    'iptv 8k españa',
+    'iptv hd 4k barato',
   ],
   alternates: { canonical: `${siteConfig.url}/iptv-4k` },
   openGraph: {

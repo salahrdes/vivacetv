@@ -14,10 +14,14 @@ export const metadata: Metadata = {
   description:
     'Descubre VivaceTV, tu proveedor IPTV España de confianza. +22 000 canales HD/4K/8K, servidores estables, soporte WhatsApp 24/7. ¿Cómo elegir un buen proveedor IPTV?',
   keywords: [
-    'proveedor IPTV España',
-    'proveedores IPTV',
-    'mejor proveedor IPTV',
-    'elegir proveedor IPTV',
+    'proveedor iptv españa',
+    'mejor proveedor iptv españa',
+    'proveedor iptv fiable',
+    'servicio iptv españa',
+    'empresa iptv españa',
+    'comprar iptv proveedor',
+    'iptv espana proveedor oficial',
+    'elegir proveedor iptv',
   ],
   alternates: { canonical: `${siteConfig.url}/proveedor-iptv` },
   openGraph: {
