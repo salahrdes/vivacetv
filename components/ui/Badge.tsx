@@ -9,11 +9,11 @@ type BadgeProps = {
 };
 
 const variantStyles: Record<BadgeVariant, string> = {
-  'lime':      'bg-lime text-dark',
-  'lime-soft': 'bg-lime-soft text-dark',
+  'lime':      'bg-lime text-white',
+  'lime-soft': 'bg-lime-soft text-lime',
   'dark':      'bg-dark text-lime',
   'surface':   'bg-card border border-border text-ink-light',
-  'discount':  'bg-lime-soft text-dark font-bold',
+  'discount':  'bg-lime-soft text-lime font-bold',
 };
 
 export default function Badge({ variant = 'lime-soft', className, children }: BadgeProps) {

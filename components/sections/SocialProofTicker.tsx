@@ -46,10 +46,10 @@ export default function SocialProofTicker() {
         aria-hidden="true"
       >
         <CheckCircle size={18} className="shrink-0" style={{ color: '#22C55E' }} />
-        <p className="text-xs leading-snug" style={{ color: 'var(--color-ink-light)' }}>
-          <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>{n.name}</span>
+        <p className="text-xs leading-snug" style={{ color: '#4B4B6B' }}>
+          <span className="font-semibold" style={{ color: '#0D0A2E' }}>{n.name}</span>
           {' '}acaba de comprar{' '}
-          <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>{n.plan}</span>
+          <span className="font-semibold" style={{ color: '#6D28D9' }}>{n.plan}</span>
           {' '}· hace {n.time}
         </p>
       </div>

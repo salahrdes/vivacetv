@@ -183,11 +183,14 @@ export default function PlanComparisonTable() {
                   <th
                     key={plan.key}
                     className="py-5 px-4 text-center"
-                    style={{
-                      backgroundColor: plan.isFeatured ? 'var(--color-dark)' : 'var(--color-card)',
-                      borderBottom: plan.isFeatured
-                        ? '2px solid var(--color-lime)'
-                        : '1px solid var(--color-border)',
+                    style={plan.isFeatured ? {
+                      background: 'linear-gradient(180deg, rgba(139,92,246,0.18) 0%, #0D0A2E 100%)',
+                      borderBottom: '2px solid var(--color-lime)',
+                      borderLeft: '1px solid rgba(139,92,246,0.3)',
+                      borderRight: '1px solid rgba(139,92,246,0.3)',
+                    } : {
+                      backgroundColor: 'var(--color-card)',
+                      borderBottom: '1px solid var(--color-border)',
                     }}
                     scope="col"
                   >
@@ -237,16 +240,16 @@ export default function PlanComparisonTable() {
                         style={{
                           backgroundColor: plan.isFeatured
                             ? isEven
-                              ? 'rgba(28,26,23,1)'
-                              : 'rgba(32,30,26,1)'
+                              ? 'rgba(139,92,246,0.07)'
+                              : 'rgba(139,92,246,0.04)'
                             : isEven
                             ? 'var(--color-surface)'
                             : 'var(--color-card)',
                           borderBottom: plan.isFeatured
-                            ? '1px solid rgba(255,255,255,0.06)'
+                            ? '1px solid rgba(139,92,246,0.12)'
                             : '1px solid var(--color-border)',
-                          borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
-                          borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
+                          borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.2)' : undefined,
+                          borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.2)' : undefined,
                         }}
                       >
                         <CellContent value={row[plan.key]} isFeatured={plan.isFeatured} />
@@ -273,10 +276,10 @@ export default function PlanComparisonTable() {
                     key={plan.key}
                     className="py-6 px-4 text-center"
                     style={{
-                      backgroundColor: plan.isFeatured ? 'var(--color-dark)' : 'var(--color-card)',
+                      backgroundColor: plan.isFeatured ? 'rgba(139,92,246,0.06)' : 'var(--color-card)',
                       borderTop: plan.isFeatured ? '2px solid var(--color-lime)' : '2px solid var(--color-border)',
-                      borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
-                      borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.15)' : undefined,
+                      borderLeft: plan.isFeatured ? '1px solid rgba(139,92,246,0.2)' : undefined,
+                      borderRight: plan.isFeatured ? '1px solid rgba(139,92,246,0.2)' : undefined,
                     }}
                   >
                     <a

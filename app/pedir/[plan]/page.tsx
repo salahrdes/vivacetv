@@ -229,20 +229,12 @@ export default async function CheckoutPage({
                     </p>
                     <p
                       className="font-display font-extrabold text-2xl"
-                      style={{
-                        color: plan.isFeatured
-                          ? 'var(--color-surface)'
-                          : 'var(--color-ink)',
-                      }}
+                      style={{ color: 'var(--color-ink)' }}
                     >
                       {plan.name}
                       <span
                         className="text-sm font-normal ml-2"
-                        style={{
-                          color: plan.isFeatured
-                            ? 'var(--color-gray-400)'
-                            : 'var(--color-ink-light)',
-                        }}
+                        style={{ color: 'var(--color-ink-light)' }}
                       >
                         — {plan.duration}
                       </span>

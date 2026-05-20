@@ -67,12 +67,13 @@ export default function PricingSection() {
                       ? 'shadow-2xl ring-2'
                       : 'shadow-sm hover:shadow-md',
                   )}
-                  style={{
-                    backgroundColor: plan.isFeatured ? 'var(--color-dark)' : 'var(--color-card)',
-                    border: plan.isFeatured ? 'none' : '1px solid var(--color-border)',
-                    ...(plan.isFeatured
-                      ? ({ outline: '2px solid var(--color-lime)', outlineOffset: '-2px' } as React.CSSProperties)
-                      : {}),
+                  style={plan.isFeatured ? {
+                    background: 'linear-gradient(145deg, rgba(139,92,246,0.22) 0%, #0D0A2E 60%, #101032 100%)',
+                    border: '2px solid var(--color-lime)',
+                    boxShadow: '0 0 40px rgba(139,92,246,0.25), 0 8px 32px rgba(0,0,0,0.4)',
+                  } : {
+                    backgroundColor: 'var(--color-card)',
+                    border: '1px solid var(--color-border)',
                   }}
                 >
                   <div className="p-6 flex flex-col gap-5 flex-1">

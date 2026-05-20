@@ -13,7 +13,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
 
   const pageUrl = typeof window !== 'undefined'
     ? `${window.location.origin}/blog/${slug}`
-    : `https://vivacetv.fr/blog/${slug}`;
+    : `https://vivacetv.com/blog/${slug}`;
 
   const encodedUrl = encodeURIComponent(pageUrl);
   const encodedTitle = encodeURIComponent(title);
@@ -84,7 +84,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
       }}
     >
       <p className="text-sm font-semibold shrink-0" style={{ color: 'var(--color-ink)' }}>
-        Partager cet article
+        Compartir este artículo
       </p>
 
       <div className="flex flex-wrap gap-2">
@@ -96,7 +96,7 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold text-white transition-opacity duration-150 hover:opacity-80"
             style={{ backgroundColor: link.color }}
-            aria-label={`Partager sur ${link.label}`}
+            aria-label={`Compartir en ${link.label}`}
           >
             {link.icon}
             {link.label}
@@ -109,17 +109,18 @@ export default function ShareButtons({ title, slug }: ShareButtonsProps) {
           onClick={handleCopy}
           className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold transition-all duration-150 hover:opacity-80"
           style={{
-            backgroundColor: copied ? 'var(--color-lime)' : 'var(--color-dark)',
-            color: copied ? 'var(--color-dark)' : 'var(--color-surface)',
+            backgroundColor: copied ? 'var(--color-lime)' : 'var(--color-card)',
+            color: copied ? '#FFFFFF' : 'var(--color-ink-light)',
+            border: copied ? 'none' : '1px solid var(--color-border)',
           }}
-          aria-label="Copier le lien"
+          aria-label="Copiar enlace"
         >
           {copied ? (
             <Check size={13} aria-hidden="true" />
           ) : (
             <Link2 size={13} aria-hidden="true" />
           )}
-          {copied ? 'Lien copié !' : 'Copier le lien'}
+          {copied ? '¡Copiado!' : 'Copiar enlace'}
         </button>
       </div>
     </div>
