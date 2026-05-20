@@ -7,38 +7,38 @@ export type Benefit = {
 export const benefits: Benefit[] = [
   {
     icon: 'server',
-    title: 'Serveurs stables',
+    title: 'Servidores estables',
     description:
-      'Profitez d\'un streaming fluide avec une infrastructure optimisée pour limiter les coupures et améliorer votre confort de visionnage.',
+      'Disfruta de un streaming fluido con una infraestructura optimizada para minimizar las interrupciones y mejorar tu experiencia de visualización.',
   },
   {
     icon: 'monitor',
-    title: 'Qualité HD & 4K',
+    title: 'Calidad HD y 4K',
     description:
-      'Regardez vos contenus préférés avec une image nette, adaptée aux écrans modernes et aux connexions haut débit.',
+      'Ve tus contenidos favoritos con una imagen nítida, adaptada a las pantallas modernas y a las conexiones de alta velocidad.',
   },
   {
     icon: 'devices',
-    title: 'Compatible multi-appareils',
+    title: 'Compatible con múltiples dispositivos',
     description:
-      'Utilisez votre abonnement IPTV France sur Smart TV, Android, iPhone, iPad, PC, Box TV, Roku, Fire TV et Apple TV.',
+      'Usa tu suscripción IPTV España en Smart TV, Android, iPhone, iPad, PC, Box TV, Roku, Fire TV y Apple TV.',
   },
   {
     icon: 'zap',
-    title: 'Activation rapide',
+    title: 'Activación rápida',
     description:
-      'Recevez vos accès rapidement après votre commande et commencez à regarder en quelques minutes.',
+      'Recibe tus datos de acceso rápidamente tras tu pedido y empieza a ver en cuestión de minutos.',
   },
   {
     icon: 'headphones',
-    title: 'Assistance 24/7',
+    title: 'Soporte 24/7',
     description:
-      'Notre support vous accompagne avant et après l\'achat pour l\'installation, la configuration et les questions techniques.',
+      'Nuestro equipo de soporte te acompaña antes y después de la compra para la instalación, configuración y cualquier duda técnica.',
   },
   {
     icon: 'play',
-    title: 'Contenus variés',
+    title: 'Contenido variado',
     description:
-      'Accédez à une large sélection de chaînes TV, sport, films, séries et contenus à la demande selon votre forfait.',
+      'Accede a una amplia selección de canales de TV, deporte, películas, series y contenido bajo demanda según tu plan.',
   },
 ];

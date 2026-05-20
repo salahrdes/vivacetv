@@ -5,43 +5,43 @@ export type FaqItem = {
 
 export const faqItems: FaqItem[] = [
   {
-    question: 'Comment souscrire à un abonnement IPTV France avec VivaceTV ?',
+    question: '¿Cómo contratar un abono IPTV en España con VivaceTV?',
     answer:
-      'Choisissez le forfait qui vous convient, passez votre demande depuis la page du forfait, puis notre équipe vous contacte via WhatsApp pour finaliser votre abonnement.',
+      'Elige el plan que mejor se adapte a ti, envía tu solicitud desde la página del plan y nuestro equipo te contactará por WhatsApp para finalizar tu suscripción.',
   },
   {
-    question: 'Quels appareils sont compatibles avec VivaceTV ?',
+    question: '¿Qué dispositivos son compatibles con VivaceTV?',
     answer:
-      'VivaceTV est compatible avec Smart TV, Android, iOS, PC, Mac, Box TV, Roku, Fire TV et Apple TV selon l\'application utilisée.',
+      'VivaceTV es compatible con Smart TV, Android, iOS, PC, Mac, Box TV, Roku, Fire TV y Apple TV según la aplicación utilizada.',
   },
   {
-    question: 'Dois-je créer un compte pour commander ?',
+    question: '¿Necesito crear una cuenta para hacer el pedido?',
     answer:
-      'Non, aucun compte client n\'est nécessaire. Il vous suffit de choisir un forfait, de remplir le formulaire de demande et nous vous contactons ensuite sur WhatsApp.',
+      'No, no es necesaria ninguna cuenta de cliente. Solo tienes que elegir un plan, rellenar el formulario de solicitud y te contactamos por WhatsApp.',
   },
   {
-    question: 'Puis-je utiliser mon abonnement IPTV sur Smart TV ?',
+    question: '¿Puedo usar mi suscripción IPTV en una Smart TV?',
     answer:
-      'Oui, vous pouvez utiliser votre abonnement sur une Smart TV compatible. Notre support peut vous guider dans le choix de l\'application et la configuration.',
+      'Sí, puedes usar tu suscripción en una Smart TV compatible. Nuestro soporte puede guiarte en la elección de la aplicación y la configuración.',
   },
   {
-    question: 'Combien de temps prend l\'activation ?',
+    question: '¿Cuánto tarda la activación?',
     answer:
-      'L\'activation est généralement rapide après la confirmation de votre demande. Vous recevez les informations nécessaires via WhatsApp.',
+      'La activación es generalmente inmediata tras la confirmación de tu solicitud. Recibirás los datos de acceso por WhatsApp en pocos minutos.',
   },
   {
-    question: 'Le paiement en ligne est-il disponible ?',
+    question: '¿Está disponible el pago en línea?',
     answer:
-      'Le paiement en ligne sera ajouté prochainement. Pour le moment, notre équipe vous contacte via WhatsApp pour finaliser votre demande.',
+      'El pago en línea se añadirá próximamente. Por el momento, nuestro equipo te contacta por WhatsApp para finalizar tu pedido.',
   },
   {
-    question: 'Puis-je regarder en qualité HD ou 4K ?',
+    question: '¿Puedo ver contenido en calidad HD o 4K?',
     answer:
-      'Oui, la qualité HD et 4K est disponible selon votre appareil, votre connexion Internet et le contenu accessible avec votre forfait.',
+      'Sí, la calidad HD y 4K está disponible según tu dispositivo, tu conexión a Internet y el contenido accesible con tu plan.',
   },
   {
-    question: 'Quel forfait IPTV choisir ?',
+    question: '¿Qué plan IPTV elegir?',
     answer:
-      'Si vous souhaitez découvrir le service, commencez par un forfait court. Pour une meilleure valeur, les forfaits 6 ou 12 mois sont généralement plus adaptés.',
+      'Si quieres descubrir el servicio, empieza por un plan corto. Para un mejor valor, los planes de 6 o 12 meses suelen ser los más recomendados.',
   },
 ];

@@ -9,83 +9,83 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: "Installation IPTV : Guide Complet Étape par Étape 2026 | VivaceTV",
+  title: "Instalación IPTV : Guía Completa Paso a Paso 2026 | VivaceTV",
   description:
-    "Comment installer l'IPTV sur Android TV, Firestick, Smart TV Samsung & LG, PC et Mac. Guide d'installation IPTV complet avec TiviMate et IPTV Smarters Pro.",
+    "Cómo instalar IPTV en Android TV, Firestick, Smart TV Samsung y LG, PC y Mac. Guía completa de instalación IPTV con TiviMate e IPTV Smarters Pro.",
   keywords: [
-    'installation iptv',
-    'installer iptv',
-    'iptv installation',
-    'installer iptv android tv',
-    'installer iptv firestick',
-    'installer iptv smart tv',
-    'tivimate installation',
-    'iptv smarters installation',
+    'instalación iptv',
+    'instalar iptv',
+    'iptv instalación',
+    'instalar iptv android tv',
+    'instalar iptv firestick',
+    'instalar iptv smart tv',
+    'tivimate instalación',
+    'iptv smarters instalación',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/installation-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/installation-iptv` },
   openGraph: {
-    title: "Installation IPTV : Guide Complet Étape par Étape 2026 | VivaceTV",
+    title: "Instalación IPTV : Guía Completa Paso a Paso 2026 | VivaceTV",
     description:
-      "Guide d'installation IPTV complet pour tous les appareils : Android TV, Firestick, Smart TV, PC et Mac. Configuration en moins de 5 minutes.",
-    url: `${siteConfig.url}/guide-iptv/installation-iptv`,
+      "Guía completa de instalación IPTV para todos los dispositivos: Android TV, Firestick, Smart TV, PC y Mac. Configuración en menos de 5 minutos.",
+    url: `${siteConfig.url}/guia-iptv/installation-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "Quelle application IPTV dois-je utiliser ?",
+    question: "¿Qué aplicación IPTV debo usar?",
     answer:
-      "Pour les débutants, IPTV Smarters Pro est l'application la plus simple à configurer. Pour les utilisateurs souhaitant la meilleure interface, TiviMate sur Android TV est le choix premium. Sur Smart TV Samsung, l'application Smart IPTV ou SSIPTV est recommandée. VivaceTV supporte toutes ces applications et vous guidera lors de la configuration.",
+      "Para principiantes, IPTV Smarters Pro es la aplicación más sencilla de configurar. Para los usuarios que buscan la mejor interfaz, TiviMate en Android TV es la opción premium. En Smart TV Samsung, se recomienda la aplicación Smart IPTV o SSIPTV. VivaceTV es compatible con todas estas aplicaciones y os guiará durante la configuración.",
   },
   {
-    question: "Combien de temps faut-il pour installer l'IPTV ?",
+    question: "¿Cuánto tiempo se tarda en instalar IPTV?",
     answer:
-      "L'installation prend généralement 5 à 15 minutes selon votre appareil et votre familiarité avec les applications. Une fois votre abonnement VivaceTV actif, la configuration elle-même ne prend que 2 à 3 minutes : installer l'application, entrer l'URL M3U ou les identifiants, et attendre le chargement de la liste de chaînes.",
+      "La instalación suele tardar entre 5 y 15 minutos según vuestro dispositivo y vuestra familiaridad con las aplicaciones. Una vez activa vuestra suscripción VivaceTV, la configuración en sí solo lleva 2 o 3 minutos: instalar la aplicación, introducir la URL M3U o las credenciales, y esperar a que cargue la lista de canales.",
   },
   {
-    question: "Dois-je configurer l'EPG manuellement ?",
+    question: "¿Tengo que configurar el EPG manualmente?",
     answer:
-      "Non, l'EPG (guide des programmes) est généralement inclus dans votre abonnement VivaceTV et se charge automatiquement via l'URL M3U. Dans certaines applications comme TiviMate, il faut activer l'option de chargement automatique de l'EPG dans les paramètres. Notre équipe support peut vous guider pour cette configuration.",
+      "No, el EPG (guía de programas) suele estar incluido en vuestra suscripción VivaceTV y se carga automáticamente a través de la URL M3U. En algunas aplicaciones como TiviMate, hay que activar la opción de carga automática del EPG en los ajustes. Nuestro equipo de soporte puede guiaros en esta configuración.",
   },
   {
-    question: "Que faire si l'IPTV ne fonctionne pas après l'installation ?",
+    question: "¿Qué hacer si el IPTV no funciona después de la instalación?",
     answer:
-      "Vérifiez d'abord votre connexion internet et la validité de vos identifiants. Si la liste de chaînes ne se charge pas, essayez de forcer la mise à jour depuis les paramètres de l'application. En cas de problème persistant, contactez le support VivaceTV via WhatsApp — notre équipe répond en moins de 15 minutes et vous aidera à résoudre le problème étape par étape.",
+      "Verificad primero vuestra conexión a internet y la validez de vuestras credenciales. Si la lista de canales no carga, intentad forzar la actualización desde los ajustes de la aplicación. En caso de problema persistente, contactad al soporte VivaceTV por WhatsApp — nuestro equipo responde en menos de 15 minutos y os ayudará a resolver el problema paso a paso.",
   },
   {
-    question: "Peut-on installer l'IPTV sur Firestick sans passer par l'Amazon Store ?",
+    question: "¿Se puede instalar IPTV en Firestick sin pasar por la Amazon Store?",
     answer:
-      "Oui, c'est possible via l'installation APK (sources inconnues). Sur Firestick, vous devez activer l'option 'Applications de sources inconnues' dans les paramètres de l'appareil, puis utiliser l'application Downloader pour télécharger et installer l'APK de TiviMate ou IPTV Smarters. Notre guide détaillé est disponible sur WhatsApp.",
+      "Sí, es posible mediante la instalación APK (fuentes desconocidas). En Firestick, debéis activar la opción 'Aplicaciones de fuentes desconocidas' en los ajustes del dispositivo, y luego usar la aplicación Downloader para descargar e instalar el APK de TiviMate o IPTV Smarters. Nuestra guía detallada está disponible por WhatsApp.",
   },
 ];
 
 const troubleshootItems = [
   {
-    problem: 'Buffering fréquent (mise en tampon)',
+    problem: 'Buffering frecuente (almacenamiento en búfer)',
     solutions: [
-      'Vérifiez votre débit internet (minimum 15 Mbps recommandé)',
-      "Connectez votre appareil en Ethernet plutôt qu'en Wi-Fi",
-      'Dans TiviMate, augmentez la taille du tampon de lecture (Settings > Player)',
-      'Essayez une qualité de flux inférieure (HD plutôt que 4K)',
+      'Verificad vuestra velocidad de internet (mínimo 15 Mbps recomendado)',
+      'Conectad vuestro dispositivo por Ethernet en lugar de Wi-Fi',
+      'En TiviMate, aumentad el tamaño del búfer de reproducción (Settings > Player)',
+      'Probad una calidad de stream inferior (HD en lugar de 4K)',
     ],
   },
   {
-    problem: "L'EPG ne se charge pas",
+    problem: 'El EPG no se carga',
     solutions: [
-      "Vérifiez que l'URL EPG est bien renseignée dans les paramètres de l'application",
-      "Forcez une actualisation manuelle depuis les paramètres",
-      "Attendez 5 à 10 minutes après l'ajout de la playlist — le premier chargement peut prendre du temps",
-      'Contactez le support VivaceTV pour vérifier la validité de votre lien EPG',
+      'Verificad que la URL del EPG esté correctamente introducida en los ajustes de la aplicación',
+      'Forzad una actualización manual desde los ajustes',
+      'Esperad entre 5 y 10 minutos tras añadir la lista — la primera carga puede tardar',
+      'Contactad al soporte VivaceTV para verificar la validez de vuestro enlace EPG',
     ],
   },
   {
-    problem: "Erreur d'authentification",
+    problem: 'Error de autenticación',
     solutions: [
-      "Vérifiez que vous avez copié l'URL M3U ou les identifiants sans espace ni caractère supplémentaire",
-      "Vérifiez la date d'expiration de votre abonnement",
-      'Essayez depuis un autre appareil pour isoler le problème',
-      'Contactez le support VivaceTV pour réinitialiser vos accès',
+      'Verificad que hayáis copiado la URL M3U o las credenciales sin espacios ni caracteres adicionales',
+      'Comprobad la fecha de caducidad de vuestra suscripción',
+      'Probad desde otro dispositivo para aislar el problema',
+      'Contactad al soporte VivaceTV para restablecer vuestros accesos',
     ],
   },
 ];
@@ -95,9 +95,9 @@ export default function InstallationIPTVPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: 'Installation IPTV', href: '/guide-iptv/installation-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: 'Instalación IPTV', href: '/guia-iptv/installation-iptv' },
         ]}
       />
       <script
@@ -118,40 +118,40 @@ export default function InstallationIPTVPage() {
 
       <main id="main-content">
         <PageHero
-          label="GUIDE D'INSTALLATION"
-          title="Comment Installer"
-          titleHighlight="l'IPTV"
-          subtitle="Guide étape par étape pour installer et configurer votre IPTV sur tous vos appareils — Android TV, Firestick, Smart TV, PC et Mac. Configuration en moins de 10 minutes."
+          label="GUÍA DE INSTALACIÓN"
+          title="Cómo Instalar"
+          titleHighlight="el IPTV"
+          subtitle="Guía paso a paso para instalar y configurar vuestro IPTV en todos vuestros dispositivos — Android TV, Firestick, Smart TV, PC y Mac. Configuración en menos de 10 minutos."
         />
 
-        {/* Section 1 — Prérequis */}
+        {/* Section 1 — Requisitos previos */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Ce Dont Vous Avez Besoin Avant de Commencer
+              Lo que Necesitáis Antes de Empezar
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Avant de passer à l'installation, assurez-vous de disposer des trois éléments suivants :
+              Antes de pasar a la instalación, aseguraos de disponer de estos tres elementos:
             </p>
             <div className="grid sm:grid-cols-3 gap-4 mb-6">
               {[
                 {
                   num: '1',
-                  title: 'Un abonnement VivaceTV actif',
-                  desc: "Souscrivez à l'une de nos formules (Bronze, Silver, Gold ou Diamond) et recevez vos identifiants en moins de 30 minutes.",
+                  title: 'Una suscripción VivaceTV activa',
+                  desc: "Suscribíos a uno de nuestros planes (Bronze, Silver, Gold o Diamond) y recibiréis vuestras credenciales en menos de 30 minutos.",
                 },
                 {
                   num: '2',
-                  title: 'Une application IPTV compatible',
-                  desc: 'TiviMate, IPTV Smarters Pro, Perfect Player ou GSE Smart IPTV selon votre appareil. La plupart sont gratuites ou très peu coûteuses.',
+                  title: 'Una aplicación IPTV compatible',
+                  desc: 'TiviMate, IPTV Smarters Pro, Perfect Player o GSE Smart IPTV según vuestro dispositivo. La mayoría son gratuitas o muy económicas.',
                 },
                 {
                   num: '3',
-                  title: 'Une connexion internet stable',
-                  desc: 'Minimum 10 Mbps pour la HD, 25 Mbps pour la 4K. Une connexion Ethernet est préférable au Wi-Fi pour plus de stabilité.',
+                  title: 'Una conexión a internet estable',
+                  desc: 'Mínimo 10 Mbps para HD, 25 Mbps para 4K. Una conexión Ethernet es preferible al Wi-Fi para mayor estabilidad.',
                 },
               ].map((item) => (
                 <div
@@ -182,11 +182,11 @@ export default function InstallationIPTVPage() {
               ))}
             </div>
             <Link
-              href="/abonnements"
+              href="/comprar-iptv"
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
             >
-              Obtenir mon abonnement VivaceTV →
+              Obtener mi suscripción VivaceTV →
             </Link>
           </div>
         </section>
@@ -198,34 +198,33 @@ export default function InstallationIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Installation IPTV sur Android TV / Box Android
+              Instalación IPTV en Android TV / Caja Android
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Android TV et les boîtiers Android (Xiaomi Mi Box, Nvidia Shield, etc.) offrent la
-              meilleure expérience IPTV grâce à TiviMate, l'application IPTV la plus aboutie du
-              marché.
+              Android TV y las cajas Android (Xiaomi Mi Box, Nvidia Shield, etc.) ofrecen la mejor
+              experiencia IPTV gracias a TiviMate, la aplicación IPTV más completa del mercado.
             </p>
             <div className="flex flex-col gap-4">
               {[
                 {
-                  step: 'Étape 1',
-                  title: 'Installer TiviMate',
-                  desc: "Ouvrez le Google Play Store sur votre Android TV. Recherchez 'TiviMate IPTV Player' et installez l'application gratuite. La version gratuite est suffisante pour commencer ; TiviMate Premium (environ 5€/an) débloque des fonctions avancées comme l'enregistrement.",
+                  step: 'Paso 1',
+                  title: 'Instalar TiviMate',
+                  desc: "Abrid el Google Play Store en vuestro Android TV. Buscad 'TiviMate IPTV Player' e instalad la aplicación gratuita. La versión gratuita es suficiente para empezar; TiviMate Premium (unos 5€/año) desbloquea funciones avanzadas como la grabación.",
                 },
                 {
-                  step: 'Étape 2',
-                  title: 'Ajouter votre playlist VivaceTV',
-                  desc: "Lancez TiviMate et sélectionnez 'Ajouter une playlist'. Choisissez 'URL M3U' et collez l'URL que vous avez reçue de VivaceTV. Si vous avez des identifiants Xtream Codes, sélectionnez 'Xtream Codes' et entrez l'URL du serveur, votre nom d'utilisateur et votre mot de passe.",
+                  step: 'Paso 2',
+                  title: 'Añadir vuestra lista VivaceTV',
+                  desc: "Lanzad TiviMate y seleccionad 'Añadir una lista'. Elegid 'URL M3U' y pegad la URL que habéis recibido de VivaceTV. Si tenéis credenciales Xtream Codes, seleccionad 'Xtream Codes' e introducid la URL del servidor, vuestro nombre de usuario y vuestra contraseña.",
                 },
                 {
-                  step: 'Étape 3',
-                  title: "Charger l'EPG",
-                  desc: "Dans les paramètres de TiviMate, activez le chargement automatique de l'EPG. L'application téléchargera automatiquement le guide des programmes. Ce premier téléchargement peut prendre 2 à 5 minutes selon la taille de l'EPG.",
+                  step: 'Paso 3',
+                  title: 'Cargar el EPG',
+                  desc: "En los ajustes de TiviMate, activad la carga automática del EPG. La aplicación descargará automáticamente la guía de programas. Esta primera descarga puede tardar entre 2 y 5 minutos según el tamaño del EPG.",
                 },
                 {
-                  step: 'Étape 4',
-                  title: 'Naviguer dans vos chaînes',
-                  desc: "Votre liste de chaînes est maintenant disponible, organisée par catégories (France, Sports, Internationales, VOD). Utilisez la télécommande pour naviguer et profiter de votre IPTV.",
+                  step: 'Paso 4',
+                  title: 'Navegar por vuestros canales',
+                  desc: "Vuestra lista de canales ya está disponible, organizada por categorías (España, Deportes, Internacionales, VOD). Usad el mando a distancia para navegar y disfrutar de vuestro IPTV.",
                 },
               ].map((item) => (
                 <div
@@ -262,34 +261,34 @@ export default function InstallationIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Installation IPTV sur Amazon Firestick / Fire TV
+              Instalación IPTV en Amazon Firestick / Fire TV
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Le Firestick est l'un des appareils les plus populaires pour l'IPTV. Bien que
-              l'application TiviMate ne soit pas disponible sur l'Amazon Appstore, IPTV Smarters Pro
-              y est disponible directement ou peut être installée via APK.
+              El Firestick es uno de los dispositivos más populares para IPTV. Aunque la aplicación
+              TiviMate no está disponible en la Amazon Appstore, IPTV Smarters Pro sí está disponible
+              directamente o puede instalarse mediante APK.
             </p>
             <div className="flex flex-col gap-4">
               {[
                 {
-                  step: 'Étape 1',
-                  title: 'Activer les sources inconnues (pour APK)',
-                  desc: "Si vous souhaitez installer TiviMate via APK : allez dans Paramètres > Mon Fire TV > Options développeur > Activer 'Applications de sources inconnues'. Cette étape est nécessaire uniquement pour les applications hors Amazon Store.",
+                  step: 'Paso 1',
+                  title: 'Activar fuentes desconocidas (para APK)',
+                  desc: "Si queréis instalar TiviMate mediante APK: id a Ajustes > Mi Fire TV > Opciones de desarrollador > Activar 'Aplicaciones de fuentes desconocidas'. Este paso solo es necesario para aplicaciones fuera de la Amazon Store.",
                 },
                 {
-                  step: 'Étape 2',
-                  title: 'Installer IPTV Smarters Pro',
-                  desc: "Depuis l'Amazon Appstore, recherchez 'IPTV Smarters Pro' et installez l'application. Elle est disponible gratuitement. Alternativement, installez l'application Downloader depuis l'Amazon Store pour télécharger TiviMate en APK.",
+                  step: 'Paso 2',
+                  title: 'Instalar IPTV Smarters Pro',
+                  desc: "Desde la Amazon Appstore, buscad 'IPTV Smarters Pro' e instalad la aplicación. Está disponible gratuitamente. Alternativamente, instalad la aplicación Downloader desde la Amazon Store para descargar TiviMate en APK.",
                 },
                 {
-                  step: 'Étape 3',
-                  title: 'Configurer avec vos identifiants VivaceTV',
-                  desc: "Dans IPTV Smarters, sélectionnez 'Login with Xtream Codes API' ou 'Add URL/M3U URL' selon le type d'identifiants reçus. Entrez vos informations VivaceTV et validez. La liste de chaînes se charge en 1 à 3 minutes.",
+                  step: 'Paso 3',
+                  title: 'Configurar con vuestras credenciales VivaceTV',
+                  desc: "En IPTV Smarters, seleccionad 'Login with Xtream Codes API' o 'Add URL/M3U URL' según el tipo de credenciales recibidas. Introducid vuestra información VivaceTV y validad. La lista de canales carga en 1 a 3 minutos.",
                 },
                 {
-                  step: 'Étape 4',
-                  title: 'Profitez de vos chaînes',
-                  desc: "Naviguez entre les onglets Live TV, Movies et Series depuis l'interface principale d'IPTV Smarters. L'EPG est chargé automatiquement si inclus dans votre URL M3U.",
+                  step: 'Paso 4',
+                  title: 'Disfrutar de vuestros canales',
+                  desc: "Navegad entre las pestañas Live TV, Movies y Series desde la interfaz principal de IPTV Smarters. El EPG se carga automáticamente si está incluido en vuestra URL M3U.",
                 },
               ].map((item) => (
                 <div
@@ -326,7 +325,7 @@ export default function InstallationIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Installation IPTV sur Smart TV Samsung et LG
+              Instalación IPTV en Smart TV Samsung y LG
             </h2>
             <div className="flex flex-col gap-6">
               <div>
@@ -337,16 +336,16 @@ export default function InstallationIPTVPage() {
                   Samsung Smart TV (Tizen OS)
                 </h3>
                 <p className="text-base leading-relaxed mb-3" style={{ color: 'var(--color-ink-light)' }}>
-                  Sur Samsung, installez <strong style={{ color: 'var(--color-ink)' }}>Smart IPTV</strong>{' '}
-                  ou <strong style={{ color: 'var(--color-ink)' }}>SSIPTV</strong> depuis le Samsung
-                  App Store (recherchez dans la section Mes Applications ou Smart Hub). Une fois
-                  installée, l'application vous demandera votre URL M3U que vous pouvez saisir
-                  directement ou configurer depuis un ordinateur via l'interface web.
+                  En Samsung, instalad <strong style={{ color: 'var(--color-ink)' }}>Smart IPTV</strong>{' '}
+                  o <strong style={{ color: 'var(--color-ink)' }}>SSIPTV</strong> desde la Samsung
+                  App Store (buscad en la sección Mis Aplicaciones o Smart Hub). Una vez instalada,
+                  la aplicación os pedirá vuestra URL M3U, que podéis introducir directamente o
+                  configurar desde un ordenador mediante la interfaz web.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Note : Smart IPTV propose une période d'essai gratuite de 7 jours, puis une licence
-                  unique d'environ 5,99€ par appareil. C'est un investissement unique qui se rentabilise
-                  rapidement.
+                  Nota: Smart IPTV ofrece un periodo de prueba gratuita de 7 días, y luego una licencia
+                  única de aproximadamente 5,99€ por dispositivo. Es una inversión única que se amortiza
+                  rápidamente.
                 </p>
               </div>
               <div>
@@ -357,16 +356,16 @@ export default function InstallationIPTVPage() {
                   LG Smart TV (webOS)
                 </h3>
                 <p className="text-base leading-relaxed mb-3" style={{ color: 'var(--color-ink-light)' }}>
-                  Sur LG webOS, l'application{' '}
-                  <strong style={{ color: 'var(--color-ink)' }}>SS IPTV</strong> est disponible
-                  directement dans le LG Content Store. Après installation, configurez votre liste M3U
-                  depuis l'interface web de l'application ou directement sur la TV. L'EPG se configure
-                  dans les paramètres de l'application.
+                  En LG webOS, la aplicación{' '}
+                  <strong style={{ color: 'var(--color-ink)' }}>SS IPTV</strong> está disponible
+                  directamente en el LG Content Store. Tras la instalación, configurad vuestra lista M3U
+                  desde la interfaz web de la aplicación o directamente en el TV. El EPG se configura
+                  en los ajustes de la aplicación.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Alternative pour LG : brancher un Firestick ou un boîtier Android TV sur le port
-                  HDMI de votre LG pour accéder à TiviMate — souvent une meilleure expérience que
-                  les applications natives.
+                  Alternativa para LG: conectar un Firestick o una caja Android TV en el puerto HDMI
+                  de vuestro LG para acceder a TiviMate — a menudo una mejor experiencia que las
+                  aplicaciones nativas.
                 </p>
               </div>
             </div>
@@ -380,39 +379,39 @@ export default function InstallationIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Installation IPTV sur PC Windows et Mac
+              Instalación IPTV en PC Windows y Mac
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur ordinateur, plusieurs solutions sont disponibles. La plus simple reste VLC Media
-              Player, un logiciel gratuit et universel capable de lire des playlists M3U directement.
+              En ordenador, hay varias soluciones disponibles. La más sencilla sigue siendo VLC Media
+              Player, un programa gratuito y universal capaz de reproducir listas M3U directamente.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur VLC : allez dans Média &gt; Ouvrir un fichier réseau, collez votre URL M3U et
-              validez. Vos chaînes apparaissent dans la liste de lecture. Pour une meilleure interface,
-              Kodi avec le plugin IPTV Simple Client ou une application web IPTV comme IPTV Smarters
-              Web offrent une expérience plus complète avec EPG et VOD.
+              En VLC: id a Medio &gt; Abrir ubicación de red, pegad vuestra URL M3U y validad. Vuestros
+              canales aparecerán en la lista de reproducción. Para una interfaz más completa, Kodi con
+              el plugin IPTV Simple Client o una aplicación web IPTV como IPTV Smarters Web ofrecen
+              una experiencia más completa con EPG y VOD.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Pour une installation détaillée sur PC et Mac, consultez notre{' '}
+              Para una instalación detallada en PC y Mac, consultad nuestra{' '}
               <Link
-                href="/guide-iptv/iptv-sur-pc"
+                href="/guia-iptv/iptv-sur-pc"
                 style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}
               >
-                guide complet IPTV sur PC
+                guía completa IPTV en PC
               </Link>
               .
             </p>
           </div>
         </section>
 
-        {/* Section 6 — Dépannage */}
+        {/* Section 6 — Resolución de problemas */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Résolution des Problèmes Courants
+              Resolución de Problemas Frecuentes
             </h2>
             <div className="flex flex-col gap-6">
               {troubleshootItems.map((item) => (
@@ -429,7 +428,7 @@ export default function InstallationIPTVPage() {
                     className="font-semibold text-base mb-3"
                     style={{ color: 'var(--color-ink)' }}
                   >
-                    Problème : {item.problem}
+                    Problema: {item.problem}
                   </h3>
                   <ul className="flex flex-col gap-2">
                     {item.solutions.map((sol, idx) => (
@@ -456,7 +455,7 @@ export default function InstallationIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Installation IPTV
+              Preguntas Frecuentes — Instalación IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -484,10 +483,10 @@ export default function InstallationIPTVPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/meilleure-application-iptv', label: 'Meilleures applications IPTV' },
-                { href: '/guide-iptv/comment-fonctionne-iptv', label: "Comment fonctionne l'IPTV" },
-                { href: '/guide-iptv/iptv-sur-pc', label: 'IPTV sur PC' },
+                { href: '/comprar-iptv', label: 'Ver los planes' },
+                { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
+                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
+                { href: '/guia-iptv/iptv-sur-pc', label: 'IPTV en PC' },
               ].map((l) => (
                 <Link
                   key={l.href}

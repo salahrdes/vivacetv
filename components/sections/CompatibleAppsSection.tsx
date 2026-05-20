@@ -15,61 +15,61 @@ type AppCard = {
 const apps: AppCard[] = [
   {
     name: 'IPTV Smarters Pro',
-    tagline: 'Le lecteur IPTV le plus populaire',
+    tagline: 'El reproductor IPTV más popular',
     platforms: ['Smart TV', 'Firestick', 'Android', 'iOS', 'Windows', 'Mac'],
-    badge: 'Recommandé',
+    badge: 'Recomendado',
     badgeColor: 'lime',
-    storeLabel: 'Disponible sur tous les stores',
+    storeLabel: 'Disponible en todas las tiendas',
     storeUrl: 'https://www.iptvsmarters.com',
     description:
-      'Application disponible sur l\'ensemble des plateformes. Supporte Xtream Codes, M3U, guide EPG, rattrapage TV et gestion multi-playlists. Interface intuitive, stabilité éprouvée.',
+      'Aplicación disponible en todas las plataformas. Admite Xtream Codes, M3U, guía EPG, TV a la carta y gestión de múltiples listas. Interfaz intuitiva y estabilidad comprobada.',
   },
   {
     name: 'TiviMate',
-    tagline: 'La référence Android & Firestick',
+    tagline: 'La referencia en Android y Firestick',
     platforms: ['Firestick', 'Android TV', 'Android Box'],
     badge: 'Premium',
     badgeColor: 'dark',
     storeLabel: 'Google Play / Amazon Store',
     storeUrl: 'https://tivimate.com',
     description:
-      'Interface télévisée élégante avec guide des programmes, enregistrement, favoris et multi-flux. Version gratuite disponible, version Premium recommandée pour une expérience optimale.',
+      'Interfaz de TV elegante con guía de programas, grabación, favoritos y múltiples flujos. Versión gratuita disponible; versión Premium recomendada para una experiencia óptima.',
   },
   {
     name: 'GSE Smart IPTV',
-    tagline: 'Idéal pour iPhone, iPad et Mac',
+    tagline: 'Ideal para iPhone, iPad y Mac',
     platforms: ['iPhone', 'iPad', 'Mac'],
-    storeLabel: 'App Store Apple',
+    storeLabel: 'App Store de Apple',
     storeUrl: 'https://apps.apple.com',
     description:
-      'Application native iOS et macOS avec support M3U et Xtream Codes, EPG intégré, interface soignée et compatibilité AirPlay pour diffuser sur votre TV depuis votre iPhone ou Mac.',
+      'Aplicación nativa para iOS y macOS con soporte M3U y Xtream Codes, EPG integrado, interfaz cuidada y compatibilidad AirPlay para emitir en tu TV desde tu iPhone o Mac.',
   },
   {
     name: 'Smart IPTV (SIPTV)',
-    tagline: 'Pour Samsung et LG Smart TV',
+    tagline: 'Para Samsung y LG Smart TV',
     platforms: ['Samsung Smart TV', 'LG Smart TV'],
     storeLabel: 'Samsung Apps / LG Store',
     storeUrl: 'https://siptv.app',
     description:
-      'Application spécialement conçue pour les Smart TV Samsung et LG. Fonctionne via adresse MAC envoyée à notre équipe pour activation. Très stable sur les TV récentes.',
+      'Aplicación diseñada específicamente para Smart TV Samsung y LG. Funciona mediante dirección MAC enviada a nuestro equipo para la activación. Muy estable en televisores recientes.',
   },
   {
     name: 'VLC Media Player',
-    tagline: 'Solution universelle PC et Mac',
+    tagline: 'Solución universal para PC y Mac',
     platforms: ['Windows', 'Mac', 'Linux'],
-    storeLabel: 'Téléchargement gratuit',
+    storeLabel: 'Descarga gratuita',
     storeUrl: 'https://www.videolan.org',
     description:
-      'Le célèbre lecteur vidéo open-source supporte les flux M3U directement. Solution 100 % gratuite pour PC et Mac. Ouvrez simplement le lien M3U fourni avec votre abonnement.',
+      'El famoso reproductor de vídeo de código abierto admite flujos M3U directamente. Solución 100% gratuita para PC y Mac. Abre simplemente el enlace M3U incluido con tu suscripción.',
   },
   {
     name: 'Perfect Player',
-    tagline: 'Alternative légère pour Android',
+    tagline: 'Alternativa ligera para Android',
     platforms: ['Android', 'Android TV'],
     storeLabel: 'Google Play Store',
     storeUrl: 'https://play.google.com',
     description:
-      'Lecteur léger et rapide pour Android avec interface style zapping, support EPG et M3U. Idéal pour les appareils moins puissants ou comme alternative à IPTV Smarters.',
+      'Reproductor ligero y rápido para Android con interfaz estilo zapping, soporte EPG y M3U. Ideal para dispositivos menos potentes o como alternativa a IPTV Smarters.',
   },
 ];
 
@@ -88,9 +88,9 @@ export default function CompatibleAppsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <SectionHeader
-          label="Applications compatibles"
-          title="Choisissez l'application adaptée à votre appareil"
-          description="VivaceTV fonctionne avec les lecteurs IPTV les plus populaires du marché. Voici les applications que nous recommandons selon votre appareil."
+          label="Aplicaciones compatibles"
+          title="Elige la aplicación adecuada para tu dispositivo"
+          description="VivaceTV funciona con los reproductores IPTV más populares del mercado. Aquí están las aplicaciones que recomendamos según tu dispositivo."
           className="mb-14"
         />
 
@@ -177,8 +177,8 @@ export default function CompatibleAppsSection() {
           className="mt-10 text-center text-sm max-w-2xl mx-auto leading-relaxed"
           style={{ color: 'var(--color-gray-600)' }}
         >
-          Vous ne savez pas quelle application choisir ? Notre équipe vous guide via WhatsApp selon
-          votre appareil et votre forfait — c'est inclus dans votre abonnement VivaceTV.
+          ¿No sabes qué aplicación elegir? Nuestro equipo te orienta por WhatsApp según
+          tu dispositivo y tu plan — está incluido en tu suscripción VivaceTV.
         </p>
       </div>
     </section>

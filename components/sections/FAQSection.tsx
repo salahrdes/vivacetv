@@ -82,7 +82,7 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           label="FAQ"
-          title="Questions fréquentes sur IPTV France et VivaceTV"
+          title="Preguntas frecuentes sobre IPTV España y VivaceTV"
           className="mb-12"
         />
 

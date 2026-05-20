@@ -16,9 +16,9 @@ export default function BlogPreviewSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-14">
           <SectionHeader
-            label="Guides & ressources"
-            title="Guides IPTV pour bien démarrer"
-            description="Retrouvez nos conseils pour installer, configurer et optimiser votre abonnement IPTV sur vos appareils."
+            label="Guías y recursos"
+            title="Guías IPTV para empezar bien"
+            description="Encuentra nuestros consejos para instalar, configurar y optimizar tu suscripción IPTV en tus dispositivos."
             align="left"
             className="flex-1"
           />
@@ -27,7 +27,7 @@ export default function BlogPreviewSection() {
             className="shrink-0 flex items-center gap-2 text-sm font-semibold transition-colors duration-150 hover:opacity-70"
             style={{ color: 'var(--color-ink)' }}
           >
-            Voir tous les guides
+            Ver todas las guías
             <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
@@ -91,9 +91,9 @@ export default function BlogPreviewSection() {
                   href={`/blog/${post.slug}`}
                   className="flex items-center gap-1.5 text-sm font-semibold mt-auto transition-opacity hover:opacity-70"
                   style={{ color: 'var(--color-ink)' }}
-                  aria-label={`Lire : ${post.title}`}
+                  aria-label={`Leer: ${post.title}`}
                 >
-                  Lire la suite
+                  Leer más
                   <ArrowRight size={14} aria-hidden="true" />
                 </Link>
               </div>

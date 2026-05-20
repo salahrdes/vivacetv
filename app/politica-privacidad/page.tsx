@@ -3,86 +3,86 @@ import { siteConfig } from '@/config/site';
 import LegalPageLayout from '@/components/layout/LegalPageLayout';
 
 export const metadata: Metadata = {
-  title: 'Politique de confidentialité | VivaceTV',
-  description: 'Politique de confidentialité de VivaceTV — collecte, utilisation et protection de vos données personnelles.',
-  alternates: { canonical: `${siteConfig.url}/politique-confidentialite` },
+  title: 'Política de privacidad | VivaceTV',
+  description: 'Política de privacidad de VivaceTV — recopilación, uso y protección de tus datos personales.',
+  alternates: { canonical: `${siteConfig.url}/politica-privacidad` },
   robots: { index: true, follow: true },
 };
 
-export default function PolitiqueConfidentialitePage() {
+export default function PoliticaPrivacidadPage() {
   return (
     <LegalPageLayout
-      label="Légal"
-      title="Politique de confidentialité"
-      subtitle="Comment VivaceTV collecte, utilise et protège vos données personnelles conformément au RGPD."
-      updatedAt="1er avril 2026"
+      label="Legal"
+      title="Política de privacidad"
+      subtitle="Cómo VivaceTV recopila, utiliza y protege tus datos personales conforme al RGPD."
+      updatedAt="1 de abril de 2026"
       sections={[
         {
-          heading: 'Engagement de confidentialité',
+          heading: 'Compromiso de privacidad',
           paragraphs: [
-            "La protection de vos données personnelles est une priorité pour VivaceTV. Nous collectons uniquement les informations strictement nécessaires à la fourniture de notre service IPTV, et nous ne les partageons jamais à des fins commerciales. La présente politique explique quelles données nous traitons, dans quel but, et comment vous pouvez exercer vos droits conformément au Règlement Général sur la Protection des Données (RGPD).",
+            'La protección de tus datos personales es una prioridad para VivaceTV. Solo recopilamos la información estrictamente necesaria para prestar nuestro servicio IPTV y nunca la compartimos con fines comerciales. Esta política explica qué datos tratamos, con qué propósito y cómo puedes ejercer tus derechos conforme al Reglamento General de Protección de Datos (RGPD).',
           ],
         },
         {
-          heading: 'Données collectées',
+          heading: 'Datos recopilados',
           paragraphs: [
-            "VivaceTV collecte uniquement les données strictement nécessaires à la fourniture de son service. Ces données peuvent inclure : nom ou prénom, adresse email, numéro de téléphone WhatsApp, type d'appareil utilisé.",
-            "Nous ne collectons pas de données bancaires, de numéro de sécurité sociale ni de données sensibles au sens du RGPD.",
+            'VivaceTV recopila únicamente los datos estrictamente necesarios para la prestación de su servicio. Estos datos pueden incluir: nombre o apellido, dirección de correo electrónico, número de teléfono de WhatsApp, tipo de dispositivo utilizado.',
+            'No recopilamos datos bancarios, número de seguridad social ni datos sensibles en el sentido del RGPD.',
           ],
         },
         {
-          heading: 'Utilisation des données',
+          heading: 'Uso de los datos',
           paragraphs: [
-            "Les données collectées sont utilisées exclusivement pour : traiter et confirmer votre commande, fournir et activer votre accès au service, vous contacter pour le support technique, améliorer la qualité de notre service.",
-            "Nous n'utilisons pas vos données à des fins de marketing non sollicité ni ne les vendons à des tiers.",
+            'Los datos recopilados se utilizan exclusivamente para: procesar y confirmar tu pedido, proveer y activar tu acceso al servicio, contactarte para el soporte técnico, mejorar la calidad de nuestro servicio.',
+            'No utilizamos tus datos para marketing no solicitado ni los vendemos a terceros.',
           ],
         },
         {
-          heading: 'Formulaires de contact et de commande',
+          heading: 'Formularios de contacto y pedido',
           paragraphs: [
-            "Les informations saisies dans les formulaires du site (contact, test gratuit) sont utilisées uniquement pour répondre à votre demande.",
-            "Ces informations ne sont pas conservées au-delà de la durée nécessaire au traitement de votre demande, sauf consentement explicite de votre part.",
+            'La información introducida en los formularios del sitio (contacto, prueba gratis) se utiliza únicamente para responder a tu solicitud.',
+            'Esta información no se conserva más allá del tiempo necesario para el tratamiento de tu solicitud, salvo consentimiento expreso de tu parte.',
           ],
         },
         {
           heading: 'Cookies',
           paragraphs: [
-            "Notre site peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Ces cookies ne collectent pas d'informations personnelles identifiables.",
-            "Aucun cookie publicitaire ou de traçage tiers n'est utilisé sans votre consentement.",
+            'Nuestro sitio puede utilizar cookies técnicas necesarias para su correcto funcionamiento. Estas cookies no recopilan información personal identificable.',
+            'No se utiliza ninguna cookie publicitaria ni de rastreo de terceros sin tu consentimiento.',
           ],
         },
         {
-          heading: 'Conservation des données',
+          heading: 'Conservación de los datos',
           paragraphs: [
-            "Vos données sont conservées pendant la durée de votre abonnement et jusqu'à 12 mois après l'expiration de celui-ci, sauf demande de suppression de votre part.",
-            "À l'expiration de cette période, vos données sont supprimées ou anonymisées.",
+            'Tus datos se conservan durante la vigencia de tu suscripción y hasta 12 meses después de su expiración, salvo solicitud de eliminación por tu parte.',
+            'Transcurrido ese plazo, tus datos son eliminados o anonimizados.',
           ],
         },
         {
-          heading: 'Partage des données',
+          heading: 'Compartición de datos',
           paragraphs: [
-            "VivaceTV ne partage vos données personnelles avec aucun tiers à des fins commerciales.",
-            "Vos données peuvent être partagées avec des sous-traitants techniques (hébergement, sécurité) dans le strict respect des obligations RGPD, par le biais de contrats de traitement.",
+            'VivaceTV no comparte tus datos personales con ningún tercero con fines comerciales.',
+            'Tus datos pueden compartirse con subcontratistas técnicos (alojamiento, seguridad) en estricto cumplimiento de las obligaciones del RGPD, mediante contratos de tratamiento de datos.',
           ],
         },
         {
-          heading: 'Sécurité',
+          heading: 'Seguridad',
           paragraphs: [
-            "VivaceTV met en place des mesures techniques et organisationnelles adaptées pour protéger vos données contre tout accès non autorisé, perte, destruction ou divulgation.",
+            'VivaceTV implementa medidas técnicas y organizativas adecuadas para proteger tus datos contra cualquier acceso no autorizado, pérdida, destrucción o divulgación.',
           ],
         },
         {
-          heading: 'Droits des utilisateurs',
+          heading: 'Derechos de los usuarios',
           paragraphs: [
-            "Conformément au RGPD, vous disposez des droits suivants concernant vos données personnelles : droit d'accès, droit de rectification, droit à l'effacement, droit à la portabilité, droit d'opposition.",
-            "Pour exercer ces droits, contactez-nous à support@vivacetv.com. Nous répondrons dans un délai de 30 jours.",
+            'Conforme al RGPD, dispones de los siguientes derechos sobre tus datos personales: derecho de acceso, derecho de rectificación, derecho de supresión, derecho a la portabilidad, derecho de oposición.',
+            'Para ejercer estos derechos, contáctanos en support@vivacetv.com. Responderemos en un plazo de 30 días.',
           ],
         },
         {
-          heading: 'Contact',
+          heading: 'Contacto',
           paragraphs: [
-            "Pour toute question relative à la présente politique de confidentialité ou à l'exercice de vos droits : support@vivacetv.com",
-            "Vous avez également le droit d'introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).",
+            'Para cualquier pregunta relativa a esta política de privacidad o al ejercicio de tus derechos: support@vivacetv.com',
+            'También tienes derecho a presentar una reclamación ante la AEPD (Agencia Española de Protección de Datos).',
           ],
         },
       ]}

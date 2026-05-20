@@ -3,20 +3,20 @@ import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 
 const trustBadges = [
-  'Activation rapide',
-  'Support 24/7',
-  'Compatible tous appareils',
-  'Qualité HD & 4K',
-  'Sans engagement',
+  'Activación rápida',
+  'Soporte 24/7',
+  'Compatible con todos los dispositivos',
+  'Calidad HD y 4K',
+  'Sin permanencia',
 ];
 
 const contentTiles = [
-  { label: 'Sport',          color: '#C7E36B', textColor: '#1C1A17' },
-  { label: 'Films',          color: '#2A2620', textColor: '#F5F5F1' },
-  { label: 'Séries',         color: '#1E160F', textColor: '#DCE7B7' },
-  { label: 'Documentaires',  color: '#3D382F', textColor: '#F5F5F1' },
-  { label: 'Enfants',        color: '#DCE7B7', textColor: '#1E160F' },
-  { label: 'Divertissement', color: '#5E5E53', textColor: '#F5F5F1' },
+  { label: 'Deporte',          color: '#C7E36B', textColor: '#1C1A17' },
+  { label: 'Películas',        color: '#2A2620', textColor: '#F5F5F1' },
+  { label: 'Series',           color: '#1E160F', textColor: '#DCE7B7' },
+  { label: 'Documentales',     color: '#3D382F', textColor: '#F5F5F1' },
+  { label: 'Infantil',         color: '#DCE7B7', textColor: '#1E160F' },
+  { label: 'Entretenimiento',  color: '#5E5E53', textColor: '#F5F5F1' },
 ];
 
 export default function HeroSection() {
@@ -24,7 +24,7 @@ export default function HeroSection() {
     <section
       className="relative overflow-hidden"
       style={{ backgroundColor: 'var(--color-surface)' }}
-      aria-label="Présentation VivaceTV"
+      aria-label="Presentación VivaceTV"
     >
       {/* Subtle background grain pattern */}
       <div
@@ -49,31 +49,31 @@ export default function HeroSection() {
                   style={{ backgroundColor: 'var(--color-lime)' }}
                   aria-hidden="true"
                 />
-                IPTV France Premium
+                IPTV España Premium
               </Badge>
             </div>
 
             {/* H1 */}
             <h1 className="font-display font-extrabold leading-[1.1] tracking-tight text-4xl sm:text-5xl lg:text-5xl xl:text-6xl text-ink">
-              IPTV France : abonnement premium{' '}
+              IPTV España: suscripción premium{' '}
               <span style={{ color: 'var(--color-lime)' }}>HD, 4K</span>{' '}
-              et multi-appareils
+              y multidispositivo
             </h1>
 
             {/* Description */}
             <p className="text-lg text-ink-light leading-relaxed max-w-xl">
-              VivaceTV vous propose une expérience IPTV fluide et moderne en France, avec une
-              qualité HD/4K, une activation rapide, une assistance 24/7 et une compatibilité
-              avec Smart TV, Android, iOS, PC, Box TV, Roku, Fire TV et Apple TV.
+              VivaceTV te ofrece una experiencia IPTV fluida y moderna en España, con calidad
+              HD/4K, activación rápida, asistencia 24/7 y compatibilidad con Smart TV, Android,
+              iOS, PC, Box TV, Roku, Fire TV y Apple TV.
             </p>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Button href="/test-gratuit" size="lg" variant="primary">
-                Démarrer un test gratuit 24h
+                Iniciar prueba gratis 24h
               </Button>
               <Button href="#abonnements" size="lg" variant="secondary">
-                Voir les abonnements
+                Ver suscripciones
               </Button>
             </div>
 
@@ -112,7 +112,7 @@ export default function HeroSection() {
                   aspectRatio: '16/10',
                 }}
                 role="img"
-                aria-label="Abonnement IPTV France sur Smart TV et appareils compatibles"
+                aria-label="Suscripción IPTV España en Smart TV y dispositivos compatibles"
               >
                 {/* Top bar (faux title bar) */}
                 <div
@@ -222,7 +222,7 @@ export default function HeroSection() {
                 }}
                 aria-hidden="true"
               >
-                <div className="font-bold text-sm" style={{ color: 'var(--color-ink)' }}>Support 24/7</div>
+                <div className="font-bold text-sm" style={{ color: 'var(--color-ink)' }}>Soporte 24/7</div>
                 <div style={{ color: 'var(--color-gray-400)' }}>WhatsApp</div>
               </div>
 

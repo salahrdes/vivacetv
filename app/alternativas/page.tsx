@@ -10,23 +10,23 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Alternatives IPTV France 2026 — Comparatif des Meilleurs Services | VivaceTV',
+  title: 'Alternativas IPTV España 2026 — Comparativa de los Mejores Servicios | VivaceTV',
   description:
-    'Comparez VivaceTV aux principales alternatives IPTV : Xenon, King, Atlas, Smarter One, IPTV AZ, AtlasPro, IPTV Hottest, Televizo. Trouvez le meilleur service.',
+    'Compara VivaceTV con las principales alternativas IPTV: Xenon, King, Atlas, Smarter One, IPTV AZ, AtlasPro, IPTV Hottest, Televizo. Encuentra el mejor servicio IPTV en España.',
   keywords: [
-    'alternatives iptv france',
-    'comparatif iptv 2025',
-    'meilleur iptv france',
-    'xenon iptv alternative',
-    'king iptv alternative',
-    'atlas iptv alternative',
+    'alternativas iptv españa',
+    'comparativa iptv 2026',
+    'mejor iptv españa',
+    'xenon iptv alternativa',
+    'king iptv alternativa',
+    'atlas iptv alternativa',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives` },
+  alternates: { canonical: `${siteConfig.url}/alternativas` },
   openGraph: {
-    title: 'Alternatives IPTV France 2026 — Comparatif des Meilleurs Services | VivaceTV',
+    title: 'Alternativas IPTV España 2026 — Comparativa de los Mejores Servicios | VivaceTV',
     description:
-      'Comparez VivaceTV aux principales alternatives IPTV disponibles en France. Trouvez le service le mieux adapté à vos besoins.',
-    url: `${siteConfig.url}/alternatives`,
+      'Compara VivaceTV con las principales alternativas IPTV disponibles en España. Encuentra el servicio mejor adaptado a tus necesidades.',
+    url: `${siteConfig.url}/alternativas`,
     type: 'website',
   },
 };
@@ -35,75 +35,75 @@ const competitors = [
   {
     name: 'Xenon IPTV',
     slug: 'xenon-iptv',
-    description: 'Service populaire en France avec un large catalogue de chaînes internationales.',
-    tag: '1 900 recherches/mois',
+    description: 'Servicio popular con un amplio catálogo de canales internacionales, presente en el mercado español.',
+    tag: '1 900 búsquedas/mes',
   },
   {
     name: 'King IPTV',
     slug: 'king-iptv',
-    description: 'Fournisseur connu pour son important volume de chaînes disponibles.',
-    tag: '1 300 recherches/mois',
+    description: 'Proveedor conocido por su importante volumen de canales disponibles.',
+    tag: '1 300 búsquedas/mes',
   },
   {
     name: 'IPTV Atlas',
     slug: 'iptv-atlas',
-    description: 'Service orienté contenu arabe et international, présent sur le marché français.',
-    tag: '1 300 recherches/mois',
+    description: 'Servicio orientado al contenido árabe e internacional, presente en el mercado español.',
+    tag: '1 300 búsquedas/mes',
   },
   {
     name: 'Smarter One IPTV',
     slug: 'smarter-one-iptv',
-    description: 'Offre internationale multi-langues avec diverses options de contenus.',
-    tag: '1 300 recherches/mois',
+    description: 'Oferta internacional multilingüe con diversas opciones de contenido.',
+    tag: '1 300 búsquedas/mes',
   },
   {
     name: 'IPTV AZ',
     slug: 'iptv-az',
-    description: 'Service disponible en France à prix variable, compatible avec plusieurs appareils.',
-    tag: '1 300 recherches/mois',
+    description: 'Servicio disponible en España a precio variable, compatible con varios dispositivos.',
+    tag: '1 300 búsquedas/mes',
   },
   {
     name: 'AtlasPro IPTV',
     slug: 'atlaspro-iptv',
-    description: 'Fournisseur spécialisé dans le contenu arabe premium et les chaînes MENA.',
-    tag: '480 recherches/mois',
+    description: 'Proveedor especializado en contenido árabe premium y canales MENA.',
+    tag: '480 búsquedas/mes',
   },
   {
     name: 'IPTV Hottest',
     slug: 'iptv-hottest',
-    description: 'Service IPTV disponible sur le marché français, peu connu des consommateurs.',
-    tag: '880 recherches/mois',
+    description: 'Servicio IPTV disponible en el mercado español, poco conocido entre los consumidores.',
+    tag: '880 búsquedas/mes',
   },
   {
     name: 'Televizo',
     slug: 'televizo',
-    description: 'Application lecteur IPTV pour Android — nécessite un abonnement séparé.',
-    tag: '390 recherches/mois',
+    description: 'Aplicación reproductora IPTV para Android — requiere una suscripción separada.',
+    tag: '390 búsquedas/mes',
   },
 ];
 
 const whyVivaceTV = [
-  'Plus de 22 000 chaînes françaises et internationales constamment mises à jour',
-  'Qualité vidéo HD, 4K et 8K — la meilleure du marché IPTV France',
-  'Essai gratuit 24h sur simple demande via WhatsApp — sans engagement',
-  'Support client WhatsApp 24/7 en français, réponse en moins de 15 minutes',
+  'Más de 22 000 canales españoles e internacionales constantemente actualizados',
+  'Calidad de vídeo HD, 4K y 8K — la mejor del mercado IPTV España',
+  'Prueba gratuita 24h bajo simple solicitud por WhatsApp — sin compromiso',
+  'Soporte al cliente WhatsApp 24/7 en español, respuesta en menos de 15 minutos',
 ];
 
 const faqItems = [
   {
-    question: 'Quelle est la meilleure alternative IPTV en France en 2025 ?',
+    question: '¿Cuál es la mejor alternativa IPTV en España en 2026?',
     answer:
-      "VivaceTV est considéré comme la meilleure alternative aux autres services IPTV en France. Il propose un catalogue de +22 000 chaînes, une qualité jusqu'au 8K, la technologie AntiFreeze 10.0 pour une diffusion sans coupure, et un support WhatsApp 24/7 réactif. Son essai gratuit 24h permet de tester avant de s'engager.",
+      'VivaceTV es considerado la mejor alternativa a otros servicios IPTV en España. Ofrece un catálogo de +22 000 canales, calidad hasta 8K, la tecnología AntiFreeze 10.0 para una emisión sin cortes, y un soporte WhatsApp 24/7 reactivo. Su prueba gratuita de 24h permite probar antes de comprometerse.',
   },
   {
-    question: 'Comment choisir entre les différents services IPTV disponibles en France ?',
+    question: '¿Cómo elegir entre los diferentes servicios IPTV disponibles en España?',
     answer:
-      "Pour choisir votre service IPTV, évaluez ces cinq critères : la stabilité du serveur (anti-freeze, uptime), le nombre et la variété des chaînes, la qualité vidéo proposée (HD, 4K, 8K), la réactivité du support client, et le rapport qualité/prix sur 12 mois. La disponibilité d'un essai gratuit est un bon indicateur de confiance du fournisseur.",
+      'Para elegir tu servicio IPTV, evalúa estos cinco criterios: la estabilidad del servidor (anti-freeze, uptime), el número y la variedad de canales, la calidad de vídeo ofrecida (HD, 4K, 8K), la reactividad del soporte al cliente, y la relación calidad/precio a 12 meses. La disponibilidad de una prueba gratuita es una buena señal de confianza del proveedor.',
   },
   {
-    question: 'Les alternatives IPTV sont-elles aussi bonnes que VivaceTV ?',
+    question: '¿Las alternativas IPTV son tan buenas como VivaceTV?',
     answer:
-      "Selon les retours utilisateurs, la plupart des alternatives IPTV présentent des lacunes par rapport à VivaceTV : catalogue plus limité, stabilité variable, absence d'essai gratuit ou support client peu réactif. VivaceTV se distingue notamment par sa technologie AntiFreeze 10.0 et son support WhatsApp francophone disponible 24h/24.",
+      'Según los comentarios de usuarios, la mayoría de las alternativas IPTV presentan carencias frente a VivaceTV: catálogo más limitado, estabilidad variable, ausencia de prueba gratuita o soporte al cliente poco reactivo. VivaceTV se distingue especialmente por su tecnología AntiFreeze 10.0 y su soporte WhatsApp en español disponible 24h/24.',
   },
 ];
 
@@ -126,47 +126,47 @@ export default function AlternativesPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="COMPARATIF IPTV"
-          title="Alternatives IPTV France —"
-          titleHighlight="Comparatif 2025"
-          subtitle="Vous cherchez la meilleure alternative IPTV en France ? Comparez VivaceTV aux principaux services disponibles et faites le bon choix."
+          label="COMPARATIVA IPTV"
+          title="Alternativas IPTV España —"
+          titleHighlight="Comparativa 2026"
+          subtitle="¿Buscas la mejor alternativa IPTV en España? Compara VivaceTV con los principales servicios disponibles y toma la mejor decisión."
         />
 
         {/* Intro + Grid */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le marché de l&apos;IPTV en France est animé par de nombreux fournisseurs, chacun avec ses
-              forces et ses faiblesses. Xenon IPTV, King IPTV, IPTV Atlas, Smarter One, IPTV AZ,
-              AtlasPro, IPTV Hottest et Televizo sont parmi les services les plus recherchés par les
-              utilisateurs français. Mais lequel offre réellement la meilleure expérience ?
+              El mercado IPTV en España está animado por numerosos proveedores, cada uno con sus
+              fortalezas y debilidades. Xenon IPTV, King IPTV, IPTV Atlas, Smarter One, IPTV AZ,
+              AtlasPro, IPTV Hottest y Televizo están entre los servicios más buscados por los
+              usuarios españoles. Pero, ¿cuál ofrece realmente la mejor experiencia?
             </p>
             <p className="text-base leading-relaxed mb-12" style={{ color: 'var(--color-ink-light)' }}>
-              Nous avons comparé chaque service à VivaceTV sur les critères qui comptent vraiment :
-              stabilité, qualité vidéo, catalogue, support client et rapport qualité/prix. Sélectionnez
-              un service ci-dessous pour accéder à notre comparatif détaillé.
+              Hemos comparado cada servicio con VivaceTV en los criterios que realmente importan:
+              estabilidad, calidad de vídeo, catálogo, soporte al cliente y relación calidad/precio.
+              Selecciona un servicio a continuación para acceder a nuestra comparativa detallada.
             </p>
 
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comparatif par Service IPTV
+              Comparativa por Servicio IPTV
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {competitors.map((comp) => (
                 <Link
                   key={comp.slug}
-                  href={`/alternatives/${comp.slug}`}
+                  href={`/alternativas/${comp.slug}`}
                   style={{
                     backgroundColor: 'var(--color-card)',
                     border: '1px solid var(--color-border)',
@@ -203,7 +203,7 @@ export default function AlternativesPage() {
                     className="inline-flex items-center gap-1 text-sm font-semibold"
                     style={{ color: 'var(--color-lime)' }}
                   >
-                    Voir la comparaison <ChevronRight size={14} />
+                    Ver la comparativa <ChevronRight size={14} />
                   </span>
                 </Link>
               ))}
@@ -211,18 +211,18 @@ export default function AlternativesPage() {
           </div>
         </section>
 
-        {/* Pourquoi VivaceTV */}
+        {/* Por qué VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi VivaceTV est la Meilleure Alternative IPTV ?
+              ¿Por qué VivaceTV es la Mejor Alternativa IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Après avoir comparé l&apos;ensemble des services disponibles sur le marché français, VivaceTV
-              se distingue sur tous les critères essentiels. Voici ce qui fait la différence :
+              Después de comparar todos los servicios disponibles en el mercado español, VivaceTV
+              se destaca en todos los criterios esenciales. Esto es lo que marca la diferencia:
             </p>
             <ul className="flex flex-col gap-4 mb-8">
               {whyVivaceTV.map((point, i) => (
@@ -239,14 +239,14 @@ export default function AlternativesPage() {
             </ul>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Voir les abonnements VivaceTV →
+                Ver las suscripciones VivaceTV →
               </Link>
               <Link
-                href="/meilleur-iptv"
+                href="/mejor-iptv-espana"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   backgroundColor: 'var(--color-card)',
@@ -254,7 +254,7 @@ export default function AlternativesPage() {
                   border: '1px solid var(--color-border)',
                 }}
               >
-                Comparatif complet 2025 →
+                Comparativa completa 2026 →
               </Link>
             </div>
           </div>
@@ -267,7 +267,7 @@ export default function AlternativesPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Alternatives IPTV France
+              Preguntas Frecuentes — Alternativas IPTV España
             </h2>
             <div className="flex flex-col gap-4">
               {faqItems.map((item) => (

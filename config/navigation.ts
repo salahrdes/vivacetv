@@ -4,9 +4,9 @@ export type NavLink = {
 };
 
 export const navLinks: NavLink[] = [
-  { label: 'Accueil',      href: '/' },
-  { label: 'Abonnements',  href: '/abonnements' },
-  { label: 'Guide IPTV',   href: '/guide-iptv' },
-  { label: 'Blog',         href: '/blog' },
-  { label: 'Contact',      href: '/contact' },
+  { label: 'Inicio',        href: '/' },
+  { label: 'Comprar IPTV',  href: '/comprar-iptv' },
+  { label: 'Guía IPTV',    href: '/guia-iptv' },
+  { label: 'Blog',          href: '/blog' },
+  { label: 'Contacto',      href: '/contact' },
 ];

@@ -9,91 +9,91 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: "Comment Fonctionne l'IPTV ? Explication Simple et Complète | VivaceTV",
+  title: '¿Cómo Funciona el IPTV? Explicación Simple y Completa | VivaceTV',
   description:
-    "Comment fonctionne l'IPTV ? Comprendre l'IPTV en 5 minutes : protocoles, M3U, EPG, VOD, équipement nécessaire et connexion requise. Guide complet pour débutants.",
+    '¿Cómo funciona el IPTV? Entender el IPTV en 5 minutos: protocolos, M3U, EPG, VOD, equipo necesario y conexión requerida. Guía completa para principiantes.',
   keywords: [
-    'comment fonctionne iptv',
-    'iptv comment ca marche',
-    'iptv explication',
+    'cómo funciona iptv',
+    'iptv cómo funciona',
+    'iptv explicación',
     'iptv m3u playlist',
     'iptv epg',
     'iptv vod',
-    'iptv debutant',
+    'iptv principiantes',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/comment-fonctionne-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/comment-fonctionne-iptv` },
   openGraph: {
-    title: "Comment Fonctionne l'IPTV ? Explication Simple et Complète | VivaceTV",
+    title: '¿Cómo Funciona el IPTV? Explicación Simple y Completa | VivaceTV',
     description:
-      "Tout comprendre sur le fonctionnement de l'IPTV : technologie, équipement, connexion et premiers pas avec VivaceTV.",
-    url: `${siteConfig.url}/guide-iptv/comment-fonctionne-iptv`,
+      'Todo sobre el funcionamiento del IPTV: tecnología, equipo, conexión y primeros pasos con VivaceTV.',
+    url: `${siteConfig.url}/guia-iptv/comment-fonctionne-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "Ai-je besoin d'un équipement spécial pour utiliser l'IPTV ?",
+    question: '¿Necesito un equipo especial para usar IPTV?',
     answer:
-      "Non, il n'est pas nécessaire d'acheter du matériel spécifique. L'IPTV fonctionne sur des appareils que vous possédez probablement déjà : Smart TV Samsung ou LG, téléphone Android ou iPhone, tablette, ordinateur Windows ou Mac, ou encore un boîtier Amazon Firestick. Une application IPTV (comme TiviMate ou IPTV Smarters) suffit pour démarrer.",
+      'No, no es necesario comprar hardware específico. El IPTV funciona en dispositivos que probablemente ya tenéis: Smart TV Samsung o LG, teléfono Android o iPhone, tableta, ordenador Windows o Mac, o incluso un dispositivo Amazon Firestick. Una aplicación IPTV (como TiviMate o IPTV Smarters) es suficiente para empezar.',
   },
   {
-    question: "Quelle vitesse internet faut-il pour l'IPTV ?",
+    question: '¿Qué velocidad de internet se necesita para IPTV?',
     answer:
-      "Pour une expérience optimale en HD, une connexion de 10 Mbps est suffisante. Pour la 4K, prévoyez au minimum 25 Mbps. VivaceTV est optimisé pour fonctionner correctement dès 15 Mbps pour la majorité des chaînes HD. La stabilité de la connexion est aussi importante que la vitesse brute.",
+      'Para una experiencia óptima en HD, una conexión de 10 Mbps es suficiente. Para 4K, preved al menos 25 Mbps. VivaceTV está optimizado para funcionar correctamente desde 15 Mbps para la mayoría de canales HD. La estabilidad de la conexión es tan importante como la velocidad bruta.',
   },
   {
-    question: "Quelle est la différence entre l'IPTV et Netflix ?",
+    question: '¿Cuál es la diferencia entre IPTV y Netflix?',
     answer:
-      "Netflix est une plateforme de streaming à la demande avec un catalogue de films et séries. L'IPTV propose en plus des chaînes en direct (comme la télévision traditionnelle), y compris les chaînes d'information, sportives et divertissement en temps réel. Un bon service IPTV combine chaînes live, replay et VOD, offrant ainsi bien plus qu'un service de SVOD classique.",
+      'Netflix es una plataforma de streaming bajo demanda con un catálogo de películas y series. El IPTV ofrece además canales en directo (como la televisión tradicional), incluyendo canales de información, deportivos y entretenimiento en tiempo real. Un buen servicio IPTV combina canales en directo, replay y VOD, ofreciendo así mucho más que un servicio de SVOD clásico.',
   },
   {
-    question: "Qu'est-ce qu'une playlist M3U en IPTV ?",
+    question: '¿Qué es una playlist M3U en IPTV?',
     answer:
-      "Une playlist M3U est un fichier texte qui contient les adresses URL de tous les flux de chaînes auxquels vous avez accès. Lorsque vous souscrivez à un abonnement IPTV comme VivaceTV, vous recevez une URL M3U ou des identifiants Xtream Codes à configurer dans votre application IPTV préférée. Ce fichier est automatiquement mis à jour pour refléter l'état actuel des chaînes disponibles.",
+      'Una playlist M3U es un archivo de texto que contiene las URLs de todos los flujos de canales a los que tenéis acceso. Cuando os suscribís a una suscripción IPTV como VivaceTV, recibís una URL M3U o identificadores Xtream Codes para configurar en vuestra aplicación IPTV preferida. Este archivo se actualiza automáticamente para reflejar el estado actual de los canales disponibles.',
   },
   {
-    question: "Peut-on regarder l'IPTV sur plusieurs appareils en même temps ?",
+    question: '¿Se puede ver IPTV en varios dispositivos a la vez?',
     answer:
-      "Cela dépend de votre abonnement. La plupart des offres IPTV permettent 1 à 2 connexions simultanées. VivaceTV précise le nombre de connexions simultanées incluses dans chaque formule au moment de l'abonnement. Pour regarder sur plusieurs écrans en même temps, certaines formules proposent des connexions multiples.",
+      'Depende de vuestra suscripción. La mayoría de las ofertas IPTV permiten 1 a 2 conexiones simultáneas. VivaceTV especifica el número de conexiones simultáneas incluidas en cada fórmula en el momento de la suscripción. Para ver en varias pantallas a la vez, algunas fórmulas ofrecen conexiones múltiples.',
   },
 ];
 
 const steps = [
   {
     num: '1',
-    title: 'Choisissez votre abonnement VivaceTV',
-    desc: "Sélectionnez la formule adaptée à vos besoins (Bronze 3 mois, Silver 6 mois, Gold 12 mois ou Diamond 24 mois) et effectuez votre paiement sécurisé.",
+    title: 'Elegid vuestra suscripción VivaceTV',
+    desc: 'Seleccionad la fórmula adaptada a vuestras necesidades (Bronze 3 meses, Silver 6 meses, Gold 12 meses o Diamond 24 meses) y realizad vuestro pago seguro.',
   },
   {
     num: '2',
-    title: 'Recevez vos identifiants de connexion',
-    desc: "Après validation, vous recevez votre URL M3U ou vos identifiants Xtream Codes par WhatsApp ou email — généralement en moins de 30 minutes.",
+    title: 'Recibid vuestros datos de acceso',
+    desc: 'Tras la validación, recibís vuestra URL M3U o identificadores Xtream Codes por WhatsApp o email — generalmente en menos de 30 minutos.',
   },
   {
     num: '3',
-    title: 'Installez une application IPTV',
-    desc: "Téléchargez TiviMate, IPTV Smarters Pro ou Perfect Player sur votre appareil. Ces applications sont gratuites ou peu coûteuses et compatibles avec tous les systèmes.",
+    title: 'Instalad una aplicación IPTV',
+    desc: 'Descargad TiviMate, IPTV Smarters Pro o Perfect Player en vuestro dispositivo. Estas aplicaciones son gratuitas o económicas y compatibles con todos los sistemas.',
   },
   {
     num: '4',
-    title: 'Configurez votre accès',
-    desc: "Entrez votre URL M3U ou vos identifiants dans l'application. La liste de chaînes se charge automatiquement — généralement en 1 à 2 minutes.",
+    title: 'Configurad vuestro acceso',
+    desc: 'Introducid vuestra URL M3U o identificadores en la aplicación. La lista de canales se carga automáticamente — generalmente en 1 a 2 minutos.',
   },
   {
     num: '5',
-    title: 'Profitez de vos chaînes',
-    desc: "Naviguez parmi les chaînes françaises, internationales, sportives et accédez à la médiathèque VOD. Le guide des programmes (EPG) vous aide à planifier vos visionnages.",
+    title: 'Disfrutad de vuestros canales',
+    desc: 'Navegad entre los canales españoles, internacionales, deportivos y acceded a la mediateca VOD. La guía de programas (EPG) os ayuda a planificar vuestras sesiones.',
   },
 ];
 
 const devices = [
-  { name: 'Smart TV Samsung / LG', note: 'Application native ou Tizen/webOS' },
-  { name: 'Android TV / Box Android', note: 'TiviMate, IPTV Smarters Pro' },
+  { name: 'Smart TV Samsung / LG', note: 'Aplicación nativa o Tizen/webOS' },
+  { name: 'Android TV / Caja Android', note: 'TiviMate, IPTV Smarters Pro' },
   { name: 'Amazon Firestick / Fire TV', note: 'IPTV Smarters, Perfect Player' },
   { name: 'iPhone / iPad', note: 'GSE Smart IPTV, IPTV Smarters' },
   { name: 'PC Windows / Mac', note: 'VLC, Kodi, IPTV Smarters Web' },
-  { name: 'Téléphone Android', note: 'TiviMate, GSE Smart IPTV' },
+  { name: 'Teléfono Android', note: 'TiviMate, GSE Smart IPTV' },
 ];
 
 export default function CommentFonctionneIPTVPage() {
@@ -101,9 +101,9 @@ export default function CommentFonctionneIPTVPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: "Comment Fonctionne l'IPTV", href: '/guide-iptv/comment-fonctionne-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: '¿Cómo Funciona el IPTV?', href: '/guia-iptv/comment-fonctionne-iptv' },
         ]}
       />
       <script
@@ -124,52 +124,53 @@ export default function CommentFonctionneIPTVPage() {
 
       <main id="main-content">
         <PageHero
-          label="GUIDE TECHNIQUE"
-          title="Comment Fonctionne"
-          titleHighlight="l'IPTV ?"
-          subtitle="Explication simple et complète de la technologie IPTV — de la transmission du signal à l'affichage sur votre écran, sans jargon technique inutile."
+          label="GUÍA TÉCNICA"
+          title="¿Cómo Funciona"
+          titleHighlight="el IPTV?"
+          subtitle="Explicación simple y completa de la tecnología IPTV — desde la transmisión de la señal hasta la visualización en vuestra pantalla, sin tecnicismos innecesarios."
         />
 
-        {/* Section 1 — Qu'est-ce que l'IPTV */}
+        {/* Section 1 — Qué es IPTV */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu'est-ce que l'IPTV ?
+              ¿Qué es el IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              <strong style={{ color: 'var(--color-ink)' }}>IPTV</strong> signifie{' '}
-              <em>Internet Protocol Television</em> — la télévision diffusée via le protocole
-              internet. Contrairement à la télévision par câble ou satellite qui utilise des signaux
-              hertziens ou des fréquences radio, l'IPTV transporte les contenus audiovisuels sous
-              forme de paquets de données numériques, exactement comme un email ou une page web.
+              <strong style={{ color: 'var(--color-ink)' }}>IPTV</strong> significa{' '}
+              <em>Internet Protocol Television</em> — la televisión difundida a través del protocolo
+              de internet. A diferencia de la televisión por cable o satélite que utiliza señales
+              hertzianas o frecuencias de radio, el IPTV transporta los contenidos audiovisuales en
+              forma de paquetes de datos digitales, exactamente como un email o una página web.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La différence fondamentale avec le satellite : vous n'avez besoin d'<strong style={{ color: 'var(--color-ink)' }}>aucune
-              parabole</strong>, d'aucun décodeur propriétaire, et vous n'êtes pas limité à une zone
-              géographique précise. Tant que vous disposez d'une connexion internet suffisante, vous
-              pouvez regarder l'IPTV depuis n'importe où dans le monde.
+              La diferencia fundamental con el satélite: no necesitáis{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>ninguna parabólica</strong>, ningún
+              decodificador propietario, y no estáis limitados a una zona geográfica concreta. Mientras
+              tengáis una conexión a internet suficiente, podéis ver IPTV desde cualquier lugar del
+              mundo.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              L'IPTV n'est pas une nouveauté : les opérateurs comme Free, Orange et SFR distribuent
-              leurs chaînes via l'IPTV sur leurs box internet depuis plus de 15 ans. Ce que proposent
-              les services IPTV indépendants comme VivaceTV, c'est un accès à un catalogue beaucoup
-              plus large — incluant des chaînes internationales, sportives et du contenu VOD — via une
-              application sur l'appareil de votre choix.
+              El IPTV no es una novedad: operadores como Movistar, Orange y Vodafone distribuyen
+              sus canales via IPTV en sus cajas de internet desde hace más de 15 años. Lo que ofrecen
+              los servicios IPTV independientes como VivaceTV es el acceso a un catálogo mucho más
+              amplio — incluyendo canales internacionales, deportivos y contenido VOD — a través de
+              una aplicación en el dispositivo de vuestra elección.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Fonctionnement technique */}
+        {/* Section 2 — Funcionamiento técnico */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Le Fonctionnement Technique : M3U, EPG et VOD
+              El Funcionamiento Técnico: M3U, EPG y VOD
             </h2>
             <div className="flex flex-col gap-6">
               <div>
@@ -177,15 +178,15 @@ export default function CommentFonctionneIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  La Playlist M3U — La liste de toutes vos chaînes
+                  La Playlist M3U — La lista de todos vuestros canales
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Lorsque vous souscrivez à un abonnement IPTV, vous recevez une{' '}
-                  <strong style={{ color: 'var(--color-ink)' }}>playlist M3U</strong> — un fichier
-                  texte (ou une URL) qui contient les adresses de chaque flux de chaîne. Votre
-                  application IPTV lit cette liste et vous présente un catalogue organisé par
-                  catégories. Chaque chaîne correspond à un flux vidéo diffusé en temps réel depuis
-                  les serveurs du fournisseur.
+                  Cuando os suscribís a una suscripción IPTV, recibís una{' '}
+                  <strong style={{ color: 'var(--color-ink)' }}>playlist M3U</strong> — un archivo
+                  de texto (o una URL) que contiene las direcciones de cada flujo de canal. Vuestra
+                  aplicación IPTV lee esta lista y os presenta un catálogo organizado por categorías.
+                  Cada canal corresponde a un flujo de vídeo difundido en tiempo real desde los
+                  servidores del proveedor.
                 </p>
               </div>
               <div>
@@ -193,14 +194,15 @@ export default function CommentFonctionneIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  L'EPG — Le Guide des Programmes Électronique
+                  El EPG — La Guía de Programas Electrónica
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  L'<strong style={{ color: 'var(--color-ink)' }}>EPG (Electronic Program Guide)</strong>{' '}
-                  est l'équivalent du guide TV papier, mais intégré directement dans votre application.
-                  Il affiche les émissions passées, en cours et à venir sur chaque chaîne — sur
-                  généralement 7 à 14 jours. Avec un EPG complet, vous pouvez naviguer par programme
-                  plutôt que par chaîne, et profiter du replay pour les émissions déjà diffusées.
+                  El{' '}
+                  <strong style={{ color: 'var(--color-ink)' }}>EPG (Electronic Program Guide)</strong>{' '}
+                  es el equivalente de la guía de TV en papel, pero integrado directamente en vuestra
+                  aplicación. Muestra los programas pasados, en curso y próximos en cada canal —
+                  generalmente para 7 a 14 días. Con un EPG completo, podéis navegar por programa
+                  en lugar de por canal, y disfrutar del replay para los programas ya emitidos.
                 </p>
               </div>
               <div>
@@ -208,14 +210,15 @@ export default function CommentFonctionneIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  La VOD — Médiathèque à la Demande
+                  La VOD — Mediateca bajo Demanda
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  La <strong style={{ color: 'var(--color-ink)' }}>VOD (Video on Demand)</strong> est
-                  la bibliothèque de films et séries disponibles à tout moment, contrairement aux
-                  chaînes live qui suivent une grille de programmation. VivaceTV propose +160 000
-                  contenus VOD en HD et 4K, accessibles depuis la même interface que les chaînes live.
-                  C'est l'équivalent de Netflix intégré à votre service IPTV.
+                  La{' '}
+                  <strong style={{ color: 'var(--color-ink)' }}>VOD (Video on Demand)</strong> es
+                  la biblioteca de películas y series disponibles en cualquier momento, a diferencia
+                  de los canales en directo que siguen una parrilla de programación. VivaceTV ofrece
+                  +160.000 contenidos VOD en HD y 4K, accesibles desde la misma interfaz que los
+                  canales en directo. Es el equivalente de Netflix integrado en vuestro servicio IPTV.
                 </p>
               </div>
               <div>
@@ -223,34 +226,34 @@ export default function CommentFonctionneIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Xtream Codes — Le Protocole Professionnel
+                  Xtream Codes — El Protocolo Profesional
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Certains services IPTV utilisent le protocole{' '}
-                  <strong style={{ color: 'var(--color-ink)' }}>Xtream Codes</strong> (également
-                  appelé XC ou Xtream API), qui fonctionne avec un nom d'utilisateur, un mot de passe
-                  et une URL de serveur. Ce système offre une meilleure gestion des connexions et des
-                  droits d'accès. Il est supporté par toutes les applications majeures comme TiviMate
-                  et IPTV Smarters.
+                  Algunos servicios IPTV usan el protocolo{' '}
+                  <strong style={{ color: 'var(--color-ink)' }}>Xtream Codes</strong> (también llamado
+                  XC o Xtream API), que funciona con un nombre de usuario, una contraseña y una URL
+                  de servidor. Este sistema ofrece una mejor gestión de las conexiones y los derechos
+                  de acceso. Es compatible con todas las aplicaciones principales como TiviMate e
+                  IPTV Smarters.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section 3 — Équipement */}
+        {/* Section 3 — Equipos */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Équipement Compatible avec l'IPTV
+              Equipos Compatibles con IPTV
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              L'un des grands avantages de l'IPTV est sa compatibilité universelle. Aucun achat de
-              matériel spécifique n'est nécessaire dans la plupart des cas. Voici les appareils
-              compatibles avec VivaceTV :
+              Una de las grandes ventajas del IPTV es su compatibilidad universal. En la mayoría de
+              los casos no es necesario comprar hardware específico. Aquí los dispositivos compatibles
+              con VivaceTV:
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               {devices.map((device) => (
@@ -276,33 +279,34 @@ export default function CommentFonctionneIPTVPage() {
               ))}
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Pour une expérience optimale sur grand écran sans Smart TV, un{' '}
-              <strong style={{ color: 'var(--color-ink)' }}>Amazon Firestick 4K</strong> (environ 50€)
-              ou un <strong style={{ color: 'var(--color-ink)' }}>boîtier Android TV</strong> est
-              l'investissement le plus rentable. Ces appareils se connectent à n'importe quel téléviseur
-              via HDMI et transforment n'importe quelle TV en Smart TV.
+              Para una experiencia óptima en gran pantalla sin Smart TV, un{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>Amazon Firestick 4K</strong> (unos 50€)
+              o una{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>caja Android TV</strong> es la inversión
+              más rentable. Estos dispositivos se conectan a cualquier televisor via HDMI y convierten
+              cualquier TV en Smart TV.
             </p>
           </div>
         </section>
 
-        {/* Section 4 — Connexion */}
+        {/* Section 4 — Conexión */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Connexion Internet Requise pour l'IPTV
+              Conexión a Internet Necesaria para IPTV
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              La qualité de votre expérience IPTV dépend directement de votre connexion internet.
-              Voici les débits recommandés selon la qualité souhaitée :
+              La calidad de vuestra experiencia IPTV depende directamente de vuestra conexión a
+              internet. Aquí las velocidades recomendadas según la calidad deseada:
             </p>
             <div className="overflow-x-auto rounded-xl mb-6" style={{ border: '1px solid var(--color-border)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Qualité vidéo', 'Débit minimum', 'Débit recommandé'].map((h) => (
+                    {['Calidad de vídeo', 'Velocidad mínima', 'Velocidad recomendada'].map((h) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
@@ -342,22 +346,22 @@ export default function CommentFonctionneIPTVPage() {
               </table>
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Ces débits s'entendent par flux actif. Si plusieurs personnes regardent simultanément
-              différentes chaînes dans votre foyer, multipliez par le nombre de connexions simultanées.
-              La connexion filaire (Ethernet) est toujours préférable au Wi-Fi pour éviter les
-              interruptions, en particulier pour la 4K.
+              Estas velocidades son por flujo activo. Si varias personas ven simultáneamente diferentes
+              canales en vuestro hogar, multiplicad por el número de conexiones simultáneas. La conexión
+              por cable (Ethernet) siempre es preferible al Wi-Fi para evitar interrupciones, especialmente
+              para 4K.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Démarrer avec VivaceTV */}
+        {/* Section 5 — Empezar con VivaceTV */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Démarrer avec VivaceTV en 5 Étapes
+              Cómo Empezar con VivaceTV en 5 Pasos
             </h2>
             <div className="flex flex-col gap-5">
               {steps.map((step) => (
@@ -406,14 +410,14 @@ export default function CommentFonctionneIPTVPage() {
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Choisir mon abonnement →
+                Elegir mi suscripción →
               </Link>
               <Link
-                href="/guide-iptv/installation-iptv"
+                href="/guia-iptv/installation-iptv"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   border: '1px solid var(--color-border)',
@@ -421,7 +425,7 @@ export default function CommentFonctionneIPTVPage() {
                   backgroundColor: 'var(--color-card)',
                 }}
               >
-                Guide d'installation complet →
+                Guía de instalación completa →
               </Link>
             </div>
           </div>
@@ -434,7 +438,7 @@ export default function CommentFonctionneIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Fonctionnement de l'IPTV
+              Preguntas Frecuentes — Funcionamiento del IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -462,10 +466,10 @@ export default function CommentFonctionneIPTVPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/guide-iptv/installation-iptv', label: "Guide d'installation" },
-                { href: '/guide-iptv/iptv-sur-pc', label: 'IPTV sur PC' },
-                { href: '/meilleure-application-iptv', label: 'Meilleures applications IPTV' },
+                { href: '/comprar-iptv', label: 'Ver los planes' },
+                { href: '/guia-iptv/installation-iptv', label: 'Guía de instalación' },
+                { href: '/guia-iptv/iptv-sur-pc', label: 'IPTV en PC' },
+                { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
               ].map((l) => (
                 <Link
                   key={l.href}

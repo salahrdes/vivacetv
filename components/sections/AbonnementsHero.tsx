@@ -2,9 +2,9 @@ import { Shield, Zap, Clock } from 'lucide-react';
 import { buildWhatsAppUrl } from '@/lib/utils';
 
 const trustBadges = [
-  { icon: <Shield size={15} aria-hidden="true" />, label: 'Sans engagement' },
-  { icon: <Zap size={15} aria-hidden="true" />,    label: 'Activation en 5 min' },
-  { icon: <Clock size={15} aria-hidden="true" />,  label: 'Test gratuit 24h' },
+  { icon: <Shield size={15} aria-hidden="true" />, label: 'Sin permanencia' },
+  { icon: <Zap size={15} aria-hidden="true" />,    label: 'Activación en 5 min' },
+  { icon: <Clock size={15} aria-hidden="true" />,  label: 'Prueba gratis 24h' },
 ];
 
 export default function AbonnementsHero() {
@@ -35,7 +35,7 @@ export default function AbonnementsHero() {
             style={{ backgroundColor: 'var(--color-lime)' }}
             aria-hidden="true"
           />
-          Abonnements IPTV France
+          Suscripciones IPTV España
         </span>
 
         {/* H1 */}
@@ -44,8 +44,8 @@ export default function AbonnementsHero() {
           className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight tracking-tight"
           style={{ color: 'var(--color-surface)' }}
         >
-          Le meilleur abonnement{' '}
-          <span style={{ color: 'var(--color-lime)' }}>IPTV France</span>
+          La mejor suscripción{' '}
+          <span style={{ color: 'var(--color-lime)' }}>IPTV España</span>
           <br />
           HD, 4K &amp; 8K
         </h1>
@@ -55,8 +55,8 @@ export default function AbonnementsHero() {
           className="text-lg max-w-2xl leading-relaxed"
           style={{ color: 'var(--color-gray-400)' }}
         >
-          Accédez à plus de 22 000 chaînes, 160 000 films et séries en qualité HD, 4K et 8K.
-          Compatible Smart TV, Android, iOS, PC, Firestick et Apple TV. Activation en moins de 5 minutes.
+          Accede a más de 22 000 canales, 160 000 películas y series en calidad HD, 4K y 8K.
+          Compatible con Smart TV, Android, iOS, PC, Firestick y Apple TV. Activación en menos de 5 minutos.
         </p>
 
         {/* CTA buttons */}
@@ -66,10 +66,10 @@ export default function AbonnementsHero() {
             className="inline-flex items-center justify-center px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
             style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
           >
-            Voir les forfaits
+            Ver los planes
           </a>
           <a
-            href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite un test gratuit 24h')}
+            href={buildWhatsAppUrl('Hola VivaceTV, quiero una prueba gratis de 24h')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"
@@ -78,7 +78,7 @@ export default function AbonnementsHero() {
               border: '1.5px solid rgba(255,255,255,0.15)',
             }}
           >
-            Test gratuit 24h
+            Prueba gratis 24h
           </a>
         </div>
 

@@ -31,8 +31,8 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
 
   function validate(): boolean {
     const e: Partial<FormState> = {};
-    if (!form.name.trim()) e.name = 'Veuillez entrer votre nom.';
-    if (!form.whatsapp.trim()) e.whatsapp = 'Veuillez entrer votre numéro WhatsApp.';
+    if (!form.name.trim()) e.name = 'Por favor, introduce tu nombre.';
+    if (!form.whatsapp.trim()) e.whatsapp = 'Por favor, introduce tu número de WhatsApp.';
     setErrors(e);
     return Object.keys(e).length === 0;
   }
@@ -57,10 +57,10 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
     }).catch(() => { /* silent — WhatsApp flow continues */ });
 
     const waText = [
-      `Bonjour VivaceTV, je souhaite commander l'abonnement ${planName} (${planDuration} — ${planPrice}€).`,
-      `Nom : ${form.name}`,
-      `Appareil : ${form.device}`,
-      form.message ? `Message : ${form.message}` : '',
+      `Hola VivaceTV, quiero comprar la suscripción ${planName} (${planDuration} — ${planPrice}€).`,
+      `Nombre: ${form.name}`,
+      `Dispositivo: ${form.device}`,
+      form.message ? `Mensaje: ${form.message}` : '',
     ]
       .filter(Boolean)
       .join(' — ');
@@ -84,10 +84,10 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
       >
         <CheckCircle size={44} style={{ color: 'var(--color-lime)' }} aria-hidden="true" />
         <p className="font-display font-bold text-xl" style={{ color: 'var(--color-ink)' }}>
-          Commande envoyée !
+          ¡Pedido enviado!
         </p>
         <p className="text-sm max-w-sm" style={{ color: 'var(--color-ink-light)' }}>
-          Vous allez être redirigé vers WhatsApp. Notre équipe vous contacte sous quelques minutes pour finaliser votre abonnement {planName}.
+          Serás redirigido a WhatsApp. Nuestro equipo te contactará en unos minutos para finalizar tu suscripción {planName}.
         </p>
       </div>
     );
@@ -98,7 +98,7 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
       id="checkout-form"
       onSubmit={handleSubmit}
       noValidate
-      aria-label={`Formulaire de commande abonnement ${planName}`}
+      aria-label={`Formulario de compra suscripción ${planName}`}
       className="flex flex-col gap-5 p-8 rounded-2xl"
       style={{
         backgroundColor: 'var(--color-card)',
@@ -108,8 +108,8 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
       <div className="grid sm:grid-cols-2 gap-5">
         <InputField
           id="checkout-name"
-          label="Nom complet"
-          placeholder="Jean Dupont"
+          label="Nombre completo"
+          placeholder="Juan García"
           required
           value={form.name}
           onChange={set('name')}
@@ -117,9 +117,9 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
         />
         <InputField
           id="checkout-whatsapp"
-          label="Numéro WhatsApp"
+          label="Número de WhatsApp"
           type="tel"
-          placeholder="+33 6 00 00 00 00"
+          placeholder="+34 600 00 00 00"
           required
           value={form.whatsapp}
           onChange={set('whatsapp')}
@@ -129,7 +129,7 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
 
       <SelectField
         id="checkout-device"
-        label="Appareil principal (optionnel)"
+        label="Dispositivo principal (opcional)"
         options={deviceOptions}
         value={form.device}
         onChange={set('device')}
@@ -137,16 +137,16 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
 
       <TextareaField
         id="checkout-message"
-        label="Message optionnel"
-        placeholder="Des questions ? Des précisions sur votre commande ?"
+        label="Mensaje opcional"
+        placeholder="¿Tienes alguna pregunta o precisión sobre tu pedido?"
         rows={3}
         value={form.message}
         onChange={set('message')}
       />
 
       <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
-        Les champs marqués <span style={{ color: 'var(--color-lime)' }}>*</span> sont obligatoires.
-        Aucun paiement en ligne requis — notre équipe vous contacte pour finaliser.
+        Los campos marcados con <span style={{ color: 'var(--color-lime)' }}>*</span> son obligatorios.
+        No se requiere pago en línea — nuestro equipo te contactará para finalizar.
       </p>
 
       <button
@@ -155,7 +155,7 @@ export default function CheckoutForm({ planName, planDuration, planPrice }: Prop
         style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
       >
         <ShoppingCart size={18} aria-hidden="true" />
-        Commander l&apos;abonnement {planName}
+        Comprar suscripción {planName}
       </button>
     </form>
   );

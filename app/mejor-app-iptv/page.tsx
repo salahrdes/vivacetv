@@ -10,51 +10,51 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Meilleure Application IPTV 2026 — Top 7 Apps Testées | VivaceTV',
+  title: 'Mejor Aplicación IPTV 2026 — Top 7 Apps Probadas | VivaceTV',
   description:
-    'Quelle est la meilleure application IPTV en 2025 ? Notre top 7 : TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, Kodi… Comparatif complet avec VivaceTV.',
+    '¿Cuál es la mejor aplicación IPTV en 2026? Nuestro top 7: TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, Kodi… Comparativa completa con VivaceTV.',
   keywords: [
-    'meilleure application IPTV',
-    'meilleur appli IPTV',
+    'mejor aplicación IPTV',
+    'mejor app IPTV',
     'app IPTV Android',
     'IPTV player',
-    'meilleurs applications IPTV',
+    'mejores aplicaciones IPTV',
   ],
-  alternates: { canonical: `${siteConfig.url}/meilleure-application-iptv` },
+  alternates: { canonical: `${siteConfig.url}/mejor-app-iptv` },
   openGraph: {
-    title: 'Meilleure Application IPTV 2026 — Top 7 Apps Testées | VivaceTV',
+    title: 'Mejor Aplicación IPTV 2026 — Top 7 Apps Probadas | VivaceTV',
     description:
-      'Notre top 7 des meilleures applications IPTV testées avec VivaceTV : TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, Kodi et plus.',
-    url: `${siteConfig.url}/meilleure-application-iptv`,
+      'Nuestro top 7 de las mejores aplicaciones IPTV probadas con VivaceTV: TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, Kodi y más.',
+    url: `${siteConfig.url}/mejor-app-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Quelle est la meilleure application IPTV pour Android TV ?',
+    question: '¿Cuál es la mejor aplicación IPTV para Android TV?',
     answer:
-      "TiviMate est unanimement considérée comme la meilleure application IPTV pour Android TV et Fire TV Stick. Son interface EPG, sa stabilité en 4K/8K et sa gestion multi-listes en font le choix idéal. La version premium (environ 5€/an) est fortement recommandée.",
+      'TiviMate es unánimemente considerada la mejor aplicación IPTV para Android TV y Fire TV Stick. Su interfaz EPG, su estabilidad en 4K/8K y su gestión de múltiples listas la convierten en la elección ideal. La versión premium (aproximadamente 5€/año) es muy recomendable.',
   },
   {
-    question: 'Quelle application IPTV choisir pour iPhone ou iPad ?',
+    question: '¿Qué aplicación IPTV elegir para iPhone o iPad?',
     answer:
-      "GSE Smart IPTV est la meilleure option pour iOS. Elle supporte les formats M3U et Xtream Codes, propose un guide EPG intégré et est compatible avec Apple TV. La version Pro est disponible sur l'App Store.",
+      'GSE Smart IPTV es la mejor opción para iOS. Soporta los formatos M3U y Xtream Codes, ofrece una guía EPG integrada y es compatible con Apple TV. La versión Pro está disponible en el App Store.',
   },
   {
-    question: 'Les applications IPTV sont-elles gratuites ?',
+    question: '¿Las aplicaciones IPTV son gratuitas?',
     answer:
-      "La plupart des applications IPTV comme IPTV Smarters Pro, GSE Smart IPTV (version basique), OTT Navigator et VLC sont gratuites. TiviMate propose une version gratuite avec des fonctionnalités limitées et une version premium à environ 5€/an. Ces applications sont distinctes de votre abonnement IPTV.",
+      'La mayoría de las aplicaciones IPTV como IPTV Smarters Pro, GSE Smart IPTV (versión básica), OTT Navigator y VLC son gratuitas. TiviMate ofrece una versión gratuita con funcionalidades limitadas y una versión premium a aproximadamente 5€/año. Estas aplicaciones son distintas de tu suscripción IPTV.',
   },
   {
-    question: 'Mon application IPTV est-elle compatible avec VivaceTV ?',
+    question: '¿Mi aplicación IPTV es compatible con VivaceTV?',
     answer:
-      "VivaceTV est compatible avec toutes les applications IPTV majeures : TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, OTT Navigator, Kodi, VLC et bien d'autres. Nos abonnements fournissent des URL M3U et des identifiants Xtream Codes universellement compatibles.",
+      'VivaceTV es compatible con todas las principales aplicaciones IPTV: TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect Player, OTT Navigator, Kodi, VLC y muchas más. Nuestras suscripciones proporcionan URL M3U e identificadores Xtream Codes universalmente compatibles.',
   },
   {
-    question: "Quelle connexion internet est nécessaire pour l'IPTV ?",
+    question: '¿Qué conexión a internet se necesita para el IPTV?',
     answer:
-      "Pour regarder l'IPTV en HD : 10 Mbps minimum. En 4K : 25 Mbps minimum. En 8K : 50 Mbps recommandés. Une connexion fibre optique garantit la meilleure stabilité et évite les coupures lors des pics d'utilisation.",
+      'Para ver el IPTV en HD: 10 Mbps mínimo. En 4K: 25 Mbps mínimo. En 8K: 50 Mbps recomendados. Una conexión de fibra óptica garantiza la mejor estabilidad y evita los cortes durante los picos de uso.',
   },
 ];
 
@@ -76,10 +76,10 @@ const apps: App[] = [
     rating: '⭐⭐⭐⭐⭐',
     platforms: 'Android TV / Fire TV',
     description:
-      "L'application de référence. Interface EPG parfaite, gestion multi-listes, lecture fluide en 4K. Version premium recommandée (~5€/an).",
-    pros: ['Interface EPG très complète', 'Gestion multi-listes M3U', 'Stabilité 4K/8K excellente', 'Mise à jour automatique des listes'],
-    cons: ['Uniquement Android TV / Fire TV', 'Version premium requise pour toutes les fonctions'],
-    badge: 'MEILLEURE APP',
+      'La aplicación de referencia. Interfaz EPG perfecta, gestión de múltiples listas, reproducción fluida en 4K. Versión premium recomendada (~5€/año).',
+    pros: ['Interfaz EPG muy completa', 'Gestión de múltiples listas M3U', 'Estabilidad 4K/8K excelente', 'Actualización automática de listas'],
+    cons: ['Solo Android TV / Fire TV', 'Versión premium necesaria para todas las funciones'],
+    badge: 'MEJOR APP',
   },
   {
     rank: 2,
@@ -87,9 +87,9 @@ const apps: App[] = [
     rating: '⭐⭐⭐⭐☆',
     platforms: 'Android / iOS / PC',
     description:
-      "Interface conviviale idéale pour débutants. Compatible multi-écrans, gestion Xtream Codes. Gratuite.",
-    pros: ['Multiplateforme (Android, iOS, PC)', 'Interface intuitive pour débutants', 'Support Xtream Codes natif', 'Gratuite'],
-    cons: ["Moins stable que TiviMate en 4K", 'EPG basique'],
+      'Interfaz amigable ideal para principiantes. Compatible con múltiples pantallas, gestión Xtream Codes. Gratuita.',
+    pros: ['Multiplataforma (Android, iOS, PC)', 'Interfaz intuitiva para principiantes', 'Soporte Xtream Codes nativo', 'Gratuita'],
+    cons: ['Menos estable que TiviMate en 4K', 'EPG básica'],
   },
   {
     rank: 3,
@@ -97,10 +97,10 @@ const apps: App[] = [
     rating: '⭐⭐⭐⭐☆',
     platforms: 'iOS / Android / Apple TV',
     description:
-      "La meilleure option pour iPhone/iPad. Support M3U et Xtream, interface propre. Version pro recommandée.",
-    pros: ['Meilleure app iOS native', 'Compatible Apple TV', 'Support M3U et Xtream Codes', 'EPG intégré'],
-    cons: ['Version pro payante pour fonctions avancées', 'Interface moins soignée que TiviMate'],
-    badge: 'MEILLEURE iOS',
+      'La mejor opción para iPhone/iPad. Soporte M3U y Xtream, interfaz limpia. Versión pro recomendada.',
+    pros: ['Mejor app iOS nativa', 'Compatible con Apple TV', 'Soporte M3U y Xtream Codes', 'EPG integrada'],
+    cons: ['Versión pro de pago para funciones avanzadas', 'Interfaz menos cuidada que TiviMate'],
+    badge: 'MEJOR iOS',
   },
   {
     rank: 4,
@@ -108,19 +108,19 @@ const apps: App[] = [
     rating: '⭐⭐⭐½☆',
     platforms: 'Android',
     description:
-      "Interface style TV classique, idéale pour les utilisateurs habitués à la télévision traditionnelle. Gratuite.",
-    pros: ['Interface style TV traditionnelle', 'Gratuite', 'Facile à prendre en main'],
-    cons: ['Android uniquement', 'Développement ralenti', 'Pas de support Xtream Codes natif'],
+      'Interfaz estilo TV clásica, ideal para usuarios acostumbrados a la televisión tradicional. Gratuita.',
+    pros: ['Interfaz estilo TV tradicional', 'Gratuita', 'Fácil de usar'],
+    cons: ['Solo Android', 'Desarrollo ralentizado', 'Sin soporte Xtream Codes nativo'],
   },
   {
     rank: 5,
     name: 'Kodi + add-on PVR',
     rating: '⭐⭐⭐½☆',
-    platforms: 'Toutes plateformes',
+    platforms: 'Todas las plataformas',
     description:
-      "Solution open-source très flexible mais nécessite une configuration avancée. Pour utilisateurs expérimentés.",
-    pros: ['Multiplateforme complet', 'Très personnalisable', 'Open-source gratuit'],
-    cons: ['Configuration complexe', 'Nécessite des connaissances techniques', 'Mises à jour manuelles'],
+      'Solución open-source muy flexible pero requiere configuración avanzada. Para usuarios experimentados.',
+    pros: ['Multiplataforma completo', 'Muy personalizable', 'Open-source gratuito'],
+    cons: ['Configuración compleja', 'Requiere conocimientos técnicos', 'Actualizaciones manuales'],
   },
   {
     rank: 6,
@@ -128,42 +128,42 @@ const apps: App[] = [
     rating: '⭐⭐⭐☆☆',
     platforms: 'Android',
     description:
-      "Bonne alternative à TiviMate, interface EPG claire, mais moins stable. Gratuite avec publicités.",
-    pros: ['Interface EPG claire', 'Gratuite', 'Alternative viable à TiviMate'],
-    cons: ['Publicités dans la version gratuite', 'Moins stable que TiviMate', 'Android uniquement'],
+      'Buena alternativa a TiviMate, interfaz EPG clara, pero menos estable. Gratuita con publicidad.',
+    pros: ['Interfaz EPG clara', 'Gratuita', 'Alternativa viable a TiviMate'],
+    cons: ['Publicidad en la versión gratuita', 'Menos estable que TiviMate', 'Solo Android'],
   },
   {
     rank: 7,
     name: 'VLC Media Player',
     rating: '⭐⭐½☆☆',
-    platforms: 'PC / Mac / Mobile',
+    platforms: 'PC / Mac / Móvil',
     description:
-      "Lit les flux M3U directement, mais pas d'EPG et pas d'interface dédiée IPTV. Solution de dépannage.",
-    pros: ['Disponible sur tous les OS', 'Gratuit et open-source', 'Lit les fichiers M3U directement'],
-    cons: ["Pas d'interface IPTV dédiée", "Pas d'EPG", 'Expérience utilisateur limitée'],
+      'Reproduce flujos M3U directamente, pero sin EPG y sin interfaz dedicada a IPTV. Solución de emergencia.',
+    pros: ['Disponible en todos los SO', 'Gratuito y open-source', 'Lee archivos M3U directamente'],
+    cons: ['Sin interfaz IPTV dedicada', 'Sin EPG', 'Experiencia de usuario limitada'],
   },
 ];
 
 const configSteps = [
   {
     step: '1',
-    title: 'Obtenez votre abonnement VivaceTV',
-    desc: "Choisissez votre formule sur /abonnements et contactez notre équipe via WhatsApp pour finaliser votre commande.",
+    title: 'Obtén tu suscripción VivaceTV',
+    desc: 'Elige tu plan en /comprar-iptv y contacta con nuestro equipo por WhatsApp para finalizar tu pedido.',
   },
   {
     step: '2',
-    title: 'Recevez vos identifiants via WhatsApp',
-    desc: "Vous recevez votre URL M3U et/ou vos identifiants Xtream Codes directement sur WhatsApp, généralement en moins d'1 heure.",
+    title: 'Recibe tus credenciales por WhatsApp',
+    desc: 'Recibes tu URL M3U y/o tus credenciales Xtream Codes directamente por WhatsApp, generalmente en menos de 1 hora.',
   },
   {
     step: '3',
-    title: 'Entrez vos identifiants dans votre application',
-    desc: "Dans votre application IPTV préférée (TiviMate, IPTV Smarters Pro, GSE Smart IPTV…), ajoutez votre liste via M3U ou Xtream Codes.",
+    title: 'Introduce tus credenciales en tu aplicación',
+    desc: 'En tu aplicación IPTV preferida (TiviMate, IPTV Smarters Pro, GSE Smart IPTV…), añade tu lista mediante M3U o Xtream Codes.',
   },
   {
     step: '4',
-    title: "Profitez de +22 000 chaînes",
-    desc: "Vos chaînes se chargent automatiquement. En cas de question, notre support WhatsApp 24/7 vous guide à chaque étape.",
+    title: 'Disfruta de +22 000 canales',
+    desc: 'Tus canales se cargan automáticamente. Si tienes alguna pregunta, nuestro soporte WhatsApp 24/7 te guía en cada paso.',
   },
 ];
 
@@ -186,54 +186,54 @@ export default function MeilleureApplicationIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Meilleure Application IPTV', href: '/meilleure-application-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Mejor Aplicación IPTV', href: '/mejor-app-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="TOP APPLICATIONS IPTV"
-          title="Quelle est la Meilleure"
-          titleHighlight="Application IPTV en 2025 ?"
-          subtitle="Le choix de l'application IPTV est aussi important que celui du fournisseur. Voici notre classement des 7 meilleures apps testées avec VivaceTV."
+          label="TOP APLICACIONES IPTV"
+          title="¿Cuál es la Mejor"
+          titleHighlight="Aplicación IPTV en 2026?"
+          subtitle="La elección de la aplicación IPTV es tan importante como la del proveedor. Esta es nuestra clasificación de las 7 mejores apps probadas con VivaceTV."
         />
 
-        {/* Section 1 — Importance du choix */}
+        {/* Section 1 — Importancia de la elección */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi le Choix de l&apos;Application IPTV Est Crucial
+              Por qué la Elección de la Aplicación IPTV es Crucial
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Même avec le meilleur abonnement IPTV du monde, une mauvaise application peut
-              ruiner votre expérience. L&apos;application IPTV — aussi appelée player — est
-              l&apos;interface entre votre abonnement et votre écran. Elle gère la lecture des
-              flux, l&apos;affichage du guide des programmes (EPG), la gestion de plusieurs
-              listes de chaînes et la stabilité du buffering.
+              Incluso con la mejor suscripción IPTV del mundo, una mala aplicación puede arruinar
+              tu experiencia. La aplicación IPTV — también llamada player — es la interfaz entre
+              tu suscripción y tu pantalla. Gestiona la reproducción de los flujos, la visualización
+              de la guía de programas (EPG), la gestión de varias listas de canales y la
+              estabilidad del buffering.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Un bon player IPTV doit proposer un EPG (guide des programmes) complet et mis à
-              jour, supporter les formats M3U et Xtream Codes, offrir une lecture fluide en
-              4K/8K, et permettre de gérer plusieurs profils ou listes de chaînes. La stabilité
-              du player contribue autant à l&apos;absence de coupures que la qualité du serveur.
+              Un buen player IPTV debe ofrecer una EPG (guía de programas) completa y actualizada,
+              soportar los formatos M3U y Xtream Codes, ofrecer una reproducción fluida en 4K/8K,
+              y permitir gestionar varios perfiles o listas de canales. La estabilidad del player
+              contribuye tanto a la ausencia de cortes como la calidad del servidor.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV fournit des identifiants compatibles avec toutes les applications majeures.
-              Notre équipe support vous guide dans la configuration de votre application via
-              WhatsApp 24/7. Consultez notre{' '}
+              VivaceTV proporciona credenciales compatibles con todas las aplicaciones principales.
+              Nuestro equipo de soporte te guía en la configuración de tu aplicación por
+              WhatsApp 24/7. Consulta nuestra{' '}
               <Link
-                href="/guide-iptv/installation-iptv"
+                href="/guia-iptv/installation-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                guide d&apos;installation IPTV
+                guía de instalación IPTV
               </Link>{' '}
-              pour des instructions détaillées.
+              para instrucciones detalladas.
             </p>
           </div>
         </section>
@@ -245,7 +245,7 @@ export default function MeilleureApplicationIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Notre Top 7 des Meilleures Applications IPTV
+              Nuestro Top 7 de las Mejores Aplicaciones IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {apps.map((app) => (
@@ -307,7 +307,7 @@ export default function MeilleureApplicationIPTVPage() {
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <p className="text-xs font-semibold mb-2" style={{ color: 'var(--color-lime)' }}>
-                        POINTS FORTS
+                        PUNTOS FUERTES
                       </p>
                       <ul className="flex flex-col gap-1">
                         {app.pros.map((p) => (
@@ -320,7 +320,7 @@ export default function MeilleureApplicationIPTVPage() {
                     </div>
                     <div>
                       <p className="text-xs font-semibold mb-2" style={{ color: 'var(--color-gray-400)' }}>
-                        POINTS FAIBLES
+                        PUNTOS DÉBILES
                       </p>
                       <ul className="flex flex-col gap-1">
                         {app.cons.map((c) => (
@@ -345,30 +345,28 @@ export default function MeilleureApplicationIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Meilleure Application IPTV Android en 2025
+              Mejor Aplicación IPTV Android en 2026
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur Android TV et Fire TV Stick, le duel se joue entre{' '}
-              <strong style={{ color: 'var(--color-ink)' }}>TiviMate</strong> et{' '}
+              En Android TV y Fire TV Stick, el duelo se disputa entre{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>TiviMate</strong> e{' '}
               <strong style={{ color: 'var(--color-ink)' }}>IPTV Smarters Pro</strong>. TiviMate
-              s&apos;impose pour les utilisateurs exigeants grâce à son EPG remarquable, sa
-              gestion multi-profils et sa lecture ultra-stable en 4K et 8K. Sa version premium
-              (~5€/an) débloque les fonctionnalités avancées comme l&apos;enregistrement et les
-              favoris.
+              se impone para los usuarios más exigentes gracias a su notable EPG, su gestión
+              de múltiples perfiles y su reproducción ultra-estable en 4K y 8K. Su versión premium
+              (~5€/año) desbloquea las funcionalidades avanzadas como la grabación y los favoritos.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              IPTV Smarters Pro est l&apos;alternative gratuite idéale pour les débutants. Son
-              interface simple, sa compatibilité Xtream Codes native et sa disponibilité sur
-              Android, iOS et PC en font un choix polyvalent. Pour les utilisateurs sur téléphone
-              Android (non TV), OTT Navigator ou Perfect Player sont également d&apos;excellentes
-              options.
+              IPTV Smarters Pro es la alternativa gratuita ideal para principiantes. Su interfaz
+              sencilla, su compatibilidad Xtream Codes nativa y su disponibilidad en Android, iOS
+              y PC la convierten en una elección versátil. Para los usuarios en teléfono Android
+              (no TV), OTT Navigator o Perfect Player son también excelentes opciones.
             </p>
             <Link
-              href="/guide-iptv/application-iptv-android"
+              href="/guia-iptv/application-iptv-android"
               className="inline-flex items-center gap-1 text-sm font-semibold"
               style={{ color: 'var(--color-lime)' }}
             >
-              Guide complet : configurer TiviMate avec VivaceTV sur Android →
+              Guía completa: configurar TiviMate con VivaceTV en Android →
             </Link>
           </div>
         </section>
@@ -380,42 +378,43 @@ export default function MeilleureApplicationIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Meilleure Application IPTV iOS (iPhone/iPad)
+              Mejor Aplicación IPTV iOS (iPhone/iPad)
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur iPhone et iPad, <strong style={{ color: 'var(--color-ink)' }}>GSE Smart IPTV</strong>{' '}
-              est la référence. Disponible sur l&apos;App Store, elle supporte les formats M3U et
-              Xtream Codes, intègre un guide EPG complet et est compatible avec Apple TV pour
-              profiter de vos chaînes sur grand écran.
+              En iPhone e iPad,{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>GSE Smart IPTV</strong>{' '}
+              es la referencia. Disponible en el App Store, soporta los formatos M3U y Xtream
+              Codes, integra una guía EPG completa y es compatible con Apple TV para disfrutar
+              de tus canales en pantalla grande.
             </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Pour configurer VivaceTV avec GSE Smart IPTV, suivez ces étapes : ouvrez
-              l&apos;application, sélectionnez &quot;Remote Playlists&quot;, puis &quot;Add M3U URL&quot; et
-              collez l&apos;URL M3U reçue via WhatsApp après votre abonnement. Vos +22 000 chaînes
-              apparaissent automatiquement. IPTV Smarters Pro est également disponible sur iOS
-              et constitue une bonne alternative gratuite.
+              Para configurar VivaceTV con GSE Smart IPTV, sigue estos pasos: abre la aplicación,
+              selecciona &quot;Remote Playlists&quot;, luego &quot;Add M3U URL&quot; y pega la URL M3U
+              recibida por WhatsApp tras tu suscripción. Tus +22 000 canales aparecen
+              automáticamente. IPTV Smarters Pro también está disponible en iOS y es una buena
+              alternativa gratuita.
             </p>
             <Link
-              href="/abonnements"
+              href="/comprar-iptv"
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{
                 backgroundColor: 'var(--color-lime)',
                 color: 'var(--color-dark)',
               }}
             >
-              Obtenir mes identifiants VivaceTV →
+              Obtener mis credenciales VivaceTV →
             </Link>
           </div>
         </section>
 
-        {/* Section 5 — Configuration */}
+        {/* Section 5 — Configuración */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Configurer Votre Application IPTV avec VivaceTV ?
+              ¿Cómo Configurar tu Aplicación IPTV con VivaceTV?
             </h2>
             <div className="grid sm:grid-cols-2 gap-5">
               {configSteps.map((s) => (
@@ -450,17 +449,17 @@ export default function MeilleureApplicationIPTVPage() {
               ))}
             </div>
             <p className="mt-6 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV est compatible avec TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect
-              Player, OTT Navigator, Kodi, VLC et toute application supportant M3U ou Xtream
-              Codes. Consultez notre{' '}
+              VivaceTV es compatible con TiviMate, IPTV Smarters Pro, GSE Smart IPTV, Perfect
+              Player, OTT Navigator, Kodi, VLC y cualquier aplicación que soporte M3U o Xtream
+              Codes. Consulta nuestra{' '}
               <Link
-                href="/guide-iptv/installation-iptv"
+                href="/guia-iptv/installation-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                guide d&apos;installation complet
+                guía de instalación completa
               </Link>{' '}
-              ou notre section{' '}
+              o nuestra sección{' '}
               <Link
                 href="/iptv-4k"
                 style={{ color: 'var(--color-lime)' }}
@@ -468,7 +467,7 @@ export default function MeilleureApplicationIPTVPage() {
               >
                 IPTV 4K
               </Link>{' '}
-              pour optimiser votre expérience.
+              para optimizar tu experiencia.
             </p>
           </div>
         </section>
@@ -480,7 +479,7 @@ export default function MeilleureApplicationIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Applications IPTV
+              Preguntas Frecuentes — Aplicaciones IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -508,9 +507,9 @@ export default function MeilleureApplicationIPTVPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/guide-iptv/application-iptv-android', label: 'Guide Android IPTV' },
-                { href: '/guide-iptv/installation-iptv', label: 'Guide installation IPTV' },
+                { href: '/comprar-iptv', label: 'Ver las suscripciones' },
+                { href: '/guia-iptv/application-iptv-android', label: 'Guía Android IPTV' },
+                { href: '/guia-iptv/installation-iptv', label: 'Guía instalación IPTV' },
                 { href: '/iptv-4k', label: 'IPTV 4K & 8K' },
               ].map((l) => (
                 <Link

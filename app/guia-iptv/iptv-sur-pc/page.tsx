@@ -9,122 +9,122 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: "IPTV sur PC : Les Meilleures Méthodes pour Regarder l'IPTV sur Ordinateur | VivaceTV",
+  title: "IPTV en PC : Los Mejores Métodos para Ver IPTV en Ordenador | VivaceTV",
   description:
-    "Comment regarder l'IPTV sur PC Windows et Mac ? Guide complet : VLC Media Player, IPTV Smarters Web, Kodi. Configuration et réglages pour la meilleure qualité.",
+    "¿Cómo ver IPTV en PC Windows y Mac? Guía completa: VLC Media Player, IPTV Smarters Web, Kodi. Configuración y ajustes para la mejor calidad.",
   keywords: [
-    'iptv sur pc',
+    'iptv en pc',
     'iptv pc',
-    'iptv sur ordinateur',
+    'iptv en ordenador',
     'iptv vlc',
     'iptv kodi',
     'iptv smarters pc',
-    'regarder iptv ordinateur',
+    'ver iptv ordenador',
     'iptv windows',
     'iptv mac',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/iptv-sur-pc` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-sur-pc` },
   openGraph: {
-    title: "IPTV sur PC : Les Meilleures Méthodes pour Regarder l'IPTV sur Ordinateur | VivaceTV",
+    title: "IPTV en PC : Los Mejores Métodos para Ver IPTV en Ordenador | VivaceTV",
     description:
-      "Tout pour regarder l'IPTV sur votre ordinateur Windows ou Mac : VLC, Kodi, IPTV Smarters Web. Méthodes testées et configuration optimale.",
-    url: `${siteConfig.url}/guide-iptv/iptv-sur-pc`,
+      "Todo para ver IPTV en vuestro ordenador Windows o Mac: VLC, Kodi, IPTV Smarters Web. Métodos probados y configuración óptima.",
+    url: `${siteConfig.url}/guia-iptv/iptv-sur-pc`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "VLC Media Player est-il gratuit pour regarder l'IPTV ?",
+    question: "¿Es gratuito VLC Media Player para ver IPTV?",
     answer:
-      "Oui, VLC Media Player est entièrement gratuit et open source. Il est disponible pour Windows, Mac et Linux. C'est la solution la plus simple pour démarrer avec l'IPTV sur PC : il suffit d'ouvrir votre URL M3U depuis le menu Média > Ouvrir un fichier réseau. Aucune configuration complexe n'est nécessaire.",
+      "Sí, VLC Media Player es completamente gratuito y de código abierto. Está disponible para Windows, Mac y Linux. Es la solución más sencilla para empezar con IPTV en PC: basta con abrir vuestra URL M3U desde el menú Medio > Abrir ubicación de red. No se necesita ninguna configuración compleja.",
   },
   {
-    question: "L'IPTV fonctionne-t-il sur Mac ?",
+    question: "¿Funciona el IPTV en Mac?",
     answer:
-      "Oui, l'IPTV fonctionne parfaitement sur Mac. VLC est disponible pour macOS et fonctionne identiquement à la version Windows. Kodi est également disponible pour Mac. IPTV Smarters dispose d'une version web accessible depuis n'importe quel navigateur, y compris Safari sur Mac.",
+      "Sí, el IPTV funciona perfectamente en Mac. VLC está disponible para macOS y funciona de forma idéntica a la versión Windows. Kodi también está disponible para Mac. IPTV Smarters dispone de una versión web accesible desde cualquier navegador, incluyendo Safari en Mac.",
   },
   {
-    question: "Quelle est la meilleure application IPTV pour PC ?",
+    question: "¿Cuál es la mejor aplicación IPTV para PC?",
     answer:
-      "Pour les débutants, VLC est la solution la plus simple. Pour une interface complète avec EPG et VOD, Kodi avec le plugin IPTV Simple Client est la meilleure option. Pour une expérience intermédiaire sans installation complexe, un lecteur IPTV web comme IPTV Smarters Web est une excellente alternative.",
+      "Para principiantes, VLC es la solución más sencilla. Para una interfaz completa con EPG y VOD, Kodi con el plugin IPTV Simple Client es la mejor opción. Para una experiencia intermedia sin instalación compleja, un reproductor IPTV web como IPTV Smarters Web es una excelente alternativa.",
   },
   {
-    question: "L'IPTV dans le navigateur est-il possible ?",
+    question: "¿Es posible el IPTV en el navegador?",
     answer:
-      "Oui, certains services IPTV proposent un lecteur web accessible directement depuis votre navigateur (Chrome, Firefox, Edge). VivaceTV peut vous fournir les informations nécessaires pour accéder à un player web si disponible. Cette solution ne nécessite aucune installation et fonctionne sur tous les systèmes d'exploitation.",
+      "Sí, algunos servicios IPTV ofrecen un reproductor web accesible directamente desde vuestro navegador (Chrome, Firefox, Edge). VivaceTV puede proporcionaros la información necesaria para acceder a un player web si está disponible. Esta solución no requiere ninguna instalación y funciona en todos los sistemas operativos.",
   },
   {
-    question: "Y a-t-il du décalage (latence) avec l'IPTV sur PC ?",
+    question: "¿Hay retraso (latencia) con el IPTV en PC?",
     answer:
-      "Un léger décalage de quelques secondes est normal sur les chaînes live en IPTV — c'est inhérent à la technologie de streaming. VLC permet d'ajuster le cache (buffer) dans les paramètres réseau pour trouver le bon équilibre entre fluidité et latence. Pour les événements sportifs, un câble Ethernet plutôt que le Wi-Fi réduit significativement ce décalage.",
+      "Un ligero retraso de unos pocos segundos es normal en los canales en directo de IPTV — es inherente a la tecnología de streaming. VLC permite ajustar la caché (buffer) en los parámetros de red para encontrar el equilibrio correcto entre fluidez y latencia. Para eventos deportivos, un cable Ethernet en lugar de Wi-Fi reduce significativamente este retraso.",
   },
 ];
 
 const methods = [
   {
     id: 'vlc',
-    title: 'Méthode 1 : VLC Media Player',
-    badge: 'RECOMMANDÉ DÉBUTANTS',
+    title: 'Método 1: VLC Media Player',
+    badge: 'RECOMENDADO PRINCIPIANTES',
     badgeColor: 'var(--color-lime)',
-    pros: ['100% gratuit', 'Disponible Windows/Mac/Linux', 'Aucune configuration complexe', 'Codec universel'],
-    cons: ['Interface basique', "Pas d'EPG intégré", 'Navigation dans les chaînes limitée'],
+    pros: ['100% gratuito', 'Disponible Windows/Mac/Linux', 'Sin configuración compleja', 'Códec universal'],
+    cons: ['Interfaz básica', 'Sin EPG integrado', 'Navegación entre canales limitada'],
     steps: [
-      "Téléchargez VLC depuis videolan.org (gratuit, sécurisé)",
-      "Lancez VLC et allez dans Média > Ouvrir un fichier réseau",
-      "Collez votre URL M3U VivaceTV dans le champ URL et validez",
-      "La liste de chaînes s'ouvre dans la fenêtre Playlist (Affichage > Playlist)",
-      "Double-cliquez sur une chaîne pour démarrer la lecture",
+      "Descargad VLC desde videolan.org (gratuito, seguro)",
+      "Lanzad VLC y id a Medio > Abrir ubicación de red",
+      "Pegad vuestra URL M3U VivaceTV en el campo URL y validad",
+      "La lista de canales se abre en la ventana Lista de reproducción (Ver > Lista de reproducción)",
+      "Haced doble clic en un canal para iniciar la reproducción",
     ],
   },
   {
     id: 'smarters',
-    title: 'Méthode 2 : IPTV Smarters Web',
-    badge: 'INTERFACE COMPLÈTE',
+    title: 'Método 2: IPTV Smarters Web',
+    badge: 'INTERFAZ COMPLETA',
     badgeColor: 'var(--color-ink)',
-    pros: ["Interface moderne avec EPG", 'Accessible en navigateur', 'VOD et replay intégrés', 'Multi-plateformes'],
-    cons: ['Connexion internet requise', 'Performances dépendent du navigateur'],
+    pros: ["Interfaz moderna con EPG", 'Accesible en navegador', 'VOD y replay integrados', 'Multiplataforma'],
+    cons: ['Requiere conexión a internet', 'Rendimiento depende del navegador'],
     steps: [
-      "Accédez à l'URL web de votre lecteur IPTV Smarters",
-      "Sélectionnez 'Xtream Codes' ou 'M3U URL' selon vos identifiants",
-      "Entrez vos identifiants VivaceTV et connectez-vous",
-      "Naviguez entre Live TV, Films et Séries depuis l'interface",
-      "Utilisez l'EPG intégré pour voir la grille des programmes",
+      "Acceded a la URL web de vuestro reproductor IPTV Smarters",
+      "Seleccionad 'Xtream Codes' o 'M3U URL' según vuestras credenciales",
+      "Introducid vuestras credenciales VivaceTV y conectaos",
+      "Navegad entre TV en Directo, Películas y Series desde la interfaz",
+      "Usad el EPG integrado para ver la parrilla de programas",
     ],
   },
   {
     id: 'kodi',
-    title: 'Méthode 3 : Kodi avec IPTV Simple Client',
-    badge: 'PLUS PUISSANT',
+    title: 'Método 3: Kodi con IPTV Simple Client',
+    badge: 'MÁS POTENTE',
     badgeColor: 'var(--color-gray-600)',
-    pros: ['Interface TV professionnelle', 'EPG complet', 'Extensions et personnalisation', 'VOD et catch-up'],
-    cons: ['Configuration plus complexe', 'Requiert une installation du plugin'],
+    pros: ['Interfaz TV profesional', 'EPG completo', 'Extensiones y personalización', 'VOD y catch-up'],
+    cons: ['Configuración más compleja', 'Requiere instalar el plugin'],
     steps: [
-      "Téléchargez et installez Kodi depuis kodi.tv (gratuit)",
-      "Dans Kodi : Paramètres > Extensions > Installer depuis un dépôt",
-      "Accédez à Extensions Kodi.tv > Extensions PVR clients > IPTV Simple Client",
-      "Activez l'extension et entrez votre URL M3U dans la configuration",
-      "Redémarrez Kodi — vos chaînes apparaissent dans la section TV",
+      "Descargad e instalad Kodi desde kodi.tv (gratuito)",
+      "En Kodi: Ajustes > Extensiones > Instalar desde repositorio",
+      "Acceded a Extensiones Kodi.tv > Clientes PVR > IPTV Simple Client",
+      "Activad la extensión e introducid vuestra URL M3U en la configuración",
+      "Reiniciad Kodi — vuestros canales aparecen en la sección TV",
     ],
   },
 ];
 
 const settings = [
   {
-    title: "Accélération matérielle (Hardware Decoding)",
-    desc: "Activez le décodage matériel dans VLC (Outils > Préférences > Entrée / Codecs) pour utiliser votre carte graphique. Réduit la charge CPU et améliore la fluidité, en particulier pour la 4K.",
+    title: "Aceleración de hardware (Hardware Decoding)",
+    desc: "Activad la decodificación por hardware en VLC (Herramientas > Preferencias > Entrada / Códecs) para usar vuestra tarjeta gráfica. Reduce la carga de la CPU y mejora la fluidez, especialmente para contenido 4K.",
   },
   {
-    title: "Taille du tampon réseau (Cache)",
-    desc: "Dans VLC, augmentez la mise en cache réseau à 2000-3000 ms (Outils > Préférences > Tout > Entrée > Mise en cache). Réduit les interruptions mais augmente légèrement la latence.",
+    title: "Tamaño del búfer de red (Caché)",
+    desc: "En VLC, aumentad la caché de red a 2000-3000 ms (Herramientas > Preferencias > Todo > Entrada > Caché). Reduce las interrupciones pero aumenta ligeramente la latencia.",
   },
   {
-    title: "Résolution d'affichage",
-    desc: "Pour la 4K, assurez-vous que votre moniteur supporte la résolution 3840×2160 et que votre connexion internet dépasse 25 Mbps. En dessous, préférez le Full HD (1080p).",
+    title: "Resolución de pantalla",
+    desc: "Para 4K, aseguraos de que vuestro monitor admite la resolución 3840×2160 y que vuestra conexión a internet supera los 25 Mbps. Por debajo, preferid el Full HD (1080p).",
   },
   {
-    title: "Connexion Ethernet vs Wi-Fi",
-    desc: "Une connexion filaire RJ45 est toujours préférable au Wi-Fi pour l'IPTV sur PC. Elle offre une latence plus faible et une stabilité supérieure, essentielle pour les contenus 4K et les événements en direct.",
+    title: "Conexión Ethernet vs Wi-Fi",
+    desc: "Una conexión por cable RJ45 es siempre preferible al Wi-Fi para IPTV en PC. Ofrece menor latencia y mayor estabilidad, esencial para contenido 4K y eventos en directo.",
   },
 ];
 
@@ -133,9 +133,9 @@ export default function IPTVSurPCPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: 'IPTV sur PC', href: '/guide-iptv/iptv-sur-pc' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: 'IPTV en PC', href: '/guia-iptv/iptv-sur-pc' },
         ]}
       />
       <script
@@ -156,42 +156,42 @@ export default function IPTVSurPCPage() {
 
       <main id="main-content">
         <PageHero
-          label="IPTV SUR ORDINATEUR"
-          title="IPTV sur PC :"
-          titleHighlight="Les Meilleures Méthodes"
-          subtitle="Regardez l'IPTV sur votre ordinateur Windows ou Mac avec VLC, Kodi ou un lecteur web. Guide complet avec étapes détaillées et réglages optimaux."
+          label="IPTV EN ORDENADOR"
+          title="IPTV en PC:"
+          titleHighlight="Los Mejores Métodos"
+          subtitle="Ved IPTV en vuestro ordenador Windows o Mac con VLC, Kodi o un reproductor web. Guía completa con pasos detallados y ajustes óptimos."
         />
 
-        {/* Section 1 — Pourquoi PC */}
+        {/* Section 1 — Por qué PC */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi Regarder l'IPTV sur PC ?
+              ¿Por qué Ver IPTV en PC?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Regarder l'IPTV sur votre ordinateur présente plusieurs avantages concrets. D'abord,
-              votre PC est probablement déjà connecté en Ethernet — la connexion idéale pour un
-              streaming stable et sans interruption. Ensuite, la puissance de calcul d'un ordinateur
-              moderne gère facilement des flux 4K sans aucun signe de ralentissement.
+              Ver IPTV en vuestro ordenador tiene varias ventajas concretas. Primero, vuestro PC
+              probablemente ya está conectado por Ethernet — la conexión ideal para un streaming
+              estable y sin interrupciones. Además, la potencia de cálculo de un ordenador moderno
+              gestiona fácilmente flujos en 4K sin ningún signo de ralentización.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le PC offre également un contrôle plus précis grâce au clavier et à la souris,
-              particulièrement utile pour naviguer dans de grandes listes de chaînes ou configurer
-              des options avancées. Vous pouvez également afficher l'IPTV dans une fenêtre tout en
-              continuant à utiliser d'autres applications en parallèle.
+              El PC también ofrece un control más preciso gracias al teclado y al ratón, especialmente
+              útil para navegar en grandes listas de canales o configurar opciones avanzadas. También
+              podéis mostrar el IPTV en una ventana mientras continuáis usando otras aplicaciones
+              en paralelo.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Enfin, si vous disposez d'un grand écran de moniteur ou d'un PC connecté à un
-              téléviseur via HDMI, l'expérience est comparable à celle d'une Smart TV, avec en
-              plus la flexibilité d'un ordinateur.
+              Finalmente, si disponéis de un gran monitor o de un PC conectado a una televisión por
+              HDMI, la experiencia es comparable a la de una Smart TV, con la flexibilidad adicional
+              de un ordenador.
             </p>
           </div>
         </section>
 
-        {/* Section 2-4 — Methods */}
+        {/* Sections 2-4 — Métodos */}
         {methods.map((method, idx) => (
           <section
             key={method.id}
@@ -232,7 +232,7 @@ export default function IPTVSurPCPage() {
                   }}
                 >
                   <h3 className="font-semibold text-sm mb-3" style={{ color: 'var(--color-ink)' }}>
-                    Avantages
+                    Ventajas
                   </h3>
                   <ul className="flex flex-col gap-2">
                     {method.pros.map((pro) => (
@@ -255,7 +255,7 @@ export default function IPTVSurPCPage() {
                   }}
                 >
                   <h3 className="font-semibold text-sm mb-3" style={{ color: 'var(--color-ink)' }}>
-                    Limites
+                    Limitaciones
                   </h3>
                   <ul className="flex flex-col gap-2">
                     {method.cons.map((con) => (
@@ -272,7 +272,7 @@ export default function IPTVSurPCPage() {
               </div>
 
               <h3 className="font-semibold text-base mb-4" style={{ color: 'var(--color-ink)' }}>
-                Étapes de configuration
+                Pasos de configuración
               </h3>
               <ol className="flex flex-col gap-3">
                 {method.steps.map((step, i) => (
@@ -295,14 +295,14 @@ export default function IPTVSurPCPage() {
           </section>
         ))}
 
-        {/* Section 5 — Réglages */}
+        {/* Section 5 — Ajustes */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Réglages Recommandés pour la Meilleure Performance
+              Ajustes Recomendados para el Mejor Rendimiento
             </h2>
             <div className="flex flex-col gap-5">
               {settings.map((setting) => (
@@ -337,7 +337,7 @@ export default function IPTVSurPCPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — IPTV sur PC
+              Preguntas Frecuentes — IPTV en PC
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -365,10 +365,10 @@ export default function IPTVSurPCPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/guide-iptv/installation-iptv', label: "Guide d'installation" },
-                { href: '/meilleure-application-iptv', label: 'Meilleures applications IPTV' },
-                { href: '/guide-iptv/comment-fonctionne-iptv', label: "Comment fonctionne l'IPTV" },
+                { href: '/comprar-iptv', label: 'Ver los planes' },
+                { href: '/guia-iptv/installation-iptv', label: "Guía de instalación" },
+                { href: '/mejor-app-iptv', label: 'Mejores aplicaciones IPTV' },
+                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
               ].map((l) => (
                 <Link
                   key={l.href}

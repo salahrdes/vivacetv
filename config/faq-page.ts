@@ -11,163 +11,163 @@ export type FaqCategory = {
 
 export const faqCategories: FaqCategory[] = [
   {
-    id: 'iptv-france',
-    label: 'IPTV en France',
+    id: 'iptv-espana',
+    label: 'IPTV en España',
     items: [
       {
-        question: "Qu'est-ce que l'IPTV ?",
+        question: '¿Qué es el IPTV?',
         answer:
-          "L'IPTV (Internet Protocol Television) est une technologie qui permet de diffuser des chaînes de télévision et du contenu vidéo via Internet, sans antenne ni câble. Vous accédez à des milliers de chaînes en direct, du contenu à la demande et du replay sur n'importe quel appareil connecté.",
+          'El IPTV (Internet Protocol Television) es una tecnología que permite distribuir canales de televisión y contenido de vídeo a través de Internet, sin antena ni cable. Tienes acceso a miles de canales en directo, contenido bajo demanda y replay en cualquier dispositivo conectado.',
       },
       {
-        question: "L'IPTV est-il légal en France ?",
+        question: '¿Es legal el IPTV en España?',
         answer:
-          "L'IPTV en tant que technologie est parfaitement légale. Ce qui est illégal, c'est d'accéder à des contenus protégés par le droit d'auteur sans autorisation. VivaceTV est un service opéré de manière légitime, avec facturation officielle et accès aux contenus dans le respect du cadre légal applicable.",
+          'El IPTV como tecnología es perfectamente legal. Lo que es ilegal es acceder a contenidos protegidos por derechos de autor sin autorización. VivaceTV es un servicio gestionado de forma legítima, con facturación oficial y acceso a contenidos dentro del marco legal aplicable.',
       },
       {
-        question: "Quelle connexion Internet faut-il pour l'IPTV ?",
+        question: '¿Qué conexión a Internet se necesita para el IPTV?',
         answer:
-          "Pour une expérience optimale : 10 Mbps minimum pour du HD, 25 Mbps recommandés pour du 4K. Une connexion fibre optique est idéale pour éviter tout buffering. La stabilité de la connexion est aussi importante que la vitesse brute.",
+          'Para una experiencia óptima: 10 Mbps mínimo para HD, 25 Mbps recomendados para 4K. Una conexión de fibra óptica es ideal para evitar el buffering. La estabilidad de la conexión es tan importante como la velocidad bruta.',
       },
       {
-        question: "Combien de chaînes sont disponibles avec VivaceTV ?",
+        question: '¿Cuántos canales hay disponibles con VivaceTV?',
         answer:
-          "VivaceTV donne accès à plus de 20 000 chaînes : chaînes françaises (TF1, M6, France 2/3/4/5, Canal+, BFM TV…), chaînes internationales (arabes, anglaises, espagnoles, italiennes…), chaînes sportives (beIN Sports, Canal+ Sport, Eurosport…) et un catalogue VOD de films et séries.",
+          'VivaceTV da acceso a más de 22 000 canales: canales españoles (La 1, La 2, Antena 3, Cuatro, Telecinco, La Sexta, Canal+, beIN Sports…), canales internacionales (árabes, ingleses, franceses, italianos…), canales deportivos (beIN Sports, Eurosport, DAZN…) y un catálogo VOD de películas y series.',
       },
       {
-        question: "Quelle est la différence entre l'IPTV et Netflix ?",
+        question: '¿Cuál es la diferencia entre IPTV y Netflix?',
         answer:
-          "Netflix est un service SVoD (Streaming Vidéo à la Demande) proposant uniquement du contenu en replay. L'IPTV inclut les chaînes TV en direct (live), le replay, la VOD et le sport en temps réel — c'est une télévision complète via Internet, pas seulement une bibliothèque de films.",
+          'Netflix es un servicio SVoD (Streaming de Vídeo bajo Demanda) que ofrece únicamente contenido en diferido. El IPTV incluye canales de TV en directo (live), replay, VOD y deporte en tiempo real — es una televisión completa a través de Internet, no solo una biblioteca de películas.',
       },
     ],
   },
   {
-    id: 'abonnement',
-    label: 'Abonnement IPTV',
+    id: 'suscripcion',
+    label: 'Suscripción IPTV',
     items: [
       {
-        question: 'Comment souscrire à un abonnement IPTV France avec VivaceTV ?',
+        question: '¿Cómo contratar una suscripción IPTV en España con VivaceTV?',
         answer:
-          'Choisissez le forfait qui vous convient sur la page Abonnements, envoyez votre demande, et notre équipe vous contacte via WhatsApp pour finaliser votre abonnement. Le processus prend moins de 5 minutes.',
+          'Elige el plan que más te convenga en la página de Suscripciones, envía tu solicitud y nuestro equipo te contactará por WhatsApp para finalizar tu suscripción. El proceso dura menos de 5 minutos.',
       },
       {
-        question: 'Dois-je créer un compte pour commander ?',
+        question: '¿Necesito crear una cuenta para hacer el pedido?',
         answer:
-          "Non, aucun compte client n'est nécessaire. Il vous suffit de sélectionner votre forfait et de contacter notre équipe via WhatsApp. Pas d'inscription, pas de mot de passe, pas d'engagement.",
+          'No, no es necesaria ninguna cuenta de cliente. Solo tienes que seleccionar tu plan y contactar con nuestro equipo por WhatsApp. Sin registro, sin contraseña, sin compromisos.',
       },
       {
-        question: 'Quel forfait IPTV choisir ?',
+        question: '¿Qué plan IPTV elegir?',
         answer:
-          "Si vous découvrez le service, commencez par un test gratuit 24h ou le forfait Bronze 3 mois. Pour un usage régulier, le forfait Gold 12 mois offre le meilleur rapport qualité/prix à moins de 3,75 €/mois avec accès 4K et 8K.",
+          'Si descubres el servicio por primera vez, empieza con una prueba gratuita de 24h o el plan Bronze de 3 meses. Para un uso habitual, el plan Gold de 12 meses ofrece la mejor relación calidad/precio a menos de 3,75 €/mes con acceso 4K y 8K.',
       },
       {
-        question: 'Puis-je utiliser VivaceTV sur plusieurs appareils en même temps ?',
+        question: '¿Puedo usar VivaceTV en varios dispositivos al mismo tiempo?',
         answer:
-          "Chaque abonnement est prévu pour un flux simultané. Si vous souhaitez utiliser VivaceTV sur plusieurs appareils en même temps, contactez notre support pour une solution adaptée.",
+          'Cada suscripción está pensada para una transmisión simultánea. Si deseas usar VivaceTV en varios dispositivos a la vez, contacta con nuestro soporte para una solución adaptada.',
       },
       {
-        question: 'Puis-je renouveler mon abonnement à son expiration ?',
+        question: '¿Puedo renovar mi suscripción al vencimiento?',
         answer:
-          "Oui, le renouvellement se fait simplement via WhatsApp. La majorité de nos clients renouvellent directement à l'expiration avec le même processus rapide.",
+          'Sí, la renovación se realiza fácilmente por WhatsApp. La mayoría de nuestros clientes renuevan directamente al vencimiento con el mismo proceso rápido.',
       },
     ],
   },
   {
-    id: 'appareils',
-    label: 'Appareils compatibles',
+    id: 'dispositivos',
+    label: 'Dispositivos compatibles',
     items: [
       {
-        question: 'Quels appareils sont compatibles avec VivaceTV ?',
+        question: '¿Qué dispositivos son compatibles con VivaceTV?',
         answer:
-          "VivaceTV fonctionne sur Smart TV Samsung et LG, Amazon Fire TV Stick, Android (téléphone, tablette, TV Box), iPhone et iPad, PC Windows, Mac, Apple TV et Roku — via des applications compatibles comme IPTV Smarters Pro.",
+          'VivaceTV funciona en Smart TV Samsung y LG, Amazon Fire TV Stick, Android (teléfono, tableta, TV Box), iPhone y iPad, PC Windows, Mac, Apple TV y Roku — a través de aplicaciones compatibles como IPTV Smarters Pro.',
       },
       {
-        question: 'Puis-je utiliser VivaceTV sur Smart TV ?',
+        question: '¿Puedo usar VivaceTV en una Smart TV?',
         answer:
-          "Oui. Pour les Smart TV Samsung et LG, téléchargez IPTV Smarters Pro depuis le store de votre TV. Notre support peut vous guider si votre modèle nécessite une configuration spécifique.",
+          'Sí. Para Smart TV Samsung y LG, descarga IPTV Smarters Pro desde la tienda de tu TV. Nuestro soporte puede guiarte si tu modelo requiere una configuración específica.',
       },
       {
-        question: 'VivaceTV fonctionne-t-il sur iPhone et iPad ?',
+        question: '¿VivaceTV funciona en iPhone y iPad?',
         answer:
-          "Oui, en téléchargeant IPTV Smarters Pro ou GSE Smart IPTV depuis l'App Store. Les deux applications sont compatibles iOS 14 et versions ultérieures.",
+          'Sí, descargando IPTV Smarters Pro o GSE Smart IPTV desde el App Store. Ambas aplicaciones son compatibles con iOS 14 y versiones posteriores.',
       },
       {
-        question: 'Puis-je utiliser VivaceTV sur PC ou Mac ?',
+        question: '¿Puedo usar VivaceTV en PC o Mac?',
         answer:
-          "Oui. Sur Windows, téléchargez IPTV Smarters Pro depuis le Microsoft Store. Sur Mac, utilisez IPTV Smarters Pro ou GSE Smart IPTV depuis l'App Store Mac. VLC Media Player est aussi une alternative gratuite avec un lien M3U.",
+          'Sí. En Windows, descarga IPTV Smarters Pro desde la Microsoft Store. En Mac, utiliza IPTV Smarters Pro o GSE Smart IPTV desde el App Store de Mac. VLC Media Player es también una alternativa gratuita con un enlace M3U.',
       },
     ],
   },
   {
-    id: 'installation',
-    label: 'Installation',
+    id: 'instalacion',
+    label: 'Instalación',
     items: [
       {
-        question: 'Comment se passe l\'activation ?',
+        question: '¿Cómo funciona la activación?',
         answer:
-          "Après confirmation de votre demande via WhatsApp, notre équipe vous envoie vos identifiants (URL du serveur, nom d'utilisateur, mot de passe) en moins de 5 minutes. Vous les entrez dans l'application IPTV de votre choix.",
+          'Tras confirmar tu solicitud por WhatsApp, nuestro equipo te envía tus credenciales (URL del servidor, nombre de usuario, contraseña) en menos de 5 minutos. Las introduces en la aplicación IPTV de tu elección.',
       },
       {
-        question: 'Quelle application utiliser pour regarder VivaceTV ?',
+        question: '¿Qué aplicación usar para ver VivaceTV?',
         answer:
-          "IPTV Smarters Pro est l'application que nous recommandons — elle est gratuite, disponible sur toutes les plateformes et très stable. TiviMate est une excellente alternative sur Firestick et Android TV.",
+          'IPTV Smarters Pro es la aplicación que recomendamos — es gratuita, está disponible en todas las plataformas y es muy estable. TiviMate es una excelente alternativa en Firestick y Android TV.',
       },
       {
-        question: 'Combien de temps prend l\'installation ?',
+        question: '¿Cuánto tarda la instalación?',
         answer:
-          "L'installation prend généralement moins de 5 minutes. Si vous rencontrez des difficultés, notre équipe est disponible via WhatsApp pour vous guider en temps réel.",
+          'La instalación dura generalmente menos de 5 minutos. Si tienes alguna dificultad, nuestro equipo está disponible por WhatsApp para guiarte en tiempo real.',
       },
       {
-        question: 'Puis-je obtenir de l\'aide pour l\'installation ?',
+        question: '¿Puedo obtener ayuda con la instalación?',
         answer:
-          "Oui, l'assistance à l'installation est incluse dans votre abonnement. Contactez notre support via WhatsApp et un conseiller vous guidera pas à pas selon votre appareil.",
+          'Sí, la asistencia de instalación está incluida en tu suscripción. Contacta con nuestro soporte por WhatsApp y un asesor te guiará paso a paso según tu dispositivo.',
       },
     ],
   },
   {
-    id: 'support',
-    label: 'Support',
+    id: 'soporte',
+    label: 'Soporte',
     items: [
       {
-        question: 'Comment contacter le support VivaceTV ?',
+        question: '¿Cómo contactar con el soporte de VivaceTV?',
         answer:
-          "Le support est disponible 24h/24 et 7j/7 via WhatsApp au +44 747 661 4523. Vous pouvez aussi envoyer un message depuis la page Contact du site. Réponse garantie sous 15 minutes.",
+          'El soporte está disponible 24h/24 y 7 días a la semana por WhatsApp en el +44 747 661 4523. También puedes enviar un mensaje desde la página de Contacto del sitio. Respuesta garantizada en 15 minutos.',
       },
       {
-        question: 'Quelle qualité d\'image est disponible ?',
+        question: '¿Qué calidad de imagen está disponible?',
         answer:
-          "Selon votre forfait, vous accédez à du contenu en SD, HD, 4K Ultra HD et jusqu'à 8K. La qualité effective dépend aussi de votre connexion Internet (25 Mbps minimum recommandé pour le 4K).",
+          'Según tu plan, tienes acceso a contenido en SD, HD, 4K Ultra HD y hasta 8K. La calidad efectiva también depende de tu conexión a Internet (mínimo 25 Mbps recomendado para 4K).',
       },
       {
-        question: 'Que faire si mon flux est instable ou coupe ?',
+        question: '¿Qué hacer si mi señal es inestable o se corta?',
         answer:
-          "En cas de coupures, vérifiez d'abord votre connexion Internet, redémarrez l'application et votre appareil. Si le problème persiste, contactez notre support via WhatsApp — nous diagnostiquons et résolvons la plupart des problèmes en quelques minutes.",
+          'En caso de cortes, comprueba primero tu conexión a Internet, reinicia la aplicación y tu dispositivo. Si el problema persiste, contacta con nuestro soporte por WhatsApp — diagnosticamos y resolvemos la mayoría de los problemas en pocos minutos.',
       },
     ],
   },
   {
-    id: 'paiement',
-    label: 'Paiement et demande',
+    id: 'pago',
+    label: 'Pago y pedido',
     items: [
       {
-        question: 'Le paiement en ligne est-il disponible ?',
+        question: '¿Está disponible el pago en línea?',
         answer:
-          "Le paiement en ligne sera disponible prochainement. Pour l'instant, notre équipe vous contacte via WhatsApp pour finaliser le paiement selon les modes disponibles.",
+          'El pago en línea estará disponible próximamente. Por el momento, nuestro equipo te contacta por WhatsApp para finalizar el pago según los métodos disponibles.',
       },
       {
-        question: 'Y a-t-il un engagement ou des frais cachés ?',
+        question: '¿Hay compromiso o cargos ocultos?',
         answer:
-          "Non. Tous nos forfaits sont à paiement unique sans reconduction automatique. Aucun abonnement récurrent, aucun frais caché. Vous payez une seule fois pour la durée choisie.",
+          'No. Todos nuestros planes son de pago único sin renovación automática. Sin suscripción recurrente, sin cargos ocultos. Pagas una sola vez por la duración elegida.',
       },
       {
-        question: 'Puis-je obtenir un remboursement ?',
+        question: '¿Puedo obtener un reembolso?',
         answer:
-          "Nous proposons une politique de remboursement sous conditions. Consultez notre page Politique de remboursement pour connaître les critères d'éligibilité ou contactez notre support.",
+          'Ofrecemos una política de reembolso bajo ciertas condiciones. Consulta nuestra página de Política de reembolso para conocer los criterios de elegibilidad o contacta con nuestro soporte.',
       },
       {
-        question: 'Le test gratuit 24h est-il vraiment gratuit ?',
+        question: '¿La prueba gratuita de 24h es realmente gratuita?',
         answer:
-          "Oui, totalement. Le test gratuit 24h ne nécessite aucun paiement, aucune carte bancaire, aucun engagement. Vous testez le service sur votre appareil avant de décider.",
+          'Sí, totalmente. La prueba gratuita de 24h no requiere ningún pago, ninguna tarjeta bancaria, ningún compromiso. Pruebas el servicio en tu dispositivo antes de decidir.',
       },
     ],
   },

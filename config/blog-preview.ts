@@ -10,41 +10,41 @@ export type BlogPreviewCard = {
 
 export const blogPreviews: BlogPreviewCard[] = [
   {
-    title: 'Installer IPTV sur Smart TV : guide simple',
+    title: 'Instalar IPTV en Smart TV: guía sencilla',
     excerpt:
-      'Découvrez les étapes essentielles pour configurer votre abonnement IPTV sur une Smart TV Samsung ou LG compatible.',
-    slug: 'installer-iptv-smart-tv-guide-simple',
-    category: 'Installation',
+      'Descubre los pasos esenciales para configurar tu suscripción IPTV en una Smart TV Samsung o LG compatible.',
+    slug: 'instalar-iptv-smart-tv-guia-sencilla',
+    category: 'Instalación',
     readTime: '4 min',
     image: '/blog/iptv-smart-tv.jpg',
     coverGradient: 'linear-gradient(135deg, #1a2340 0%, #1C1A17 100%)',
   },
   {
-    title: 'Configurer IPTV sur Android TV',
+    title: 'Configurar IPTV en Android TV',
     excerpt:
-      'Suivez un guide simple pour utiliser VivaceTV sur Android TV ou Android Box avec IPTV Smarters Pro.',
-    slug: 'configurer-iptv-android-tv',
-    category: 'Guide',
+      'Sigue una guía sencilla para usar VivaceTV en Android TV o Android Box con IPTV Smarters Pro.',
+    slug: 'configurar-iptv-android-tv',
+    category: 'Guía',
     readTime: '5 min',
     image: '/blog/iptv-android-tv.jpg',
     coverGradient: 'linear-gradient(135deg, #1e1a2d 0%, #1C1A17 100%)',
   },
   {
-    title: 'Quelle application IPTV utiliser ?',
+    title: '¿Qué aplicación IPTV usar?',
     excerpt:
-      'Comparatif des meilleures applications IPTV : IPTV Smarters Pro, TiviMate, GSE Smart IPTV et alternatives selon votre appareil.',
-    slug: 'quelle-application-iptv-utiliser',
-    category: 'Application',
+      'Comparativa de las mejores aplicaciones IPTV: IPTV Smarters Pro, TiviMate, GSE Smart IPTV y alternativas según tu dispositivo.',
+    slug: 'que-aplicacion-iptv-usar',
+    category: 'Aplicación',
     readTime: '5 min',
     image: '/blog/applications-iptv.jpg',
     coverGradient: 'linear-gradient(135deg, #1a2d2a 0%, #1C1A17 100%)',
   },
   {
-    title: 'IPTV Smarters Pro : guide d\'installation',
+    title: 'IPTV Smarters Pro: guía de instalación',
     excerpt:
-      'Installez et configurez IPTV Smarters Pro sur votre appareil en moins de 5 minutes avec ce guide détaillé.',
-    slug: 'iptv-smarters-pro-guide-installation',
-    category: 'Installation',
+      'Instala y configura IPTV Smarters Pro en tu dispositivo en menos de 5 minutos con esta guía detallada.',
+    slug: 'iptv-smarters-pro-guia-instalacion',
+    category: 'Instalación',
     readTime: '5 min',
     image: '/blog/iptv-smarters-pro.jpg',
     coverGradient: 'linear-gradient(135deg, #1a2340 0%, #1C1A17 100%)',

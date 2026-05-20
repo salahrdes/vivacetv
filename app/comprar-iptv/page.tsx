@@ -11,24 +11,23 @@ import FAQSection from '@/components/sections/FAQSection';
 import FinalCTA from '@/components/sections/FinalCTA';
 
 export const metadata: Metadata = {
-  title: 'Abonnements IPTV France 2026 — Comparez Nos 4 Offres | VivaceTV',
+  title: 'Comprar IPTV España 2026 — Compara Nuestros 4 Planes | VivaceTV',
   description:
-    'Comparez nos abonnements IPTV France : Bronze (3 mois, 22,99€), Silver (6 mois, 34,99€), Gold (12 mois, 44,99€), Diamond (24 mois, 74,99€). +22 000 chaînes HD/4K/8K. Activation rapide.',
+    'Compara nuestros planes IPTV España: Bronze (3 meses, 22,99€), Silver (6 meses, 34,99€), Gold (12 meses, 44,99€), Diamond (24 meses, 74,99€). +22.000 canales HD/4K/8K. Activación rápida.',
   keywords: [
-    'abonnement IPTV France',
-    'meilleurs abonnements IPTV',
-    'offres IPTV',
-    'acheter IPTV',
-    'abonnement IPTV pas cher',
-    'abonnement IPTV premium',
-    'IPTV abonnement 12 mois',
+    'comprar IPTV España',
+    'mejores planes IPTV',
+    'ofertas IPTV',
+    'suscripción IPTV barata',
+    'suscripción IPTV premium',
+    'IPTV suscripción 12 meses',
   ],
-  alternates: { canonical: `${siteConfig.url}/abonnements` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv` },
   openGraph: {
-    title: 'Abonnements IPTV France 2026 — 4 Offres à Comparer | VivaceTV',
+    title: 'Comprar IPTV España 2026 — 4 Planes a Comparar | VivaceTV',
     description:
-      'Bronze dès 22,99€, Silver 34,99€, Gold 44,99€, Diamond 74,99€. +22 000 chaînes HD/4K/8K. Abonnement IPTV France avec activation rapide via WhatsApp.',
-    url: `${siteConfig.url}/abonnements`,
+      'Bronze desde 22,99€, Silver 34,99€, Gold 44,99€, Diamond 74,99€. +22.000 canales HD/4K/8K. IPTV España con activación rápida por WhatsApp.',
+    url: `${siteConfig.url}/comprar-iptv`,
     type: 'website',
   },
 };

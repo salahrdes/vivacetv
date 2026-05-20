@@ -8,51 +8,51 @@ export type Testimonial = {
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'Karim',
-    city: 'Lyon',
+    name: 'Carlos',
+    city: 'Madrid',
     rating: 5,
     review:
-      'Service rapide, installation facile sur ma Smart TV Samsung. Le support m\'a guidé étape par étape.',
-    initials: 'K',
+      'Servicio rápido, instalación sencilla en mi Smart TV Samsung. El soporte me guió paso a paso sin ningún problema.',
+    initials: 'C',
   },
   {
-    name: 'Nadia',
-    city: 'Paris',
+    name: 'Lucía',
+    city: 'Barcelona',
     rating: 5,
     review:
-      'J\'ai choisi l\'abonnement 12 mois. Activation rapide et bonne qualité d\'image sur ma TV.',
-    initials: 'N',
+      'Elegí la suscripción de 12 meses. Activación inmediata y una calidad de imagen excelente en la tele.',
+    initials: 'L',
   },
   {
-    name: 'Thomas',
-    city: 'Marseille',
+    name: 'Marcos',
+    city: 'Valencia',
     rating: 5,
     review:
-      'Interface claire, assistance réactive et configuration simple sur Android TV.',
-    initials: 'T',
+      'Interfaz clara, soporte muy reactivo y configuración simple en Android TV. Muy contento.',
+    initials: 'M',
   },
   {
-    name: 'Samira',
-    city: 'Lille',
+    name: 'Sofía',
+    city: 'Sevilla',
     rating: 5,
     review:
-      'J\'ai demandé de l\'aide avant de commander, l\'équipe m\'a conseillé le bon forfait pour mon appareil.',
+      'Pedí ayuda antes de contratar y el equipo me recomendó el plan ideal para mi dispositivo. Gran atención al cliente.',
     initials: 'S',
   },
   {
-    name: 'Julien',
-    city: 'Bordeaux',
+    name: 'Javier',
+    city: 'Bilbao',
     rating: 4.9,
     review:
-      'Bonne expérience sur Fire TV. Les explications d\'installation sont simples à suivre.',
+      'Buena experiencia en Fire TV. Las instrucciones de instalación son muy fáciles de seguir.',
     initials: 'J',
   },
   {
-    name: 'Amine',
-    city: 'Toulouse',
+    name: 'Adriana',
+    city: 'Zaragoza',
     rating: 5,
     review:
-      'Le test m\'a permis de vérifier la compatibilité avant de prendre un abonnement plus long.',
+      'La prueba gratuita me permitió verificar la compatibilidad antes de contratar un plan más largo. Totalmente recomendable.',
     initials: 'A',
   },
 ];

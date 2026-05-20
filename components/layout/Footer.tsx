@@ -4,31 +4,31 @@ import { siteConfig } from '@/config/site';
 
 const footerColumns = [
   {
-    heading: 'Services',
+    heading: 'Servicios',
     links: [
-      { label: 'Abonnements IPTV', href: '/abonnements' },
-      { label: 'Test gratuit 24h',  href: '/test-gratuit' },
-      { label: "Guide d'installation", href: '/guide-iptv' },
-      { label: 'Applications compatibles', href: '/guide-iptv#applications' },
+      { label: 'Suscripciones IPTV', href: '/abonnements' },
+      { label: 'Prueba gratis 24h',  href: '/test-gratuit' },
+      { label: 'Guía de instalación', href: '/guide-iptv' },
+      { label: 'Aplicaciones compatibles', href: '/guide-iptv#applications' },
     ],
   },
   {
-    heading: 'Informations',
+    heading: 'Información',
     links: [
-      { label: 'Mentions légales',           href: '/mentions-legales' },
-      { label: 'Conditions générales',        href: '/conditions-generales' },
-      { label: 'Politique de confidentialité', href: '/politique-confidentialite' },
-      { label: 'Politique de remboursement',  href: '/politique-remboursement' },
-      { label: 'DMCA',                        href: '/dmca' },
+      { label: 'Aviso legal',                  href: '/mentions-legales' },
+      { label: 'Condiciones generales',         href: '/conditions-generales' },
+      { label: 'Política de privacidad',        href: '/politique-confidentialite' },
+      { label: 'Política de reembolso',         href: '/politique-remboursement' },
+      { label: 'DMCA',                          href: '/dmca' },
     ],
   },
   {
-    heading: 'Support',
+    heading: 'Soporte',
     links: [
-      { label: 'Contact',            href: '/contact' },
-      { label: 'FAQ',                href: '/faq' },
-      { label: 'Assistance WhatsApp', href: buildWhatsAppUrl('Bonjour VivaceTV, j\'ai besoin d\'assistance'), external: true },
-      { label: 'Support 24/7',       href: '/contact' },
+      { label: 'Contacto',               href: '/contact' },
+      { label: 'FAQ',                    href: '/faq' },
+      { label: 'Asistencia WhatsApp', href: buildWhatsAppUrl('Hola VivaceTV, necesito asistencia'), external: true },
+      { label: 'Soporte 24/7',           href: '/contact' },
     ],
   },
 ];
@@ -37,7 +37,7 @@ export default function Footer() {
   return (
     <footer
       style={{ backgroundColor: 'var(--color-dark)', borderTop: '1px solid rgba(255,255,255,0.06)' }}
-      aria-label="Pied de page"
+      aria-label="Pie de página"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
@@ -51,7 +51,7 @@ export default function Footer() {
               style={{ color: 'var(--color-surface)' }}
               aria-label="VivaceTV"
             >
-              Clario
+              Vivace
               <span
                 className="inline-block w-2 h-2 rounded-full mb-0.5 ml-0.5"
                 style={{ backgroundColor: 'var(--color-lime)' }}
@@ -60,8 +60,8 @@ export default function Footer() {
               TV
             </Link>
             <p className="text-sm leading-relaxed max-w-xs" style={{ color: 'var(--color-gray-400)' }}>
-              Votre solution IPTV France pour profiter d'une expérience fluide, moderne et
-              compatible avec vos appareils préférés.
+              Tu solución IPTV España para disfrutar de una experiencia fluida, moderna y
+              compatible con todos tus dispositivos favoritos.
             </p>
           </div>
 
@@ -109,15 +109,15 @@ export default function Footer() {
           style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}
         >
           <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
-            © {siteConfig.legal.year} {siteConfig.legal.company}. Tous droits réservés.
+            © {siteConfig.legal.year} {siteConfig.legal.company}. Todos los derechos reservados.
           </p>
           <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
             <Link href="/politique-confidentialite" className="hover:underline">
-              Confidentialité
+              Privacidad
             </Link>
             {' · '}
             <Link href="/mentions-legales" className="hover:underline">
-              Mentions légales
+              Aviso legal
             </Link>
           </p>
         </div>

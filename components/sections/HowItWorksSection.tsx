@@ -3,21 +3,21 @@ import SectionHeader from '@/components/ui/SectionHeader';
 const steps = [
   {
     number: '01',
-    title: 'Choisissez votre forfait IPTV',
+    title: 'Elige tu plan IPTV',
     description:
-      'Sélectionnez l\'abonnement qui correspond à votre durée, votre appareil et votre usage.',
+      'Selecciona la suscripción que se adapta a tu duración, dispositivo y uso.',
   },
   {
     number: '02',
-    title: 'Indiquez votre appareil et votre contact WhatsApp',
+    title: 'Indica tu dispositivo y tu contacto de WhatsApp',
     description:
-      'Nous vous envoyons les informations adaptées à votre configuration et à votre application IPTV.',
+      'Te enviamos la información adaptada a tu configuración y a tu aplicación IPTV.',
   },
   {
     number: '03',
-    title: 'Recevez vos informations via WhatsApp',
+    title: 'Recibe tus datos por WhatsApp',
     description:
-      'Après votre demande, notre équipe vous contacte sur WhatsApp pour finaliser votre abonnement et vous envoyer les informations nécessaires.',
+      'Tras tu solicitud, nuestro equipo te contacta por WhatsApp para finalizar tu suscripción y enviarte los datos necesarios.',
   },
 ];
 
@@ -31,9 +31,9 @@ export default function HowItWorksSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          label="Comment ça marche"
-          title="Comment démarrer avec VivaceTV ?"
-          description="En quelques étapes simples, vous pouvez choisir votre forfait, recevoir vos accès et commencer à regarder sur votre appareil préféré."
+          label="Cómo funciona"
+          title="¿Cómo empezar con VivaceTV?"
+          description="En unos pocos pasos sencillos puedes elegir tu plan, recibir tus accesos y empezar a ver contenido en tu dispositivo favorito."
           className="mb-16"
         />
 

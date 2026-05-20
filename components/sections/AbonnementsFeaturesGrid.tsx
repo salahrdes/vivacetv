@@ -4,39 +4,39 @@ import SectionHeader from '@/components/ui/SectionHeader';
 const features = [
   {
     icon: <Tv2 size={24} aria-hidden="true" />,
-    title: '+22 000 Chaînes',
+    title: '+22 000 Canales',
     description:
-      'Accédez à plus de 22 000 chaînes françaises et internationales — TNT, sport, cinéma, documentaires et plus encore.',
+      'Accede a más de 22 000 canales españoles e internacionales — TDT, deporte, cine, documentales y mucho más.',
   },
   {
     icon: <Sparkles size={24} aria-hidden="true" />,
-    title: 'Qualité 4K Ultra HD',
+    title: 'Calidad 4K Ultra HD',
     description:
-      'Profitez d\'une image cristalline en SD, HD, 4K et 8K selon votre forfait. Une qualité adaptée à chaque écran.',
+      'Disfruta de una imagen nítida en SD, HD, 4K y 8K según tu plan. Una calidad adaptada a cada pantalla.',
   },
   {
     icon: <Wifi size={24} aria-hidden="true" />,
-    title: 'Connexion Stable',
+    title: 'Conexión Estable',
     description:
-      'Notre infrastructure AntiFreeze 10.0 garantit un flux continu sans coupure ni buffering, même en heure de pointe.',
+      'Nuestra infraestructura AntiFreeze 10.0 garantiza una transmisión continua sin cortes ni buffering, incluso en horas pico.',
   },
   {
     icon: <ShieldCheck size={24} aria-hidden="true" />,
-    title: 'Sécurisé & Privé',
+    title: 'Seguro y Privado',
     description:
-      'Aucun compte à créer, aucun mot de passe. Vos informations restent confidentielles. Pas d\'engagement.',
+      'Sin cuenta que crear, sin contraseña. Tu información permanece confidencial. Sin permanencia.',
   },
   {
     icon: <HeadphonesIcon size={24} aria-hidden="true" />,
-    title: 'Support 24/7',
+    title: 'Soporte 24/7',
     description:
-      'Un conseiller humain disponible à toute heure via WhatsApp — pour l\'installation, la configuration et toute question.',
+      'Un asesor humano disponible a cualquier hora por WhatsApp — para la instalación, la configuración y cualquier consulta.',
   },
   {
     icon: <RefreshCw size={24} aria-hidden="true" />,
-    title: 'Mises à Jour Gratuites',
+    title: 'Actualizaciones Gratuitas',
     description:
-      'Nouvelles chaînes, nouvelles fonctionnalités, nouvelles applications — toutes les mises à jour incluses sans frais.',
+      'Nuevos canales, nuevas funciones, nuevas aplicaciones — todas las actualizaciones incluidas sin coste adicional.',
   },
 ];
 
@@ -50,9 +50,9 @@ export default function AbonnementsFeaturesGrid() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <SectionHeader
-          label="Pourquoi VivaceTV ?"
-          title="Tout ce qu'il vous faut dans un seul abonnement"
-          description="VivaceTV réunit la meilleure sélection de contenu, la plus haute qualité d'image et un support réactif — en un seul forfait IPTV France."
+          label="¿Por qué VivaceTV?"
+          title="Todo lo que necesitas en una sola suscripción"
+          description="VivaceTV reúne la mejor selección de contenido, la más alta calidad de imagen y un soporte reactivo — en un solo plan IPTV España."
           className="mb-14"
         />
 

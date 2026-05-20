@@ -8,14 +8,14 @@ import PageHero from '@/components/ui/PageHero';
 import TestRequestForm from '@/components/sections/TestRequestForm';
 
 export const metadata: Metadata = {
-  title: 'Test IPTV gratuit 24h en France | VivaceTV',
+  title: 'Prueba IPTV Gratis 24h en España | VivaceTV',
   description:
-    "Demandez un test IPTV gratuit 24h avec VivaceTV pour vérifier la compatibilité de votre appareil et découvrir l'expérience avant de choisir votre abonnement.",
-  alternates: { canonical: `${siteConfig.url}/test-gratuit` },
+    'Solicita una prueba IPTV gratis 24h con VivaceTV para comprobar la compatibilidad de tu dispositivo y descubrir la experiencia antes de elegir tu suscripción.',
+  alternates: { canonical: `${siteConfig.url}/prueba-gratis` },
   openGraph: {
-    title: 'Test IPTV gratuit 24h en France | VivaceTV',
-    description: "Testez VivaceTV gratuitement pendant 24h. Aucun paiement, aucun compte requis.",
-    url: `${siteConfig.url}/test-gratuit`,
+    title: 'Prueba IPTV Gratis 24h en España | VivaceTV',
+    description: 'Prueba VivaceTV gratis durante 24h. Sin pago, sin cuenta requerida.',
+    url: `${siteConfig.url}/prueba-gratis`,
     type: 'website',
   },
 };
@@ -23,71 +23,71 @@ export const metadata: Metadata = {
 const benefits = [
   {
     icon: <Tv2 size={22} aria-hidden="true" />,
-    title: 'Vérification de la compatibilité',
-    desc: 'Testez VivaceTV sur votre appareil exact avant de vous engager.',
+    title: 'Verificación de compatibilidad',
+    desc: 'Prueba VivaceTV en tu dispositivo exacto antes de comprometerte.',
   },
   {
     icon: <MessageCircle size={22} aria-hidden="true" />,
-    title: "Assistance à l'installation",
-    desc: "Notre équipe vous guide en temps réel via WhatsApp pour l'installation.",
+    title: 'Asistencia en la instalación',
+    desc: 'Nuestro equipo te guía en tiempo real por WhatsApp para la instalación.',
   },
   {
     icon: <Zap size={22} aria-hidden="true" />,
-    title: 'Expérience HD/4K',
-    desc: "Profitez d'un aperçu de la qualité selon votre appareil et votre connexion.",
+    title: 'Experiencia HD/4K',
+    desc: 'Disfruta de una vista previa de la calidad según tu dispositivo y conexión.',
   },
   {
     icon: <UserX size={22} aria-hidden="true" />,
-    title: 'Aucun compte client',
-    desc: "Pas d'inscription, pas de mot de passe. Juste un accès de test 24h.",
+    title: 'Sin cuenta de cliente',
+    desc: 'Sin registro, sin contraseña. Solo un acceso de prueba de 24h.',
   },
   {
     icon: <Shield size={22} aria-hidden="true" />,
-    title: 'Sans engagement',
-    desc: "Le test expire automatiquement. Aucun paiement, aucun renouvellement automatique.",
+    title: 'Sin compromiso',
+    desc: 'La prueba expira automáticamente. Sin pago, sin renovación automática.',
   },
   {
     icon: <MessageCircle size={22} aria-hidden="true" />,
-    title: 'Réponse rapide via WhatsApp',
-    desc: 'Vous recevez vos accès en quelques minutes directement sur WhatsApp.',
+    title: 'Respuesta rápida por WhatsApp',
+    desc: 'Recibes tus accesos en pocos minutos directamente en WhatsApp.',
   },
 ];
 
 const steps = [
-  { n: 1, title: 'Remplissez le formulaire', desc: "Indiquez votre nom, votre numéro WhatsApp et le type d'appareil." },
-  { n: 2, title: 'Indiquez votre appareil', desc: 'Smart TV, Firestick, Android, iPhone, PC — nous adaptons la configuration.' },
-  { n: 3, title: 'Recevez les instructions', desc: "Notre équipe vous envoie vos accès et un guide d'installation via WhatsApp." },
-  { n: 4, title: 'Testez pendant 24h', desc: 'Profitez librement du service. Choisissez ensuite le forfait qui vous convient.' },
+  { n: 1, title: 'Rellena el formulario', desc: 'Indica tu nombre, tu número de WhatsApp y el tipo de dispositivo.' },
+  { n: 2, title: 'Indica tu dispositivo', desc: 'Smart TV, Firestick, Android, iPhone, PC — adaptamos la configuración.' },
+  { n: 3, title: 'Recibe las instrucciones', desc: 'Nuestro equipo te envía tus accesos y una guía de instalación por WhatsApp.' },
+  { n: 4, title: 'Prueba durante 24h', desc: 'Disfruta libremente del servicio. Elige después la tarifa que más te convenga.' },
 ];
 
 const testFaq = [
   {
-    q: 'Le test gratuit est-il vraiment sans engagement ?',
-    a: "Oui, totalement. L'accès test expire après 24 heures sans aucun frais ni renouvellement automatique.",
+    q: '¿La prueba gratuita es realmente sin compromiso?',
+    a: 'Sí, totalmente. El acceso de prueba expira después de 24 horas sin ningún cargo ni renovación automática.',
   },
   {
-    q: 'Dois-je créer un compte pour le test ?',
-    a: 'Non. Aucun compte, aucun mot de passe. Vous recevez des identifiants temporaires directement via WhatsApp.',
+    q: '¿Tengo que crear una cuenta para la prueba?',
+    a: 'No. Sin cuenta, sin contraseña. Recibes credenciales temporales directamente por WhatsApp.',
   },
   {
-    q: 'Quels appareils sont compatibles pour le test ?',
-    a: 'Le test est disponible sur Smart TV Samsung/LG, Fire TV Stick, Android, iPhone/iPad, PC Windows, Mac et Apple TV.',
+    q: '¿Qué dispositivos son compatibles para la prueba?',
+    a: 'La prueba está disponible en Smart TV Samsung/LG, Fire TV Stick, Android, iPhone/iPad, PC Windows, Mac y Apple TV.',
   },
   {
-    q: 'Comment vais-je recevoir les informations de connexion ?',
-    a: "Notre équipe vous envoie l'URL du serveur, votre nom d'utilisateur et votre mot de passe directement sur WhatsApp.",
+    q: '¿Cómo recibiré la información de conexión?',
+    a: 'Nuestro equipo te envía la URL del servidor, tu nombre de usuario y tu contraseña directamente por WhatsApp.',
   },
   {
-    q: 'Combien de temps dure le test ?',
-    a: "24 heures à partir de l'activation. Suffisant pour vérifier la qualité, la stabilité et la compatibilité.",
+    q: '¿Cuánto dura la prueba?',
+    a: '24 horas a partir de la activación. Suficiente para verificar la calidad, la estabilidad y la compatibilidad.',
   },
   {
-    q: "Puis-je obtenir de l'aide pour l'installation pendant le test ?",
-    a: 'Oui, notre support est disponible pendant toute la durée du test via WhatsApp pour vous guider.',
+    q: '¿Puedo obtener ayuda con la instalación durante la prueba?',
+    a: 'Sí, nuestro soporte está disponible durante toda la duración de la prueba por WhatsApp para guiarte.',
   },
 ];
 
-export default function TestGratuitPage() {
+export default function PruebaGratisPage() {
   return (
     <>
       <Header />
@@ -95,10 +95,10 @@ export default function TestGratuitPage() {
 
         {/* Hero */}
         <PageHero
-          label="Test gratuit 24h"
-          title="Test IPTV gratuit 24h"
-          titleHighlight="avec VivaceTV"
-          subtitle="Vérifiez la compatibilité de votre appareil et découvrez l'expérience VivaceTV avant de choisir votre abonnement IPTV France."
+          label="Prueba gratis 24h"
+          title="Prueba IPTV gratis 24h"
+          titleHighlight="con VivaceTV"
+          subtitle="Comprueba la compatibilidad de tu dispositivo y descubre la experiencia VivaceTV antes de elegir tu suscripción IPTV España."
         >
           <div className="flex flex-col sm:flex-row gap-3 mt-2">
             <a
@@ -106,21 +106,21 @@ export default function TestGratuitPage() {
               className="inline-flex items-center justify-center px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
               style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
             >
-              Demander mon test gratuit
+              Solicitar mi prueba gratis
             </a>
             <a
-              href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite un test gratuit 24h')}
+              href={buildWhatsAppUrl('Hola VivaceTV, quiero una prueba gratis de 24h')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:bg-white/10"
               style={{ color: 'var(--color-surface)', border: '1.5px solid rgba(255,255,255,0.15)' }}
             >
-              Via WhatsApp directement
+              Por WhatsApp directamente
             </a>
           </div>
         </PageHero>
 
-        {/* ── Benefits ────────────────────────────────────────────────────── */}
+        {/* ── Beneficios ────────────────────────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -132,14 +132,14 @@ export default function TestGratuitPage() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
                 style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
               >
-                Ce que vous obtenez
+                Lo que obtienes
               </span>
               <h2
                 id="benefits-heading"
                 className="font-display font-extrabold text-3xl sm:text-4xl leading-tight"
                 style={{ color: 'var(--color-ink)' }}
               >
-                Pourquoi tester avant de s&apos;abonner ?
+                ¿Por qué probar antes de suscribirte?
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -165,7 +165,7 @@ export default function TestGratuitPage() {
           </div>
         </section>
 
-        {/* ── How it works ────────────────────────────────────────────────── */}
+        {/* ── Cómo funciona ────────────────────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -177,9 +177,9 @@ export default function TestGratuitPage() {
               className="font-display font-extrabold text-3xl sm:text-4xl text-center mb-12 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment ça marche ?
+              ¿Cómo funciona?
             </h2>
-            <ol className="flex flex-col gap-5" aria-label="Étapes pour obtenir le test gratuit">
+            <ol className="flex flex-col gap-5" aria-label="Pasos para obtener la prueba gratis">
               {steps.map((step) => (
                 <li key={step.n} className="flex gap-5 items-start">
                   <div
@@ -202,7 +202,7 @@ export default function TestGratuitPage() {
           </div>
         </section>
 
-        {/* ── Form ────────────────────────────────────────────────────────── */}
+        {/* ── Formulario ────────────────────────────────────────────────────── */}
         <section
           id="test-form"
           className="py-16 lg:py-24"
@@ -216,10 +216,10 @@ export default function TestGratuitPage() {
                 className="font-display font-extrabold text-3xl sm:text-4xl mb-3 leading-tight"
                 style={{ color: 'var(--color-ink)' }}
               >
-                Demander mon test gratuit
+                Solicitar mi prueba gratis
               </h2>
               <p className="text-base" style={{ color: 'var(--color-ink-light)' }}>
-                Remplissez le formulaire ci-dessous et notre équipe vous contacte via WhatsApp en quelques minutes.
+                Rellena el formulario y nuestro equipo te contacta por WhatsApp en pocos minutos.
               </p>
             </div>
             <TestRequestForm />
@@ -238,7 +238,7 @@ export default function TestGratuitPage() {
               className="font-display font-extrabold text-2xl sm:text-3xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions sur le test gratuit
+              Preguntas sobre la prueba gratis
             </h2>
             <div className="flex flex-col gap-3">
               {testFaq.map((item, i) => (
@@ -268,7 +268,7 @@ export default function TestGratuitPage() {
           </div>
         </section>
 
-        {/* ── Pourquoi tester VivaceTV ─────────────────────────────────── */}
+        {/* ── Por qué probar VivaceTV ─────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -280,44 +280,44 @@ export default function TestGratuitPage() {
               className="font-display font-extrabold text-2xl sm:text-3xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi tester VivaceTV gratuitement ?
+              ¿Por qué probar VivaceTV gratis?
             </h2>
             <div className="flex flex-col gap-5 text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
               <p>
-                Avant de souscrire un abonnement IPTV, il est essentiel de s&apos;assurer que le service fonctionne parfaitement sur votre appareil et avec votre connexion internet. VivaceTV propose un accès test gratuit de 24 heures pour vous permettre de tout vérifier sans prendre le moindre risque financier.
+                Antes de suscribirte a un servicio IPTV, es fundamental asegurarte de que el servicio funciona perfectamente en tu dispositivo y con tu conexión a internet. VivaceTV ofrece un acceso de prueba gratuito de 24 horas para que puedas verificarlo todo sin ningún riesgo económico.
               </p>
               <p>
-                Durant ces 24 heures, vous accédez aux mêmes chaînes et fonctionnalités que les abonnés payants : chaînes françaises, internationales, sportives en HD et 4K, ainsi que le replay sur les chaînes disponibles. C&apos;est l&apos;occasion idéale de tester la stabilité du signal, la fluidité des flux et la qualité d&apos;image sur votre téléviseur, votre smartphone ou votre PC.
+                Durante estas 24 horas, accedes a los mismos canales y funcionalidades que los suscriptores de pago: canales españoles, internacionales, deportivos en HD y 4K, así como la función de replay en los canales disponibles. Es la ocasión ideal para probar la estabilidad de la señal, la fluidez de los streams y la calidad de imagen en tu televisión, smartphone o PC.
               </p>
               <p>
-                Notre équipe de support est disponible pendant toute la durée du test via WhatsApp pour vous aider à configurer votre application IPTV et répondre à vos questions. Si vous rencontrez le moindre problème technique, nous intervenons en temps réel pour vous accompagner jusqu&apos;à ce que tout fonctionne correctement.
+                Nuestro equipo de soporte está disponible durante toda la prueba por WhatsApp para ayudarte a configurar tu aplicación IPTV y responder a tus preguntas. Si encuentras cualquier problema técnico, intervenimos en tiempo real para acompañarte hasta que todo funcione correctamente.
               </p>
             </div>
           </div>
         </section>
 
-        {/* ── Final CTA ───────────────────────────────────────────────────── */}
+        {/* ── CTA Final ───────────────────────────────────────────────────── */}
         <section
           className="py-16 lg:py-20"
           style={{ backgroundColor: 'var(--color-dark)' }}
-          aria-label="Appel à l'action final"
+          aria-label="Llamada a la acción final"
         >
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6">
             <h2
               className="font-display font-extrabold text-3xl sm:text-4xl leading-tight"
               style={{ color: 'var(--color-surface)' }}
             >
-              Prêt à tester <span style={{ color: 'var(--color-lime)' }}>VivaceTV</span> ?
+              ¿Listo para probar <span style={{ color: 'var(--color-lime)' }}>VivaceTV</span>?
             </h2>
             <p className="text-base max-w-xl leading-relaxed" style={{ color: 'var(--color-gray-400)' }}>
-              Obtenez votre test gratuit 24h maintenant. Aucun paiement, aucun engagement, activation sous quelques minutes.
+              Obtén tu prueba gratis de 24h ahora. Sin pago, sin compromiso, activación en pocos minutos.
             </p>
             <a
               href="#test-form"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95"
               style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
             >
-              Demander mon test gratuit
+              Solicitar mi prueba gratis
             </a>
           </div>
         </section>

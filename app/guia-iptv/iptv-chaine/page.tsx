@@ -9,107 +9,107 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Chaînes IPTV : Toutes les Chaînes Disponibles avec VivaceTV | VivaceTV',
+  title: 'Canales IPTV : Todos los Canales Disponibles con VivaceTV | VivaceTV',
   description:
-    "Quelles chaînes sont disponibles en IPTV ? +22 000 chaînes : françaises (TF1, M6, Canal+), sports (beIN, RMC), internationales, arabes. Liste complète VivaceTV.",
+    "¿Qué canales están disponibles en IPTV? +22.000 canales: españoles (La 1, Antena 3, Telecinco), deportes (DAZN, Movistar+), internacionales, árabes. Lista completa VivaceTV.",
   keywords: [
-    'iptv chaine',
-    'chaine iptv',
-    'liste chaine iptv',
-    'chaine française iptv',
-    'chaine arabe iptv',
-    'chaine sport iptv',
-    'bein sports iptv',
-    'canal plus iptv',
+    'iptv canales',
+    'canales iptv',
+    'lista canales iptv',
+    'canales españoles iptv',
+    'canales arabes iptv',
+    'canales deporte iptv',
+    'dazn iptv',
+    'movistar plus iptv',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/iptv-chaine` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-chaine` },
   openGraph: {
-    title: 'Chaînes IPTV : Toutes les Chaînes Disponibles avec VivaceTV | VivaceTV',
+    title: 'Canales IPTV : Todos los Canales Disponibles con VivaceTV | VivaceTV',
     description:
-      "Découvrez les +22 000 chaînes disponibles avec VivaceTV : françaises, sportives, internationales, arabes et médiathèque VOD.",
-    url: `${siteConfig.url}/guide-iptv/iptv-chaine`,
+      "Descubrid los +22.000 canales disponibles con VivaceTV: españoles, deportivos, internacionales, árabes y mediateca VOD.",
+    url: `${siteConfig.url}/guia-iptv/iptv-chaine`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "Combien de chaînes françaises sont disponibles en IPTV ?",
+    question: "¿Cuántos canales españoles están disponibles en IPTV?",
     answer:
-      "VivaceTV propose l'intégralité des chaînes françaises gratuites (TF1, France 2, France 3, France 4, France 5, M6, C8, TMC, TFX, W9, Arte, LCI, BFM TV, CNews, etc.) et des chaînes payantes (Canal+, Canal+ Cinéma, Canal+ Sport, beIN Sports 1/2/3, RMC Sport 1/2, OCS, etc.). Au total, plus de 500 chaînes françaises sont disponibles.",
+      "VivaceTV ofrece la totalidad de los canales españoles en abierto (La 1, La 2, Antena 3, Telecinco, Cuatro, La Sexta, La 7, FDF, Neox, Energy, Divinity, Be Mad, etc.) y canales de pago (Movistar+, DAZN, LaLiga TV, etc.). En total, más de 500 canales españoles están disponibles.",
   },
   {
-    question: "Est-ce que Canal+ est disponible en IPTV ?",
+    question: "¿Está Movistar+ disponible en IPTV?",
     answer:
-      "Oui, Canal+ et ses déclinaisons (Canal+ Cinéma, Canal+ Séries, Canal+ Sport) font partie des chaînes disponibles sur VivaceTV. Vous accédez à ces chaînes premium sans avoir à souscrire un abonnement Canal+ séparé — elles sont incluses dans votre abonnement VivaceTV.",
+      "Sí, Movistar+ y sus canales (Movistar Cine, Movistar Series, Movistar Deportes) forman parte de los canales disponibles en VivaceTV. Accedéis a estos canales premium sin necesidad de suscribiros por separado a Movistar — están incluidos en vuestra suscripción VivaceTV.",
   },
   {
-    question: "Y a-t-il des chaînes arabes disponibles en IPTV ?",
+    question: "¿Hay canales árabes disponibles en IPTV?",
     answer:
-      "Oui, VivaceTV propose un vaste catalogue de chaînes arabes : MBC 1, MBC 2, MBC Drama, Al Jazeera, Rotana, Bein Sport Arabic, Dubai TV, Abu Dhabi TV, et des centaines d'autres chaînes du Moyen-Orient et d'Afrique du Nord. Le pack arabophone est l'un des plus complets du marché.",
+      "Sí, VivaceTV ofrece un amplio catálogo de canales árabes: MBC 1, MBC 2, MBC Drama, Al Jazeera, Rotana, Bein Sport Arabic, Dubai TV, Abu Dhabi TV, y cientos de otros canales de Oriente Medio y el Norte de África. El paquete arabófono es uno de los más completos del mercado.",
   },
   {
-    question: "L'IPTV inclut-il des chaînes de sport ?",
+    question: "¿El IPTV incluye canales deportivos?",
     answer:
-      "Oui, les chaînes sportives sont l'un des points forts de l'IPTV. VivaceTV inclut beIN Sports 1, 2 et 3, RMC Sport 1 et 2, Canal+ Sport, Eurosport 1 et 2, L'Équipe TV, mais aussi des chaînes sportives internationales comme Sky Sports, BT Sport, DAZN et des chaînes dédiées à la Premier League, la Serie A, la Bundesliga et la NBA.",
+      "Sí, los canales deportivos son uno de los puntos fuertes del IPTV. VivaceTV incluye DAZN, LaLiga TV, Movistar Deportes, Eurosport 1 y 2, beIN Sports, pero también canales deportivos internacionales como Sky Sports, BT Sport y canales dedicados a la Premier League, Serie A, Bundesliga y NBA.",
   },
   {
-    question: "Puis-je voir la liste complète des chaînes avant de m'abonner ?",
+    question: "¿Puedo ver la lista completa de canales antes de suscribirme?",
     answer:
-      "Oui, VivaceTV peut vous fournir une liste de chaînes représentative sur simple demande via WhatsApp avant votre souscription. Nous proposons également un test gratuit de 24 heures pour que vous puissiez vérifier par vous-même la disponibilité et la qualité des chaînes qui vous intéressent.",
+      "Sí, VivaceTV puede proporcionaros una lista de canales representativa bajo petición por WhatsApp antes de vuestra suscripción. También ofrecemos una prueba gratuita de 24 horas para que podáis comprobar por vosotros mismos la disponibilidad y la calidad de los canales que os interesan.",
   },
   {
-    question: "Les chaînes IPTV sont-elles en HD ou en 4K ?",
+    question: "¿Los canales IPTV están en HD o en 4K?",
     answer:
-      "La majorité des chaînes VivaceTV est disponible en HD (1080p). Les grandes chaînes sportives et les chaînes premium (Canal+, beIN Sports) sont disponibles en 4K UHD. Les chaînes locales et étrangères moins récentes peuvent être en 720p ou Full HD. Le catalogue 4K s'élargit continuellement.",
+      "La mayoría de los canales VivaceTV están disponibles en HD (1080p). Los grandes canales deportivos y los canales premium (Movistar+, DAZN) están disponibles en 4K UHD. Los canales locales y extranjeros menos recientes pueden estar en 720p o Full HD. El catálogo 4K se amplía continuamente.",
   },
 ];
 
-const frenchChannels = [
-  { category: 'Chaînes gratuites TNT', channels: ['TF1', 'France 2', 'France 3', 'France 4', 'France 5', 'M6', 'Arte', 'C8', 'W9', 'TMC', 'TFX', 'TPMP TV', '6ter', 'Gulli', 'France Ô'] },
-  { category: "Chaînes d'info", channels: ['BFM TV', 'CNews', 'LCI', 'France Info TV', 'BFM Business', 'RMC Découverte'] },
-  { category: 'Chaînes premium', channels: ['Canal+', 'Canal+ Cinéma', 'Canal+ Séries', 'OCS Max', 'OCS City', 'OCS Choc', 'OCS Géants'] },
+const spanishChannels = [
+  { category: 'Canales en abierto TDT', channels: ['La 1', 'La 2', 'Antena 3', 'Telecinco', 'Cuatro', 'La Sexta', 'La 7', 'FDF', 'Neox', 'Energy', 'Divinity', 'Be Mad', 'Paramount Network', 'TRECE'] },
+  { category: 'Canales de noticias', channels: ['24h (RTVE)', 'La Sexta Noticias 24h', 'Euronews España', 'CNN en Español', 'TVE Internacional', 'Canal 24 Horas'] },
+  { category: 'Canales premium', channels: ['Movistar+', 'Movistar Cine', 'Movistar Series', 'DAZN', 'LaLiga TV', 'Canal+ España'] },
 ];
 
 const sportChannels = [
-  'beIN Sports 1', 'beIN Sports 2', 'beIN Sports 3',
-  'RMC Sport 1', 'RMC Sport 2',
-  'Canal+ Sport', 'Canal+ Sport 2', 'Canal+ Sport 3',
-  'Eurosport 1', 'Eurosport 2', "L'Équipe TV",
+  'DAZN 1', 'DAZN 2', 'DAZN 3',
+  'LaLiga TV', 'LaLiga TV Bar',
+  'Movistar Deportes', 'Movistar Deportes 2',
+  'Eurosport 1', 'Eurosport 2', 'Canal+ Deportes',
   'Sky Sports Main Event', 'Sky Sports Football',
   'BT Sport 1', 'BT Sport 2', 'BT Sport 3',
-  'DAZN', 'NBA TV', 'NFL Network',
+  'beIN Sports', 'NBA TV', 'NFL Network',
 ];
 
 const internationalPacks = [
   {
-    region: 'Arabophone',
-    channels: '+500 chaînes',
+    region: 'Arabófono',
+    channels: '+500 canales',
     examples: 'MBC 1/2/Drama/4, Al Jazeera, Rotana, Bein Sport Arabic, Dubai TV, Abu Dhabi TV',
   },
   {
-    region: 'Anglophone (UK/US)',
-    channels: '+300 chaînes',
+    region: 'Anglófono (UK/US)',
+    channels: '+300 canales',
     examples: 'BBC One/Two/Three, ITV, Channel 4, Sky One, Sky Atlantic, HBO, CNN, Fox News',
   },
   {
-    region: 'Hispanophone',
-    channels: '+200 chaînes',
-    examples: 'Antena 3, Telecinco, La 1, La 2, TV3 Cataluña, Canal Sur, Univision, Telemundo',
+    region: 'Latinoamérica',
+    channels: '+200 canales',
+    examples: 'Televisa, TV Azteca, Canal 13, Univision, Telemundo, RCN, Caracol, Canal América',
   },
   {
-    region: 'Italophone',
-    channels: '+150 chaînes',
+    region: 'Italófono',
+    channels: '+150 canales',
     examples: 'RAI 1/2/3, Canale 5, Italia 1, Rete 4, Sky Italia, Mediaset Premium',
   },
   {
-    region: 'Germanophone',
-    channels: '+100 chaînes',
+    region: 'Germanófono',
+    channels: '+100 canales',
     examples: 'ARD, ZDF, RTL, Sat.1, ProSieben, VOX, ORF 1/2, SRF 1/2',
   },
   {
-    region: 'Turcophone',
-    channels: '+100 chaînes',
+    region: 'Turcófono',
+    channels: '+100 canales',
     examples: 'TRT 1, Kanal D, ATV, Fox TV Turkey, Show TV, Star TV',
   },
 ];
@@ -119,9 +119,9 @@ export default function IPTVChainePage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: 'Chaînes IPTV', href: '/guide-iptv/iptv-chaine' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: 'Canales IPTV', href: '/guia-iptv/iptv-chaine' },
         ]}
       />
       <script
@@ -142,39 +142,39 @@ export default function IPTVChainePage() {
 
       <main id="main-content">
         <PageHero
-          label="CATALOGUE CHAÎNES"
-          title="Chaînes IPTV :"
-          titleHighlight="Toutes les Chaînes Disponibles avec VivaceTV"
-          subtitle="+22 000 chaînes françaises, sportives et internationales. Découvrez l'intégralité du catalogue VivaceTV et comment l'IPTV dépasse largement le câble ou le satellite."
+          label="CATÁLOGO DE CANALES"
+          title="Canales IPTV:"
+          titleHighlight="Todos los Canales Disponibles con VivaceTV"
+          subtitle="+22.000 canales españoles, deportivos e internacionales. Descubrid el catálogo completo VivaceTV y cómo el IPTV supera ampliamente al cable o al satélite."
         />
 
-        {/* Section 1 — Vue d'ensemble */}
+        {/* Section 1 — Visión general */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Combien de Chaînes Propose l'IPTV ?
+              ¿Cuántos Canales Ofrece el IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Un abonnement IPTV offre un catalogue de chaînes sans commune mesure avec les offres
-              traditionnelles. Là où une box internet classique propose 200 à 400 chaînes et un
-              bouquet satellite premium environ 500 à 1 000 chaînes, VivaceTV met à disposition
-              <strong style={{ color: 'var(--color-ink)' }}> plus de 22 000 chaînes</strong> en live,
-              issues de plus de 100 pays.
+              Una suscripción IPTV ofrece un catálogo de canales sin comparación con las ofertas
+              tradicionales. Mientras que un operador de cable clásico propone entre 200 y 400 canales
+              y un paquete de satélite premium entre 500 y 1.000 canales, VivaceTV pone a vuestra
+              disposición <strong style={{ color: 'var(--color-ink)' }}>más de 22.000 canales</strong> en
+              directo, procedentes de más de 100 países.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Cette richesse s'explique par la nature même de l'IPTV : contrairement au satellite
-              qui est limité par sa bande de fréquences, l'IPTV est limité uniquement par la capacité
-              des serveurs — et VivaceTV a investi massivement dans une infrastructure capable de
-              maintenir simultanément ces 22 000 flux 24h/24.
+              Esta riqueza se explica por la naturaleza del IPTV: a diferencia del satélite, limitado
+              por su ancho de banda, el IPTV solo está limitado por la capacidad de los servidores —
+              y VivaceTV ha invertido masivamente en una infraestructura capaz de mantener
+              simultáneamente estos 22.000 flujos 24h/24.
             </p>
             <div className="grid sm:grid-cols-3 gap-4 mt-8">
               {[
-                { num: '+22 000', label: 'Chaînes live' },
-                { num: '+160 000', label: 'Films & séries VOD' },
-                { num: '+100', label: 'Pays représentés' },
+                { num: '+22.000', label: 'Canales en directo' },
+                { num: '+160.000', label: 'Películas y series VOD' },
+                { num: '+100', label: 'Países representados' },
               ].map((stat) => (
                 <div
                   key={stat.label}
@@ -199,21 +199,21 @@ export default function IPTVChainePage() {
           </div>
         </section>
 
-        {/* Section 2 — Chaînes françaises */}
+        {/* Section 2 — Canales españoles */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Chaînes Françaises Disponibles en IPTV
+              Canales Españoles Disponibles en IPTV
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              L'intégralité des chaînes françaises est disponible avec VivaceTV, des chaînes gratuites
-              de la TNT aux bouquets premium. Voici un aperçu :
+              La totalidad de los canales españoles está disponible con VivaceTV, desde los canales
+              gratuitos de la TDT hasta los paquetes premium. Aquí tenéis una muestra:
             </p>
             <div className="flex flex-col gap-6">
-              {frenchChannels.map((group) => (
+              {spanishChannels.map((group) => (
                 <div
                   key={group.category}
                   style={{
@@ -248,25 +248,25 @@ export default function IPTVChainePage() {
               ))}
             </div>
             <p className="mt-6 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-              Cette liste est non exhaustive. VivaceTV propose également des chaînes régionales
-              françaises, des chaînes thématiques (cuisine, voyage, documentaires, musique) et
-              des chaînes locales.
+              Esta lista no es exhaustiva. VivaceTV ofrece también canales regionales españoles
+              (TV3, Canal Sur, TVG, À Punt, etc.), canales temáticos (cocina, viajes, documentales,
+              música) y canales locales.
             </p>
           </div>
         </section>
 
-        {/* Section 3 — International */}
+        {/* Section 3 — Internacional */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Chaînes Internationales : Un Catalogue Mondial
+              Canales Internacionales: Un Catálogo Mundial
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV est particulièrement adapté aux foyers multiculturels en France. Nos packs
-              internationaux couvrent les grandes communautés présentes sur le territoire français :
+              VivaceTV es especialmente adecuado para hogares multiculturales en España. Nuestros
+              paquetes internacionales cubren las grandes comunidades presentes en el territorio español:
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               {internationalPacks.map((pack) => (
@@ -302,19 +302,19 @@ export default function IPTVChainePage() {
           </div>
         </section>
 
-        {/* Section 4 — Sport */}
+        {/* Section 4 — Deporte */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Chaînes Sport : Les Meilleures Chaînes Sportives en IPTV
+              Canales Deporte: Los Mejores Canales Deportivos en IPTV
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Le sport est la grande force de l'IPTV. Accédez aux plus grandes compétitions mondiales
-              — Ligue des Champions, Premier League, Formule 1, Roland-Garros, NBA, NFL — sans
-              multiplier les abonnements. Voici les chaînes sportives disponibles avec VivaceTV :
+              El deporte es el gran punto fuerte del IPTV. Acceded a las mayores competiciones mundiales
+              — Champions League, LaLiga, Fórmula 1, Roland Garros, NBA, NFL — sin multiplicar las
+              suscripciones. Aquí están los canales deportivos disponibles con VivaceTV:
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               {sportChannels.map((ch) => (
@@ -332,9 +332,9 @@ export default function IPTVChainePage() {
               ))}
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Notre technologie AntiFreeze 10.0 garantit un streaming sans interruption même lors
-              des pics de trafic — finales de Ligue des Champions, Coupe du Monde, Roland-Garros.
-              Vous ne manquerez plus jamais un but ou un point décisif à cause d'un freeze.
+              Nuestra tecnología AntiFreeze 10.0 garantiza un streaming sin interrupciones incluso
+              en los picos de tráfico — finales de Champions League, Copa del Mundo, Roland Garros.
+              Nunca volveréis a perderos un gol o un punto decisivo por culpa de un corte.
             </p>
           </div>
         </section>
@@ -346,31 +346,31 @@ export default function IPTVChainePage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Médiathèque VOD et Replay : +160 000 Contenus
+              Mediateca VOD y Replay: +160.000 Contenidos
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              En plus des chaînes live, VivaceTV propose une médiathèque VOD (Video on Demand) de
-              <strong style={{ color: 'var(--color-ink)' }}> plus de 160 000 films et séries</strong>,
-              accessible à tout moment. C'est l'équivalent de Netflix, Amazon Prime et Disney+ réunis
-              — accessible depuis la même interface que vos chaînes live.
+              Además de los canales en directo, VivaceTV ofrece una mediateca VOD (Video on Demand) de
+              <strong style={{ color: 'var(--color-ink)' }}> más de 160.000 películas y series</strong>,
+              accesible en cualquier momento. Es el equivalente de Netflix, Amazon Prime y Disney+
+              reunidos — accesible desde la misma interfaz que vuestros canales en directo.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le catalogue VOD est organisé par genres (action, comédie, drame, science-fiction,
-              documentaires), par langue et par nouveautés. Les films récents — souvent dans les
-              semaines suivant leur sortie en salle — sont régulièrement ajoutés.
+              El catálogo VOD está organizado por géneros (acción, comedia, drama, ciencia ficción,
+              documentales), por idioma y por novedades. Las películas recientes — a menudo pocas
+              semanas después de su estreno en cines — se añaden regularmente.
             </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Le replay vous permet de revoir les émissions diffusées dans les 7 derniers jours sur
-              les principales chaînes françaises et internationales. Plus besoin de programmer
-              l'enregistrement — tout est disponible à la demande.
+              El replay os permite volver a ver los programas emitidos en los últimos 7 días en los
+              principales canales españoles e internacionales. Sin necesidad de programar la grabación
+              — todo está disponible a la carta.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Accéder au catalogue complet →
+                Acceder al catálogo completo →
               </Link>
               <Link
                 href="/commander/gold"
@@ -381,7 +381,7 @@ export default function IPTVChainePage() {
                   backgroundColor: 'var(--color-card)',
                 }}
               >
-                Essai gratuit 24h →
+                Prueba gratis 24h →
               </Link>
             </div>
           </div>
@@ -394,7 +394,7 @@ export default function IPTVChainePage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Chaînes IPTV
+              Preguntas Frecuentes — Canales IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -422,10 +422,10 @@ export default function IPTVChainePage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
+                { href: '/comprar-iptv', label: 'Ver los planes' },
                 { href: '/iptv-4k', label: 'IPTV 4K' },
-                { href: '/meilleur-iptv', label: 'Comparatif IPTV' },
-                { href: '/guide-iptv/comment-fonctionne-iptv', label: "Comment fonctionne l'IPTV" },
+                { href: '/mejor-iptv-espana', label: 'Comparativa IPTV' },
+                { href: '/guia-iptv/comment-fonctionne-iptv', label: "Cómo funciona el IPTV" },
               ].map((l) => (
                 <Link
                   key={l.href}

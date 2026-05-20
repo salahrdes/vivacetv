@@ -220,7 +220,7 @@ function RenderBlock({ block }: { block: ContentBlock }) {
             className="font-display font-bold text-xl mb-2"
             style={{ color: 'var(--color-ink)' }}
           >
-            Questions fréquentes
+            Preguntas frecuentes
           </h3>
           {block.items.map((item, i) => (
             <div
@@ -262,7 +262,7 @@ function ReadAlso({ posts }: { posts: { slug: string; title: string }[] }) {
         className="text-xs font-semibold uppercase tracking-wider mb-3"
         style={{ color: 'var(--color-gray-600)' }}
       >
-        À lire aussi
+        También te puede interesar
       </p>
       <ul className="flex flex-col gap-1.5">
         {posts.map((p) => (
@@ -283,7 +283,7 @@ function ReadAlso({ posts }: { posts: { slug: string; title: string }[] }) {
 
 /* ─── Formatted date ─────────────────────────────────────────────────────── */
 function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString('fr-FR', {
+  return new Date(iso).toLocaleDateString('es-ES', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
@@ -316,7 +316,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
+          { name: 'Inicio', href: '/' },
           { name: 'Blog', href: '/blog' },
           { name: post.title, href: `/blog/${post.slug}` },
         ]}
@@ -334,9 +334,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
             {/* Breadcrumb */}
-            <nav aria-label="Fil d'Ariane" className="mb-8">
+            <nav aria-label="Miga de pan" className="mb-8">
               <ol className="flex items-center gap-2 text-xs" style={{ color: 'var(--color-gray-600)' }}>
-                <li><Link href="/" className="hover:underline" style={{ color: 'var(--color-gray-400)' }}>Accueil</Link></li>
+                <li><Link href="/" className="hover:underline" style={{ color: 'var(--color-gray-400)' }}>Inicio</Link></li>
                 <li aria-hidden="true">/</li>
                 <li><Link href="/blog" className="hover:underline" style={{ color: 'var(--color-gray-400)' }}>Blog</Link></li>
                 <li aria-hidden="true">/</li>
@@ -358,10 +358,10 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
               </span>
               <span className="flex items-center gap-1.5 text-xs" style={{ color: 'var(--color-gray-400)' }}>
                 <Clock size={12} aria-hidden="true" />
-                {post.readTime} de lecture
+                {post.readTime} de lectura
               </span>
               <span className="text-xs" style={{ color: 'var(--color-gray-400)' }}>
-                Par {post.author}
+                Por {post.author}
               </span>
             </div>
 
@@ -437,19 +437,19 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
                 }}
               >
                 <p className="text-lg font-semibold mb-2" style={{ color: 'var(--color-ink)' }}>
-                  Article complet bientôt disponible
+                  Artículo completo próximamente
                 </p>
                 <p className="text-sm mb-6" style={{ color: 'var(--color-ink-light)' }}>
                   {post.excerpt}
                 </p>
                 <a
-                  href={buildWhatsAppUrl(`Bonjour VivaceTV, j'ai une question sur : ${post.title}`)}
+                  href={buildWhatsAppUrl(`Hola VivaceTV, tengo una pregunta sobre: ${post.title}`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm"
                   style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
                 >
-                  Poser une question via WhatsApp
+                  Hacer una pregunta por WhatsApp
                 </a>
               </div>
             )}
@@ -462,7 +462,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
                 style={{ color: 'var(--color-ink-light)' }}
               >
                 <ArrowLeft size={15} aria-hidden="true" />
-                Retour au blog
+                Volver al blog
               </Link>
             </div>
           </div>
@@ -488,7 +488,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ sl
                 className="font-display font-bold text-2xl mb-8"
                 style={{ color: 'var(--color-ink)' }}
               >
-                Articles similaires
+                Artículos similares
               </h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {similar.map((p) => (

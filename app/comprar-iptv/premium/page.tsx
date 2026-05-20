@@ -9,51 +9,51 @@ import FinalCTA from '@/components/sections/FinalCTA';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Abonnement IPTV Premium France — HD, 4K & 8K Ultra | VivaceTV',
+  title: 'Suscripción IPTV Premium España — HD, 4K y 8K Ultra | VivaceTV',
   description:
-    'Profitez de l\'abonnement IPTV premium VivaceTV : +22 000 chaînes en HD, 4K et 8K, +160 000 films et séries, stabilité 99,9%. Activation rapide via WhatsApp dès 22,99€.',
+    'Disfruta de la suscripción IPTV premium VivaceTV: +22.000 canales en HD, 4K y 8K, +160.000 películas y series, estabilidad 99,9%. Activación rápida por WhatsApp desde 22,99€.',
   keywords: [
     'premium iptv',
-    'abonnement iptv premium',
+    'suscripción iptv premium',
     'iptv hd 4k 8k',
-    'meilleur iptv france',
-    'iptv qualité premium',
+    'mejor iptv españa',
+    'iptv calidad premium',
   ],
-  alternates: { canonical: `${siteConfig.url}/abonnements/premium` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv/premium` },
   openGraph: {
-    title: 'Abonnement IPTV Premium France — HD, 4K & 8K Ultra | VivaceTV',
+    title: 'Suscripción IPTV Premium España — HD, 4K y 8K Ultra | VivaceTV',
     description:
-      'Abonnement IPTV premium VivaceTV : +22 000 chaînes HD/4K/8K, +160 000 films et séries, stabilité 99,9%. Dès 22,99€ via WhatsApp.',
-    url: `${siteConfig.url}/abonnements/premium`,
+      'Suscripción IPTV premium VivaceTV: +22.000 canales HD/4K/8K, +160.000 películas y series, estabilidad 99,9%. Desde 22,99€ por WhatsApp.',
+    url: `${siteConfig.url}/comprar-iptv/premium`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "Qu'est-ce qui différencie un abonnement IPTV premium d'un abonnement basique ?",
+    question: '¿Qué diferencia una suscripción IPTV premium de una básica?',
     answer:
-      "Un abonnement IPTV premium offre une qualité d'image supérieure (HD, 4K, 8K), une plus grande bibliothèque de contenu, une meilleure stabilité serveur et un support client prioritaire. Chez VivaceTV, même notre offre d'entrée de gamme inclut la qualité 4K, mais nos abonnements longs (Gold et Diamond) offrent un accès à +160 000 films et séries versus +60 000 pour le Bronze.",
+      'Una suscripción IPTV premium ofrece una calidad de imagen superior (HD, 4K, 8K), una biblioteca de contenido más amplia, mejor estabilidad del servidor y soporte al cliente prioritario. En VivaceTV, incluso nuestra oferta de entrada incluye calidad 4K, pero las suscripciones largas (Gold y Diamond) ofrecen acceso a +160.000 películas y series frente a +60.000 del Bronze.',
   },
   {
-    question: "L'abonnement IPTV premium VivaceTV est-il compatible avec ma Smart TV ?",
+    question: '¿La suscripción IPTV premium VivaceTV es compatible con mi Smart TV?',
     answer:
-      'Oui, VivaceTV est compatible avec toutes les Smart TV (Samsung, LG, Philips, Sony), les boîtiers Android TV, Fire TV Stick, Apple TV, ainsi que PC Windows/Mac, iPhone et iPad. Aucun matériel spécifique n\'est requis.',
+      'Sí, VivaceTV es compatible con todas las Smart TV (Samsung, LG, Philips, Sony), los decodificadores Android TV, Fire TV Stick, Apple TV, así como PC Windows/Mac, iPhone e iPad. No se requiere ningún hardware específico.',
   },
   {
-    question: "Combien de connexions simultanées inclut l'abonnement premium ?",
+    question: '¿Cuántas conexiones simultáneas incluye la suscripción premium?',
     answer:
-      'Chaque abonnement VivaceTV inclut 1 connexion simultanée. Si vous souhaitez utiliser l\'IPTV sur plusieurs appareils en même temps, nous proposons des solutions adaptées — contactez notre équipe via WhatsApp.',
+      'Cada suscripción VivaceTV incluye 1 conexión simultánea. Si queréis usar IPTV en varios dispositivos al mismo tiempo, ofrecemos soluciones adaptadas — contactad con nuestro equipo por WhatsApp.',
   },
   {
-    question: 'Quelle connexion internet est nécessaire pour profiter de la qualité 4K ?',
+    question: '¿Qué conexión a internet necesito para disfrutar de la calidad 4K?',
     answer:
-      'Pour une expérience IPTV en 4K optimale, nous recommandons une connexion internet d\'au moins 25 Mbps. Pour le HD, 10 Mbps suffisent. La fibre optique garantit la meilleure stabilité.',
+      'Para una experiencia IPTV en 4K óptima, recomendamos una conexión a internet de al menos 25 Mbps. Para HD, 10 Mbps son suficientes. La fibra óptica garantiza la mejor estabilidad.',
   },
   {
-    question: "Puis-je essayer l'abonnement premium avant de m'engager ?",
+    question: '¿Puedo probar la suscripción premium antes de comprometerme?',
     answer:
-      'Oui, VivaceTV propose un test gratuit de 24 heures. Contactez notre équipe via WhatsApp pour en bénéficier et évaluer la qualité sur votre appareil avant de commander.',
+      'Sí, VivaceTV ofrece una prueba gratuita de 24 horas. Contactad con nuestro equipo por WhatsApp para beneficiaros de ella y evaluar la calidad en vuestro dispositivo antes de comprar.',
   },
 ];
 
@@ -61,7 +61,7 @@ const plans = [
   {
     id: 'bronze',
     label: 'Bronze',
-    duration: '3 mois',
+    duration: '3 meses',
     price: '22,99€',
     original: '39,99€',
     discount: '-43%',
@@ -71,7 +71,7 @@ const plans = [
   {
     id: 'silver',
     label: 'Silver',
-    duration: '6 mois',
+    duration: '6 meses',
     price: '34,99€',
     original: '54,99€',
     discount: '-36%',
@@ -81,8 +81,8 @@ const plans = [
   {
     id: 'gold',
     label: 'Gold',
-    sublabel: 'Le Plus Populaire',
-    duration: '12 mois',
+    sublabel: 'El Más Popular',
+    duration: '12 meses',
     price: '44,99€',
     original: '64,99€',
     discount: '-31%',
@@ -92,7 +92,7 @@ const plans = [
   {
     id: 'diamond',
     label: 'Diamond',
-    duration: '24 mois',
+    duration: '24 meses',
     price: '74,99€',
     original: '89,99€',
     discount: '-17%',
@@ -104,29 +104,29 @@ const plans = [
 const testimonials = [
   {
     name: 'Karim B.',
-    location: 'Lyon',
-    text: "J'ai testé plusieurs services IPTV avant VivaceTV. La différence est flagrante : zéro coupure depuis 8 mois, image en 4K impeccable sur ma LG OLED. Le support répond en quelques minutes sur WhatsApp. Vraiment premium.",
+    location: 'Madrid',
+    text: 'He probado varios servicios IPTV antes de VivaceTV. La diferencia es abismal: cero cortes desde hace 8 meses, imagen en 4K impecable en mi LG OLED. El soporte responde en pocos minutos por WhatsApp. Realmente premium.',
   },
   {
     name: 'Nathalie D.',
-    location: 'Marseille',
-    text: "Ce qui m'a convaincu c'est la qualité en 8K sur mon téléviseur Samsung. Les chaînes françaises, arabes et sportives sont toutes là, en HD parfaite. L'abonnement Gold vaut largement son prix pour une année entière.",
+    location: 'Barcelona',
+    text: 'Lo que me convenció fue la calidad en 8K en mi televisor Samsung. Los canales españoles, árabes y deportivos están todos, en HD perfecta. La suscripción Gold merece totalmente su precio para todo un año.',
   },
   {
     name: 'Sébastien M.',
-    location: 'Paris',
-    text: "Après deux ans avec un opérateur classique, je ne reviendrai jamais en arrière. +22 000 chaînes dont toutes les BeIN Sports, Canal+ et les chaînes étrangères. La technologie AntiFreeze fait vraiment la différence pendant les matchs.",
+    location: 'Valencia',
+    text: 'Tras dos años con un operador clásico, nunca volvería atrás. +22.000 canales incluyendo todos los DAZN, Movistar+ y canales extranjeros. La tecnología AntiFreeze marca la diferencia durante los partidos.',
   },
 ];
 
 const allFeatures = [
-  '+22 000 chaînes françaises et internationales',
-  '+160 000 films et séries (Gold & Diamond)',
-  'Qualité SD, HD, 4K et 8K Ultra',
-  'Technologie AntiFreeze 10.0',
-  'TV Replay — regardez en différé',
-  'Assistance 24/7 via WhatsApp',
-  'Activation en moins d\'une heure',
+  '+22.000 canales españoles e internacionales',
+  '+160.000 películas y series (Gold y Diamond)',
+  'Calidad SD, HD, 4K y 8K Ultra',
+  'Tecnología AntiFreeze 10.0',
+  'TV Replay — ve en diferido',
+  'Asistencia 24/7 por WhatsApp',
+  'Activación en menos de una hora',
   'Compatible Smart TV, Android, iOS, PC, Fire TV, Apple TV',
 ];
 
@@ -149,21 +149,21 @@ export default function AbonnementPremiumPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Abonnements', href: '/abonnements' },
-          { name: 'Premium', href: '/abonnements/premium' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Comprar IPTV', href: '/comprar-iptv' },
+          { name: 'Premium', href: '/comprar-iptv/premium' },
         ]}
       />
       <Header />
       <main id="main-content">
         <PageHero
           label="IPTV PREMIUM"
-          title="Abonnement IPTV Premium"
-          titleHighlight="HD, 4K & 8K Sans Coupure"
-          subtitle="La meilleure qualité d'image, la plus grande bibliothèque de contenus, une stabilité serveur inégalée — VivaceTV Premium, c'est l'IPTV sans compromis."
+          title="Suscripción IPTV Premium"
+          titleHighlight="HD, 4K y 8K Sin Cortes"
+          subtitle="La mejor calidad de imagen, la mayor biblioteca de contenidos, una estabilidad de servidor inigualable — VivaceTV Premium, el IPTV sin compromisos."
         />
 
-        {/* ── Section 1 : Qu'est-ce qu'un abonnement IPTV premium ─────────── */}
+        {/* ── Section 1 : Qué es una suscripción IPTV premium ─────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -175,15 +175,17 @@ export default function AbonnementPremiumPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu'est-ce qu'un Abonnement IPTV Premium ?
+              ¿Qué es una Suscripción IPTV Premium?
             </h2>
             <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Un abonnement IPTV premium, c'est bien plus qu'un simple accès à des chaînes de télévision. C'est une
-              expérience de visionnage complète, sans compromis sur la qualité d'image ni sur la stabilité. Chez
-              VivaceTV, notre offre premium repose sur des serveurs haute performance, une technologie anti-freeze
-              exclusive et une bibliothèque colossale de contenus. Finies les coupures en plein match, les pixellisations
-              au moment le plus intense d'un film — notre infrastructure garantit un flux continu, quelle que soit la
-              chaîne regardée. Pour <Link href="/abonnements" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>voir toutes nos offres</Link>, consultez notre page abonnements.
+              Una suscripción IPTV premium es mucho más que un simple acceso a canales de televisión. Es una
+              experiencia de visualización completa, sin compromisos de calidad de imagen ni de estabilidad. En
+              VivaceTV, nuestra oferta premium se basa en servidores de alto rendimiento, una tecnología antifreeze
+              exclusiva y una colosal biblioteca de contenidos. Adiós a los cortes en pleno partido, a las
+              pixelaciones en el momento más intenso de una película — nuestra infraestructura garantiza un flujo
+              continuo, sea cual sea el canal. Para{' '}
+              <Link href="/comprar-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>ver todos nuestros planes</Link>,
+              consultad nuestra página de compra.
             </p>
 
             <div className="flex flex-col gap-10">
@@ -192,14 +194,16 @@ export default function AbonnementPremiumPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Qualité d'image supérieure : HD, 4K et 8K
+                  Calidad de imagen superior: HD, 4K y 8K
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  L'IPTV en qualité HD, 4K et 8K transforme radicalement l'expérience télévisuelle. Là où une offre
-                  basique affiche une image en définition standard souvent dégradée, notre offre premium diffuse des
-                  flux en haute définition vraie — jusqu'à la résolution 8K sur les chaînes compatibles. Chaque détail
-                  est restitué avec précision, que ce soit sur un téléviseur 55 pouces ou sur un écran de projection.
-                  Découvrez notre page dédiée à l'<Link href="/iptv-4k" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>IPTV en qualité 4K</Link> pour en savoir plus.
+                  El IPTV en calidad HD, 4K y 8K transforma radicalmente la experiencia televisiva. Mientras que una
+                  oferta básica muestra una imagen en definición estándar a menudo degradada, nuestra oferta premium
+                  emite flujos en alta definición real — hasta resolución 8K en los canales compatibles. Cada detalle
+                  se restituye con precisión, tanto en un televisor de 55 pulgadas como en una pantalla de proyección.
+                  Descubrid nuestra página dedicada al{' '}
+                  <Link href="/iptv-4k" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>IPTV en calidad 4K</Link>{' '}
+                  para saber más.
                 </p>
               </div>
 
@@ -208,14 +212,14 @@ export default function AbonnementPremiumPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  +22 000 chaînes françaises et internationales
+                  +22.000 canales españoles e internacionales
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Notre catalogue dépasse les 22 000 chaînes couvrant la France entière — TF1, M6, France 2 à 5,
-                  Arte, Canal+, BeIN Sports — ainsi que des centaines de chaînes étrangères : arabes, anglaises,
-                  espagnoles, turques, allemandes et bien d'autres. Chaînes sportives, cinéma, jeunesse, information
-                  en continu : chaque membre de la famille trouve son compte. Les offres Gold et Diamond incluent
-                  également +160 000 films et séries en accès à la demande.
+                  Nuestro catálogo supera los 22.000 canales cubriendo toda España — La 1, La 2, Antena 3, Telecinco,
+                  Cuatro, La Sexta, Movistar+, DAZN — así como cientos de canales extranjeros: árabes, ingleses,
+                  franceses, turcos, alemanes y muchos más. Canales deportivos, cine, infantiles, información continua:
+                  cada miembro de la familia encuentra lo suyo. Las ofertas Gold y Diamond incluyen además +160.000
+                  películas y series en acceso bajo demanda.
                 </p>
               </div>
 
@@ -224,21 +228,21 @@ export default function AbonnementPremiumPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Stabilité serveur 99,9% — Technologie AntiFreeze 10.0
+                  Estabilidad de servidor 99,9% — Tecnología AntiFreeze 10.0
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  La principale plainte des utilisateurs IPTV concerne les freezes et les coupures. VivaceTV a
-                  développé la technologie AntiFreeze 10.0 qui anticipe les congestions réseau et redirige
-                  automatiquement le flux vers le serveur le plus disponible, en temps réel. Résultat : une
-                  disponibilité serveur de 99,9% mesurée sur les 12 derniers mois. Pas de ralentissement en
-                  soirée, pas de coupure lors des événements sportifs à forte audience.
+                  La principal queja de los usuarios IPTV son los freezes y los cortes. VivaceTV ha desarrollado la
+                  tecnología AntiFreeze 10.0 que anticipa las congestiones de red y redirige automáticamente el flujo
+                  hacia el servidor más disponible, en tiempo real. Resultado: una disponibilidad de servidor del 99,9%
+                  medida en los últimos 12 meses. Sin ralentizaciones por la noche, sin cortes durante los eventos
+                  deportivos de gran audiencia.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ── Section 2 : Offres ──────────────────────────────────────────── */}
+        {/* ── Section 2 : Planes ──────────────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -250,10 +254,10 @@ export default function AbonnementPremiumPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-3 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Nos Offres d'Abonnement IPTV Premium
+              Nuestros Planes de Suscripción IPTV Premium
             </h2>
             <p className="text-center text-base mb-12" style={{ color: 'var(--color-ink-light)' }}>
-              Tous les forfaits incluent l'accès complet aux +22 000 chaînes, la qualité HD/4K/8K et l'assistance 24/7.
+              Todos los planes incluyen acceso completo a +22.000 canales, calidad HD/4K/8K y asistencia 24/7.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -334,19 +338,19 @@ export default function AbonnementPremiumPage() {
                       border: plan.featured ? 'none' : '1px solid var(--color-border)',
                     }}
                   >
-                    Choisir ce forfait
+                    Elegir este plan
                   </Link>
                 </div>
               ))}
             </div>
 
             <p className="text-center text-sm mt-8" style={{ color: 'var(--color-ink-light)' }}>
-              Tous les plans incluent : +22 000 chaînes · HD/4K/8K · AntiFreeze 10.0 · TV Replay · Assistance 24/7
+              Todos los planes incluyen: +22.000 canales · HD/4K/8K · AntiFreeze 10.0 · TV Replay · Asistencia 24/7
             </p>
           </div>
         </section>
 
-        {/* ── Section 3 : Premium vs Basique ─────────────────────────────── */}
+        {/* ── Section 3 : Premium vs Básico ─────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -358,17 +362,17 @@ export default function AbonnementPremiumPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi Choisir un Abonnement IPTV Premium Plutôt qu'une Offre Basique ?
+              ¿Por Qué Elegir una Suscripción IPTV Premium en Lugar de una Básica?
             </h2>
             <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Face aux dizaines d'offres disponibles sur le marché, il est tentant de se tourner vers les prix
-              les plus bas. Mais un service IPTV basique peut rapidement devenir frustrant : qualité d'image
-              médiocre, serveurs surchargés, aucun support en cas de problème. Voici ce qui distingue concrètement
-              une offre premium d'une offre d'entrée de gamme. Pour un{' '}
-              <Link href="/meilleur-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                comparatif des meilleurs abonnements IPTV
+              Ante las decenas de ofertas disponibles en el mercado, es tentador optar por los precios más bajos.
+              Pero un servicio IPTV básico puede volverse frustrante rápidamente: calidad de imagen mediocre, servidores
+              sobrecargados, ningún soporte en caso de problema. Aquí lo que diferencia concretamente una oferta premium
+              de una de entrada. Para un{' '}
+              <Link href="/mejor-iptv-espana" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                comparativo de los mejores IPTV España
               </Link>{' '}
-              du marché, consultez notre guide complet.
+              del mercado, consultad nuestra guía completa.
             </p>
 
             <div
@@ -382,13 +386,13 @@ export default function AbonnementPremiumPage() {
                       className="px-5 py-4 text-left font-semibold"
                       style={{ color: 'var(--color-ink)', borderBottom: '1px solid var(--color-border)' }}
                     >
-                      Critère
+                      Criterio
                     </th>
                     <th
                       className="px-5 py-4 text-center font-semibold"
                       style={{ color: 'var(--color-ink-light)', borderBottom: '1px solid var(--color-border)' }}
                     >
-                      IPTV Basique
+                      IPTV Básico
                     </th>
                     <th
                       className="px-5 py-4 text-center font-semibold"
@@ -400,14 +404,14 @@ export default function AbonnementPremiumPage() {
                 </thead>
                 <tbody>
                   {[
-                    { label: 'Qualité vidéo', basic: 'SD / HD variable', premium: 'HD, 4K et 8K garantis' },
-                    { label: 'Nombre de chaînes', basic: '5 000 – 10 000', premium: '+22 000 chaînes' },
-                    { label: 'Films & séries VOD', basic: 'Limité ou absent', premium: '+160 000 titres (Gold/Diamond)' },
-                    { label: 'Stabilité serveur', basic: 'Coupures fréquentes', premium: '99,9% de disponibilité' },
-                    { label: 'Anti-freeze', basic: 'Non', premium: 'Technologie AntiFreeze 10.0' },
-                    { label: 'TV Replay', basic: 'Non', premium: 'Oui, inclus' },
-                    { label: 'Support client', basic: 'Email lent ou absent', premium: 'WhatsApp 24/7' },
-                    { label: 'Activation', basic: 'Parfois plusieurs jours', premium: 'En moins d\'une heure' },
+                    { label: 'Calidad de vídeo', basic: 'SD / HD variable', premium: 'HD, 4K y 8K garantizados' },
+                    { label: 'Número de canales', basic: '5.000 – 10.000', premium: '+22.000 canales' },
+                    { label: 'Películas y series VOD', basic: 'Limitado o inexistente', premium: '+160.000 títulos (Gold/Diamond)' },
+                    { label: 'Estabilidad de servidor', basic: 'Cortes frecuentes', premium: '99,9% de disponibilidad' },
+                    { label: 'Anti-freeze', basic: 'No', premium: 'Tecnología AntiFreeze 10.0' },
+                    { label: 'TV Replay', basic: 'No', premium: 'Sí, incluido' },
+                    { label: 'Soporte al cliente', basic: 'Email lento o inexistente', premium: 'WhatsApp 24/7' },
+                    { label: 'Activación', basic: 'A veces varios días', premium: 'En menos de una hora' },
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -455,7 +459,7 @@ export default function AbonnementPremiumPage() {
           </div>
         </section>
 
-        {/* ── Section 4 : Témoignages ─────────────────────────────────────── */}
+        {/* ── Section 4 : Testimonios ─────────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -467,14 +471,14 @@ export default function AbonnementPremiumPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-3 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Ce Que Nos Clients Disent de l'Abonnement Premium
+              Lo Que Nuestros Clientes Dicen de la Suscripción Premium
             </h2>
             <p className="text-center text-sm mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Lisez également les{' '}
-              <Link href="/avis-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                avis de nos clients
+              Lee también las{' '}
+              <Link href="/opiniones-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                opiniones de nuestros clientes
               </Link>{' '}
-              sur notre page dédiée.
+              en nuestra página dedicada.
             </p>
 
             <div className="grid sm:grid-cols-3 gap-5">
@@ -484,7 +488,7 @@ export default function AbonnementPremiumPage() {
                   className="flex flex-col gap-4 p-6 rounded-2xl"
                   style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)' }}
                 >
-                  <div className="flex gap-1" aria-label="5 étoiles sur 5">
+                  <div className="flex gap-1" aria-label="5 estrellas de 5">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span key={i} style={{ color: 'var(--color-lime)', fontSize: 14 }} aria-hidden="true">★</span>
                     ))}
@@ -514,7 +518,7 @@ export default function AbonnementPremiumPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes sur l'Abonnement IPTV Premium
+              Preguntas Frecuentes sobre la Suscripción IPTV Premium
             </h2>
             <div className="flex flex-col gap-3">
               {faqItems.map((item, i) => (

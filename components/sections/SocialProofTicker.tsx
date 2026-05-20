@@ -4,16 +4,16 @@ import { useEffect, useState } from 'react';
 import { CheckCircle } from 'lucide-react';
 
 const NOTIFICATIONS = [
-  { name: 'Marie L.',    plan: 'Gold',    time: '2 min'  },
-  { name: 'Thomas B.',   plan: 'Silver',  time: '5 min'  },
-  { name: 'Camille R.',  plan: 'Diamond', time: '9 min'  },
-  { name: 'Julien M.',   plan: 'Bronze',  time: '13 min' },
-  { name: 'Sophie D.',   plan: 'Gold',    time: '17 min' },
-  { name: 'Antoine P.',  plan: 'Silver',  time: '21 min' },
-  { name: 'Isabelle F.', plan: 'Gold',    time: '26 min' },
+  { name: 'María L.',    plan: 'Gold',    time: '2 min'  },
+  { name: 'Tomás B.',    plan: 'Silver',  time: '5 min'  },
+  { name: 'Camila R.',   plan: 'Diamond', time: '9 min'  },
+  { name: 'Julián M.',   plan: 'Bronze',  time: '13 min' },
+  { name: 'Sofía D.',    plan: 'Gold',    time: '17 min' },
+  { name: 'Antonio P.',  plan: 'Silver',  time: '21 min' },
+  { name: 'Isabel F.',   plan: 'Gold',    time: '26 min' },
   { name: 'Lucas V.',    plan: 'Diamond', time: '30 min' },
   { name: 'Emma C.',     plan: 'Bronze',  time: '34 min' },
-  { name: 'Nicolas G.',  plan: 'Gold',    time: '38 min' },
+  { name: 'Nicolás G.',  plan: 'Gold',    time: '38 min' },
 ];
 
 export default function SocialProofTicker() {
@@ -48,9 +48,9 @@ export default function SocialProofTicker() {
         <CheckCircle size={18} className="shrink-0" style={{ color: '#22C55E' }} />
         <p className="text-xs leading-snug" style={{ color: 'var(--color-ink-light)' }}>
           <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>{n.name}</span>
-          {' '}vient de commander{' '}
+          {' '}acaba de comprar{' '}
           <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>{n.plan}</span>
-          {' '}· il y a {n.time}
+          {' '}· hace {n.time}
         </p>
       </div>
     </div>

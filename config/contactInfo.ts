@@ -12,7 +12,7 @@ export const deviceOptions = [
   'Fire TV',
   'Roku',
   'Apple TV',
-  'Autre',
+  'Otro',
 ] as const;
 
 export type DeviceOption = (typeof deviceOptions)[number];
@@ -29,24 +29,24 @@ export const contactCards: ContactCard[] = [
     icon: 'whatsapp',
     title: 'WhatsApp',
     value: '+44 747 661 4523',
-    note: 'Réponse rapide sous 15 minutes',
+    note: 'Respuesta rápida en menos de 15 minutos',
   },
   {
     icon: 'email',
     title: 'Email',
     value: 'support@vivacetv.com',
-    note: 'Réponse sous 24 heures',
+    note: 'Respuesta en menos de 24 horas',
   },
   {
     icon: 'clock',
-    title: 'Horaires',
-    value: '24h/24 — 7j/7',
-    note: 'Support disponible en permanence',
+    title: 'Horario',
+    value: '24h — 7 días',
+    note: 'Soporte disponible en todo momento',
   },
   {
     icon: 'globe',
-    title: 'Service',
-    value: 'France & Europe',
-    note: 'Service disponible dans toute l\'Europe',
+    title: 'Servicio',
+    value: 'España y Europa',
+    note: 'Servicio disponible en toda Europa',
   },
 ];

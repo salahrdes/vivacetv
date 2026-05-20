@@ -49,7 +49,7 @@ function FontPreview({ value }: { value: string }) {
         border: '1px solid #E2E2DA',
       }}
     >
-      VivaceTV — Abonnement IPTV France HD/4K
+      VivaceTV — Suscripción IPTV España HD/4K
     </p>
   );
 }
@@ -84,24 +84,24 @@ export default function SettingsForm({ initial }: Props) {
       }&display=swap');`}</style>
 
       {/* Site identity */}
-      <Section title="Identité du site">
-        <Field label="Titre du site" id="site_title" hint="Affiché dans le navigateur et les résultats Google">
+      <Section title="Identidad del sitio">
+        <Field label="Título del sitio" id="site_title" hint="Mostrado en el navegador y en los resultados de Google">
           <input id="site_title" value={settings.site_title ?? ''} onChange={set('site_title')} style={inputStyle} placeholder="VivaceTV" />
         </Field>
-        <Field label="Slogan (tagline)" id="site_tagline">
-          <input id="site_tagline" value={settings.site_tagline ?? ''} onChange={set('site_tagline')} style={inputStyle} placeholder="Votre IPTV France…" />
+        <Field label="Eslogan (tagline)" id="site_tagline">
+          <input id="site_tagline" value={settings.site_tagline ?? ''} onChange={set('site_tagline')} style={inputStyle} placeholder="Tu IPTV España…" />
         </Field>
-        <Field label="Description générale" id="site_description" hint="Utilisée comme meta description par défaut">
+        <Field label="Descripción general" id="site_description" hint="Utilizada como meta descripción por defecto">
           <textarea id="site_description" value={settings.site_description ?? ''} onChange={set('site_description')} rows={3} style={{ ...inputStyle, resize: 'vertical' }} />
         </Field>
       </Section>
 
       {/* SEO */}
-      <Section title="SEO par défaut">
-        <Field label="Mots-clés principaux" id="seo_keywords" hint="Séparés par des virgules">
-          <input id="seo_keywords" value={settings.seo_keywords ?? ''} onChange={set('seo_keywords')} style={inputStyle} placeholder="iptv france, abonnement iptv…" />
+      <Section title="SEO por defecto">
+        <Field label="Palabras clave principales" id="seo_keywords" hint="Separadas por comas">
+          <input id="seo_keywords" value={settings.seo_keywords ?? ''} onChange={set('seo_keywords')} style={inputStyle} placeholder="iptv españa, suscripción iptv…" />
         </Field>
-        <Field label="Image Open Graph (URL)" id="seo_og_image" hint="Image affichée lors du partage sur les réseaux sociaux">
+        <Field label="Imagen Open Graph (URL)" id="seo_og_image" hint="Imagen mostrada al compartir en redes sociales">
           <input id="seo_og_image" value={settings.seo_og_image ?? ''} onChange={set('seo_og_image')} style={inputStyle} placeholder="/uploads/og-image.jpg" />
         </Field>
         {settings.seo_og_image && (
@@ -111,17 +111,17 @@ export default function SettingsForm({ initial }: Props) {
       </Section>
 
       {/* Contact */}
-      <Section title="Contact &amp; WhatsApp">
-        <Field label="Email de contact" id="contact_email">
-          <input id="contact_email" type="email" value={settings.contact_email ?? ''} onChange={set('contact_email')} style={inputStyle} placeholder="contact@vivacetv.fr" />
+      <Section title="Contacto y WhatsApp">
+        <Field label="Email de contacto" id="contact_email">
+          <input id="contact_email" type="email" value={settings.contact_email ?? ''} onChange={set('contact_email')} style={inputStyle} placeholder="contacto@vivacetv.es" />
         </Field>
-        <Field label="Numéro WhatsApp (sans +)" id="contact_whatsapp" hint="Ex : 447476614523">
+        <Field label="Número de WhatsApp (sin +)" id="contact_whatsapp" hint="Ej.: 447476614523">
           <input id="contact_whatsapp" value={settings.contact_whatsapp ?? ''} onChange={set('contact_whatsapp')} style={inputStyle} placeholder="447476614523" />
         </Field>
       </Section>
 
       {/* Social */}
-      <Section title="Réseaux sociaux">
+      <Section title="Redes sociales">
         <Field label="Facebook (URL)" id="social_facebook">
           <input id="social_facebook" value={settings.social_facebook ?? ''} onChange={set('social_facebook')} style={inputStyle} placeholder="https://facebook.com/vivacetv" />
         </Field>
@@ -135,19 +135,19 @@ export default function SettingsForm({ initial }: Props) {
 
       {/* Analytics */}
       <Section title="Analytics">
-        <Field label="Google Analytics (GTAG ID)" id="analytics_gtag" hint="Ex : G-XXXXXXXXXX">
+        <Field label="Google Analytics (GTAG ID)" id="analytics_gtag" hint="Ej.: G-XXXXXXXXXX">
           <input id="analytics_gtag" value={settings.analytics_gtag ?? ''} onChange={set('analytics_gtag')} style={inputStyle} placeholder="G-XXXXXXXXXX" />
         </Field>
       </Section>
 
-      {/* Typographie */}
-      <Section title="Typographie">
+      {/* Typography */}
+      <Section title="Tipografía">
         <div className="grid sm:grid-cols-2 gap-5">
 
           {/* Display font */}
           <div className="flex flex-col gap-2">
             <label className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#9B9B95' }}>
-              Police d&apos;affichage (titres)
+              Fuente de display (títulos)
             </label>
             <select
               name="font_display"
@@ -166,7 +166,7 @@ export default function SettingsForm({ initial }: Props) {
           {/* Body font */}
           <div className="flex flex-col gap-2">
             <label className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#9B9B95' }}>
-              Police du corps (texte)
+              Fuente del cuerpo (texto)
             </label>
             <select
               name="font_body"
@@ -175,7 +175,7 @@ export default function SettingsForm({ initial }: Props) {
               className="rounded-xl px-4 py-3 text-sm outline-none border"
               style={{ borderColor: '#E2E2DA', backgroundColor: '#FBFBF7', color: '#111110' }}
             >
-              <option value="Inter">Inter (défaut)</option>
+              <option value="Inter">Inter (por defecto)</option>
               {FONT_OPTIONS.map((f) => (
                 <option key={f} value={f}>{f}</option>
               ))}
@@ -194,11 +194,11 @@ export default function SettingsForm({ initial }: Props) {
           style={{ backgroundColor: 'var(--color-lime)', color: '#111110' }}
         >
           {isPending ? <Loader2 size={14} className="animate-spin" /> : <Save size={14} />}
-          Enregistrer les paramètres
+          Guardar ajustes
         </button>
         {saved && (
           <span className="flex items-center gap-1.5 text-sm font-medium" style={{ color: '#22C55E' }}>
-            <CheckCircle size={14} /> Sauvegardé !
+            <CheckCircle size={14} /> ¡Guardado!
           </span>
         )}
       </div>

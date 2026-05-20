@@ -26,13 +26,13 @@ export async function generateMetadata({
   const plan = plans.find((p) => p.slug === slug);
   if (!plan) return {};
   return {
-    title: `Commander l'abonnement ${plan.name} IPTV (${plan.duration}) | VivaceTV`,
-    description: `Commandez votre abonnement IPTV VivaceTV ${plan.name} — ${plan.duration} à ${plan.priceSale}€. Activation rapide via WhatsApp, support 24/7.`,
+    title: `Comprar suscripción ${plan.name} IPTV (${plan.duration}) | VivaceTV`,
+    description: `Compra tu suscripción IPTV VivaceTV ${plan.name} — ${plan.duration} a ${plan.priceSale}€. Activación rápida por WhatsApp, soporte 24/7.`,
     alternates: { canonical: `${siteConfig.url}/commander/${plan.slug}` },
     robots: { index: false }, // checkout pages should not be indexed
     openGraph: {
-      title: `Abonnement ${plan.name} — ${plan.duration} | VivaceTV`,
-      description: `Commandez votre abonnement IPTV ${plan.name} à ${plan.priceSale}€ pour ${plan.duration}.`,
+      title: `Suscripción ${plan.name} — ${plan.duration} | VivaceTV`,
+      description: `Compra tu suscripción IPTV ${plan.name} a ${plan.priceSale}€ para ${plan.duration}.`,
       url: `${siteConfig.url}/commander/${plan.slug}`,
       type: 'website',
     },
@@ -85,14 +85,14 @@ export default async function CheckoutPage({
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
 
             {/* Back link */}
-            <nav aria-label="Retour" className="mb-8">
+            <nav aria-label="Volver" className="mb-8">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 text-sm font-medium transition-colors duration-150 hover:opacity-70"
                 style={{ color: 'var(--color-gray-400)' }}
               >
                 <ArrowLeft size={15} aria-hidden="true" />
-                Voir tous les abonnements
+                Ver todos los planes
               </Link>
             </nav>
 
@@ -122,17 +122,17 @@ export default async function CheckoutPage({
               className="font-display font-extrabold text-3xl sm:text-4xl leading-tight mb-3"
               style={{ color: 'var(--color-surface)' }}
             >
-              Abonnement IPTV <span style={{ color: 'var(--color-lime)' }}>{plan.name}</span>
+              Suscripción IPTV <span style={{ color: 'var(--color-lime)' }}>{plan.name}</span>
             </h1>
             <p className="text-base mb-6" style={{ color: 'var(--color-gray-400)' }}>
-              Accès complet pendant {plan.duration} — activation rapide via WhatsApp
+              Acceso completo durante {plan.duration} — activación rápida por WhatsApp
             </p>
 
             {/* Trust badges row */}
             <div className="flex flex-wrap gap-x-6 gap-y-2">
-              <TrustBadge icon={<Shield size={14} />} label="Paiement sécurisé" />
-              <TrustBadge icon={<Zap size={14} />} label="Activation en moins d'1h" />
-              <TrustBadge icon={<MessageCircle size={14} />} label="Support WhatsApp 24/7" />
+              <TrustBadge icon={<Shield size={14} />} label="Pago seguro" />
+              <TrustBadge icon={<Zap size={14} />} label="Activación en menos de 1h" />
+              <TrustBadge icon={<MessageCircle size={14} />} label="Soporte WhatsApp 24/7" />
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default async function CheckoutPage({
                   className="font-display font-bold text-xl mb-6"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Vos informations de commande
+                  Tus datos de pedido
                 </h2>
 
                 <ScarcityStrip planSlug={plan.slug} />
@@ -168,14 +168,14 @@ export default async function CheckoutPage({
                     className="font-semibold text-sm uppercase tracking-wider mb-4"
                     style={{ color: 'var(--color-gray-600)' }}
                   >
-                    Comment ça marche ?
+                    ¿Cómo funciona?
                   </h3>
                   <ol className="flex flex-col gap-3">
                     {[
-                      'Remplissez le formulaire ci-dessus et cliquez sur Commander.',
-                      'Notre équipe vous contacte sur WhatsApp sous quelques minutes.',
-                      'Vous procédez au règlement de manière sécurisée.',
-                      'Vos accès IPTV sont activés en moins d\'une heure.',
+                      'Rellena el formulario de arriba y haz clic en Comprar.',
+                      'Nuestro equipo te contacta por WhatsApp en pocos minutos.',
+                      'Realizas el pago de forma segura.',
+                      'Tus accesos IPTV se activan en menos de una hora.',
                     ].map((step, i) => (
                       <li key={i} className="flex items-start gap-3">
                         <span
@@ -198,7 +198,7 @@ export default async function CheckoutPage({
               </div>
 
               {/* ── Right: Plan summary card ─────────────────────────────── */}
-              <aside aria-label="Récapitulatif de commande">
+              <aside aria-label="Resumen del pedido">
                 <div
                   className="rounded-2xl overflow-hidden sticky top-24"
                   style={{
@@ -225,7 +225,7 @@ export default async function CheckoutPage({
                           : 'var(--color-gray-600)',
                       }}
                     >
-                      Récapitulatif
+                      Resumen
                     </p>
                     <p
                       className="font-display font-extrabold text-2xl"
@@ -278,7 +278,7 @@ export default async function CheckoutPage({
                     </div>
                     {savings > 0 && (
                       <p className="text-xs mt-1" style={{ color: 'var(--color-gray-600)' }}>
-                        Vous économisez {savings.toFixed(2)}€ par rapport au tarif normal.
+                        Ahorras {savings.toFixed(2)}€ respecto al precio normal.
                       </p>
                     )}
                   </div>
@@ -289,7 +289,7 @@ export default async function CheckoutPage({
                       className="text-xs font-semibold uppercase tracking-wider mb-4"
                       style={{ color: 'var(--color-gray-600)' }}
                     >
-                      Ce qui est inclus
+                      Qué está incluido
                     </p>
                     <ul className="flex flex-col gap-2.5">
                       {plan.features.map((feat) => (
@@ -318,15 +318,15 @@ export default async function CheckoutPage({
                   >
                     <div className="flex flex-col gap-2">
                       <div className="flex items-center justify-between text-xs" style={{ color: 'var(--color-gray-600)' }}>
-                        <span>Durée</span>
+                        <span>Duración</span>
                         <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>{plan.duration}</span>
                       </div>
                       <div className="flex items-center justify-between text-xs" style={{ color: 'var(--color-gray-600)' }}>
-                        <span>Activation</span>
-                        <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>Via WhatsApp</span>
+                        <span>Activación</span>
+                        <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>Por WhatsApp</span>
                       </div>
                       <div className="flex items-center justify-between text-xs" style={{ color: 'var(--color-gray-600)' }}>
-                        <span>Connexions simultanées</span>
+                        <span>Conexiones simultáneas</span>
                         <span className="font-semibold" style={{ color: 'var(--color-ink)' }}>1</span>
                       </div>
                       <div className="flex items-center justify-between text-xs border-t pt-2 mt-1" style={{ color: 'var(--color-gray-600)', borderColor: 'var(--color-border)' }}>
@@ -341,13 +341,13 @@ export default async function CheckoutPage({
 
                 {/* Change plan link */}
                 <p className="text-center text-xs mt-4" style={{ color: 'var(--color-gray-600)' }}>
-                  Ce forfait ne vous convient pas ?{' '}
+                  ¿Este plan no te conviene?{' '}
                   <Link
-                    href="/abonnements"
+                    href="/comprar-iptv"
                     className="underline hover:opacity-70 transition-opacity"
                     style={{ color: 'var(--color-ink-light)' }}
                   >
-                    Changer de forfait
+                    Cambiar de plan
                   </Link>
                 </p>
               </aside>

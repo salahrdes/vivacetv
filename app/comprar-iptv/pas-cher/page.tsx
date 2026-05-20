@@ -9,51 +9,51 @@ import FinalCTA from '@/components/sections/FinalCTA';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Abonnement IPTV Pas Cher en France — Dès 22,99€ | VivaceTV',
+  title: 'IPTV Barato en España — Desde 22,99€ | VivaceTV',
   description:
-    'Abonnement IPTV pas cher avec VivaceTV : accès à +22 000 chaînes HD/4K dès 22,99€. Activation rapide, qualité garantie, sans engagement long. Essai gratuit disponible.',
+    'IPTV barato con VivaceTV: acceso a +22.000 canales HD/4K desde 22,99€. Activación rápida, calidad garantizada, sin compromiso largo. Prueba gratis disponible.',
   keywords: [
-    'iptv pas cher',
-    'abonnement iptv pas cher',
-    'iptv france pas cher',
-    'iptv moins cher',
-    'abonnement iptv prix',
+    'iptv barato',
+    'suscripción iptv barata',
+    'iptv españa barato',
+    'iptv precio',
+    'iptv oferta',
   ],
-  alternates: { canonical: `${siteConfig.url}/abonnements/pas-cher` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv/pas-cher` },
   openGraph: {
-    title: 'Abonnement IPTV Pas Cher en France — Dès 22,99€ | VivaceTV',
+    title: 'IPTV Barato en España — Desde 22,99€ | VivaceTV',
     description:
-      'Abonnement IPTV pas cher dès 22,99€. +22 000 chaînes HD/4K, activation rapide, qualité garantie. Essai gratuit 24h disponible.',
-    url: `${siteConfig.url}/abonnements/pas-cher`,
+      'IPTV barato desde 22,99€. +22.000 canales HD/4K, activación rápida, calidad garantizada. Prueba gratis 24h disponible.',
+    url: `${siteConfig.url}/comprar-iptv/pas-cher`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Quel est l\'abonnement IPTV le moins cher chez VivaceTV ?',
+    question: '¿Cuál es la suscripción IPTV más barata en VivaceTV?',
     answer:
-      'Notre offre Bronze est la plus accessible, à 22,99€ pour 3 mois d\'accès complet à +22 000 chaînes en HD/4K. C\'est notre formule d\'entrée de gamme idéale pour tester VivaceTV sans s\'engager sur une longue durée.',
+      'Nuestra oferta Bronze es la más accesible, a 22,99€ por 3 meses de acceso completo a +22.000 canales en HD/4K. Es nuestra fórmula de entrada ideal para probar VivaceTV sin comprometerse a una larga duración.',
   },
   {
-    question: 'Un abonnement IPTV pas cher est-il de bonne qualité ?',
+    question: '¿Una suscripción IPTV barata es de buena calidad?',
     answer:
-      'Absolument. Chez VivaceTV, même notre abonnement le moins cher inclut la qualité HD et 4K, la technologie AntiFreeze 10.0 contre les coupures, et notre support client 24/7. Le prix bas ne signifie pas qualité réduite.',
+      'Absolutamente. En VivaceTV, incluso nuestra suscripción más barata incluye la calidad HD y 4K, la tecnología AntiFreeze 10.0 contra los cortes, y nuestro soporte al cliente 24/7. El precio bajo no significa calidad reducida.',
   },
   {
-    question: "L'IPTV gratuit est-il une alternative valable ?",
+    question: '¿El IPTV gratuito es una alternativa válida?',
     answer:
-      "Les services IPTV gratuits présentent des risques importants : qualité instable, coupures fréquentes, contenu illégal et absence de support. Un abonnement payant légal comme VivaceTV garantit une expérience stable et un service client réactif.",
+      'Los servicios IPTV gratuitos presentan riesgos importantes: calidad inestable, cortes frecuentes, contenido ilegal y ausencia de soporte. Una suscripción de pago como VivaceTV garantiza una experiencia estable y un servicio al cliente reactivo.',
   },
   {
-    question: 'Y a-t-il des frais cachés avec votre abonnement IPTV ?',
+    question: '¿Hay costes ocultos con vuestra suscripción IPTV?',
     answer:
-      'Non, aucun frais caché. Le prix affiché est le prix final, paiement unique. Aucun renouvellement automatique, aucun abonnement mensuel imposé.',
+      'No, ningún coste oculto. El precio mostrado es el precio final, pago único. Sin renovación automática, sin suscripción mensual impuesta.',
   },
   {
-    question: 'Comment payer mon abonnement IPTV pas cher VivaceTV ?',
+    question: '¿Cómo pago mi suscripción IPTV barata VivaceTV?',
     answer:
-      'Le paiement s\'effectue de manière sécurisée via WhatsApp. Notre équipe vous contacte après votre commande pour finaliser le règlement et activer votre accès en moins d\'une heure.',
+      'El pago se realiza de forma segura por WhatsApp. Nuestro equipo os contacta después de vuestra compra para finalizar el pago y activar vuestro acceso en menos de una hora.',
   },
 ];
 
@@ -61,9 +61,9 @@ const plans = [
   {
     id: 'bronze',
     label: 'Bronze',
-    duration: '3 mois',
+    duration: '3 meses',
     price: '22,99€',
-    pricePerMonth: '7,66€/mois',
+    pricePerMonth: '7,66€/mes',
     original: '39,99€',
     discount: '-43%',
     href: '/commander/bronze',
@@ -72,9 +72,9 @@ const plans = [
   {
     id: 'silver',
     label: 'Silver',
-    duration: '6 mois',
+    duration: '6 meses',
     price: '34,99€',
-    pricePerMonth: '5,83€/mois',
+    pricePerMonth: '5,83€/mes',
     original: '54,99€',
     discount: '-36%',
     href: '/commander/silver',
@@ -83,9 +83,9 @@ const plans = [
   {
     id: 'gold',
     label: 'Gold',
-    duration: '12 mois',
+    duration: '12 meses',
     price: '44,99€',
-    pricePerMonth: '3,75€/mois',
+    pricePerMonth: '3,75€/mes',
     original: '64,99€',
     discount: '-31%',
     href: '/commander/gold',
@@ -94,9 +94,9 @@ const plans = [
   {
     id: 'diamond',
     label: 'Diamond',
-    duration: '24 mois',
+    duration: '24 meses',
     price: '74,99€',
-    pricePerMonth: '3,12€/mois',
+    pricePerMonth: '3,12€/mes',
     original: '89,99€',
     discount: '-17%',
     href: '/commander/diamond',
@@ -105,14 +105,14 @@ const plans = [
 ];
 
 const bronzeFeatures = [
-  '+22 000 chaînes françaises et internationales',
-  'Qualité HD et 4K',
-  'Technologie AntiFreeze 10.0 (zéro freeze)',
-  'TV Replay inclus',
+  '+22.000 canales españoles e internacionales',
+  'Calidad HD y 4K',
+  'Tecnología AntiFreeze 10.0 (cero cortes)',
+  'TV Replay incluido',
   'Compatible Smart TV, Android, iOS, PC, Fire TV, Apple TV',
-  'Assistance 24/7 via WhatsApp',
-  'Activation en moins d\'une heure',
-  'Paiement unique — aucun renouvellement automatique',
+  'Asistencia 24/7 por WhatsApp',
+  'Activación en menos de una hora',
+  'Pago único — sin renovación automática',
 ];
 
 export default function AbonnementPasCherPage() {
@@ -134,21 +134,21 @@ export default function AbonnementPasCherPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Abonnements', href: '/abonnements' },
-          { name: 'Pas Cher', href: '/abonnements/pas-cher' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Comprar IPTV', href: '/comprar-iptv' },
+          { name: 'Barato', href: '/comprar-iptv/pas-cher' },
         ]}
       />
       <Header />
       <main id="main-content">
         <PageHero
-          label="MEILLEUR PRIX"
-          title="Abonnement IPTV"
-          titleHighlight="Pas Cher — Dès 22,99€"
-          subtitle="Profitez de +22 000 chaînes en HD et 4K sans vous ruiner. VivaceTV propose le meilleur rapport qualité/prix du marché IPTV France."
+          label="MEJOR PRECIO"
+          title="IPTV Barato"
+          titleHighlight="España — Desde 22,99€"
+          subtitle="Disfrutad de +22.000 canales en HD y 4K sin arruinaros. VivaceTV ofrece la mejor relación calidad/precio del mercado IPTV España."
         />
 
-        {/* ── Section 1 : Ce que veut dire pas cher ───────────────────────── */}
+        {/* ── Section 1 : Qué significa barato ───────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -160,17 +160,17 @@ export default function AbonnementPasCherPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              L'IPTV Pas Cher : Ce Que Ça Veut Vraiment Dire
+              IPTV Barato: Lo que Realmente Significa
             </h2>
             <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Un abonnement IPTV pas cher ne devrait jamais rimer avec qualité médiocre. Chez VivaceTV, notre offre
-              d'entrée de gamme à 22,99€ donne accès à l'intégralité de nos +22 000 chaînes en HD et 4K — exactement
-              les mêmes chaînes que dans nos offres longue durée. La différence réside dans la durée d'engagement, pas
-              dans le catalogue ou la qualité du service. Consultez{' '}
-              <Link href="/abonnements" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                toutes nos offres d'abonnement IPTV
+              Una suscripción IPTV barata nunca debería rimar con mala calidad. En VivaceTV, nuestra oferta de
+              entrada a 22,99€ da acceso a la totalidad de nuestros +22.000 canales en HD y 4K — exactamente los
+              mismos canales que en nuestras ofertas de larga duración. La diferencia reside en la duración del
+              compromiso, no en el catálogo ni en la calidad del servicio. Consultad{' '}
+              <Link href="/comprar-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                todos nuestros planes IPTV
               </Link>{' '}
-              pour comparer les formules disponibles.
+              para comparar las fórmulas disponibles.
             </p>
 
             <div className="flex flex-col gap-10">
@@ -182,23 +182,22 @@ export default function AbonnementPasCherPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  IPTV pas cher vs IPTV gratuit : attention à la différence
+                  IPTV barato vs IPTV gratuito: atención a la diferencia
                 </h3>
                 <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-                  Il existe une confusion fréquente entre "IPTV pas cher" et "IPTV gratuit". Les services gratuits
-                  sont presque toujours illégaux, instables et sans aucun support. Les flux proviennent de serveurs
-                  non sécurisés qui coupent sans prévenir, notamment lors des événements à forte audience. L'absence
-                  de contrat signifie qu'en cas de problème, vous n'avez aucun recours. Pour en savoir plus sur ce
-                  qui est{' '}
-                  <Link href="/guide-iptv/iptv-amende" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                    IPTV légal en France
+                  Existe una confusión frecuente entre "IPTV barato" e "IPTV gratuito". Los servicios gratuitos son
+                  casi siempre ilegales, inestables y sin ningún soporte. Los flujos provienen de servidores no
+                  seguros que cortan sin avisar, especialmente durante los eventos de gran audiencia. La ausencia de
+                  contrato significa que en caso de problema, no tenéis ningún recurso. Para saber más sobre lo que es{' '}
+                  <Link href="/guia-iptv/iptv-amende" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                    IPTV legal en España
                   </Link>,{' '}
-                  consultez notre guide.
+                  consultad nuestra guía.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Un abonnement payant comme VivaceTV à 22,99€ pour 3 mois — soit moins de 7,66€ par mois — vous offre
-                  un service professionnel, une infrastructure stable et un service client disponible 24/7 sur WhatsApp.
-                  C'est le prix d'une bière par mois pour une télévision illimitée.
+                  Una suscripción de pago como VivaceTV a 22,99€ por 3 meses — menos de 7,66€ al mes — os ofrece un
+                  servicio profesional, una infraestructura estable y un servicio al cliente disponible 24/7 por
+                  WhatsApp. El precio de una cerveza al mes por televisión ilimitada.
                 </p>
               </div>
 
@@ -207,7 +206,7 @@ export default function AbonnementPasCherPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-4"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Ce qui est inclus dans notre offre d'entrée de gamme
+                  Qué está incluido en nuestra oferta de entrada
                 </h3>
                 <div className="grid sm:grid-cols-2 gap-3">
                   {bronzeFeatures.map((feature) => (
@@ -241,7 +240,7 @@ export default function AbonnementPasCherPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Notre Abonnement IPTV le Moins Cher — Offre Bronze à 22,99€
+              Nuestra Suscripción IPTV más Barata — Oferta Bronze a 22,99€
             </h2>
 
             <div
@@ -254,7 +253,7 @@ export default function AbonnementPasCherPage() {
                     className="text-xs font-bold uppercase tracking-wider mb-1"
                     style={{ color: 'var(--color-gray-600)' }}
                   >
-                    Offre Bronze — 3 mois
+                    Oferta Bronze — 3 meses
                   </p>
                   <div className="flex items-baseline gap-3">
                     <span
@@ -274,7 +273,7 @@ export default function AbonnementPasCherPage() {
                     </span>
                   </div>
                   <p className="text-sm mt-1" style={{ color: 'var(--color-ink-light)' }}>
-                    soit 7,66€/mois — paiement unique
+                    es decir 7,66€/mes — pago único
                   </p>
                 </div>
                 <Link
@@ -282,7 +281,7 @@ export default function AbonnementPasCherPage() {
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
                   style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
                 >
-                  Commander Bronze
+                  Comprar Bronze
                 </Link>
               </div>
 
@@ -306,14 +305,14 @@ export default function AbonnementPasCherPage() {
                 className="mt-6 text-sm p-4 rounded-xl"
                 style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
               >
-                💡 Si vous souhaitez économiser encore plus sur le long terme, l'offre Gold (12 mois) revient à
-                seulement 3,75€/mois — soit deux fois moins cher que le Bronze au prorata mensuel.
+                💡 Si queréis ahorrar aún más a largo plazo, la oferta Gold (12 meses) sale a solo
+                3,75€/mes — casi la mitad de precio que el Bronze al costo mensual.
               </p>
             </div>
           </div>
         </section>
 
-        {/* ── Section 3 : Tableau comparatif ─────────────────────────────── */}
+        {/* ── Section 3 : Tabla comparativa ─────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -325,12 +324,12 @@ export default function AbonnementPasCherPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comparez Nos Offres : Quel Abonnement IPTV Choisir ?
+              Compara Nuestros Planes: ¿Qué Suscripción IPTV Elegir?
             </h2>
             <p className="text-center text-sm mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Pour un choix éclairé, consultez aussi notre guide du{' '}
-              <Link href="/fournisseur-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                fournisseur IPTV fiable
+              Para una elección informada, consultad también nuestra guía del{' '}
+              <Link href="/proveedor-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                proveedor IPTV fiable
               </Link>.
             </p>
 
@@ -341,19 +340,19 @@ export default function AbonnementPasCherPage() {
               <table className="w-full text-sm" style={{ borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Forfait</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Durée</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Prix total</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Par mois</th>
+                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Plan</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Duración</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Precio total</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Por mes</th>
                     <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>VOD</th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
-                    { label: 'Bronze', duration: '3 mois', price: '22,99€', perMonth: '7,66€', vod: '+60 000', featured: false },
-                    { label: 'Silver', duration: '6 mois', price: '34,99€', perMonth: '5,83€', vod: '+100 000', featured: false },
-                    { label: 'Gold ★', duration: '12 mois', price: '44,99€', perMonth: '3,75€', vod: '+160 000', featured: true },
-                    { label: 'Diamond', duration: '24 mois', price: '74,99€', perMonth: '3,12€', vod: '+160 000', featured: false },
+                    { label: 'Bronze', duration: '3 meses', price: '22,99€', perMonth: '7,66€', vod: '+60.000', featured: false },
+                    { label: 'Silver', duration: '6 meses', price: '34,99€', perMonth: '5,83€', vod: '+100.000', featured: false },
+                    { label: 'Gold ★', duration: '12 meses', price: '44,99€', perMonth: '3,75€', vod: '+160.000', featured: true },
+                    { label: 'Diamond', duration: '24 meses', price: '74,99€', perMonth: '3,12€', vod: '+160.000', featured: false },
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -400,12 +399,12 @@ export default function AbonnementPasCherPage() {
               </table>
             </div>
             <p className="text-center text-xs mt-4" style={{ color: 'var(--color-gray-400)' }}>
-              Tous les forfaits incluent : +22 000 chaînes · HD/4K/8K · AntiFreeze 10.0 · TV Replay · Assistance 24/7
+              Todos los planes incluyen: +22.000 canales · HD/4K/8K · AntiFreeze 10.0 · TV Replay · Asistencia 24/7
             </p>
           </div>
         </section>
 
-        {/* ── Section 4 : Économies longue durée ──────────────────────────── */}
+        {/* ── Section 4 : Ahorro larga duración ──────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -417,12 +416,12 @@ export default function AbonnementPasCherPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Économisez Plus en Choisissant un Abonnement IPTV Longue Durée
+              Ahorra Más Eligiendo una Suscripción IPTV de Larga Duración
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              La façon la plus simple de payer son IPTV moins cher est d'opter pour une durée plus longue. Plus la
-              période est longue, plus le coût mensuel diminue drastiquement. Avec l'offre Diamond à 24 mois, vous
-              accédez à l'IPTV pour seulement 3,12€/mois — moins qu'un café.
+              La forma más sencilla de pagar menos por el IPTV es optar por una duración más larga. Cuanto más larga es
+              la duración, más baja es drásticamente el coste mensual. Con la oferta Diamond a 24 meses, accedéis al
+              IPTV por solo 3,12€/mes — menos que un café.
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -456,7 +455,7 @@ export default function AbonnementPasCherPage() {
                       className="text-xs font-bold px-2 py-1 rounded-md"
                       style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
                     >
-                      Meilleur rapport qualité/prix
+                      Mejor relación calidad/precio
                     </span>
                   )}
                   <Link
@@ -468,19 +467,19 @@ export default function AbonnementPasCherPage() {
                       border: plan.featured ? 'none' : '1px solid var(--color-border)',
                     }}
                   >
-                    Choisir
+                    Elegir
                   </Link>
                 </div>
               ))}
             </div>
 
             <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              L'offre Gold 12 mois est la préférée de nos clients : elle offre le meilleur compromis entre engagement
-              et économies, avec un coût de seulement 3,75€/mois pour 12 mois d'accès complet. Découvrez aussi notre{' '}
-              <Link href="/abonnements/premium" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                abonnement IPTV premium
+              La oferta Gold 12 meses es la preferida de nuestros clientes: ofrece el mejor compromiso entre compromiso
+              y ahorro, con un coste de solo 3,75€/mes por 12 meses de acceso completo. Descubrid también nuestra{' '}
+              <Link href="/comprar-iptv/premium" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                suscripción IPTV premium
               </Link>{' '}
-              pour toutes les options disponibles.
+              para todas las opciones disponibles.
             </p>
           </div>
         </section>
@@ -497,7 +496,7 @@ export default function AbonnementPasCherPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes sur l'Abonnement IPTV Pas Cher
+              Preguntas Frecuentes sobre IPTV Barato
             </h2>
             <div className="flex flex-col gap-3">
               {faqItems.map((item, i) => (

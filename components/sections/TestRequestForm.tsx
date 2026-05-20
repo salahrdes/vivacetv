@@ -12,7 +12,7 @@ const appOptions = [
   'GSE Smart IPTV',
   'Smart IPTV (SIPTV)',
   'VLC Media Player',
-  'Je ne sais pas encore',
+  'Aún no lo sé',
 ] as const;
 
 type FormState = {
@@ -35,9 +35,9 @@ export default function TestRequestForm() {
 
   function validate(): boolean {
     const e: Partial<FormState> = {};
-    if (!form.name.trim()) e.name = 'Veuillez entrer votre nom.';
-    if (!form.whatsapp.trim()) e.whatsapp = 'Veuillez entrer votre numéro WhatsApp.';
-    if (!form.device) e.device = 'Veuillez sélectionner votre appareil.';
+    if (!form.name.trim()) e.name = 'Por favor, introduce tu nombre.';
+    if (!form.whatsapp.trim()) e.whatsapp = 'Por favor, introduce tu número de WhatsApp.';
+    if (!form.device) e.device = 'Por favor, selecciona tu dispositivo.';
     setErrors(e);
     return Object.keys(e).length === 0;
   }
@@ -60,11 +60,11 @@ export default function TestRequestForm() {
     }).catch(() => { /* silent */ });
 
     const waText = [
-      `Bonjour VivaceTV, je souhaite un test gratuit 24h.`,
-      `Nom : ${form.name}`,
-      `Appareil : ${form.device}`,
-      form.app ? `Application souhaitée : ${form.app}` : '',
-      form.message ? `Message : ${form.message}` : '',
+      `Hola VivaceTV, quiero una prueba gratis de 24h.`,
+      `Nombre: ${form.name}`,
+      `Dispositivo: ${form.device}`,
+      form.app ? `Aplicación deseada: ${form.app}` : '',
+      form.message ? `Mensaje: ${form.message}` : '',
     ]
       .filter(Boolean)
       .join(' — ');
@@ -88,10 +88,10 @@ export default function TestRequestForm() {
       >
         <CheckCircle size={40} style={{ color: 'var(--color-lime)' }} aria-hidden="true" />
         <p className="font-display font-bold text-xl" style={{ color: 'var(--color-ink)' }}>
-          Demande envoyée !
+          ¡Solicitud enviada!
         </p>
         <p className="text-sm max-w-sm" style={{ color: 'var(--color-ink-light)' }}>
-          Vous allez être redirigé vers WhatsApp. Notre équipe vous enverra vos accès de test sous quelques minutes.
+          Serás redirigido a WhatsApp. Nuestro equipo te enviará tus accesos de prueba en unos minutos.
         </p>
       </div>
     );
@@ -102,7 +102,7 @@ export default function TestRequestForm() {
       id="test-form"
       onSubmit={handleSubmit}
       noValidate
-      aria-label="Formulaire de demande de test gratuit IPTV"
+      aria-label="Formulario de solicitud de prueba gratis IPTV"
       className="flex flex-col gap-5 p-8 rounded-2xl"
       style={{
         backgroundColor: 'var(--color-card)',
@@ -112,8 +112,8 @@ export default function TestRequestForm() {
       <div className="grid sm:grid-cols-2 gap-5">
         <InputField
           id="test-name"
-          label="Nom complet"
-          placeholder="Jean Dupont"
+          label="Nombre completo"
+          placeholder="Juan García"
           required
           value={form.name}
           onChange={set('name')}
@@ -121,9 +121,9 @@ export default function TestRequestForm() {
         />
         <InputField
           id="test-whatsapp"
-          label="Numéro WhatsApp"
+          label="Número de WhatsApp"
           type="tel"
-          placeholder="+33 6 00 00 00 00"
+          placeholder="+34 600 00 00 00"
           required
           value={form.whatsapp}
           onChange={set('whatsapp')}
@@ -134,7 +134,7 @@ export default function TestRequestForm() {
       <div className="grid sm:grid-cols-2 gap-5">
         <SelectField
           id="test-device"
-          label="Type d'appareil"
+          label="Tipo de dispositivo"
           options={deviceOptions}
           required
           value={form.device}
@@ -143,9 +143,9 @@ export default function TestRequestForm() {
         />
         <SelectField
           id="test-app"
-          label="Application souhaitée (si connue)"
+          label="Aplicación deseada (si la conoces)"
           options={appOptions}
-          placeholder="Choisir une application…"
+          placeholder="Elegir una aplicación…"
           value={form.app}
           onChange={set('app')}
         />
@@ -153,16 +153,16 @@ export default function TestRequestForm() {
 
       <TextareaField
         id="test-message"
-        label="Message optionnel"
-        placeholder="Des questions avant de commencer ? Décrivez votre situation…"
+        label="Mensaje opcional"
+        placeholder="¿Tienes alguna pregunta antes de empezar? Describe tu situación…"
         rows={3}
         value={form.message}
         onChange={set('message')}
       />
 
       <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
-        Les champs marqués <span style={{ color: 'var(--color-lime)' }}>*</span> sont obligatoires.
-        Aucun paiement requis. Aucun compte nécessaire.
+        Los campos marcados con <span style={{ color: 'var(--color-lime)' }}>*</span> son obligatorios.
+        Sin pago requerido. Sin cuenta necesaria.
       </p>
 
       <button
@@ -171,7 +171,7 @@ export default function TestRequestForm() {
         style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
       >
         <Send size={16} aria-hidden="true" />
-        Demander mon test gratuit
+        Solicitar mi prueba gratis
       </button>
     </form>
   );

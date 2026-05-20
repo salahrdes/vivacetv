@@ -4,7 +4,7 @@ import LegalPageLayout from '@/components/layout/LegalPageLayout';
 
 export const metadata: Metadata = {
   title: 'DMCA | VivaceTV',
-  description: 'Procédure de signalement DMCA pour VivaceTV — signalement de contenu, informations requises et traitement des demandes.',
+  description: 'Procedimiento de notificación DMCA para VivaceTV — notificación de contenido, información requerida y tramitación de solicitudes.',
   alternates: { canonical: `${siteConfig.url}/dmca` },
   robots: { index: true, follow: true },
 };
@@ -12,55 +12,55 @@ export const metadata: Metadata = {
 export default function DmcaPage() {
   return (
     <LegalPageLayout
-      label="Légal"
+      label="Legal"
       title="DMCA"
-      subtitle="Procédure de signalement de contenu protégé par le droit d'auteur conformément au Digital Millennium Copyright Act."
-      updatedAt="1er avril 2026"
+      subtitle="Procedimiento de notificación de contenido protegido por derechos de autor conforme al Digital Millennium Copyright Act."
+      updatedAt="1 de abril de 2026"
       sections={[
         {
-          heading: 'Respect des droits d\'auteur',
+          heading: 'Respeto de los derechos de autor',
           paragraphs: [
-            "VivaceTV respecte les droits de propriété intellectuelle et s'engage à traiter avec sérieux toute notification de violation du droit d'auteur soumise conformément au Digital Millennium Copyright Act (DMCA). Si vous êtes titulaire d'un droit d'auteur et estimez que des contenus accessibles via notre service portent atteinte à vos droits, veuillez nous contacter via la procédure décrite ci-dessous.",
+            'VivaceTV respeta los derechos de propiedad intelectual y se compromete a tratar con seriedad cualquier notificación de infracción de derechos de autor presentada conforme al Digital Millennium Copyright Act (DMCA). Si eres titular de derechos de autor y consideras que contenidos accesibles a través de nuestro servicio vulneran tus derechos, contáctanos mediante el procedimiento descrito a continuación.',
           ],
         },
         {
-          heading: 'Signalement de contenu',
+          heading: 'Notificación de contenido',
           paragraphs: [
-            "Si vous êtes titulaire d'un droit d'auteur ou son représentant autorisé et pensez qu'un contenu accessible via notre service porte atteinte à vos droits, vous pouvez nous soumettre une demande de retrait conformément au DMCA.",
-            "VivaceTV prend au sérieux les questions de propriété intellectuelle et s'engage à traiter toute demande valide dans les meilleurs délais.",
+            'Si eres titular de derechos de autor o su representante autorizado y crees que un contenido accesible a través de nuestro servicio vulnera tus derechos, puedes presentarnos una solicitud de retirada conforme al DMCA.',
+            'VivaceTV toma en serio las cuestiones de propiedad intelectual y se compromete a tramitar cualquier solicitud válida en el menor tiempo posible.',
           ],
         },
         {
-          heading: 'Informations à fournir',
+          heading: 'Información a proporcionar',
           paragraphs: [
-            "Votre demande DMCA doit inclure les éléments suivants :",
-            "1. L'identification précise de l'œuvre protégée par le droit d'auteur que vous estimez avoir été violée.",
-            "2. La description précise du contenu litigieux et l'URL ou l'identifiant permettant de le localiser.",
-            "3. Vos coordonnées complètes : nom, adresse postale, adresse email et numéro de téléphone.",
-            "4. Une déclaration précisant que vous avez la conviction de bonne foi que l'utilisation du contenu n'est pas autorisée par le titulaire des droits, son représentant ou la loi.",
-            "5. Une déclaration attestant, sous peine de parjure, que les informations fournies sont exactes et que vous êtes bien le titulaire des droits ou son représentant autorisé.",
-            "6. Votre signature électronique ou physique.",
+            'Tu solicitud DMCA debe incluir los siguientes elementos:',
+            '1. La identificación precisa de la obra protegida por derechos de autor que consideras infringida.',
+            '2. La descripción precisa del contenido en litigio y la URL o el identificador que permita localizarlo.',
+            '3. Tus datos de contacto completos: nombre, dirección postal, dirección de correo electrónico y número de teléfono.',
+            '4. Una declaración indicando que tienes la convicción de buena fe de que el uso del contenido no está autorizado por el titular de los derechos, su representante o la ley.',
+            '5. Una declaración que certifica, bajo pena de perjurio, que la información proporcionada es exacta y que eres el titular de los derechos o su representante autorizado.',
+            '6. Tu firma electrónica o física.',
           ],
         },
         {
-          heading: 'Traitement des demandes',
+          heading: 'Tramitación de las solicitudes',
           paragraphs: [
-            "VivaceTV s'engage à examiner toute demande DMCA dans un délai de 72 heures ouvrées suivant sa réception.",
-            "En cas de demande valide, le contenu signalé sera désactivé ou supprimé conformément aux procédures applicables.",
-            "VivaceTV se réserve le droit de rejeter toute demande incomplète, manifestement abusive ou formulée de mauvaise foi.",
+            'VivaceTV se compromete a examinar cualquier solicitud DMCA en un plazo de 72 horas hábiles desde su recepción.',
+            'En caso de solicitud válida, el contenido notificado será desactivado o eliminado conforme a los procedimientos aplicables.',
+            'VivaceTV se reserva el derecho a rechazar cualquier solicitud incompleta, manifiestamente abusiva o formulada de mala fe.',
           ],
         },
         {
-          heading: 'Contact',
+          heading: 'Contacto',
           paragraphs: [
-            "Les demandes DMCA doivent être envoyées par email à : support@vivacetv.com",
-            "Objet de l'email : [DMCA] Signalement de contenu",
+            'Las solicitudes DMCA deben enviarse por correo electrónico a: support@vivacetv.com',
+            'Asunto del correo: [DMCA] Notificación de contenido',
           ],
         },
         {
-          heading: 'Avertissement',
+          heading: 'Advertencia',
           paragraphs: [
-            "Toute déclaration intentionnellement inexacte dans une notification DMCA peut engager votre responsabilité civile et pénale. Veillez à ne soumettre des demandes que lorsque vous avez la conviction raisonnable et fondée que vos droits ont été violés.",
+            'Cualquier declaración intencionadamente inexacta en una notificación DMCA puede acarrear responsabilidad civil y penal. Asegúrate de presentar solicitudes únicamente cuando tengas la convicción razonable y fundada de que tus derechos han sido vulnerados.',
           ],
         },
       ]}

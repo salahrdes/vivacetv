@@ -16,12 +16,12 @@ type FormState = {
 };
 
 const subjectOptions = [
-  'Choisir mon forfait',
-  'Aide à l\'installation',
-  'Problème technique',
-  'Test gratuit',
-  'Question générale',
-  'Autre',
+  'Elegir mi plan',
+  'Ayuda con la instalación',
+  'Problema técnico',
+  'Prueba gratis',
+  'Consulta general',
+  'Otro',
 ] as const;
 
 const initialState: FormState = {
@@ -43,11 +43,11 @@ export default function ContactForm() {
 
   function validate(): boolean {
     const e: Partial<FormState> = {};
-    if (!form.name.trim()) e.name = 'Veuillez entrer votre nom.';
+    if (!form.name.trim()) e.name = 'Por favor, introduce tu nombre.';
     if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email))
-      e.email = 'Adresse email invalide.';
+      e.email = 'Dirección de email no válida.';
     if (!form.message.trim() || form.message.trim().length < 10)
-      e.message = 'Le message doit faire au moins 10 caractères.';
+      e.message = 'El mensaje debe tener al menos 10 caracteres.';
     setErrors(e);
     return Object.keys(e).length === 0;
   }
@@ -71,9 +71,9 @@ export default function ContactForm() {
     }).catch(() => { /* silent */ });
 
     const waText = [
-      `Bonjour VivaceTV, je vous contacte depuis le formulaire du site.`,
-      form.subject ? `Sujet : ${form.subject}` : '',
-      form.device ? `Appareil : ${form.device}` : '',
+      `Hola VivaceTV, te contacto desde el formulario del sitio web.`,
+      form.subject ? `Asunto: ${form.subject}` : '',
+      form.device ? `Dispositivo: ${form.device}` : '',
       form.message,
     ]
       .filter(Boolean)
@@ -100,10 +100,10 @@ export default function ContactForm() {
       >
         <CheckCircle size={40} style={{ color: 'var(--color-lime)' }} aria-hidden="true" />
         <p className="font-display font-bold text-xl" style={{ color: 'var(--color-ink)' }}>
-          Message envoyé !
+          ¡Mensaje enviado!
         </p>
         <p className="text-sm" style={{ color: 'var(--color-ink-light)' }}>
-          Vous allez être redirigé vers WhatsApp. Notre équipe vous répondra sous 15 minutes.
+          Serás redirigido a WhatsApp. Nuestro equipo te responderá en menos de 15 minutos.
         </p>
       </div>
     );
@@ -113,7 +113,7 @@ export default function ContactForm() {
     <form
       onSubmit={handleSubmit}
       noValidate
-      aria-label="Formulaire de contact VivaceTV"
+      aria-label="Formulario de contacto VivaceTV"
       className="flex flex-col gap-5 p-8 rounded-2xl"
       style={{
         backgroundColor: 'var(--color-card)',
@@ -123,8 +123,8 @@ export default function ContactForm() {
       <div className="grid sm:grid-cols-2 gap-5">
         <InputField
           id="name"
-          label="Nom complet"
-          placeholder="Jean Dupont"
+          label="Nombre completo"
+          placeholder="Juan García"
           required
           value={form.name}
           onChange={set('name')}
@@ -132,9 +132,9 @@ export default function ContactForm() {
         />
         <InputField
           id="email"
-          label="Adresse email"
+          label="Dirección de email"
           type="email"
-          placeholder="jean@exemple.fr"
+          placeholder="juan@ejemplo.es"
           required
           value={form.email}
           onChange={set('email')}
@@ -145,15 +145,15 @@ export default function ContactForm() {
       <div className="grid sm:grid-cols-2 gap-5">
         <InputField
           id="whatsapp"
-          label="Numéro WhatsApp"
+          label="Número de WhatsApp"
           type="tel"
-          placeholder="+33 6 00 00 00 00"
+          placeholder="+34 600 00 00 00"
           value={form.whatsapp}
           onChange={set('whatsapp')}
         />
         <SelectField
           id="device"
-          label="Type d'appareil"
+          label="Tipo de dispositivo"
           options={deviceOptions}
           value={form.device}
           onChange={set('device')}
@@ -162,7 +162,7 @@ export default function ContactForm() {
 
       <SelectField
         id="subject"
-        label="Sujet"
+        label="Asunto"
         options={subjectOptions}
         value={form.subject}
         onChange={set('subject')}
@@ -170,8 +170,8 @@ export default function ContactForm() {
 
       <TextareaField
         id="message"
-        label="Message"
-        placeholder="Décrivez votre question ou demande…"
+        label="Mensaje"
+        placeholder="Describe tu pregunta o solicitud…"
         required
         rows={5}
         value={form.message}
@@ -180,8 +180,8 @@ export default function ContactForm() {
       />
 
       <p className="text-xs" style={{ color: 'var(--color-gray-600)' }}>
-        Les champs marqués <span style={{ color: 'var(--color-lime)' }}>*</span> sont obligatoires.
-        Vos données sont utilisées uniquement pour traiter votre demande.
+        Los campos marcados con <span style={{ color: 'var(--color-lime)' }}>*</span> son obligatorios.
+        Tus datos se utilizan únicamente para gestionar tu consulta.
       </p>
 
       <button
@@ -190,7 +190,7 @@ export default function ContactForm() {
         style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
       >
         <Send size={16} aria-hidden="true" />
-        Envoyer ma demande
+        Enviar mi consulta
       </button>
     </form>
   );

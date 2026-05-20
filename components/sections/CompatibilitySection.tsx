@@ -23,16 +23,16 @@ export default function CompatibilitySection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          label="Compatibilité"
-          title="Compatible avec vos appareils préférés"
-          description="Votre abonnement IPTV VivaceTV fonctionne sur les appareils les plus utilisés en France. Notre équipe vous aide à choisir l'application la plus adaptée à votre écran."
+          label="Compatibilidad"
+          title="Compatible con tus dispositivos favoritos"
+          description="Tu suscripción IPTV VivaceTV funciona en los dispositivos más utilizados en España. Nuestro equipo te ayuda a elegir la aplicación más adecuada para tu pantalla."
           className="mb-14"
         />
 
         <div
           className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"
           role="list"
-          aria-label="Liste des appareils compatibles"
+          aria-label="Lista de dispositivos compatibles"
         >
           {compatibilityDevices.map((device) => (
             <div

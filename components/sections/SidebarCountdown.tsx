@@ -34,7 +34,7 @@ export default function SidebarCountdown() {
       >
         <Clock size={13} style={{ color: '#D97706' }} aria-hidden="true" />
         <span className="text-xs font-semibold" style={{ color: '#92400E' }}>
-          Ce prix expire dans{' '}
+          Este precio expira en{' '}
           <span className="font-mono">{formatCountdown(secondsLeft)}</span>
         </span>
       </div>
@@ -43,7 +43,7 @@ export default function SidebarCountdown() {
       <div className="flex items-center gap-2">
         <Shield size={14} style={{ color: '#22C55E' }} aria-hidden="true" />
         <span className="text-xs font-medium" style={{ color: 'var(--color-gray-600)' }}>
-          Activation garantie ou remboursement
+          Activación garantizada o reembolso
         </span>
       </div>
     </div>

@@ -19,28 +19,28 @@ import FAQSection from '@/components/sections/FAQSection';
 import FinalCTA from '@/components/sections/FinalCTA';
 
 export const metadata: Metadata = {
-  title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
+  title: 'IPTV España : Suscripción IPTV Premium HD y 4K | VivaceTV',
   description:
-    'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV. Activation rapide, qualité HD/4K et support 24/7.',
+    'Descubre VivaceTV, tu suscripción IPTV España compatible con Smart TV, Android, iOS, PC, Roku, Fire TV y Apple TV. Activación rápida, calidad HD/4K y soporte 24/7.',
   keywords: [
-    'IPTV France',
-    'abonnement IPTV France',
-    'meilleur IPTV France',
-    'abonnement IPTV',
-    'IPTV abonnement',
-    'meilleur IPTV',
-    'fournisseur IPTV',
+    'IPTV España',
+    'suscripción IPTV España',
+    'mejor IPTV España',
+    'abonament IPTV',
+    'IPTV suscripción',
+    'mejor IPTV',
+    'proveedor IPTV',
     'IPTV HD 4K',
-    'abonnement IPTV pas cher',
-    'abonnement IPTV premium',
+    'IPTV barato España',
+    'IPTV premium España',
     'IPTV Smart TV',
     'IPTV Firestick',
   ],
   alternates: { canonical: siteConfig.url },
   openGraph: {
-    title: 'IPTV France : Abonnement IPTV Premium HD & 4K | VivaceTV',
+    title: 'IPTV España : Suscripción IPTV Premium HD y 4K | VivaceTV',
     description:
-      'Découvrez VivaceTV, votre abonnement IPTV France compatible Smart TV, Android, iOS, PC, Roku, Fire TV et Apple TV.',
+      'Descubre VivaceTV, tu suscripción IPTV España compatible con Smart TV, Android, iOS, PC, Roku, Fire TV y Apple TV.',
     url: siteConfig.url,
     type: 'website',
   },

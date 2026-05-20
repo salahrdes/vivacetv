@@ -10,65 +10,65 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV Atlas Avis 2026 — Meilleure Alternative en France | VivaceTV',
+  title: 'IPTV Atlas Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
   description:
-    'IPTV Atlas avis 2025 : comparatif complet avec VivaceTV. Prix, chaînes, stabilité, support — qui offre le meilleur abonnement IPTV France ? Notre verdict.',
+    'IPTV Atlas opiniones 2026: comparativa completa con VivaceTV. Precio, canales, estabilidad, soporte — ¿quién ofrece la mejor suscripción IPTV España? Nuestro veredicto.',
   keywords: [
     'iptv atlas',
-    'iptv atlas avis',
-    'alternative iptv atlas',
-    'atlas iptv france',
+    'iptv atlas opiniones',
+    'alternativa iptv atlas',
+    'atlas iptv españa',
     'iptv atlas vs vivacetv',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/iptv-atlas` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/iptv-atlas` },
   openGraph: {
-    title: 'IPTV Atlas Avis 2026 — Meilleure Alternative en France | VivaceTV',
+    title: 'IPTV Atlas Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
     description:
-      'Comparatif IPTV Atlas vs VivaceTV : prix, chaînes, qualité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
-    url: `${siteConfig.url}/alternatives/iptv-atlas`,
+      'Comparativa IPTV Atlas vs VivaceTV: precio, canales, calidad, soporte. Encuentra la mejor suscripción IPTV España en 2026.',
+    url: `${siteConfig.url}/alternativas/iptv-atlas`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'IPTV Atlas est-il fiable pour regarder des chaînes françaises ?',
+    question: '¿IPTV Atlas es fiable para ver canales españoles?',
     answer:
-      "IPTV Atlas est davantage orienté vers les contenus arabes et internationaux. Les retours utilisateurs suggèrent que son catalogue de chaînes françaises est moins complet que celui de VivaceTV. Pour une expérience optimale en France, VivaceTV propose +22 000 chaînes dont l'intégralité des chaînes françaises gratuites et payantes.",
+      'IPTV Atlas está más orientado hacia contenidos árabes e internacionales. Las valoraciones de usuarios sugieren que su catálogo de canales españoles es menos completo que el de VivaceTV. Para una experiencia óptima en España, VivaceTV ofrece +22.000 canales con la totalidad de los canales españoles gratuitos y de pago.',
   },
   {
-    question: 'Quelle est la différence entre IPTV Atlas et AtlasPro IPTV ?',
+    question: '¿Cuál es la diferencia entre IPTV Atlas y AtlasPro IPTV?',
     answer:
-      "IPTV Atlas et AtlasPro IPTV sont deux services distincts, même si leurs noms peuvent prêter à confusion. IPTV Atlas est un service généraliste, tandis qu'AtlasPro IPTV se positionne davantage sur le segment premium du contenu arabe. VivaceTV est une alternative supérieure aux deux pour les utilisateurs français.",
+      'IPTV Atlas y AtlasPro IPTV son dos servicios distintos, aunque sus nombres puedan confundir. IPTV Atlas es un servicio generalista, mientras que AtlasPro IPTV se posiciona más en el segmento premium del contenido árabe. VivaceTV es una alternativa superior a ambos para los usuarios españoles.',
   },
   {
-    question: 'IPTV Atlas propose-t-il un essai gratuit ?',
+    question: '¿IPTV Atlas ofrece prueba gratuita?',
     answer:
-      "À notre connaissance, IPTV Atlas ne propose pas d'essai gratuit. VivaceTV offre en revanche un test gratuit de 24 heures sur simple demande via WhatsApp, sans engagement ni carte bancaire requise.",
+      'Según nuestro conocimiento, IPTV Atlas no ofrece prueba gratuita. VivaceTV ofrece en cambio una prueba gratuita de 24 horas bajo simple solicitud por WhatsApp, sin compromiso ni tarjeta bancaria requerida.',
   },
   {
-    question: 'Pourquoi choisir VivaceTV plutôt qu\'IPTV Atlas ?',
+    question: '¿Por qué elegir VivaceTV en lugar de IPTV Atlas?',
     answer:
-      "VivaceTV surpasse IPTV Atlas sur tous les critères essentiels : catalogue plus large (+22 000 vs ~12 000 chaînes), qualité vidéo supérieure (8K vs HD/4K), interface moderne, prix plus avantageux sur 12 mois (3,75€/mois avec l'offre Gold), essai gratuit 24h et support WhatsApp 24/7 en français.",
+      'VivaceTV supera a IPTV Atlas en todos los criterios esenciales: catálogo más amplio (+22.000 vs ~12.000 canales), calidad de vídeo superior (8K vs HD/4K), interfaz moderna, precio más ventajoso a 12 meses (3,75€/mes con la oferta Gold), prueba gratuita de 24h y soporte WhatsApp 24/7 en español.',
   },
 ];
 
 const tableRows = [
-  { label: 'Chaînes disponibles', competitor: '~12 000', vivacetv: '+22 000' },
-  { label: 'Qualité max', competitor: 'HD/4K', vivacetv: '8K ✓' },
-  { label: 'Interface', competitor: 'Datée', vivacetv: 'Moderne ✓' },
-  { label: 'Prix', competitor: '~20€/mois', vivacetv: '3,75€/mois (Gold annuel) ✓' },
-  { label: 'Essai gratuit', competitor: '❌', vivacetv: '✅' },
-  { label: 'Support', competitor: 'Email uniquement', vivacetv: '✅ WhatsApp 24/7' },
-  { label: 'Anti-freeze', competitor: 'Non précisé', vivacetv: '✅' },
+  { label: 'Canales disponibles', competitor: '~12.000', vivacetv: '+22.000' },
+  { label: 'Calidad máxima', competitor: 'HD/4K', vivacetv: '8K ✓' },
+  { label: 'Interfaz', competitor: 'Desactualizada', vivacetv: 'Moderna ✓' },
+  { label: 'Precio', competitor: '~20€/mes', vivacetv: '3,75€/mes (Gold anual) ✓' },
+  { label: 'Prueba gratuita', competitor: '❌', vivacetv: '✅' },
+  { label: 'Soporte', competitor: 'Solo email', vivacetv: '✅ WhatsApp 24/7' },
+  { label: 'Anti-freeze', competitor: 'No especificado', vivacetv: '✅' },
 ];
 
 const switchSteps = [
-  'Demandez votre essai gratuit 24h VivaceTV via WhatsApp',
-  'Testez la qualité sur votre appareil',
-  'Choisissez votre offre (Bronze, Silver, Gold ou Diamond)',
-  "Recevez vos accès en moins d'1h",
-  'Profitez de VivaceTV sans coupure',
+  'Solicita tu prueba gratis de 24h de VivaceTV por WhatsApp',
+  'Prueba la calidad en tu dispositivo',
+  'Elige tu plan (Bronze, Silver, Gold o Diamond)',
+  'Recibe tus accesos en menos de 1h',
+  'Disfruta de VivaceTV sin cortes',
 ];
 
 export default function IPTVAtlasPage() {
@@ -90,58 +90,58 @@ export default function IPTVAtlasPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'IPTV Atlas', href: '/alternatives/iptv-atlas' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'IPTV Atlas', href: '/alternativas/iptv-atlas' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="ALTERNATIVE IPTV"
+          label="ALTERNATIVA IPTV"
           title="IPTV Atlas"
-          titleHighlight="Avis & Comparaison avec VivaceTV"
-          subtitle="Vous cherchez une alternative à IPTV Atlas ? Découvrez pourquoi VivaceTV est le meilleur choix pour votre abonnement IPTV France."
+          titleHighlight="Opiniones y Comparativa con VivaceTV"
+          subtitle="¿Buscas una alternativa a IPTV Atlas? Descubre por qué VivaceTV es la mejor opción para tu suscripción IPTV España."
         />
 
-        {/* Section 1 — Présentation */}
+        {/* Sección 1 — Presentación */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu&apos;est-ce qu&apos;IPTV Atlas ?
+              ¿Qué es IPTV Atlas?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              IPTV Atlas est un service d&apos;abonnement IPTV disponible sur le marché français,
-              principalement orienté vers les contenus arabes et internationaux. Il propose un
-              catalogue d&apos;environ 12 000 chaînes avec une qualité vidéo allant jusqu&apos;au 4K sur les
-              meilleures chaînes.
+              IPTV Atlas es un servicio de suscripción IPTV disponible en el mercado español,
+              principalmente orientado hacia contenidos árabes e internacionales. Ofrece un
+              catálogo de aproximadamente 12.000 canales con calidad de vídeo hasta 4K en los
+              mejores canales.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le service est compatible avec les principaux appareils (Smart TV, Android, iOS, PC),
-              mais son interface est considérée comme datée par rapport aux standards actuels. Les
-              utilisateurs francophones signalent également que le support client — disponible
-              uniquement par email à notre connaissance — peut être lent à répondre.
+              El servicio es compatible con los principales dispositivos (Smart TV, Android, iOS,
+              PC), pero su interfaz se considera desactualizada respecto a los estándares actuales.
+              Los usuarios hispanohablantes señalan también que el soporte al cliente —disponible
+              únicamente por email según nuestro conocimiento— puede ser lento.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              À noter : il ne faut pas confondre IPTV Atlas avec AtlasPro IPTV, qui est un service
-              distinct. Les deux services partagent une orientation vers le contenu arabe, mais
-              proposent des offres différentes.
+              A tener en cuenta: no hay que confundir IPTV Atlas con AtlasPro IPTV, que es un
+              servicio distinto. Ambos servicios comparten orientación hacia el contenido árabe,
+              pero ofrecen propuestas diferentes.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Avantages et inconvénients */}
+        {/* Sección 2 — Ventajas e inconvenientes */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              IPTV Atlas : Avantages et Inconvénients
+              IPTV Atlas: Ventajas e Inconvenientes
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div
@@ -152,17 +152,14 @@ export default function IPTVAtlasPage() {
                   padding: 20,
                 }}
               >
-                <h3
-                  className="font-display font-bold text-lg mb-4"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  Points positifs
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
+                  Puntos positivos
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {[
-                    'Marque connue dans la communauté IPTV',
-                    'Bonne variété de contenus arabes et MENA',
-                    'Compatible avec les principaux appareils',
+                    'Marca conocida en la comunidad IPTV',
+                    'Buena variedad de contenidos árabes y MENA',
+                    'Compatible con los principales dispositivos',
                   ].map((pro, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Check size={16} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
@@ -179,19 +176,16 @@ export default function IPTVAtlasPage() {
                   padding: 20,
                 }}
               >
-                <h3
-                  className="font-display font-bold text-lg mb-4"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  Points négatifs
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
+                  Puntos negativos
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {[
-                    'Interface datée, peu intuitive',
-                    'Pas de qualité 8K disponible',
-                    'Aucun essai gratuit à notre connaissance',
-                    'Support uniquement par email (lent)',
-                    'Catalogue de chaînes françaises moins complet',
+                    'Interfaz desactualizada, poco intuitiva',
+                    'Sin calidad 8K disponible',
+                    'Sin prueba gratuita conocida',
+                    'Soporte solo por email (lento)',
+                    'Catálogo de canales españoles menos completo',
                   ].map((con, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <X size={16} style={{ color: 'var(--color-gray-400)', flexShrink: 0, marginTop: 2 }} />
@@ -204,20 +198,20 @@ export default function IPTVAtlasPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
+        {/* Sección 3 — Tabla comparativa */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              IPTV Atlas vs VivaceTV — Comparatif Détaillé
+              IPTV Atlas vs VivaceTV — Comparativa Detallada
             </h2>
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
-                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Critère</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>IPTV Atlas</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
                   </tr>
@@ -240,53 +234,52 @@ export default function IPTVAtlasPage() {
               </table>
             </div>
             <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>
-              * Données IPTV Atlas basées sur les informations publiquement disponibles et les retours
-              utilisateurs. À titre indicatif.
+              * Datos de IPTV Atlas basados en información públicamente disponible y valoraciones de usuarios. A título orientativo.
             </p>
           </div>
         </section>
 
-        {/* Section 4 — Pourquoi VivaceTV */}
+        {/* Sección 4 — Por qué VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi VivaceTV est Meilleur qu&apos;IPTV Atlas ?
+              ¿Por qué VivaceTV es Mejor que IPTV Atlas?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV propose un catalogue presque deux fois plus large qu&apos;IPTV Atlas avec plus de
-              22 000 chaînes, incluant l&apos;intégralité des chaînes françaises (TF1, France 2, France 3,
-              M6, Canal+, beIN Sports, RMC Sport, etc.) mais aussi un large choix de chaînes arabes et
-              internationales.
+              VivaceTV ofrece un catálogo casi dos veces más amplio que IPTV Atlas con más de
+              22.000 canales, incluyendo la totalidad de los canales españoles (La 1, Antena 3,
+              Telecinco, Cuatro, La Sexta, Canal+, DAZN, Movistar+, etc.) pero también una amplia
+              selección de canales árabes e internacionales.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              L&apos;interface de VivaceTV est moderne et intuitive, optimisée pour toutes les résolutions
-              d&apos;écran. Contrairement à l&apos;interface datée d&apos;IPTV Atlas, VivaceTV offre une expérience
-              utilisateur soignée sur Smart TV, Android, iOS et PC.
+              La interfaz de VivaceTV es moderna e intuitiva, optimizada para todas las
+              resoluciones de pantalla. A diferencia de la interfaz desactualizada de IPTV Atlas,
+              VivaceTV ofrece una experiencia de usuario cuidada en Smart TV, Android, iOS y PC.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur le plan financier, l&apos;écart est significatif. À ~20€ par mois pour IPTV Atlas contre
-              3,75€ par mois pour VivaceTV (offre Gold 12 mois à 44,99€), le choix est évident en
-              termes de rapport qualité/prix.
+              En el plano económico, la diferencia es significativa. A ~20€ al mes por IPTV Atlas
+              frente a 3,75€ al mes por VivaceTV (oferta Gold 12 meses a 44,99€), la elección es
+              evidente en términos de relación calidad/precio.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Le support client VivaceTV est disponible 24/7 via WhatsApp en français — un avantage
-              considérable par rapport au support email uniquement d&apos;IPTV Atlas, qui peut entraîner
-              des délais de réponse importants.
+              El soporte al cliente de VivaceTV está disponible 24/7 por WhatsApp en español —
+              una ventaja considerable respecto al soporte solo por email de IPTV Atlas, que puede
+              generar demoras importantes.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Comment passer */}
+        {/* Sección 5 — Cómo cambiar */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Passer d&apos;IPTV Atlas à VivaceTV ?
+              ¿Cómo Pasarse de IPTV Atlas a VivaceTV?
             </h2>
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
@@ -314,24 +307,24 @@ export default function IPTVAtlasPage() {
             </div>
             <div className="mt-8">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Voir les offres VivaceTV →
+                Ver los planes de VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
+        {/* Sección 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — IPTV Atlas vs VivaceTV
+              Preguntas Frecuentes — IPTV Atlas vs VivaceTV
             </h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
@@ -355,10 +348,10 @@ export default function IPTVAtlasPage() {
             </div>
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
                 <Link
                   key={l.href}

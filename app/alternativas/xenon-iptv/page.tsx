@@ -10,65 +10,65 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Xenon IPTV Avis 2026 — Meilleure Alternative en France | VivaceTV',
+  title: 'Xenon IPTV Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
   description:
-    'Xenon IPTV avis 2025 : est-ce le bon choix pour votre IPTV France ? Comparatif Xenon vs VivaceTV : prix, qualité, stabilité, support. Notre verdict.',
+    'Xenon IPTV opiniones 2026: ¿es la mejor opción para tu IPTV España? Comparativa Xenon vs VivaceTV: precio, calidad, estabilidad, soporte. Nuestro veredicto.',
   keywords: [
     'xenon iptv',
-    'xenon iptv avis',
-    'alternative xenon iptv',
-    'xenon iptv france',
+    'xenon iptv opiniones',
+    'alternativa xenon iptv',
+    'xenon iptv españa',
     'xenon iptv vs vivacetv',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/xenon-iptv` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/xenon-iptv` },
   openGraph: {
-    title: 'Xenon IPTV Avis 2026 — Meilleure Alternative en France | VivaceTV',
+    title: 'Xenon IPTV Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
     description:
-      'Comparatif Xenon IPTV vs VivaceTV : prix, qualité, stabilité, support. Découvrez pourquoi VivaceTV est la meilleure alternative à Xenon IPTV en France.',
-    url: `${siteConfig.url}/alternatives/xenon-iptv`,
+      'Comparativa Xenon IPTV vs VivaceTV: precio, calidad, estabilidad, soporte. Descubre por qué VivaceTV es la mejor alternativa a Xenon IPTV en España.',
+    url: `${siteConfig.url}/alternativas/xenon-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Xenon IPTV est-il fiable ?',
+    question: '¿Xenon IPTV es fiable?',
     answer:
-      "Xenon IPTV est un service connu sur le marché français, mais les retours utilisateurs signalent des irrégularités de stabilité et un support client limité. VivaceTV offre une meilleure stabilité grâce à sa technologie AntiFreeze 10.0 et un support WhatsApp 24/7.",
+      'Xenon IPTV es un servicio conocido en el mercado español, pero las valoraciones de usuarios señalan irregularidades de estabilidad y un soporte al cliente limitado. VivaceTV ofrece mejor estabilidad gracias a su tecnología AntiFreeze 10.0 y un soporte WhatsApp 24/7.',
   },
   {
-    question: 'Quelle est la meilleure alternative à Xenon IPTV en France ?',
+    question: '¿Cuál es la mejor alternativa a Xenon IPTV en España?',
     answer:
-      "VivaceTV est considéré comme la meilleure alternative à Xenon IPTV en France. Il propose un catalogue plus large (+22 000 chaînes vs ~15 000), une qualité supérieure (jusqu'au 8K), un essai gratuit 24h et un support WhatsApp réactif 24/7.",
+      "VivaceTV es considerada la mejor alternativa a Xenon IPTV en España. Ofrece un catálogo más amplio (+22.000 canales vs ~15.000), calidad superior (hasta 8K), prueba gratuita de 24h y soporte WhatsApp reactivo 24/7.",
   },
   {
-    question: 'Xenon IPTV propose-t-il un essai gratuit ?',
+    question: '¿Xenon IPTV ofrece prueba gratuita?',
     answer:
-      "Non, Xenon IPTV ne propose pas d'essai gratuit à notre connaissance. VivaceTV propose un test gratuit de 24 heures sur simple demande via WhatsApp — idéal pour évaluer la qualité avant de s'engager.",
+      "No, Xenon IPTV no ofrece prueba gratuita según nuestro conocimiento. VivaceTV ofrece una prueba gratuita de 24 horas bajo simple solicitud por WhatsApp — ideal para evaluar la calidad antes de comprometerte.",
   },
   {
-    question: 'Comment passer de Xenon IPTV à VivaceTV ?',
+    question: '¿Cómo pasar de Xenon IPTV a VivaceTV?',
     answer:
-      "C'est simple : contactez VivaceTV via WhatsApp pour demander votre essai gratuit 24h, testez sur votre appareil, puis choisissez votre offre. Vos accès VivaceTV sont activés en moins d'une heure. Aucune configuration complexe n'est nécessaire.",
+      "Es sencillo: contacta con VivaceTV por WhatsApp para solicitar tu prueba gratuita de 24h, prueba en tu dispositivo, luego elige tu plan. Tus accesos VivaceTV se activan en menos de una hora. No se requiere ninguna configuración compleja.",
   },
 ];
 
 const tableRows = [
-  { label: 'Chaînes disponibles', competitor: '~15 000', vivacetv: '+22 000' },
-  { label: 'Qualité max', competitor: '4K', vivacetv: '8K ✓' },
-  { label: 'Prix entrée', competitor: '~25€/mois', vivacetv: '22,99€/3 mois ✓' },
-  { label: 'Essai gratuit', competitor: '❌', vivacetv: '✅ 24h' },
-  { label: 'Support 24/7', competitor: 'Limité', vivacetv: '✅ WhatsApp' },
+  { label: 'Canales disponibles', competitor: '~15.000', vivacetv: '+22.000' },
+  { label: 'Calidad máxima', competitor: '4K', vivacetv: '8K ✓' },
+  { label: 'Precio de entrada', competitor: '~25€/mes', vivacetv: '22,99€/3 meses ✓' },
+  { label: 'Prueba gratuita', competitor: '❌', vivacetv: '✅ 24h' },
+  { label: 'Soporte 24/7', competitor: 'Limitado', vivacetv: '✅ WhatsApp' },
   { label: 'Anti-freeze', competitor: '❌', vivacetv: '✅' },
-  { label: 'Mise à jour catalogue', competitor: 'Irrégulière', vivacetv: '✅ Régulière' },
+  { label: 'Actualización catálogo', competitor: 'Irregular', vivacetv: '✅ Regular' },
 ];
 
 const switchSteps = [
-  'Demandez votre essai gratuit 24h VivaceTV via WhatsApp',
-  'Testez la qualité sur votre appareil',
-  'Choisissez votre offre (Bronze, Silver, Gold ou Diamond)',
-  'Recevez vos accès en moins d\'1h',
-  'Profitez de VivaceTV sans coupure',
+  'Solicita tu prueba gratis de 24h de VivaceTV por WhatsApp',
+  'Prueba la calidad en tu dispositivo',
+  'Elige tu plan (Bronze, Silver, Gold o Diamond)',
+  'Recibe tus accesos en menos de 1h',
+  'Disfruta de VivaceTV sin cortes',
 ];
 
 export default function XenonIPTVPage() {
@@ -90,79 +90,44 @@ export default function XenonIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'Xenon IPTV', href: '/alternatives/xenon-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'Xenon IPTV', href: '/alternativas/xenon-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="ALTERNATIVE IPTV"
+          label="ALTERNATIVA IPTV"
           title="Xenon IPTV"
-          titleHighlight="Avis 2025 & Meilleure Alternative"
-          subtitle="Vous cherchez une alternative à Xenon IPTV ? Découvrez pourquoi VivaceTV est le meilleur choix pour votre abonnement IPTV France."
+          titleHighlight="Opiniones 2026 y Mejor Alternativa"
+          subtitle="¿Buscas una alternativa a Xenon IPTV? Descubre por qué VivaceTV es la mejor opción para tu suscripción IPTV España."
         />
 
-        {/* Section 1 — Qu'est-ce que Xenon IPTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Qu&apos;est-ce que Xenon IPTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Qué es Xenon IPTV?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Xenon IPTV est un service d&apos;abonnement IPTV présent sur le marché français depuis
-              quelques années. Il propose un catalogue de chaînes françaises et internationales,
-              accessible sur Smart TV, Android, iOS et PC. Selon les informations disponibles, il
-              compterait environ 15 000 chaînes avec une qualité vidéo allant jusqu&apos;au 4K.
+              Xenon IPTV es un servicio de suscripción IPTV presente en el mercado español desde hace algunos años. Ofrece un catálogo de canales españoles e internacionales, accesible en Smart TV, Android, iOS y PC. Según la información disponible, contaría con aproximadamente 15.000 canales con calidad de vídeo hasta 4K.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le service est relativement populaire en France, notamment grâce à sa présence dans les
-              communautés IPTV francophones. Cependant, comme beaucoup de services IPTV, les retours
-              utilisateurs sont mitigés, en particulier concernant la stabilité lors des événements
-              sportifs en direct et la réactivité du support client.
+              El servicio es relativamente popular en España, especialmente gracias a su presencia en las comunidades IPTV hispanohablantes. Sin embargo, como muchos servicios IPTV, las valoraciones de usuarios son dispares, en particular en lo que respecta a la estabilidad durante los eventos deportivos en directo y la reactividad del soporte al cliente.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Si vous recherchez une alternative à Xenon IPTV avec de meilleures performances et un
-              support plus réactif, ce comparatif vous aidera à faire le bon choix.
+              Si buscas una alternativa a Xenon IPTV con mejor rendimiento y un soporte más reactivo, esta comparativa te ayudará a tomar la mejor decisión.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Avantages et inconvénients */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Xenon IPTV : Avantages et Inconvénients
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Xenon IPTV: Ventajas e Inconvenientes</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3
-                  className="font-display font-bold text-lg mb-4"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  Points positifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos positivos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Base d\'utilisateurs importante en France',
-                    'Service populaire dans la communauté IPTV',
-                    'Qualité HD correcte sur les chaînes principales',
-                  ].map((pro, i) => (
+                  {['Base de usuarios importante en España', 'Servicio popular en la comunidad IPTV', 'Calidad HD correcta en los canales principales'].map((pro, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Check size={16} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{pro}</span>
@@ -170,28 +135,10 @@ export default function XenonIPTVPage() {
                   ))}
                 </ul>
               </div>
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3
-                  className="font-display font-bold text-lg mb-4"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  Points négatifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos negativos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Pas d\'essai gratuit disponible à notre connaissance',
-                    'Support client limité selon les retours utilisateurs',
-                    'Qualité 8K absente — maximum 4K',
-                    'Prix mensuel plus élevé que VivaceTV sur le long terme',
-                    'Mises à jour de catalogue irrégulières signalées',
-                  ].map((con, i) => (
+                  {['Sin prueba gratuita disponible según nuestro conocimiento', 'Soporte al cliente limitado según las valoraciones de usuarios', 'Calidad 8K ausente — máximo 4K', 'Precio mensual más elevado que VivaceTV a largo plazo', 'Actualizaciones de catálogo irregulares señaladas'].map((con, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <X size={16} style={{ color: 'var(--color-gray-400)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{con}</span>
@@ -203,33 +150,21 @@ export default function XenonIPTVPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Xenon IPTV vs VivaceTV — Comparatif Détaillé
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Xenon IPTV vs VivaceTV — Comparativa Detallada</h2>
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
-                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Critère</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>Xenon IPTV</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
                   </tr>
                 </thead>
                 <tbody>
                   {tableRows.map((row, i) => (
-                    <tr
-                      key={i}
-                      style={{
-                        backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)',
-                        borderBottom: '1px solid var(--color-border)',
-                      }}
-                    >
+                    <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)', borderBottom: '1px solid var(--color-border)' }}>
                       <td style={{ padding: '10px 16px', color: 'var(--color-ink)', fontWeight: 500 }}>{row.label}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-ink-light)' }}>{row.competitor}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-lime)', fontWeight: 600 }}>{row.vivacetv}</td>
@@ -238,144 +173,66 @@ export default function XenonIPTVPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>
-              * Données Xenon IPTV basées sur les informations publiquement disponibles et les retours
-              utilisateurs. À titre indicatif.
-            </p>
+            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>* Datos de Xenon IPTV basados en información públicamente disponible y valoraciones de usuarios. A título orientativo.</p>
           </div>
         </section>
 
-        {/* Section 4 — Pourquoi VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Pourquoi VivaceTV est Meilleur que Xenon IPTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Por qué VivaceTV es Mejor que Xenon IPTV?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV a été conçu spécifiquement pour le marché français, avec un catalogue optimisé
-              pour les téléspectateurs francophones. Contrairement à Xenon IPTV, VivaceTV propose plus
-              de 22 000 chaînes mises à jour régulièrement, incluant toutes les chaînes françaises
-              gratuites et payantes, les bouquets sportifs et un vaste catalogue VOD.
+              VivaceTV ha sido diseñado específicamente para el mercado español, con un catálogo optimizado para los telespectadores hispanohablantes. A diferencia de Xenon IPTV, VivaceTV ofrece más de 22.000 canales actualizados regularmente, incluyendo todos los canales españoles gratuitos y de pago, los paquetes deportivos y un amplio catálogo VOD.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La technologie propriétaire <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de VivaceTV
-              garantit une diffusion sans coupure même lors des pics de trafic — matchs de football,
-              finales sportives — là où d&apos;autres services présentent des instabilités selon les retours
-              utilisateurs.
+              La tecnología propietaria <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de VivaceTV garantiza una emisión sin cortes incluso durante los picos de tráfico — partidos de fútbol, finales deportivas — donde otros servicios presentan inestabilidades según las valoraciones de usuarios.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Sur le plan tarifaire, l&apos;offre Gold 12 mois de VivaceTV à 44,99€ revient à moins de
-              3,75€ par mois — bien en dessous du coût mensuel de Xenon IPTV. Et contrairement à
-              Xenon, VivaceTV propose un <strong style={{ color: 'var(--color-ink)' }}>essai gratuit de 24 heures</strong> permettant
-              de tester la qualité avant tout engagement.
+              En cuanto al precio, la oferta Gold de 12 meses de VivaceTV a 44,99€ sale a menos de 3,75€ al mes — muy por debajo del coste mensual de Xenon IPTV. Y a diferencia de Xenon, VivaceTV ofrece una <strong style={{ color: 'var(--color-ink)' }}>prueba gratuita de 24 horas</strong> que permite probar la calidad antes de cualquier compromiso.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Enfin, le support client VivaceTV est disponible 24h/24 via WhatsApp en français, avec
-              un temps de réponse moyen inférieur à 15 minutes. Un niveau de service que Xenon IPTV
-              ne semble pas proposer selon les informations disponibles.
+              Finalmente, el soporte al cliente de VivaceTV está disponible 24h/24 por WhatsApp en español, con un tiempo de respuesta medio inferior a 15 minutos. Un nivel de servicio que Xenon IPTV no parece ofrecer según la información disponible.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Comment passer à VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Comment Passer de Xenon IPTV à VivaceTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>¿Cómo Pasarse de Xenon IPTV a VivaceTV?</h2>
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <span
-                    style={{
-                      backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
-                      borderRadius: 999,
-                      width: 32,
-                      height: 32,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontWeight: 700,
-                      fontSize: 14,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {i + 1}
-                  </span>
+                  <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, flexShrink: 0 }}>{i + 1}</span>
                   <p className="text-base pt-1" style={{ color: 'var(--color-ink)' }}>{step}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Link
-                href="/abonnements"
-                className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
-              >
-                Voir les offres VivaceTV →
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+                Ver los planes de VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Questions Fréquentes — Xenon IPTV vs VivaceTV
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Preguntas Frecuentes — Xenon IPTV vs VivaceTV</h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
-                <div
-                  key={item.question}
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: 12,
-                    padding: 20,
-                  }}
-                >
-                  <h3
-                    className="font-semibold text-base mb-2"
-                    style={{ color: 'var(--color-ink)' }}
-                  >
-                    {item.question}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                    {item.answer}
-                  </p>
+                <div key={item.question} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.question}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.answer}</p>
                 </div>
               ))}
             </div>
-
-            {/* Internal links */}
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className="text-sm px-4 py-2 rounded-lg font-medium"
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    color: 'var(--color-ink)',
-                    border: '1px solid var(--color-border)',
-                  }}
-                >
+                <Link key={l.href} href={l.href} className="text-sm px-4 py-2 rounded-lg font-medium" style={{ backgroundColor: 'var(--color-card)', color: 'var(--color-ink)', border: '1px solid var(--color-border)' }}>
                   {l.label} →
                 </Link>
               ))}
@@ -385,7 +242,6 @@ export default function XenonIPTVPage() {
 
         <FinalCTA />
       </main>
-
       <Footer />
     </>
   );

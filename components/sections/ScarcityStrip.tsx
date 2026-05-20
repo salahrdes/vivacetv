@@ -5,10 +5,10 @@ import { Clock, Flame } from 'lucide-react';
 
 // ── Per-plan urgency config ───────────────────────────────────────────────────
 const SCARCITY: Record<string, { urgency: string; spots?: number }> = {
-  bronze:  { urgency: 'Idéal pour découvrir VivaceTV sans engagement long' },
-  silver:  { urgency: 'Meilleur rapport qualité/prix — 6 mois offerts' },
-  gold:    { urgency: '⭐ Le plus commandé ce mois — quantités limitées', spots: 5 },
-  diamond: { urgency: '💎 Accès VIP prioritaire — places très limitées',  spots: 2 },
+  bronze:  { urgency: 'Ideal para descubrir VivaceTV sin permanencia' },
+  silver:  { urgency: 'Mejor relación calidad/precio — 6 meses incluidos' },
+  gold:    { urgency: '⭐ El más contratado este mes — plazas limitadas', spots: 5 },
+  diamond: { urgency: '💎 Acceso VIP prioritario — plazas muy limitadas',  spots: 2 },
 };
 
 // ── Seeded initial viewer counts (consistent per plan within a session) ───────
@@ -57,7 +57,7 @@ export default function ScarcityStrip({ planSlug }: Props) {
     return () => clearTimeout(id);
   }, []);
 
-  const meta = SCARCITY[planSlug] ?? { urgency: 'Offre à durée limitée' };
+  const meta = SCARCITY[planSlug] ?? { urgency: 'Oferta por tiempo limitado' };
 
   return (
     <div
@@ -70,7 +70,7 @@ export default function ScarcityStrip({ planSlug }: Props) {
       <div className="flex items-center gap-2">
         <Clock size={15} aria-hidden="true" style={{ color: '#D97706' }} />
         <span className="text-sm font-semibold" style={{ color: '#92400E' }}>
-          Offre expire dans{' '}
+          Oferta expira en{' '}
           <span className="font-mono tracking-widest">{formatCountdown(secondsLeft)}</span>
         </span>
       </div>
@@ -79,7 +79,7 @@ export default function ScarcityStrip({ planSlug }: Props) {
       <div className="flex items-center gap-2">
         <Flame size={15} aria-hidden="true" style={{ color: '#D97706' }} />
         <span className="text-sm" style={{ color: '#92400E' }}>
-          <strong>{viewers}</strong> personnes regardent cette offre en ce moment
+          <strong>{viewers}</strong> personas están viendo esta oferta ahora mismo
         </span>
       </div>
 
@@ -90,7 +90,7 @@ export default function ScarcityStrip({ planSlug }: Props) {
             className="text-xs font-bold px-2.5 py-1 rounded-full shrink-0"
             style={{ backgroundColor: '#D97706', color: '#fff' }}
           >
-            {meta.spots} restant{meta.spots > 1 ? 's' : ''}
+            {meta.spots} restante{meta.spots > 1 ? 's' : ''}
           </span>
         )}
         <span className="text-sm font-medium" style={{ color: '#92400E' }}>

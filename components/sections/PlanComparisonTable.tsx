@@ -13,35 +13,35 @@ type TableRow = {
 
 const tableRows: TableRow[] = [
   {
-    label: 'Prix',
+    label: 'Precio',
     bronze: '22,99 €',
     silver: '34,99 €',
     gold: '44,99 €',
     diamond: '74,99 €',
   },
   {
-    label: 'Durée',
-    bronze: '3 mois',
-    silver: '6 mois',
-    gold: '12 mois',
-    diamond: '24 mois',
+    label: 'Duración',
+    bronze: '3 meses',
+    silver: '6 meses',
+    gold: '12 meses',
+    diamond: '24 meses',
   },
   {
-    label: 'Nombre de chaînes',
+    label: 'Número de canales',
     bronze: '+22 000',
     silver: '+22 000',
     gold: '+22 000',
     diamond: '+22 000',
   },
   {
-    label: 'Films et séries',
+    label: 'Películas y series',
     bronze: '+60 000',
     silver: '+100 000',
     gold: '+160 000',
     diamond: '+160 000',
   },
   {
-    label: 'Qualité vidéo',
+    label: 'Calidad de vídeo',
     bronze: '4K / HD / SD',
     silver: 'SD / HD / 4K',
     gold: 'SD / HD / 4K / 8K',
@@ -69,21 +69,21 @@ const tableRows: TableRow[] = [
     diamond: true,
   },
   {
-    label: 'TV en Replay',
+    label: 'TV en diferido',
     bronze: true,
     silver: true,
     gold: true,
     diamond: true,
   },
   {
-    label: 'Mises à jour gratuites',
+    label: 'Actualizaciones gratuitas',
     bronze: true,
     silver: true,
     gold: true,
     diamond: true,
   },
   {
-    label: 'Assistance',
+    label: 'Asistencia',
     bronze: '24/7',
     silver: '24/7',
     gold: '24/7',
@@ -92,10 +92,10 @@ const tableRows: TableRow[] = [
 ];
 
 const plans = [
-  { key: 'bronze' as const, name: 'Bronze',  isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Bronze (3 mois - 22,99€)' },
-  { key: 'silver' as const, name: 'Silver',  isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Silver (6 mois - 34,99€)' },
-  { key: 'gold'   as const, name: 'Gold',    isFeatured: true,  waText: 'Bonjour VivaceTV, je souhaite commander le forfait Gold (12 mois - 44,99€)' },
-  { key: 'diamond'as const, name: 'Diamond', isFeatured: false, waText: 'Bonjour VivaceTV, je souhaite commander le forfait Diamond (24 mois - 74,99€)' },
+  { key: 'bronze' as const, name: 'Bronze',  isFeatured: false, waText: 'Hola VivaceTV, quiero comprar el plan Bronze (3 meses - 22,99€)' },
+  { key: 'silver' as const, name: 'Silver',  isFeatured: false, waText: 'Hola VivaceTV, quiero comprar el plan Silver (6 meses - 34,99€)' },
+  { key: 'gold'   as const, name: 'Gold',    isFeatured: true,  waText: 'Hola VivaceTV, quiero comprar el plan Gold (12 meses - 44,99€)' },
+  { key: 'diamond'as const, name: 'Diamond', isFeatured: false, waText: 'Hola VivaceTV, quiero comprar el plan Diamond (24 meses - 74,99€)' },
 ];
 
 function CellContent({ value, isFeatured }: { value: CellValue; isFeatured: boolean }) {
@@ -142,27 +142,27 @@ export default function PlanComparisonTable() {
             className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full tracking-wider uppercase"
             style={{ backgroundColor: 'var(--color-lime-soft)', color: 'var(--color-dark)' }}
           >
-            Comparatif complet
+            Comparativa completa
           </span>
           <h2
             id="comparison-heading"
             className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight max-w-3xl"
             style={{ color: 'var(--color-ink)' }}
           >
-            Comparatif des Forfaits{' '}
+            Comparativa de Planes{' '}
             <span style={{ color: 'var(--color-lime)' }}>IPTV</span>
           </h2>
           <p
             className="text-lg max-w-2xl leading-relaxed"
             style={{ color: 'var(--color-ink-light)' }}
           >
-            Choisissez le forfait adapté à votre usage. Tous incluent les mêmes chaînes — la durée et les extras font la différence.
+            Elige el plan adaptado a tu uso. Todos incluyen los mismos canales — la duración y los extras marcan la diferencia.
           </p>
         </div>
 
         {/* Table wrapper — horizontal scroll on mobile */}
         <div className="overflow-x-auto rounded-2xl" style={{ border: '1px solid var(--color-border)' }}>
-          <table className="w-full min-w-[640px] border-collapse" aria-label="Comparatif des forfaits VivaceTV">
+          <table className="w-full min-w-[640px] border-collapse" aria-label="Comparativa de planes VivaceTV">
             <thead>
               <tr>
                 {/* Feature label column */}
@@ -175,7 +175,7 @@ export default function PlanComparisonTable() {
                     width: '28%',
                   }}
                 >
-                  Fonctionnalité
+                  Característica
                 </th>
 
                 {/* Plan columns */}
@@ -197,7 +197,7 @@ export default function PlanComparisonTable() {
                           className="text-[10px] font-bold px-2 py-0.5 rounded-full mb-1"
                           style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
                         >
-                          ✦ Recommandé
+                          ✦ Recomendado
                         </span>
                       )}
                       <span
@@ -266,7 +266,7 @@ export default function PlanComparisonTable() {
                     borderTop: '2px solid var(--color-border)',
                   }}
                 >
-                  Commander
+                  Comprar
                 </td>
                 {plans.map((plan) => (
                   <td
@@ -294,7 +294,7 @@ export default function PlanComparisonTable() {
                             }
                       }
                     >
-                      Choisir {plan.name}
+                      Elegir {plan.name}
                     </a>
                   </td>
                 ))}
@@ -305,7 +305,7 @@ export default function PlanComparisonTable() {
 
         {/* Footnote */}
         <p className="mt-6 text-center text-xs" style={{ color: 'var(--color-gray-400)' }}>
-          Tous les forfaits sont activés manuellement par notre équipe via WhatsApp. Paiement unique, sans abonnement récurrent.
+          Todos los planes son activados manualmente por nuestro equipo vía WhatsApp. Pago único, sin suscripción recurrente.
         </p>
       </div>
     </section>

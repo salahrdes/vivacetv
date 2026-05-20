@@ -9,96 +9,96 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV Illégal en France : Amendes, Risques et Comment Rester Légal | VivaceTV',
+  title: 'IPTV Ilegal en España : Multas, Riesgos y Cómo Mantenerse Legal | VivaceTV',
   description:
-    "L'IPTV est-il illégal en France ? Quelles amendes risquez-vous ? Comprendre la différence entre IPTV légal et pirate, le rôle d'ARCOM, et comment choisir un service légitimement opéré.",
+    "¿Es ilegal el IPTV en España? ¿Qué multas arriesgáis? Entender la diferencia entre IPTV legal y pirata, el papel de la CNMC, y cómo elegir un servicio legítimamente operado.",
   keywords: [
-    'iptv amende',
-    'iptv amende france',
-    'iptv illegal france',
-    'iptv legal france',
-    'amende streaming illégal',
-    'arcom iptv',
-    'risque iptv pirate',
+    'iptv multa',
+    'iptv multa españa',
+    'iptv ilegal españa',
+    'iptv legal españa',
+    'multa streaming ilegal',
+    'cnmc iptv',
+    'riesgo iptv pirata',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/iptv-amende` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/iptv-amende` },
   openGraph: {
-    title: 'IPTV Illégal en France : Amendes, Risques et Comment Rester Légal | VivaceTV',
+    title: 'IPTV Ilegal en España : Multas, Riesgos y Cómo Mantenerse Legal | VivaceTV',
     description:
-      "Tout savoir sur la légalité de l'IPTV en France : amendes possibles, rôle d'ARCOM, et comment identifier un service IPTV légal.",
-    url: `${siteConfig.url}/guide-iptv/iptv-amende`,
+      "Todo lo que necesitáis saber sobre la legalidad del IPTV en España: multas posibles, papel de la CNMC, y cómo identificar un servicio IPTV legal.",
+    url: `${siteConfig.url}/guia-iptv/iptv-amende`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "L'IPTV est-il illégal en France ?",
+    question: "¿Es ilegal el IPTV en España?",
     answer:
-      "L'IPTV en tant que technologie est tout à fait légale en France. Ce qui est illégal, c'est d'utiliser un service IPTV qui diffuse des contenus sans détenir les droits de diffusion appropriés — ce qu'on appelle l'IPTV pirate. Un service IPTV légitimement opéré, avec facturation officielle et contenus sous licence, est parfaitement légal.",
+      "El IPTV como tecnología es perfectamente legal en España. Lo que es ilegal es utilizar un servicio IPTV que emite contenidos sin contar con los derechos de emisión adecuados — lo que se denomina IPTV pirata. Un servicio IPTV legítimamente operado, con facturación oficial y contenidos bajo licencia, es completamente legal.",
   },
   {
-    question: "Quelle amende risque-t-on en utilisant un IPTV pirate en France ?",
+    question: "¿Qué multa se arriesga por usar un IPTV pirata en España?",
     answer:
-      "En France, la consommation de contenus piratés peut exposer à des amendes pouvant atteindre plusieurs milliers d'euros, voire des poursuites pénales dans les cas les plus graves. ARCOM (ex-HADOPI) peut adresser des avertissements, et les tribunaux peuvent prononcer des condamnations pour contrefaçon. Les risques varient selon la gravité et la répétition des infractions.",
+      "En España, el consumo de contenidos pirateados puede acarrear multas de varios miles de euros e incluso acciones penales en los casos más graves. La CNMC y la Ley de Propiedad Intelectual española protegen los contenidos audiovisuales. Los tribunales pueden dictar condenas por infracción de derechos de autor. Los riesgos varían según la gravedad y la reincidencia de las infracciones.",
   },
   {
-    question: "Quelle est la différence entre IPTV légal et IPTV pirate ?",
+    question: "¿Cuál es la diferencia entre IPTV legal e IPTV pirata?",
     answer:
-      "Un IPTV légal dispose d'accords commerciaux avec les ayants droit, émet des factures officielles, et opère de manière transparente. Un IPTV pirate redistribue des flux de chaînes sans autorisation, à des prix anormalement bas, sans facturation officielle ni service après-vente identifié. Si un abonnement vous coûte moins de 5€/mois pour des milliers de chaînes sans aucune facture, c'est probablement illégal.",
+      "Un IPTV legal tiene acuerdos comerciales con los titulares de derechos, emite facturas oficiales y opera de forma transparente. Un IPTV pirata redistribuye señales de canales sin autorización, a precios anormalmente bajos, sin facturación oficial ni servicio postventa identificado. Si una suscripción os cuesta menos de 5€/mes por miles de canales sin ninguna factura, probablemente sea ilegal.",
   },
   {
-    question: "Comment ARCOM détecte-t-elle les utilisateurs d'IPTV illégal ?",
+    question: "¿Cómo detecta la CNMC a los usuarios de IPTV ilegal?",
     answer:
-      "ARCOM (Autorité de Régulation de la Communication Audiovisuelle et Numérique) dispose de plusieurs moyens de détection : surveillance des adresses IP se connectant à des serveurs pirates connus, coopération avec les fournisseurs d'accès à Internet (FAI), et opérations judiciaires ciblant les grands réseaux de distribution. Les utilisateurs finals sont moins ciblés que les distributeurs, mais le risque existe et augmente.",
+      "La CNMC (Comisión Nacional de los Mercados y la Competencia) y la AEPD disponen de varios medios de detección: vigilancia de direcciones IP que se conectan a servidores piratas conocidos, cooperación con los proveedores de servicios de internet (ISP), y operaciones judiciales dirigidas a las grandes redes de distribución. Los usuarios finales son menos objetivo que los distribuidores, pero el riesgo existe y crece cada año.",
   },
   {
-    question: "Existe-t-il un IPTV de qualité équivalente à Netflix mais légal ?",
+    question: "¿Existe un IPTV de calidad equivalente a Netflix pero legal?",
     answer:
-      "Oui. Des services IPTV légitimement opérés comme VivaceTV proposent des abonnements avec facturation officielle, un vaste catalogue de chaînes françaises et internationales en HD et 4K, ainsi qu'une médiathèque VOD. Ce type de service combine la richesse d'un IPTV avec le cadre rassurant d'un abonnement officiel.",
+      "Sí. Servicios IPTV legítimamente operados como VivaceTV ofrecen suscripciones con facturación oficial, un amplio catálogo de canales españoles e internacionales en HD y 4K, así como una mediateca VOD. Este tipo de servicio combina la riqueza de un IPTV con el marco tranquilizador de una suscripción oficial.",
   },
   {
-    question: "Mon fournisseur internet peut-il savoir que j'utilise un IPTV ?",
+    question: "¿Puede mi proveedor de internet saber que uso un IPTV?",
     answer:
-      "Votre fournisseur d'accès à Internet peut voir les connexions vers des serveurs identifiés comme pirates et peut être contraint par la loi de transmettre ces informations aux autorités en cas d'enquête. L'utilisation d'un service IPTV légitimement opéré vous protège de ce risque en vous connectant à des infrastructures conformes.",
+      "Vuestro proveedor de acceso a internet puede ver las conexiones hacia servidores identificados como piratas y puede verse obligado por ley a transmitir esta información a las autoridades en caso de investigación. El uso de un servicio IPTV legítimamente operado os protege de este riesgo al conectaros a infraestructuras conformes.",
   },
 ];
 
 const legalMarkers = [
   {
     icon: '✓',
-    title: 'Facturation officielle',
-    desc: 'Le service émet une facture ou un reçu avec des coordonnées légales identifiables.',
+    title: 'Facturación oficial',
+    desc: 'El servicio emite una factura o un recibo con datos legales identificables.',
     ok: true,
   },
   {
     icon: '✓',
-    title: 'Tarif cohérent avec le marché',
-    desc: "Les prix reflètent un coût réel de licence et d'infrastructure (généralement dès 20-25€/3 mois).",
+    title: 'Precio coherente con el mercado',
+    desc: "Los precios reflejan un coste real de licencia e infraestructura (generalmente desde 20-25€/3 meses).",
     ok: true,
   },
   {
     icon: '✓',
-    title: 'Support client identifié',
-    desc: "Une équipe joignable par WhatsApp, email ou chat avec un temps de réponse raisonnable.",
+    title: 'Soporte al cliente identificado',
+    desc: "Un equipo accesible por WhatsApp, email o chat con un tiempo de respuesta razonable.",
     ok: true,
   },
   {
     icon: '✗',
-    title: 'Prix anormalement bas',
-    desc: "Moins de 5€/mois pour des milliers de chaînes sans aucune explication — signal d'alerte fort.",
+    title: 'Precio anormalmente bajo',
+    desc: "Menos de 5€/mes por miles de canales sin ninguna explicación — señal de alarma clara.",
     ok: false,
   },
   {
     icon: '✗',
-    title: 'Aucune facturation ni reçu',
-    desc: 'Paiement uniquement par crypto ou virement sans aucun document officiel.',
+    title: 'Sin facturación ni recibo',
+    desc: 'Pago únicamente por crypto o transferencia sin ningún documento oficial.',
     ok: false,
   },
   {
     icon: '✗',
-    title: 'Site ou revendeur anonyme',
-    desc: 'Aucune mention légale, aucune adresse, aucune identité visible derrière le service.',
+    title: 'Sitio o revendedor anónimo',
+    desc: 'Sin menciones legales, sin dirección, sin identidad visible detrás del servicio.',
     ok: false,
   },
 ];
@@ -108,9 +108,9 @@ export default function IPTVAmendePage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: 'IPTV Amende France', href: '/guide-iptv/iptv-amende' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: 'IPTV Ilegal España', href: '/guia-iptv/iptv-amende' },
         ]}
       />
       <script
@@ -131,47 +131,47 @@ export default function IPTVAmendePage() {
 
       <main id="main-content">
         <PageHero
-          label="LÉGALITÉ IPTV"
-          title="IPTV Illégal en France :"
-          titleHighlight="Risques, Amendes et Comment Rester Légal"
-          subtitle="L'IPTV est une technologie légale — mais tout dépend du service que vous utilisez. Comprendre la différence entre IPTV légal et pirate peut vous éviter des amendes sévères."
+          label="LEGALIDAD IPTV"
+          title="IPTV Ilegal en España:"
+          titleHighlight="Riesgos, Multas y Cómo Mantenerse Legal"
+          subtitle="El IPTV es una tecnología legal — pero todo depende del servicio que utilicéis. Entender la diferencia entre IPTV legal y pirata puede evitaros multas severas."
         />
 
-        {/* Section 1 — Cadre légal */}
+        {/* Section 1 — Marco legal */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Cadre Légal de l'IPTV en France
+              Marco Legal del IPTV en España
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              L'<strong style={{ color: 'var(--color-ink)' }}>IPTV (Internet Protocol Television)</strong>{' '}
-              est une technologie parfaitement légale qui permet de diffuser des contenus audiovisuels
-              via internet. De la même façon qu'un opérateur télécom peut proposer des chaînes via une
-              box, l'IPTV est un vecteur de distribution — pas une infraction en soi.
+              El <strong style={{ color: 'var(--color-ink)' }}>IPTV (Internet Protocol Television)</strong>{' '}
+              es una tecnología perfectamente legal que permite distribuir contenidos audiovisuales
+              a través de internet. Del mismo modo que un operador de telecomunicaciones puede ofrecer
+              canales a través de una caja de TV, el IPTV es un canal de distribución — no una infracción
+              en sí misma.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Ce qui détermine la légalité, c'est la <strong style={{ color: 'var(--color-ink)' }}>source
-              des contenus diffusés</strong>. En France, la loi sur le droit d'auteur (notamment les
-              articles L122-1 et L335-4 du Code de la propriété intellectuelle) protège les contenus
-              audiovisuels. Diffuser ou consommer des contenus sans autorisation des ayants droit
-              constitue une contrefaçon passible de sanctions.
+              Lo que determina la legalidad es la <strong style={{ color: 'var(--color-ink)' }}>fuente
+              de los contenidos emitidos</strong>. En España, la Ley de Propiedad Intelectual (Real
+              Decreto Legislativo 1/1996) protege los contenidos audiovisuales. Emitir o consumir
+              contenidos sin autorización de los titulares de derechos constituye una infracción
+              sujeta a sanciones.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              L'<strong style={{ color: 'var(--color-ink)' }}>ARCOM</strong> (Autorité de Régulation
-              de la Communication Audiovisuelle et Numérique, anciennement HADOPI), créée par la
-              fusion de l'HADOPI et du CSA en 2022, est l'organisme chargé de lutter contre le piratage
-              audiovisuel en France. Elle dispose de pouvoirs d'enquête renforcés et coopère activement
-              avec Europol et les FAI pour identifier les réseaux de distribution pirates.
+              La <strong style={{ color: 'var(--color-ink)' }}>CNMC</strong> (Comisión Nacional de los
+              Mercados y la Competencia) y la <strong style={{ color: 'var(--color-ink)' }}>AEPD</strong>{' '}
+              (Agencia Española de Protección de Datos) son los organismos encargados de supervisar el
+              sector audiovisual en España. Cooperan activamente con Europol y los ISP para identificar
+              redes de distribución piratas.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Depuis la loi du 25 octobre 2021 renforçant les pouvoirs d'ARCOM, les autorités ont
-              obtenu de nouveaux outils pour bloquer rapidement les sites et serveurs pirates, y compris
-              des injonctions dynamiques permettant de bloquer les miroirs de sites en quelques heures.
-              Cette réglementation s'est durcie progressivement, notamment pour protéger les droits
-              sportifs — un domaine particulièrement exposé.
+              La legislación española en materia de propiedad intelectual se ha endurecido progresivamente,
+              con nuevos instrumentos para bloquear sitios y servidores piratas con rapidez, incluyendo
+              medidas cautelares que permiten actuar en horas. Esto es especialmente relevante en el
+              ámbito de los derechos deportivos.
             </p>
             <div
               className="p-5 rounded-xl mt-6"
@@ -181,40 +181,39 @@ export default function IPTVAmendePage() {
               }}
             >
               <p className="text-sm font-semibold" style={{ color: 'var(--color-ink)' }}>
-                Résumé : L'IPTV est légal. L'IPTV pirate (redistribution non autorisée de chaînes
-                sous copyright) est illégal et peut exposer à des sanctions civiles et pénales.
+                Resumen: El IPTV es legal. El IPTV pirata (redistribución no autorizada de canales
+                protegidos por derechos de autor) es ilegal y puede acarrear sanciones civiles y penales.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Section 2 — Amendes */}
+        {/* Section 2 — Multas */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Quelles Amendes pour l'Utilisation d'un IPTV Pirate en France ?
+              ¿Qué Multas hay por Usar un IPTV Pirata en España?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              En France, les sanctions pour piratage audiovisuel sont prévues par le Code de la
-              propriété intellectuelle. Pour un utilisateur final, la responsabilité peut être engagée
-              à plusieurs niveaux :
+              En España, las sanciones por piratería audiovisual están previstas en la Ley de Propiedad
+              Intelectual. Para un usuario final, la responsabilidad puede establecerse en varios niveles:
             </p>
             <div className="flex flex-col gap-4 mb-6">
               {[
                 {
-                  level: 'Niveau 1 — Avertissement ARCOM',
-                  desc: "ARCOM peut envoyer une recommandation (anciennement appelée 'avertissement HADOPI') à votre adresse email ou postale via votre FAI. Ce n'est pas encore une sanction, mais un signal d'alerte formel.",
+                  level: 'Nivel 1 — Advertencia administrativa',
+                  desc: "La CNMC puede enviar una notificación formal a vuestra dirección a través de vuestro ISP. No es todavía una sanción, pero sí una señal de alerta oficial que queda registrada.",
                 },
                 {
-                  level: 'Niveau 2 — Poursuite civile',
-                  desc: "Les ayants droit (chaînes TV, studios, fédérations sportives) peuvent engager des poursuites civiles. Des dommages et intérêts peuvent être réclamés, parfois plusieurs milliers d'euros selon le préjudice estimé.",
+                  level: 'Nivel 2 — Acción civil',
+                  desc: "Los titulares de derechos (cadenas de TV, estudios, federaciones deportivas) pueden interponer acciones civiles. Se pueden reclamar daños y perjuicios, en ocasiones varios miles de euros según el perjuicio estimado.",
                 },
                 {
-                  level: 'Niveau 3 — Sanction pénale',
-                  desc: "En cas de récidive ou de participation à un réseau de distribution, les sanctions pénales pour contrefaçon peuvent atteindre 300 000 € d'amende et 3 ans d'emprisonnement selon l'article L335-2 du Code de la propriété intellectuelle.",
+                  level: 'Nivel 3 — Sanción penal',
+                  desc: "En caso de reincidencia o participación en una red de distribución, las sanciones penales por infracción de derechos de autor pueden alcanzar multas muy elevadas y penas de prisión según los artículos 270 y siguientes del Código Penal español.",
                 },
               ].map((item) => (
                 <div
@@ -239,26 +238,26 @@ export default function IPTVAmendePage() {
               ))}
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              À noter : les sanctions sont plus sévères pour les revendeurs et distributeurs de flux
-              pirates que pour les consommateurs finals. Néanmoins, la tendance législative est à
-              durcissement progressif, et le risque pour les utilisateurs augmente chaque année avec
-              les progrès technologiques de détection.
+              Las sanciones son más severas para los revendedores y distribuidores de señales piratas
+              que para los consumidores finales. No obstante, la tendencia legislativa es de
+              endurecimiento progresivo, y el riesgo para los usuarios aumenta cada año con los avances
+              tecnológicos de detección.
             </p>
           </div>
         </section>
 
-        {/* Section 3 — Identifier un service légal */}
+        {/* Section 3 — Identificar un servicio legal */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Identifier si un Service IPTV est Légal ?
+              ¿Cómo Identificar si un Servicio IPTV es Legal?
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Il n'est pas toujours facile de distinguer un service IPTV légitimement opéré d'un
-              service pirate. Voici les indicateurs clés à vérifier avant de souscrire :
+              No siempre es fácil distinguir un servicio IPTV legítimamente operado de un servicio
+              pirata. Aquí están los indicadores clave que debéis verificar antes de suscribiros:
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               {legalMarkers.map((marker) => (
@@ -303,37 +302,37 @@ export default function IPTVAmendePage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi VivaceTV est un Service Légitimement Opéré
+              Por qué VivaceTV es un Servicio Legítimamente Operado
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV est un service IPTV <strong style={{ color: 'var(--color-ink)' }}>légitimement
-              opéré</strong> proposant des abonnements avec <strong style={{ color: 'var(--color-ink)' }}>
-              facturation officielle</strong>. Contrairement aux services pirates anonymes, VivaceTV
-              vous fournit un reçu pour chaque paiement, dispose d'un support client identifié, et
-              opère dans le respect de la réglementation en vigueur.
+              VivaceTV es un servicio IPTV <strong style={{ color: 'var(--color-ink)' }}>legítimamente
+              operado</strong> que ofrece suscripciones con <strong style={{ color: 'var(--color-ink)' }}>
+              facturación oficial</strong>. A diferencia de los servicios piratas anónimos, VivaceTV
+              os proporciona un recibo por cada pago, dispone de un soporte al cliente identificado, y
+              opera en cumplimiento de la normativa vigente.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Les abonnements VivaceTV sont proposés à des tarifs cohérents avec le marché : à partir
-              de 22,99€ pour 3 mois (offre Bronze), ce qui reflète un coût réel d'infrastructure et
-              de service. Ces tarifs s'éloignent radicalement des offres pirates à 3-5€/mois qui ne
-              peuvent mathématiquement pas couvrir le coût de contenus sous licence.
+              Las suscripciones VivaceTV se ofrecen a precios coherentes con el mercado: desde 22,99€
+              por 3 meses (oferta Bronze), lo que refleja un coste real de infraestructura y servicio.
+              Estos precios se alejan radicalmente de las ofertas piratas a 3-5€/mes que matemáticamente
+              no pueden cubrir el coste de contenidos bajo licencia.
             </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              En choisissant VivaceTV, vous bénéficiez d'un service stable et documenté — sans exposer
-              votre foyer aux risques légaux associés à l'IPTV pirate. Le support WhatsApp 24/7
-              témoigne également d'une structure opérationnelle réelle, impossible à trouver chez les
-              revendeurs anonymes.
+              Al elegir VivaceTV, disfrutáis de un servicio estable y documentado — sin exponer vuestro
+              hogar a los riesgos legales asociados al IPTV pirata. El soporte por WhatsApp 24/7
+              también demuestra una estructura operativa real, imposible de encontrar en los revendedores
+              anónimos.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Voir les abonnements VivaceTV →
+                Ver los planes VivaceTV →
               </Link>
               <Link
-                href="/fournisseur-iptv"
+                href="/proveedor-iptv"
                 className="inline-flex items-center gap-2 font-semibold px-6 py-3 rounded-xl text-sm"
                 style={{
                   border: '1px solid var(--color-border)',
@@ -341,7 +340,7 @@ export default function IPTVAmendePage() {
                   backgroundColor: 'var(--color-card)',
                 }}
               >
-                Pourquoi choisir VivaceTV →
+                Por qué elegir VivaceTV →
               </Link>
             </div>
           </div>
@@ -354,7 +353,7 @@ export default function IPTVAmendePage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — IPTV et Légalité en France
+              Preguntas Frecuentes — IPTV y Legalidad en España
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -382,9 +381,9 @@ export default function IPTVAmendePage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les offres VivaceTV' },
-                { href: '/fournisseur-iptv', label: 'Présentation VivaceTV' },
-                { href: '/meilleur-iptv', label: 'Comparatif IPTV France' },
+                { href: '/comprar-iptv', label: 'Ver las ofertas VivaceTV' },
+                { href: '/proveedor-iptv', label: 'Presentación VivaceTV' },
+                { href: '/mejor-iptv-espana', label: 'Comparativa IPTV España' },
               ].map((l) => (
                 <Link
                   key={l.href}

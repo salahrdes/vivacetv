@@ -5,9 +5,9 @@ import SectionHeader from '@/components/ui/SectionHeader';
 import { cn } from '@/lib/utils';
 
 const trustItems = [
-  { icon: <Shield size={15} aria-hidden="true" />, label: 'Paiement 100% sécurisé' },
-  { icon: <Zap size={15} aria-hidden="true" />,    label: 'Activation instantanée' },
-  { icon: <CreditCard size={15} aria-hidden="true" />, label: 'Plusieurs modes de paiement' },
+  { icon: <Shield size={15} aria-hidden="true" />, label: 'Pago 100% seguro' },
+  { icon: <Zap size={15} aria-hidden="true" />,    label: 'Activación instantánea' },
+  { icon: <CreditCard size={15} aria-hidden="true" />, label: 'Varios métodos de pago' },
 ];
 
 function formatPrice(price: number) {
@@ -25,9 +25,9 @@ export default function PricingSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <SectionHeader
-          label="NOS OFFRES IPTV"
-          title="Choisissez le forfait IPTV qui vous convient"
-          description="Des forfaits IPTV flexibles, en HD/4K/8K, compatibles avec tous les appareils. Profitez du meilleur du streaming avec notre abonnement IPTV France."
+          label="NUESTRAS OFERTAS IPTV"
+          title="Elige el plan IPTV que mejor se adapta a ti"
+          description="Planes IPTV flexibles, en HD/4K/8K, compatibles con todos los dispositivos. Disfruta del mejor streaming con nuestra suscripción IPTV España."
           className="mb-14"
         />
 
@@ -132,7 +132,7 @@ export default function PricingSection() {
                         className="text-xs mt-1"
                         style={{ color: plan.isFeatured ? 'var(--color-gray-400)' : 'var(--color-gray-600)' }}
                       >
-                        Paiement unique
+                        Pago único
                       </p>
                     </div>
 
@@ -143,7 +143,7 @@ export default function PricingSection() {
                     />
 
                     {/* Features */}
-                    <ul className="flex flex-col gap-2.5 flex-1" aria-label={`Fonctionnalités ${plan.name}`}>
+                    <ul className="flex flex-col gap-2.5 flex-1" aria-label={`Características ${plan.name}`}>
                       {plan.features.map((feature) => (
                         <li key={feature} className="flex items-start gap-2.5">
                           <Check
@@ -205,7 +205,7 @@ export default function PricingSection() {
         </div>
 
         <p className="mt-6 text-center text-xs" style={{ color: 'var(--color-gray-600)' }}>
-          Les performances peuvent varier selon votre connexion Internet, votre appareil et l'application utilisée.
+          El rendimiento puede variar según tu conexión a Internet, tu dispositivo y la aplicación utilizada.
         </p>
       </div>
     </section>

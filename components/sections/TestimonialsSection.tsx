@@ -5,7 +5,7 @@ import SectionHeader from '@/components/ui/SectionHeader';
 function StarRating({ rating }: { rating: number }) {
   const full = Math.floor(rating);
   return (
-    <div className="flex items-center gap-0.5" aria-label={`Note : ${rating} sur 5`} role="img">
+    <div className="flex items-center gap-0.5" aria-label={`Valoración: ${rating} de 5`} role="img">
       {[...Array(5)].map((_, i) => (
         <Star
           key={i}
@@ -33,9 +33,9 @@ export default function TestimonialsSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          label="Avis clients"
-          title="Ils font confiance à VivaceTV pour leur IPTV en France"
-          description="Des utilisateurs en France choisissent VivaceTV pour une expérience simple, rapide et compatible avec leurs appareils."
+          label="Opiniones de clientes"
+          title="Confían en VivaceTV para su IPTV en España"
+          description="Usuarios en España eligen VivaceTV por una experiencia sencilla, rápida y compatible con sus dispositivos."
           className="mb-14"
         />
 

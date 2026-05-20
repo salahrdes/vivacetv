@@ -38,9 +38,9 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-1 font-display font-extrabold text-xl text-ink shrink-0"
-              aria-label="VivaceTV — Accueil"
+              aria-label="VivaceTV — Inicio"
             >
-              Clario
+              Vivace
               <span
                 className="inline-block w-2 h-2 rounded-full mb-0.5 ml-0.5"
                 style={{ backgroundColor: 'var(--color-lime)' }}
@@ -50,7 +50,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1" aria-label="Navigation principale">
+            <nav className="hidden lg:flex items-center gap-1" aria-label="Navegación principal">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -65,7 +65,7 @@ export default function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <Button href="/commander/gold" size="sm" variant="primary">
-                Commander
+                Comprar
               </Button>
             </div>
 
@@ -74,7 +74,7 @@ export default function Header() {
               type="button"
               className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg text-ink hover:bg-card transition-colors"
               onClick={() => setMobileOpen(true)}
-              aria-label="Ouvrir le menu"
+              aria-label="Abrir menú"
               aria-expanded={mobileOpen}
               aria-controls="mobile-menu"
             >
@@ -90,7 +90,7 @@ export default function Header() {
           className="fixed inset-0 z-50 lg:hidden"
           aria-modal="true"
           role="dialog"
-          aria-label="Menu de navigation"
+          aria-label="Menú de navegación"
           id="mobile-menu"
         >
           {/* Backdrop */}
@@ -109,7 +109,7 @@ export default function Header() {
                 className="font-display font-extrabold text-xl text-ink"
                 onClick={() => setMobileOpen(false)}
               >
-                Clario
+                Vivace
                 <span
                   className="inline-block w-2 h-2 rounded-full mb-0.5 ml-0.5"
                   style={{ backgroundColor: 'var(--color-lime)' }}
@@ -121,14 +121,14 @@ export default function Header() {
                 type="button"
                 className="flex items-center justify-center w-10 h-10 rounded-lg text-ink hover:bg-card transition-colors"
                 onClick={() => setMobileOpen(false)}
-                aria-label="Fermer le menu"
+                aria-label="Cerrar menú"
               >
                 <X size={22} aria-hidden="true" />
               </button>
             </div>
 
             {/* Nav links */}
-            <nav className="flex-1 px-4 py-6 flex flex-col gap-1 overflow-y-auto" aria-label="Navigation mobile">
+            <nav className="flex-1 px-4 py-6 flex flex-col gap-1 overflow-y-auto" aria-label="Navegación móvil">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -150,7 +150,7 @@ export default function Header() {
                 className="w-full"
                 onClick={() => setMobileOpen(false)}
               >
-                Commander maintenant
+                Comprar ahora
               </Button>
             </div>
           </div>

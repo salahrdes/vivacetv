@@ -6,7 +6,7 @@ export default function FinalCTA() {
     <section
       className="py-20 lg:py-28"
       style={{ backgroundColor: 'var(--color-dark)' }}
-      aria-label="Appel à l'action final"
+      aria-label="Llamada a la acción final"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-8">
         <div
@@ -19,36 +19,36 @@ export default function FinalCTA() {
           className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight"
           style={{ color: 'var(--color-surface)' }}
         >
-          Prêt à profiter d'une expérience{' '}
-          <span style={{ color: 'var(--color-lime)' }}>IPTV simple</span>{' '}
-          et moderne ?
+          ¿Listo para disfrutar de una experiencia{' '}
+          <span style={{ color: 'var(--color-lime)' }}>IPTV sencilla</span>{' '}
+          y moderna?
         </h2>
 
         <p
           className="text-lg max-w-2xl leading-relaxed"
           style={{ color: 'var(--color-gray-400)' }}
         >
-          Choisissez votre abonnement IPTV France, vérifiez la compatibilité de votre appareil
-          et recevez vos informations directement via WhatsApp.
+          Elige tu suscripción IPTV España, comprueba la compatibilidad de tu dispositivo
+          y recibe tus datos directamente por WhatsApp.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Button
-            href={buildWhatsAppUrl('Bonjour VivaceTV, je souhaite commander maintenant')}
+            href={buildWhatsAppUrl('Hola VivaceTV, quiero comprar ahora')}
             size="lg"
             variant="primary"
             external
           >
-            Commander maintenant
+            Comprar ahora
           </Button>
           <Button
-            href={buildWhatsAppUrl('Bonjour VivaceTV, j\'ai une question')}
+            href={buildWhatsAppUrl('Hola VivaceTV, tengo una pregunta')}
             size="lg"
             variant="ghost"
             external
             className="text-surface border border-surface/20 hover:bg-surface/10 hover:text-surface"
           >
-            Contacter un conseiller
+            Contactar con un asesor
           </Button>
         </div>
       </div>

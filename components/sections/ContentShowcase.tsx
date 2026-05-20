@@ -1,21 +1,21 @@
 import SectionHeader from '@/components/ui/SectionHeader';
 
 const categories = [
-  { label: 'Sport',                 accent: true },
-  { label: 'Films',                 accent: false },
-  { label: 'Séries',                accent: false },
-  { label: 'Documentaires',        accent: false },
-  { label: 'Enfants',               accent: false },
-  { label: 'Divertissement',        accent: true },
-  { label: 'Chaînes internationales', accent: false },
+  { label: 'Deporte',               accent: true },
+  { label: 'Películas',             accent: false },
+  { label: 'Series',                accent: false },
+  { label: 'Documentales',          accent: false },
+  { label: 'Infantil',              accent: false },
+  { label: 'Entretenimiento',       accent: true },
+  { label: 'Canales internacionales', accent: false },
   { label: 'VOD',                   accent: false },
 ];
 
 const stats = [
-  { value: '+22 000', label: 'chaînes TV' },
-  { value: '+160 000', label: 'films & séries' },
-  { value: 'HD/4K/8K', label: 'qualité image' },
-  { value: '24/7', label: 'assistance' },
+  { value: '+22 000', label: 'canales de TV' },
+  { value: '+160 000', label: 'películas y series' },
+  { value: 'HD/4K/8K', label: 'calidad de imagen' },
+  { value: '24/7', label: 'asistencia' },
 ];
 
 export default function ContentShowcase() {
@@ -32,7 +32,7 @@ export default function ContentShowcase() {
         <div
           className="grid grid-cols-2 lg:grid-cols-4 gap-px mb-16 rounded-2xl overflow-hidden"
           style={{ backgroundColor: 'rgba(255,255,255,0.08)' }}
-          aria-label="Chiffres clés"
+          aria-label="Cifras clave"
         >
           {stats.map(({ value, label }) => (
             <div
@@ -58,16 +58,16 @@ export default function ContentShowcase() {
           {/* Left: Text */}
           <div>
             <SectionHeader
-              label="Nos contenus"
-              title="Découvrez une expérience IPTV complète en France"
-              description="Avec VivaceTV, profitez d'un accès simple à une grande variété de contenus : chaînes TV, événements sportifs, films, séries, documentaires, programmes jeunesse et divertissement familial."
+              label="Nuestro contenido"
+              title="Descubre una experiencia IPTV completa en España"
+              description="Con VivaceTV, disfruta de un acceso sencillo a una gran variedad de contenidos: canales de TV, eventos deportivos, películas, series, documentales, programas infantiles y entretenimiento familiar."
               align="left"
               dark
               className="mb-8"
             />
 
             {/* Category tags */}
-            <div className="flex flex-wrap gap-2" role="list" aria-label="Catégories de contenus">
+            <div className="flex flex-wrap gap-2" role="list" aria-label="Categorías de contenido">
               {categories.map(({ label, accent }) => (
                 <span
                   key={label}
@@ -101,7 +101,7 @@ export default function ContentShowcase() {
               }} />
               <div className="relative">
                 <div className="text-xs font-semibold mb-1" style={{ color: 'rgba(28,26,23,0.7)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Disponible</div>
-                <div className="font-display font-extrabold text-xl" style={{ color: 'var(--color-dark)' }}>Sport en direct</div>
+                <div className="font-display font-extrabold text-xl" style={{ color: 'var(--color-dark)' }}>Deporte en directo</div>
               </div>
               <div className="absolute top-4 right-4">
                 <span className="bg-dark text-lime text-xs font-bold px-2 py-1 rounded-full">LIVE</span>
@@ -117,10 +117,10 @@ export default function ContentShowcase() {
                 <div className="h-2 rounded-full w-16" style={{ backgroundColor: 'rgba(255,255,255,0.15)' }} />
                 <div className="h-2 rounded-full w-10" style={{ backgroundColor: 'rgba(255,255,255,0.08)' }} />
               </div>
-              <div className="font-display font-bold text-base" style={{ color: 'var(--color-lime-soft)' }}>Films & VOD</div>
+              <div className="font-display font-bold text-base" style={{ color: 'var(--color-lime-soft)' }}>Películas y VOD</div>
             </div>
 
-            {/* Séries tile */}
+            {/* Series tile */}
             <div
               className="rounded-xl p-4 flex flex-col justify-between"
               style={{ backgroundColor: '#252219', minHeight: '100px', border: '1px solid rgba(255,255,255,0.08)' }}
@@ -130,7 +130,7 @@ export default function ContentShowcase() {
                   <div key={i} className="rounded h-6" style={{ backgroundColor: i % 2 === 0 ? 'rgba(199,227,107,0.15)' : 'rgba(255,255,255,0.06)' }} />
                 ))}
               </div>
-              <div className="font-display font-bold text-base mt-3" style={{ color: 'var(--color-gray-200)' }}>Séries</div>
+              <div className="font-display font-bold text-base mt-3" style={{ color: 'var(--color-gray-200)' }}>Series</div>
             </div>
           </div>
         </div>

@@ -18,26 +18,26 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2026 | VivaceTV",
+  title: 'Guía IPTV España : Todo sobre IPTV en 2026 | VivaceTV',
   description:
-    "Guide complet sur l'IPTV en France : comment ça marche, installation étape par étape, chaînes disponibles, meilleures applications et légalité. Tout ce qu'il faut savoir avant de s'abonner.",
+    'Guía completa sobre IPTV en España: cómo funciona, instalación paso a paso, canales disponibles, mejores aplicaciones y legalidad. Todo lo que necesitáis saber antes de suscribiros.',
   keywords: [
-    'guide IPTV',
-    'guide IPTV France',
-    'comment fonctionne IPTV',
-    'installation IPTV',
-    'IPTV légal France',
-    'chaînes IPTV',
-    'application IPTV',
-    'IPTV sur PC',
-    'serveur IPTV',
+    'guía IPTV',
+    'guía IPTV España',
+    'cómo funciona IPTV',
+    'instalación IPTV',
+    'IPTV legal España',
+    'canales IPTV',
+    'aplicación IPTV',
+    'IPTV en PC',
+    'servidor IPTV',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv` },
   openGraph: {
-    title: "Guide IPTV France : Tout Savoir sur l'IPTV en 2026 | VivaceTV",
+    title: 'Guía IPTV España : Todo sobre IPTV en 2026 | VivaceTV',
     description:
-      "Guide complet sur l'IPTV : fonctionnement, installation, applications, chaînes et légalité en France.",
-    url: `${siteConfig.url}/guide-iptv`,
+      'Guía completa sobre IPTV: funcionamiento, instalación, aplicaciones, canales y legalidad en España.',
+    url: `${siteConfig.url}/guia-iptv`,
     type: 'website',
   },
 };
@@ -46,64 +46,64 @@ const guides = [
   {
     slug: 'comment-fonctionne-iptv',
     icon: <BookOpen size={22} aria-hidden="true" />,
-    label: 'Les bases',
-    title: "Comment fonctionne l'IPTV ?",
+    label: 'Las bases',
+    title: '¿Cómo funciona el IPTV?',
     description:
-      "Comprendre l'IPTV, la différence avec le câble ou le satellite, et tout ce qu'il faut pour commencer.",
+      'Entender el IPTV, la diferencia con el cable o el satélite, y todo lo necesario para empezar.',
     readTime: '5 min',
   },
   {
     slug: 'installation-iptv',
     icon: <Download size={22} aria-hidden="true" />,
-    label: 'Installation',
-    title: "Guide d'installation IPTV",
+    label: 'Instalación',
+    title: 'Guía de instalación IPTV',
     description:
-      'Installation pas à pas sur Android TV, Firestick, Smart TV Samsung/LG, PC et iPhone.',
+      'Instalación paso a paso en Android TV, Firestick, Smart TV Samsung/LG, PC e iPhone.',
     readTime: '7 min',
   },
   {
     slug: 'iptv-sur-pc',
     icon: <Monitor size={22} aria-hidden="true" />,
-    label: 'PC & Mac',
-    title: "IPTV sur PC : toutes les méthodes",
+    label: 'PC y Mac',
+    title: 'IPTV en PC: todos los métodos',
     description:
-      "VLC, IPTV Smarters Web, Kodi — les meilleures façons de regarder l'IPTV sur ordinateur.",
+      'VLC, IPTV Smarters Web, Kodi — las mejores formas de ver IPTV en ordenador.',
     readTime: '5 min',
   },
   {
     slug: 'application-iptv-android',
     icon: <Smartphone size={22} aria-hidden="true" />,
     label: 'Android',
-    title: 'Meilleures applications IPTV Android',
+    title: 'Mejores aplicaciones IPTV Android',
     description:
-      'TiviMate, IPTV Smarters Pro, Perfect Player — comparatif des meilleures apps Android en 2025.',
+      'TiviMate, IPTV Smarters Pro, Perfect Player — comparativa de las mejores apps Android en 2026.',
     readTime: '6 min',
   },
   {
     slug: 'iptv-chaine',
     icon: <Tv2 size={22} aria-hidden="true" />,
-    label: 'Chaînes',
-    title: 'Chaînes IPTV disponibles',
+    label: 'Canales',
+    title: 'Canales IPTV disponibles',
     description:
-      '20 000+ chaînes françaises, internationales et sportives — tout ce qui est inclus avec VivaceTV.',
+      '+22.000 canales españoles, internacionales y deportivos — todo lo que está incluido con VivaceTV.',
     readTime: '4 min',
   },
   {
     slug: 'serveur-iptv',
     icon: <Layers size={22} aria-hidden="true" />,
-    label: 'Infrastructure',
-    title: "Qu'est-ce qu'un serveur IPTV ?",
+    label: 'Infraestructura',
+    title: '¿Qué es un servidor IPTV?',
     description:
-      "Comment choisir un bon serveur IPTV : uptime, anti-freeze, CDN et indicateurs de qualité.",
+      'Cómo elegir un buen servidor IPTV: uptime, anti-freeze, CDN e indicadores de calidad.',
     readTime: '5 min',
   },
   {
     slug: 'iptv-amende',
     icon: <Shield size={22} aria-hidden="true" />,
-    label: 'Légalité',
-    title: "IPTV illégal en France : risques et amendes",
+    label: 'Legalidad',
+    title: 'IPTV ilegal en España: riesgos y sanciones',
     description:
-      "Ce que dit la loi française sur l'IPTV, les risques pour les utilisateurs et comment rester dans la légalité.",
+      'Qué dice la ley española sobre IPTV, los riesgos para los usuarios y cómo mantenerse en la legalidad.',
     readTime: '6 min',
   },
 ];
@@ -113,18 +113,18 @@ export default function GuideIptvPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="GUIDE IPTV"
-          title="Tout savoir sur"
-          titleHighlight="l'IPTV en France"
-          subtitle="Guides pratiques, conseils d'installation et réponses à toutes vos questions sur l'IPTV — rédigés par des experts pour vous aider à démarrer en toute confiance."
+          label="GUÍA IPTV"
+          title="Todo sobre"
+          titleHighlight="IPTV en España"
+          subtitle="Guías prácticas, consejos de instalación y respuestas a todas vuestras preguntas sobre IPTV — redactadas por expertos para ayudaros a empezar con total confianza."
         />
 
         {/* ── Intro IPTV ──────────────────────────────────────────────── */}
@@ -139,14 +139,21 @@ export default function GuideIptvPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-5"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu&apos;est-ce que l&apos;IPTV ?
+              ¿Qué es el IPTV?
             </h2>
             <div className="flex flex-col gap-4 text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
               <p>
-                L&apos;IPTV (Internet Protocol Television) est une technologie qui permet de regarder des chaînes de télévision en direct, des films et des séries via votre connexion internet, sans antenne ni satellite. Contrairement à la télévision classique, l&apos;IPTV diffuse les flux vidéo en temps réel grâce à des protocoles internet, ce qui offre une qualité d&apos;image supérieure et une flexibilité totale sur vos appareils : Smart TV, smartphone, tablette, PC, Fire TV Stick ou box Android.
+                El IPTV (Internet Protocol Television) es una tecnología que permite ver canales de televisión en directo,
+                películas y series a través de vuestra conexión a internet, sin antena ni satélite. A diferencia de la
+                televisión clásica, el IPTV emite los flujos de vídeo en tiempo real gracias a los protocolos de internet,
+                lo que ofrece una calidad de imagen superior y una flexibilidad total en vuestros dispositivos: Smart TV,
+                smartphone, tableta, PC, Fire TV Stick o caja Android.
               </p>
               <p>
-                Nos guides ci-dessous couvrent tous les aspects de l&apos;IPTV en France : du fonctionnement technique aux meilleures applications, en passant par l&apos;installation étape par étape et les questions de légalité. Que vous découvriez l&apos;IPTV pour la première fois ou que vous souhaitiez optimiser votre configuration, vous trouverez ici toutes les réponses nécessaires pour profiter d&apos;une expérience télévisuelle moderne et sans contrainte.
+                Nuestras guías a continuación cubren todos los aspectos del IPTV en España: desde el funcionamiento técnico
+                hasta las mejores aplicaciones, pasando por la instalación paso a paso y las cuestiones de legalidad. Tanto
+                si descubrís el IPTV por primera vez como si queréis optimizar vuestra configuración, aquí encontraréis todas
+                las respuestas necesarias para disfrutar de una experiencia televisiva moderna y sin restricciones.
               </p>
             </div>
           </div>
@@ -164,14 +171,14 @@ export default function GuideIptvPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-10"
               style={{ color: 'var(--color-ink)' }}
             >
-              Tous nos guides IPTV
+              Todas nuestras guías IPTV
             </h2>
 
             <div className="grid sm:grid-cols-2 gap-5">
               {guides.map((guide) => (
                 <Link
                   key={guide.slug}
-                  href={`/guide-iptv/${guide.slug}`}
+                  href={`/guia-iptv/${guide.slug}`}
                   className="group flex flex-col gap-4 rounded-2xl p-6 transition-all duration-200 hover:shadow-md"
                   style={{
                     backgroundColor: 'var(--color-card)',
@@ -217,7 +224,7 @@ export default function GuideIptvPage() {
                     className="flex items-center gap-1.5 text-sm font-semibold mt-1 group-hover:gap-2.5 transition-all"
                     style={{ color: 'var(--color-lime)' }}
                   >
-                    Lire le guide
+                    Leer la guía
                     <ChevronRight size={15} aria-hidden="true" />
                   </div>
                 </Link>
@@ -236,26 +243,26 @@ export default function GuideIptvPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-4"
               style={{ color: 'var(--color-ink)' }}
             >
-              Prêt à passer à l&apos;IPTV ?
+              ¿Listos para pasaros al IPTV?
             </h2>
             <p className="text-base mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Parcourez nos guides, puis choisissez le forfait VivaceTV qui correspond à vos besoins.
-              Notre équipe est disponible 24h/24 via WhatsApp pour vous accompagner.
+              Recorred nuestras guías y elegid el plan VivaceTV que se adapte a vuestras necesidades.
+              Nuestro equipo está disponible 24h/24 por WhatsApp para acompañaros.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center justify-center py-3.5 px-8 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-90 active:scale-95"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Voir les abonnements
+                Ver los planes
               </Link>
               <Link
-                href="/guide-iptv/comment-fonctionne-iptv"
+                href="/guia-iptv/comment-fonctionne-iptv"
                 className="inline-flex items-center justify-center py-3.5 px-8 rounded-xl font-semibold text-sm transition-all duration-200 hover:opacity-75"
                 style={{ color: 'var(--color-ink)', border: '1.5px solid var(--color-border)' }}
               >
-                Commencer par les bases
+                Empezar por las bases
               </Link>
             </div>
           </div>

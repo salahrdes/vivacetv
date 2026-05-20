@@ -10,59 +10,59 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV Hottest Avis 2026 — Meilleure Alternative France | VivaceTV',
+  title: 'IPTV Hottest Opiniones 2026 — Mejor Alternativa España | VivaceTV',
   description:
-    'IPTV Hottest avis 2025 : comparatif avec VivaceTV pour votre abonnement IPTV France. Qualité, prix, stabilité — notre analyse complète.',
+    'IPTV Hottest opiniones 2026: comparativa con VivaceTV para tu suscripción IPTV España. Calidad, precio, estabilidad — nuestro análisis completo.',
   keywords: [
     'iptv hottest',
-    'iptv hottest avis',
-    'alternative iptv hottest',
-    'iptv hottest france',
+    'iptv hottest opiniones',
+    'alternativa iptv hottest',
+    'iptv hottest españa',
     'iptv hottest vs vivacetv',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/iptv-hottest` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/iptv-hottest` },
   openGraph: {
-    title: 'IPTV Hottest Avis 2026 — Meilleure Alternative France | VivaceTV',
+    title: 'IPTV Hottest Opiniones 2026 — Mejor Alternativa España | VivaceTV',
     description:
-      'Comparatif IPTV Hottest vs VivaceTV : qualité, prix, stabilité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
-    url: `${siteConfig.url}/alternatives/iptv-hottest`,
+      'Comparativa IPTV Hottest vs VivaceTV: calidad, precio, estabilidad, soporte. Encuentra la mejor suscripción IPTV España en 2026.',
+    url: `${siteConfig.url}/alternativas/iptv-hottest`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'IPTV Hottest est-il disponible en France ?',
+    question: '¿IPTV Hottest está disponible en España?',
     answer:
-      "IPTV Hottest est présent sur le marché français, mais les informations disponibles sur ce service sont limitées. Son catalogue serait d'environ 10 000 chaînes avec une qualité HD/4K. VivaceTV propose un service mieux documenté avec +22 000 chaînes, une qualité jusqu'au 8K et un essai gratuit 24h pour tester avant de s'engager.",
+      'IPTV Hottest está presente en el mercado español, pero la información disponible sobre este servicio es limitada. Su catálogo sería de aproximadamente 10.000 canales con calidad HD/4K. VivaceTV ofrece un servicio mejor documentado con +22.000 canales, calidad hasta 8K y una prueba gratuita de 24h para probar antes de comprometerse.',
   },
   {
-    question: 'IPTV Hottest est-il fiable ?',
+    question: '¿IPTV Hottest es fiable?',
     answer:
-      "Les informations sur la fiabilité d'IPTV Hottest sont limitées. Les retours utilisateurs disponibles ne permettent pas d'établir un jugement définitif sur sa stabilité. Pour un service dont la fiabilité est documentée et garantie, VivaceTV propose la technologie AntiFreeze 10.0 et un uptime serveur optimisé.",
+      'La información sobre la fiabilidad de IPTV Hottest es limitada. Las valoraciones de usuarios disponibles no permiten establecer un juicio definitivo sobre su estabilidad. Para un servicio cuya fiabilidad está documentada y garantizada, VivaceTV ofrece la tecnología AntiFreeze 10.0 y un uptime de servidor optimizado.',
   },
   {
-    question: 'Quelle est la meilleure alternative à IPTV Hottest ?',
+    question: '¿Cuál es la mejor alternativa a IPTV Hottest?',
     answer:
-      "VivaceTV est la meilleure alternative à IPTV Hottest en France. Il offre un catalogue de +22 000 chaînes (contre ~10 000 pour IPTV Hottest), une qualité jusqu'au 8K, des prix transparents dès 22,99€ pour 3 mois, un essai gratuit 24h et un support WhatsApp 24/7 en français.",
+      'VivaceTV es la mejor alternativa a IPTV Hottest en España. Ofrece un catálogo de +22.000 canales (frente a ~10.000 de IPTV Hottest), calidad hasta 8K, precios transparentes desde 22,99€ por 3 meses, prueba gratuita de 24h y soporte WhatsApp 24/7 en español.',
   },
 ];
 
 const tableRows = [
-  { label: 'Chaînes disponibles', competitor: '~10 000', vivacetv: '+22 000' },
-  { label: 'Qualité vidéo', competitor: 'HD/4K', vivacetv: 'HD/4K/8K ✓' },
-  { label: 'Prix', competitor: 'Variable', vivacetv: 'Transparent ✓' },
-  { label: 'Essai gratuit', competitor: 'Non connu', vivacetv: '✅ 24h' },
-  { label: 'Support', competitor: 'Limité', vivacetv: '✅ WhatsApp 24/7' },
-  { label: 'Anti-freeze', competitor: 'Non précisé', vivacetv: '✅' },
+  { label: 'Canales disponibles', competitor: '~10.000', vivacetv: '+22.000' },
+  { label: 'Calidad de vídeo', competitor: 'HD/4K', vivacetv: 'HD/4K/8K ✓' },
+  { label: 'Precio', competitor: 'Variable', vivacetv: 'Transparente ✓' },
+  { label: 'Prueba gratuita', competitor: 'No conocida', vivacetv: '✅ 24h' },
+  { label: 'Soporte', competitor: 'Limitado', vivacetv: '✅ WhatsApp 24/7' },
+  { label: 'Anti-freeze', competitor: 'No especificado', vivacetv: '✅' },
 ];
 
 const switchSteps = [
-  'Demandez votre essai gratuit 24h VivaceTV via WhatsApp',
-  'Testez la qualité sur votre appareil',
-  'Choisissez votre offre (Bronze, Silver, Gold ou Diamond)',
-  "Recevez vos accès en moins d'1h",
-  'Profitez de VivaceTV sans coupure',
+  'Solicita tu prueba gratis de 24h de VivaceTV por WhatsApp',
+  'Prueba la calidad en tu dispositivo',
+  'Elige tu plan (Bronze, Silver, Gold o Diamond)',
+  'Recibe tus accesos en menos de 1h',
+  'Disfruta de VivaceTV sin cortes',
 ];
 
 export default function IPTVHottestPage() {
@@ -84,78 +84,44 @@ export default function IPTVHottestPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'IPTV Hottest', href: '/alternatives/iptv-hottest' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'IPTV Hottest', href: '/alternativas/iptv-hottest' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="ALTERNATIVE IPTV"
+          label="ALTERNATIVA IPTV"
           title="IPTV Hottest"
-          titleHighlight="Avis & Comparaison VivaceTV"
-          subtitle="Vous cherchez une alternative à IPTV Hottest ? Découvrez pourquoi VivaceTV est le meilleur choix pour votre abonnement IPTV France."
+          titleHighlight="Opiniones y Comparativa VivaceTV"
+          subtitle="¿Buscas una alternativa a IPTV Hottest? Descubre por qué VivaceTV es la mejor opción para tu suscripción IPTV España."
         />
 
-        {/* Section 1 — Présentation */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Qu&apos;est-ce qu&apos;IPTV Hottest ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Qué es IPTV Hottest?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              IPTV Hottest est un service d&apos;abonnement IPTV disponible sur le marché français.
-              Relativement peu documenté par rapport à des services plus établis, il propose un
-              catalogue d&apos;environ 10 000 chaînes avec une qualité vidéo allant jusqu&apos;au 4K.
-              Sa compatibilité avec les appareils courants (Smart TV, Android, iOS) est assurée,
-              mais peu de détails sont disponibles sur ses fonctionnalités avancées.
+              IPTV Hottest es un servicio de suscripción IPTV disponible en el mercado español. Relativamente poco documentado comparado con servicios más consolidados, ofrece un catálogo de aproximadamente 10.000 canales con calidad de vídeo hasta 4K. Su compatibilidad con los dispositivos habituales (Smart TV, Android, iOS) está asegurada, pero hay pocos detalles disponibles sobre sus funcionalidades avanzadas.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Les informations sur IPTV Hottest restent limitées dans les retours utilisateurs
-              disponibles. Sa tarification est présentée comme variable, et son support client
-              semble limité selon les témoignages disponibles en ligne. L&apos;absence d&apos;essai
-              gratuit connu représente également un frein pour les nouveaux utilisateurs souhaitant
-              tester la qualité avant de s&apos;engager.
+              La información sobre IPTV Hottest sigue siendo limitada en las valoraciones de usuarios disponibles. Su tarificación se presenta como variable, y su soporte al cliente parece limitado según los testimonios disponibles en línea. La ausencia de prueba gratuita conocida representa también un freno para los nuevos usuarios que desean probar la calidad antes de comprometerse.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Face au manque de transparence d&apos;IPTV Hottest, VivaceTV se distingue par une
-              offre claire, documentée et éprouvée sur le marché français depuis plusieurs années.
+              Frente a la falta de transparencia de IPTV Hottest, VivaceTV destaca por una oferta clara, documentada y contrastada en el mercado español desde hace varios años.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Avantages et inconvénients */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              IPTV Hottest : Ce que l&apos;on Sait
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>IPTV Hottest: Lo que Sabemos</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points positifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos positivos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Accessible depuis la France',
-                    'Qualité HD disponible sur les chaînes principales',
-                    'Compatible avec les appareils courants',
-                  ].map((pro, i) => (
+                  {['Accesible desde España', 'Calidad HD disponible en los canales principales', 'Compatible con los dispositivos habituales'].map((pro, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Check size={16} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{pro}</span>
@@ -163,25 +129,10 @@ export default function IPTVHottestPage() {
                   ))}
                 </ul>
               </div>
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points négatifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos negativos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Catalogue limité (~10 000 chaînes)',
-                    'Informations publiques très limitées',
-                    'Tarification variable peu transparente',
-                    'Support client limité selon les retours',
-                    'Aucun essai gratuit connu',
-                  ].map((con, i) => (
+                  {['Catálogo limitado (~10.000 canales)', 'Información pública muy limitada', 'Tarificación variable poco transparente', 'Soporte al cliente limitado según las valoraciones', 'Sin prueba gratuita conocida'].map((con, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <X size={16} style={{ color: 'var(--color-gray-400)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{con}</span>
@@ -193,33 +144,21 @@ export default function IPTVHottestPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              IPTV Hottest vs VivaceTV — Comparatif
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>IPTV Hottest vs VivaceTV — Comparativa</h2>
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
-                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Critère</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>IPTV Hottest</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
                   </tr>
                 </thead>
                 <tbody>
                   {tableRows.map((row, i) => (
-                    <tr
-                      key={i}
-                      style={{
-                        backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)',
-                        borderBottom: '1px solid var(--color-border)',
-                      }}
-                    >
+                    <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)', borderBottom: '1px solid var(--color-border)' }}>
                       <td style={{ padding: '10px 16px', color: 'var(--color-ink)', fontWeight: 500 }}>{row.label}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-ink-light)' }}>{row.competitor}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-lime)', fontWeight: 600 }}>{row.vivacetv}</td>
@@ -228,138 +167,66 @@ export default function IPTVHottestPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>
-              * Données IPTV Hottest basées sur les informations publiquement disponibles. Certaines
-              données ne sont pas connues à ce jour. À titre indicatif.
-            </p>
+            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>* Datos de IPTV Hottest basados en información públicamente disponible. Algunos datos no son conocidos a fecha de hoy. A título orientativo.</p>
           </div>
         </section>
 
-        {/* Section 4 — Pourquoi VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Pourquoi Choisir VivaceTV plutôt qu&apos;IPTV Hottest ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Por qué Elegir VivaceTV en lugar de IPTV Hottest?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La transparence est la première raison de choisir VivaceTV. Contrairement à IPTV
-              Hottest dont les informations publiques sont limitées, VivaceTV affiche clairement
-              son catalogue (+22 000 chaînes), sa tarification (Bronze 22,99€, Silver 34,99€,
-              Gold 44,99€, Diamond 74,99€) et ses fonctionnalités (8K, AntiFreeze 10.0, replay,
-              support WhatsApp 24/7).
+              La transparencia es la primera razón para elegir VivaceTV. A diferencia de IPTV Hottest, cuya información pública es limitada, VivaceTV muestra claramente su catálogo (+22.000 canales), su tarificación (Bronze 22,99€, Silver 34,99€, Gold 44,99€, Diamond 74,99€) y sus funcionalidades (8K, AntiFreeze 10.0, replay, soporte WhatsApp 24/7).
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Avec plus du double de chaînes disponibles (+22 000 vs ~10 000) et une qualité
-              vidéo supérieure (jusqu&apos;au 8K contre HD/4K pour IPTV Hottest), VivaceTV offre
-              une expérience IPTV significativement plus riche.
+              Con más del doble de canales disponibles (+22.000 vs ~10.000) y una calidad de vídeo superior (hasta 8K frente a HD/4K para IPTV Hottest), VivaceTV ofrece una experiencia IPTV significativamente más rica.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La technologie <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de VivaceTV
-              garantit une stabilité documentée et éprouvée, là où IPTV Hottest ne précise pas
-              ses solutions techniques pour éviter les coupures.
+              La tecnología <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de VivaceTV garantiza una estabilidad documentada y contrastada, donde IPTV Hottest no especifica sus soluciones técnicas para evitar los cortes.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Enfin, VivaceTV propose un essai gratuit de 24 heures sur simple demande via
-              WhatsApp — une garantie de qualité qu&apos;IPTV Hottest ne semble pas offrir. C&apos;est
-              le meilleur moyen de vous forger votre propre opinion avant tout engagement.
+              Finalmente, VivaceTV ofrece una prueba gratuita de 24 horas bajo simple solicitud por WhatsApp — una garantía de calidad que IPTV Hottest no parece ofrecer. Es la mejor manera de formarte tu propia opinión antes de comprometerte.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Comment passer */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Passer à VivaceTV en 5 Étapes
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Pasarse a VivaceTV en 5 Pasos</h2>
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <span
-                    style={{
-                      backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
-                      borderRadius: 999,
-                      width: 32,
-                      height: 32,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontWeight: 700,
-                      fontSize: 14,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {i + 1}
-                  </span>
+                  <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, flexShrink: 0 }}>{i + 1}</span>
                   <p className="text-base pt-1" style={{ color: 'var(--color-ink)' }}>{step}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Link
-                href="/abonnements"
-                className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
-              >
-                Voir les offres VivaceTV →
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+                Ver los planes de VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Questions Fréquentes — IPTV Hottest
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Preguntas Frecuentes — IPTV Hottest</h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
-                <div
-                  key={item.question}
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: 12,
-                    padding: 20,
-                  }}
-                >
-                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>
-                    {item.question}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                    {item.answer}
-                  </p>
+                <div key={item.question} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.question}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.answer}</p>
                 </div>
               ))}
             </div>
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className="text-sm px-4 py-2 rounded-lg font-medium"
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    color: 'var(--color-ink)',
-                    border: '1px solid var(--color-border)',
-                  }}
-                >
+                <Link key={l.href} href={l.href} className="text-sm px-4 py-2 rounded-lg font-medium" style={{ backgroundColor: 'var(--color-card)', color: 'var(--color-ink)', border: '1px solid var(--color-border)' }}>
                   {l.label} →
                 </Link>
               ))}
@@ -369,7 +236,6 @@ export default function IPTVHottestPage() {
 
         <FinalCTA />
       </main>
-
       <Footer />
     </>
   );

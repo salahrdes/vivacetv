@@ -9,114 +9,114 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2026 | VivaceTV',
+  title: 'Servidor IPTV : Todo para Elegir el Mejor en 2026 | VivaceTV',
   description:
-    "Qu'est-ce qu'un serveur IPTV ? Comment évaluer la qualité d'un serveur IPTV : uptime, anti-freeze, CDN, temps de réponse. Guide complet pour choisir le meilleur fournisseur.",
+    "¿Qué es un servidor IPTV? Cómo evaluar la calidad de un servidor IPTV: uptime, anti-freeze, CDN, tiempo de respuesta. Guía completa para elegir el mejor proveedor.",
   keywords: [
-    'serveur iptv',
-    'iptv serveur',
-    'meilleur serveur iptv',
-    'serveur iptv france',
+    'servidor iptv',
+    'iptv servidor',
+    'mejor servidor iptv',
+    'servidor iptv españa',
     'uptime iptv',
     'anti freeze iptv',
-    'qualite serveur iptv',
+    'calidad servidor iptv',
   ],
-  alternates: { canonical: `${siteConfig.url}/guide-iptv/serveur-iptv` },
+  alternates: { canonical: `${siteConfig.url}/guia-iptv/serveur-iptv` },
   openGraph: {
-    title: 'Serveur IPTV : Tout Comprendre pour Choisir le Meilleur en 2026 | VivaceTV',
+    title: 'Servidor IPTV : Todo para Elegir el Mejor en 2026 | VivaceTV',
     description:
-      "Guide complet sur les serveurs IPTV : fonctionnement, indicateurs de qualité, signaux d'alarme et infrastructure VivaceTV.",
-    url: `${siteConfig.url}/guide-iptv/serveur-iptv`,
+      "Guía completa sobre los servidores IPTV: funcionamiento, indicadores de calidad, señales de alarma e infraestructura VivaceTV.",
+    url: `${siteConfig.url}/guia-iptv/serveur-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "Combien de serveurs doit avoir un bon fournisseur IPTV ?",
+    question: "¿Cuántos servidores debe tener un buen proveedor IPTV?",
     answer:
-      "Un bon fournisseur IPTV dispose généralement de plusieurs serveurs répartis dans différentes localisations géographiques (Europe, Amérique du Nord, Asie). Cette architecture multi-serveurs garantit la continuité de service en cas de défaillance d'un nœud et réduit la latence pour les utilisateurs en routant les connexions vers le serveur le plus proche.",
+      "Un buen proveedor IPTV dispone generalmente de varios servidores distribuidos en distintas ubicaciones geográficas (Europa, América del Norte, Asia). Esta arquitectura multi-servidor garantiza la continuidad del servicio en caso de fallo de un nodo y reduce la latencia al enrutar las conexiones hacia el servidor más cercano.",
   },
   {
-    question: "Qu'est-ce que l'uptime d'un serveur IPTV ?",
+    question: "¿Qué es el uptime de un servidor IPTV?",
     answer:
-      "L'uptime désigne le pourcentage de temps pendant lequel le serveur est opérationnel et accessible. Un uptime de 99,9% signifie que le serveur n'est indisponible que 8,7 heures par an maximum. Un bon fournisseur IPTV doit garantir un uptime d'au moins 99,5%. VivaceTV vise un uptime de 99,9% grâce à son infrastructure redondante.",
+      "El uptime designa el porcentaje de tiempo durante el cual el servidor está operativo y accesible. Un uptime del 99,9% significa que el servidor no está disponible más de 8,7 horas al año como máximo. Un buen proveedor IPTV debe garantizar un uptime de al menos el 99,5%. VivaceTV apunta a un uptime del 99,9% gracias a su infraestructura redundante.",
   },
   {
-    question: "Pourquoi mon IPTV buffe-t-il constamment ?",
+    question: "¿Por qué mi IPTV hace buffering constantemente?",
     answer:
-      "Le buffering constant est généralement dû à l'un de ces facteurs : serveur surchargé ou de mauvaise qualité, connexion internet insuffisante (moins de 10 Mbps pour la HD), Wi-Fi instable (préférez l'Ethernet), ou cache trop petit dans votre application. Commencez par tester votre débit internet et connectez votre appareil en Ethernet pour isoler la cause.",
+      "El buffering constante se debe generalmente a uno de estos factores: servidor sobrecargado o de mala calidad, conexión a internet insuficiente (menos de 10 Mbps para HD), Wi-Fi inestable (preferid Ethernet), o caché demasiado pequeña en vuestra aplicación. Empezad por comprobar vuestra velocidad de internet y conectad vuestro dispositivo por Ethernet para aislar la causa.",
   },
   {
-    question: "Qu'est-ce que la technologie anti-freeze en IPTV ?",
+    question: "¿Qué es la tecnología anti-freeze en IPTV?",
     answer:
-      "La technologie anti-freeze (ou anti-gel) est un ensemble de mécanismes côté serveur qui prévient les interruptions de flux lors des pics de trafic — notamment pendant les matchs sportifs où des milliers d'utilisateurs regardent la même chaîne simultanément. Elle inclut la mise en tampon intelligente, la redirection automatique vers des serveurs moins chargés et la détection proactive des saturations.",
+      "La tecnología anti-freeze (o anti-corte) es un conjunto de mecanismos del lado del servidor que previene las interrupciones de flujo durante los picos de tráfico — especialmente durante los partidos deportivos donde miles de usuarios ven el mismo canal simultáneamente. Incluye el almacenamiento en búfer inteligente, la redirección automática hacia servidores menos cargados y la detección proactiva de saturaciones.",
   },
   {
-    question: "Comment savoir si mon serveur IPTV est de bonne qualité ?",
+    question: "¿Cómo saber si mi servidor IPTV es de buena calidad?",
     answer:
-      "Testez votre service pendant au moins 7 jours, en incluant un week-end (pour tester la charge lors des événements sportifs). Un bon serveur doit offrir : zéro buffering sur les chaînes HD pendant les heures de pointe, chargement des chaînes en moins de 3 secondes, EPG mis à jour quotidiennement, et disponibilité des chaînes promises sans absence inexpliquée.",
+      "Probad vuestro servicio durante al menos 7 días, incluyendo un fin de semana (para probar la carga durante eventos deportivos). Un buen servidor debe ofrecer: cero buffering en canales HD durante las horas punta, carga de canales en menos de 3 segundos, EPG actualizado diariamente, y disponibilidad de los canales prometidos sin ausencias inexplicables.",
   },
   {
-    question: "Qu'est-ce qu'un CDN dans le contexte de l'IPTV ?",
+    question: "¿Qué es una CDN en el contexto del IPTV?",
     answer:
-      "Un CDN (Content Delivery Network) est un réseau de serveurs distribués géographiquement qui stocke et livre les contenus depuis le point le plus proche de l'utilisateur final. En IPTV, un CDN réduit la latence, améliore la stabilité et permet de gérer de grands volumes d'utilisateurs simultanés sans dégradation de qualité. Les meilleurs fournisseurs IPTV s'appuient sur des CDN professionnels.",
+      "Una CDN (Content Delivery Network) es una red de servidores distribuidos geográficamente que almacena y entrega los contenidos desde el punto más cercano al usuario final. En IPTV, una CDN reduce la latencia, mejora la estabilidad y permite gestionar grandes volúmenes de usuarios simultáneos sin degradación de calidad. Los mejores proveedores IPTV se apoyan en CDN profesionales.",
   },
 ];
 
 const redFlags = [
   {
-    flag: 'Buffering pendant plus de 5 secondes',
-    explanation: "Un buffering occasionnel est acceptable. S'il dure plus de 5 secondes ou se produit plus de 3 fois par heure sur des chaînes HD, le serveur est insuffisant.",
+    flag: 'Buffering durante más de 5 segundos',
+    explanation: "Un buffering ocasional es aceptable. Si dura más de 5 segundos o se produce más de 3 veces por hora en canales HD, el servidor es insuficiente.",
   },
   {
-    flag: 'Chaînes indisponibles fréquemment',
-    explanation: "Des chaînes temporairement absentes lors de pannes sont normales. Si 5% ou plus de votre liste de chaînes est régulièrement hors ligne, c'est un signal d'alarme.",
+    flag: 'Canales no disponibles con frecuencia',
+    explanation: "Los canales temporalmente ausentes durante averías son normales. Si el 5% o más de vuestra lista de canales está regularmente fuera de línea, es una señal de alarma.",
   },
   {
-    flag: "Aucune information sur l'infrastructure",
-    explanation: "Un bon fournisseur communique sur son uptime, ses localisations de serveurs et sa technologie. L'absence totale d'information technique est suspect.",
+    flag: "Sin información sobre la infraestructura",
+    explanation: "Un buen proveedor comunica su uptime, las ubicaciones de sus servidores y su tecnología. La ausencia total de información técnica es sospechosa.",
   },
   {
-    flag: "Pas de période d'essai possible",
-    explanation: "Un fournisseur confiant dans la qualité de ses serveurs propose toujours une période d'essai ou un test gratuit. Le refus suggère une qualité insuffisante.",
+    flag: "Sin período de prueba posible",
+    explanation: "Un proveedor seguro de la calidad de sus servidores siempre ofrece un período de prueba o una prueba gratuita. El rechazo sugiere calidad insuficiente.",
   },
   {
-    flag: 'Support inexistant en cas de panne',
-    explanation: "En cas de problème serveur, la réactivité du support est cruciale. Un support injoignable ou qui répond en plusieurs jours témoigne d'une infrastructure peu professionnelle.",
+    flag: 'Soporte inexistente en caso de avería',
+    explanation: "En caso de problema con el servidor, la capacidad de respuesta del soporte es crucial. Un soporte inaccesible o que responde en varios días demuestra una infraestructura poco profesional.",
   },
 ];
 
 const qualityIndicators = [
   {
     indicator: 'Uptime',
-    good: '99,9% ou plus',
-    average: '99% à 99,5%',
-    bad: 'Inférieur à 99%',
+    good: '99,9% o más',
+    average: '99% a 99,5%',
+    bad: 'Por debajo del 99%',
   },
   {
-    indicator: "Temps de démarrage d'une chaîne",
-    good: 'Moins de 2 secondes',
-    average: '2 à 5 secondes',
-    bad: 'Plus de 5 secondes',
+    indicator: "Tiempo de inicio de un canal",
+    good: 'Menos de 2 segundos',
+    average: '2 a 5 segundos',
+    bad: 'Más de 5 segundos',
   },
   {
-    indicator: 'Buffering (heures de pointe)',
-    good: 'Aucun',
-    average: 'Occasionnel (< 1/heure)',
-    bad: 'Fréquent',
+    indicator: 'Buffering (horas punta)',
+    good: 'Ninguno',
+    average: 'Ocasional (< 1/hora)',
+    bad: 'Frecuente',
   },
   {
-    indicator: 'Anti-freeze technologie',
-    good: 'Inclus et actif',
-    average: 'Partiel',
-    bad: 'Absent',
+    indicator: 'Tecnología anti-freeze',
+    good: 'Incluida y activa',
+    average: 'Parcial',
+    bad: 'Ausente',
   },
   {
-    indicator: 'Localisations des serveurs',
-    good: 'Multi-continents',
-    average: '2 à 3 pays',
-    bad: 'Serveur unique',
+    indicator: 'Ubicaciones de los servidores',
+    good: 'Multi-continente',
+    average: '2 a 3 países',
+    bad: 'Servidor único',
   },
 ];
 
@@ -125,9 +125,9 @@ export default function ServeurIPTVPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Guide IPTV', href: '/guide-iptv' },
-          { name: 'Serveur IPTV', href: '/guide-iptv/serveur-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Guía IPTV', href: '/guia-iptv' },
+          { name: 'Servidor IPTV', href: '/guia-iptv/serveur-iptv' },
         ]}
       />
       <script
@@ -148,64 +148,67 @@ export default function ServeurIPTVPage() {
 
       <main id="main-content">
         <PageHero
-          label="INFRASTRUCTURE IPTV"
-          title="Serveur IPTV :"
-          titleHighlight="Tout Comprendre pour Choisir le Meilleur"
-          subtitle="Le serveur IPTV est le cœur de votre expérience de streaming. Comprendre comment l'évaluer vous permettra de choisir un fournisseur qui ne vous décevra jamais."
+          label="INFRAESTRUCTURA IPTV"
+          title="Servidor IPTV:"
+          titleHighlight="Todo para Elegir el Mejor"
+          subtitle="El servidor IPTV es el corazón de vuestra experiencia de streaming. Entender cómo evaluarlo os permitirá elegir un proveedor que nunca os decepcione."
         />
 
-        {/* Section 1 — Qu'est-ce qu'un serveur IPTV */}
+        {/* Section 1 — Qué es un servidor IPTV */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu'est-ce qu'un Serveur IPTV ?
+              ¿Qué es un Servidor IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Un <strong style={{ color: 'var(--color-ink)' }}>serveur IPTV</strong> est l'infrastructure
-              informatique qui capture, encode et diffuse les flux vidéo vers les abonnés. Concrètement,
-              c'est une batterie d'ordinateurs haute performance, hébergés dans des datacenters, qui
-              reçoivent les signaux des chaînes TV, les convertissent en flux numériques, et les
-              transmettent simultanément à des milliers d'utilisateurs via internet.
+              Un <strong style={{ color: 'var(--color-ink)' }}>servidor IPTV</strong> es la
+              infraestructura informática que captura, codifica y distribuye los flujos de vídeo a
+              los abonados. Concretamente, es una batería de ordenadores de alto rendimiento, alojados
+              en centros de datos, que reciben las señales de los canales de televisión, las convierten
+              en flujos digitales y las transmiten simultáneamente a miles de usuarios a través de
+              internet.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La qualité de ce serveur détermine directement la qualité de votre expérience : stabilité
-              du flux, résolution vidéo, temps de chargement des chaînes, et comportement lors des
-              événements à forte audience (finales sportives, émissions populaires). Un mauvais serveur
-              se traduit invariablement par du buffering, des coupures et des chaînes indisponibles.
+              La calidad de este servidor determina directamente la calidad de vuestra experiencia:
+              estabilidad del flujo, resolución de vídeo, tiempo de carga de los canales, y
+              comportamiento durante los eventos de gran audiencia (finales deportivas, programas
+              populares). Un servidor deficiente se traduce invariablemente en buffering, cortes y
+              canales no disponibles.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Les meilleurs fournisseurs IPTV investissent massivement dans leur infrastructure :
-              bande passante dédiée en Gbps, redondance des connexions, systèmes anti-DDoS et
-              technologies de streaming adaptatives qui ajustent automatiquement la qualité vidéo
-              en fonction de la connexion de l'utilisateur.
+              Los mejores proveedores IPTV invierten masivamente en su infraestructura: ancho de banda
+              dedicado en Gbps, redundancia de conexiones, sistemas anti-DDoS y tecnologías de
+              streaming adaptativas que ajustan automáticamente la calidad de vídeo en función de la
+              conexión del usuario.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Indicateurs de qualité */}
+        {/* Section 2 — Indicadores de calidad */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Les Indicateurs Clés de Qualité d'un Serveur IPTV
+              Los Indicadores Clave de Calidad de un Servidor IPTV
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Voici les métriques à examiner pour évaluer objectivement la qualité d'un serveur IPTV :
+              Aquí están las métricas que debéis examinar para evaluar objetivamente la calidad de
+              un servidor IPTV:
             </p>
             <div className="overflow-x-auto rounded-xl mb-8" style={{ border: '1px solid var(--color-border)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Indicateur', 'Bon', 'Moyen', 'Insuffisant'].map((h) => (
+                    {['Indicador', 'Bueno', 'Medio', 'Insuficiente'].map((h) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
-                        style={{ color: h === 'Bon' ? 'var(--color-lime)' : 'var(--color-surface)' }}
+                        style={{ color: h === 'Bueno' ? 'var(--color-lime)' : 'var(--color-surface)' }}
                       >
                         {h}
                       </th>
@@ -244,14 +247,14 @@ export default function ServeurIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  L'Uptime — Disponibilité du Serveur
+                  El Uptime — Disponibilidad del Servidor
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  L'uptime est exprimé en pourcentage et mesure la disponibilité du service sur une
-                  période donnée. Un uptime de 99,9% correspond à moins de 9 heures d'interruption
-                  par an — acceptable pour un service de divertissement. En dessous de 99%, cela
-                  représente potentiellement plusieurs jours d'indisponibilité annuelle, ce qui est
-                  inacceptable pour un abonnement payant.
+                  El uptime se expresa en porcentaje y mide la disponibilidad del servicio en un
+                  período determinado. Un uptime del 99,9% equivale a menos de 9 horas de interrupción
+                  al año — aceptable para un servicio de entretenimiento. Por debajo del 99%, eso
+                  representa potencialmente varios días de indisponibilidad anual, inaceptable para
+                  una suscripción de pago.
                 </p>
               </div>
               <div>
@@ -259,14 +262,14 @@ export default function ServeurIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  La Localisation des Serveurs
+                  La Ubicación de los Servidores
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Des serveurs géographiquement proches de l'utilisateur réduisent la latence et
-                  améliorent la fluidité du streaming. Un fournisseur disposant de serveurs en France
-                  ou en Europe de l'Ouest offre une meilleure expérience aux utilisateurs français.
-                  La redondance géographique (plusieurs sites de données) garantit la continuité
-                  en cas de panne d'un datacenter.
+                  Los servidores geográficamente cercanos al usuario reducen la latencia y mejoran la
+                  fluidez del streaming. Un proveedor con servidores en España o en Europa occidental
+                  ofrece una mejor experiencia a los usuarios españoles. La redundancia geográfica
+                  (varios centros de datos) garantiza la continuidad en caso de avería de un
+                  datacenter.
                 </p>
               </div>
               <div>
@@ -274,29 +277,28 @@ export default function ServeurIPTVPage() {
                   className="font-display font-bold text-lg mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  La Bande Passante
+                  El Ancho de Banda
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  La bande passante détermine combien d'utilisateurs peuvent regarder des flux en
-                  simultané sans dégradation. Un flux 4K nécessite environ 25 Mbps par utilisateur.
-                  Un fournisseur avec 100 000 abonnés et 10 Gbps de bande passante ne peut servir
-                  que 400 utilisateurs en 4K simultanément — soit 0,4% de sa base. Les meilleurs
-                  fournisseurs investissent dans des capacités dépassant leur usage moyen pour
-                  absorber les pics.
+                  El ancho de banda determina cuántos usuarios pueden ver flujos en simultáneo sin
+                  degradación. Un flujo 4K necesita unos 25 Mbps por usuario. Un proveedor con
+                  100.000 abonados y 10 Gbps de ancho de banda solo puede servir a 400 usuarios en
+                  4K simultáneamente — el 0,4% de su base. Los mejores proveedores invierten en
+                  capacidades que superan su uso medio para absorber los picos.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section 3 — Signaux d'alarme */}
+        {/* Section 3 — Señales de alarma */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Signaux d'Alarme : Comment Identifier un Mauvais Serveur IPTV
+              Señales de Alarma: Cómo Identificar un Mal Servidor IPTV
             </h2>
             <div className="flex flex-col gap-4">
               {redFlags.map((item, idx) => (
@@ -342,30 +344,30 @@ export default function ServeurIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              L'Infrastructure Serveur de VivaceTV
+              La Infraestructura de Servidores de VivaceTV
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV a construit son infrastructure autour d'un principe simple : la qualité ne
-              doit jamais se dégrader, même lors des moments les plus chargés. Voici les piliers de
-              notre architecture serveur :
+              VivaceTV ha construido su infraestructura en torno a un principio simple: la calidad
+              no debe degradarse nunca, ni siquiera en los momentos de mayor carga. Aquí están los
+              pilares de nuestra arquitectura de servidores:
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               {[
                 {
-                  title: 'Technologie AntiFreeze 10.0',
-                  desc: "Notre technologie propriétaire anti-freeze prévient les interruptions de flux en anticipant et redistribuant la charge automatiquement. Résultat : zéro buffering même lors des finales de Ligue des Champions.",
+                  title: 'Tecnología AntiFreeze 10.0',
+                  desc: "Nuestra tecnología propietaria anti-freeze previene las interrupciones de flujo anticipando y redistribuyendo la carga automáticamente. Resultado: cero buffering incluso durante las finales de Champions League.",
                 },
                 {
                   title: 'Uptime 99,9%',
-                  desc: "Notre SLA garantit une disponibilité de 99,9% — soit moins de 9 heures d'interruption maximale sur 12 mois. Notre infrastructure redondante assure la continuité même en cas de panne matérielle.",
+                  desc: "Nuestro SLA garantiza una disponibilidad del 99,9% — menos de 9 horas de interrupción máxima en 12 meses. Nuestra infraestructura redundante asegura la continuidad incluso en caso de fallo de hardware.",
                 },
                 {
-                  title: 'Serveurs CDN multi-localisations',
-                  desc: "Nos serveurs sont distribués sur plusieurs points de présence en Europe pour minimiser la latence et maximiser la qualité pour les utilisateurs français et francophones.",
+                  title: 'Servidores CDN multi-ubicación',
+                  desc: "Nuestros servidores están distribuidos en varios puntos de presencia en Europa para minimizar la latencia y maximizar la calidad para los usuarios españoles y de habla hispana.",
                 },
                 {
-                  title: '+22 000 chaînes maintenues',
-                  desc: "Notre équipe technique surveille et maintient la disponibilité de chaque chaîne 24h/24. Les flux cassés sont détectés et remplacés automatiquement ou dans les plus brefs délais.",
+                  title: '+22.000 canales mantenidos',
+                  desc: "Nuestro equipo técnico supervisa y mantiene la disponibilidad de cada canal las 24h/24. Los flujos interrumpidos se detectan y se reemplazan automáticamente o en el menor tiempo posible.",
                 },
               ].map((card) => (
                 <div
@@ -390,54 +392,54 @@ export default function ServeurIPTVPage() {
               ))}
             </div>
             <Link
-              href="/abonnements"
+              href="/comprar-iptv"
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
             >
-              Tester VivaceTV →
+              Probar VivaceTV →
             </Link>
           </div>
         </section>
 
-        {/* Section 5 — Tester un serveur */}
+        {/* Section 5 — Probar un servidor */}
         <section className="py-16 lg:py-20" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl lg:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Tester un Serveur IPTV Avant de s'Engager
+              Cómo Probar un Servidor IPTV Antes de Comprometeros
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Ne souscrivez jamais un abonnement IPTV de longue durée sans avoir testé la qualité du
-              serveur au préalable. Voici comment procéder méthodiquement :
+              Nunca os suscribáis a una suscripción IPTV de larga duración sin haber probado antes la
+              calidad del servidor. Aquí está cómo proceder metódicamente:
             </p>
             <div className="flex flex-col gap-4">
               {[
                 {
                   step: '1',
-                  title: "Demandez un test gratuit de 24 à 48 heures",
-                  desc: "VivaceTV propose un test gratuit sur simple demande via WhatsApp. Cette période vous permet d'évaluer la stabilité du serveur dans vos conditions réelles d'utilisation.",
+                  title: "Solicitad una prueba gratuita de 24 a 48 horas",
+                  desc: "VivaceTV ofrece una prueba gratuita bajo petición por WhatsApp. Este período os permite evaluar la estabilidad del servidor en vuestras condiciones reales de uso.",
                 },
                 {
                   step: '2',
-                  title: "Testez pendant les heures de pointe",
-                  desc: "Les problèmes de serveur se manifestent principalement en soirée (20h-22h) et lors des événements sportifs. Testez impérativement pendant ces périodes pour avoir une image réaliste des performances.",
+                  title: "Probad durante las horas punta",
+                  desc: "Los problemas de servidor se manifiestan principalmente por la noche (20h-22h) y durante eventos deportivos. Probad obligatoriamente durante estos períodos para tener una imagen realista del rendimiento.",
                 },
                 {
                   step: '3',
-                  title: "Vérifiez la disponibilité des chaînes que vous regardez",
-                  desc: "Contrôlez spécifiquement les chaînes qui vous sont importantes (Canal+, beIN Sports, France TV, etc.) et vérifiez qu'elles sont disponibles et de bonne qualité.",
+                  title: "Verificad la disponibilidad de los canales que veis",
+                  desc: "Comprobad específicamente los canales que os son importantes (Movistar+, DAZN, La 1, etc.) y verificad que están disponibles y de buena calidad.",
                 },
                 {
                   step: '4',
-                  title: "Testez sur votre connexion et votre appareil habituels",
-                  desc: "Un test effectué sur un appareil ou une connexion différente de votre usage quotidien ne reflète pas votre expérience réelle. Testez dans vos conditions normales.",
+                  title: "Probad con vuestra conexión y vuestro dispositivo habituales",
+                  desc: "Una prueba realizada en un dispositivo o conexión diferente a vuestro uso cotidiano no refleja vuestra experiencia real. Probad en vuestras condiciones normales.",
                 },
                 {
                   step: '5',
-                  title: "Évaluez la réactivité du support",
-                  desc: "Contactez le support pendant le test pour évaluer son temps de réponse et sa qualité. Un bon support résout les problèmes en minutes, pas en jours.",
+                  title: "Evaluad la capacidad de respuesta del soporte",
+                  desc: "Contactad al soporte durante la prueba para evaluar su tiempo de respuesta y su calidad. Un buen soporte resuelve los problemas en minutos, no en días.",
                 },
               ].map((item) => (
                 <div
@@ -490,7 +492,7 @@ export default function ServeurIPTVPage() {
               className="font-display font-bold text-2xl lg:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Serveur IPTV
+              Preguntas Frecuentes — Servidor IPTV
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -518,9 +520,9 @@ export default function ServeurIPTVPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/meilleur-iptv', label: 'Comparatif IPTV France' },
-                { href: '/fournisseur-iptv', label: 'Présentation VivaceTV' },
+                { href: '/comprar-iptv', label: 'Ver los planes' },
+                { href: '/mejor-iptv-espana', label: 'Comparativa IPTV España' },
+                { href: '/proveedor-iptv', label: 'Presentación VivaceTV' },
                 { href: '/iptv-4k', label: 'IPTV 4K' },
               ].map((l) => (
                 <Link

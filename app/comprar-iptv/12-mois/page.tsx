@@ -9,77 +9,77 @@ import FinalCTA from '@/components/sections/FinalCTA';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Abonnement IPTV 12 Mois — Meilleur Prix Annuel | VivaceTV Gold',
+  title: 'IPTV 12 Meses — Mejor Precio Anual | VivaceTV Gold',
   description:
-    'Abonnement IPTV 12 mois VivaceTV Gold à 44,99€ : accès complet +22 000 chaînes HD/4K/8K pour toute l\'année. Économisez 31% vs le tarif normal. Activation rapide.',
+    'Suscripción IPTV 12 meses VivaceTV Gold a 44,99€: acceso completo +22.000 canales HD/4K/8K para todo el año. Ahorra un 31% vs el precio normal. Activación rápida.',
   keywords: [
-    'iptv abonnement 12 mois',
-    'abonnement iptv annuel',
-    'iptv 12 mois france',
-    'abonnement iptv gold',
-    'iptv un an',
+    'iptv suscripción 12 meses',
+    'suscripción iptv anual',
+    'iptv 12 meses españa',
+    'suscripción iptv gold',
+    'iptv un año',
   ],
-  alternates: { canonical: `${siteConfig.url}/abonnements/12-mois` },
+  alternates: { canonical: `${siteConfig.url}/comprar-iptv/12-mois` },
   openGraph: {
-    title: 'Abonnement IPTV 12 Mois — Meilleur Prix Annuel | VivaceTV Gold',
+    title: 'IPTV 12 Meses — Mejor Precio Anual | VivaceTV Gold',
     description:
-      'Abonnement IPTV 12 mois VivaceTV Gold à 44,99€. +22 000 chaînes HD/4K/8K, 3,75€/mois. Économisez 31%. Activation rapide.',
-    url: `${siteConfig.url}/abonnements/12-mois`,
+      'Suscripción IPTV 12 meses VivaceTV Gold a 44,99€. +22.000 canales HD/4K/8K, 3,75€/mes. Ahorra un 31%. Activación rápida.',
+    url: `${siteConfig.url}/comprar-iptv/12-mois`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: "L'abonnement IPTV 12 mois se renouvelle-t-il automatiquement ?",
+    question: '¿La suscripción IPTV 12 meses se renueva automáticamente?',
     answer:
-      "Non. L'abonnement VivaceTV Gold 12 mois est un paiement unique sans renouvellement automatique. À l'expiration, vous choisissez librement si vous souhaitez renouveler votre accès.",
+      'No. La suscripción VivaceTV Gold 12 meses es un pago único sin renovación automática. Al vencer, elegís libremente si queréis renovar vuestro acceso.',
   },
   {
-    question: "Que se passe-t-il si je ne suis pas satisfait de mon abonnement 12 mois ?",
+    question: '¿Qué pasa si no estoy satisfecho con mi suscripción de 12 meses?',
     answer:
-      "VivaceTV propose une garantie satisfaction. Si vous n'êtes pas satisfait, notre équipe fait tout son possible pour résoudre le problème ou vous propose un remboursement selon nos conditions. Contactez notre support via WhatsApp.",
+      'VivaceTV ofrece una garantía de satisfacción. Si no estáis satisfechos, nuestro equipo hace todo lo posible para resolver el problema o os propone un reembolso según nuestras condiciones. Contactad con nuestro soporte por WhatsApp.',
   },
   {
-    question: "Puis-je changer d'appareil pendant mes 12 mois d'abonnement ?",
+    question: '¿Puedo cambiar de dispositivo durante mis 12 meses de suscripción?',
     answer:
-      "Oui. Votre abonnement est lié à votre compte, pas à un appareil spécifique. En cas de changement d'appareil, contactez notre support via WhatsApp et nous mettrons à jour votre configuration gratuitement.",
+      'Sí. Vuestra suscripción está vinculada a vuestra cuenta, no a un dispositivo específico. En caso de cambio de dispositivo, contactad con nuestro soporte por WhatsApp y actualizaremos vuestra configuración gratuitamente.',
   },
   {
-    question: "L'offre Gold 12 mois inclut-elle vraiment les chaînes 8K ?",
+    question: '¿La oferta Gold 12 meses incluye realmente los canales 8K?',
     answer:
-      "Oui, l'abonnement Gold inclut les chaînes en qualité SD, HD, 4K et 8K — la totalité de notre catalogue. La qualité affichée dépend aussi de votre connexion internet et de votre appareil.",
+      'Sí, la suscripción Gold incluye los canales en calidad SD, HD, 4K y 8K — la totalidad de nuestro catálogo. La calidad mostrada también depende de vuestra conexión a internet y de vuestro dispositivo.',
   },
 ];
 
 const goldFeatures = [
-  '+22 000 chaînes françaises et internationales',
-  '+160 000 films et séries en VOD',
-  'Qualité SD, HD, 4K et 8K Ultra',
-  'Technologie AntiFreeze 10.0',
-  'TV Replay — regardez en différé',
-  'Assistance 24/7 via WhatsApp',
-  'Activation en moins d\'une heure',
-  'Paiement unique — aucun renouvellement automatique',
+  '+22.000 canales españoles e internacionales',
+  '+160.000 películas y series en VOD',
+  'Calidad SD, HD, 4K y 8K Ultra',
+  'Tecnología AntiFreeze 10.0',
+  'TV Replay — ve en diferido',
+  'Asistencia 24/7 por WhatsApp',
+  'Activación en menos de una hora',
+  'Pago único — sin renovación automática',
   'Compatible Smart TV, Android, iOS, PC, Fire TV, Apple TV',
-  'Changement d\'appareil gratuit sur demande',
+  'Cambio de dispositivo gratuito a petición',
 ];
 
 const testimonials = [
   {
     name: 'Rachid A.',
-    location: 'Bordeaux',
-    text: "J'ai pris l'abonnement Gold en janvier et je ne l'ai pas regretté une seule fois. 12 mois, un seul paiement, aucun souci. Les chaînes sportives sont toutes là, en parfaite qualité. Je n'imagine plus regarder la TV autrement.",
+    location: 'Bilbao',
+    text: 'Tomé la suscripción Gold en enero y no me he arrepentido ni una vez. 12 meses, un solo pago, sin ningún problema. Los canales deportivos están todos, en perfecta calidad. Ya no me imagino ver la tele de otra manera.',
   },
   {
     name: 'Céline V.',
-    location: 'Toulouse',
-    text: "Le rapport qualité/prix est imbattable. 44,99€ pour toute une année d'accès à +160 000 films et séries en plus des chaînes. Ma famille entière regarde sur différents appareils et ça n'a jamais planté une seule fois.",
+    location: 'Málaga',
+    text: 'La relación calidad/precio es imbatible. 44,99€ por todo un año de acceso a +160.000 películas y series además de los canales. Toda mi familia ve en distintos dispositivos y nunca ha fallado ni una sola vez.',
   },
   {
     name: 'Mehdi K.',
-    location: 'Strasbourg',
-    text: "J'hésitais entre Gold et Diamond. J'ai finalement pris Gold pour commencer. Franchement, c'est parfait. Les serveurs sont ultra-stables, la qualité 4K sur ma LG est magnifique, et le support WhatsApp m'a aidé en 5 minutes quand j'ai changé de TV.",
+    location: 'Zaragoza',
+    text: 'Dudaba entre Gold y Diamond. Al final tomé Gold para empezar. Francamente, es perfecto. Los servidores son ultra-estables, la calidad 4K en mi LG es magnífica, y el soporte de WhatsApp me ayudó en 5 minutos cuando cambié de televisor.',
   },
 ];
 
@@ -102,21 +102,21 @@ export default function Abonnement12MoisPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Abonnements', href: '/abonnements' },
-          { name: 'Abonnement 12 Mois', href: '/abonnements/12-mois' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Comprar IPTV', href: '/comprar-iptv' },
+          { name: 'Suscripción 12 Meses', href: '/comprar-iptv/12-mois' },
         ]}
       />
       <Header />
       <main id="main-content">
         <PageHero
-          label="GOLD — 12 MOIS"
-          title="Abonnement IPTV 12 Mois"
-          titleHighlight="Le Meilleur Prix de l'Année"
-          subtitle="L'offre annuelle VivaceTV — un seul paiement, 12 mois d'accès complet. La formule préférée de nos clients."
+          label="GOLD — 12 MESES"
+          title="IPTV 12 Meses"
+          titleHighlight="El Mejor Precio del Año"
+          subtitle="La oferta anual VivaceTV — un solo pago, 12 meses de acceso completo. La fórmula preferida de nuestros clientes."
         />
 
-        {/* ── Section 1 : Pourquoi 12 mois ─────────────────────────────── */}
+        {/* ── Section 1 : Por qué 12 meses ─────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -128,16 +128,16 @@ export default function Abonnement12MoisPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi Choisir un Abonnement IPTV sur 12 Mois ?
+              ¿Por Qué Elegir una Suscripción IPTV de 12 Meses?
             </h2>
             <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              L'abonnement annuel est la solution la plus intelligente pour les utilisateurs réguliers d'IPTV. Plutôt
-              que de renouveler tous les 3 ou 6 mois avec la contrainte mentale que cela implique, vous payez une
-              seule fois et profitez sereinement de votre service pendant toute l'année. Consultez{' '}
-              <Link href="/abonnements" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                toutes nos offres
+              La suscripción anual es la solución más inteligente para los usuarios habituales de IPTV. En lugar de
+              renovar cada 3 o 6 meses con la carga mental que eso implica, pagáis una sola vez y disfrutáis
+              tranquilamente de vuestro servicio durante todo el año. Consultad{' '}
+              <Link href="/comprar-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                todos nuestros planes
               </Link>{' '}
-              pour comparer les durées disponibles.
+              para comparar las duraciones disponibles.
             </p>
 
             <div className="flex flex-col gap-8">
@@ -149,13 +149,13 @@ export default function Abonnement12MoisPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Des économies significatives
+                  Ahorros significativos
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Si vous renouveliez l'offre Bronze (3 mois à 22,99€) quatre fois de suite pour couvrir une année
-                  complète, vous dépenseriez 91,96€. L'offre Gold 12 mois est à 44,99€ — soit une économie de près
-                  de 47€, presque la moitié. En revenant au coût mensuel, le Gold revient à seulement 3,75€/mois
-                  contre 7,66€/mois pour le Bronze renouvelé. La différence est considérable sur une année entière.
+                  Si renovarais la oferta Bronze (3 meses a 22,99€) cuatro veces seguidas para cubrir un año
+                  completo, gastaríais 91,96€. La oferta Gold 12 meses está a 44,99€ — es decir un ahorro de casi
+                  47€, casi la mitad. Volviendo al coste mensual, el Gold sale a solo 3,75€/mes frente a 7,66€/mes
+                  para el Bronze renovado. La diferencia es considerable a lo largo de todo un año.
                 </p>
               </div>
 
@@ -167,18 +167,17 @@ export default function Abonnement12MoisPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Un seul paiement, zéro souci
+                  Un solo pago, cero preocupaciones
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  Plus besoin de penser à renouveler votre abonnement tous les trimestres. Avec l'offre Gold, vous
-                  payez une seule fois et vous oubliez — votre service fonctionne pendant 12 mois complets, sans
-                  interruption, sans renouvellement automatique imposé. Aucun prélèvement surprise, aucune
-                  notification d'expiration inopportune. Et si vous souhaitez renouveler à la fin de votre
-                  abonnement,{' '}
+                  Ya no necesitáis pensar en renovar vuestra suscripción cada trimestre. Con la oferta Gold, pagáis
+                  una sola vez y os olvidáis — vuestro servicio funciona durante 12 meses completos, sin interrupción,
+                  sin renovación automática impuesta. Sin cargo sorpresa, sin notificación de vencimiento inoportuna.
+                  Y si queréis renovar al final de vuestra suscripción,{' '}
                   <Link href="/commander/gold" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                    commander l'abonnement Gold
+                    comprar la suscripción Gold
                   </Link>{' '}
-                  se fait en quelques minutes via WhatsApp.
+                  se hace en pocos minutos por WhatsApp.
                 </p>
               </div>
 
@@ -190,24 +189,24 @@ export default function Abonnement12MoisPage() {
                   className="font-display font-bold text-xl sm:text-2xl mb-3"
                   style={{ color: 'var(--color-ink)' }}
                 >
-                  Plus de contenu inclus
+                  Más contenido incluido
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                  L'offre Gold débloque l'intégralité du catalogue VOD de VivaceTV : +160 000 films et séries en
-                  accès illimité, contre environ 60 000 pour le forfait Bronze. Des films récents aux grandes séries
-                  internationales, en passant par les documentaires et les dessins animés — le Gold est la formule
-                  complète. Pour en savoir plus sur notre{' '}
-                  <Link href="/abonnements/premium" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                    offre premium VivaceTV
+                  La oferta Gold desbloquea la totalidad del catálogo VOD de VivaceTV: +160.000 películas y series en
+                  acceso ilimitado, frente a unos 60.000 del plan Bronze. De las películas recientes a las grandes
+                  series internacionales, pasando por documentales y dibujos animados — el Gold es la fórmula
+                  completa. Para saber más sobre nuestra{' '}
+                  <Link href="/comprar-iptv/premium" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                    oferta premium VivaceTV
                   </Link>,{' '}
-                  consultez notre page dédiée.
+                  consultad nuestra página dedicada.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ── Section 2 : Offre Gold showcase ─────────────────────────────── */}
+        {/* ── Section 2 : Oferta Gold showcase ─────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -219,7 +218,7 @@ export default function Abonnement12MoisPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              L'Offre Gold VivaceTV — Tout Ce Qui Est Inclus
+              La Oferta Gold VivaceTV — Todo lo que Está Incluido
             </h2>
 
             <div
@@ -235,7 +234,7 @@ export default function Abonnement12MoisPage() {
                     className="text-xs font-bold uppercase tracking-wider mb-1"
                     style={{ color: 'var(--color-lime)' }}
                   >
-                    Gold — Le Plus Populaire
+                    Gold — El Más Popular
                   </p>
                   <div className="flex items-baseline gap-3">
                     <span
@@ -255,7 +254,7 @@ export default function Abonnement12MoisPage() {
                     </span>
                   </div>
                   <p className="text-sm mt-1" style={{ color: 'var(--color-gray-400)' }}>
-                    12 mois · 3,75€/mois · paiement unique
+                    12 meses · 3,75€/mes · pago único
                   </p>
                 </div>
                 <Link
@@ -263,7 +262,7 @@ export default function Abonnement12MoisPage() {
                   className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200 hover:opacity-90 active:scale-95 whitespace-nowrap"
                   style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
                 >
-                  Commander Gold
+                  Comprar Gold
                 </Link>
               </div>
 
@@ -286,7 +285,7 @@ export default function Abonnement12MoisPage() {
           </div>
         </section>
 
-        {/* ── Section 3 : Comparaison durées ──────────────────────────────── */}
+        {/* ── Section 3 : Comparación duraciones ──────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface)' }}
@@ -298,10 +297,10 @@ export default function Abonnement12MoisPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-6 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Abonnement IPTV 12 Mois vs Autres Durées — Comparaison
+              IPTV 12 Meses vs Otras Duraciones — Comparativa
             </h2>
             <p className="text-center text-sm mb-10" style={{ color: 'var(--color-ink-light)' }}>
-              Choisir la bonne durée, c'est choisir le bon budget. Voici comment nos offres se comparent au coût mensuel réel.
+              Elegir la duración correcta es elegir el presupuesto correcto. Así se comparan nuestras ofertas al coste mensual real.
             </p>
 
             <div
@@ -311,19 +310,19 @@ export default function Abonnement12MoisPage() {
               <table className="w-full text-sm" style={{ borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Forfait</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Durée</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Prix total</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Par mois</th>
-                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Économie vs Bronze</th>
+                    <th className="px-5 py-4 text-left font-semibold" style={{ color: 'var(--color-surface)' }}>Plan</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Duración</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Precio total</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-lime)' }}>Por mes</th>
+                    <th className="px-5 py-4 text-center font-semibold" style={{ color: 'var(--color-surface)' }}>Ahorro vs Bronze</th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
-                    { label: 'Bronze', duration: '3 mois', price: '22,99€', perMonth: '7,66€', saving: '—', featured: false },
-                    { label: 'Silver', duration: '6 mois', price: '34,99€', perMonth: '5,83€', saving: '-24%/mois', featured: false },
-                    { label: 'Gold ★', duration: '12 mois', price: '44,99€', perMonth: '3,75€', saving: '-51%/mois', featured: true },
-                    { label: 'Diamond', duration: '24 mois', price: '74,99€', perMonth: '3,12€', saving: '-59%/mois', featured: false },
+                    { label: 'Bronze', duration: '3 meses', price: '22,99€', perMonth: '7,66€', saving: '—', featured: false },
+                    { label: 'Silver', duration: '6 meses', price: '34,99€', perMonth: '5,83€', saving: '-24%/mes', featured: false },
+                    { label: 'Gold ★', duration: '12 meses', price: '44,99€', perMonth: '3,75€', saving: '-51%/mes', featured: true },
+                    { label: 'Diamond', duration: '24 meses', price: '74,99€', perMonth: '3,12€', saving: '-59%/mes', featured: false },
                   ].map((row, i) => (
                     <tr
                       key={i}
@@ -378,16 +377,16 @@ export default function Abonnement12MoisPage() {
             </div>
 
             <p className="text-center text-xs mt-4" style={{ color: 'var(--color-gray-400)' }}>
-              Pour une vue complète du{' '}
-              <Link href="/meilleur-iptv" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
-                meilleur abonnement IPTV France
+              Para una vista completa del{' '}
+              <Link href="/mejor-iptv-espana" style={{ color: 'var(--color-lime)', textDecoration: 'underline' }}>
+                mejor IPTV España
               </Link>,{' '}
-              consultez notre comparatif complet.
+              consultad nuestro comparativo completo.
             </p>
           </div>
         </section>
 
-        {/* ── Section 4 : Témoignages ─────────────────────────────────────── */}
+        {/* ── Section 4 : Testimonios ─────────────────────────────────────── */}
         <section
           className="py-16 lg:py-24"
           style={{ backgroundColor: 'var(--color-surface-alt)' }}
@@ -399,7 +398,7 @@ export default function Abonnement12MoisPage() {
               className="font-display font-bold text-3xl sm:text-4xl mb-10 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Ce Que Nos Clients Pensent de l'Abonnement Annuel
+              Lo que Nuestros Clientes Piensan de la Suscripción Anual
             </h2>
 
             <div className="grid sm:grid-cols-3 gap-5">
@@ -409,7 +408,7 @@ export default function Abonnement12MoisPage() {
                   className="flex flex-col gap-4 p-6 rounded-2xl"
                   style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)' }}
                 >
-                  <div className="flex gap-1" aria-label="5 étoiles sur 5">
+                  <div className="flex gap-1" aria-label="5 estrellas de 5">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span key={i} style={{ color: 'var(--color-lime)', fontSize: 14 }} aria-hidden="true">★</span>
                     ))}
@@ -439,7 +438,7 @@ export default function Abonnement12MoisPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8 text-center leading-tight"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Abonnement IPTV 12 Mois
+              Preguntas Frecuentes — Suscripción IPTV 12 Meses
             </h2>
             <div className="flex flex-col gap-3">
               {faqItems.map((item, i) => (

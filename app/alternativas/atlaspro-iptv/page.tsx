@@ -10,60 +10,60 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'AtlasPro IPTV Avis 2026 — Meilleure Alternative | VivaceTV',
+  title: 'AtlasPro IPTV Opiniones 2026 — Mejor Alternativa | VivaceTV',
   description:
-    'AtlasPro IPTV avis 2025 : est-ce le bon fournisseur IPTV France ? Comparatif AtlasPro vs VivaceTV — prix, chaînes, qualité et support.',
+    'AtlasPro IPTV opiniones 2026: ¿es el proveedor IPTV adecuado para España? Comparativa AtlasPro vs VivaceTV — precio, canales, calidad y soporte.',
   keywords: [
     'atlaspro iptv',
-    'atlaspro iptv avis',
-    'alternative atlaspro iptv',
-    'atlaspro iptv france',
+    'atlaspro iptv opiniones',
+    'alternativa atlaspro iptv',
+    'atlaspro iptv españa',
     'atlaspro vs vivacetv',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/atlaspro-iptv` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/atlaspro-iptv` },
   openGraph: {
-    title: 'AtlasPro IPTV Avis 2026 — Meilleure Alternative | VivaceTV',
+    title: 'AtlasPro IPTV Opiniones 2026 — Mejor Alternativa | VivaceTV',
     description:
-      'Comparatif AtlasPro IPTV vs VivaceTV : prix, chaînes, qualité, support. Trouvez le meilleur abonnement IPTV France en 2025.',
-    url: `${siteConfig.url}/alternatives/atlaspro-iptv`,
+      'Comparativa AtlasPro IPTV vs VivaceTV: precio, canales, calidad, soporte. Encuentra la mejor suscripción IPTV España en 2026.',
+    url: `${siteConfig.url}/alternativas/atlaspro-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'AtlasPro IPTV est-il bon pour les chaînes françaises ?',
+    question: '¿AtlasPro IPTV es bueno para los canales españoles?',
     answer:
-      "AtlasPro IPTV est principalement connu pour son contenu arabe et MENA. Son catalogue de chaînes françaises est limité selon les retours disponibles. VivaceTV propose un catalogue complet de chaînes françaises (+22 000 chaînes au total), incluant toutes les chaînes de la TNT, les bouquets sportifs et les chaînes régionales.",
+      'AtlasPro IPTV es principalmente conocido por su contenido árabe y MENA. Su catálogo de canales españoles es limitado según las valoraciones disponibles. VivaceTV ofrece un catálogo completo de canales españoles (+22.000 canales en total), incluyendo todos los canales de TDT, paquetes deportivos y canales regionales.',
   },
   {
-    question: 'Quelle est la différence entre AtlasPro IPTV et IPTV Atlas ?',
+    question: '¿Cuál es la diferencia entre AtlasPro IPTV e IPTV Atlas?',
     answer:
-      "AtlasPro IPTV et IPTV Atlas sont deux services distincts. AtlasPro IPTV se positionne sur le segment premium avec un accent sur le contenu arabe haut de gamme. IPTV Atlas est un service plus généraliste. Les deux sont différents de VivaceTV, qui est spécialisé pour le marché français avec un catalogue complet de chaînes françaises et internationales.",
+      'AtlasPro IPTV e IPTV Atlas son dos servicios distintos. AtlasPro IPTV se posiciona en el segmento premium con énfasis en contenido árabe de alta gama. IPTV Atlas es un servicio más generalista. Ambos son diferentes de VivaceTV, que está especializado para el mercado español con un catálogo completo de canales españoles e internacionales.',
   },
   {
-    question: 'AtlasPro IPTV propose-t-il un essai gratuit ?',
+    question: '¿AtlasPro IPTV ofrece prueba gratuita?',
     answer:
-      "AtlasPro IPTV ne propose pas d'essai gratuit à notre connaissance. VivaceTV propose un test gratuit de 24 heures sur simple demande via WhatsApp, permettant de vérifier la compatibilité avec vos appareils et la qualité des chaînes qui vous intéressent avant tout engagement.",
+      'AtlasPro IPTV no ofrece prueba gratuita según nuestro conocimiento. VivaceTV ofrece una prueba gratuita de 24 horas bajo simple solicitud por WhatsApp, lo que permite verificar la compatibilidad con tus dispositivos y la calidad de los canales que te interesan antes de comprometerte.',
   },
 ];
 
 const tableRows = [
-  { label: 'Chaînes disponibles', competitor: '~13 000', vivacetv: '+22 000' },
-  { label: 'Contenu arabe', competitor: '✅', vivacetv: '✅ ✓' },
-  { label: 'Contenu français', competitor: 'Limité', vivacetv: '✅ Complet ✓' },
-  { label: 'Qualité max', competitor: 'HD/4K', vivacetv: 'HD/4K/8K ✓' },
-  { label: 'Prix', competitor: '~22€/mois', vivacetv: 'Dès 3,75€/mois ✓' },
-  { label: 'Essai gratuit', competitor: '❌', vivacetv: '✅ 24h' },
-  { label: 'Support', competitor: 'Limité', vivacetv: '✅ WhatsApp 24/7' },
+  { label: 'Canales disponibles', competitor: '~13.000', vivacetv: '+22.000' },
+  { label: 'Contenido árabe', competitor: '✅', vivacetv: '✅ ✓' },
+  { label: 'Contenido español', competitor: 'Limitado', vivacetv: '✅ Completo ✓' },
+  { label: 'Calidad máxima', competitor: 'HD/4K', vivacetv: 'HD/4K/8K ✓' },
+  { label: 'Precio', competitor: '~22€/mes', vivacetv: 'Desde 3,75€/mes ✓' },
+  { label: 'Prueba gratuita', competitor: '❌', vivacetv: '✅ 24h' },
+  { label: 'Soporte', competitor: 'Limitado', vivacetv: '✅ WhatsApp 24/7' },
 ];
 
 const switchSteps = [
-  'Demandez votre essai gratuit 24h VivaceTV via WhatsApp',
-  'Testez la qualité sur votre appareil',
-  'Choisissez votre offre (Bronze, Silver, Gold ou Diamond)',
-  "Recevez vos accès en moins d'1h",
-  'Profitez de VivaceTV sans coupure',
+  'Solicita tu prueba gratis de 24h de VivaceTV por WhatsApp',
+  'Prueba la calidad en tu dispositivo',
+  'Elige tu plan (Bronze, Silver, Gold o Diamond)',
+  'Recibe tus accesos en menos de 1h',
+  'Disfruta de VivaceTV sin cortes',
 ];
 
 export default function AtlasProIPTVPage() {
@@ -85,58 +85,58 @@ export default function AtlasProIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'AtlasPro IPTV', href: '/alternatives/atlaspro-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'AtlasPro IPTV', href: '/alternativas/atlaspro-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="ALTERNATIVE IPTV"
+          label="ALTERNATIVA IPTV"
           title="AtlasPro IPTV"
-          titleHighlight="Avis & Meilleure Alternative"
-          subtitle="Vous cherchez une alternative à AtlasPro IPTV ? Découvrez pourquoi VivaceTV est le meilleur choix pour votre abonnement IPTV France."
+          titleHighlight="Opiniones y Mejor Alternativa"
+          subtitle="¿Buscas una alternativa a AtlasPro IPTV? Descubre por qué VivaceTV es la mejor opción para tu suscripción IPTV España."
         />
 
-        {/* Section 1 — Présentation */}
+        {/* Sección 1 — Presentación */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu&apos;est-ce qu&apos;AtlasPro IPTV ?
+              ¿Qué es AtlasPro IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              AtlasPro IPTV est un service d&apos;abonnement IPTV spécialisé dans le contenu arabe
-              premium et les chaînes de la région MENA (Moyen-Orient et Afrique du Nord). Il
-              propose un catalogue d&apos;environ 13 000 chaînes avec une qualité vidéo allant
-              jusqu&apos;au 4K, et est compatible avec les principaux appareils du marché.
+              AtlasPro IPTV es un servicio de suscripción IPTV especializado en contenido árabe
+              premium y canales de la región MENA (Oriente Medio y Norte de África). Ofrece un
+              catálogo de aproximadamente 13.000 canales con calidad de vídeo hasta 4K y es
+              compatible con los principales dispositivos del mercado.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              AtlasPro IPTV se distingue d&apos;IPTV Atlas par son positionnement plus premium et son
-              accent sur la qualité du contenu arabophone. Cependant, pour les utilisateurs
-              français souhaitant accéder à un catalogue complet de chaînes françaises, son
-              offre est plus limitée.
+              AtlasPro IPTV se distingue de IPTV Atlas por su posicionamiento más premium y su
+              énfasis en la calidad del contenido arabófono. Sin embargo, para los usuarios
+              españoles que desean acceder a un catálogo completo de canales españoles, su oferta
+              resulta más limitada.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              À ~22€ par mois selon les informations disponibles, AtlasPro IPTV est également
-              bien plus coûteux que VivaceTV, qui propose des tarifs dès 3,75€ par mois avec
-              une offre annuelle et un catalogue beaucoup plus large.
+              A ~22€ al mes según la información disponible, AtlasPro IPTV es también
+              considerablemente más caro que VivaceTV, que ofrece tarifas desde 3,75€ al mes con
+              una oferta anual y un catálogo mucho más amplio.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Avantages et inconvénients */}
+        {/* Sección 2 — Ventajas e inconvenientes */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              AtlasPro IPTV : Avantages et Inconvénients
+              AtlasPro IPTV: Ventajas e Inconvenientes
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div
@@ -148,13 +148,13 @@ export default function AtlasProIPTVPage() {
                 }}
               >
                 <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points positifs
+                  Puntos positivos
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {[
-                    'Reconnu pour la qualité du contenu arabe',
-                    'Catalogue de chaînes MENA étoffé',
-                    'Qualité 4K sur les chaînes premium',
+                    'Reconocido por la calidad del contenido árabe',
+                    'Catálogo de canales MENA amplio',
+                    'Calidad 4K en canales premium',
                   ].map((pro, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Check size={16} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
@@ -172,15 +172,15 @@ export default function AtlasProIPTVPage() {
                 }}
               >
                 <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points négatifs
+                  Puntos negativos
                 </h3>
                 <ul className="flex flex-col gap-3">
                   {[
-                    'Catalogue de chaînes françaises limité',
-                    'Aucun essai gratuit à notre connaissance',
-                    'Support client limité',
-                    'Pas de qualité 8K disponible',
-                    'Prix élevé (~22€/mois) pour le service proposé',
+                    'Catálogo de canales españoles limitado',
+                    'Sin prueba gratuita conocida',
+                    'Soporte al cliente limitado',
+                    'Sin calidad 8K disponible',
+                    'Precio elevado (~22€/mes) para el servicio ofrecido',
                   ].map((con, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <X size={16} style={{ color: 'var(--color-gray-400)', flexShrink: 0, marginTop: 2 }} />
@@ -193,20 +193,20 @@ export default function AtlasProIPTVPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
+        {/* Sección 3 — Tabla comparativa */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              AtlasPro IPTV vs VivaceTV — Comparatif Détaillé
+              AtlasPro IPTV vs VivaceTV — Comparativa Detallada
             </h2>
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
-                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Critère</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>AtlasPro IPTV</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
                   </tr>
@@ -229,53 +229,52 @@ export default function AtlasProIPTVPage() {
               </table>
             </div>
             <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>
-              * Données AtlasPro IPTV basées sur les informations publiquement disponibles et les
-              retours utilisateurs. À titre indicatif.
+              * Datos de AtlasPro IPTV basados en información públicamente disponible y valoraciones de usuarios. A título orientativo.
             </p>
           </div>
         </section>
 
-        {/* Section 4 — Pourquoi VivaceTV */}
+        {/* Sección 4 — Por qué VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Pourquoi VivaceTV est Meilleur qu&apos;AtlasPro IPTV ?
+              ¿Por qué VivaceTV es Mejor que AtlasPro IPTV?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV propose un catalogue bien plus large qu&apos;AtlasPro IPTV (+22 000 chaînes
-              contre ~13 000), avec une couverture complète des deux marchés : le contenu arabe
-              et MENA, mais également l&apos;intégralité des chaînes françaises. Pour les utilisateurs
-              franco-arabes, VivaceTV est le choix évident.
+              VivaceTV ofrece un catálogo mucho más amplio que AtlasPro IPTV (+22.000 canales
+              frente a ~13.000), con cobertura completa de ambos mercados: contenido árabe y MENA,
+              pero también la totalidad de los canales españoles. Para los usuarios hispano-árabes,
+              VivaceTV es la elección evidente.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La différence tarifaire est également déterminante : ~22€ par mois pour AtlasPro
-              contre 3,75€ par mois avec l&apos;offre Gold annuelle de VivaceTV. Sur un an, c&apos;est
-              une économie de plus de 220€ pour un service de meilleure qualité.
+              La diferencia de precio es también determinante: ~22€ al mes por AtlasPro frente a
+              3,75€ al mes con la oferta Gold anual de VivaceTV. En un año, eso supone un ahorro de
+              más de 220€ por un servicio de mejor calidad.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La qualité vidéo est également supérieure chez VivaceTV avec des flux disponibles
-              en 8K — une résolution absente d&apos;AtlasPro IPTV. La technologie AntiFreeze 10.0
-              garantit en outre une stabilité supérieure lors des événements en direct.
+              La calidad de vídeo es también superior en VivaceTV, con streams disponibles en 8K —
+              una resolución ausente en AtlasPro IPTV. La tecnología AntiFreeze 10.0 garantiza además
+              una estabilidad superior durante los eventos en directo.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Contrairement à AtlasPro IPTV, VivaceTV propose un essai gratuit de 24 heures sur
-              simple demande via WhatsApp. C&apos;est l&apos;occasion idéale pour vérifier la qualité des
-              chaînes arabes et françaises qui vous intéressent avant de vous engager.
+              A diferencia de AtlasPro IPTV, VivaceTV ofrece una prueba gratuita de 24 horas bajo
+              simple solicitud por WhatsApp. Es la ocasión ideal para verificar la calidad de los
+              canales árabes y españoles que te interesan antes de comprometerte.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Comment passer */}
+        {/* Sección 5 — Cómo cambiar */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Comment Passer d&apos;AtlasPro IPTV à VivaceTV ?
+              ¿Cómo Pasarse de AtlasPro IPTV a VivaceTV?
             </h2>
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
@@ -303,24 +302,24 @@ export default function AtlasProIPTVPage() {
             </div>
             <div className="mt-8">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
               >
-                Voir les offres VivaceTV →
+                Ver los planes de VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
+        {/* Sección 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — AtlasPro IPTV vs VivaceTV
+              Preguntas Frecuentes — AtlasPro IPTV vs VivaceTV
             </h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
@@ -344,10 +343,10 @@ export default function AtlasProIPTVPage() {
             </div>
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
                 <Link
                   key={l.href}

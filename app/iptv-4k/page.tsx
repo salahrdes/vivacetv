@@ -10,21 +10,21 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | VivaceTV',
+  title: 'IPTV 4K España 2026 — Canales Ultra HD Sin Cortes | VivaceTV',
   description:
-    'Regardez la TV en 4K avec VivaceTV IPTV : +22 000 chaînes en HD, 4K et 8K, technologie anti-freeze, compatible Smart TV, Firestick, Android. Dès 22,99€.',
+    'Ve la TV en 4K con VivaceTV IPTV: +22 000 canales en HD, 4K y 8K, tecnología anti-freeze, compatible Smart TV, Firestick, Android. Desde 22,99€.',
   keywords: [
     'IPTV 4K',
-    '4K IPTV France',
-    'chaînes IPTV 4K',
+    '4K IPTV España',
+    'canales IPTV 4K',
     'IPTV Ultra HD',
     'IPTV 8K',
   ],
   alternates: { canonical: `${siteConfig.url}/iptv-4k` },
   openGraph: {
-    title: 'IPTV 4K France 2026 — Chaînes Ultra HD Sans Coupure | VivaceTV',
+    title: 'IPTV 4K España 2026 — Canales Ultra HD Sin Cortes | VivaceTV',
     description:
-      'IPTV 4K et 8K avec VivaceTV : +22 000 chaînes Ultra HD, anti-freeze, compatible Smart TV 4K, Fire Stick 4K, Android TV. Dès 22,99€.',
+      'IPTV 4K y 8K con VivaceTV: +22 000 canales Ultra HD, anti-freeze, compatible Smart TV 4K, Fire Stick 4K, Android TV. Desde 22,99€.',
     url: `${siteConfig.url}/iptv-4k`,
     type: 'website',
   },
@@ -32,82 +32,82 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    question: 'Tous les abonnements VivaceTV incluent-ils la qualité 4K ?',
+    question: '¿Todas las suscripciones VivaceTV incluyen la calidad 4K?',
     answer:
-      "Oui. Tous nos abonnements (Bronze, Silver, Gold, Diamond) incluent les chaînes en qualité HD, 4K et 8K. La qualité affichée dépend également de votre connexion internet (25 Mbps minimum recommandés pour le 4K) et de la capacité 4K de votre écran.",
+      'Sí. Todas nuestras suscripciones (Bronze, Silver, Gold, Diamond) incluyen los canales en calidad HD, 4K y 8K. La calidad mostrada también depende de tu conexión a internet (25 Mbps mínimo recomendados para el 4K) y de la capacidad 4K de tu pantalla.',
   },
   {
-    question: 'Quelle est la différence entre 4K et 8K en IPTV ?',
+    question: '¿Cuál es la diferencia entre 4K y 8K en IPTV?',
     answer:
-      "Le 4K (Ultra HD) offre une résolution de 3840×2160 pixels, soit 4 fois la résolution du Full HD. Le 8K double encore cette résolution à 7680×4320 pixels. En pratique, la différence est perceptible principalement sur des écrans de 65 pouces et plus, et nécessite une connexion de 50 Mbps minimum.",
+      'El 4K (Ultra HD) ofrece una resolución de 3840×2160 píxeles, es decir cuatro veces la resolución del Full HD. El 8K dobla de nuevo esta resolución a 7680×4320 píxeles. En la práctica, la diferencia es perceptible principalmente en pantallas de 65 pulgadas y más, y requiere una conexión de 50 Mbps mínimo.',
   },
   {
-    question: "Mon IPTV 4K s'arrête souvent — comment résoudre ce problème ?",
+    question: 'Mi IPTV 4K se corta a menudo — ¿cómo solucionar este problema?',
     answer:
-      "Les coupures en IPTV 4K sont généralement dues à une connexion internet insuffisante ou instable. Vérifiez votre débit (test sur speedtest.net), rapprochez votre appareil du routeur ou utilisez un câble Ethernet. VivaceTV intègre la technologie AntiFreeze 10.0 qui réduit significativement les bufferings.",
+      'Los cortes en IPTV 4K generalmente se deben a una conexión a internet insuficiente o inestable. Verifica tu velocidad (prueba en speedtest.net), acerca tu dispositivo al router o usa un cable Ethernet. VivaceTV integra la tecnología AntiFreeze 10.0 que reduce significativamente los bufferings.',
   },
   {
-    question: "L'IPTV 4K est-il disponible sur iPhone et iPad ?",
+    question: '¿El IPTV 4K está disponible en iPhone y iPad?',
     answer:
-      "Oui. Avec l'application GSE Smart IPTV ou IPTV Smarters Pro sur votre iPhone ou iPad compatible 4K, vous pouvez profiter des chaînes VivaceTV en 4K. L'Apple TV 4K est également une excellente option pour regarder l'IPTV en 4K sur votre téléviseur.",
+      'Sí. Con la aplicación GSE Smart IPTV o IPTV Smarters Pro en tu iPhone o iPad compatible 4K, puedes disfrutar de los canales VivaceTV en 4K. El Apple TV 4K es también una excelente opción para ver el IPTV en 4K en tu televisor.',
   },
   {
-    question: "Ai-je besoin d'un équipement spécial pour l'IPTV 4K ?",
+    question: '¿Necesito equipamiento especial para el IPTV 4K?',
     answer:
-      "Non. Vous avez seulement besoin d'un écran 4K (TV, moniteur), d'une connexion internet de 25 Mbps minimum, et d'une application IPTV compatible 4K comme TiviMate ou GSE Smart IPTV. Un abonnement VivaceTV fait le reste.",
+      'No. Solo necesitas una pantalla 4K (TV, monitor), una conexión a internet de 25 Mbps mínimo, y una aplicación IPTV compatible 4K como TiviMate o GSE Smart IPTV. Una suscripción VivaceTV hace el resto.',
   },
 ];
 
 const devices = [
   {
     title: 'Smart TV 4K (Samsung, LG, Sony, Philips)',
-    desc: "Les Smart TV 4K modernes supportent nativement l'IPTV via leurs applications intégrées ou via des applications téléchargeables (IPTV Smarters, Smart IPTV). Aucun boîtier supplémentaire n'est nécessaire. Compatible avec tous les modèles récents de Samsung (Tizen), LG (webOS) et Sony (Android TV).",
+    desc: 'Las Smart TV 4K modernas soportan nativamente el IPTV mediante sus aplicaciones integradas o mediante aplicaciones descargables (IPTV Smarters, Smart IPTV). No se necesita ningún dispositivo adicional. Compatible con todos los modelos recientes de Samsung (Tizen), LG (webOS) y Sony (Android TV).',
   },
   {
-    title: 'Boîtiers Android TV 4K',
-    desc: "Les boîtiers Android TV 4K comme le NVIDIA Shield TV Pro ou le Xiaomi Mi Box S offrent les meilleures performances pour l'IPTV 4K. Ils permettent d'installer TiviMate, la meilleure application IPTV du marché, et offrent une fluidité de lecture exceptionnelle.",
+    title: 'Cajas Android TV 4K',
+    desc: 'Las cajas Android TV 4K como el NVIDIA Shield TV Pro o el Xiaomi Mi Box S ofrecen el mejor rendimiento para el IPTV 4K. Permiten instalar TiviMate, la mejor aplicación IPTV del mercado, y ofrecen una fluidez de reproducción excepcional.',
   },
   {
     title: 'Amazon Fire TV Stick 4K',
-    desc: "L'Amazon Fire TV Stick 4K Max est un accessoire abordable (~50€) qui transforme n'importe quelle TV HDMi en Smart TV 4K. Compatible avec TiviMate et IPTV Smarters Pro via sideloading. Recommandé pour son excellent rapport performance/prix.",
+    desc: 'El Amazon Fire TV Stick 4K Max es un accesorio asequible (~50€) que transforma cualquier TV HDMI en Smart TV 4K. Compatible con TiviMate e IPTV Smarters Pro mediante sideloading. Recomendado por su excelente relación rendimiento/precio.',
   },
   {
     title: 'Apple TV 4K',
-    desc: "L'Apple TV 4K (3e génération) est la meilleure option pour les utilisateurs Apple. Compatible avec GSE Smart IPTV disponible sur l'App Store. Offre une qualité de diffusion 4K HDR remarquable et s'intègre parfaitement dans l'écosystème Apple.",
+    desc: 'El Apple TV 4K (3ª generación) es la mejor opción para los usuarios de Apple. Compatible con GSE Smart IPTV disponible en el App Store. Ofrece una calidad de emisión 4K HDR notable y se integra perfectamente en el ecosistema Apple.',
   },
   {
-    title: 'PC et ordinateurs',
-    desc: "Sur PC (Windows/Mac) et Linux, vous pouvez regarder l'IPTV 4K via VLC Media Player (gratuit), IPTV Smarters (version web) ou Kodi avec l'add-on PVR IPTV Simple Client. Une carte graphique récente et une connexion stable de 25 Mbps sont recommandées.",
+    title: 'PC y ordenadores',
+    desc: 'En PC (Windows/Mac) y Linux, puedes ver el IPTV 4K mediante VLC Media Player (gratuito), IPTV Smarters (versión web) o Kodi con el add-on PVR IPTV Simple Client. Se recomiendan una tarjeta gráfica reciente y una conexión estable de 25 Mbps.',
   },
 ];
 
 const speedRows = [
-  { quality: 'SD (480p)', speed: '3 Mbps', desc: 'Qualité de base' },
-  { quality: 'HD (720p / 1080p)', speed: '10 Mbps', desc: 'Recommandé minimum' },
-  { quality: '4K Ultra HD', speed: '25 Mbps', desc: 'Recommandé fibre' },
-  { quality: '8K', speed: '50 Mbps', desc: 'Fibre nécessaire' },
+  { quality: 'SD (480p)', speed: '3 Mbps', desc: 'Calidad básica' },
+  { quality: 'HD (720p / 1080p)', speed: '10 Mbps', desc: 'Mínimo recomendado' },
+  { quality: '4K Ultra HD', speed: '25 Mbps', desc: 'Fibra recomendada' },
+  { quality: '8K', speed: '50 Mbps', desc: 'Fibra necesaria' },
 ];
 
 const channels4K = [
-  { cat: 'Sports', channels: ['beIN Sports 4K', 'Canal+ Sport 4K', 'RMC Sport 4K', 'Eurosport 4K'] },
-  { cat: 'Cinéma & Séries', channels: ['Canal+ Cinéma 4K', 'OCS 4K', 'Chaînes UHD Premium', 'VOD 4K VivaceTV'] },
-  { cat: 'Généralistes & Internationales', channels: ['Chaînes françaises HD/4K', 'Chaînes européennes 4K', 'Chaînes arabes 4K', 'Chaînes américaines 4K'] },
+  { cat: 'Deportes', channels: ['DAZN 4K', 'Movistar+ Deportes 4K', 'Eurosport 4K', 'LaLiga TV 4K'] },
+  { cat: 'Cine & Series', channels: ['Movistar+ Cine 4K', 'Canal+ 4K', 'Canales UHD Premium', 'VOD 4K VivaceTV'] },
+  { cat: 'Generalistas & Internacionales', channels: ['Canales españoles HD/4K', 'Canales europeos 4K', 'Canales árabes 4K', 'Canales americanos 4K'] },
 ];
 
 const comparisonRows = [
-  { critere: 'Prix mensuel', iptv: 'Dès 3,75€/mois', cable: '~25-40€/mois', satellite: '~30-50€/mois' },
-  { critere: 'Installation', iptv: 'Immédiate (5 min)', cable: 'Technicien requis', satellite: 'Technicien + parabole' },
-  { critere: 'Contenu 4K', iptv: '+22 000 chaînes + 8K', cable: 'Limité (quelques chaînes)', satellite: 'Limité (quelques chaînes)' },
-  { critere: 'Engagement', iptv: 'Sans engagement', cable: '12-24 mois', satellite: '12-24 mois' },
-  { critere: 'Multi-appareils', iptv: true, cable: false, satellite: false },
-  { critere: 'VOD incluse', iptv: '+160 000 contenus', cable: 'Option payante', satellite: 'Option payante' },
+  { critere: 'Precio mensual', iptv: 'Desde 3,75€/mes', cable: '~25-40€/mes', satellite: '~30-50€/mes' },
+  { critere: 'Instalación', iptv: 'Inmediata (5 min)', cable: 'Técnico requerido', satellite: 'Técnico + antena' },
+  { critere: 'Contenido 4K', iptv: '+22 000 canales + 8K', cable: 'Limitado (algunos canales)', satellite: 'Limitado (algunos canales)' },
+  { critere: 'Compromiso', iptv: 'Sin compromiso', cable: '12-24 meses', satellite: '12-24 meses' },
+  { critere: 'Multi-dispositivos', iptv: true, cable: false, satellite: false },
+  { critere: 'VOD incluida', iptv: '+160 000 contenidos', cable: 'Opción de pago', satellite: 'Opción de pago' },
 ];
 
 const plans = [
-  { name: 'Bronze', duration: '3 mois', price: '22,99€', href: '/commander/bronze' },
-  { name: 'Silver', duration: '6 mois', price: '34,99€', href: '/commander/silver' },
-  { name: 'Gold', duration: '12 mois', price: '44,99€', href: '/commander/gold', popular: true },
-  { name: 'Diamond', duration: '24 mois', price: '74,99€', href: '/commander/diamond' },
+  { name: 'Bronze', duration: '3 meses', price: '22,99€', href: '/commander/bronze' },
+  { name: 'Silver', duration: '6 meses', price: '34,99€', href: '/commander/silver' },
+  { name: 'Gold', duration: '12 meses', price: '44,99€', href: '/commander/gold', popular: true },
+  { name: 'Diamond', duration: '24 meses', price: '74,99€', href: '/commander/diamond' },
 ];
 
 export default function IPTV4KPage() {
@@ -129,8 +129,8 @@ export default function IPTV4KPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'IPTV 4K France', href: '/iptv-4k' },
+          { name: 'Inicio', href: '/' },
+          { name: 'IPTV 4K España', href: '/iptv-4k' },
         ]}
       />
       <Header />
@@ -138,60 +138,59 @@ export default function IPTV4KPage() {
       <main id="main-content">
         <PageHero
           label="IPTV 4K & 8K"
-          title="IPTV 4K en France —"
-          titleHighlight="Qualité Cinéma sur Tous Vos Appareils"
-          subtitle="VivaceTV propose des chaînes en HD, 4K et 8K pour une expérience télévisuelle sans compromis. Compatible avec tous les appareils 4K du marché."
+          title="IPTV 4K en España —"
+          titleHighlight="Calidad Cine en Todos Tus Dispositivos"
+          subtitle="VivaceTV ofrece canales en HD, 4K y 8K para una experiencia televisiva sin compromisos. Compatible con todos los dispositivos 4K del mercado."
         />
 
-        {/* Section 1 — Qu'est-ce que l'IPTV 4K */}
+        {/* Section 1 — Qué es el IPTV 4K */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Qu&apos;est-ce que l&apos;IPTV 4K ?
+              ¿Qué es el IPTV 4K?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              L&apos;IPTV 4K désigne la diffusion de chaînes de télévision et de contenus vidéo
-              en résolution Ultra HD (UHD) via internet. La résolution 4K correspond à
-              3840×2160 pixels, soit quatre fois plus de détails qu&apos;une image Full HD
-              (1920×1080). Le résultat : des images d&apos;une netteté exceptionnelle, des couleurs
-              plus riches grâce au HDR, et une profondeur visuelle proche de l&apos;expérience
-              cinéma.
+              El IPTV 4K designa la emisión de canales de televisión y contenidos de vídeo en
+              resolución Ultra HD (UHD) mediante internet. La resolución 4K corresponde a
+              3840×2160 píxeles, es decir cuatro veces más detalle que una imagen Full HD
+              (1920×1080). El resultado: imágenes de una nitidez excepcional, colores más ricos
+              gracias al HDR, y una profundidad visual cercana a la experiencia de cine.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Par rapport à la HD classique (720p ou 1080p), la 4K offre un niveau de détail
-              incomparable sur les grands écrans. Les textures, les visages et les paysages
-              apparaissent avec une précision impressionnante. Sur un écran de 55 pouces et plus,
-              la différence est immédiatement perceptible.
+              Comparado con el HD clásico (720p o 1080p), el 4K ofrece un nivel de detalle
+              incomparable en las pantallas grandes. Las texturas, los rostros y los paisajes
+              aparecen con una precisión impresionante. En una pantalla de 55 pulgadas y más,
+              la diferencia es inmediatamente perceptible.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV va encore plus loin en proposant des flux en{' '}
-              <strong style={{ color: 'var(--color-ink)' }}>8K (7680×4320 pixels)</strong> — la
-              résolution la plus haute disponible, idéale pour les écrans de 65 pouces et plus.
-              Tous nos abonnements (Bronze, Silver, Gold, Diamond) incluent l&apos;accès aux
-              chaînes HD, 4K et 8K sans surcoût. Découvrez notre{' '}
+              VivaceTV va incluso más lejos ofreciendo flujos en{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>8K (7680×4320 píxeles)</strong> — la
+              resolución más alta disponible, ideal para pantallas de 65 pulgadas y más. Todas
+              nuestras suscripciones (Bronze, Silver, Gold, Diamond) incluyen el acceso a los
+              canales HD, 4K y 8K sin coste adicional. Descubre nuestra{' '}
               <Link
-                href="/abonnements/premium"
+                href="/comprar-iptv/premium"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                offre premium
+                oferta premium
               </Link>{' '}
-              pour la meilleure expérience 4K/8K.
+              para la mejor experiencia 4K/8K.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Appareils compatibles */}
+        {/* Section 2 — Dispositivos compatibles */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Quels Appareils Supportent l&apos;IPTV 4K ?
+              ¿Qué Dispositivos Soportan el IPTV 4K?
             </h2>
             <div className="flex flex-col gap-4">
               {devices.map((d, idx) => (
@@ -226,40 +225,40 @@ export default function IPTV4KPage() {
               ))}
             </div>
             <p className="mt-6 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-              Pour le détail de la configuration sur chaque appareil, consultez notre{' '}
+              Para el detalle de la configuración en cada dispositivo, consulta nuestra{' '}
               <Link
-                href="/meilleure-application-iptv"
+                href="/mejor-app-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                guide des meilleures applications IPTV
+                guía de las mejores aplicaciones IPTV
               </Link>{' '}
-              et notre{' '}
+              y nuestra{' '}
               <Link
-                href="/guide-iptv/installation-iptv"
+                href="/guia-iptv/installation-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                guide d&apos;installation complet
+                guía de instalación completa
               </Link>.
             </p>
           </div>
         </section>
 
-        {/* Section 3 — Connexion internet */}
+        {/* Section 3 — Conexión a internet */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Quelle Connexion Internet pour l&apos;IPTV 4K ?
+              ¿Qué Conexión a Internet se Necesita para el IPTV 4K?
             </h2>
             <div className="overflow-x-auto rounded-xl mb-6" style={{ border: '1px solid var(--color-border)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Qualité', 'Débit minimal', 'Type de connexion'].map((h) => (
+                    {['Calidad', 'Velocidad mínima', 'Tipo de conexión'].map((h) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
@@ -310,14 +309,14 @@ export default function IPTV4KPage() {
               }}
             >
               <p className="text-sm font-semibold mb-2" style={{ color: 'var(--color-ink)' }}>
-                Conseils pour optimiser votre connexion IPTV 4K :
+                Consejos para optimizar tu conexión IPTV 4K:
               </p>
               <ul className="flex flex-col gap-1">
                 {[
-                  'Utilisez la bande 5 GHz de votre Wi-Fi plutôt que la 2,4 GHz pour moins d\'interférences',
-                  'Rapprochez votre appareil du routeur ou utilisez un câble Ethernet pour une stabilité maximale',
-                  'Évitez les téléchargements en parallèle lors du visionnage en 4K',
-                  'Redémarrez votre routeur régulièrement pour maintenir des performances optimales',
+                  'Usa la banda de 5 GHz de tu Wi-Fi en lugar de la 2,4 GHz para menos interferencias',
+                  'Acerca tu dispositivo al router o usa un cable Ethernet para máxima estabilidad',
+                  'Evita las descargas en paralelo durante el visionado en 4K',
+                  'Reinicia tu router regularmente para mantener un rendimiento óptimo',
                 ].map((tip) => (
                   <li key={tip} className="flex items-start gap-2 text-sm" style={{ color: 'var(--color-ink-light)' }}>
                     <Check size={14} className="mt-0.5 flex-shrink-0" style={{ color: 'var(--color-lime)' }} />
@@ -329,14 +328,14 @@ export default function IPTV4KPage() {
           </div>
         </section>
 
-        {/* Section 4 — Chaînes 4K disponibles */}
+        {/* Section 4 — Canales 4K disponibles */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Les Chaînes 4K Disponibles avec VivaceTV
+              Los Canales 4K Disponibles con VivaceTV
             </h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {channels4K.map((cat) => (
@@ -374,34 +373,34 @@ export default function IPTV4KPage() {
               ))}
             </div>
             <p className="mt-6 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-              Le catalogue de chaînes 4K est mis à jour régulièrement. Notre équipe ajoute
-              constamment de nouvelles chaînes Ultra HD pour enrichir votre expérience. Le
-              catalogue complet est disponible sur notre{' '}
+              El catálogo de canales 4K se actualiza regularmente. Nuestro equipo añade
+              constantemente nuevos canales Ultra HD para enriquecer tu experiencia. El
+              catálogo completo está disponible en nuestra{' '}
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                page abonnements
+                página de suscripciones
               </Link>.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — IPTV vs câble vs satellite */}
+        {/* Section 5 — IPTV vs cable vs satélite */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              IPTV 4K vs Câble 4K vs Satellite 4K — Comparaison
+              IPTV 4K vs Cable 4K vs Satélite 4K — Comparación
             </h2>
             <div className="overflow-x-auto rounded-xl" style={{ border: '1px solid var(--color-border)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Critère', 'IPTV VivaceTV', 'Câble (Freebox/SFR)', 'Satellite (Canal+)'].map((h, i) => (
+                    {['Criterio', 'IPTV VivaceTV', 'Cable (Movistar/Vodafone)', 'Satélite (Astra)'].map((h, i) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
@@ -445,34 +444,34 @@ export default function IPTV4KPage() {
               </table>
             </div>
             <p className="mt-4 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-              L&apos;IPTV s&apos;impose comme la solution la plus flexible et la plus économique
-              pour accéder au 4K. Sans installation technique, sans engagement et à un prix
-              bien inférieur aux offres câble et satellite, VivaceTV offre un catalogue 4K bien
-              plus riche. Comparez nos offres avec le{' '}
+              El IPTV se impone como la solución más flexible y económica para acceder al 4K. Sin
+              instalación técnica, sin compromiso y a un precio muy inferior a las ofertas de cable
+              y satélite, VivaceTV ofrece un catálogo 4K mucho más rico. Compara nuestras ofertas
+              con el{' '}
               <Link
-                href="/meilleur-iptv"
+                href="/mejor-iptv-espana"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                comparatif des meilleurs IPTV France
+                comparativa de los mejores IPTV España
               </Link>.
             </p>
           </div>
         </section>
 
-        {/* Section 6 — Commander */}
+        {/* Section 6 — Comprar */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-4"
               style={{ color: 'var(--color-ink)' }}
             >
-              Commander Votre Abonnement IPTV 4K
+              Comprar tu Suscripción IPTV 4K
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Tous nos abonnements incluent l&apos;accès aux chaînes HD, 4K et 8K. Choisissez
-              la durée qui vous convient le mieux. Plus l&apos;abonnement est long, meilleur est
-              le rapport qualité/prix.
+              Todas nuestras suscripciones incluyen el acceso a los canales HD, 4K y 8K. Elige
+              la duración que más te convenga. Cuanto más larga es la suscripción, mejor es la
+              relación calidad/precio.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {plans.map((plan) => (
@@ -494,7 +493,7 @@ export default function IPTV4KPage() {
                         color: 'var(--color-dark)',
                       }}
                     >
-                      POPULAIRE
+                      POPULAR
                     </span>
                   )}
                   <p
@@ -521,13 +520,13 @@ export default function IPTV4KPage() {
                       border: '1px solid var(--color-border)',
                     }}
                   >
-                    Commander
+                    Comprar
                   </Link>
                 </div>
               ))}
             </div>
             <p className="mt-6 text-sm text-center" style={{ color: 'var(--color-ink-light)' }}>
-              Tous les plans incluent : +22 000 chaînes · HD/4K/8K · AntiFreeze 10.0 · Support WhatsApp 24/7 · Essai gratuit 24h disponible
+              Todos los planes incluyen: +22 000 canales · HD/4K/8K · AntiFreeze 10.0 · Soporte WhatsApp 24/7 · Prueba gratuita 24h disponible
             </p>
           </div>
         </section>
@@ -539,7 +538,7 @@ export default function IPTV4KPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — IPTV 4K
+              Preguntas Frecuentes — IPTV 4K
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -567,11 +566,11 @@ export default function IPTV4KPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements/premium', label: 'Offre Premium 4K/8K' },
-                { href: '/meilleure-application-iptv', label: 'Meilleures apps IPTV' },
-                { href: '/guide-iptv/installation-iptv', label: 'Guide installation' },
-                { href: '/abonnements', label: 'Tous les abonnements' },
-                { href: '/meilleur-iptv', label: 'Comparatif IPTV France' },
+                { href: '/comprar-iptv/premium', label: 'Oferta Premium 4K/8K' },
+                { href: '/mejor-app-iptv', label: 'Mejores apps IPTV' },
+                { href: '/guia-iptv/installation-iptv', label: 'Guía instalación' },
+                { href: '/comprar-iptv', label: 'Todas las suscripciones' },
+                { href: '/mejor-iptv-espana', label: 'Comparativa IPTV España' },
               ].map((l) => (
                 <Link
                   key={l.href}

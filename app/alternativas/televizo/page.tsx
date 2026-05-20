@@ -10,89 +10,89 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Televizo IPTV Avis 2026 — App ou Abonnement ? | VivaceTV',
+  title: 'Televizo IPTV Opiniones 2026 — ¿App o Suscripción? | VivaceTV',
   description:
-    "Televizo est une application IPTV, pas un fournisseur d'abonnement. Découvrez comment l'utiliser avec VivaceTV pour la meilleure expérience IPTV France.",
+    'Televizo es una aplicación IPTV, no un proveedor de suscripción. Descubre cómo usarla con VivaceTV para la mejor experiencia IPTV España.',
   keywords: [
     'televizo iptv',
-    'televizo application iptv',
-    'televizo abonnement',
+    'televizo aplicación iptv',
+    'televizo suscripción',
     'televizo vivacetv',
-    'meilleur abonnement pour televizo',
+    'mejor suscripción para televizo',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/televizo` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/televizo` },
   openGraph: {
-    title: 'Televizo IPTV Avis 2026 — App ou Abonnement ? | VivaceTV',
+    title: 'Televizo IPTV Opiniones 2026 — ¿App o Suscripción? | VivaceTV',
     description:
-      "Televizo est un lecteur IPTV Android gratuit. Découvrez comment le configurer avec VivaceTV pour une expérience IPTV France optimale.",
-    url: `${siteConfig.url}/alternatives/televizo`,
+      'Televizo es un reproductor IPTV Android gratuito. Descubre cómo configurarlo con VivaceTV para una experiencia IPTV España óptima.',
+    url: `${siteConfig.url}/alternativas/televizo`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Televizo IPTV est-il gratuit ?',
+    question: '¿Televizo IPTV es gratuito?',
     answer:
-      "L'application Televizo est disponible gratuitement sur Android. Elle nécessite cependant un abonnement IPTV actif pour fonctionner. Televizo est uniquement un lecteur multimédia — il ne fournit pas de chaînes par lui-même.",
+      'La aplicación Televizo está disponible gratuitamente en Android. Sin embargo, requiere una suscripción IPTV activa para funcionar. Televizo es únicamente un reproductor multimedia — no proporciona canales por sí misma.',
   },
   {
-    question: "Comment configurer VivaceTV avec l'application Televizo ?",
+    question: '¿Cómo configurar VivaceTV con la aplicación Televizo?',
     answer:
-      "Après avoir souscrit votre abonnement VivaceTV, vous recevez vos identifiants Xtream Codes ou votre URL M3U via WhatsApp. Dans Televizo, allez dans 'Ajouter une liste' et entrez l'URL M3U fournie. Votre liste de chaînes VivaceTV s'importera automatiquement.",
+      "Después de suscribirte a VivaceTV, recibes tus credenciales Xtream Codes o tu URL M3U por WhatsApp. En Televizo, ve a 'Añadir lista' e introduce la URL M3U proporcionada. Tu lista de canales VivaceTV se importará automáticamente.",
   },
   {
-    question: "Televizo est-il meilleur que TiviMate pour l'IPTV ?",
+    question: '¿Televizo es mejor que TiviMate para IPTV?',
     answer:
-      "TiviMate reste l'application de référence pour Android TV, notamment pour son interface EPG avancée. Televizo est une bonne alternative gratuite, particulièrement sur les appareils Android mobiles. Les deux sont entièrement compatibles avec VivaceTV.",
+      'TiviMate sigue siendo la aplicación de referencia para Android TV, especialmente por su avanzada interfaz EPG. Televizo es una buena alternativa gratuita, particularmente en dispositivos Android móviles. Ambas son totalmente compatibles con VivaceTV.',
   },
   {
-    question: 'Quel abonnement IPTV utiliser avec Televizo ?',
+    question: '¿Qué suscripción IPTV usar con Televizo?',
     answer:
-      "VivaceTV est compatible à 100% avec Televizo. Notre abonnement fournit une URL M3U ou des identifiants Xtream Codes directement utilisables dans l'application. Avec notre technologie AntiFreeze 10.0, vous profiterez d'une lecture sans coupure.",
+      'VivaceTV es 100% compatible con Televizo. Nuestra suscripción proporciona una URL M3U o credenciales Xtream Codes directamente utilizables en la aplicación. Con nuestra tecnología AntiFreeze 10.0, disfrutarás de una reproducción sin cortes.',
   },
 ];
 
 const configSteps = [
   {
     step: 1,
-    title: 'Souscrire un abonnement VivaceTV',
+    title: 'Suscribirte a VivaceTV',
     description:
-      "Contactez VivaceTV via WhatsApp pour demander votre essai gratuit 24h ou choisissez directement votre offre (Bronze, Silver, Gold ou Diamond). Vos identifiants vous seront communiqués en moins d'une heure.",
+      'Contacta con VivaceTV por WhatsApp para solicitar tu prueba gratuita de 24h o elige directamente tu plan (Bronze, Silver, Gold o Diamond). Tus credenciales te serán comunicadas en menos de una hora.',
   },
   {
     step: 2,
-    title: 'Télécharger Televizo sur votre appareil Android',
+    title: 'Descargar Televizo en tu dispositivo Android',
     description:
-      "Rendez-vous sur le Google Play Store ou l'Amazon Appstore et installez l'application Televizo IPTV Player gratuitement. L'application est disponible sur tous les appareils Android, y compris les Fire TV Stick.",
+      'Ve a Google Play Store o Amazon Appstore e instala la aplicación Televizo IPTV Player gratuitamente. La aplicación está disponible en todos los dispositivos Android, incluidos los Fire TV Stick.',
   },
   {
     step: 3,
-    title: "Ouvrir Televizo et accéder à 'Mes listes'",
+    title: "Abrir Televizo y acceder a 'Mis listas'",
     description:
-      "Lancez l'application Televizo. Sur l'écran d'accueil, appuyez sur 'Mes listes' puis sur le bouton '+' pour ajouter une nouvelle liste IPTV.",
+      "Lanza la aplicación Televizo. En la pantalla de inicio, pulsa en 'Mis listas' y luego en el botón '+' para añadir una nueva lista IPTV.",
   },
   {
     step: 4,
-    title: "Entrer votre URL M3U ou identifiants Xtream Codes VivaceTV",
+    title: 'Introducir tu URL M3U o credenciales Xtream Codes de VivaceTV',
     description:
-      "VivaceTV fournit deux formats : une URL M3U à coller directement, ou des identifiants Xtream Codes (serveur, nom d'utilisateur, mot de passe). Choisissez le format qui vous convient et saisissez les informations reçues via WhatsApp.",
+      "VivaceTV proporciona dos formatos: una URL M3U para pegar directamente, o credenciales Xtream Codes (servidor, nombre de usuario, contraseña). Elige el formato que prefieras e introduce la información recibida por WhatsApp.",
   },
   {
     step: 5,
-    title: 'Charger votre liste de chaînes et profiter',
+    title: 'Cargar tu lista de canales y disfrutar',
     description:
-      "Validez la configuration. Televizo va importer automatiquement toutes vos chaînes VivaceTV (+22 000 chaînes). Une fois chargé, vous pouvez naviguer dans le catalogue, utiliser le guide TV (EPG) et regarder en HD, 4K ou 8K.",
+      'Valida la configuración. Televizo importará automáticamente todos tus canales VivaceTV (+22.000 canales). Una vez cargado, puedes navegar por el catálogo, usar la guía de TV (EPG) y ver en HD, 4K o 8K.',
   },
 ];
 
 const vivacetvAdvantages = [
-  'URL M3U et identifiants Xtream Codes fournis instantanément via WhatsApp',
-  '+22 000 chaînes françaises et internationales, parfaitement compatibles Televizo',
-  'Guide EPG (programme TV) fourni automatiquement pour tous vos appareils',
-  'Technologie AntiFreeze 10.0 : lecture fluide sans coupure dans Televizo',
-  'Support WhatsApp 24/7 pour vous aider à configurer Televizo si besoin',
-  'Compatible avec toutes les versions de Televizo sur Android mobile et TV',
+  'URL M3U y credenciales Xtream Codes proporcionados instantáneamente por WhatsApp',
+  '+22.000 canales españoles e internacionales, perfectamente compatibles con Televizo',
+  'Guía EPG (programa de TV) proporcionada automáticamente para todos tus dispositivos',
+  'Tecnología AntiFreeze 10.0: reproducción fluida sin cortes en Televizo',
+  'Soporte WhatsApp 24/7 para ayudarte a configurar Televizo si lo necesitas',
+  'Compatible con todas las versiones de Televizo en Android móvil y TV',
 ];
 
 export default function TelevizoIPTVPage() {
@@ -114,313 +114,154 @@ export default function TelevizoIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'Televizo', href: '/alternatives/televizo' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'Televizo', href: '/alternativas/televizo' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="APPLICATION IPTV"
+          label="APLICACIÓN IPTV"
           title="Televizo IPTV —"
-          titleHighlight="Application ou Abonnement ?"
-          subtitle="Televizo est un lecteur IPTV gratuit pour Android. Pour regarder des chaînes, il vous faut un abonnement IPTV — et VivaceTV est le meilleur choix."
+          titleHighlight="¿Aplicación o Suscripción?"
+          subtitle="Televizo es un reproductor IPTV gratuito para Android. Para ver canales, necesitas una suscripción IPTV — y VivaceTV es la mejor opción."
         />
 
-        {/* Section 1 — Qu'est-ce que Televizo */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Qu&apos;est-ce que Televizo IPTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Qué es Televizo IPTV?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Televizo IPTV est une <strong style={{ color: 'var(--color-ink)' }}>application lecteur IPTV</strong> disponible
-              gratuitement sur Android (Google Play Store et Amazon Appstore). Elle permet de lire
-              des flux IPTV depuis n&apos;importe quelle liste de chaînes au format M3U ou via des
-              identifiants Xtream Codes.
+              Televizo IPTV es una <strong style={{ color: 'var(--color-ink)' }}>aplicación reproductora de IPTV</strong> disponible gratuitamente en Android (Google Play Store y Amazon Appstore). Permite reproducir streams IPTV desde cualquier lista de canales en formato M3U o mediante credenciales Xtream Codes.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Televizo est souvent comparée à TiviMate IPTV Player, une autre application populaire
-              dans l&apos;univers de l&apos;IPTV. Toutes deux sont des <em>lecteurs</em> — elles ne
-              fournissent aucune chaîne par elles-mêmes. Pour regarder des chaînes de télévision
-              via Televizo, vous avez impérativement besoin d&apos;un abonnement IPTV actif auprès
-              d&apos;un fournisseur comme VivaceTV.
+              Televizo se compara frecuentemente con TiviMate IPTV Player, otra aplicación popular en el mundo del IPTV. Ambas son <em>reproductores</em> — no proporcionan ningún canal por sí mismas. Para ver canales de televisión mediante Televizo, es imprescindible contar con una suscripción IPTV activa de un proveedor como VivaceTV.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Ses fonctionnalités principales incluent la lecture de flux en HD, 4K et 8K, un guide
-              de programmes (EPG) intégré, la gestion de plusieurs listes IPTV, et une interface
-              adaptée aux appareils Android mobiles et tablettes.
+              Sus funcionalidades principales incluyen la reproducción de streams en HD, 4K y 8K, una guía de programas (EPG) integrada, la gestión de varias listas IPTV, y una interfaz adaptada a dispositivos Android móviles y tablets.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — App vs Abonnement */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Televizo est une Application, Pas un Abonnement IPTV
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>Televizo es una Aplicación, No una Suscripción IPTV</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              C&apos;est le point essentiel à comprendre : <strong style={{ color: 'var(--color-ink)' }}>Televizo ne fournit
-              aucune chaîne de télévision</strong>. C&apos;est uniquement un lecteur multimédia, comme
-              VLC sur ordinateur. L&apos;application lit les flux que vous lui fournissez via une URL
-              M3U ou des identifiants Xtream Codes.
+              Este es el punto esencial que hay que entender: <strong style={{ color: 'var(--color-ink)' }}>Televizo no proporciona ningún canal de televisión</strong>. Es únicamente un reproductor multimedia, como VLC en el ordenador. La aplicación reproduce los streams que le proporcionas mediante una URL M3U o credenciales Xtream Codes.
             </p>
-            <div
-              style={{
-                backgroundColor: 'var(--color-card)',
-                border: '2px solid var(--color-lime)',
-                borderRadius: 12,
-                padding: 20,
-                marginBottom: 24,
-              }}
-            >
-              <p className="text-sm font-semibold mb-1" style={{ color: 'var(--color-ink)' }}>
-                En résumé : comment fonctionne Televizo ?
-              </p>
+            <div style={{ backgroundColor: 'var(--color-card)', border: '2px solid var(--color-lime)', borderRadius: 12, padding: 20, marginBottom: 24 }}>
+              <p className="text-sm font-semibold mb-1" style={{ color: 'var(--color-ink)' }}>En resumen: ¿cómo funciona Televizo?</p>
               <p className="text-sm" style={{ color: 'var(--color-ink-light)' }}>
-                <strong style={{ color: 'var(--color-lime)' }}>Televizo (gratuit)</strong> +
-                <strong style={{ color: 'var(--color-lime)' }}> VivaceTV (abonnement)</strong> =
-                accès à +22 000 chaînes en HD/4K/8K sur votre appareil Android.
+                <strong style={{ color: 'var(--color-lime)' }}>Televizo (gratuito)</strong> +
+                <strong style={{ color: 'var(--color-lime)' }}> VivaceTV (suscripción)</strong> =
+                acceso a +22.000 canales en HD/4K/8K en tu dispositivo Android.
               </p>
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Pour profiter de Televizo, vous devez donc souscrire un abonnement IPTV auprès d&apos;un
-              fournisseur de confiance. VivaceTV est 100% compatible avec Televizo et fournit
-              l&apos;URL M3U ou les identifiants Xtream Codes nécessaires à la configuration de
-              l&apos;application en quelques minutes.
+              Para disfrutar de Televizo, debes suscribirte a un proveedor IPTV de confianza. VivaceTV es 100% compatible con Televizo y proporciona la URL M3U o las credenciales Xtream Codes necesarias para configurar la aplicación en pocos minutos.
             </p>
           </div>
         </section>
 
-        {/* Section 3 — Pourquoi VivaceTV avec Televizo */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Pourquoi VivaceTV est le Meilleur Abonnement pour Televizo ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Por qué VivaceTV es la Mejor Suscripción para Televizo?</h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Pour tirer le meilleur parti de l&apos;application Televizo, il vous faut un abonnement
-              IPTV de qualité. VivaceTV est le partenaire idéal pour plusieurs raisons :
+              Para sacar el máximo partido de la aplicación Televizo, necesitas una suscripción IPTV de calidad. VivaceTV es el socio ideal por varias razones:
             </p>
             <ul className="flex flex-col gap-4 mb-8">
               {vivacetvAdvantages.map((advantage, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <Check
-                    size={20}
-                    style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }}
-                  />
-                  <span className="text-base" style={{ color: 'var(--color-ink)' }}>
-                    {advantage}
-                  </span>
+                  <Check size={20} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
+                  <span className="text-base" style={{ color: 'var(--color-ink)' }}>{advantage}</span>
                 </li>
               ))}
             </ul>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              VivaceTV propose également un <strong style={{ color: 'var(--color-ink)' }}>essai gratuit de 24 heures</strong> sur
-              simple demande via WhatsApp. C&apos;est l&apos;occasion idéale pour tester la compatibilité
-              avec Televizo sur votre appareil avant de souscrire un abonnement.
+              VivaceTV también ofrece una <strong style={{ color: 'var(--color-ink)' }}>prueba gratuita de 24 horas</strong> bajo simple solicitud por WhatsApp. Es la ocasión ideal para probar la compatibilidad con Televizo en tu dispositivo antes de suscribirte.
             </p>
           </div>
         </section>
 
-        {/* Section 4 — Guide de configuration */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Guide de Configuration : Televizo + VivaceTV
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Guía de Configuración: Televizo + VivaceTV</h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Configurer VivaceTV dans l&apos;application Televizo est simple et rapide. Suivez ces
-              5 étapes pour accéder à +22 000 chaînes en quelques minutes :
+              Configurar VivaceTV en la aplicación Televizo es sencillo y rápido. Sigue estos 5 pasos para acceder a +22.000 canales en pocos minutos:
             </p>
             <div className="flex flex-col gap-6">
               {configSteps.map((item) => (
-                <div
-                  key={item.step}
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: 12,
-                    padding: 20,
-                  }}
-                >
+                <div key={item.step} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
                   <div className="flex items-start gap-4">
-                    <span
-                      style={{
-                        backgroundColor: 'var(--color-lime)',
-                        color: 'var(--color-dark)',
-                        borderRadius: 999,
-                        width: 36,
-                        height: 36,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        fontWeight: 700,
-                        fontSize: 16,
-                        flexShrink: 0,
-                      }}
-                    >
-                      {item.step}
-                    </span>
+                    <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 16, flexShrink: 0 }}>{item.step}</span>
                     <div>
-                      <h3
-                        className="font-display font-bold text-base mb-2"
-                        style={{ color: 'var(--color-ink)' }}
-                      >
-                        {item.title}
-                      </h3>
-                      <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                        {item.description}
-                      </p>
+                      <h3 className="font-display font-bold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.title}</h3>
+                      <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.description}</p>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Link
-                href="/abonnements"
-                className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
-              >
-                Obtenir mon abonnement VivaceTV →
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+                Obtener mi suscripción VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 5 — Televizo vs TiviMate */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Televizo vs TiviMate : Quelle Application Choisir ?
-            </h2>
-            <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Televizo et TiviMate sont les deux applications IPTV les plus utilisées sur Android.
-              Voici leurs principales différences :
-            </p>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>Televizo vs TiviMate: ¿Qué Aplicación Elegir?</h2>
+            <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>Televizo y TiviMate son las dos aplicaciones IPTV más usadas en Android. Estas son sus principales diferencias:</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3
-                  className="font-display font-bold text-base mb-3"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  Televizo
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-base mb-3" style={{ color: 'var(--color-ink)' }}>Televizo</h3>
                 <ul className="flex flex-col gap-2 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-                  <li>✅ Gratuit sur Google Play</li>
-                  <li>✅ Idéal sur Android mobile et tablette</li>
-                  <li>✅ Interface simple et intuitive</li>
-                  <li>✅ Compatible M3U et Xtream Codes</li>
-                  <li>⚠️ Fonctionnalités EPG limitées vs TiviMate</li>
+                  <li>✅ Gratuita en Google Play</li>
+                  <li>✅ Ideal en Android móvil y tablet</li>
+                  <li>✅ Interfaz simple e intuitiva</li>
+                  <li>✅ Compatible M3U y Xtream Codes</li>
+                  <li>⚠️ Funcionalidades EPG limitadas frente a TiviMate</li>
                 </ul>
               </div>
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3
-                  className="font-display font-bold text-base mb-3"
-                  style={{ color: 'var(--color-ink)' }}
-                >
-                  TiviMate
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-base mb-3" style={{ color: 'var(--color-ink)' }}>TiviMate</h3>
                 <ul className="flex flex-col gap-2 text-sm" style={{ color: 'var(--color-ink-light)' }}>
-                  <li>✅ Référence sur Android TV et Fire TV</li>
-                  <li>✅ Guide TV (EPG) très avancé</li>
-                  <li>✅ Interface premium sur grand écran</li>
-                  <li>⚠️ Version premium payante (~5€/an)</li>
-                  <li>⚠️ Moins adapté aux appareils mobiles</li>
+                  <li>✅ Referencia en Android TV y Fire TV</li>
+                  <li>✅ Guía de TV (EPG) muy avanzada</li>
+                  <li>✅ Interfaz premium en pantalla grande</li>
+                  <li>⚠️ Versión premium de pago (~5€/año)</li>
+                  <li>⚠️ Menos adaptada a dispositivos móviles</li>
                 </ul>
               </div>
             </div>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              <strong style={{ color: 'var(--color-ink)' }}>Bonne nouvelle :</strong> VivaceTV est
-              entièrement compatible avec les deux applications. Que vous utilisiez Televizo sur
-              votre téléphone Android ou TiviMate sur votre Android TV, vos identifiants VivaceTV
-              fonctionneront parfaitement sur les deux plateformes.
+              <strong style={{ color: 'var(--color-ink)' }}>Buenas noticias:</strong> VivaceTV es totalmente compatible con ambas aplicaciones. Ya uses Televizo en tu teléfono Android o TiviMate en tu Android TV, tus credenciales VivaceTV funcionarán perfectamente en ambas plataformas.
             </p>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Questions Fréquentes — Televizo et VivaceTV
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Preguntas Frecuentes — Televizo y VivaceTV</h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
-                <div
-                  key={item.question}
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: 12,
-                    padding: 20,
-                  }}
-                >
-                  <h3
-                    className="font-semibold text-base mb-2"
-                    style={{ color: 'var(--color-ink)' }}
-                  >
-                    {item.question}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                    {item.answer}
-                  </p>
+                <div key={item.question} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.question}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.answer}</p>
                 </div>
               ))}
             </div>
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className="text-sm px-4 py-2 rounded-lg font-medium"
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    color: 'var(--color-ink)',
-                    border: '1px solid var(--color-border)',
-                  }}
-                >
+                <Link key={l.href} href={l.href} className="text-sm px-4 py-2 rounded-lg font-medium" style={{ backgroundColor: 'var(--color-card)', color: 'var(--color-ink)', border: '1px solid var(--color-border)' }}>
                   {l.label} →
                 </Link>
               ))}
@@ -430,7 +271,6 @@ export default function TelevizoIPTVPage() {
 
         <FinalCTA />
       </main>
-
       <Footer />
     </>
   );

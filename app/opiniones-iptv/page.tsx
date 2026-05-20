@@ -10,120 +10,120 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Avis VivaceTV 2026 — Témoignages Clients & Notes Vérifiées | IPTV France',
+  title: 'Opiniones VivaceTV 2026 — Testimonios Clientes y Notas Verificadas | IPTV España',
   description:
-    "Lisez les vrais avis VivaceTV de nos clients satisfaits. Notes vérifiées, témoignages WhatsApp, retours d'expérience sur la qualité IPTV France. 4,8/5 en moyenne.",
+    'Lee las opiniones reales de VivaceTV de nuestros clientes satisfechos. Notas verificadas, testimonios WhatsApp, experiencias sobre la calidad IPTV España. 4,8/5 de media.',
   keywords: [
-    'avis VivaceTV',
-    'avis IPTV France',
-    'témoignages IPTV',
-    'VivaceTV avis clients',
+    'opiniones VivaceTV',
+    'opiniones IPTV España',
+    'testimonios IPTV',
+    'VivaceTV opiniones clientes',
   ],
-  alternates: { canonical: `${siteConfig.url}/avis-iptv` },
+  alternates: { canonical: `${siteConfig.url}/opiniones-iptv` },
   openGraph: {
-    title: 'Avis VivaceTV 2026 — Témoignages Clients & Notes Vérifiées | IPTV France',
+    title: 'Opiniones VivaceTV 2026 — Testimonios Clientes y Notas Verificadas | IPTV España',
     description:
-      'Avis clients vérifiés VivaceTV : 4,8/5 sur plus de 500 avis. Témoignages réels sur la qualité IPTV France, stabilité, support et rapport qualité/prix.',
-    url: `${siteConfig.url}/avis-iptv`,
+      'Opiniones de clientes verificados VivaceTV: 4,8/5 sobre más de 500 opiniones. Testimonios reales sobre la calidad IPTV España, estabilidad, soporte y relación calidad/precio.',
+    url: `${siteConfig.url}/opiniones-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Les avis VivaceTV sont-ils vérifiés ?',
+    question: '¿Las opiniones de VivaceTV están verificadas?',
     answer:
-      "Oui. Tous les témoignages présentés proviennent de clients ayant souscrit un abonnement VivaceTV. Nous ne publions pas de faux avis et encourageons nos clients à partager leurs retours d'expérience honnêtes via WhatsApp ou directement sur notre site.",
+      'Sí. Todos los testimonios presentados provienen de clientes que han suscrito una suscripción VivaceTV. No publicamos opiniones falsas y animamos a nuestros clientes a compartir sus experiencias honestas por WhatsApp o directamente en nuestro sitio.',
   },
   {
-    question: 'Quelle est la note moyenne de VivaceTV ?',
+    question: '¿Cuál es la nota media de VivaceTV?',
     answer:
-      "VivaceTV obtient une note moyenne de 4,8/5 basée sur plus de 500 avis clients vérifiés. Les points les mieux notés sont la qualité vidéo (4,9/5) et le rapport qualité/prix (4,9/5).",
+      'VivaceTV obtiene una nota media de 4,8/5 basada en más de 500 opiniones de clientes verificados. Los puntos mejor valorados son la calidad de vídeo (4,9/5) y la relación calidad/precio (4,9/5).',
   },
   {
-    question: 'Comment laisser un avis sur VivaceTV ?',
+    question: '¿Cómo dejar una opinión sobre VivaceTV?',
     answer:
-      "Vous pouvez partager votre expérience en contactant notre équipe via WhatsApp au +447476614523. Vos retours nous aident à améliorer constamment notre service.",
+      'Puedes compartir tu experiencia contactando con nuestro equipo por WhatsApp al +447476614523. Tus comentarios nos ayudan a mejorar constantemente nuestro servicio.',
   },
   {
-    question: 'VivaceTV propose-t-il un remboursement si je ne suis pas satisfait ?',
+    question: '¿VivaceTV ofrece un reembolso si no estoy satisfecho?',
     answer:
-      "Oui. VivaceTV s'engage à résoudre tout problème technique dans les plus brefs délais. Si votre problème ne peut pas être résolu, nous examinons chaque demande de remboursement individuellement. Notre priorité est votre satisfaction.",
+      'Sí. VivaceTV se compromete a resolver cualquier problema técnico en el menor tiempo posible. Si tu problema no puede resolverse, examinamos cada solicitud de reembolso individualmente. Nuestra prioridad es tu satisfacción.',
   },
 ];
 
 const testimonials = [
   {
-    name: 'Sophie L.',
+    name: 'Sofía L.',
     plan: 'Gold',
-    date: 'Il y a 3 semaines',
+    date: 'Hace 3 semanas',
     rating: 5,
-    text: "Abonnement au top ! Les chaînes 4K sont d'une clarté incroyable, aucune coupure en 6 mois d'utilisation. Le support WhatsApp répond en moins de 15 minutes. Je recommande à 100%.",
+    text: '¡Suscripción de primera! Los canales 4K son de una claridad increíble, ningún corte en 6 meses de uso. El soporte WhatsApp responde en menos de 15 minutos. Lo recomiendo al 100%.',
   },
   {
-    name: 'Marc T.',
+    name: 'Marcos T.',
     plan: 'Diamond',
-    date: 'Il y a 1 mois',
+    date: 'Hace 1 mes',
     rating: 5,
-    text: "Utilisation sur ma Smart TV Samsung et mon iPhone sans aucun problème. Les +22 000 chaînes incluent toutes les chaînes arabes dont j'avais besoin. Activation en moins d'1h.",
+    text: 'Uso en mi Smart TV Samsung y en mi iPhone sin ningún problema. Los +22 000 canales incluyen todos los canales árabes que necesitaba. Activación en menos de 1h.',
   },
   {
-    name: 'Fatima B.',
+    name: 'Fátima B.',
     plan: 'Silver',
-    date: 'Il y a 2 semaines',
+    date: 'Hace 2 semanas',
     rating: 5,
-    text: "J'hésitais à cause du prix mais le rapport qualité/prix est vraiment excellent. La qualité HD est parfaite, le catalogue de films est immense. Je renouvellerai sans hésiter.",
+    text: 'Dudaba por el precio pero la relación calidad/precio es realmente excelente. La calidad HD es perfecta, el catálogo de películas es enorme. Renovaré sin dudarlo.',
   },
   {
-    name: 'Pierre-Antoine M.',
+    name: 'Pedro A. M.',
     plan: 'Gold',
-    date: 'Il y a 2 mois',
+    date: 'Hace 2 meses',
     rating: 5,
-    text: "Service impeccable depuis 8 mois. Le test gratuit 24h m'a convaincu immédiatement. Aucun souci technique, l'équipe est très professionnelle.",
+    text: 'Servicio impecable desde hace 8 meses. La prueba gratuita de 24h me convenció de inmediato. Ningún problema técnico, el equipo es muy profesional.',
   },
   {
     name: 'Amina C.',
     plan: 'Bronze',
-    date: 'Il y a 1 semaine',
+    date: 'Hace 1 semana',
     rating: 4,
-    text: "Même avec l'offre Bronze, la qualité est au rendez-vous. Parfait pour commencer. Je vais passer à Gold pour le prochain renouvellement.",
+    text: 'Incluso con la oferta Bronze, la calidad está a la altura. Perfecto para empezar. Voy a pasar a Gold en la próxima renovación.',
   },
   {
-    name: 'Romain V.',
+    name: 'Román V.',
     plan: 'Gold',
-    date: 'Il y a 5 semaines',
+    date: 'Hace 5 semanas',
     rating: 5,
-    text: "Je venais d'un autre fournisseur avec beaucoup de coupures. Depuis VivaceTV, plus aucun problème. La technologie anti-freeze fait vraiment la différence.",
+    text: 'Venía de otro proveedor con muchos cortes. Desde VivaceTV, ningún problema. La tecnología anti-freeze marca realmente la diferencia.',
   },
   {
-    name: 'Isabelle F.',
+    name: 'Isabel F.',
     plan: 'Diamond',
-    date: 'Il y a 3 jours',
+    date: 'Hace 3 días',
     rating: 5,
-    text: "Abonnement Diamond pour toute la famille. Les chaînes sportives en 4K sont exceptionnelles. Support top, réponse immédiate via WhatsApp.",
+    text: 'Suscripción Diamond para toda la familia. Los canales deportivos en 4K son excepcionales. Soporte excelente, respuesta inmediata por WhatsApp.',
   },
   {
     name: 'Karim H.',
     plan: 'Silver',
-    date: 'Il y a 6 semaines',
+    date: 'Hace 6 semanas',
     rating: 5,
-    text: "Le meilleur abonnement IPTV que j'ai essayé. Qualité constante, catalogue mis à jour régulièrement. Très satisfait de mon Silver 6 mois.",
+    text: 'La mejor suscripción IPTV que he probado. Calidad constante, catálogo actualizado regularmente. Muy satisfecho con mi Silver de 6 meses.',
   },
 ];
 
 const satisfactionStats = [
-  { label: 'Qualité vidéo HD/4K/8K', pct: 94 },
-  { label: 'Stabilité et absence de coupures', pct: 91 },
-  { label: 'Réactivité du support WhatsApp', pct: 93 },
-  { label: 'Richesse du catalogue', pct: 89 },
-  { label: "Facilité d'installation", pct: 87 },
+  { label: 'Calidad de vídeo HD/4K/8K', pct: 94 },
+  { label: 'Estabilidad y ausencia de cortes', pct: 91 },
+  { label: 'Reactividad del soporte WhatsApp', pct: 93 },
+  { label: 'Riqueza del catálogo', pct: 89 },
+  { label: 'Facilidad de instalación', pct: 87 },
 ];
 
 const subRatings = [
-  { label: 'Qualité vidéo', value: '4,9' },
-  { label: 'Stabilité', value: '4,7' },
-  { label: 'Support client', value: '4,8' },
-  { label: 'Rapport qualité/prix', value: '4,9' },
+  { label: 'Calidad de vídeo', value: '4,9' },
+  { label: 'Estabilidad', value: '4,7' },
+  { label: 'Soporte al cliente', value: '4,8' },
+  { label: 'Relación calidad/precio', value: '4,9' },
 ];
 
 export default function AvisIPTVPage() {
@@ -145,28 +145,28 @@ export default function AvisIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Avis VivaceTV', href: '/avis-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Opiniones VivaceTV', href: '/opiniones-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="AVIS & TÉMOIGNAGES"
-          title="Avis"
-          titleHighlight="VivaceTV — Ce Que Pensent Nos Clients"
-          subtitle="Des centaines de clients nous font confiance. Découvrez leurs retours d'expérience honnêtes sur notre service IPTV France."
+          label="OPINIONES Y TESTIMONIOS"
+          title="Opiniones"
+          titleHighlight="VivaceTV — Lo Que Piensan Nuestros Clientes"
+          subtitle="Cientos de clientes nos confían su entretenimiento. Descubre sus experiencias honestas sobre nuestro servicio IPTV España."
         />
 
-        {/* Section 1 — Note globale */}
+        {/* Section 1 — Nota global */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Note Globale VivaceTV
+              Nota Global VivaceTV
             </h2>
 
             <div
@@ -184,7 +184,7 @@ export default function AvisIPTVPage() {
                   4,8
                 </p>
                 <p className="text-sm mt-1" style={{ color: 'var(--color-gray-400)' }}>
-                  sur 5
+                  sobre 5
                 </p>
                 <div className="flex gap-0.5 justify-center mt-2">
                   {Array.from({ length: 5 }).map((_, i) => (
@@ -218,21 +218,21 @@ export default function AvisIPTVPage() {
                   className="text-center text-xs mt-4"
                   style={{ color: 'var(--color-gray-600)' }}
                 >
-                  Basé sur plus de 500 avis clients vérifiés
+                  Basado en más de 500 opiniones de clientes verificados
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section 2 — Témoignages */}
+        {/* Section 2 — Testimonios */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Témoignages de Nos Clients
+              Testimonios de Nuestros Clientes
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {testimonials.map((t) => (
@@ -270,7 +270,7 @@ export default function AvisIPTVPage() {
                     className="font-semibold text-sm mt-3"
                     style={{ color: 'var(--color-ink)' }}
                   >
-                    {t.name} — Abonnement {t.plan}
+                    {t.name} — Plan {t.plan}
                   </p>
                   <p style={{ color: 'var(--color-gray-600)', fontSize: 12 }}>{t.date}</p>
                 </div>
@@ -279,14 +279,14 @@ export default function AvisIPTVPage() {
           </div>
         </section>
 
-        {/* Section 3 — Ce que nos clients apprécient */}
+        {/* Section 3 — Lo que más valoran nuestros clientes */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Ce Que Nos Clients Apprécient le Plus
+              Lo Que Más Valoran Nuestros Clientes
             </h2>
             <div className="flex flex-col gap-5">
               {satisfactionStats.map((s, idx) => (
@@ -299,7 +299,7 @@ export default function AvisIPTVPage() {
                       className="text-sm font-bold"
                       style={{ color: 'var(--color-lime)' }}
                     >
-                      {s.pct}% de satisfaction
+                      {s.pct}% de satisfacción
                     </span>
                   </div>
                   <div
@@ -320,62 +320,62 @@ export default function AvisIPTVPage() {
           </div>
         </section>
 
-        {/* Section 4 — VivaceTV vs concurrents */}
+        {/* Section 4 — VivaceTV vs competidores */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              VivaceTV vs Autres Fournisseurs IPTV — Comparaison des Avis
+              VivaceTV vs Otros Proveedores IPTV — Comparación de Opiniones
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Parmi les retours de clients ayant précédemment utilisé d&apos;autres services IPTV,
-              plusieurs points différencient VivaceTV de la concurrence. Le support client est
-              systématiquement cité comme le point le plus apprécié : disponible 24/7 via
-              WhatsApp, en français, avec un temps de réponse inférieur à 15 minutes en moyenne.
+              Entre los comentarios de clientes que anteriormente usaron otros servicios IPTV,
+              varios puntos diferencian a VivaceTV de la competencia. El soporte al cliente es
+              sistemáticamente citado como el punto más apreciado: disponible 24/7 por
+              WhatsApp, en español, con un tiempo de respuesta inferior a 15 minutos de media.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La stabilité est le deuxième point différenciant : la technologie AntiFreeze 10.0
-              de VivaceTV élimine les micro-coupures qui gâchent l&apos;expérience sur d&apos;autres
-              services, notamment lors des événements sportifs en direct. Plusieurs clients
-              témoignent de 6 à 12 mois d&apos;utilisation sans la moindre interruption.
+              La estabilidad es el segundo punto diferenciador: la tecnología AntiFreeze 10.0
+              de VivaceTV elimina los micro-cortes que arruinan la experiencia en otros
+              servicios, especialmente durante los eventos deportivos en directo. Varios clientes
+              relatan 6 a 12 meses de uso sin la menor interrupción.
             </p>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Pour une comparaison complète des fournisseurs IPTV France, consultez notre{' '}
+              Para una comparación completa de los proveedores IPTV España, consulta nuestra{' '}
               <Link
-                href="/meilleur-iptv"
+                href="/mejor-iptv-espana"
                 style={{ color: 'var(--color-lime)' }}
                 className="underline"
               >
-                comparatif des meilleurs IPTV France 2025
+                comparativa de los mejores IPTV España 2026
               </Link>.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Engagement qualité */}
+        {/* Section 5 — Compromiso de calidad */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Notre Engagement Qualité
+              Nuestro Compromiso de Calidad
             </h2>
             <div className="grid sm:grid-cols-3 gap-5">
               {[
                 {
-                  title: 'Qualité garantie',
-                  desc: "+22 000 chaînes en HD/4K/8K avec la technologie AntiFreeze 10.0 pour une diffusion ininterrompue.",
+                  title: 'Calidad garantizada',
+                  desc: '+22 000 canales en HD/4K/8K con la tecnología AntiFreeze 10.0 para una emisión ininterrumpida.',
                 },
                 {
-                  title: 'Support 24/7',
-                  desc: "Notre équipe francophone répond via WhatsApp en moins de 15 minutes, 7 jours sur 7, 24h sur 24.",
+                  title: 'Soporte 24/7',
+                  desc: 'Nuestro equipo hispanohablante responde por WhatsApp en menos de 15 minutos, los 7 días de la semana, las 24 horas del día.',
                 },
                 {
-                  title: 'Satisfaction ou remboursement',
-                  desc: "Si nous ne pouvons pas résoudre votre problème, nous examinons chaque demande de remboursement avec bienveillance.",
+                  title: 'Satisfacción o reembolso',
+                  desc: 'Si no podemos resolver tu problema, examinamos cada solicitud de reembolso con atención.',
                 },
               ].map((p) => (
                 <div
@@ -405,14 +405,14 @@ export default function AvisIPTVPage() {
             </div>
             <div className="mt-8">
               <Link
-                href="/abonnements"
+                href="/comprar-iptv"
                 className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
                 style={{
                   backgroundColor: 'var(--color-lime)',
                   color: 'var(--color-dark)',
                 }}
               >
-                Voir nos abonnements →
+                Ver nuestras suscripciones →
               </Link>
             </div>
           </div>
@@ -425,7 +425,7 @@ export default function AvisIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes
+              Preguntas Frecuentes
             </h2>
             <div className="flex flex-col gap-5">
               {faqItems.map((item) => (
@@ -453,10 +453,10 @@ export default function AvisIPTVPage() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/meilleur-iptv', label: 'Comparatif IPTV France' },
-                { href: '/abonnements', label: 'Nos abonnements' },
-                { href: '/fournisseur-iptv', label: 'Fournisseur IPTV' },
-                { href: '/abonnements/premium', label: 'Offre Premium' },
+                { href: '/mejor-iptv-espana', label: 'Comparativa IPTV España' },
+                { href: '/comprar-iptv', label: 'Nuestras suscripciones' },
+                { href: '/proveedor-iptv', label: 'Proveedor IPTV' },
+                { href: '/comprar-iptv/premium', label: 'Oferta Premium' },
               ].map((l) => (
                 <Link
                   key={l.href}

@@ -10,65 +10,65 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'King IPTV Avis 2026 — Meilleure Alternative en France | VivaceTV',
+  title: 'King IPTV Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
   description:
-    'King IPTV avis 2025 : est-il le meilleur choix IPTV France ? Comparatif King IPTV vs VivaceTV : prix, qualité, support. Trouvez la meilleure offre.',
+    'King IPTV opiniones 2026: ¿es la mejor opción IPTV España? Comparativa King IPTV vs VivaceTV: precio, calidad, soporte. Encuentra la mejor oferta.',
   keywords: [
     'king iptv',
-    'king iptv avis',
-    'alternative king iptv',
-    'king iptv france',
+    'king iptv opiniones',
+    'alternativa king iptv',
+    'king iptv españa',
     'king iptv vs vivacetv',
   ],
-  alternates: { canonical: `${siteConfig.url}/alternatives/king-iptv` },
+  alternates: { canonical: `${siteConfig.url}/alternativas/king-iptv` },
   openGraph: {
-    title: 'King IPTV Avis 2026 — Meilleure Alternative en France | VivaceTV',
+    title: 'King IPTV Opiniones 2026 — Mejor Alternativa en España | VivaceTV',
     description:
-      'Comparatif King IPTV vs VivaceTV : stabilité, prix, qualité, support. Découvrez pourquoi VivaceTV est la meilleure alternative à King IPTV en France.',
-    url: `${siteConfig.url}/alternatives/king-iptv`,
+      'Comparativa King IPTV vs VivaceTV: estabilidad, precio, calidad, soporte. Descubre por qué VivaceTV es la mejor alternativa a King IPTV en España.',
+    url: `${siteConfig.url}/alternativas/king-iptv`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'King IPTV est-il fiable ?',
+    question: '¿King IPTV es fiable?',
     answer:
-      "King IPTV est un service connu pour son large catalogue de chaînes, mais les retours utilisateurs signalent des problèmes de stabilité récurrents, notamment lors des événements sportifs en direct. VivaceTV propose une stabilité supérieure grâce à la technologie AntiFreeze 10.0 et un temps de disponibilité serveur optimisé.",
+      'King IPTV es un servicio conocido por su amplio catálogo de canales, pero las valoraciones de usuarios señalan problemas de estabilidad recurrentes, especialmente durante eventos deportivos en directo. VivaceTV ofrece una estabilidad superior gracias a la tecnología AntiFreeze 10.0 y un tiempo de disponibilidad del servidor optimizado.',
   },
   {
-    question: 'King IPTV propose-t-il le replay ?',
+    question: '¿King IPTV ofrece replay?',
     answer:
-      "King IPTV propose un replay partiel selon les retours utilisateurs. VivaceTV offre un replay complet sur les chaînes disponibles, permettant de regarder les émissions manquées jusqu'à 7 jours en arrière.",
+      'King IPTV ofrece un replay parcial según las valoraciones de usuarios. VivaceTV ofrece un replay completo en los canales disponibles, permitiendo ver los programas perdidos hasta 7 días atrás.',
   },
   {
-    question: 'Quelle est la différence entre King IPTV et VivaceTV ?',
+    question: '¿Cuál es la diferencia entre King IPTV y VivaceTV?',
     answer:
-      "Les principales différences sont la stabilité (VivaceTV utilise AntiFreeze 10.0 contre une stabilité irrégulière pour King IPTV), la qualité vidéo (8K chez VivaceTV vs 4K max pour King), le support client (WhatsApp 24/7 en français chez VivaceTV vs Telegram uniquement pour King) et la disponibilité d'un essai gratuit 24h chez VivaceTV.",
+      'Las principales diferencias son la estabilidad (VivaceTV usa AntiFreeze 10.0 frente a una estabilidad irregular de King IPTV), la calidad de vídeo (8K en VivaceTV vs 4K máx en King), el soporte al cliente (WhatsApp 24/7 en español en VivaceTV vs solo Telegram en King) y la disponibilidad de prueba gratuita de 24h en VivaceTV.',
   },
   {
-    question: 'Comment passer de King IPTV à VivaceTV ?',
+    question: '¿Cómo pasar de King IPTV a VivaceTV?',
     answer:
-      "C'est simple et rapide : contactez VivaceTV via WhatsApp pour demander votre essai gratuit 24h. Testez la qualité sur vos appareils, puis choisissez l'offre adaptée à votre durée souhaitée. Vos accès VivaceTV vous seront fournis en moins d'une heure. Aucune configuration complexe n'est requise.",
+      'Es sencillo y rápido: contacta con VivaceTV por WhatsApp para solicitar tu prueba gratuita de 24h. Prueba la calidad en tus dispositivos y luego elige la oferta adaptada a tu duración deseada. Tus accesos VivaceTV te serán proporcionados en menos de una hora. No se requiere ninguna configuración compleja.',
   },
 ];
 
 const tableRows = [
-  { label: 'Chaînes disponibles', competitor: '~18 000', vivacetv: '+22 000' },
-  { label: 'Qualité max', competitor: '4K', vivacetv: '8K ✓' },
-  { label: 'Stabilité', competitor: 'Irrégulière', vivacetv: '✅ AntiFreeze 10.0' },
-  { label: 'Prix entrée', competitor: '~20€/mois', vivacetv: '22,99€/3 mois ✓' },
-  { label: 'Essai gratuit', competitor: '❌', vivacetv: '✅ 24h' },
-  { label: 'Support', competitor: 'Telegram', vivacetv: '✅ WhatsApp 24/7' },
-  { label: 'Replay', competitor: 'Partiel', vivacetv: '✅ Complet' },
+  { label: 'Canales disponibles', competitor: '~18.000', vivacetv: '+22.000' },
+  { label: 'Calidad máxima', competitor: '4K', vivacetv: '8K ✓' },
+  { label: 'Estabilidad', competitor: 'Irregular', vivacetv: '✅ AntiFreeze 10.0' },
+  { label: 'Precio de entrada', competitor: '~20€/mes', vivacetv: '22,99€/3 meses ✓' },
+  { label: 'Prueba gratuita', competitor: '❌', vivacetv: '✅ 24h' },
+  { label: 'Soporte', competitor: 'Telegram', vivacetv: '✅ WhatsApp 24/7' },
+  { label: 'Replay', competitor: 'Parcial', vivacetv: '✅ Completo' },
 ];
 
 const switchSteps = [
-  'Demandez votre essai gratuit 24h VivaceTV via WhatsApp',
-  'Testez la qualité sur votre appareil',
-  'Choisissez votre offre (Bronze, Silver, Gold ou Diamond)',
-  "Recevez vos accès en moins d'1h",
-  'Profitez de VivaceTV sans coupure',
+  'Solicita tu prueba gratis de 24h de VivaceTV por WhatsApp',
+  'Prueba la calidad en tu dispositivo',
+  'Elige tu plan (Bronze, Silver, Gold o Diamond)',
+  'Recibe tus accesos en menos de 1h',
+  'Disfruta de VivaceTV sin cortes',
 ];
 
 export default function KingIPTVPage() {
@@ -90,78 +90,44 @@ export default function KingIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Alternatives IPTV', href: '/alternatives' },
-          { name: 'King IPTV', href: '/alternatives/king-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Alternativas IPTV', href: '/alternativas' },
+          { name: 'King IPTV', href: '/alternativas/king-iptv' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="ALTERNATIVE IPTV"
+          label="ALTERNATIVA IPTV"
           title="King IPTV"
-          titleHighlight="Avis 2025 & Alternative Recommandée"
-          subtitle="Vous cherchez une alternative à King IPTV ? Découvrez pourquoi VivaceTV est le meilleur choix pour votre abonnement IPTV France."
+          titleHighlight="Opiniones 2026 y Alternativa Recomendada"
+          subtitle="¿Buscas una alternativa a King IPTV? Descubre por qué VivaceTV es la mejor opción para tu suscripción IPTV España."
         />
 
-        {/* Section 1 — Présentation */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Qu&apos;est-ce que King IPTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Qué es King IPTV?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              King IPTV est un service d&apos;abonnement IPTV populaire sur le marché français. Il
-              propose un catalogue d&apos;environ 18 000 chaînes couvrant les contenus français,
-              arabes, sportifs et internationaux. Le service est accessible sur Smart TV, Android,
-              iOS et PC, avec une qualité vidéo allant jusqu&apos;au 4K.
+              King IPTV es un servicio de suscripción IPTV popular en el mercado español. Ofrece un catálogo de aproximadamente 18.000 canales que cubre contenidos españoles, árabes, deportivos e internacionales. El servicio es accesible en Smart TV, Android, iOS y PC, con calidad de vídeo hasta 4K.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              King IPTV est souvent recommandé dans les communautés IPTV pour son volume de chaînes.
-              Cependant, selon les retours utilisateurs disponibles, le service présente des
-              problèmes de stabilité réguliers, notamment lors des événements sportifs à forte
-              audience. Le support client, disponible uniquement via Telegram, peut également
-              manquer de réactivité.
+              King IPTV es frecuentemente recomendado en las comunidades IPTV por su volumen de canales. Sin embargo, según las valoraciones de usuarios disponibles, el servicio presenta problemas de estabilidad regulares, especialmente durante eventos deportivos de gran audiencia. El soporte al cliente, disponible únicamente por Telegram, puede también carecer de reactividad.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Si vous cherchez un service IPTV avec une meilleure stabilité, un catalogue encore
-              plus large et un support client réactif en français, VivaceTV est la meilleure
-              alternative à King IPTV disponible en France.
+              Si buscas un servicio IPTV con mejor estabilidad, un catálogo aún más amplio y un soporte al cliente reactivo en español, VivaceTV es la mejor alternativa a King IPTV disponible en España.
             </p>
           </div>
         </section>
 
-        {/* Section 2 — Avantages et inconvénients */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              King IPTV : Avantages et Inconvénients
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>King IPTV: Ventajas e Inconvenientes</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points positifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos positivos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Large catalogue d\'environ 18 000 chaînes',
-                    'Service populaire dans la communauté IPTV',
-                    'Compatible avec les principaux appareils',
-                  ].map((pro, i) => (
+                  {['Amplio catálogo de aproximadamente 18.000 canales', 'Servicio popular en la comunidad IPTV', 'Compatible con los principales dispositivos'].map((pro, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Check size={16} style={{ color: 'var(--color-lime)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{pro}</span>
@@ -169,25 +135,10 @@ export default function KingIPTVPage() {
                   ))}
                 </ul>
               </div>
-              <div
-                style={{
-                  backgroundColor: 'var(--color-card)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: 12,
-                  padding: 20,
-                }}
-              >
-                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>
-                  Points négatifs
-                </h3>
+              <div style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                <h3 className="font-display font-bold text-lg mb-4" style={{ color: 'var(--color-ink)' }}>Puntos negativos</h3>
                 <ul className="flex flex-col gap-3">
-                  {[
-                    'Problèmes de stabilité rapportés par les utilisateurs',
-                    'Aucun essai gratuit disponible',
-                    'Support uniquement via Telegram',
-                    'Qualité limitée au 4K — pas de 8K',
-                    'Replay partiel uniquement',
-                  ].map((con, i) => (
+                  {['Problemas de estabilidad reportados por los usuarios', 'Sin prueba gratuita disponible', 'Soporte solo por Telegram', 'Calidad limitada a 4K — sin 8K', 'Replay solo parcial'].map((con, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <X size={16} style={{ color: 'var(--color-gray-400)', flexShrink: 0, marginTop: 2 }} />
                       <span className="text-sm" style={{ color: 'var(--color-ink-light)' }}>{con}</span>
@@ -199,33 +150,21 @@ export default function KingIPTVPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              King IPTV vs VivaceTV — Comparatif Détaillé
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>King IPTV vs VivaceTV — Comparativa Detallada</h2>
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)', color: 'var(--color-surface)' }}>
-                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Critère</th>
+                    <th style={{ padding: '12px 16px', textAlign: 'left' }}>Criterio</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center' }}>King IPTV</th>
                     <th style={{ padding: '12px 16px', textAlign: 'center', color: 'var(--color-lime)' }}>VivaceTV ✓</th>
                   </tr>
                 </thead>
                 <tbody>
                   {tableRows.map((row, i) => (
-                    <tr
-                      key={i}
-                      style={{
-                        backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)',
-                        borderBottom: '1px solid var(--color-border)',
-                      }}
-                    >
+                    <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'var(--color-card)' : 'var(--color-surface-alt)', borderBottom: '1px solid var(--color-border)' }}>
                       <td style={{ padding: '10px 16px', color: 'var(--color-ink)', fontWeight: 500 }}>{row.label}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-ink-light)' }}>{row.competitor}</td>
                       <td style={{ padding: '10px 16px', textAlign: 'center', color: 'var(--color-lime)', fontWeight: 600 }}>{row.vivacetv}</td>
@@ -234,141 +173,66 @@ export default function KingIPTVPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>
-              * Données King IPTV basées sur les informations publiquement disponibles et les retours
-              utilisateurs. À titre indicatif.
-            </p>
+            <p className="text-xs mt-3" style={{ color: 'var(--color-ink-light)' }}>* Datos de King IPTV basados en información públicamente disponible y valoraciones de usuarios. A título orientativo.</p>
           </div>
         </section>
 
-        {/* Section 4 — Pourquoi VivaceTV */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-6"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Pourquoi VivaceTV est Meilleur que King IPTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-6" style={{ color: 'var(--color-ink)' }}>¿Por qué VivaceTV es Mejor que King IPTV?</h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Bien que King IPTV propose un catalogue relativement large (~18 000 chaînes), VivaceTV
-              va encore plus loin avec +22 000 chaînes, régulièrement mises à jour. La différence
-              la plus notable se situe toutefois au niveau de la stabilité : la technologie
-              propriétaire <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de
-              VivaceTV garantit une diffusion sans coupure même lors des matchs les plus regardés,
-              là où King IPTV est souvent mis en défaut selon les retours utilisateurs.
+              Aunque King IPTV ofrece un catálogo relativamente amplio (~18.000 canales), VivaceTV va aún más lejos con +22.000 canales, actualizados regularmente. La diferencia más notable se sitúa sin embargo a nivel de estabilidad: la tecnología propietaria <strong style={{ color: 'var(--color-ink)' }}>AntiFreeze 10.0</strong> de VivaceTV garantiza una emisión sin cortes incluso durante los partidos más vistos, donde King IPTV falla frecuentemente según las valoraciones de usuarios.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              La qualité vidéo est également supérieure chez VivaceTV, qui propose des flux en 8K
-              — une résolution absente de l&apos;offre King IPTV actuellement. Associée au replay
-              complet (contre un replay partiel pour King), l&apos;expérience VivaceTV est
-              significativement meilleure.
+              La calidad de vídeo es también superior en VivaceTV, que ofrece streams en 8K — una resolución ausente en la oferta King IPTV actualmente. Combinado con el replay completo (frente a un replay parcial de King), la experiencia VivaceTV es significativamente mejor.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Le support client est un autre point de différenciation majeur. VivaceTV propose un
-              support WhatsApp 24/7 en français, avec un temps de réponse moyen inférieur à 15
-              minutes. King IPTV propose un support uniquement via Telegram, moins immédiat et
-              souvent moins accessible pour les utilisateurs francophones.
+              El soporte al cliente es otro punto de diferenciación clave. VivaceTV ofrece un soporte WhatsApp 24/7 en español, con un tiempo de respuesta medio inferior a 15 minutos. King IPTV ofrece soporte únicamente por Telegram, menos inmediato y frecuentemente menos accesible para los usuarios hispanohablantes.
             </p>
             <p className="text-base leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-              Sur le rapport qualité/prix enfin, l&apos;offre Gold VivaceTV à 44,99€ pour 12 mois
-              (soit 3,75€/mois) reste bien en dessous du coût mensuel de King IPTV affiché à
-              environ 20€/mois.
+              En cuanto a la relación calidad/precio, la oferta Gold VivaceTV a 44,99€ por 12 meses (es decir, 3,75€/mes) está muy por debajo del coste mensual de King IPTV, que asciende a aproximadamente 20€/mes.
             </p>
           </div>
         </section>
 
-        {/* Section 5 — Comment passer */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Comment Passer de King IPTV à VivaceTV ?
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>¿Cómo Pasarse de King IPTV a VivaceTV?</h2>
             <div className="flex flex-col gap-4">
               {switchSteps.map((step, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <span
-                    style={{
-                      backgroundColor: 'var(--color-lime)',
-                      color: 'var(--color-dark)',
-                      borderRadius: 999,
-                      width: 32,
-                      height: 32,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontWeight: 700,
-                      fontSize: 14,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {i + 1}
-                  </span>
+                  <span style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)', borderRadius: 999, width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 14, flexShrink: 0 }}>{i + 1}</span>
                   <p className="text-base pt-1" style={{ color: 'var(--color-ink)' }}>{step}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8">
-              <Link
-                href="/abonnements"
-                className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
-                style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}
-              >
-                Voir les offres VivaceTV →
+              <Link href="/comprar-iptv" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm" style={{ backgroundColor: 'var(--color-lime)', color: 'var(--color-dark)' }}>
+                Ver los planes de VivaceTV →
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Section 6 — FAQ */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2
-              className="font-display font-bold text-2xl sm:text-3xl mb-8"
-              style={{ color: 'var(--color-ink)' }}
-            >
-              Questions Fréquentes — King IPTV vs VivaceTV
-            </h2>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl mb-8" style={{ color: 'var(--color-ink)' }}>Preguntas Frecuentes — King IPTV vs VivaceTV</h2>
             <div className="flex flex-col gap-4 mb-10">
               {faqItems.map((item) => (
-                <div
-                  key={item.question}
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: 12,
-                    padding: 20,
-                  }}
-                >
-                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>
-                    {item.question}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
-                    {item.answer}
-                  </p>
+                <div key={item.question} style={{ backgroundColor: 'var(--color-card)', border: '1px solid var(--color-border)', borderRadius: 12, padding: 20 }}>
+                  <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--color-ink)' }}>{item.question}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>{item.answer}</p>
                 </div>
               ))}
             </div>
             <div className="flex flex-wrap gap-3">
               {[
-                { href: '/alternatives', label: 'Toutes les alternatives IPTV' },
-                { href: '/meilleur-iptv', label: 'Meilleur IPTV France 2025' },
-                { href: '/abonnements', label: 'Abonnements VivaceTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
+                { href: '/alternativas', label: 'Todas las alternativas IPTV' },
+                { href: '/mejor-iptv-espana', label: 'Mejor IPTV España 2026' },
+                { href: '/comprar-iptv', label: 'Suscripciones VivaceTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
               ].map((l) => (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className="text-sm px-4 py-2 rounded-lg font-medium"
-                  style={{
-                    backgroundColor: 'var(--color-card)',
-                    color: 'var(--color-ink)',
-                    border: '1px solid var(--color-border)',
-                  }}
-                >
+                <Link key={l.href} href={l.href} className="text-sm px-4 py-2 rounded-lg font-medium" style={{ backgroundColor: 'var(--color-card)', color: 'var(--color-ink)', border: '1px solid var(--color-border)' }}>
                   {l.label} →
                 </Link>
               ))}
@@ -378,7 +242,6 @@ export default function KingIPTVPage() {
 
         <FinalCTA />
       </main>
-
       <Footer />
     </>
   );

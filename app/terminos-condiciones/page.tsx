@@ -3,100 +3,100 @@ import { siteConfig } from '@/config/site';
 import LegalPageLayout from '@/components/layout/LegalPageLayout';
 
 export const metadata: Metadata = {
-  title: "Conditions générales d'utilisation | VivaceTV",
-  description: "Consultez les conditions générales d'utilisation du service IPTV VivaceTV.",
-  alternates: { canonical: `${siteConfig.url}/conditions-generales` },
+  title: 'Términos y condiciones | VivaceTV',
+  description: 'Consulta los términos y condiciones del servicio IPTV VivaceTV.',
+  alternates: { canonical: `${siteConfig.url}/terminos-condiciones` },
   robots: { index: true, follow: true },
 };
 
-export default function ConditionsGeneralesPage() {
+export default function TerminosCondicionesPage() {
   return (
     <LegalPageLayout
-      label="Légal"
-      title="Conditions générales"
-      subtitle="Conditions générales régissant l'utilisation du service VivaceTV et la relation entre le prestataire et ses clients."
-      updatedAt="1er avril 2026"
+      label="Legal"
+      title="Términos y condiciones"
+      subtitle="Condiciones generales que rigen el uso del servicio VivaceTV y la relación entre el proveedor y sus clientes."
+      updatedAt="1 de abril de 2026"
       sections={[
         {
-          heading: 'Présentation',
+          heading: 'Presentación',
           paragraphs: [
-            "Les présentes Conditions Générales d'Utilisation (CGU) définissent les règles d'accès et d'utilisation du service IPTV VivaceTV. En souscrivant un abonnement ou en utilisant l'accès test gratuit, l'utilisateur reconnaît avoir pris connaissance de ces conditions et les accepte sans réserve. VivaceTV se réserve le droit de les modifier à tout moment ; les nouvelles conditions prennent effet à leur date de publication.",
+            'Los presentes Términos y Condiciones de Uso (TCU) definen las normas de acceso y uso del servicio IPTV VivaceTV. Al suscribirte o utilizar el acceso de prueba gratuito, el usuario reconoce haber leído estas condiciones y las acepta sin reservas. VivaceTV se reserva el derecho de modificarlas en cualquier momento; las nuevas condiciones entran en vigor en la fecha de su publicación.',
           ],
         },
         {
-          heading: 'Objet',
+          heading: 'Objeto',
           paragraphs: [
-            "Les présentes Conditions Générales d'Utilisation (CGU) ont pour objet de définir les modalités et conditions dans lesquelles VivaceTV fournit ses services de streaming IPTV ainsi que les droits et obligations des parties.",
-            "En utilisant le service VivaceTV, vous acceptez sans réserve les présentes conditions générales.",
+            'Los presentes Términos y Condiciones de Uso tienen por objeto definir las modalidades y condiciones en las que VivaceTV presta sus servicios de streaming IPTV, así como los derechos y obligaciones de las partes.',
+            'Al utilizar el servicio VivaceTV, aceptas sin reservas las presentes condiciones generales.',
           ],
         },
         {
-          heading: 'Description du service',
+          heading: 'Descripción del servicio',
           paragraphs: [
-            "VivaceTV est un service d'accès à des flux de contenu audiovisuel (chaînes de télévision, films, séries) via Internet, accessible sur les appareils compatibles.",
-            "Le service est disponible en plusieurs formules (forfaits) dont les caractéristiques sont décrites sur la page Abonnements du site.",
+            'VivaceTV es un servicio de acceso a flujos de contenido audiovisual (canales de televisión, películas, series) a través de Internet, accesible en los dispositivos compatibles.',
+            'El servicio está disponible en varias modalidades (planes) cuyas características se describen en la página de Suscripciones del sitio.',
           ],
         },
         {
-          heading: 'Commande',
+          heading: 'Pedido',
           paragraphs: [
-            "La commande s'effectue via WhatsApp ou le formulaire de contact disponible sur le site. Aucun compte client n'est requis pour commander.",
-            "Après réception de la demande, notre équipe contacte le client pour confirmer la commande et finaliser les modalités de paiement.",
+            'El pedido se realiza a través de WhatsApp o el formulario de contacto disponible en el sitio. No se requiere ninguna cuenta de cliente para realizar un pedido.',
+            'Tras recibir la solicitud, nuestro equipo se pone en contacto con el cliente para confirmar el pedido y finalizar las modalidades de pago.',
           ],
         },
         {
-          heading: 'Activation du service',
+          heading: 'Activación del servicio',
           paragraphs: [
-            "L'activation du service intervient après confirmation du paiement. Le client reçoit ses identifiants d'accès (URL de serveur, nom d'utilisateur, mot de passe) via WhatsApp.",
-            "L'activation est généralement effectuée dans un délai inférieur à 5 minutes lors des heures de disponibilité de notre équipe.",
+            'La activación del servicio se produce tras la confirmación del pago. El cliente recibe sus credenciales de acceso (URL del servidor, nombre de usuario, contraseña) por WhatsApp.',
+            'La activación se realiza generalmente en un plazo inferior a 5 minutos durante el horario de disponibilidad de nuestro equipo.',
           ],
         },
         {
-          heading: "Responsabilité de l'utilisateur",
+          heading: 'Responsabilidad del usuario',
           paragraphs: [
-            "Le client s'engage à utiliser le service dans le respect des lois en vigueur dans son pays de résidence.",
-            "Le client est responsable de la confidentialité de ses identifiants d'accès. Tout usage non autorisé du compte est de la responsabilité exclusive du client.",
-            "Il est interdit de partager, revendre ou redistribuer les accès fournis par VivaceTV.",
+            'El cliente se compromete a utilizar el servicio respetando las leyes vigentes en su país de residencia.',
+            'El cliente es responsable de la confidencialidad de sus credenciales de acceso. Cualquier uso no autorizado de la cuenta es responsabilidad exclusiva del cliente.',
+            'Está prohibido compartir, revender o redistribuir los accesos proporcionados por VivaceTV.',
           ],
         },
         {
-          heading: 'Qualité de service',
+          heading: 'Calidad del servicio',
           paragraphs: [
-            "VivaceTV s'efforce de fournir un service de qualité optimale. La qualité d'image et la stabilité peuvent varier selon la connexion Internet de l'utilisateur, l'appareil utilisé et les conditions techniques du réseau.",
-            "VivaceTV ne garantit pas une disponibilité permanente et sans interruption du service.",
+            'VivaceTV se esfuerza por prestar un servicio de calidad óptima. La calidad de imagen y la estabilidad pueden variar según la conexión a internet del usuario, el dispositivo utilizado y las condiciones técnicas de la red.',
+            'VivaceTV no garantiza una disponibilidad permanente e ininterrumpida del servicio.',
           ],
         },
         {
-          heading: 'Support',
+          heading: 'Soporte',
           paragraphs: [
-            "Notre équipe de support est disponible 24h/24 via WhatsApp pour assister les clients dans l'installation, la configuration et la résolution des problèmes techniques.",
+            'Nuestro equipo de soporte está disponible 24h/24 por WhatsApp para ayudar a los clientes en la instalación, configuración y resolución de problemas técnicos.',
           ],
         },
         {
-          heading: 'Paiement',
+          heading: 'Pago',
           paragraphs: [
-            "Le paiement est effectué par les moyens convenus avec notre équipe lors de la confirmation de commande.",
-            "Les prix affichés sur le site sont en euros et hors taxe, sauf indication contraire.",
-            "Tout abonnement payé est définitif, sous réserve de notre politique de remboursement.",
+            'El pago se realiza por los medios acordados con nuestro equipo durante la confirmación del pedido.',
+            'Los precios mostrados en el sitio están en euros e incluyen impuestos, salvo indicación contraria.',
+            'Toda suscripción pagada es definitiva, sujeta a nuestra política de reembolso.',
           ],
         },
         {
-          heading: 'Résiliation',
+          heading: 'Cancelación',
           paragraphs: [
-            "Les abonnements sont à durée déterminée. Ils prennent fin automatiquement à l'expiration de la période souscrite sans reconduction automatique.",
-            "Il n'existe pas d'abonnement à reconduction tacite chez VivaceTV.",
+            'Las suscripciones son de duración determinada. Finalizan automáticamente al expirar el período contratado sin renovación automática.',
+            'VivaceTV no aplica renovación tácita en ninguna de sus suscripciones.',
           ],
         },
         {
-          heading: 'Modification des conditions',
+          heading: 'Modificación de las condiciones',
           paragraphs: [
-            "VivaceTV se réserve le droit de modifier les présentes conditions générales à tout moment. Les nouvelles conditions entrent en vigueur dès leur publication sur le site.",
+            'VivaceTV se reserva el derecho de modificar los presentes términos y condiciones en cualquier momento. Las nuevas condiciones entran en vigor desde su publicación en el sitio.',
           ],
         },
         {
-          heading: 'Contact',
+          heading: 'Contacto',
           paragraphs: [
-            "Pour toute question relative aux présentes conditions générales : support@vivacetv.com",
+            'Para cualquier pregunta relativa a los presentes términos y condiciones: support@vivacetv.com',
           ],
         },
       ]}

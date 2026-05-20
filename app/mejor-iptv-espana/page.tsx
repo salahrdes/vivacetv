@@ -10,57 +10,57 @@ import { BreadcrumbSchema } from '@/components/seo/JsonLd';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Meilleur Abonnement IPTV France 2026 — Comparatif & Avis | VivaceTV',
+  title: 'Mejor Suscripción IPTV España 2026 — Comparativa y Opiniones | VivaceTV',
   description:
-    'Quel est le meilleur abonnement IPTV en France en 2025 ? Comparatif complet : VivaceTV, Xenon IPTV, King IPTV, Atlas IPTV. Avis, prix, qualité. Notre verdict.',
+    '¿Cuál es la mejor suscripción IPTV en España en 2026? Comparativa completa: VivaceTV, Xenon IPTV, King IPTV, Atlas IPTV. Opiniones, precios, calidad. Nuestro veredicto.',
   keywords: [
-    'meilleur abonnement IPTV',
-    'meilleure IPTV 2025',
-    'comparatif IPTV France',
-    'meilleurs abonnements IPTV',
-    'quel IPTV choisir',
+    'mejor suscripción IPTV',
+    'mejor IPTV 2026',
+    'comparativa IPTV España',
+    'mejores suscripciones IPTV',
+    'qué IPTV elegir España',
   ],
-  alternates: { canonical: `${siteConfig.url}/meilleur-iptv` },
+  alternates: { canonical: `${siteConfig.url}/mejor-iptv-espana` },
   openGraph: {
-    title: 'Meilleur Abonnement IPTV France 2026 — Comparatif & Avis | VivaceTV',
+    title: 'Mejor Suscripción IPTV España 2026 — Comparativa y Opiniones | VivaceTV',
     description:
-      'Comparatif complet des meilleurs abonnements IPTV en France 2025. VivaceTV, Xenon, King, Atlas — notre classement objectif.',
-    url: `${siteConfig.url}/meilleur-iptv`,
+      'Comparativa completa de las mejores suscripciones IPTV en España 2026. VivaceTV, Xenon, King, Atlas — nuestra clasificación objetiva.',
+    url: `${siteConfig.url}/mejor-iptv-espana`,
     type: 'website',
   },
 };
 
 const faqItems = [
   {
-    question: 'Quel est le meilleur fournisseur IPTV en France en 2025 ?',
+    question: '¿Cuál es el mejor proveedor IPTV en España en 2026?',
     answer:
-      "D'après nos tests, VivaceTV est le meilleur fournisseur IPTV en France en 2025 pour son rapport qualité/prix, sa stabilité (technologie AntiFreeze 10.0), la richesse de son catalogue (+22 000 chaînes, +160 000 films et séries en HD/4K/8K) et la réactivité de son support WhatsApp 24/7.",
+      'Según nuestras pruebas, VivaceTV es el mejor proveedor IPTV en España en 2026 por su relación calidad/precio, su estabilidad (tecnología AntiFreeze 10.0), la riqueza de su catálogo (+22 000 canales, +160 000 películas y series en HD/4K/8K) y la reactividad de su soporte WhatsApp 24/7.',
   },
   {
-    question: 'Comment choisir le meilleur abonnement IPTV ?',
+    question: '¿Cómo elegir la mejor suscripción IPTV?',
     answer:
-      "Évaluez cinq critères : la stabilité du serveur (anti-freeze, uptime), la qualité vidéo (HD, 4K, 8K), le catalogue de chaînes françaises et internationales, la compatibilité avec vos appareils, et le prix. Un essai gratuit avant achat est toujours un bon signe.",
+      'Evalúa cinco criterios: la estabilidad del servidor (anti-freeze, uptime), la calidad de vídeo (HD, 4K, 8K), el catálogo de canales españoles e internacionales, la compatibilidad con tus dispositivos, y el precio. Una prueba gratuita antes de comprar siempre es una buena señal.',
   },
   {
-    question: 'Le meilleur IPTV est-il forcément le plus cher ?',
+    question: '¿El mejor IPTV es necesariamente el más caro?',
     answer:
-      "Non. VivaceTV propose des abonnements dès 22,99€ pour 3 mois, ce qui est compétitif tout en offrant une qualité supérieure à des services plus coûteux. Le prix seul n'est pas un indicateur de qualité dans l'IPTV.",
+      'No. VivaceTV ofrece suscripciones desde 22,99€ por 3 meses, lo que es competitivo ofreciendo al mismo tiempo una calidad superior a servicios más costosos. El precio solo no es un indicador de calidad en el IPTV.',
   },
   {
-    question: 'Quelle est la différence entre un bon et un mauvais service IPTV ?',
+    question: '¿Cuál es la diferencia entre un buen y un mal servicio IPTV?',
     answer:
-      "Un bon service IPTV garantit une stabilité serveur avec peu ou pas de coupures, propose des mises à jour régulières des listes de chaînes, offre un support client réactif et dispose d'une technologie anti-freeze. Un mauvais service présente des coupures fréquentes, des chaînes manquantes et aucun support.",
+      'Un buen servicio IPTV garantiza estabilidad del servidor con pocas o ninguna interrupción, propone actualizaciones regulares de las listas de canales, ofrece un soporte al cliente reactivo y dispone de una tecnología anti-freeze. Un mal servicio presenta cortes frecuentes, canales faltantes y ningún soporte.',
   },
   {
-    question: "L'IPTV est-il légal en France ?",
+    question: '¿Es legal el IPTV en España?',
     answer:
-      "L'IPTV en lui-même est une technologie légale. Ce qui détermine la légalité est la source des contenus diffusés. VivaceTV opère dans le respect de la réglementation en vigueur. Pour plus d'informations sur la légalité de l'IPTV en France, consultez notre article dédié.",
+      'El IPTV en sí mismo es una tecnología legal. Lo que determina la legalidad es la fuente de los contenidos emitidos. VivaceTV opera en cumplimiento de la normativa vigente. Para más información sobre la legalidad del IPTV en España, consulta nuestro artículo dedicado.',
   },
 ];
 
 function StarRating({ rating, max = 5 }: { rating: number; max?: number }) {
   return (
-    <div className="flex gap-0.5" aria-label={`${rating} étoiles sur ${max}`}>
+    <div className="flex gap-0.5" aria-label={`${rating} estrellas sobre ${max}`}>
       {Array.from({ length: max }).map((_, i) => {
         const filled = i < Math.floor(rating);
         const half = !filled && i < rating;
@@ -83,104 +83,104 @@ const rankings = [
   {
     rank: 1,
     name: 'VivaceTV',
-    subtitle: 'Meilleur Rapport Qualité/Prix',
+    subtitle: 'Mejor Relación Calidad/Precio',
     rating: 5,
     ratingLabel: '⭐⭐⭐⭐⭐',
     description:
-      "La meilleure option globale. +22 000 chaînes, HD/4K/8K, anti-freeze, prix compétitifs, support WhatsApp 24/7. Dès 22,99€ pour 3 mois.",
-    link: '/abonnements',
-    linkLabel: 'Voir les offres VivaceTV',
+      'La mejor opción global. +22 000 canales, HD/4K/8K, anti-freeze, precios competitivos, soporte WhatsApp 24/7. Desde 22,99€ por 3 meses.',
+    link: '/comprar-iptv',
+    linkLabel: 'Ver las ofertas VivaceTV',
     highlight: true,
   },
   {
     rank: 2,
     name: 'Xenon IPTV',
-    subtitle: 'Service populaire',
+    subtitle: 'Servicio popular',
     rating: 3,
     ratingLabel: '⭐⭐⭐☆☆',
     description:
-      "Service populaire mais interface moins intuitive. Prix similaires, support moins réactif. Pas d'essai gratuit disponible.",
-    link: '/alternatives/xenon-iptv',
-    linkLabel: 'Lire notre avis Xenon IPTV',
+      'Servicio popular pero interfaz menos intuitiva. Precios similares, soporte menos reactivo. Sin prueba gratuita disponible.',
+    link: '/alternativas/xenon-iptv',
+    linkLabel: 'Leer nuestra opinión sobre Xenon IPTV',
     highlight: false,
   },
   {
     rank: 3,
     name: 'King IPTV',
-    subtitle: 'Stabilité irrégulière',
+    subtitle: 'Estabilidad irregular',
     rating: 3,
     ratingLabel: '⭐⭐⭐☆☆',
     description:
-      "Bonne variété de chaînes, mais stabilité irrégulière selon les retours utilisateurs. Support limité.",
-    link: '/alternatives/king-iptv',
-    linkLabel: 'Lire notre avis King IPTV',
+      'Buena variedad de canales, pero estabilidad irregular según los comentarios de usuarios. Soporte limitado.',
+    link: '/alternativas/king-iptv',
+    linkLabel: 'Leer nuestra opinión sobre King IPTV',
     highlight: false,
   },
   {
     rank: 4,
     name: 'IPTV Atlas',
-    subtitle: 'Offre correcte',
+    subtitle: 'Oferta correcta',
     rating: 2.5,
     ratingLabel: '⭐⭐½☆☆',
     description:
-      "Offre correcte mais catalogue moins fourni. Interface datée. Convient aux utilisateurs peu exigeants.",
-    link: '/alternatives/iptv-atlas',
-    linkLabel: 'Lire notre avis Atlas IPTV',
+      'Oferta correcta pero catálogo menos completo. Interfaz anticuada. Adecuado para usuarios poco exigentes.',
+    link: '/alternativas/iptv-atlas',
+    linkLabel: 'Leer nuestra opinión sobre Atlas IPTV',
     highlight: false,
   },
   {
     rank: 5,
     name: 'Smarter One IPTV',
-    subtitle: 'Marché international',
+    subtitle: 'Mercado internacional',
     rating: 2,
     ratingLabel: '⭐⭐☆☆☆',
     description:
-      "Service axé sur les chaînes arabes et internationales. Moins adapté au marché français.",
-    link: '/alternatives/smarter-one-iptv',
-    linkLabel: 'Lire notre avis Smarter One',
+      'Servicio orientado a canales árabes e internacionales. Menos adaptado al mercado español.',
+    link: '/alternativas/smarter-one-iptv',
+    linkLabel: 'Leer nuestra opinión sobre Smarter One',
     highlight: false,
   },
 ];
 
 const tableRows = [
-  { critere: 'Nombre de chaînes', vivacetv: '+22 000', xenon: '~15 000', king: '~18 000', atlas: '~12 000' },
-  { critere: 'Qualité max', vivacetv: '8K', xenon: '4K', king: '4K', atlas: 'HD' },
-  { critere: 'Prix entrée', vivacetv: '22,99€/3 mois', xenon: '~25€/mois', king: '~20€/mois', atlas: '~15€/mois' },
-  { critere: 'Essai gratuit', vivacetv: true, xenon: false, king: false, atlas: false },
-  { critere: 'Support 24/7', vivacetv: 'WhatsApp', xenon: false, king: 'Limité', atlas: false },
+  { critere: 'Canales disponibles', vivacetv: '+22 000', xenon: '~15 000', king: '~18 000', atlas: '~12 000' },
+  { critere: 'Calidad máxima', vivacetv: '8K', xenon: '4K', king: '4K', atlas: 'HD' },
+  { critere: 'Precio de entrada', vivacetv: '22,99€/3 meses', xenon: '~25€/mes', king: '~20€/mes', atlas: '~15€/mes' },
+  { critere: 'Prueba gratuita', vivacetv: true, xenon: false, king: false, atlas: false },
+  { critere: 'Soporte 24/7', vivacetv: 'WhatsApp', xenon: false, king: 'Limitado', atlas: false },
   { critere: 'Anti-freeze', vivacetv: true, xenon: false, king: false, atlas: false },
 ];
 
 const criteria = [
   {
     num: '1',
-    title: 'La stabilité du serveur',
-    body: "La stabilité est le critère numéro un. Un bon service IPTV doit garantir un uptime de 99,9% et intégrer une technologie anti-freeze qui élimine les coupures lors des pics de trafic. VivaceTV utilise sa technologie propriétaire AntiFreeze 10.0 pour offrir une diffusion ininterrompue, même lors des grands événements sportifs.",
+    title: 'La estabilidad del servidor',
+    body: 'La estabilidad es el criterio número uno. Un buen servicio IPTV debe garantizar un uptime del 99,9% e integrar una tecnología anti-freeze que elimine los cortes durante los picos de tráfico. VivaceTV utiliza su tecnología propietaria AntiFreeze 10.0 para ofrecer una emisión ininterrumpida, incluso durante los grandes eventos deportivos.',
   },
   {
     num: '2',
-    title: 'La qualité vidéo',
-    body: "La qualité vidéo va de la SD à la 8K en passant par la HD et la 4K. Pour une expérience optimale sur grand écran, privilégiez un fournisseur proposant la 4K minimum. VivaceTV offre des flux en HD, 4K et 8K sur l'ensemble de ses abonnements, sans surcoût.",
+    title: 'La calidad de vídeo',
+    body: 'La calidad de vídeo va de la SD a la 8K pasando por la HD y la 4K. Para una experiencia óptima en pantalla grande, prioriza un proveedor que ofrezca 4K como mínimo. VivaceTV ofrece flujos en HD, 4K y 8K en todas sus suscripciones, sin coste adicional.',
   },
   {
     num: '3',
-    title: 'Le nombre et la variété des chaînes',
-    body: "Un bon catalogue IPTV doit inclure les chaînes françaises (TF1, France 2, Canal+), les chaînes sportives (beIN Sports, RMC Sport), les chaînes internationales et un vaste catalogue de films et séries en VOD. VivaceTV propose +22 000 chaînes et +160 000 contenus VOD en constante mise à jour.",
+    title: 'El número y la variedad de canales',
+    body: 'Un buen catálogo IPTV debe incluir los canales españoles (La 1, Antena 3, Telecinco), los canales deportivos (DAZN, Movistar+ Deportes), los canales internacionales y un amplio catálogo de películas y series en VOD. VivaceTV propone +22 000 canales y +160 000 contenidos VOD en constante actualización.',
   },
   {
     num: '4',
-    title: 'La compatibilité des appareils',
-    body: "Votre service IPTV doit être compatible avec tous vos appareils : Smart TV Samsung et LG, boîtiers Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad et PC. VivaceTV fournit des URL M3U et des identifiants Xtream Codes compatibles avec toutes les applications majeures.",
+    title: 'La compatibilidad de dispositivos',
+    body: 'Tu servicio IPTV debe ser compatible con todos tus dispositivos: Smart TV Samsung y LG, cajas Android TV, Amazon Fire TV Stick, Apple TV, iPhone, iPad y PC. VivaceTV proporciona URL M3U e identificadores Xtream Codes compatibles con todas las principales aplicaciones.',
   },
   {
     num: '5',
-    title: 'Le rapport qualité/prix',
-    body: "Comparez le coût total sur 12 mois plutôt que le prix mensuel affiché. Un abonnement 12 mois à 44,99€ revient à moins de 4€/mois, bien en dessous de la plupart des offres mensuelles. Méfiez-vous des prix inférieurs à 3€/mois qui signalent souvent un service peu fiable.",
+    title: 'La relación calidad/precio',
+    body: 'Compara el coste total a 12 meses en lugar del precio mensual mostrado. Una suscripción de 12 meses a 44,99€ sale a menos de 4€/mes, muy por debajo de la mayoría de ofertas mensuales. Ten cuidado con los precios inferiores a 3€/mes que a menudo señalan un servicio poco fiable.',
   },
   {
     num: '6',
-    title: 'La qualité du support client',
-    body: "Un bon fournisseur IPTV répond en moins de 30 minutes, en français, sur le canal de votre choix. VivaceTV offre un support WhatsApp 24/7 avec un temps de réponse moyen inférieur à 15 minutes, couvrant l'installation, la configuration et les problèmes techniques.",
+    title: 'La calidad del soporte al cliente',
+    body: 'Un buen proveedor IPTV responde en menos de 30 minutos, en español, por el canal de tu elección. VivaceTV ofrece soporte WhatsApp 24/7 con un tiempo de respuesta medio inferior a 15 minutos, cubriendo la instalación, la configuración y los problemas técnicos.',
   },
 ];
 
@@ -203,40 +203,41 @@ export default function MeilleurIPTVPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Accueil', href: '/' },
-          { name: 'Meilleur IPTV France 2025', href: '/meilleur-iptv' },
+          { name: 'Inicio', href: '/' },
+          { name: 'Mejor IPTV España 2026', href: '/mejor-iptv-espana' },
         ]}
       />
       <Header />
 
       <main id="main-content">
         <PageHero
-          label="COMPARATIF 2025"
-          title="Quel est le Meilleur"
-          titleHighlight="Abonnement IPTV en France en 2025 ?"
-          subtitle="Nous avons testé et comparé les principaux services IPTV disponibles en France. Voici notre classement objectif basé sur la qualité, la stabilité, le prix et le support client."
+          label="COMPARATIVA 2026"
+          title="¿Cuál es la Mejor"
+          titleHighlight="Suscripción IPTV en España en 2026?"
+          subtitle="Hemos probado y comparado los principales servicios IPTV disponibles en España. Esta es nuestra clasificación objetiva basada en calidad, estabilidad, precio y soporte al cliente."
         />
 
-        {/* Section 1 — Méthode */}
+        {/* Section 1 — Metodología */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Notre Méthode de Comparaison
+              Nuestro Método de Comparación
             </h2>
             <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--color-ink-light)' }}>
-              Notre comparatif est fondé sur six critères objectifs évalués lors de tests réels : le
-              nombre de chaînes disponibles et leur mise à jour régulière, la qualité vidéo proposée
-              (HD, 4K, 8K), la stabilité des serveurs mesurée sur plusieurs semaines, la compatibilité
-              avec les appareils du marché, le rapport qualité/prix global sur 12 mois, et enfin la
-              qualité du support client testée en conditions réelles.
+              Nuestra comparativa se basa en seis criterios objetivos evaluados durante pruebas
+              reales: el número de canales disponibles y su actualización regular, la calidad de
+              vídeo ofrecida (HD, 4K, 8K), la estabilidad de los servidores medida durante varias
+              semanas, la compatibilidad con los dispositivos del mercado, la relación calidad/precio
+              global a 12 meses, y finalmente la calidad del soporte al cliente probado en
+              condiciones reales.
             </p>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Chaque service a été testé sur au minimum deux appareils différents pendant une période
-              de 30 jours, avec une attention particulière portée à la stabilité lors des événements
-              sportifs en direct — moment où les serveurs IPTV sont le plus sollicités.
+              Cada servicio fue probado en un mínimo de dos dispositivos diferentes durante un
+              período de 30 días, con especial atención a la estabilidad durante los eventos
+              deportivos en directo — momento en que los servidores IPTV son más solicitados.
             </p>
             <div
               className="p-5 rounded-xl"
@@ -246,9 +247,9 @@ export default function MeilleurIPTVPage() {
               }}
             >
               <p className="text-sm font-semibold" style={{ color: 'var(--color-ink)' }}>
-                Notre classement est basé sur des tests réels effectués sur Smart TV, Android,
-                Firestick et PC. Nous mettons à jour ce comparatif régulièrement pour refléter
-                l'évolution des services.
+                Nuestra clasificación se basa en pruebas reales realizadas en Smart TV, Android,
+                Firestick y PC. Actualizamos esta comparativa regularmente para reflejar la
+                evolución de los servicios.
               </p>
             </div>
           </div>
@@ -261,7 +262,7 @@ export default function MeilleurIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Top 5 des Meilleurs Abonnements IPTV France 2025
+              Top 5 de las Mejores Suscripciones IPTV España 2026
             </h2>
 
             <div className="flex flex-col gap-4">
@@ -285,7 +286,7 @@ export default function MeilleurIPTVPage() {
                         color: 'var(--color-dark)',
                       }}
                     >
-                      NOTRE CHOIX N°1
+                      NUESTRA ELECCIÓN N°1
                     </span>
                   )}
                   <div className="flex items-center gap-3 mb-3">
@@ -335,20 +336,20 @@ export default function MeilleurIPTVPage() {
           </div>
         </section>
 
-        {/* Section 3 — Tableau comparatif */}
+        {/* Section 3 — Tabla comparativa */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Tableau Comparatif des Services IPTV France
+              Tabla Comparativa de Servicios IPTV España
             </h2>
             <div className="overflow-x-auto rounded-xl" style={{ border: '1px solid var(--color-border)' }}>
               <table className="w-full text-sm">
                 <thead>
                   <tr style={{ backgroundColor: 'var(--color-dark)' }}>
-                    {['Critère', 'VivaceTV', 'Xenon IPTV', 'King IPTV', 'Atlas IPTV'].map((h) => (
+                    {['Criterio', 'VivaceTV', 'Xenon IPTV', 'King IPTV', 'Atlas IPTV'].map((h) => (
                       <th
                         key={h}
                         className="px-4 py-3 text-left font-semibold"
@@ -394,14 +395,14 @@ export default function MeilleurIPTVPage() {
           </div>
         </section>
 
-        {/* Section 4 — Critères */}
+        {/* Section 4 — Criterios */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Les Critères pour Choisir le Meilleur Abonnement IPTV
+              Los Criterios para Elegir la Mejor Suscripción IPTV
             </h2>
             <div className="flex flex-col gap-6">
               {criteria.map((c) => (
@@ -421,43 +422,45 @@ export default function MeilleurIPTVPage() {
           </div>
         </section>
 
-        {/* Section 5 — Verdict */}
+        {/* Section 5 — Veredicto */}
         <section className="py-16 lg:py-24" style={{ backgroundColor: 'var(--color-surface)' }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2
               className="font-display font-bold text-2xl sm:text-3xl mb-6"
               style={{ color: 'var(--color-ink)' }}
             >
-              Verdict Final : Quel Abonnement IPTV Choisir en 2025 ?
+              Veredicto Final: ¿Qué Suscripción IPTV Elegir en 2026?
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Après avoir testé les principaux services IPTV disponibles en France, notre verdict est
-              clair : <strong style={{ color: 'var(--color-ink)' }}>VivaceTV est le meilleur abonnement IPTV en 2025</strong> pour
-              les utilisateurs français. Il combine le catalogue le plus riche (+22 000 chaînes,
-              +160 000 films et séries), la meilleure qualité vidéo (HD, 4K et 8K), une stabilité
-              serveur garantie par la technologie AntiFreeze 10.0, et un support WhatsApp 24/7 en
-              français répondant en moins de 15 minutes.
+              Después de probar los principales servicios IPTV disponibles en España, nuestro
+              veredicto es claro:{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>VivaceTV es la mejor suscripción IPTV en 2026</strong>{' '}
+              para los usuarios españoles. Combina el catálogo más rico (+22 000 canales,
+              +160 000 películas y series), la mejor calidad de vídeo (HD, 4K y 8K), una
+              estabilidad del servidor garantizada por la tecnología AntiFreeze 10.0, y un
+              soporte WhatsApp 24/7 en español que responde en menos de 15 minutos.
             </p>
             <p className="text-base leading-relaxed mb-4" style={{ color: 'var(--color-ink-light)' }}>
-              Les tarifs sont parmi les plus compétitifs du marché : dès 22,99€ pour 3 mois, soit
-              moins de 8€ par mois pour une qualité que ses concurrents peinent à égaler. L'offre
-              Gold 12 mois à 44,99€ représente le meilleur rapport qualité/durée à moins de 4€/mois.
+              Las tarifas están entre las más competitivas del mercado: desde 22,99€ por 3 meses,
+              es decir menos de 8€ al mes por una calidad que sus competidores tienen dificultades
+              para igualar. La oferta Gold de 12 meses a 44,99€ representa la mejor relación
+              calidad/duración a menos de 4€/mes.
             </p>
             <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-ink-light)' }}>
-              Pour les utilisateurs hésitants, VivaceTV propose un{' '}
-              <strong style={{ color: 'var(--color-ink)' }}>test gratuit de 24 heures</strong> sur
-              simple demande via WhatsApp — une pratique rare dans l'industrie qui témoigne de la
-              confiance du service en sa propre qualité.
+              Para los usuarios indecisos, VivaceTV ofrece una{' '}
+              <strong style={{ color: 'var(--color-ink)' }}>prueba gratuita de 24 horas</strong>{' '}
+              bajo simple solicitud por WhatsApp — una práctica poco habitual en la industria que
+              demuestra la confianza del servicio en su propia calidad.
             </p>
             <Link
-              href="/abonnements"
+              href="/comprar-iptv"
               className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-xl text-sm"
               style={{
                 backgroundColor: 'var(--color-lime)',
                 color: 'var(--color-dark)',
               }}
             >
-              Voir tous les abonnements VivaceTV →
+              Ver todas las suscripciones VivaceTV →
             </Link>
           </div>
         </section>
@@ -469,7 +472,7 @@ export default function MeilleurIPTVPage() {
               className="font-display font-bold text-2xl sm:text-3xl mb-8"
               style={{ color: 'var(--color-ink)' }}
             >
-              Questions Fréquentes — Meilleur IPTV France
+              Preguntas Frecuentes — Mejor IPTV España
             </h2>
             <div className="flex flex-col gap-6">
               {faqItems.map((item) => (
@@ -490,15 +493,15 @@ export default function MeilleurIPTVPage() {
                   </h3>
                   <p className="text-sm leading-relaxed" style={{ color: 'var(--color-ink-light)' }}>
                     {item.answer}
-                    {item.question.includes('légal') && (
+                    {item.question.includes('legal') && (
                       <>
                         {' '}
                         <Link
-                          href="/guide-iptv/iptv-amende"
+                          href="/guia-iptv/iptv-amende"
                           className="underline"
                           style={{ color: 'var(--color-lime)' }}
                         >
-                          En savoir plus sur la légalité de l&apos;IPTV
+                          Más información sobre la legalidad del IPTV
                         </Link>
                         .
                       </>
@@ -511,11 +514,11 @@ export default function MeilleurIPTVPage() {
             {/* Internal links */}
             <div className="mt-10 flex flex-wrap gap-3">
               {[
-                { href: '/abonnements', label: 'Voir les abonnements' },
-                { href: '/alternatives/xenon-iptv', label: 'Avis Xenon IPTV' },
-                { href: '/alternatives/king-iptv', label: 'Avis King IPTV' },
-                { href: '/avis-iptv', label: 'Avis clients VivaceTV' },
-                { href: '/guide-iptv/iptv-amende', label: 'IPTV légal en France' },
+                { href: '/comprar-iptv', label: 'Ver las suscripciones' },
+                { href: '/alternativas/xenon-iptv', label: 'Opinión Xenon IPTV' },
+                { href: '/alternativas/king-iptv', label: 'Opinión King IPTV' },
+                { href: '/opiniones-iptv', label: 'Opiniones clientes VivaceTV' },
+                { href: '/guia-iptv/iptv-amende', label: 'IPTV legal en España' },
               ].map((l) => (
                 <Link
                   key={l.href}
