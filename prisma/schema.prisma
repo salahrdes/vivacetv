@@ -1,4 +1,4 @@
-// ─── Prisma Schema — ClarioTV ────────────────────────────────────────────────
+// ─── Prisma Schema — VivaceTV ────────────────────────────────────────────────
 // Docs: https://pris.ly/d/prisma-schema
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -12,13 +12,6 @@ datasource db {
 }
 
 // ─── Enums ────────────────────────────────────────────────────────────────────
-
-enum AdminRole {
-  SUPER_ADMIN
-  ADMIN
-  EDITOR
-  SUPPORT
-}
 
 enum ContentStatus {
   DRAFT
@@ -46,28 +39,6 @@ enum LeadType {
   TEST_GRATUIT
 }
 
-// ─── Admin users ─────────────────────────────────────────────────────────────
-
-model AdminUser {
-  id           String    @id @default(cuid())
-  email        String    @unique
-  passwordHash String
-  name         String
-  role         AdminRole @default(EDITOR)
-  active       Boolean   @default(true)
-
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
-  lastLogin DateTime?
-
-  // Relations
-  posts      Post[]
-  pages      Page[]
-  mediaAssets MediaAsset[]
-
-  @@map("admin_users")
-}
-
 // ─── Site settings (key-value store) ─────────────────────────────────────────
 
 model SiteSetting {
@@ -93,10 +64,6 @@ model Post {
   seoTitle       String?
   seoDescription String?
 
-  // Author
-  authorId String
-  author   AdminUser @relation(fields: [authorId], references: [id])
-
   publishedAt DateTime?
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
@@ -104,31 +71,7 @@ model Post {
   @@map("posts")
 }
 
-// ─── Static pages ─────────────────────────────────────────────────────────────
-
-model Page {
-  id      String        @id @default(cuid())
-  title   String
-  slug    String        @unique
-  content String        @db.Text @default("")
-  status  ContentStatus @default(DRAFT)
-
-  // SEO
-  seoTitle       String?
-  seoDescription String?
-
-  // Author
-  authorId String
-  author   AdminUser @relation(fields: [authorId], references: [id])
-
-  publishedAt DateTime?
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-
-  @@map("pages")
-}
-
-// ─── Orders (commandes) ───────────────────────────────────────────────────────
+// ─── Orders ───────────────────────────────────────────────────────────────────
 
 model Order {
   id               String      @id @default(cuid())
@@ -167,22 +110,4 @@ model Lead {
   updatedAt DateTime @updatedAt
 
   @@map("leads")
-}
-
-// ─── Media assets ─────────────────────────────────────────────────────────────
-
-model MediaAsset {
-  id       String @id @default(cuid())
-  filename String
-  url      String
-  mimeType String
-  size     Int
-  altText  String?
-
-  uploadedById String
-  uploadedBy   AdminUser @relation(fields: [uploadedById], references: [id])
-
-  createdAt DateTime @default(now())
-
-  @@map("media_assets")
 }
